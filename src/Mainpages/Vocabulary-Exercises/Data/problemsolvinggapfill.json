@@ -1,0 +1,36 @@
+{
+    "text": [
+        
+        "<p>Microsoft Global Outage</p>",
+        "<p>In July 2024, Microsoft experienced a global outage affecting Windows users worldwide. The problem was triggered by a faulty update from CrowdStrike, which led to widespread Blue Screen of Death (BSOD) errors.</p>",
+        "<p>Consequence: The outage ____ various sectors, including banks, airlines, and TV broadcasters. Services went offline in multiple countries, including the United States, Australia, and the United Kingdom. However, services like 911 emergency lines, major airlines such as Delta, American Airlines, and United Airlines, hospitals, and others have experienced severe interruptions.</p>",
+        "<p>Impact: Microsoft had to issue ____ actions, and CrowdStrike provided a workaround to resolve the issue. This incident highlighted the importance of rigorous testing before deploying updates to avoid widespread impact on essential services. Due to this outage, Microsoft lost $23 billion in market value. CrowdStrike's update affected approximately 8.5 million Windows devices globally, underscoring the importance of rigorous testing before deploying updates to prevent widespread impacts on essential services.</p>",
+        "<p>Samsung</p>",
+        "<p>In 2016, Samsung's Galaxy Note 7 smartphones were found to have a software ____ that caused the batteries to overheat and catch fire. The issue was not adequately identified during the testing phase.</p>",
+        "<p>Consequence: Samsung had to recall all Galaxy Note 7 devices worldwide and discontinue the product.</p>",
+        "<p>Impact: The recall and discontinuation cost Samsung an estimated $5.3 billion and severely damaged the company's reputation for safety and reliability. The financial loss included the cost of the recall process, lost sales, and damage control expenses, significantly impacting Samsung's quarterly earnings and market value.</p>",
+        "<p>Zoom</p>",
+        "<p>In April 2020, Zoom faced severe security and privacy issues, including \"Zoombombing,\" which allowed unauthorized users to join Zoom meetings. The problems were associated with ____ security testing.</p>",
+        "<p>Consequence: Many organizations and users faced privacy breaches, leading to sensitive information being exposed during meetings. With this data breach, Zoom lost over 500 million usernames and passwords throughout its user base.</p>",
+        "<p>Impact: Zoom had to spend considerable resources fixing these security flaws and rebuilding its reputation. Some organizations, including school districts and companies, temporarily banned Zoom.</p>",
+        "<p>Knight Capital Group</p>",
+        "<p>In 2012, Knight Capital Group experienced a catastrophic glitch in its trading software due to insufficient testing and deployment errors. The bug was introduced when new software was deployed without adequate testing.</p>",
+        "<p>Consequence: The glitch caused the trading system to execute many erroneous trades quickly, leading to ____ financial losses.</p>",
+        "<p>Impact: Knight Capital lost $460 million in just 45 minutes, leading to a massive drop in its stock price. The company had to secure emergency funding to survive and was eventually acquired by another firm.</p>"
+      
+    ],
+    "gaps": [
+        { "id": "gap-0", "correct": "disrupted" },
+        { "id": "gap-1", "correct": "mitigation" },
+        { "id": "gap-2", "correct": "defect" },
+        { "id": "gap-3", "correct": "inadequate" },
+        { "id": "gap-4", "correct": "substantial" }
+    ],
+    "words": [
+        { "id": "word-1", "word": "disrupted" },
+        { "id": "word-2", "word": "mitigation" },
+        { "id": "word-3", "word": "defect" },
+        { "id": "word-4", "word": "inadequate" },
+        { "id": "word-5", "word": "substantial" }
+    ]
+}

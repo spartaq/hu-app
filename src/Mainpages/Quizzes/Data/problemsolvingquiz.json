@@ -1,0 +1,32 @@
+[
+  {
+    "quiz": 1,
+    "quizTitle": "Problem solving",
+    "questions": [
+      {
+        "id": 1,
+        "question": "When faced with a technical issue that impacts many users, which action should be taken first?",
+        "options": ["Analyze the root cause", "Inform the users", "Try a quick fix", "Check the system logs"],
+        "answer": "Analyze the root cause"
+      },
+      {
+        "id": 2,
+        "question": "What do you think is the most common reason technology companies fail to solve problems quickly?",
+        "options": ["Lack of skilled employees", "Communication breakdowns", "Unrealistic timelines", "Insufficient testing"],
+        "answer": "Communication breakdowns"
+      },
+      {
+        "id": 3,
+        "question": "When working on a project, what is the best way to ensure that you don't overlook potential problems?",
+        "options": ["Delegate all risk assessments to another team", "Have multiple team members review the problem", "Focus only on the final outcome", "Avoid considering worst-case scenarios"],
+        "answer": "Have multiple team members review the problem"
+      },
+      {
+        "id": 4,
+        "question": "If you're working in a team to solve a problem and someone is resistant to a proposed solution, what should you do?",
+        "options": ["Ignore their concerns and move forward", "Listen to their viewpoint and consider alternatives", "Push harder for your solution", "End the discussion and choose another solution"],
+        "answer": "Listen to their viewpoint and consider alternatives"
+      }
+    ]
+  }
+]

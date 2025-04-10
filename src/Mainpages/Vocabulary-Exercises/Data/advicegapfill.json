@@ -1,0 +1,44 @@
+{
+    "text": [
+    "Carpenters have a toolbox and dentists have drills. In today's workplace, our most important tool is the ability to give and receive feedback effectively. Feedback has been discussed for centuries — Confucius ____ (say something strongly) its importance in 500 BC. Yet, we're still ____ (fighting). A Gallup survey found that only 26% of employees feel feedback improves their work.",
+
+    "Why? Most feedback isn't brain-friendly. Some people are too ____ (unclear), leaving the message unclear, while others are too direct, triggering a ____ (reacting in a way that protects you from criticism) response. The amygdala scans for social threats in messages. If it senses one, we react defensively, making feedback exchanges ____ (strange, uncomfortable).",
+
+    "It doesn’t have to be this way. After studying great feedback givers, we identified a four-part formula for delivering difficult messages effectively.",
+
+    "Great feedback givers start with a 'micro-yes,' asking a short question to create 'buy-in' (a sense of agreement or permission to proceed). Examples include: 'Do you have five minutes to discuss that last conversation?'",
+
+    "Next, they use 'data points' instead of ____ (unclear, not sharp as in an image) words , making feedback more ____ (exact). Instead of 'You aren’t reliable,' they say, 'You promised the email by 11, but I haven’t received it.'",
+
+    "They then provide an ____ (the effect something has on a situation), such as: 'Because I didn’t get the message, I was blocked from moving forward.'",
+
+    "Finally, they ____ (finish) with a question to encourage discussion rather than compliance.",
+
+    "Requesting feedback, rather than waiting for it, establishes ____ (independence and control over one's actions) and positions you as a continual learner."
+    ],
+    
+    "gaps": [
+        { "id": "gap-0", "correct": "emphasized" },
+        { "id": "gap-1", "correct": "struggling" },
+        { "id": "gap-2", "correct": "vague" },
+        { "id": "gap-3", "correct": "defensive" },
+        { "id": "gap-4", "correct": "awkward" },
+        { "id": "gap-5", "correct": "blur" },
+        { "id": "gap-6", "correct": "precise" },
+        { "id": "gap-7", "correct": "impact" },
+        { "id": "gap-8", "correct": "wrap up" },
+        { "id": "gap-9", "correct": "autonomy" }
+    ],
+    "words": [
+        { "id": "word-1", "word": "emphasized" },
+        { "id": "word-2", "word": "struggling" },
+        { "id": "word-3", "word": "vague" },
+        { "id": "word-4", "word": "defensive" },
+        { "id": "word-5", "word": "awkward" },
+        { "id": "word-6", "word": "blur" },
+        { "id": "word-7", "word": "precise" },
+        { "id": "word-8", "word": "impact" },
+        { "id": "word-9", "word": "wrap up" },
+        { "id": "word-10", "word": "autonomy" }
+    ]
+}

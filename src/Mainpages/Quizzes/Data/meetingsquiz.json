@@ -1,0 +1,85 @@
+[{
+  "quiz": 1,
+  "quizTitle": "Meetings",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many meetings take place worldwide each year?",
+      "options": ["100 million", "500 million", "1 billion", "10 billion"],
+      "answer": "1 billion - Over 55 million meetings happen every week, adding up to more than 1 billion per year."
+    },
+    {
+      "id": 2,
+      "question": "What percentage of employees spend up to one-third of their workweek in meetings?",
+      "options": ["50%", "67%", "83.13%", "90%"],
+      "answer": "83.13% - The majority of employees spend up to one-third of their workweek in meetings."
+    },
+    {
+      "id": 3,
+      "question": "What percentage of an organization's time is spent in meetings on average?",
+      "options": ["5%", "10%", "15%", "25%"],
+      "answer": "15% - On average, organizations dedicate 15% of their time to meetings."
+    },
+    {
+      "id": 4,
+      "question": "How much money is estimated to be lost annually due to unproductive meetings?",
+      "options": ["$10 billion", "$20 billion", "$37 billion", "$50 billion"],
+      "answer": "$37 billion - Unproductive meetings cost organizations an estimated $37 billion per year."
+    },
+    {
+      "id": 5,
+      "question": "What percentage of meetings are considered productive?",
+      "options": ["20%", "30%", "40%", "50%"],
+      "answer": "30% - Only 30% of meetings are considered productive."
+    },
+    {
+      "id": 6,
+      "question": "What percentage of workplace meetings actively use an agenda?",
+      "options": ["25%", "37%", "50%", "75%"],
+      "answer": "37% - Only 37% of workplace meetings actively use an agenda."
+    },
+    {
+      "id": 7,
+      "question": "What percentage of professionals lose time weekly due to canceled or unnecessary meetings?",
+      "options": ["50%", "60%", "71%", "80%"],
+      "answer": "71% - A large majority of professionals lose time every week due to canceled or unnecessary meetings."
+    },
+    {
+      "id": 8,
+      "question": "By how much did the average meeting length increase every year between 2000 and 2020?",
+      "options": ["2%-4%", "5%-7%", "8%-10%", "12%-15%"],
+      "answer": "8%-10% - The average meeting length increased by 8% to 10% annually between 2000 and 2020."
+    },
+    {
+      "id": 9,
+      "question": "What percentage of remote workers believe most meetings could have been an email?",
+      "options": ["40%", "50%", "55%", "60%"],
+      "answer": "55% - More than half of remote workers think that most meetings could have been an email."
+    },
+    {
+      "id": 10,
+      "question": "What percentage of virtual meetings do executives consider failures?",
+      "options": ["50%", "60%", "67%", "75%"],
+      "answer": "67% - Executives consider more than 67% of virtual meetings to be failures."
+    },
+    {
+      "id": 11,
+      "question": "What percentage of workers multitask during virtual meetings?",
+      "options": ["50%", "75%", "85%", "92%"],
+      "answer": "92% - A staggering 92% of workers admit to multitasking during virtual meetings."
+    },
+    {
+      "id": 12,
+      "question": "What percentage of workers believe virtual meetings are less stressful?",
+      "options": ["50%", "60%", "70%", "80%"],
+      "answer": "70% - 70% of workers feel that virtual meetings are less stressful."
+    },
+    {
+      "id": 13,
+      "question": "Which group experiences Zoom fatigue more often?",
+      "options": ["Introverts", "Extroverts", "Both equally", "Neither"],
+      "answer": "Introverts - 58% of introverts experience Zoom fatigue, compared to 40% of extroverts."
+    }
+  ]
+}
+]

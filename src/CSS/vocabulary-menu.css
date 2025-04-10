@@ -1,0 +1,73 @@
+.vocabulary-menu-container {
+    position: relative;
+  }
+  
+  .menu-toggle-button-vocabulary {
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .vocabulary-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+  .vocabulary-navbar.visible {
+    display: block;
+  }
+  
+  .vocabulary-navbar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vocabulary-navbar-item {
+    margin: 35px 0;
+  }
+  
+  .vocabulary-navbar-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .vocabulary-submenu {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .vocabulary-submenu li {
+    margin: 15px 0;
+  }
+  
+  .caret {
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 990px) {
+    .menu-toggle-button-vocabulary {
+      display: block;
+    }
+  
+    .vocabulary-navbar {
+      display: none;
+    }
+  
+    .vocabulary-navbar.visible {
+      display: block;
+    }
+    
+    .menu-title {
+      display:none;
+    }
+  }
+  

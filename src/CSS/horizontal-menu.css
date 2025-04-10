@@ -1,0 +1,176 @@
+/* General styles */
+.horizontal-dropdown-menu-container {
+  font-family: Arial, sans-serif;
+  background-color: lightseagreen; 
+  color: black; 
+  width: 100%; 
+  position: relative;
+}
+
+.horizontal-navbar {
+  background-color: lightseagreen; 
+  width: 100%; 
+  transition: transform 0.3s ease-in-out;
+  position: relative; /* Make the navbar fixed */
+  left: 0;
+  right: 0;
+  top: 0px;
+  height: auto!important;
+  z-index: 1000; /* Ensure the navbar is on top */
+}
+
+.horizontal-navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-navbar-list li {
+  border-bottom: #777777 solid 1px;
+}
+
+.horizontal-navbar-item {
+  position: relative;
+  padding: 4px 10px;
+}
+
+.horizontal-navbar-link {
+  display: block;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+}
+
+.horizontal-navbar-link:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.horizontal-dropdown-submenu {
+  position: absolute;
+  display: none;
+  width: 300px;
+  background-color: white;
+  border: #777777 solid 1px;
+  padding: 10px 0;
+  list-style-type: none;
+  z-index: 1001; /* Ensure the submenu is on top */
+  top: 100%; /* Position submenu below the navbar item */
+  left: 0;
+}
+
+.horizontal-navbar-item:hover .horizontal-dropdown-submenu,
+.horizontal-navbar-item:focus-within .horizontal-dropdown-submenu {
+  display: block;
+}
+
+.horizontal-dropdown-submenu li {
+  color: black;
+  margin: 0;
+}
+
+.horizontal-dropdown-submenu a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.horizontal-dropdown-submenu a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Media query for screens above 990px */
+@media (min-width: 991px) {
+  .menu-toggle-button-horizontal {
+    display: none; /* Hide the menu toggle button on large screens */
+  }
+
+  .horizontal-navbar-list {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    margin: auto;
+    width: 100%;
+  }
+
+  .horizontal-navbar-list li {
+    border-bottom: none;
+    margin-right: 0px;
+  }
+
+  .horizontal-navbar-link {
+    text-align: center;
+  }
+
+  /* Ensure submenus display properly */
+  .horizontal-navbar-item {
+    position: relative;
+  }
+
+  .horizontal-dropdown-submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1001;
+  }
+
+  .horizontal-navbar-item:hover .horizontal-dropdown-submenu,
+  .horizontal-navbar-item:focus-within .horizontal-dropdown-submenu {
+    display: block;
+  }
+}
+
+/* Media query for screens below 991px */
+@media (max-width: 991px) {
+  .menu-toggle-button-horizontal {
+    display: block;
+    position: relative;
+    top: 0px; 
+    /*right: 10px;*/
+    margin-left: 25px;
+    z-index: 1001; 
+  }
+
+  .horizontal-navbar {
+    display: none;
+    position: relative; /* Make the navbar fixed */
+    top: 0px; /* Position below the header */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    z-index: 1000;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    background-color: white;
+  }
+
+  .horizontal-navbar.visible {
+    display: block;
+    transform: translateX(0);
+  }
+
+  .horizontal-navbar-link {
+    color: black;
+  }
+
+  .horizontal-navbar-list {
+    padding-top: 60px; /* Adjust for fixed positioning */
+    display: block;
+  }
+
+  .horizontal-navbar-item:hover .horizontal-dropdown-submenu,
+  .horizontal-navbar-item:focus-within .horizontal-dropdown-submenu {
+    display: block;
+  }
+
+  .horizontal-dropdown-submenu {
+    display: block;
+    padding-left: 20px;
+  }
+}
+
+

@@ -1,0 +1,83 @@
+[{
+    "quiz": 1,
+    "quizTitle": "Handling Disagreements in Meetings",
+    "questions": [
+      {
+        "id": 1,
+        "question": "How comfortable are you with openly disagreeing in a meeting?",
+        "options": ["Very comfortable", "Somewhat comfortable", "Neutral", "Somewhat uncomfortable", "Very uncomfortable"],
+        "answer": "Neutral"
+      },
+      {
+        "id": 2,
+        "question": "When someone disagrees with you in a meeting, how do you typically react?",
+        "options": ["Defend my point strongly", "Listen and consider their perspective", "Try to find a middle ground", "Stay quiet to avoid conflict", "It depends on the situation"],
+        "answer": "Try to find a middle ground"
+      },
+      {
+        "id": 3,
+        "question": "In your company, how are disagreements usually handled?",
+        "options": ["Open discussion is encouraged", "People tend to avoid conflict", "Decisions are made by leadership", "There is a structured process for disagreements", "It depends on the team"],
+        "answer": "It depends on the team"
+      },
+      {
+        "id": 4,
+        "question": "Which of these is the best way to disagree professionally in a meeting?",
+        "options": [
+          "I completely disagree with you.",
+          "I see your point, but I have a different perspective.",
+          "That won’t work at all.",
+          "You don’t understand the issue properly."
+        ],
+        "answer": "I see your point, but I have a different perspective."
+      },
+      {
+        "id": 5,
+        "question": "What is a common reason people avoid disagreeing in meetings?",
+        "options": ["Fear of conflict", "Not wanting to look uncooperative", "Not feeling confident enough", "Thinking their opinion won’t matter", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 6,
+        "question": "Which famous leader said, 'If two people agree on everything, one of them is unnecessary'?",
+        "options": ["Winston Churchill", "Elon Musk", "Peter Drucker", "Sheryl Sandberg"],
+        "answer": "Peter Drucker"
+      },
+      {
+        "id": 7,
+        "question": "How do you prefer to handle disagreements in meetings?",
+        "options": ["Direct and assertive", "Diplomatic and constructive", "Passive and avoiding conflict", "Depends on the topic and people involved"],
+        "answer": "Depends on the topic and people involved"
+      },
+      {
+        "id": 8,
+        "question": "Which strategy can make disagreements more productive?",
+        "options": [
+          "Actively listening to the other person",
+          "Interrupting to make your point stronger",
+          "Speaking louder than the other person",
+          "Avoiding eye contact"
+        ],
+        "answer": "Actively listening to the other person"
+      },
+      {
+        "id": 9,
+        "question": "In your experience, how often do disagreements in meetings lead to better decisions?",
+        "options": ["Almost always", "Often", "Sometimes", "Rarely", "Never"],
+        "answer": "Sometimes"
+      },
+      {
+        "id": 10,
+        "question": "What is the biggest challenge in handling disagreements at work?",
+        "options": ["Managing emotions", "Making sure all voices are heard", "Finding a fair solution", "Avoiding personal conflicts"],
+        "answer": "Finding a fair solution"
+      },
+      {
+        "id": 11,
+        "question": "According to studies, which phrase is most frequently used in meetings?",
+        "options": ["Let’s circle back.", "That’s a great question.", "Let’s take this offline.", "I hear what you’re saying but..."],
+        "answer": "I hear what you’re saying but..."
+      }
+    ]
+  }
+]  

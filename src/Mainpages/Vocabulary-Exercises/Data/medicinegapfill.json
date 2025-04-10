@@ -1,0 +1,29 @@
+{
+    "text": [
+        "<h2>Medical Scandals: When Profit Comes Before Health</h2>",  
+
+"<p>Medicine is meant to save lives, but history has shown that some companies and individuals prioritize profit over patient well-being. One of the most ____ cases is <strong>Theranos</strong>, founded by Elizabeth Holmes. She ____ her company had developed revolutionary blood-testing technology that could diagnose multiple diseases using just a few drops of blood. However, the technology never worked. Holmes misled investors and patients, leading to a major ____ scandal. Eventually, she was convicted and sentenced to prison.</p>",  
+
+"<p>Another ____ figure is <strong>Martin Shkreli</strong>, often called the 'Pharma Bro.' As CEO of a pharmaceutical company, he purchased the rights to a life-saving drug used by people with weakened immune systems. He then <strong>____ the price from $13.50 to $750 per pill</strong>, making it unaffordable for many patients. His unapologetic attitude and public arrogance made him widely hated, and he was later imprisoned for fraud.</p>",  
+
+"<p>One of the worst scandals was <strong>the Purdue Pharma opioid crisis</strong>. The company falsely marketed OxyContin, a powerful painkiller, as non-addictive, leading to widespread opioid addiction across the U.S. Millions became dependent on the drug, and countless lives were lost. After years of legal battles, Purdue Pharma was forced to pay billions in settlements, but the damage was already done.</p>",  
+
+"<p>These cases highlight the dark side of the medical industry, where greed can outweigh ethical responsibility. Scandals like these serve as a reminder that transparency and accountability in healthcare are essential to protecting public health.</p>"  
+  
+
+    ],
+    "gaps": [
+        { "id": "gap-0", "correct": "infamous" },
+        { "id": "gap-1", "correct": "claimed" },
+        { "id": "gap-2", "correct": "fraud" },
+        { "id": "gap-3", "correct": "notorius" },
+        { "id": "gap-4", "correct": "hiked" }
+    ],
+    "words": [
+        { "id": "word-1", "word": "infamous" },
+        { "id": "word-2", "word": "claimed" },
+        { "id": "word-3", "word": "fraud" },
+        { "id": "word-4", "word": "notorius" },
+        { "id": "word-5", "word": "hiked" }
+    ]
+}

@@ -1,0 +1,8 @@
+.navgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bg-body-tertiary {
+    background-color: lightseagreen!important;
+}

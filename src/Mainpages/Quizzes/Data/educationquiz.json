@@ -1,0 +1,69 @@
+[{
+  "quiz": 1,
+  "quizTitle": "Myths About Education",
+  "questions": [
+    {
+      "id": 1,
+      "question": "We use only 10% of our brains when learning.",
+      "options": ["True", "False"],
+      "answer": "False - Brain imaging studies show that we use all parts of our brain, even when at rest. Learning engages multiple areas of the brain."
+    },
+    {
+      "id": 2,
+      "question": "Intelligence is fixed from birth and cannot be changed.",
+      "options": ["True", "False"],
+      "answer": "False - Intelligence is not fixed; it can develop through learning, effort, and experience. The brain has neuroplasticity, allowing it to adapt over time."
+    },
+    {
+      "id": 3,
+      "question": "People learn best when taught in their preferred learning style (visual, auditory, kinesthetic).",
+      "options": ["True", "False"],
+      "answer": "False - Research shows that using multiple learning methods is more effective than relying on a single 'learning style.'"
+    },
+    {
+      "id": 4,
+      "question": "Multitasking improves efficiency by helping the brain process multiple pieces of information at once.",
+      "options": ["True", "False"],
+      "answer": "False - Studies show that multitasking reduces focus and increases cognitive load, making learning less effective."
+    },
+    {
+      "id": 5,
+      "question": "Memory is like a recording that perfectly stores everything we learn.",
+      "options": ["True", "False"],
+      "answer": "False - Memory is reconstructive, meaning it changes over time and is influenced by emotions, experiences, and context."
+    },
+    {
+      "id": 6,
+      "question": "Cramming the night before an exam is an effective way to retain information long-term.",
+      "options": ["True", "False"],
+      "answer": "False - Cramming may help with short-term recall, but spaced repetition is much more effective for long-term retention."
+    },
+    {
+      "id": 7,
+      "question": "The brain is fully developed by the time a person turns 18.",
+      "options": ["True", "False"],
+      "answer": "False - Brain development, especially in areas responsible for decision-making and impulse control, continues into the mid-20s."
+    },
+    {
+      "id": 8,
+      "question": "Spaced repetition helps reinforce learning over time.",
+      "options": ["True", "False"],
+      "answer": "True - Repeating information over spaced intervals strengthens memory retention and reduces forgetting."
+    },
+    {
+      "id": 9,
+      "question": "Mistakes are an essential part of the learning process.",
+      "options": ["True", "False"],
+      "answer": "True - Learning from mistakes helps build understanding and improves problem-solving skills."
+    },
+    {
+      "id": 10,
+      "question": "Neuroplasticity allows the brain to rewire and adapt to new learning.",
+      "options": ["True", "False"],
+      "answer": "True - The brain is capable of forming new neural connections throughout life, enabling learning and adaptation."
+    }
+  ]
+}]
+
+
+

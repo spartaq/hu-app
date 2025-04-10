@@ -1,0 +1,146 @@
+[
+  {
+    "level": "A1",
+    "question": "She ___ a teacher.",
+    "options": ["is", "are", "am"],
+    "correctAnswer": "is"
+  },
+  {
+    "level": "A1",
+    "question": "They ___ at home yesterday.",
+    "options": ["was", "were", "are"],
+    "correctAnswer": "were"
+  },
+  {
+    "level": "A1",
+    "question": "He ___ football every Sunday.",
+    "options": ["plays", "play", "playing"],
+    "correctAnswer": "plays"
+  },
+  {
+    "level": "A1",
+    "question": "I ___ tired after work.",
+    "options": ["am", "is", "are"],
+    "correctAnswer": "am"
+  },
+  {
+    "level": "A1",
+    "question": "We ___ in the park last week.",
+    "options": ["were", "was", "are"],
+    "correctAnswer": "were"
+  },
+  {
+    "level": "A2",
+    "question": "She ___ reading a book right now.",
+    "options": ["is", "are", "am"],
+    "correctAnswer": "is"
+  },
+  {
+    "level": "A2",
+    "question": "I usually ___ at 7 AM, but today I ___ at 8 AM.",
+    "options": ["wake up / woke up", "wake up / wake up", "wakes up / waking up"],
+    "correctAnswer": "wake up / woke up"
+  },
+  {
+    "level": "A2",
+    "question": "They ___ to the cinema last night.",
+    "options": ["went", "go", "gone"],
+    "correctAnswer": "went"
+  },
+  {
+    "level": "A2",
+    "question": "While I ___ dinner, the phone rang.",
+    "options": ["was cooking", "cooked", "cooking"],
+    "correctAnswer": "was cooking"
+  },
+  {
+    "level": "A2",
+    "question": "She ___ visit her grandmother next weekend.",
+    "options": ["will", "is", "can"],
+    "correctAnswer": "will"
+  },
+  {
+    "level": "B1",
+    "question": "They ___ never been to France before.",
+    "options": ["have", "has", "had"],
+    "correctAnswer": "have"
+  },
+  {
+    "level": "B1",
+    "question": "I ___ in this city for years and I still love it.",
+    "options": ["have lived", "lived", "live"],
+    "correctAnswer": "have lived"
+  },
+  {
+    "level": "B2",
+    "question": "If it ___ tomorrow, we will cancel the picnic.",
+    "options": ["rains", "rain", "rained"],
+    "correctAnswer": "rains"
+  },
+  {
+    "level": "B2",
+    "question": "If you ___ more, you would pass the exam.",
+    "options": ["studied", "study", "studying"],
+    "correctAnswer": "studied"
+  },
+  {
+    "level": "B2",
+    "question": "If I ___ rich, I would travel the world.",
+    "options": ["were", "was", "am"],
+    "correctAnswer": "were"
+  },
+  {
+    "level": "B2",
+    "question": "If we had left earlier, we ___ the train.",
+    "options": ["would have caught", "will catch", "catch"],
+    "correctAnswer": "would have caught"
+  },
+  {
+    "level": "C1",
+    "question": "The project ___ completed last week.",
+    "options": ["was", "were", "is"],
+    "correctAnswer": "was"
+  },
+  {
+    "level": "C1",
+    "question": "The road is being ___.",
+    "options": ["repaired", "repairing", "repair"],
+    "correctAnswer": "repaired"
+  },
+  {
+    "level": "C2",
+    "question": "Had I known about the meeting earlier, I ___ more prepared.",
+    "options": ["would have been", "would be", "had been"],
+    "correctAnswer": "would have been"
+  },
+  {
+    "level": "C2",
+    "question": "Not until later ___ the true extent of the damage.",
+    "options": ["did they realize", "they realized", "they had realized"],
+    "correctAnswer": "did they realize"
+  },
+  {
+    "level": "C2",
+    "question": "He spoke so quietly that I could ___ hear him.",
+    "options": ["barely", "nearly", "quietly"],
+    "correctAnswer": "barely"
+  },
+  {
+    "level": "C2",
+    "question": "Scarcely ___ the words before she regretted them.",
+    "options": ["had she spoken", "she spoke", "she had spoken"],
+    "correctAnswer": "had she spoken"
+  },
+  {
+    "level": "C2",
+    "question": "It was only after the project failed that they ___ the flaws in their plan.",
+    "options": ["recognized", "had recognized", "recognize"],
+    "correctAnswer": "recognized"
+  },
+  {
+    "level": "C2",
+    "question": "So complicated ___ that it took weeks to solve.",
+    "options": ["was the problem", "the problem was", "had the problem been"],
+    "correctAnswer": "was the problem"
+  }
+]

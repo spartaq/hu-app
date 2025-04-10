@@ -1,0 +1,50 @@
+[
+  {
+    "quiz": 2,
+    "quizTitle": "Gossip Quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which age group do you think is more likely to engage in negative gossip?",
+        "options": ["Younger people", "Older people", "Both equally", "Neither engages heavily in negative gossip"],
+        "answer": "Younger people"
+      },
+      {
+        "id": 2,
+        "question": "On average, how much time do people spend gossiping each day?",
+        "options": ["30 minutes", "52 minutes", "90 minutes", "2 hours"],
+        "answer": "52 minutes"
+      },
+      {
+        "id": 3,
+        "question": "What percentage of gossip is neutral?",
+        "options": ["50%", "60%", "75%", "90%"],
+        "answer": "75%"
+      },
+      {
+        "id": 4,
+        "question": "What type of gossip do you think women engage in more than men?",
+        "options": ["Negative gossip", "Positive gossip", "Neutral, information-sharing gossip", "Celebrity gossip"],
+        "answer": "Neutral, information-sharing gossip"
+      },
+      {
+        "id": 5,
+        "question": "Who do people gossip about the most?",
+        "options": ["Celebrities", "Acquaintances", "Politicians", "Strangers"],
+        "answer": "Acquaintances"
+      },
+      {
+        "id": 6,
+        "question": "How much of total gossip is about celebrities?",
+        "options": ["About 9%", "About 15%", "About 25%", "About 50%"],
+        "answer": "About 9%"
+      },
+      {
+        "id": 7,
+        "question": "Who do you think gossips more: poorer or wealthier people?",
+        "options": ["Poorer people gossip more", "Wealthier people gossip more", "There is no difference", "It depends on the topic"],
+        "answer": "There is no difference"
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+[{
+    "quiz": 1,
+    "quizTitle": "Myths About Education",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Students who perform poorly in school are not as intelligent as those who perform well.",
+        "options": ["True", "False"],
+        "answer": "False - A student's performance in school can be influenced by many factors such as environment, teaching methods, and personal circumstances. Intelligence is not solely determined by school grades."
+      },
+      {
+        "id": 2,
+        "question": "Online learning is less effective than traditional classroom learning.",
+        "options": ["True", "False"],
+        "answer": "False - Online learning can be just as effective as traditional learning if designed properly. Many studies show that online learning, when used effectively, can offer flexibility and access to resources that can enhance learning."
+      },
+      {
+        "id": 3,
+        "question": "Adults are not capable of learning new skills effectively.",
+        "options": ["True", "False"],
+        "answer": "False - Adults can learn new skills effectively, and many continue to do so throughout their careers. In fact, lifelong learning is important for personal and professional growth."
+      },
+      {
+        "id": 4,
+        "question": "The most successful students are always the quiet ones who listen more than they speak.",
+        "options": ["True", "False"],
+        "answer": "False - Success in education is not determined by how much a student talks, but by engagement, critical thinking, and collaboration. Different students succeed in different ways."
+      },
+      {
+        "id": 5,
+        "question": "You need to memorize information to learn it effectively.",
+        "options": ["True", "False"],
+        "answer": "False - Active learning, such as understanding concepts and applying them, is more effective than rote memorization. Critical thinking is key to true understanding."
+      },
+      {
+        "id": 6,
+        "question": "Learning styles (like visual, auditory, kinesthetic) greatly influence how well a student learns.",
+        "options": ["True", "False"],
+        "answer": "False - While people have different preferences, research suggests that tailoring lessons strictly to a student's learning style doesn't significantly improve learning outcomes. A balanced approach works best."
+      },
+      {
+        "id": 7,
+        "question": "Formal classroom training is the most effective way to upskill employees in the workplace.",
+        "options": ["True", "False"],
+        "answer": "False - While formal training can be helpful, many employees learn more effectively through hands-on experiences, mentorship, or self-directed learning rather than traditional classroom sessions."
+      },
+      {
+        "id": 8,
+        "question": "The best way to ensure employees learn is to assign them a specific learning path with set deadlines.",
+        "options": ["True", "False"],
+        "answer": "False - While structure can help, overly rigid learning paths can hinder creativity and reduce engagement. Employees often learn best when they can tailor their learning to their interests and needs."
+      },
+      {
+        "id": 9,
+        "question": "Employees should be expected to learn new skills on their own without the need for external resources or support.",
+        "options": ["True", "False"],
+        "answer": "False - While self-learning is valuable, it’s important for organizations to provide resources, mentorship, and support to ensure employees can effectively develop new skills."
+      },
+      {
+        "id": 10,
+        "question": "Employees who have been with the company for many years are less open to learning new things than newer employees.",
+        "options": ["True", "False"],
+        "answer": "False - Long-term employees often bring valuable experience and institutional knowledge. Many are eager to learn and adapt, especially if the learning aligns with their personal growth or career goals."
+      },
+      {
+        "id": 11,
+        "question": "The best way to learn in a workplace environment is by making mistakes and learning from them, even if the mistakes are costly.",
+        "options": ["True", "False"],
+        "answer": "False - While mistakes can be valuable learning opportunities, there should be a balance. Allowing mistakes that are too costly or damaging can harm the organization and undermine confidence."
+      }
+    ]
+  }]
+  

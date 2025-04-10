@@ -1,0 +1,95 @@
+/*================================reading-comp===========================*/
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    font-size: 1rem;
+    color: #666;
+    display: flex;
+    gap: 10px;
+  }
+
+  .details p {
+    font-size: 1rem!important;
+    color: #666;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .level, .topic {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 5px 0px;
+    font-size: 0.9rem;
+  }
+
+  .skills-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid darkgreen;
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .paragraph p {
+    font-size: 0.9rem;
+  }
+  
+  .skills-topic-menu {
+    display: none; /* Hide by default */
+    position: relative;
+    top: 0px;
+    /*right: 0;*/
+    width: 50%;
+    height: auto;
+    background:#eaeaea; 
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  
+  .skills-topic-menu.open {
+    display: block;
+    width: 50%; 
+    background-color: antiquewhite;
+  }
+  
+  .skills-topic-menu .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    z-index: 1100;
+  }
+
+  .topic-buttons {
+    display: flex;
+  }
+
+  @media (max-width: 1024px) {
+    .skills-controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: white;
+        border: 1px solid darkgreen;
+        padding: 10px;
+        font-size: 14px;        
+      } 
+
+}

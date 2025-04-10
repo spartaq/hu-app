@@ -1,0 +1,51 @@
+[
+    {
+        "picturecomp": 1,
+        "picturecompQuestion": "Why might these people want to be alone?",
+        "pics": [
+            "/Images/picComp1.png"
+        ]
+    },
+    {
+        "picturecomp": 2,
+        "picturecompQuestion": "What emotions might these people be experiencing?",
+        "pics": [
+            "/Images/picComp2.png"
+        ]
+    },
+    {
+        "picturecomp": 3,
+        "picturecompQuestion": "Why might these people want to be part of the group?",
+        "pics": [
+            "/Images/picComp3.png"
+        ]
+    },
+    {
+        "picturecomp": 4,
+        "picturecompQuestion": "What might these people be communicating?",
+        "pics": [
+            "/Images/picComp4.png"
+        ]
+    },
+    {
+        "picturecomp": 5,
+        "picturecompQuestion": "What emotions might these people be experiencing?",
+        "pics": [
+            "/Images/picComp5.png"
+        ]
+    },
+    {
+        "picturecomp": 6,
+        "picturecompQuestion": "What feelings might these people have in these settings?",
+        "pics": [
+            "/Images/picComp6.png"
+        ]
+    },
+    {
+        "picturecomp": 7,
+        "picturecompQuestion": "What feelings might the spectators at these events have?",
+        "pics": [
+            "/Images/picComp7.png"
+        ]
+    }
+]

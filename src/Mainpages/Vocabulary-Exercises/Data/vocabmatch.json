@@ -1,0 +1,17 @@
+[
+    {
+      "word": "Deploy",
+      "definition": "To release software for use in a live environment",
+      "topic": "DevOps"
+    },
+    {
+      "word": "Optimize",
+      "definition": "To make the best or most effective use of something",
+      "topic": "DevOps"
+    },
+    {
+      "word": "Refactor",
+      "definition": "To improve the structure of code without changing its functionality",
+      "topic": "Software Engineering"
+    }
+  ]

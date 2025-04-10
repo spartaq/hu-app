@@ -1,0 +1,46 @@
+{
+    "text": [
+"<h2>7 Things You Will Relate to If You Hate Sports</h2>",  
+"<p>Most of us played sports as kids, either because we wanted to or because we had to. Some people loved sports so much that they made it their career or kept playing to stay healthy. But others never liked sports at all.</p>",  
+
+"<p>Some people are passionate about sports. They follow every game, support their favorite team, and even wear team jerseys or paint their faces. But if you don’t like sports, you might find all this confusing. And that’s okay! It’s completely normal not to enjoy sports, even if others don’t understand why. If you dislike sports, you might relate to these points.</p>",  
+
+"<h3>1. You don’t understand the excitement</h3>",  
+"<p>When there’s a big sports event like the World Cup, everyone seems excited—but you don’t get why. It feels like the whole world is focused on the game, and people even argue about their favorite teams. You just don’t see the point.</p>",  
+
+"<h3>2. You hated PE classes</h3>",  
+"<p>Thinking about school reminds you of those exhausting physical education classes. Running laps, doing exercises, and playing games you didn’t enjoy was not fun. And the body aches afterward? Unforgettable.</p>",  
+
+"<h3>3. Sports talk is confusing</h3>",  
+"<p>Being in a group of sports fans can be overwhelming. They talk about game strategies and player stats, and you have no idea what they mean. It’s hard to keep up, and honestly, you don’t really want to.</p>",  
+
+"<h3>4. You can’t watch your favorite shows</h3>",  
+"<p>If you live with sports fans, watching TV can be a struggle. When a big game is on, they take over the TV, and you have to fight to watch your favorite show—or anything that isn’t sports-related.</p>",  
+
+"<h3>5. You have bad memories of playing sports</h3>",  
+"<p>Watching a game reminds you of all the times you got hurt because you weren’t good at sports. You remember the pain and the embarrassment of those moments.</p>",  
+
+"<h3>6. Big tournaments give you a headache</h3>",  
+"<p>During major sports events, it feels like everything is about sports. People talk about it everywhere, and your social media is full of updates. It can be overwhelming, and you just want a break.</p>",  
+
+"<h3>7. You struggle to join conversations</h3>",  
+"<p>When your friends or colleagues talk about sports, you don’t have much to say. They know everything about the teams and players, while you can barely remember who won the last game. It can feel awkward, but you just don’t care enough to learn more.</p>"  
+
+    ],
+    
+    "gaps": [
+        { "id": "gap-0", "correct": "adrenaline rush" },
+        { "id": "gap-1", "correct": "hooked" },
+        { "id": "gap-2", "correct": "bond" },
+        { "id": "gap-3", "correct": "cheering" },
+        { "id": "gap-4", "correct": "despair" }
+    ],
+    
+    "words": [
+        { "id": "word-1", "word": "adrenaline rush" },
+        { "id": "word-2", "word": "hooked" },
+        { "id": "word-3", "word": "bond" },
+        { "id": "word-4", "word": "cheering" },
+        { "id": "word-5", "word": "despair" }
+    ]
+}

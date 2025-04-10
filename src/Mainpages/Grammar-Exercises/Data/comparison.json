@@ -1,0 +1,176 @@
+[
+  {
+    "text": "The new smartphone is a lot better than the older model. (nowhere near)",
+    "prompt": "Rewrite using 'nowhere near.'",
+    "answer": "The older model is nowhere near as good as the new smartphone.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The first proposal was slightly better than the second. (not quite)",
+    "prompt": "Rewrite using 'not quite.'",
+    "answer": "The second proposal was not quite as good as the first.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This presentation is the most detailed one we've ever done. (by far)",
+    "prompt": "Rewrite using 'by far.'",
+    "answer": "This presentation is by far the most detailed one we've ever done.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The new product is very similar to the older version. (exactly the same)",
+    "prompt": "Rewrite using 'exactly the same.'",
+    "answer": "The new product is exactly the same as the older version.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The new policy is much more effective than the old one. (far)",
+    "prompt": "Rewrite using 'far.'",
+    "answer": "The new policy is far more effective than the old one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This car is slightly faster than the previous model. (a little bit)",
+    "prompt": "Rewrite using 'a little bit.'",
+    "answer": "This car is a little bit faster than the previous model.",
+    "topic": "Quality"
+  },
+  {
+    "text": "These two brands of coffee taste almost the same. (similar to)",
+    "prompt": "Rewrite using 'similar to.'",
+    "answer": "These two brands of coffee are very similar to each other.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The current design is better than the prototype. (not as)",
+    "prompt": "Rewrite using 'not as.'",
+    "answer": "The prototype is not as good as the current design.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The two products have exactly the same features. (slightly different)",
+    "prompt": "Rewrite using 'slightly different.'",
+    "answer": "The two products have slightly different features.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This new smartwatch tracks fitness better than older watches. (not nearly)",
+    "prompt": "Rewrite using 'not nearly.'",
+    "answer": "Older models are not nearly as good at tracking fitness as the new smartwatch.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This year’s profits were significantly lower than we expected. (nowhere near)",
+    "prompt": "Rewrite using 'nowhere near.'",
+    "answer": "This year’s profits were nowhere near as high as we expected.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The city is much busier on weekdays than on weekends. (far)",
+    "prompt": "Rewrite using 'far.'",
+    "answer": "The city is far busier on weekdays than on weekends.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The instructions on the website were more confusing than those in the manual. (not as)",
+    "prompt": "Rewrite using 'not as.'",
+    "answer": "The instructions in the manual were not as confusing as those on the website.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The experience of working remotely is completely different from being in an office. (totally different from)",
+    "prompt": "Rewrite using 'totally different from.'",
+    "answer": "Working remotely is totally different from being in an office.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The new advertising campaign is slightly less effective than the last one. (not quite)",
+    "prompt": "Rewrite using 'not quite.'",
+    "answer": "The new advertising campaign is not quite as effective as the last one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "These two universities have almost identical reputations. (more or less)",
+    "prompt": "Rewrite using 'more or less.'",
+    "answer": "The reputations of these two universities are more or less the same.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This car is far better for long-distance travel than the smaller model. (way)",
+    "prompt": "Rewrite using 'way.'",
+    "answer": "This car is way better for long-distance travel than the smaller model.",
+    "topic": "Quality"
+  },
+  {
+    "text": "Their approach to customer service is slightly different from ours. (a bit)",
+    "prompt": "Rewrite using 'a bit.'",
+    "answer": "Their approach to customer service is a bit different from ours.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The new app is easier to navigate than the old one. (not as)",
+    "prompt": "Rewrite using 'not as.'",
+    "answer": "The old app is not as easy to navigate as the new one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The quality of this fabric is exactly the same as the expensive brand. (just as)",
+    "prompt": "Rewrite using 'just as.'",
+    "answer": "This fabric is just as high-quality as the expensive brand.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This presentation is slightly less engaging than the last one. (not quite)",
+    "prompt": "Rewrite using 'not quite.'",
+    "answer": "This presentation is not quite as engaging as the last one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "Their proposal is not as practical as ours. (nowhere near)",
+    "prompt": "Rewrite using 'nowhere near'",
+    "answer": "Their proposal is nowhere near as practical as ours.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This coffee tastes much better than the instant one. (far)",
+    "prompt": "Rewrite using 'far.'",
+    "answer": "This coffee tastes far better than the instant one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The team’s performance was significantly better this season. (a lot)",
+    "prompt": "Rewrite using 'a lot.'",
+    "answer": "The team’s performance was a lot better this season.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The weather this winter is as cold as last year. (exactly the same)",
+    "prompt": "Rewrite using 'exactly the same.'",
+    "answer": "The weather this winter is exactly the same as last year’s.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The two products offer almost identical features. (exactly the same)",
+    "prompt": "Rewrite using 'exactly the same'",
+    "answer": "The two products offer exactly the same features.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This version of the game is more polished than the earlier one. (not nearly)",
+    "prompt": "Rewrite using 'not nearly.'",
+    "answer": "The earlier version of the game is not nearly as polished as this one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The hotel lobby was far less luxurious than its rooms. (nowhere near)",
+    "prompt": "Rewrite using 'nowhere near.'",
+    "answer": "The hotel lobby was nowhere near as luxurious as its rooms.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This brand’s customer service is slightly better than the competitor’s. (a little bit)",
+    "prompt": "Rewrite using 'a little bit.'",
+    "answer": "This brand’s customer service is a little bit better than the competitor’s.",
+    "topic": "Quality"
+  }
+]

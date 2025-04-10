@@ -1,0 +1,302 @@
+[
+  {
+    "text": "She ___ (travel) to Japan next summer.",
+    "answer": "will travel",
+    "topic": "roland"
+  },
+  {
+    "text": "They ___ (launch) a new product next quarter.",
+    "answer": "will launch",
+    "topic": "roland"
+  },
+  {
+    "text": "I ___ (buy) a new laptop soon.",
+    "answer": "will buy",
+    "topic": "roland"
+  },
+  {
+    "text": "We ___ (move) to a bigger office next year.",
+    "answer": "will move",
+    "topic": "roland"
+  },
+  {
+    "text": "He ___ (learn) how to code next month.",
+    "answer": "will learn",
+    "topic": "roland"
+  },
+  {
+    "text": "The company ___ (hire) more developers next year.",
+    "answer": "will hire",
+    "topic": "roland"
+  },
+  {
+    "text": "You ___ (meet) the team next week.",
+    "answer": "will meet",
+    "topic": "roland"
+  },
+  {
+    "text": "They ___ (celebrate) their anniversary in June.",
+    "answer": "will celebrate",
+    "topic": "roland"
+  },
+  {
+    "text": "The manager ___ (give) a presentation tomorrow.",
+    "answer": "will give",
+    "topic": "roland"
+  },
+  {
+    "text": "I ___ (start) a new project next month.",
+    "answer": "will start",
+    "topic": "roland"
+  },
+  {
+    "text": "She ___ (not attend) the meeting next Monday.",
+    "answer": "will not attend",
+    "topic": "roland"
+  },
+  {
+    "text": "They ___ (not finish) the report on time.",
+    "answer": "will not finish",
+    "topic": "roland"
+  },
+  {
+    "text": "I ___ (not buy) a new phone this year.",
+    "answer": "will not buy",
+    "topic": "roland"
+  },
+  {
+    "text": "We ___ (not travel) abroad this summer.",
+    "answer": "will not travel",
+    "topic": "roland"
+  },
+  {
+    "text": "He ___ (not start) his new job until next month.",
+    "answer": "will not start",
+    "topic": "roland"
+  },
+  {
+    "text": "The company ___ (not increase) salaries this year.",
+    "answer": "will not increase",
+    "topic": "roland"
+  },
+  {
+    "text": "You ___ (not need) a visa for this trip.",
+    "answer": "will not need",
+    "topic": "roland"
+  },
+  {
+    "text": "They ___ (not launch) the new software in Q1.",
+    "answer": "will not launch",
+    "topic": "roland"
+  },
+  {
+    "text": "The CEO ___ (not give) a speech at the event.",
+    "answer": "will not give",
+    "topic": "roland"
+  },
+  {
+    "text": "I ___ (not join) the meeting tomorrow.",
+    "answer": "will not join",
+    "topic": "roland"
+  },
+  {
+    "text": "___ you ___ (call) me later?",
+    "answer": "Will you call",
+    "topic": "roland"
+  },
+  {
+    "text": "___ she ___ (be) at the conference next week?",
+    "answer": "Will she be",
+    "topic": "roland"
+  },
+  {
+    "text": "___ they ___ (finish) the project by Friday?",
+    "answer": "Will they finish",
+    "topic": "roland"
+  },
+  {
+    "text": "___ I ___ (need) a ticket for the event?",
+    "answer": "Will I need",
+    "topic": "roland"
+  },
+  {
+    "text": "___ he ___ (accept) the job offer?",
+    "answer": "Will he accept",
+    "topic": "roland"
+  },
+  {
+    "text": "___ we ___ (travel) together next month?",
+    "answer": "Will we travel",
+    "topic": "roland"
+  },
+  {
+    "text": "___ you ___ (help) me with this task?",
+    "answer": "Will you help",
+    "topic": "roland"
+  },
+  {
+    "text": "___ the company ___ (release) the new product soon?",
+    "answer": "Will the company release",
+    "topic": "roland"
+  },
+  {
+    "text": "___ they ___ (move) to a new office next year?",
+    "answer": "Will they move",
+    "topic": "roland"
+  },
+  {
+    "text": "___ she ___ (join) us for dinner?",
+    "answer": "Will she join",
+    "topic": "roland"
+  },
+  {
+    "text": "I ___ (start) a new project next month.",
+    "answer": "am going to start",
+    "topic": "plans"
+  },
+  {
+    "text": "We ___ (implement) a new software system this quarter.",
+    "answer": "are planning to implement",
+    "topic": "plans"
+  },
+  {
+    "text": "He ___ (present) the proposal during next week's meeting.",
+    "answer": "will present",
+    "topic": "plans"
+  },
+  {
+    "text": "They ___ (launch) the product.",
+    "answer": "are about to launch",
+    "topic": "plans"
+  },
+  {
+    "text": "I ___ (schedule) the meeting for Friday morning.",
+    "answer": "plan to schedule",
+    "topic": "plans"
+  },
+  {
+    "text": "She ___ (attend) a coding bootcamp in March.",
+    "answer": "is thinking of attending",
+    "topic": "plans"
+  },
+  {
+    "text": "We ___ (hire) a new UX designer by the end of the month.",
+    "answer": "are going to hire",
+    "topic": "plans"
+  },
+  {
+    "text": "They ___ (expand) their operations to Asia next year.",
+    "answer": "plan on expanding",
+    "topic": "plans"
+  },
+  {
+    "text": "I ___ (try) to learn a new programming language this year.",
+    "answer": "am planning to try",
+    "topic": "plans"
+  },
+  {
+    "text": "The team ___ (finalize) the design.",
+    "answer": "is about to finalize",
+    "topic": "plans"
+  },
+  {
+    "text": "He ___ (start) working on the app’s update soon.",
+    "answer": "is going to start",
+    "topic": "plans"
+  },
+  {
+    "text": "I ___ (improve) my time management skills this year.",
+    "answer": "am going to improve",
+    "topic": "plans"
+  },
+  {
+    "text": "We ___ (review) the budget during next week’s meeting.",
+    "answer": "are planning to review",
+    "topic": "plans"
+  },
+  {
+    "text": "She ___ (move) to a new apartment in February.",
+    "answer": "is thinking of moving",
+    "topic": "plans"
+  },
+  {
+    "text": "I ___ (exercise) more regularly starting next week.",
+    "answer": "plan to exercise",
+    "topic": "plans"
+  },
+  {
+    "text": "The company ___ (invest) in new technologies this year.",
+    "answer": "is going to invest",
+    "topic": "plans"
+  },
+  {
+    "text": "He ___ (take) the certification exam next month.",
+    "answer": "is planning to take",
+    "topic": "plans"
+  },
+  {
+    "text": "We ___ (develop) a training program for the new hires.",
+    "answer": "plan on developing",
+    "topic": "plans"
+  },
+  {
+    "text": "I ___ (travel) to Europe this summer.",
+    "answer": "am going to travel",
+    "topic": "plans"
+  },
+  {
+    "text": "She ___ (attend) an AI conference in April.",
+    "answer": "is planning to attend",
+    "topic": "plans"
+  },
+  {
+    "text": "They ___ (improve) the customer support system soon.",
+    "answer": "plan to improve",
+    "topic": "plans"
+  },
+  {
+    "text": "We ___ (launch) a marketing campaign next quarter.",
+    "answer": "are planning to launch",
+    "topic": "plans"
+  },
+  {
+    "text": "He ___ (take) an online course to learn JavaScript.",
+    "answer": "is thinking of taking",
+    "topic": "plans"
+  },
+  {
+    "text": "I ___ (reduce) my screen time this year.",
+    "answer": "am going to reduce",
+    "topic": "plans"
+  },
+  {
+    "text": "The team ___ (redesign) the website.",
+    "answer": "is planning on redesigning",
+    "topic": "plans"
+  },
+  {
+    "text": "She ___ (start) a blog about her coding journey.",
+    "answer": "is thinking of starting",
+    "topic": "plans"
+  },
+  {
+    "text": "We ___ (organize) a team-building activity soon.",
+    "answer": "are going to organize",
+    "topic": "plans"
+  },
+  {
+    "text": "I ___ (read) more technical books this year.",
+    "answer": "plan to read",
+    "topic": "plans"
+  },
+  {
+    "text": "They ___ (switch) to a new project management tool.",
+    "answer": "are about to switch",
+    "topic": "plans"
+  },
+  {
+    "text": "He ___ (spend) more time mentoring junior developers.",
+    "answer": "is planning to spend",
+    "topic": "plans"
+  }
+]

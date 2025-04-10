@@ -1,0 +1,68 @@
+[{
+    "quiz": 1,
+    "quizTitle": "Tourism and Its Impact on Cities Quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which city is the most visited tourist destination in the world?",
+        "options": ["Paris", "Rome", "Bangkok", "New York"],
+        "answer": "Bangkok"
+      },
+      {
+        "id": 2,
+        "question": "What is a common negative consequence of tourism in overcrowded cities?",
+        "options": ["Lower pollution levels", "Increased noise and waste", "More affordable housing", "Fewer tourists"],
+        "answer": "Increased noise and waste"
+      },
+      {
+        "id": 3,
+        "question": "In which city have local residents complained about being pushed out due to the rise of short-term rentals like Airbnb?",
+        "options": ["Barcelona", "Paris", "Venice", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 4,
+        "question": "Which landmark is considered one of the most visited tourist attractions globally?",
+        "options": ["Eiffel Tower", "Great Wall of China", "Colosseum", "Statue of Liberty"],
+        "answer": "Great Wall of China"
+      },
+      {
+        "id": 5,
+        "question": "What city recently introduced a tourist tax to combat overcrowding?",
+        "options": ["Venice", "Amsterdam", "Madrid", "Berlin"],
+        "answer": "Venice"
+      },
+      {
+        "id": 6,
+        "question": "Which famous city faces a serious issue with its canals being damaged by over-tourism?",
+        "options": ["Venice", "Amsterdam", "Paris", "London"],
+        "answer": "Venice"
+      },
+      {
+        "id": 7,
+        "question": "Which country is the most visited by international tourists?",
+        "options": ["USA", "France", "Spain", "Italy"],
+        "answer": "France"
+      },
+      {
+        "id": 8,
+        "question": "Which city has seen its traditional shops replaced by luxury brands due to the influx of tourists?",
+        "options": ["Barcelona", "Tokyo", "Rome", "New York"],
+        "answer": "Barcelona"
+      },
+      {
+        "id": 9,
+        "question": "How does tourism affect housing prices in popular tourist cities?",
+        "options": ["Decreases the cost of living", "Makes housing more affordable for locals", "Increases the cost of housing", "Has no effect on housing prices"],
+        "answer": "Increases the cost of housing"
+      },
+      {
+        "id": 10,
+        "question": "Which city’s historic center is under threat due to mass tourism, leading to concerns about local culture loss?",
+        "options": ["Venice", "Paris", "Berlin", "London"],
+        "answer": "Venice"
+      }
+    ]
+  }
+]
+  

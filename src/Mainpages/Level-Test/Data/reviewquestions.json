@@ -1,0 +1,86 @@
+[
+  {
+    "grammar": "present perfect",
+    "question": "I ___ never been to Japan.",
+    "options": ["have", "has", "had"],
+    "correctAnswer": "have"
+  },
+  {
+    "grammar": "present perfect",
+    "question": "She ___ already finished her homework.",
+    "options": ["has", "have", "had"],
+    "correctAnswer": "has"
+  },
+  {
+    "grammar": "first conditional",
+    "question": "If it ___ tomorrow, we will cancel the picnic.",
+    "options": ["rains", "rain", "rained"],
+    "correctAnswer": "rains"
+  },
+  {
+    "grammar": "first conditional",
+    "question": "If you ___ hard, you will pass the test.",
+    "options": ["study", "studied", "studying"],
+    "correctAnswer": "study"
+  },
+  {
+    "grammar": "second conditional",
+    "question": "If I ___ rich, I would travel the world.",
+    "options": ["were", "be", "am"],
+    "correctAnswer": "were"
+  },
+  {
+    "grammar": "second conditional",
+    "question": "If she ___ more often, she would be healthier.",
+    "options": ["exercised", "exercises", "exercise"],
+    "correctAnswer": "exercised"
+  },
+  {
+    "grammar": "third conditional",
+    "question": "If we had left earlier, we ___ the train.",
+    "options": ["would have caught", "will catch", "catch"],
+    "correctAnswer": "would have caught"
+  },
+  {
+    "grammar": "modals of obligation",
+    "question": "Employees ___ arrive at any time.",
+    "options": ["must", "can", "can't"],
+    "correctAnswer": "can"
+  },
+  {
+    "grammar": "modals of deduction",
+    "question": "He ___ be at work; his car is in the parking lot.",
+    "options": ["must", "might", "can't"],
+    "correctAnswer": "must"
+  },
+  {
+    "grammar": "cause and effect",
+    "question": "He spoke loudly ___ everyone could hear him.",
+    "options": ["so that", "because", "although"],
+    "correctAnswer": "so that"
+  },
+  {
+    "grammar": "enough/too/so/such",
+    "question": "The coffee is ___ hot to drink.",
+    "options": ["too", "enough", "such"],
+    "correctAnswer": "too"
+  },
+  {
+    "grammar": "comparisons",
+    "question": "This test is ___ than the last one.",
+    "options": ["harder", "more hard", "most hard"],
+    "correctAnswer": "harder"
+  },
+  {
+    "grammar": "reported speech",
+    "question": "He said he ___ going to the party.",
+    "options": ["was", "is", "will"],
+    "correctAnswer": "was"
+  },
+  {
+    "grammar": "unless/until/as long as",
+    "question": "I won't go out ___ it stops raining.",
+    "options": ["as", "unless", "as long as"],
+    "correctAnswer": "unless"
+  }
+]

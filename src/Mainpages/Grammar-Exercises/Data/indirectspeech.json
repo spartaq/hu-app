@@ -1,0 +1,152 @@
+[
+    {
+        "text": "Do we have enough resources for this?",
+        "prompt": "Do you think...",
+        "answer": "Do you think we have enough resources for this?"
+    },
+    {
+        "text": "Is the meeting scheduled for today?",
+        "prompt": "Do you know...",
+        "answer": "Do you know if the meeting is scheduled for today?"
+    },
+    {
+        "text": "Will the team deliver the project on time?",
+        "prompt": "Do you think...",
+        "answer": "Do you think the team will deliver the project on time?"
+    },
+    {
+        "text": "How can we improve our process?",
+        "prompt": "QW + do you think...",
+        "answer": "How do you think we can improve our process?"
+    },
+    {
+        "text": "How many coffees did Csaba have today?",
+        "prompt": "I'd like to know...",
+        "answer": "I'd like to know how many coffees Csaba had today."
+    },
+    {
+        "text": "Is it a good idea to implement this feature?",
+        "prompt": "I was wondering...",
+        "answer": "I was wondering if it is a good idea to implement this feature."
+    },
+    {
+        "text": "Will John explain the new policy to the team?",
+        "prompt": "Do you know...",
+        "answer": "Do you know if John will explain the new policy to the team?"
+    },
+    {
+        "text": "What time does the meeting start?",
+        "prompt": "Do you know...",
+        "answer": "Do you know what time the meeting starts?"
+    },
+    {
+        "text": "Why did the client reject the proposal?",
+        "prompt": "Why do you suppose...",
+        "answer": "Why do you suppose the client rejected the proposal?"
+    },
+    {
+        "text": "Did the team complete the report?",
+        "prompt": "Do you recall/remember...",
+        "answer": "Do you recall if the team completed the report?"
+    },
+    {
+        "text": "When will the new system go live?",
+        "prompt": "QW + do you think...",
+        "answer": "When do you think the new system will go live?"
+    },
+    {
+        "text": "Is this the best approach for the project?",
+        "prompt": "Do you think...",
+        "answer": "Do you think this is the best approach for the project?"
+    },
+    {
+        "text": "Can we improve the workflow?",
+        "prompt": "Do you think...",
+        "answer": "Do you think we can improve the workflow?"
+    },
+    {
+        "text": "Where should we allocate more resources?",
+        "prompt": "QW + do you think...",
+        "answer": "Where do you think we should allocate more resources?"
+    },
+    {
+        "text": "Who should present the report?",
+        "prompt": "QW + do you think...",
+        "answer": "Who do you think should present the report?"
+    },
+    {
+        "text": "Does this feature meet the client's needs?",
+        "prompt": "Do you know...",
+        "answer": "Do you know if this feature meets the client's needs?"
+    },
+    {
+        "text": "How will this impact our timeline?",
+        "prompt": "QW + do you think...",
+        "answer": "How do you think this will impact our timeline?"
+    },
+    {
+        "text": "Can the deadline be extended?",
+        "prompt": "I’d like to know...",
+        "answer": "I’d like to know if the deadline can be extended."
+    },
+    {
+        "text": "Has the customer provided feedback?",
+        "prompt": "Do you happen to know...",
+        "answer": "Do you happen to know if the customer has provided feedback?"
+    },
+    {
+        "text": "Why was the feature delayed?",
+        "prompt": "QW + do you think...",
+        "answer": "Why do you think the feature was delayed?"
+    },
+    {
+        "text": "What did they talk about in the last meeting?",
+        "prompt": "Could you tell me...",
+        "answer": "Could you tell me what they talked about in the last meeting?"
+    },
+    {
+        "text": "Will there be additional funding for this project?",
+        "prompt": "Do you know...",
+        "answer": "Do you know if there will be additional funding for this project?"
+    },
+    {
+        "text": "Do we have a lot of time left for this project?",
+        "prompt": "Do you think...",
+        "answer": "Do you think we have a lot of time left for this task?"
+    },
+    {
+        "text": "Should Mary take the lead on this initiative?",
+        "prompt": "Do you think...",
+        "answer": "Do you think Mary should take the lead on this initiative?"
+    },
+    {
+        "text": "Are there risks in the new proposal?",
+        "prompt": "Do you think...",
+        "answer": "Do you think there are risks in the new proposal?"
+    },
+    {
+        "text": "What are the next steps for the team?",
+        "prompt": "Could you tell me...",
+        "answer": "Could you tell me what the next steps for the team are?"
+    },
+    {
+        "text": "Will the new policy be effective?",
+        "prompt": "I was wondering...",
+        "answer": "I was wondering if the new policy will be effective."
+    },
+    {
+        "text": "Do we have the necessary tools for this task?",
+        "prompt": "Do you know...",
+        "answer": "Do you know if we have the necessary tools for this task?"
+    },
+    {
+        "text": "Where can we get more information on this?",
+        "prompt": "Do you know...",
+        "answer": "Do you know where we can get more information on this?"
+    },
+    {
+        "text": "What are the priorities for next quarter?",
+        "prompt": "I’d like to know...",
+        "answer": "I’d like to know what the priorities for next quarter are."
+    }
+]

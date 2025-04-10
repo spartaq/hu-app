@@ -1,0 +1,111 @@
+
+
+[
+  {
+    "quiz": 1,
+    "quizTitle": "Extreme Weather",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the coldest temperature ever recorded on Earth, and where did it occur?",
+        "options": [
+          "-89.2°C in Vostok, Antarctica",
+          "-73.3°C in Siberia, Russia",
+          "-67.8°C in Greenland",
+          "-84.4°C in Alaska, USA"
+        ],
+        "answer": "-89.2°C in Vostok, Antarctica"
+      },
+      {
+        "id": 2,
+        "question": "What is the hottest temperature ever recorded on Earth, and where did it occur?",
+        "options": [
+          "48.9°C in Libya",
+          "56.7°C in Death Valley, USA",
+          "60.1°C in Mali, Sahara Desert",
+          "54.4°C in Kuwait"
+        ],
+        "answer": "56.7°C in Furnace Creek Ranch, CA, USA"
+      },
+      {
+        "id": 3,
+        "question": "What is the highest yearly rainfall total for a single town?",
+        "options": [
+          "20.3 meters in Mawsynram, India",
+          "22.9 meters in Hawaii, USA",
+          "26.5 meters in Cherrapunji, India",
+          "25.4 meters in the Manaus, Brazil (Amazon Rainforest)"
+        ],
+        "answer": "26.5 meters in Cherrapunji, India"
+      },
+      {
+        "id": 4,
+        "question": "What is the fastest surface wind gust ever recorded?",
+        "options": [
+          "372 km/h in Mount Washington, USA",
+          "407 km/h in Barrow Island, Australia",
+          "450 km/h in Oklahoma, USA",
+          "322 km/h in Antarctica"
+        ],
+        "answer": "407 km/h in Barrow Island, Australia"
+      },
+      {
+        "id": 5,
+        "question": "What type of weather kills the most people every year?",
+        "options": [
+          "Hurricanes",
+          "Tornadoes",
+          "Extreme Heat",
+          "Flooding"
+        ],
+        "answer": "Extreme Heat"
+      },
+	      
+      {
+        "id": 6,
+        "question": "What is the highest temperature ever recorded in Europe?",
+        "options": [
+          "49.4°C in Spain",
+          "48.8°C in Sicily, Italy",
+          "51.5°C in Greece",
+          "47.9°C in Portugal"
+        ],
+        "answer": "48.8°C in Sicily, Italy"
+      },
+      {
+        "id": 7,
+        "question": "How many lightning strikes happen every day worldwide?",
+        "options": [
+          "1 million",
+          "5 million",
+          "8 million",
+          "11 million"
+        ],
+        "answer": "8 million"
+      },
+     {
+        "id": 8,
+        "question": "Which of these statements about lightning is TRUE?",
+        "options": [
+          "You are safe from lightning if you stand under a tree.",
+          "If your hair starts standing up, lightning is about to strike nearby.",
+          "Rubber-soled shoes protect you from getting struck by lightning.",
+          "Lightning never strikes the same place twice."
+        ],
+        "answer": "If your hair starts standing up, lightning is about to strike nearby."
+      },
+      {
+        "id": 9,
+        "question": "Which **European landmark** was damaged by extreme weather in recent years?",
+        "options": [
+          "The Eiffel Tower was struck by a tornado.",
+          "Flooding nearly collapsed the Leaning Tower of Pisa.",
+          "Venice's St. Mark’s Square was submerged in record-breaking high tides.",
+          "A storm cracked the glass pyramid at the Louvre."
+        ],
+        "answer": "Venice's St. Mark’s Square was submerged in record-breaking high tides."
+      }  
+	  
+    ]
+  }
+]

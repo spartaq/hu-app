@@ -1,0 +1,68 @@
+[
+{
+    "quiz": 1,
+    "quizTitle": "Expressing Opinions & Disagreeing in Meetings",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which two tech leaders had a famous rivalry over personal computing in the 1980s?",
+        "options": ["Bill Gates & Steve Jobs", "Elon Musk & Mark Zuckerberg", "Jeff Bezos & Tim Cook", "Larry Page & Sergey Brin"],
+        "answer": "Bill Gates & Steve Jobs"
+      },
+      {
+        "id": 2,
+        "question": "In which country is it common to avoid direct disagreement in meetings and use indirect language instead?",
+        "options": ["Germany", "Japan", "USA", "Australia"],
+        "answer": "Japan"
+      },
+      {
+        "id": 3,
+        "question": "What was the longest meeting ever recorded lasting 75 days?",
+        "options": ["A United Nations debate", "A city council budget meeting in California", "A workers’ union negotiation in France", "A parliamentary debate in India"],
+        "answer": "A parliamentary debate in India"
+      },
+      {
+        "id": 4,
+        "question": "In which country is it illegal to hold a meeting while wearing a suit of armor?",
+        "options": ["Canada", "France", "UK", "Italy"],
+        "answer": "UK"
+      },
+      {
+        "id": 5,
+        "question": "What is the term for when people in a group tend to agree with a majority opinion to avoid conflict, even if they disagree?",
+        "options": ["Groupthink", "Herd mentality", "Social bias", "Confirmation bias"],
+        "answer": "Groupthink"
+      },
+      {
+        "id": 6,
+        "question": "Which tech company introduced 'silent meetings,' where participants first read a written document before discussing?",
+        "options": ["Google", "Amazon", "Tesla", "Apple"],
+        "answer": "Amazon"
+      },
+      {
+        "id": 7,
+        "question": "According to studies, which phrase is most frequently used in meetings?",
+        "options": ["Let’s circle back.", "That’s a great question.", "Let’s take this offline.", "I hear what you’re saying, but..."],
+        "answer": "I hear what you’re saying but..."
+      },
+      {
+        "id": 8,
+        "question": "Which profession is known to spend the most hours per year in meetings?",
+        "options": ["Software Engineers", "HR Managers", "Executives & Senior Leaders", "Lawyers"],
+        "answer": "Executives & Senior Leaders"
+      },
+      {
+        "id": 9,
+        "question": "When was the first video conference meeting held?",
+        "options": ["1956", "1964", "1981", "1995"],
+        "answer": "1964"
+      },
+      {
+        "id": 10,
+        "question": "According to workplace surveys what is the most annoying habit in meetings?",
+        "options": ["Interrupting others", "Checking phones", "Talking too much", "Saying 'let’s take this offline'"],
+        "answer": "Checking phones"
+      }
+    ]
+  }
+]

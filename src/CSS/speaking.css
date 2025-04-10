@@ -1,0 +1,115 @@
+.speaking-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 20px!important;
+    border: solid black 1px;
+  }
+
+  .speaking-container li {
+    padding: 20px!important;
+    border: solid black 1px;
+  }
+
+  .speaking-list-container {
+
+    padding: 20px!important;
+    border: solid black 1px;
+  }
+
+  .topic-content h2 {
+    margin-bottom: 30px;
+    color: orangered;
+  }
+  
+  .column-left-speaking {
+    flex: 1;
+    /*min-width: 250px;
+    max-width: 300px;*/
+    margin-right: 20px;
+  }
+  
+  .column-right-speaking {
+    flex: 2;
+    /*min-width: 300px;
+    max-width: 900px;*/
+    position: relative;
+  }
+
+  
+  .exerciseborder {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .topic-content {
+    margin-top: 20px;
+  }
+  
+  .mobile-menu-speaking {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    width: 100%;
+    max-width: 800px;
+    background-color: wheat;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .mobile-menu-speaking.open {
+    display: block;
+  }
+  
+  .set-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-menu-speaking .set-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    background: wheat;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .flashbtn {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    align-self: flex-end;
+    margin: 10px;
+  }
+  
+  @media (max-width: 990px) {
+    .flashpage-container {
+      flex-direction: column;
+    }
+  
+    .column-left {
+      display: block;
+    }
+  
+    .mobile-menu-speaking {
+      display: none;
+    }
+  
+    .mobile-menu-speaking.open {
+      display: block;
+    }
+  }
+  

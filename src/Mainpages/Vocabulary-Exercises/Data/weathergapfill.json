@@ -1,0 +1,23 @@
+{
+    "text": [
+        "<h1>Weather<h1>",
+
+        "Text."
+    ],
+    
+    "gaps": [
+        { "id": "gap-0", "correct": "adrenaline rush" },
+        { "id": "gap-1", "correct": "hooked" },
+        { "id": "gap-2", "correct": "bond" },
+        { "id": "gap-3", "correct": "cheering" },
+        { "id": "gap-4", "correct": "despair" }
+    ],
+    
+    "words": [
+        { "id": "word-1", "word": "adrenaline rush" },
+        { "id": "word-2", "word": "hooked" },
+        { "id": "word-3", "word": "bond" },
+        { "id": "word-4", "word": "cheering" },
+        { "id": "word-5", "word": "despair" }
+    ]
+}

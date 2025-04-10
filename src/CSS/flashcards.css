@@ -1,0 +1,844 @@
+.flashcardlist-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+@media (max-width: 1024px) {
+  .flashcardlist-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.flashsets-container {
+  margin: auto;
+  max-width: 1200px;
+  border: black 1px solid;
+  height: 200px;
+  padding: 20px;
+}
+
+.flashpage-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  /*margin: auto;*/
+  max-width: 1200px;
+}
+
+.column-left, .column-right {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid darkgreen;
+}
+
+.flashcard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.flashcard-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.flashset-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid darkgreen;
+  padding: 10px;
+}
+
+.flashsetnum {
+  margin: 0px 0 0 0px;
+  font-size: 24px;
+  padding: 0px;
+  color:darkgreen;
+  text-transform: uppercase;
+}
+
+/*=====================================fullscreen===============================*/
+
+.fullscreen-toggle {
+  background: white;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+/* Fullscreen styles for large screens */
+@media (min-width: 1024px) {
+  .column-right.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .column-right.fullscreen .cardHolder {
+    width: 50%;
+  }
+
+  .column-right.fullscreen .card {
+    width: 100%;
+  }
+}
+
+/* Fullscreen styles for mobile */
+@media (max-width: 1023px) {
+  .flashpage-container {
+    flex-direction: column;
+  }
+
+  .column-left {
+    display: none;
+  }
+
+  .column-right.fullscreen {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 20px;
+  }
+
+  .column-left.visible {
+    display: block;
+  }
+
+  .column-right {
+    width: 450px;
+  }
+  
+}
+
+/*=========================tooltip=====================================*/
+
+.tooltip-button {
+  position: relative;
+  top: 0px;
+  left: 100px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tooltip-content {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  max-width: auto; 
+  height: auto;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1024px) {
+.tooltip-content {
+  top: 200px;
+  right: 90px;
+}
+
+.tooltip-button {
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+}
+
+.tooltip-button:hover + .tooltip-content,
+.tooltip-content:hover {
+  display: block;
+}
+
+
+/*=========================card style=====================================*/
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically */
+}
+
+.cardHolder {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardHolder .card {
+  perspective: 1000px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardHolder .card div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+   /*padding: 20px;*/
+  text-align: center;
+  background-color: transparent;
+  border-radius: 5px;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: flex-start;
+  align-items: center; /* Center content horizontally */
+}
+
+.cardHolder .card div.front {
+  position: absolute;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 32px;
+  margin-top: 0px;
+  height: 400px;
+}
+
+.cardHolder .card div.back {
+  position: absolute;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 32px;
+  margin-top: 0px;
+  height: 400px;
+  
+}
+
+.cardHolder .card div.front {
+  transform: rotateY(0deg);
+  transition: transform 0.5s;
+}
+
+.cardHolder .card div.back {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.cardHolder .card.flipped div.front {
+  transform: rotateY(-180deg);
+}
+
+.cardHolder .card.flipped div.back {
+  transform: rotateY(0deg);
+}
+
+.cardHolder .frontText {
+  margin-bottom: 20px;
+  margin-top: 135px; 
+}
+
+.cardHolder .backText {
+  margin-bottom: 20px;
+  margin-top: 135px;  
+}
+
+.cardHolder .context {
+  margin-top: -100px;
+  font-size: 22px;
+}
+
+.flashheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+}
+
+.card-meta {
+  position: relative;
+  height: 16%!important;
+  width: 20%!important;
+  padding: 10px!important;
+  top: 0%;
+  left: 0%;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.card-meta .card-topic {
+  height:auto;
+  background-color: green;
+  color: white;
+  border: black solid 1px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.card-meta .card-level {
+  height:auto;
+  background-color: orange;
+  color: white;
+  border: black solid 1px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+
+.flashCardButtons {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 1fr 1fr;
+  justify-content: start;
+  margin-top: 30px;
+  width: 400px;
+}
+
+.arrowcross {
+  padding: 10px;
+  margin-left: 100%;
+}
+.flashCardButtons button {
+  margin: 0 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px;
+  color: orangered;
+  background-color: rgb(255, 255, 255);
+}
+
+.flashCardButtons .fullscreen-toggle {
+  font-size: 26px;
+}
+
+.flashcardUl {
+  margin-top: 10px;
+}
+
+.flashcardUl li {
+  margin-top: 100px;
+}
+
+.flashcardUl a {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+.flashcardUl a:hover {
+  text-decoration: underline;
+}
+/**********************************/
+@media (max-width: 950px) {
+
+  .column-left {
+      order: 1;
+    }
+    
+  .flashpage-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: auto;
+    /*width: 96vw;*/
+    padding: 0px;
+  }
+
+  .flashheader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 200px;
+  }
+
+  .flashset-controls {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    margin: 15px auto;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .flashsetnum {
+    margin: 0px 0 0 0px;
+    font-size: 16px;
+  }
+
+  .flashset-controls button {
+    font-size: 12px;
+    width: 100px;
+  }
+
+  .flashset-controls .menu-toggle {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+
+  .flashCardButtons {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    justify-content: start;
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .flashCardButtons button {
+    margin: 0 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px;
+    color: orangered;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .menu-toggle {
+    display: block; 
+  }
+
+  .cardHolder {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+    margin: 20px 0;
+  }
+
+  .cardHolder .card div {
+    position: absolute;
+    width: 100%;
+    height: 66%;
+    /*padding: 20px;*/
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    /*line-height: 40px;*/
+  }
+
+  .cardHolder .frontText {
+    margin-bottom: 20px;
+    margin-top: 0px; 
+  }
+  
+  .cardHolder .backText {
+    margin-bottom: 20px;
+    margin-top: 0px;  
+  }
+  
+  .cardHolder .context {
+    margin-top: 50px;
+    font-size: 15px;
+  }
+
+  .cardHolder .card div.front {
+    padding-top: 50px;
+    margin-top: 0px;
+    height: 300px;
+  }
+
+  
+  .cardHolder .card div.back {
+    padding-top: 50px;
+    margin-top: 0px;
+    height: 300px;
+  }
+
+  .card-meta {
+    position: relative;
+    height: 16%!important;
+    width: 6%!important;
+    padding: 10px!important;
+    top: 0%;
+    left: 0%;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+  }
+  
+  .card-meta .card-topic {
+    height:auto;
+    background-color: green;
+    color: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 0 5px;
+  }
+  
+  .card-meta .card-level {
+    height:auto;
+    background-color: orange;
+    color: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 0 5px;
+  }
+
+
+
+  .column-left.visible {
+  display: block;
+  }
+}
+
+
+
+/*==============================SETS MENU=========================*/
+
+
+
+.menu-toggle {
+  cursor: pointer;
+  font-size: 16px;
+  background: none;
+  border: none;
+  z-index: 1000;
+}
+
+.menu-toggle:hover {
+  background-color: orange;
+  border: none;
+  z-index: 1000;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: darkgreen;
+}
+
+.mobile-menu {
+  display: none; /* Hide by default */
+  position: absolute;
+  top: 150px;
+  /*left: 0;*/
+  width: 50%;
+  height: auto;
+  background: transparent; 
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.mobile-menu.open {
+  display: block;
+  width: 48%; 
+  background-color: antiquewhite;
+}
+
+.mobile-menu .close-button {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+  z-index: 1100;
+}
+
+.mobile-menu .set-buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 600px;
+  margin: auto auto auto auto;
+  padding: 20px;
+  background: whitesmoke ;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mobile-menu .set-buttons button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.flashbtn {
+  color: orangered;
+  background-color: white;
+  justify-content: center;
+  border: orangered solid 1px;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.flashmenubtn {
+  color: orangered;
+  background-color: white;
+  justify-content: center;
+  border: orangered solid 1px;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  font-size: 0.8rem;
+  display: none;
+}
+
+.flash-next-btn button {
+  color: orangered;
+  background-color: white;
+  justify-content: center;
+  border: orangered solid px;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  padding: 0px;
+}
+
+@media (min-width: 769px) {
+  .mobile-menu {
+    display: hide; /* Hide on large screens */
+  }
+
+  .menu-toggle {
+    display: block; /* Hide on large screens */
+  }
+}
+
+@media (max-width: 768px) {
+.mobile-menu {
+  display: none; /* Hide by default */
+  position: fixed;
+  top: 100px;
+  /*left: 0;*/
+  /*width: 100%;*/
+  height: auto;
+  background: transparent; 
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.mobile-menu.open {
+  position: absolute;
+  display: block;
+  width: 90%;
+  left: 5%; 
+  background-color: transparent;
+}
+
+.mobile-menu .close-button {
+  /*position: absolute;*/
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+  z-index: 1100;
+}
+
+.mobile-menu .set-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: auto auto auto auto;
+  padding: 20px;
+  background: antiquewhite ;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mobile-menu .set-buttons button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+}
+
+/*=======================END SETS MENU==========================*/
+
+/*==============================topic MENU=========================*/
+
+.topic-toggle {
+  cursor: pointer;
+  font-size: 16px;
+  background: none;
+  border: none;
+  z-index: 1000;
+}
+
+.topic-toggle:hover {
+  cursor: pointer;
+  font-size: 16px;
+  background-color: orange;
+  border: none;
+  z-index: 1000;
+}
+
+.topic-menu {
+  display: none; /* Hide by default */
+  position: fixed;
+  top: 300px;
+  /*right: 0;*/
+  width: 50%;
+  height: auto;
+  background: transparent; 
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.topic-menu.open {
+  display: block;
+  width: 50%; 
+  background-color: antiquewhite;
+}
+
+.topic-menu .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+  z-index: 1100;
+}
+
+.topic-menu .topic-buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: antiquewhite;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.topic-menu .topic-buttons button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.topicbtn {
+  color: orangered;
+  background-color: white;
+  justify-content: center;
+  border: orangered solid 1px;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+@media (min-width: 769px) {
+  .topic-menu {
+    display: hide; /* Hide on large screens */
+  }
+  .topic-toggle {
+    display: block; /* Hide on large screens */
+  }
+}
+
+@media (max-width: 1000px) {
+.topic-menu .topic-buttons {
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.prevnext-button {
+  width: auto;
+}
+}
+
+@media (max-width: 768px) {
+  .topic-menu {
+    display: none; /* Hide by default */
+    position: fixed;
+    top: 250px;
+    /*left: 0;*/
+    width: 100%;
+    height: auto;
+    background: transparent; 
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  
+  .topic-menu.open {
+    position: fixed;
+    display: block;
+    width: 90%;
+    left: 5%; 
+    background-color: transparent;
+  }
+  
+  .topic-menu .close-button {
+    /*position: absolute;*/
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    z-index: 1100;
+  }
+  
+  .topic-menu .set-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 300px;
+    margin: auto auto auto auto;
+    padding: 20px;
+    background: whitesmoke ;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .topic-menu .set-buttons button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  }
+
+
+/*=======================END topic MENU==========================*/

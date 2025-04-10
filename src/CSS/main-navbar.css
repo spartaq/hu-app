@@ -1,0 +1,203 @@
+.bg-body-tertiary {
+    background-color: lightseagreen !important;
+  }
+  
+  .custom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: none;
+    margin:auto;
+  }
+  
+  .logo-brand {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .navbar-brand {
+    margin-left: 10px;
+    margin-right: 20%;
+    color: white!important;
+    font-size: 36px;
+  }
+  
+  .navbar-toggler {
+    width: 100%;
+    text-align: left;
+    color:white;
+  }
+  
+  .navbar-toggler span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-link {
+    color: white;
+    font-size: 16px;
+  }
+
+  .nav-link:hover {
+    color: lightgreen;
+  }
+  
+  .mobile-menu-title {
+    text-align: left;
+    font-size: 16px;
+    flex-grow: 1;
+  }
+  
+  .mobile-menu-icon {
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  @media (min-width: 992px) {
+    .custom-container {
+      flex-direction: column;
+      align-items: flex-start !important;    
+      width: 59vw;
+      max-width: none;
+      margin:auto;
+    }
+  
+    .logo-brand {
+      justify-content: flex-start;
+    }
+  
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      margin-top: 7px;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 0 15px;
+      color: white !important;
+      font-weight: 700;
+      padding-right: 25px !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: lightgreen!important;
+      }
+  
+    .navbar-nav .dropdown-menu {
+      position: absolute;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        margin-top: 20px;       
+    }
+    
+  }
+  
+  @media (max-width: 991px) {
+
+    .custom-container {
+      max-width: 100%;
+    }
+
+    .navtoggler-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .navbar-collapse {
+        width: 100%;
+        background-color: #008080;
+        overflow: hidden; /* Hide overflow for smooth transitions */
+        max-height: 0; /* Start with height 0 */
+        opacity: 0; /* Hidden initially */
+        transform: translateY(0px); /* Start slightly above */
+        transition: max-height 0.2s ease, opacity 0.1s ease, transform 0.1s ease; /* Smooth animation */
+      }
+      
+      .navbar-collapse.show {
+        max-height: 1500px; /* Adjust as needed; should be enough to contain content */
+        opacity: 1; /* Visible */
+        transform: translateY(0); /* Slide down */
+      }
+      
+
+    .navbar-nav {
+      width: 100%;
+      text-align: left;
+    }
+
+    .logo-brand {
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+  
+    .navbar-toggler {
+      width: 100%;
+      text-align: right;
+      margin-top: 25px;
+    }
+  
+    .navbar-toggler span {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    .navbar-brand {
+      font-size: 22px;
+    }
+
+    .nav-link {
+        color: white !important;
+        font-size: 14px;
+        padding-left: 10px !important;
+        font-weight: 700;
+        padding-top: 15px;
+      }
+
+      .nav-link:hover {
+        background-color: lightseagreen;
+      }
+      
+  
+    .mobile-menu-title {
+      text-align: left;
+      font-size: 14px;
+      font-weight: 700;
+      flex-grow: 1;
+      color: white;
+    }
+  
+    .mobile-menu-icon {
+      text-align: right;
+      padding-right: 10px;
+      color: white;
+    }
+    .dropdown-menu {
+      background-color: #008080;
+    }
+    .dropdown-item {
+      font-size: 14px;
+      background-color: #008080;
+      color: white;
+    }
+
+    .dropdown-item:hover {
+      font-size: 14px;
+      background-color: lightseagreen;
+      color: white;
+    }
+  }
+  

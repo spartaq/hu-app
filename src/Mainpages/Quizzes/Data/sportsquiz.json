@@ -1,0 +1,63 @@
+[
+    {
+      "quiz": 1,
+      "quizTitle": "Watching Sports",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the most-watched sport in the world after football?",
+          "options": ["Basketball", "Cricket", "Formula 1", "Tennis"],
+          "answer": "Cricket"
+        },
+        {
+          "id": 2,
+          "question": "How much time does the average sports fan spend per day on social media?",
+          "options": ["4.7 hours", "2.5 hours", "40 min", "3.2 hours"],
+          "answer": "The atmosphere"
+        },
+        {
+          "id": 3,
+          "question": "How many times has Hungary been in the final match of the World Cup?",
+          "options": ["1", "2", "3", "4"],
+          "answer": "2"
+        },
+        {
+          "id": 4,
+          "question": "How many times has Hungary beat Brazil in World Cup matches?",
+          "options": ["1", "2", "3", "4"],
+          "answer": "2"
+        },
+        {
+          "id": 5,
+          "question": "How much time does the average sports fan spend watching sports per week?",
+          "options": ["3.2 hours", "5.6 hours", "8.2 hours", "6.3 hours"],
+          "answer": "3.2 hours"
+        },
+        {
+          "id": 6,
+          "question": "Which of these sports has the longest average game time?",
+          "options": ["Soccer", "Basketball", "Baseball", "Hockey"],
+          "answer": "Baseball"
+        },
+        {
+          "id": 7,
+          "question": "What is the mnost played sport (participation-wise) in the world?",
+          "options": ["Football", "Table tennis", "Badminton", "Cricket"],
+          "answer": "Badminton"
+        },
+        {
+          "id": 8,
+          "question": "How much money is estimated to be gambled on sports worldwide each year?",
+          "options": ["$50 billion", "$150 billion", "$500 billion", "$1 trillion"],
+          "answer": "$500 billion"
+        },
+        {
+          "id": 9,
+          "question": "Which of these is a real tradition in sports?",
+          "options": ["Throwing an octopus on the ice at a hockey game", "Wearing socks on hands for good luck", "Drinking soda from a championship trophy", "Painting stadium seats before every game"],
+          "answer": "Throwing an octopus on the ice at a hockey game"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,296 @@
+[
+        {
+            "text": "It is ___ to attend the client presentation tomorrow.",
+            "answer": "mandatory"
+          },
+          {
+            "text": "Is it ___ to submit the timesheet before the end of the week?",
+            "answer": "required"
+          },
+          {
+            "text": "All employees are ___ to complete security training annually.",
+            "answer": "required"
+          },
+          {
+            "text": "It’s ___ that the project plan is approved by management.",
+            "answer": "mandatory"
+          },
+          {
+            "text": "Attendance at the weekly meeting is ___ .",
+            "answer": "obligatory"
+          },
+          {
+            "text": "Is it ___ to include the testing phase in the roadmap?",
+            "answer": "necessary"
+          },
+          {
+            "text": "Completing the cybersecurity course is ___ for all staff.",
+            "answer": "compulsory"
+          },
+          {
+            "text": "It's ___ to notify your supervisor before taking leave.",
+            "answer": "obligatory"
+          },
+          {
+            "text": "Is it ___ to install this software update?",
+            "answer": "mandatory"
+          },
+          {
+            "text": "You are ___ to log your work hours in the company system.",
+            "answer": "required"
+          },
+          {
+            "text": "Completing this task by the deadline is ___ for the project’s success.",
+            "answer": "essential"
+          },
+          {
+            "text": "The team leader made it ___ for everyone to attend the training session.",
+            "answer": "compulsory"
+          },
+          {
+            "text": "This report is ___ before we proceed with the project.",
+            "answer": "required"
+          },
+          {
+            "text": "Is it ___ to seek approval from the client before making changes?",
+            "answer": "necessary"
+          },
+          {
+            "text": "It is ___ that all developers follow the coding guidelines.",
+            "answer": "essential"
+          },
+          {
+            "text": "It's ___ to attend this briefing; it's crucial for the project’s success.",
+            "answer": "mandatory"
+          },
+          {
+            "text": "The IT department has made regular backups ___ .",
+            "answer": "compulsory"
+          },
+          {
+            "text": "Is it ___ for the team to provide feedback after every sprint?",
+            "answer": "obligatory"
+          },
+          {
+            "text": "Providing accurate data is ___ when preparing the monthly report.",
+            "answer": "essential"
+          },
+          {
+            "text": "Following the company's code of conduct is ___ for all employees.",
+            "answer": "mandatory"
+          },
+      {
+        "text": "We ___ start work at 9 am.",
+        "answer": "have to"
+      },
+      {
+        "text": "You ___ use this software for managing client data.",
+        "answer": "can"
+      },
+      {
+        "text": "We ___ submit our reports by the end of each sprint.",
+        "answer": "need to"
+      },
+      {
+        "text": "Employees ___ attend the weekly team meetings.",
+        "answer": "must"
+      },
+      {
+        "text": "Developers ___ work from home two days a week.",
+        "answer": "can"
+      },
+      {
+        "text": "We ___ deploy untested code to production.",
+        "answer": "must not"
+      },
+      {
+        "text": "According to our contract, we ___ have a second job.",
+        "answer": "can't have"
+      },
+      {
+        "text": "You ___ share confidential client information with third parties.",
+        "answer": "must not"
+      },
+      {
+        "text": "Developers ___ work on weekends unless there's a critical issue.",
+        "answer": "don't have to"
+      },
+      {
+        "text": "We ___ use this tool until we get approval from the manager.",
+        "answer": "can't"
+      },
+      {
+        "text": " ___ we send the project plan to the client today?",
+        "answer": "Should"
+      },
+      {
+        "text": " ___ developers use any IDE they want?",
+        "answer": "Can"
+      },
+      {
+        "text": " ___ we provide feedback on the product demo?",
+        "answer": "Could"
+      },
+      {
+        "text": "Team members ___ attend the weekly review unless they're on leave.",
+        "answer": "must"
+      },
+      {
+        "text": "You ___ inform the manager if you're going to miss a deadline.",
+        "answer": "have to"
+      },
+      {
+        "text": "Project leads ___ approve the design changes before implementation.",
+        "answer": "must"
+      },
+      {
+        "text": "You ___ attend the meeting tomorrow if you're still on vacation.",
+        "answer": "don't have to"
+      },
+      {
+        "text": "We ___ finish the tasks before the deadline.",
+        "answer": "need to"
+      },
+      {
+        "text": " ___ you test this feature before deployment?",
+        "answer": "Can"
+      },
+      {
+        "text": "The team ___ schedule daily stand-up meetings to improve communication.",
+        "answer": "should"
+      },
+      {
+        "text": "You ___ access the customer database from outside the network.",
+        "answer": "can't"
+      },
+      {
+        "text": " ___ we send a reminder to the client about the upcoming deadline?",
+        "answer": "Should"
+      },
+      {
+        "text": "We ___ test all features thoroughly before a release.",
+        "answer": "have to"
+      },
+      {
+        "text": "I ___ work remotely today because my VPN is not working.",
+        "answer": "can't"
+      },
+      {
+        "text": "They ___ install the latest version of the software before using it.",
+        "answer": "must"
+      },
+      {
+        "text": "You ___ take a break every two hours to avoid burnout.",
+        "answer": "should"
+      },
+      {
+        "text": " ___ we ask the client for feedback on the prototype?",
+        "answer": "Could"
+      },
+      {
+        "text": "The development team ___ complete this feature by next week.",
+        "answer": "needs to"
+      },
+      {
+        "text": " ___ I work on this task with another colleague?",
+        "answer": "Can"
+      },
+      {
+        "text": "You ___ use your personal devices for company-related work.",
+        "answer": "shouldn't"
+      },
+      {
+        "text": "We ___ delay the launch if we haven't finished testing.",
+        "answer": "might have to"
+      },
+      {
+        "text": "We ___ discuss this issue with the project manager before proceeding.",
+        "answer": "ought to"
+      },
+      {
+        "text": "The QA team ___ perform additional testing before we release the update.",
+        "answer": "must"
+      },
+      {
+        "text": " ___ we involve the design team in the early stages of planning?",
+        "answer": "Should"
+      },
+      {
+        "text": " ___ we release a patch for the security vulnerability?",
+        "answer": "Must"
+      },
+      {
+        "text": "Employees ___ complete their cybersecurity training annually.",
+        "answer": "have to"
+      },
+      {
+        "text": "We ___ provide access to all team members during the beta testing phase.",
+        "answer": "need to"
+      },
+      {
+        "text": " ___ we wait for the client’s approval before making changes?",
+        "answer": "Do we need to"
+      },
+      {
+        "text": " ___ you help me debug this code after the meeting?",
+        "answer": "Could"
+      },
+      {
+        "text": "You ___ keep the team informed of any project delays.",
+        "answer": "must"
+      },
+      {
+        "text": " ___ I attend the meeting if I’ve already submitted my report?",
+        "answer": "Do I have to"
+      },
+      {
+        "text": "We ___ communicate the plan clearly to all stakeholders.",
+        "answer": "ought to"
+      },
+      {
+        "text": "They ___ test this feature again before final release.",
+        "answer": "need to"
+      },
+      {
+        "text": "  ___ we document these changes for future reference?",
+        "answer": "Should"
+      },
+      {
+        "text": "You ___ work on this project alone, it's too complex.",
+        "answer": "shouldn't"
+      },
+      {
+        "text": "You ___ follow the company policy when handling customer data.",
+        "answer": "must"
+      },
+      {
+        "text": "We ___ provide training to new hires on the company's tech stack.",
+        "answer": "have to"
+      },
+      {
+        "text": "How ___ I send the updated document to the team?",
+        "answer": "Should"
+      },
+      {
+            "text": "We ___ deploy untested code to production.",
+            "answer": "must not"
+          },
+          {
+            "text": "Do employees ___ file reports each month with their line managers?",
+            "answer": "need to"
+          },
+          {
+            "text": "___ we send the project plan to the client today?",
+            "answer": "Should"
+          },
+          {
+            "text": "___ developers use any IDE they want?",
+            "answer": "Can"
+          },
+          {
+            "text": "___ we provide feedback on the product demo?",
+            "answer": "Could"
+          }
+        ]
+
+      

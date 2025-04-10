@@ -1,0 +1,69 @@
+[{
+    "quiz": 1,
+    "quizTitle": "Tech Industry Ethics",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Is it ethical to use company resources (e.g., cloud storage, servers) for personal projects?",
+        "options": ["Yes", "No"],
+        "answer": "No"
+      },
+      {
+        "id": 2,
+        "question": "Is it acceptable to write AI-generated code and claim it as your original work without disclosure?",
+        "options": ["Yes", "No"],
+        "answer": "No"
+      },
+      {
+        "id": 3,
+        "question": "Is it unethical to bypass security protocols (e.g., disabling 2FA) for convenience?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      },
+      {
+        "id": 4,
+        "question": "A client offers you an expensive gadget as a thank-you. Should you accept it?",
+        "options": ["Yes", "No"],
+        "answer": "No"
+      },
+      {
+        "id": 5,
+        "question": "Is it wrong to work on a side project using your company-issued laptop?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      },
+      {
+        "id": 6,
+        "question": "Is it ethical to push untested code to production to meet a deadline?",
+        "options": ["Yes", "No"],
+        "answer": "No"
+      },
+      {
+        "id": 7,
+        "question": "A bug in your code caused a major system failure. Is it ethical to blame infrastructure issues instead?",
+        "options": ["Yes", "No"],
+        "answer": "No"
+      },
+      {
+        "id": 8,
+        "question": "Should employees report security vulnerabilities they discover, even if fixing them may delay a project?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      },
+      {
+        "id": 9,
+        "question": "Is it ethical to use customer data for testing without explicit permission?",
+        "options": ["Yes", "No"],
+        "answer": "No"
+      },
+      {
+        "id": 10,
+        "question": "Your manager asks you to write a positive online review for your company's product. Should you do it?",
+        "options": ["Yes", "No"],
+        "answer": "No"
+      }
+    ]
+  }
+  
+]
+  

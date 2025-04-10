@@ -1,0 +1,203 @@
+[
+  {
+    "text": "The deadline was tight. The team had to work overtime.",
+    "prompt": "so",
+    "answer": "The deadline was so tight that the team had to work overtime.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The project was complex. It couldn't be done in a short time.",
+    "prompt": "too",
+    "answer": "The project was too complex to do in a short time.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The client was demanding. The account manager had to negotiate carefully.",
+    "prompt": "so",
+    "answer": "The client was so demanding that the account manager had to negotiate carefully.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The meeting was long. They barely had time for lunch.",
+    "prompt": "so",
+    "answer": "The meeting was so long that they barely had time for lunch.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The intern was inexperienced. He struggled with the database tasks.",
+    "prompt": "too",
+    "answer": "The intern was too inexperienced to handle the database tasks.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The presentation was good. The clients were really impressed.",
+    "prompt": "such",
+    "answer": "It was such an good presentation that the clients were really impressed.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The code was optimized. The application ran smoothly.",
+    "prompt": "so",
+    "answer": "The code was so optimized that the application ran smoothly.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The server was powerful. It could handle thousands of requests per second.",
+    "prompt": "enough",
+    "answer": "The server was powerful enough to handle thousands of requests per second.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The software release was rushed. It had several bugs.",
+    "prompt": "too",
+    "answer": "The software release was too rushed, so it had several bugs.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The meeting ran over. We couldn’t discuss all the points.",
+    "prompt": "enough",
+    "answer": "We didn't have enough time to discuss all the points.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The project deadline was tight. We couldn’t manage to finish on time.",
+    "prompt": "too",
+    "answer": "The project deadline was too tight for us to manage to finish on time.",
+    "topic": "Pets"
+  },
+  {
+    "text": "He had a clear understanding of the system. He solved the issue quickly.",
+    "prompt": "such",
+    "answer": "He had such a clear understanding of the system that he solved the issue quickly.",
+    "topic": "Pets"
+  },  
+  {
+    "text": "The intern was skilled. He could take on complex coding tasks.",
+    "prompt": "enough",
+    "answer": "The intern was skilled enough to take on complex coding tasks.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The data was vast. It took hours to analyze.",
+    "prompt": "so",
+    "answer": "The data was so vast that it took hours to analyze.",
+    "topic": "Pets"
+  },
+
+
+  {
+    "text": "The dog was friendly enough he made everyone smile.",
+    "prompt": "correct",
+    "answer": "The dog was so friendly he made everyone smile.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The training program was enough effective to teach old dogs new tricks.",
+    "prompt": "correct",
+    "answer": "The training program was effective enough to teach old dogs new tricks.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The cat was so lazy to chase the mouse.",
+    "prompt": "correct",
+    "answer": "The cat was too lazy to chase the mouse.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The pet store had too many cute puppies that I couldn’t choose one.",
+    "prompt": "correct",
+    "answer": "The pet store had so many cute puppies that I couldn’t choose one.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The fish tank was so small for the goldfish to swim comfortably.",
+    "prompt": "correct",
+    "answer": "The fish tank was too small for the goldfish to swim comfortably.",
+    "topic": "Pets"
+  },
+
+
+  
+  {
+    "text": "The software update was complex. It required an expert to implement it.",
+    "prompt": "too",
+    "answer": "The software update was too complex to be implemented without an expert.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The dog barked loudly. The neighbors complained about the noise.",
+    "prompt": "so",
+    "answer": "The dog barked so loudly that the neighbors complained about the noise.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The AI model was advanced. It could predict pet behavior with high accuracy.",
+    "prompt": "enough",
+    "answer": "The AI model was advanced enough to predict pet behavior with high accuracy.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The startup had limited funding. It couldn’t develop a pet tracking system.",
+    "prompt": "too",
+    "answer": "The startup had too little funding to develop a pet tracking system.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The cat was affectionate. It followed its owner everywhere.",
+    "prompt": "so",
+    "answer": "The cat was so affectionate that it followed its owner everywhere.",
+    "topic": "Pets"
+  },
+
+
+{
+    "text": "The project deadline was too tight that the team had to work overtime.",
+    "prompt": "correct",
+    "answer": "The project deadline was so tight that the team had to work overtime.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The new software update was such complicated that users needed extra training.",
+    "prompt": "correct",
+    "answer": "The new software update was so complicated that users needed extra training.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The presentation was so clear to leave no room for misunderstandings.",
+    "prompt": "correct",
+    "answer": "The presentation was clear enough to leave no room for misunderstandings.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The budget was enough limited to prevent any additional hiring.",
+    "prompt": "correct",
+    "answer": "The budget was too limited to allow any additional hiring.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The client’s requirements were too specific that we had to revise the proposal multiple times.",
+    "prompt": "correct",
+    "answer": "The client’s requirements were so specific that we had to revise the proposal multiple times.",
+    "topic": "Pets"
+  },
+
+  {
+    "text": "The parrot was intelligent. It could mimic full sentences.",
+    "prompt": "enough",
+    "answer": "The parrot was intelligent enough to mimic full sentences.",
+    "topic": "Pets"
+  },
+  {
+    "text": "The pet store had supplies. They could meet the needs of all pet owners.",
+    "prompt": "enough",
+    "answer": "The pet store had enough supplies to meet the needs of all pet owners.",
+    "topic": "Pets"
+  },
+
+  {
+    "text": "The company had employees. They could manage the increased workload.",
+    "prompt": "enough",
+    "answer": "The company had enough employees to manage the increased workload.",
+    "topic": "Pets"
+  }
+]

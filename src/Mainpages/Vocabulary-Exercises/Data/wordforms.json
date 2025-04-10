@@ -1,0 +1,366 @@
+[
+  {
+    "text": "I see your point, but I think we need a more ___ solution that considers all aspects of the problem.",
+    "prompt": "decision, decide, decisive, decisively",
+    "answer": "decisive",
+    "topic": "tech"
+  },
+  {
+    "text": "I’m not sure that approach is the most ___ way to handle the situation. Have you considered an alternative?",
+    "prompt": "efficiency, efficient, to be efficient, efficiently",
+    "answer": "efficient",
+    "topic": "tech"
+  },
+  {
+    "text": "That’s an interesting perspective, but I don’t think it would be ___ in our case.",
+    "prompt": "effect, affect, effective, effectively",
+    "answer": "effective",
+    "topic": "tech"
+  },
+  {
+    "text": "I’d like to ___ why we chose this method over the others.",
+    "prompt": "explanation, explain, explanatory",
+    "answer": "explain",
+    "topic": "tech"
+  },
+  {
+    "text": "I appreciate your input, but the data does not ___ what you’re suggesting.",
+    "prompt": "analysis, analyze, analytical, analytically",
+    "answer": "analyze",
+    "topic": "tech"
+  },
+  {
+    "text": "We need to make a final ___ about this feature by the end of the meeting.",
+    "prompt": "decision, decide, decisive, decisively",
+    "answer": "decision",
+    "topic": "tech"
+  },
+  {
+    "text": "I think we should take a more ___ approach rather than making sudden changes.",
+    "prompt": "change, changing",
+    "answer": "changing",
+    "topic": "tech"
+  },
+  {
+    "text": "I understand your concern, but this is a more ___ use of resources in the long run.",
+    "prompt": "value, value, valuable, valuably",
+    "answer": "valuable",
+    "topic": "tech"
+  },
+  {
+    "text": "I disagree with that assessment because I don’t see a significant ___ between the two approaches.",
+    "prompt": "difference, differ, different, differently",
+    "answer": "difference",
+    "topic": "tech"
+  },
+  {
+    "text": "I think your suggestion is too theoretical. We need something more ___ to help the team take action.",
+    "prompt": "description, describe, descriptive, descriptively",
+    "answer": "descriptive",
+    "topic": "tech"
+  },
+  {
+    "text": "Could you please ___ your point? I didn’t quite understand your argument.",
+    "prompt": "clarity, clarify, clear, clearly",
+    "answer": "clarify",
+    "topic": "tech"
+  },
+  {
+    "text": "That was an ___ presentation! The data was insightful and well-structured.",
+    "prompt": "exception, exceptional, exceptionally",
+    "answer": "exceptional",
+    "topic": "tech"
+  },
+  {
+    "text": "Your contributions to the discussion have been incredibly ___. Thanks for your input!",
+    "prompt": "value, valuable, valuably",
+    "answer": "valuable",
+    "topic": "tech"
+  },
+  {
+    "text": "This policy will ___ how we approach future projects.",
+    "prompt": "effect, affect, effective, effectively",
+    "answer": "affect",
+    "topic": "tech"
+  },
+  {
+    "text": "A more ___ approach is needed to solve this issue. Let’s look at the data carefully.",
+    "prompt": "analysis, analyze, analytical, analytically",
+    "answer": "analytical",
+    "topic": "tech"
+  },
+  {
+    "text": "I completely disagree. Our approach is completely ___ from what you are suggesting.",
+    "prompt": "difference, differ, different, differently",
+    "answer": "different",
+    "topic": "tech"
+  },
+  {
+    "text": "If we don’t ___ on this issue soon, we risk missing our deadline.",
+    "prompt": "action, act, active, actively",
+    "answer": "act",
+    "topic": "tech"
+  },
+  {
+    "text": "Could you ___ why this feature is necessary for the project?",
+    "prompt": "explanation, explain, explanatory",
+    "answer": "explain",
+    "topic": "tech"
+  },
+  {
+    "text": "Janos has been particularly ___ recently, I wonder if something is bothering him.",
+    "prompt": "argument, argue, argumentative",
+    "answer": "argumentative",
+    "topic": "tech"
+  },
+  {
+      "text": "The new software offers a more ___ user experience compared to the previous version.",
+      "prompt": "efficient, efficiently, efficiency",
+      "answer": "efficient",
+      "topic": "tech"
+    },
+    {
+      "text": "Can you explain the results more ___?",
+      "prompt": "clear, clearly, clarity, clarifying",
+      "answer": "clearly",
+      "topic": "tech"
+    },
+    {
+      "text": "The software performs ___ well under heavy load conditions.",
+      "prompt": "exceptional, exceptionally, exception",
+      "answer": "exceptionally",
+      "topic": "tech"
+    },
+    {
+      "text": "The data analysis provides ___ insights into user behavior.",
+      "prompt": "valuable, value, valuably",
+      "answer": "valuable",
+      "topic": "tech"
+    },
+    {
+      "text": "It's important to communicate ___ to avoid misunderstandings.",
+      "prompt": "effectively, effectively, effect, effectiveness",
+      "answer": "effectively",
+      "topic": "tech"
+    },
+    {
+      "text": "The developers must be more ___ in their approach to problem-solving.",
+      "prompt": "analytical, analyze, analysis, analytically",
+      "answer": "analytical",
+      "topic": "tech"
+    },
+    {
+      "text": "The software's ___ will determine its usability in the market.",
+      "prompt": "successfully, successful, success, successor",
+      "answer": "success",
+      "topic": "tech"
+    },
+    {
+      "text": "The new feature was implemented to improve ___ in our workflow.",
+      "prompt": "efficiency, efficient, efficiently, efficientness",
+      "answer": "efficiency",
+      "topic": "tech"
+    },
+    {
+      "text": "I don't think we can reach a final ___ on this matter today. Let's discuss it further next week.",
+      "prompt": "decision, decide, decisive, decisively",
+      "answer": "decision",
+      "topic": "tech"
+    },
+    {
+      "text": "To stay competitive, we need to work more ___ and reduce unnecessary steps in our processes.",
+      "prompt": "efficiency, efficient, efficiently, to be efficient",
+      "answer": "efficiently",
+      "topic": "tech"
+    },
+    {
+      "text": "The team’s latest project was a great ___. The client was very satisfied.",
+      "prompt": "success, succeed, successful, successfully",
+      "answer": "success",
+      "topic": "tech"
+    },
+
+    {
+      "text": "The fighter's ___ was the key to his success in the final round.",
+      "prompt": ["determinedly", "determined", "determination", "determine"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "She trained hard every day to ___ her striking and grappling skills.",
+      "prompt": ["improvement", "improvingly", "improved", "improve"],
+      "correctIndex": 3,
+      "topic": "mma"
+    },
+    {
+      "text": "The ___ athlete moved with incredible precision during the fight.",
+      "prompt": ["agility", "agilely", "agilize", "agile"],
+      "correctIndex": 3,
+      "topic": "mma"
+    },
+    {
+      "text": "He reacted ___ to his opponent’s sudden attack, blocking the strike in time.",
+      "prompt": ["quick", "quickly", "quicken", "quickness"],
+      "correctIndex": 1,
+      "topic": "mma"
+    },
+    {
+      "text": "His coach noticed a significant ___ in his performance after months of focused training.",
+      "prompt": ["improvement", "improve", "improvingly", "improving"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "The ___ fighter was known for his calm demeanor even under pressure.",
+      "prompt": ["experience", "experienced", "experiencing", "experientially"],
+      "correctIndex": 1,
+      "topic": "mma"
+    },
+    {
+      "text": "The referee acted ___ when he saw the illegal move.",
+      "prompt": ["decisive", "decide", "decision", "decisively"],
+      "correctIndex": 3,
+      "topic": "mma"
+    },
+    {
+      "text": "Her ___ approach to training ensured that she was always prepared for competition.",
+      "prompt": ["method", "methodically", "methodize", "methodical"],
+      "correctIndex": 3,
+      "topic": "mma"
+    },
+    {
+      "text": "The athlete’s ___ earned him the respect of the crowd.",
+      "prompt": ["brave", "bravely", "bravery", "braver"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "The coach always ___ his athletes to push beyond their limits.",
+      "prompt": ["encouragingly", "encourages", "encourage", "encouragement"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "Her ___ decision to switch strategies turned the fight in her favor.",
+      "prompt": ["bold", "boldness", "boldly", "bolder"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "The crowd cheered ___ as the fighter delivered the final blow.",
+      "prompt": ["loudly", "louder", "loud", "loudness"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "The fighter's ___ was evident in his precise and powerful strikes.",
+      "prompt": ["accurately", "accuracy", "accurate", "accurateness"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "He was able to ___ his opponent's strategy and react accordingly.",
+      "prompt": ["analyze", "analyst", "analytical", "analysis"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "The fighter was praised for his ___ movements inside the cage.",
+      "prompt": ["gracefully", "gracious", "graceful", "grace"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "She performed ___ during the final match, earning her the title.",
+      "prompt": ["excellently", "excellent", "excellence", "excelling"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "The ___ of the match led to a rematch between the two fighters.",
+      "prompt": ["controversial", "controversy", "controversially", "controversialness"],
+      "correctIndex": 1,
+      "topic": "mma"
+    },
+    {
+      "text": "His ___ in the ring was a testament to his rigorous training.",
+      "prompt": ["performance", "performing", "performed", "perform"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "The crowd ___ when the referee announced the winner.",
+      "prompt": ["cheering", "cheered", "cheerful", "cheer"],
+      "correctIndex": 1,
+      "topic": "mma"
+    },
+    {
+      "text": "His ___ to adapt during the fight gave him the upper hand.",
+      "prompt": ["ability", "able", "ably", "abilities"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "She was ___ in her decision to keep pushing forward despite being injured.",
+      "prompt": ["resoluteness", "resolve", "resolutely", "resolved"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "Her ___ of the opponent’s tactics led to a quick victory.",
+      "prompt": ["understand", "understanding", "understood", "understandable"],
+      "correctIndex": 1,
+      "topic": "mma"
+    },
+    {
+      "text": "The team was ___ after months of preparation and hard work.",
+      "prompt": ["successful", "success", "successfully", "succeed"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "The fighter showed ___ by defending himself for the full five rounds.",
+      "prompt": ["resilience", "resilient", "resiliency", "resiliently"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "He moved ___ through his training exercises, ensuring he was fully prepared.",
+      "prompt": ["deliberately", "deliberate", "deliberation", "deliberateness"],
+      "correctIndex": 0,
+      "topic": "mma"
+    },
+    {
+      "text": "The coach gave the fighter ___ advice just before the match started.",
+      "prompt": ["invaluably", "invaluable", "valued", "value"],
+      "correctIndex": 1,
+      "topic": "mma"
+    },
+    {
+      "text": "He had to ___ quickly to avoid the oncoming punch.",
+      "prompt": ["reaction", "reactive", "react", "reacted"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "Her ___ was admired by all, as she never gave up during the match.",
+      "prompt": ["persistent", "persisting", "persistence", "persist"],
+      "correctIndex": 2,
+      "topic": "mma"
+    },
+    {
+      "text": "The ___ fighter always kept his cool, even in difficult situations.",
+      "prompt": ["discipline", "disciplined", "disciplines", "disciplinary"],
+      "correctIndex": 1,
+      "topic": "mma"
+    },
+    {
+      "text": "She ___ practiced her techniques every day to perfect them.",
+      "prompt": ["diligent", "diligently", "diligence", "---"],
+      "correctIndex": 1,
+      "topic": "mma"
+    }
+        ]
+       
+    
+    

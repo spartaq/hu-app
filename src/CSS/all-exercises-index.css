@@ -1,0 +1,122 @@
+/*======================================================ALL EXERCISES INDEX===================================================*/
+
+.all-exercises-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.all-exercise-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.all-exercises-container h2 {
+  font-size: 1.3rem;
+}
+
+.all-exercises-list ul {
+  margin: 10px;
+  font-size: small;
+  padding-left: 0%;
+}
+
+.all-exercises-list li {
+  margin: 10px;
+  font-size: small;
+  text-decoration: none;
+}
+
+.all-exercises-list li > ul > li {
+  margin: 5px 0;
+  font-size: small;
+  border: none;
+  border: solid 1px #0064002c; /* Remove background color */
+}
+
+.all-exercises-list a {
+  text-decoration: none;
+  color: #006400;
+  padding-left: 5px;
+}
+
+.all-exercises-list .category-title {
+  font-weight: bold;
+  color: #006400; /* Dark Green */
+}
+
+
+.all-exercises-list ul > li::before {
+  content: '\00BB';
+  font-family: 'FontAwesome';
+  float: left;
+  color: darkgreen;
+}
+
+@media (max-width: 900px) {
+  .all-exercises-container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .all-exercises-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .all-exercises-list ul {
+    margin: 10px;
+    font-size: small;
+    padding-left: 0%;
+  }
+  
+  .all-exercises-list li {
+    margin: 10px;
+    font-size: small;
+  }
+
+  .all-exercises-list li > ul > li {
+    margin: 5px 0;
+    font-size: small;
+    border: none;
+    border: solid 1px #0064002c; /* Remove background color */
+}
+  
+  .all-exercises-list a {
+    text-decoration: none;
+    color: #006400;
+    padding: 5px;
+  }
+  
+  .all-exercises-list .category-title {
+    font-weight: bold;
+    color: #006400; /* Dark Green */
+  }
+  
+  
+  .all-exercises-list > li > ul > li::before {
+    content: '\00BB'; 
+    font-family: 'FontAwesome'; 
+    float: left; 
+    margin-right: 5px; 
+    color: darkgreen; 
+}
+
+}

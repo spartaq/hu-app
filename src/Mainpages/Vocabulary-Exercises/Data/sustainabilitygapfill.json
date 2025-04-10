@@ -1,0 +1,32 @@
+{
+    "text": [
+        "Greenwashing is when a company makes a claim about its environmental impact that is either ____ or simply false.",
+    "They say one thing but do another.",
+    "My favorite case is hotels. If you go to a hotel, you will most likely see an invitation to reduce towel usage in order to save water.",
+    "They promote saving soap and water, but at the same time, you will probably enter your room and find the air-conditioning running 24 hours a day.",
+    "TerraChoice, an environmental NGO, identified what they call the 'Seven Sins of Greenwashing.'",
+    "Perhaps the most ____ one is the 'Sin of Hidden Trade-Off,' where a company ____ one minor environmental action while hiding or failing to ____ the true impact of its service or product.",
+    "The number of trademarks including the words 'eco-friendly' or 'green' has grown significantly.",
+    "At the same time, public awareness has also increased.",
+    "People are becoming more concerned about the food they eat, the air they breathe, and the water they drink.",
+    "This concern has evolved into a social movement, leading to a rise in environmental NGOs acting as watchdogs for firms.",
+    "The message is clear: be careful about greenwashing.",
+    "The consequences, both in terms of reputation and economic impact, can be severe."
+    ],
+
+    "gaps": [
+        { "id": "gap-0", "correct": "misleading" },
+        { "id": "gap-1", "correct": "evident" },
+        { "id": "gap-2", "correct": "emphasizes" },
+        { "id": "gap-3", "correct": "disclose" },
+        { "id": "gap-4", "correct": "severe" }
+    ],
+
+    "words": [
+        { "id": "word-1", "word": "misleading" },
+        { "id": "word-2", "word": "evident" },
+        { "id": "word-3", "word": "emphasizes" },
+        { "id": "word-4", "word": "disclose" },
+        { "id": "word-5", "word": "severe" }
+    ]
+}

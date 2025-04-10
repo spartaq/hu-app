@@ -1,0 +1,341 @@
+[
+
+  {
+    "text": "I don’t have the necessary certifications for the role.",
+    "prompt": "wish",
+    "answer": "I wish I had the necessary certifications for the role.",
+    "topic": "Choice"
+  },
+  {
+    "text": "He didn’t prioritize the client’s requirements during the project.",
+    "prompt": "if only",
+    "answer": "If only he had prioritized the client’s requirements during the project.",
+    "topic": "Choice"
+  },
+  {
+    "text": "They can’t align their schedules for the sprint planning meeting.",
+    "prompt": "wish",
+    "answer": "They wish they could align their schedules for the sprint planning meeting.",
+    "topic": "Choice"
+  },
+  {
+    "text": "She wants to finish the project before the deadline.",
+    "prompt": "hope",
+    "answer": "She hopes to finish the project before the deadline.",
+    "topic": "Choice"
+  },
+  {
+    "text": "She didn’t choose a scalable architecture for the application.",
+    "prompt": "if only",
+    "answer": "If only she had chosen a scalable architecture for the application.",
+    "topic": "Choice"
+  },
+  {
+    "text": "They want the software update to fix all the bugs.",
+    "prompt": "hope",
+    "answer": "They hope the software update fixes all the bugs.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I want our team to achieve the quarterly targets.",
+    "prompt": "hope",
+    "answer": "I hope our team achieves the quarterly targets.",
+    "topic": "Choice"
+  },
+  {
+    "text": "We don’t have enough resources to complete the project on time.",
+    "prompt": "wish",
+    "answer": "We wish we had enough resources to complete the project on time.",
+    "topic": "Choice"
+  },
+  {
+    "text": "We want the new feature to be well-received by users.",
+    "prompt": "hope",
+    "answer": "We hope the new feature is well-received by users.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I wish I can code as well as my colleagues.",
+    "prompt": "correct",
+    "answer": "I wish I could code as well as my colleagues.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The product manager wants the next release to go smoothly.",
+    "prompt": "hope",
+    "answer": "The product manager hopes the next release goes smoothly.",
+    "topic": "Choice"
+  },
+  {
+    "text": "If only we was given access to the latest tools.",
+    "prompt": "correct",
+    "answer": "If only we were given access to the latest tools.",
+    "topic": "Choice"
+  },
+  {
+    "text": "We want our internet connection to be stable during the call.",
+    "prompt": "hope",
+    "answer": "We hope our internet connection is stable during the call.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I wish my company offers more flexibility for remote work.",
+    "prompt": "correct",
+    "answer": "I wish my company offered more flexibility for remote work.",
+    "topic": "Choice"
+  },
+  {
+    "text": "If only the client approves the new design earlier!",
+    "prompt": "correct",
+    "answer": "If only the client had approved the new design earlier!",
+    "topic": "Choice"
+  },
+  {
+    "text": "I wish I don't have so many meetings every day.",
+    "prompt": "correct",
+    "answer": "I wish I didn’t have so many meetings every day.",
+    "topic": "Choice"
+  },
+  {
+    "text": "If only our internet connection would be more stable during calls.",
+    "prompt": "correct",
+    "answer": "If only our internet connection were more stable during calls.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I want the client to respond to my email soon.",
+    "prompt": "hope",
+    "answer": "I hope the client responds to my email soon.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I wish we didn't missed the deadline.",
+    "prompt": "correct",
+    "answer": "I wish we hadn’t missed the deadline.",
+    "topic": "Choice"
+  },
+  {
+    "text": "If only I read the email before the meeting!",
+    "prompt": "correct",
+    "answer": "If only I had read the email before the meeting!",
+    "topic": "Choice"
+  },
+  {
+    "text": "I wish the update was released sooner.",
+    "prompt": "correct",
+    "answer": "I wish the update had been released sooner.",
+    "topic": "Choice"
+  },
+  {
+    "text": "If only I knew how to use this software last year.",
+    "prompt": "correct",
+    "answer": "If only I had known how to use this software last year.",
+    "topic": "Choice"
+  },
+  {
+    "text": "They want the stakeholders to approve the new budget.",
+    "prompt": "hope",
+    "answer": "They hope the stakeholders approve the new budget.",
+    "topic": "Choice"
+  },
+  {
+    "text": "You didn’t test the feature thoroughly before deploying it.",
+    "prompt": "if only",
+    "answer": "If only you had tested the feature thoroughly before deploying it.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The team didn’t document the API changes thoroughly.",
+    "prompt": "wish",
+    "answer": "They wish they had documented the API changes thoroughly.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The team didn’t document the API changes thoroughly.",
+    "prompt": "if only",
+    "answer": "If only they had documented the API changes thoroughly.",
+    "topic": "Choice"
+  },
+  {
+    "text": "She wants the onboarding process to be more efficient.",
+    "prompt": "hope",
+    "answer": "She hopes the onboarding process becomes more efficient.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I don’t have enough time to review the pull requests before the deadline.",
+    "prompt": "wish",
+    "answer": "I wish I had enough time to review the pull requests before the deadline.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I don’t have enough time to review the pull requests before the deadline.",
+    "prompt": "if only",
+    "answer": "If only I had enough time to review the pull requests before the deadline.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The product manager didn’t prioritize the features correctly.",
+    "prompt": "wish",
+    "answer": "The product manager wishes they had prioritized the features correctly.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The product manager didn’t prioritize the features correctly.",
+    "prompt": "if only",
+    "answer": "If only the product manager had prioritized the features correctly.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I want to learn a new programming language this year.",
+    "prompt": "hope",
+    "answer": "I hope to learn a new programming language this year.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The client isn’t providing clear feedback on the prototype.",
+    "prompt": "wish",
+    "answer": "The team wishes the client would provide clear feedback on the prototype.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The client isn’t providing clear feedback on the prototype.",
+    "prompt": "if only",
+    "answer": "If only the client would provide clear feedback on the prototype.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I didn’t learn React earlier in my career.",
+    "prompt": "wish",
+    "answer": "I wish I had learned React earlier in my career.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I didn’t learn React earlier in my career.",
+    "prompt": "if only",
+    "answer": "If only I had learned React earlier in my career.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The stakeholders didn’t approve the budget for the new tools.",
+    "prompt": "wish",
+    "answer": "The stakeholders wish they had approved the budget for the new tools.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The stakeholders didn’t approve the budget for the new tools.",
+    "prompt": "if only",
+    "answer": "If only the stakeholders had approved the budget for the new tools.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The team can’t finish the sprint backlog before the deadline.",
+    "prompt": "wish",
+    "answer": "They wish they could finish the sprint backlog before the deadline.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The team can’t finish the sprint backlog before the deadline.",
+    "prompt": "if only",
+    "answer": "If only they could finish the sprint backlog before the deadline.",
+    "topic": "Choice"
+  },
+  {
+    "text": "We didn’t invest in AI tools earlier.",
+    "prompt": "wish",
+    "answer": "We wish we had invested in AI tools earlier.",
+    "topic": "Choice"
+  },
+  {
+    "text": "We didn’t invest in AI tools earlier.",
+    "prompt": "if only",
+    "answer": "If only we had invested in AI tools earlier.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The designer isn’t available for the usability testing session.",
+    "prompt": "wish",
+    "answer": "We wish the designer were available for the usability testing session.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The designer isn’t available for the usability testing session.",
+    "prompt": "if only",
+    "answer": "If only the designer were available for the usability testing session.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The development team didn’t consider scalability in the initial architecture.",
+    "prompt": "wish",
+    "answer": "They wish they had considered scalability in the initial architecture.",
+    "topic": "Choice"
+  },
+  {
+    "text": "The development team didn’t consider scalability in the initial architecture.",
+    "prompt": "if only",
+    "answer": "If only they had considered scalability in the initial architecture.",
+    "topic": "Choice"
+  },
+  {
+    "text": "I didn't study for the exam, so I failed.",
+    "prompt": "third conditional",
+    "answer": "If I had studied for the exam, I would have passed.",
+    "topic": "Education"
+  },
+  {
+    "text": "I missed the opportunity to learn programming when I was younger.",
+    "prompt": "third conditional",
+    "answer": "If I had learned programming when I was younger, I would have had more job opportunities today.",
+    "topic": "Education"
+  },
+  {
+    "text": "I didn’t attend the training session on time, so I couldn’t apply the new skills.",
+    "prompt": "third conditional",
+    "answer": "If I had attended the training session on time, I would have been able to apply the new skills.",
+    "topic": "Education"
+  },
+  {
+    "text": "I didn’t make time for learning a new language, so I missed the job promotion.",
+    "prompt": "third conditional",
+    "answer": "If I had made time for learning a new language, I would have been promoted.",
+    "topic": "Education"
+  },
+  {
+    "text": "I didn’t improve my time management skills, and I kept missing deadlines.",
+    "prompt": "third conditional",
+    "answer": "If I had improved my time management skills, I wouldn’t have missed deadlines.",
+    "topic": "Education"
+  },
+  {
+    "text": "I didn't focus enough on learning new skills for my career.",
+    "prompt": "wish",
+    "answer": "I wish I had focused more on learning new skills for my career.",
+    "topic": "Education"
+  },
+  {
+    "text": "I didn't take the opportunity to study abroad when I was younger.",
+    "prompt": "wish",
+    "answer": "I wish I had taken the opportunity to study abroad when I was younger.",
+    "topic": "Education"
+  },
+  {
+    "text": "I didn't attend many workshops or training sessions during my first job.",
+    "prompt": "wish",
+    "answer": "I wish I had attended more workshops or training sessions during my first job.",
+    "topic": "Education"
+  },
+  {
+    "text": "I never learned how to use advanced software tools for my profession.",
+    "prompt": "wish",
+    "answer": "I wish I had learned how to use advanced software tools for my profession.",
+    "topic": "Education"
+  },
+  {
+    "text": "I didn’t take the time to develop my soft skills like communication.",
+    "prompt": "wish",
+    "answer": "I wish I had taken the time to develop my soft skills like communication.",
+    "topic": "Education"
+  }
+  
+  ]
+  

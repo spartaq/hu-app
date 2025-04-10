@@ -1,0 +1,73 @@
+[
+    {
+      "quiz": 1,
+      "quizTitle": "Smartphone Trivia",
+      "questions": [
+        {
+          "id": 1,
+          "question": "When was the first iPhone released?",
+          "options": ["2005", "2006", "2007", "2008"],
+          "answer": "2007 - The original iPhone launched in June 2007 and revolutionized the smartphone industry."
+        },
+        {
+          "id": 2,
+          "question": "As of 2023, what percentage of the world population owns a smartphone?",
+          "options": ["39%", "52%", "68%", "81%"],
+          "answer": "68% - That's more than two-thirds of the global population, showing how fast smartphone access has spread in just over a decade."
+        },
+        {
+          "id": 3,
+          "question": "Which country has the highest average daily smartphone usage time per person?",
+          "options": ["South Korea", "USA", "Philippines", "India"],
+          "answer": "Philippines"
+        },
+        {
+          "id": 4,
+          "question": "How many times does the average user check their phone per day?",
+          "options": ["20", "55", "96", "140"],
+          "answer": "96"
+        },
+        {
+          "id": 5,
+          "question": "What is the average screen time per day for smartphone users worldwide?",
+          "options": ["2 hours", "3.5 hours", "4.9 hours", "6.2 hours"],
+          "answer": "4.9 hours - On average, users spend nearly 5 hours per day on their phones, often split between social media, messaging, and entertainment."
+        },
+        {
+          "id": 6,
+          "question": "What percentage of smartphone users have tried to reduce their screen time in the past year?",
+          "options": ["15%", "31%", "52%", "70%"],
+          "answer": "52%"
+        },
+        {
+          "id": 7,
+          "question": "Which app category takes up the most screen time globally?",
+          "options": ["Games", "Social media", "Messaging", "News"],
+          "answer": "Social media"
+        },
+        {
+          "id": 8,
+          "question": "Which company sold the most smartphones in 2023?",
+          "options": ["Samsung", "Apple", "Xiaomi", "Huawei"],
+          "answer": "Samsung - Despite fierce competition, Samsung continues to lead global shipments thanks to its wide range of devices."
+        },
+        {
+          "id": 9,
+          "question": "What's the average lifespan of a smartphone before it's replaced?",
+          "options": ["1.5 years", "2.5 years", "3.5 years", "5 years"],
+          "answer": "2.5 years"
+        },
+        {
+          "id": 10,
+          "question": "Which term describes the fear of being without a mobile phone?",
+          "options": ["FOMO", "Nomophobia", "Netlag", "Phonosyndrome"],
+          "answer": "Nomophobia"
+        }
+      ]
+    }
+  ]
+
+  
+  
+  
+  

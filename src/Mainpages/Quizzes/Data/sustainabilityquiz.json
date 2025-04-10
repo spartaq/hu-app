@@ -1,0 +1,80 @@
+[
+    {
+      "quiz": 1,
+      "quizTitle": "Sustainability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following industries has the highest carbon footprint?",
+          "options": ["Transportation", "Agriculture", "Fashion", "Technology"],
+          "answer": "Agriculture"
+        },
+        {
+          "id": 2,
+          "question": "Which renewable energy source is the most widely used worldwide?",
+          "options": ["Solar", "Wind", "Hydropower", "Geothermal"],
+          "answer": "Hydropower"
+        },
+        {
+          "id": 3,
+          "question": "What is the main cause of ocean acidification?",
+          "options": ["Plastic pollution", "Deforestation", "Carbon dioxide emissions", "Oil spills"],
+          "answer": "Carbon dioxide emissions"
+        },
+        {
+          "id": 4,
+          "question": "Which of these materials takes the longest to decompose in a landfill?",
+          "options": ["Paper", "Aluminum can", "Glass bottle", "Plastic bag"],
+          "answer": "Glass bottle"
+        },
+        {
+          "id": 5,
+          "question": "Which metal can be recycled forever?",
+          "options": [
+            "Aluminum", "Copper", "Indium", "Gold"],
+          "answer": "Aluminum"
+        },
+        {
+          "id": 6,
+          "question": "Which country produces the most e-waste per capita?",
+          "options": ["United States", "China", "Norway", "India"],
+          "answer": "Norway"
+        },
+        {
+          "id": 7,
+          "question": "What does the term 'carbon neutrality' mean?",
+          "options": [
+            "Eliminating all carbon emissions",
+            "Balancing emitted carbon with removal or offsets",
+            "Using only electric vehicles",
+            "Stopping fossil fuel use"
+          ],
+          "answer": "Balancing emitted carbon with removal or offsets"
+        },
+        {
+          "id": 8,
+          "question": "Which of the following actions has the biggest impact on reducing your carbon footprint?",
+          "options": [
+            "Recycling regularly",
+            "Using public transportation",
+            "Switching to a plant-based diet",
+            "Turning off lights when not in use"
+          ],
+          "answer": "Switching to a plant-based diet"
+        },
+        {
+          "id": 9,
+          "question": "What percentage of global plastic waste is actually recycled?",
+          "options": ["10%", "20%", "30%", "50%"],
+          "answer": "10%"
+        },
+        {
+          "id": 10,
+          "question": "About 71% of the Earth is covered with water. How much of it is freshwater?",
+          "options": ["2.5%", "5.3%", "12.6%", "22.4%"],
+          "answer": "2.5%"
+        }
+      ]
+    }
+  ]
+  

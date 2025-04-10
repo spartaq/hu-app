@@ -1,0 +1,82 @@
+[{
+    "quiz": 1,
+    "quizTitle": "Food Quiz",
+  "questions": [
+    {
+      "id": 11,
+      "question": "In which country is slurping noodles considered a sign of appreciation?",
+      "options": ["Japan", "Italy", "France", "Brazil"],
+      "answer": "Japan"
+    },
+    {
+      "id": 12,
+      "question": "Which culture traditionally serves food on a banana leaf instead of a plate?",
+      "options": ["Thai", "Indian", "Ethiopian", "Mexican"],
+      "answer": "Indian"
+    },
+    {
+      "id": 13,
+      "question": "In which country is tipping considered rude at restaurants?",
+      "options": ["USA", "Germany", "Japan", "Brazil"],
+      "answer": "Japan"
+    },
+    {
+      "id": 14,
+      "question": "Which culture commonly shares food from a large communal plate, eating with their hands?",
+      "options": ["French", "Ethiopian", "Korean", "Turkish"],
+      "answer": "Ethiopian"
+    },
+    {
+      "id": 15,
+      "question": "What is the main reason why many Middle Eastern cultures eat with their right hand only?",
+      "options": [
+        "It is a religious and cultural practice",
+        "The left hand is considered unclean",
+        "It improves digestion",
+        "It prevents food waste"
+      ],
+      "answer": "The left hand is considered unclean"
+    },
+    {
+      "id": 16,
+      "question": "In South Korea, what should you do when an older person offers you a drink?",
+      "options": [
+        "Refuse politely",
+        "Take it with both hands",
+        "Take it with one hand",
+        "Drink it immediately"
+      ],
+      "answer": "Take it with both hands"
+    },
+    {
+      "id": 17,
+      "question": "Which country considers it bad manners to leave chopsticks sticking upright in a bowl of rice?",
+      "options": ["Vietnam", "China", "Japan", "Thailand"],
+      "answer": "Japan"
+    },
+    {
+      "id": 18,
+      "question": "In which country is it common to say 'Buen provecho' before eating as a polite gesture?",
+      "options": ["Spain", "Germany", "Russia", "India"],
+      "answer": "Spain"
+    },
+    {
+      "id": 19,
+      "question": "In France, what is the cultural expectation regarding bread at the dinner table?",
+      "options": [
+        "It should be placed on the table, not on the plate",
+        "It must be buttered before eating",
+        "It should only be eaten with soup",
+        "It is considered impolite to eat bread before the main course"
+      ],
+      "answer": "It should be placed on the table, not on the plate"
+    },
+    {
+      "id": 20,
+      "question": "In which country is it common to eat with a fork in the left hand and a knife in the right, even after cutting food?",
+      "options": ["USA", "Germany", "Brazil", "India"],
+      "answer": "Germany"
+    }
+  ]
+}
+]

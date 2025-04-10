@@ -1,0 +1,68 @@
+[
+  {
+    "quiz": 1,
+    "quizTitle": "Fast Food",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What does 'fast food' usually mean?",
+        "options": ["Food that you cook at home", "Food that is cheap and served quickly", "Food that takes hours to prepare", "Food only eaten at parties"],
+        "answer": "Food that is cheap and served quickly - Fast food is designed to be made and served quickly, often for people on the go."
+      },
+      {
+        "id": 2,
+        "question": "About how many people in the world eat fast food every day?",
+        "options": ["Around 1 million", "Around 10 million", "Over 50 million", "Over 100 million"],
+        "answer": "Over 100 million - Studies show that over 100 million people consume fast food daily, especially in urban areas around the world."
+      },
+      {
+        "id": 3,
+        "question": "Which of these foods is usually considered fast food?",
+        "options": ["Goulash", "Falafel in pita", "Lasagna", "Sushi with wasabi"],
+        "answer": "Falafel in pita - It/'s commonly sold by street vendors or quick-service spots and is considered a fast, portable meal in many Middle Eastern and European cities."
+      },
+      {
+        "id": 4,
+        "question": "True or False: Fast food is usually high in salt, sugar, or fat.",
+        "options": ["True", "False"],
+        "answer": "True - Fast food often contains high levels of salt, sugar, and unhealthy fats to enhance flavor and preserve shelf life."
+      },
+      {
+        "id": 5,
+        "question": "In some countries, what fast food is eaten as a Christmas meal?",
+        "options": ["Grilled vegetables", "Fried chicken", "Pizza", "Pancakes"],
+        "answer": "Fried chicken - In Japan, it's common to eat fried chicken on Christmas, a tradition that began after a successful KFC marketing campaign in the 1970s."
+      },
+      {
+        "id": 6,
+        "question": "What is a possible health problem from eating too much fast food?",
+        "options": ["Better sleep", "Higher risk of heart disease", "Improved memory", "Stronger teeth"],
+        "answer": "Higher risk of heart disease - Regular consumption of fast food is linked to obesity, high blood pressure, and cardiovascular issues."
+      },
+      {
+        "id": 7,
+        "question": "Which of these is a benefit of fast food?",
+        "options": ["It’s usually organic", "It’s always healthy", "It’s fast and convenient", "It lasts forever"],
+        "answer": "It’s fast and convenient - Fast food fits into busy lifestyles because it’s quick to prepare and doesn’t require cooking at home."
+      },
+      {
+        "id": 8,
+        "question": "What’s one reason fast food is popular with young people?",
+        "options": ["It's free", "It tastes good and is affordable", "It is only served at school", "It helps with studying"],
+        "answer": "It tastes good and is affordable - Teenagers and students often prefer fast food because it’s cheap, filling, and easy to access."
+      },
+      {
+        "id": 9,
+        "question": "True or False: Every country eats the same fast food.",
+        "options": ["True", "False"],
+        "answer": "False - While global chains exist, menus are often localized. For example, fast food in India or Korea may feature very different ingredients and flavors."
+      },
+      {
+        "id": 10,
+        "question": "Which of these is a healthier fast food choice?",
+        "options": ["Fried cheese with extra mayo", "Grilled chicken wrap with vegetables", "Triple burger with bacon and extra sauce", "Chocolate milkshake and fries"],
+        "answer": "Grilled chicken wrap with vegetables - It’s lower in fat and calories, and includes lean protein and fiber from vegetables."
+      }
+    ]
+  }
+]
