@@ -321,7 +321,7 @@ module.exports = [
         "level": "B2",
         "time": "60 min",
         "description": "Differnt forms of the same word.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/introlesson.jpg"
       },
     
         {
