@@ -25,83 +25,71 @@ const Vocabularyexercises = () => {
             <div class="courses_container">
             <div class="courses_box">
 
-            <div className="blog-card">
-    <div className="description">
-      <h1>Phrasal Verbs</h1>
-      <h2>Alternate ways of speaking</h2>
-      <p>Phrasal Verbs are words we use that are based on a verb and a preposition that changes the meaning of the words.</p>
-      <ul>
-      <li><Link to="/vocabulary-exercises/phrasal-verbs"><span className="label label-c1">A1-C1</span> Phrasal Verbs</Link></li>
-        </ul>
-    </div>
-  </div>
-  
+  <Link to="/vocabulary-exercises/phrasal-verbs">
   <div className="blog-card">
     <div className="description">
+      <span className="label label-c1">A1-C1</span>
+        <h1>Phrasal Verbs</h1>
+        <h2>Alternate ways of speaking</h2>
+        <p>Phrasal Verbs are words we use that are based on a verb and a preposition that changes the meaning of the words.</p>
+    </div>
+  </div>
+  </Link>
+
+  <Link to="/vocabulary-exercises/dependent-prepositions">
+  <div className="blog-card">
+    <div className="description">
+     <span className="label label-a1">A1</span>
       <h1>Dependent Prepositions</h1>
       <h2>Alternate ways of speaking</h2>
-      <p>Words that go with particular preositions.</p>
-      <ul>
-      <li><Link to="/vocabulary-exercises/dependent-prepositions"><span className="label label-a1">A1</span> Dependent Prepositions</Link></li>
-        </ul>
+      <p>Words that go with particular prepositions.</p>
     </div>
   </div>  
+  </Link>
 
+  <Link to="/vocabulary-exercises/idioms">
     <div className="blog-card">
     <div className="description">
+    <span className="label label-a1">A1</span>
       <h1>Idioms</h1>
       <h2>Alternate ways of speaking</h2>
       <p>Idioms are words we use that are based on cultural references.</p>
-      <ul>
-      <li><Link to="/vocabulary-exercises/idioms"><span className="label label-a1">A1</span> Idioms</Link></li>
-        </ul>
     </div>
   </div>              
-    
+  </Link> 
+
+  <Link to="/vocabulary-exercises/collocations"> 
     <div className="blog-card">
     <div className="description">
+    <span className="label label-c1">C1</span>
       <h1>Collocations</h1>
       <h2>What goes with what</h2>
       <p>Collocations are words the frequently go together and are a key way to learn new vocabulary.</p>
-      <ul>
-      <li><Link to="/vocabulary-exercises/collocations1"><span className="label label-a1">A1</span> Collocations 1</Link></li>
-        </ul>
     </div>
   </div>
-  
+  </Link>
+
+  <Link to="/vocabulary-exercises/word-forms"> 
   <div className="blog-card">
     <div className="description">
+    <span className="label label-b2">B2</span>
       <h1>Word Forms</h1>
       <h2>The same, yet different</h2>
       <p>Learn and practice the different forms (noun, verb, adjective, etc.) of common words. this helps to build up synonym vocabulary.</p>
-      <ul>    
-      <li><Link to="/vocabulary-exercises/word-forms"><span className="label label-a1">A1</span> Word Forms</Link></li>
-        </ul>
     </div>
   </div>
-  
+  </Link>
+
+  <Link to="/vocabulary-exercises/linking-words"> 
   <div className="blog-card">
     <div className="description">
+    <span className="label label-a1">A1</span>
       <h1>Linking Words</h1>
       <h2>How to connect</h2>
       <p>Learn and practice linking words.</p>
-      <ul>    
-      <li><Link to="/vocabulary-exercises/linking-words"><span className="label label-a1">A1</span> Linking Words</Link></li>
-        </ul>
     </div>
   </div>
-
-  <div className="blog-card">
-    <div className="description">
-      <h1>Reported Speech</h1>
-      <h2>What They Said</h2>
-      <p>Learn and practice reported speech.</p>
-      <ul>    
-      <li><Link to="/vocabulary-exercises/reported-speech"><span className="label label-a1">A1</span> Reported Speech</Link></li>
-        </ul>
-    </div>
-  </div>
-  
+  </Link>
 
 
   </div>

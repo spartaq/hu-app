@@ -1,7 +1,7 @@
 module.exports = [
   {
     "readingcompTitle": "Air Traffic Delays",
-    "topic": "business",
+    "topic": "air traffic delays",
     "level": "b2",
   "image": "/Images/smartphone2.jpg",
   "vocabulary": [
@@ -135,7 +135,7 @@ module.exports = [
 },
   {
     "readingcompTitle": "Parents at a Football Match",
-    "topic": "sports vocabulary",
+    "topic": "parents at a football match",
     "level": "a2",
     "vocabulary": [
       "match - mérkőzés",  

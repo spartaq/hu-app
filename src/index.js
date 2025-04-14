@@ -513,10 +513,6 @@ const router = createBrowserRouter([
             element: <LinkingWords />,
           },
           {
-            path: 'vocabulary-exercises/reported-speech',
-            element: <ReportedSpeech />,
-          },
-          {
             path: 'flashcards',
             element: <Flashcards />,
           },

@@ -1,17 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Checkbox from "rc-checkbox";
 import { Link } from "react-router-dom";
-import { FaClock, FaBook, FaGraduationCap } from "react-icons/fa";
+import { FaClock, FaGraduationCap } from "react-icons/fa";
 import topics from "../Mainpages/Data/activitylist.js";
 import readingData from "../Mainpages/Reading-Exercises/Data/readingcomp.js";
 import videoData from "../Mainpages/Listening-Exercises/Data/video.json";
 
 const ActivityFilter = ({ setFilters = () => {} }) => { 
   const [currentPage, setCurrentPage] = useState(1);
+  const [visibleCount, setVisibleCount] = useState(6);
   const [selectedTopics, setSelectedTopics] = useState([]);
   const [selectedLevels, setSelectedLevels] = useState([]);
   const [selectedTimes, setSelectedTimes] = useState([]);
   const topicsPerPage = 6;
+
+  
 
   const handleCheckboxChange = (value, setState) => {
     setState((prev) =>
@@ -31,7 +34,11 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
   // **Pagination Logic**
   const indexOfLastTopic = currentPage * topicsPerPage;
   const indexOfFirstTopic = indexOfLastTopic - topicsPerPage;
-  const currentTopics = filteredTopics.slice(indexOfFirstTopic, indexOfLastTopic);
+  const currentTopics = filteredTopics.slice(0, visibleCount);
+
+	useEffect(() => {
+	  setVisibleCount(topicsPerPage);
+	}, [selectedTopics, selectedLevels, selectedTimes]);
 
   const nextPage = () => {
     if (currentPage < Math.ceil(filteredTopics.length / topicsPerPage)) {
@@ -111,82 +118,47 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
             : null;
 
             return (
-            <li key={topic.id}>
-                <div className="topics-box">
-                <img src={topic.image} alt={topic.title} className="topics-image" />
-                <div className="topics-title">{topic.title}</div>
-                <div className="topics-category">
-                    <FaBook className="topics-icon" /> {topic.category.replace("-exercises", "").toUpperCase()}
-                </div>
-                <div className="topics-level-time">
-                    <FaGraduationCap className="topics-icon" /> {topic.level} &nbsp; | &nbsp;
-                    <FaClock className="topics-icon" /> {topic.time}
-                </div>
-                <div className="topics-description">{topic.description}</div>
-
-                <Link
-                    to={
-                    topic.category === "reading-exercises" && matchingReading
-                        ? `/reading-exercises/reading-comprehension?readingcompTitle=${encodeURIComponent(
-                            matchingReading.readingcompTitle
-                        )}`
-                        : topic.category === "listening-exercises" && matchingVideo
-                        ? `/listening-exercises/videos?title=${encodeURIComponent(matchingVideo.title)}`
-                        : `/${topic.category}/${topic.id.toLowerCase()}`
-                    }
-                    className="topics-button"
-                >
-                    Go to Exercises
-                </Link>
-                </div>
-            </li>
+<li key={topic.id}>
+  <Link
+    to={
+      topic.category === "reading-exercises" && matchingReading
+        ? `/reading-exercises/reading-comprehension?readingcompTitle=${encodeURIComponent(
+            matchingReading.readingcompTitle
+          )}`
+        : topic.category === "listening-exercises" && matchingVideo
+        ? `/listening-exercises/videos?title=${encodeURIComponent(matchingVideo.title)}`
+        : `/${topic.category}/${topic.id.toLowerCase()}`
+    }
+    className="topics-box-link" // Custom class to style the link properly
+  >
+    <div className="topics-box">
+      <img src={topic.image} alt={topic.title} className="topics-image" />
+      <div className="topics-title">
+      <div className="topics-category">
+        {topic.category.replace("-exercises", "").toUpperCase()}
+      </div>
+      {topic.title}
+      </div>
+      <div className="topics-details">
+      <div className="topics-level-time">
+        <FaGraduationCap className="topics-icon" /> {topic.level} &nbsp; | &nbsp;
+        <FaClock className="topics-icon" /> {topic.time}
+      </div>
+      <div className="topics-description">{topic.description}</div>
+    </div>
+    </div>
+  </Link>
+</li>
             );
         })}
         </ul>
 
           {/* Pagination Controls */}
-          {filteredTopics.length > topicsPerPage && (
-            <div className="pagination">
-              <button
-                onClick={prevPage}
-                disabled={currentPage === 1}
-                className="pagination-button"
-              >
-                ←
-              </button>
-
-              {Array.from({ length: totalPages }, (_, i) => i + 1)
-                .filter((page) => {
-                  // Only show 4 numbers around the current page
-                  if (totalPages <= 4) return true;
-                  if (currentPage <= 2) return page <= 4;
-                  if (currentPage >= totalPages - 1) return page >= totalPages - 3;
-                  return Math.abs(currentPage - page) <= 1;
-                })
-                .map((pageNumber) => (
-                  <button
-                    key={pageNumber}
-                    onClick={() => setCurrentPage(pageNumber)}
-                    className="pagination-button"
-                    style={{
-                      backgroundColor:
-                        currentPage === pageNumber ? "orangered" : "white",
-                      color: currentPage === pageNumber ? "white" : "orangered",
-                    }}
-                  >
-                    {pageNumber}
-                  </button>
-                ))}
-
-              <button
-                onClick={nextPage}
-                disabled={currentPage === totalPages}
-                className="pagination-button"
-              >
-                →
-              </button>
-            </div>
-          )}
+			{visibleCount < filteredTopics.length && (
+			  <button onClick={() => setVisibleCount(prev => prev + topicsPerPage)} className="load-more-button">
+				Load More
+			  </button>
+			)}
         </div>
       </div>
     </div>

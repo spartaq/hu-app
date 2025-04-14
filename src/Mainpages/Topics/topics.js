@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Checkbox from "rc-checkbox";
 import { Link } from "react-router-dom";
 import { FaClock, FaBook, FaGraduationCap } from "react-icons/fa";
 import topics from "./Data/topicslist.js";
 
-const TopicsList = ({ setFilters = () => {} }) => {  // Ensure setFilters is always defined
+const TopicsList = ({ setFilters = () => {} }) => {  
   const [currentPage, setCurrentPage] = useState(1);
+  const topicsPerPage = 6;
+  const [visibleCount, setVisibleCount] = useState(topicsPerPage);
   const [selectedTopics, setSelectedTopics] = useState([]);
   const [selectedLevels, setSelectedLevels] = useState([]);
   const [selectedTimes, setSelectedTimes] = useState([]);
-  const topicsPerPage = 6;
   
 const handleCheckboxChange = (value, setState) => {
     setState((prev) =>
@@ -30,19 +31,11 @@ const handleCheckboxChange = (value, setState) => {
   // **Pagination Logic**
   const indexOfLastTopic = currentPage * topicsPerPage;
   const indexOfFirstTopic = indexOfLastTopic - topicsPerPage;
-  const currentTopics = filteredTopics.slice(indexOfFirstTopic, indexOfLastTopic);
+  const currentTopics = filteredTopics.slice(0, visibleCount);
 
-  const nextPage = () => {
-    if (currentPage < Math.ceil(filteredTopics.length / topicsPerPage)) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-
-  const prevPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-    }
-  };
+useEffect(() => {
+  setVisibleCount(topicsPerPage);
+}, [selectedTopics, selectedLevels, selectedTimes]);
 
   return (
     <div className="topics-container">
@@ -92,7 +85,7 @@ const handleCheckboxChange = (value, setState) => {
 
       </div>
 
-      {/* Topics List */}
+      
       <ul className="topics-list">
         {currentTopics.map((topic) => (
           <li key={topic.id}>
@@ -116,48 +109,22 @@ const handleCheckboxChange = (value, setState) => {
       </ul>
 
       {/* Pagination Controls */}
-      {filteredTopics.length > topicsPerPage && (
-  <div className="pagination">
-    <button
-      onClick={prevPage}
-      disabled={currentPage === 1}
-      className="pagination-button"
-    >
-      ←
-    </button>
 
-    {Array.from({ length: totalPages }, (_, i) => i + 1)
-      .filter((page) => {
-        // Only show 4 numbers around the current page
-        if (totalPages <= 4) return true;
-        if (currentPage <= 2) return page <= 4;
-        if (currentPage >= totalPages - 1) return page >= totalPages - 3;
-        return Math.abs(currentPage - page) <= 1;
-      })
-      .map((pageNumber) => (
-        <button
-          key={pageNumber}
-          onClick={() => setCurrentPage(pageNumber)}
-          className="pagination-button"
-          style={{
-            backgroundColor:
-              currentPage === pageNumber ? "orangered" : "white",
-            color: currentPage === pageNumber ? "white" : "orangered",
-          }}
-        >
-          {pageNumber}
-        </button>
-      ))}
 
+      {visibleCount < filteredTopics.length && (
+  <div className="load-more-container">
     <button
-      onClick={nextPage}
-      disabled={currentPage === totalPages}
-      className="pagination-button"
+      onClick={() => setVisibleCount((prev) => prev + topicsPerPage)}
+      className="load-more-button"
     >
-      →
+      Load More
     </button>
   </div>
 )}
+
+
+
+
 
     </div>
   );

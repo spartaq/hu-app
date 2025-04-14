@@ -188,7 +188,10 @@ const ReadingComp1 = () => {
 
                         {isGridVisible && (
                             <div className="grammar-display-grid">
-                            <VocabularyMatch data={vocabData} topic="education" />
+                            <VocabularyMatch
+                            data={vocabData}
+                            topic={readings[currentReading]?.topic.toLowerCase()}
+                            />
                             </div>
                         )}
                         <div className="showagendagrammarbox">Reading</div>

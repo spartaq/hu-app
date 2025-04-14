@@ -48,7 +48,7 @@ function SpeakingTopics() {
       </div>
       
       <div className="grammar-container">
-        <div className="column-right-speaking div1">
+        <div className="column-right-speaking">
           <div className="skill-controls">
             <div className='flashsetnum'>Topics - {`Topic ${selectedTopic + 1}`}</div>
             <div>
@@ -110,10 +110,10 @@ function SpeakingTopics() {
           </div>
         </div>
 
-        <div className="div2">
+        <div>
           <SpeakingMenu />
         </div>
-        <div className="div3">
+        <div>
           <Sidebar />
         </div>
       </div>

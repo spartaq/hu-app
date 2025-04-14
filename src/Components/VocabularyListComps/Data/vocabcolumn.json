@@ -2,12 +2,17 @@
   {
     "word": "heatwave",
     "category": "Hot",
-    "topic": "advice"
+    "topic": "air traffic delays"
   },
   {
-    "word": "heatwave",
-    "category": "Hot",
-    "topic": "weather"
+    "word": "cold front",
+    "category": "Cold",
+    "topic": "air traffic delays"
+  },
+  {
+    "word": "football",
+    "category": "Pitch",
+    "topic": "parents at a football match"
   },
   {
     "word": "blizzard",

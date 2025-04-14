@@ -2,7 +2,9 @@ import { useState, useMemo } from "react";
 import { DndContext, useDraggable, useDroppable } from "@dnd-kit/core";
 
 export default function VocabularyMatch({ data, topic }) {
-  const filteredData = data.filter(item => item.topic === topic);
+  const filteredData = data.filter(
+    item => item.topic?.toLowerCase() === topic?.toLowerCase()
+  );
   const [matchedPairs, setMatchedPairs] = useState([]);
 
   // Shuffle the definitions using useMemo so they don't reshuffle on every render

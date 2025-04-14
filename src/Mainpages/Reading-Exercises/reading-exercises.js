@@ -74,7 +74,7 @@ const Readingexercises = () => {
                     </div>
                 </div>
 
-                <div className="gmenu div2">
+                <div className="gmenu">
                     <ReadingMenu />
                 </div>
 
