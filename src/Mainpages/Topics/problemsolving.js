@@ -14,7 +14,8 @@ import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist
 import VocabularyMatch from '../../Utils/vocabmatch.js';
 import GapFillExercise from '../../Utils/gapfill.js';
 import jsonData from '../Vocabulary-Exercises/Data/problemsolvinggapfill.json';
-import Quiz from '../Quizzes/quiz.js';
+import ImageCarousel from '../../Utils/imgcarousel.js';
+import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json'
 import quizzesData from '../Quizzes/Data/problemsolvingquiz.json';
 import ModalsdeductionExplanation from '../../Components/GrammarExplanationComps/modalsdeductionexplanation.js';
 import ModalsdeductionExercises from '../../Components/GrammarExerciseComps/modalsdeductionexercisescomp.js';
@@ -38,6 +39,13 @@ const Problemsolving = () => {
             <div className="agenda-container">
                 <div className="agenda-title">
                     <h1 className="mt-2">Problem Solving</h1>
+                </div>
+
+                <div className="agenda-subtitle">Warmer</div>
+
+                <div>
+                
+                <ImageCarousel data={carouselData} topic="problemsolving" />
                 </div>
 
                 <div className="agenda-subtitle">Language Point</div>
@@ -73,7 +81,6 @@ const Problemsolving = () => {
                 <div className="agenda-display-grid">
                     <VocabularyMatch data={vocabData} topic="problemsolving" />
                     </div>
-                    <Quiz quizzesData={quizzesData} /> 
                     
                     </div>
                 

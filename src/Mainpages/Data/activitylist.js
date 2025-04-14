@@ -6,7 +6,7 @@ module.exports = [
       "level": "A1",
       "time": "15 min",
       "description": "Exercises to practice the verb 'to be' in the present",
-      "image": "/Images/simple-present-card2.jpg"
+      "image": "/Images/be-present.jpg"
     },
     {
       "id": "to-be-past",
@@ -15,7 +15,7 @@ module.exports = [
       "level": "A1",
       "time": "45 min",
       "description": "Exercises to practice the verb 'to be' in the past",
-      "image": "/Images/simple-past-card1.jpg"
+      "image": "/Images/computerprogramming.jpg"
     },
     {
       "id": "simple-present",
@@ -42,7 +42,7 @@ module.exports = [
       "level": "A2",
       "time": "60 min",
       "description": "Exercises to practice the difference between the present continuous and the simple present tense",
-      "image": "/Images/argue4.webp"
+      "image": "/Images/pastcont.webp"
     },
     {
       "id": "past-continuous",
@@ -51,7 +51,7 @@ module.exports = [
       "level": "A2",
       "time": "60 min",
       "description": "Exercises to practice the past continuous tense",
-      "image": "/Images/watchingsports3.jpg"
+      "image": "/Images/javacoursepng.png"
     },
     {
       "id": "simple-past",
@@ -78,7 +78,7 @@ module.exports = [
       "level": "B1",
       "time": "60 min",
       "description": "Set and discuss New Year's resolutions while practicing future plans.",
-      "image": "/Images/newyearsresolution.jpg"
+      "image": "/Images/presperf.png "
     },
     {
       "id": "perfect-past",
@@ -323,6 +323,51 @@ module.exports = [
         "description": "Differnt forms of the same word.",
         "image": "/Images/introlesson.jpg"
       },
+      {
+        "id": "collocations",
+        "title": "Collocations",
+        "category": "vocabulary-exercises",
+        "level": "B2",
+        "time": "60 min",
+        "description": "Words that always go together.",
+        "image": "/Images/introlesson.jpg"
+      },
+      {
+        "id": "idioms",
+        "title": "Idioms",
+        "category": "vocabulary-exercises",
+        "level": "B2",
+        "time": "60 min",
+        "description": "Large collection of idioms sorted by category.",
+        "image": "/Images/introlesson.jpg"
+      },
+      {
+        "id": "linking-words",
+        "title": "Linking Words",
+        "category": "vocabulary-exercises",
+        "level": "B2",
+        "time": "60 min",
+        "description": "Words that join ideas.",
+        "image": "/Images/introlesson.jpg"
+      },
+      {
+        "id": "phrasal-verbs",
+        "title": "Phrasal Verbs",
+        "category": "vocabulary-exercises",
+        "level": "B2",
+        "time": "60 min",
+        "description": "Large collection of phrasal verbs sorted by category.",
+        "image": "/Images/introlesson.jpg"
+      },
+      {
+        "id": "dependent-prepositions",
+        "title": "Dependent Prepositions",
+        "category": "vocabulary-exercises",
+        "level": "B2",
+        "time": "60 min",
+        "description": "Prepositions that always go with certain verbs.",
+        "image": "/Images/introlesson.jpg"
+      },
     
         {
           "id": "reading1",
@@ -340,6 +385,267 @@ module.exports = [
           "level": "B2",
           "time": "60 min",
           "description": "Another reading for comprehension practice.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading3",
+          "title": "Talking About Your Children",
+          "category": "reading-exercises",
+          "level": "A2",
+          "time": "60 min",
+          "description": "A conversation focused on discussing children and parenting.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading4",
+          "title": "A Meeting with a Boss",
+          "category": "reading-exercises",
+          "level": "A2",
+          "time": "60 min",
+          "description": "A reading about an employee meeting with their boss.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading5",
+          "title": "A Meeting with a Distributor",
+          "category": "reading-exercises",
+          "level": "A2",
+          "time": "60 min",
+          "description": "A business meeting between a company and a distributor.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading6",
+          "title": "Following Up on an Order",
+          "category": "reading-exercises",
+          "level": "B1",
+          "time": "60 min",
+          "description": "A conversation about checking the status of a recent order.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading7",
+          "title": "Quarterly Sales Review",
+          "category": "reading-exercises",
+          "level": "B1",
+          "time": "60 min",
+          "description": "A business review discussing sales figures from the last quarter.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading8",
+          "title": "Caffeine: The Workplace Drug of Choice",
+          "category": "reading-exercises",
+          "level": "B2",
+          "time": "60 min",
+          "description": "An article exploring caffeine consumption and its role in office culture.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading9",
+          "title": "Plans Are Stupid",
+          "category": "reading-exercises",
+          "level": "B2",
+          "time": "60 min",
+          "description": "A reading that challenges the value of detailed plans in fast-paced work environments.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading10",
+          "title": "Resolutions",
+          "category": "reading-exercises",
+          "level": "B2",
+          "time": "60 min",
+          "description": "A discussion on personal and professional New Year’s resolutions.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading11",
+          "title": "Pets",
+          "category": "reading-exercises",
+          "level": "B2",
+          "time": "60 min",
+          "description": "A text exploring the role of pets in people's lives and work-from-home culture.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading12",
+          "title": "Breaking Bad Habits",
+          "category": "reading-exercises",
+          "level": "B2",
+          "time": "60 min",
+          "description": "Strategies and challenges related to overcoming workplace and personal habits.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading13",
+          "title": "Chat Productivity",
+          "category": "reading-exercises",
+          "level": "B2",
+          "time": "60 min",
+          "description": "An article discussing how workplace chat tools impact productivity.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading14",
+          "title": "App Fatigue",
+          "category": "reading-exercises",
+          "level": "B2",
+          "time": "60 min",
+          "description": "Exploring the downsides of using too many productivity and communication apps.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading15",
+          "title": "Self Service Society",
+          "category": "reading-exercises",
+          "level": "B2",
+          "time": "60 min",
+          "description": "A reading about how automation and self-service are changing consumer behavior.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading16",
+          "title": "Self Service Checkout Reddit",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A Reddit discussion analyzing the pros and cons of self-service checkouts.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading17",
+          "title": "Types of People in Tech",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "An exploration of common personality types found in the tech industry.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading18",
+          "title": "Types of Developers",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A lighthearted yet insightful look at different developer archetypes.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading19",
+          "title": "Planned Obsolescence and the Quality of Goods",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A critical examination of how products are intentionally designed to have a limited lifespan.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading20",
+          "title": "Too Many Choices: A Problem That Can Paralyze",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A reading on how excessive choices can lead to stress and indecision.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading21",
+          "title": "Are Dogs Smarter Than Cats? Science Has an Answer",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A scientific look at the intelligence of dogs vs. cats.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading22",
+          "title": "Recommended Steps per Day by Age",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A health-focused article breaking down ideal daily step counts across age groups.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading23",
+          "title": "Neighbor Issues",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "Common problems people face with their neighbors and possible solutions.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading24",
+          "title": "Utensils Around the World",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "An article on cultural differences in eating utensils and traditions.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading25",
+          "title": "Stereotypes About Tech Workers",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A critical look at the common stereotypes surrounding tech professionals.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading26",
+          "title": "Neighbor Conflicts and Etiquette",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "How to handle and avoid conflicts with neighbors through etiquette and communication.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading27",
+          "title": "Plane Crashes: Perception vs. Reality",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A comparison between public perception and actual statistics about air travel safety.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading28",
+          "title": "Sports Hate",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A discussion about rivalries and why some fans love to hate certain teams.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading29",
+          "title": "Extreme Weather Experiences",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "Personal stories and reflections on living through extreme weather events.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading30",
+          "title": "Education",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "An analytical look at global education systems and training in the workplace.",
+          "image": "/Images/smartphone2.jpg"
+        },
+        {
+          "id": "reading31",
+          "title": "Changing Food Culture",
+          "category": "reading-exercises",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A reading on how modern life and globalization are transforming eating habits.",
           "image": "/Images/smartphone2.jpg"
         },
       {

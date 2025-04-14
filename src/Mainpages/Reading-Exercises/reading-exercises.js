@@ -4,7 +4,7 @@ import Breadcrumb from "../../Components/Breadcrumb";
 import Sidebar from "../../Components/Sidebar";
 import reading from "../../Images/reading1-1280x470.jpg";
 import ReadingMenu from "../../Components/Menus/ReadingMenu";
-import readingcomp from "../Reading-Exercises/Data/readingcomp.json";
+import readingcomp from "./Data/readingcomp";
 
 const Readingexercises = () => {
     

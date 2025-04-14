@@ -9,7 +9,7 @@ import '../../CSS/lesson-agenda.css';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
 import videoData from '../Listening-Exercises/Data/video.json';
-import readingcompData from '../Reading-Exercises/Data/readingcomp.json';
+import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import Futureexcomp from '../../Components/GrammarExerciseComps/futureexercisecomp.js';
 import FutureExplanation from '../../Components/GrammarExplanationComps/futureexplanation.js';

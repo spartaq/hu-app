@@ -2,12 +2,16 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 import SEO from '../../Components/SEO';
-import Readingcomp from './Data/readingcomp.json';
+import Readingcomp from './Data/readingcomp';
 import ReadingMenu from '../../Components/Menus/ReadingMenu';
 import Breadcrumbs from '../../Components/Breadcrumb';
 import Sidebar from '../../Components/Sidebar';
 import '../../CSS/skills.css';
 import { addTooltipsToText } from '../../Utils/tooltipUtils';
+import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
+import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
+import { FaAngleDown } from 'react-icons/fa';
+
 
 const ReadingComp1 = () => {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -98,6 +102,12 @@ const ReadingComp1 = () => {
         });
     };
 
+    const [isGridVisible, setIsGridVisible] = useState(true);
+    
+      const toggleGridVisibility = () => {
+        setIsGridVisible((prev) => !prev);
+      };
+
     const [showVocab, setShowVocab] = useState(false);
 
     const toggleVocab = () => {
@@ -128,6 +138,8 @@ const ReadingComp1 = () => {
         return <div>Loading...</div>;
     }
 
+      
+
     return (
         <div>
             <SEO
@@ -139,24 +151,18 @@ const ReadingComp1 = () => {
             <Breadcrumbs />
             <div className="home-container">
                 <div className="introtext">
-                    <h3 className="mt-2">Reading Comprehension {currentReading + 1}</h3>
+                    <h3 className="mt-2">{readings[currentReading]?.readingcompTitle}</h3>
+                    <img src={readings[currentReading]?.image} alt={readings[currentReading]?.readingcompTitle} className="topics-image" />
                     <div className="details">
                         <span className="level">Level: {readings[currentReading]?.level}</span>
                         <span className="topic">Topic: {readings[currentReading]?.topic}</span>
                     </div>
-
-                    <p>Here is a collection of readings similar to test readings. Scroll through all the texts or choose a topic to find just those; this can also be scrolled.</p>
                 </div>
             </div>
             
             <div className="grammar-container">
                 <div className="exercises-container">
-                    <div className="exercisectrl">
-                        <button className="checkbtn" onClick={toggleTopicMenu}>☰ Topics</button>
-                        <button type="button" className='checkbtn' onClick={toggleVocab}>Vocabulary</button>                        
-                        <button type="button" className="checkbtn" onClick={handlePrevReading}><i className="fas fa-arrow-left"></i></button>
-                        <button type="button" className="checkbtn" onClick={handleNextReading}><i className="fas fa-arrow-right"></i></button>
-                    </div>
+                    
 
                     {showVocab && (
                         <div className="overlay" onClick={closeVocab}>
@@ -175,21 +181,19 @@ const ReadingComp1 = () => {
                             </div>
                         </div>
                     )}
+                        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
 
-                    <div ref={topicMenuRef} className={`skills-topic-menu ${isTopicMenuOpen ? 'open' : ''}`}>
-                        <div className="topic-buttons">
-                            <button className="flashbtn" onClick={() => handleTopicChange('all')}>All</button>
-                            <button className="flashbtn" onClick={() => handleTopicChange('daily')}>Daily Life and Activities</button>
-                            <button className="flashbtn" onClick={() => handleTopicChange('Holidays and Travel')}>Holidays and Travel</button>
-                            <button className="flashbtn" onClick={() => handleTopicChange('money')}>Money</button>
-                            <button className="flashbtn" onClick={() => handleTopicChange('food')}>Food</button>
-                        </div>
-                    </div>
+                        {isGridVisible ? 'Hide' : 'Vocabulary'}<FaAngleDown /></div>
 
+
+                        {isGridVisible && (
+                            <div className="grammar-display-grid">
+                            <VocabularyMatch data={vocabData} topic="education" />
+                            </div>
+                        )}
+                        <div className="showagendagrammarbox">Reading</div>
                     <form className="readingform" onSubmit={handleSubmit}>
-                        <div className="instructions">Choose the best answer for each question</div>
-                        <div>
-                            <div className="question-container"><h2>{readings[currentReading]?.readingcompTitle}</h2></div>
+                        <div className="reading-text">
                             {readings[currentReading]?.paragraphs.map((paragraph, index) => (
                                 <div key={index} dangerouslySetInnerHTML={{
                                     __html: addTooltipsToText(paragraph.text, readings[currentReading]?.vocabulary),
@@ -222,13 +226,24 @@ const ReadingComp1 = () => {
                                 ))}
                             </Carousel>
                         </div>
-                        <div className="filterctrl">
-                            <button type="submit" className="checkbtn">Check Answers</button>                        
-                            <button type="button" className="checkbtn" onClick={handlePrevReading}><i className="fas fa-arrow-left"></i></button>
-                            <button type="button" className="checkbtn" onClick={handleNextReading}><i className="fas fa-arrow-right"></i></button>
-                        </div>
+                        <div className="exercisectrl">
+                        <button className="checkbtn" onClick={toggleTopicMenu}>☰ Topics</button>
+                        <button type="button" className='checkbtn' onClick={toggleVocab}>Vocabulary</button>                        
+                        <button type="button" className="checkbtn" onClick={handlePrevReading}><i className="fas fa-arrow-left"></i></button>
+                        <button type="button" className="checkbtn" onClick={handleNextReading}><i className="fas fa-arrow-right"></i></button>
+                    </div>
                     </form>
                 </div>
+
+                <div ref={topicMenuRef} className={`skills-topic-menu ${isTopicMenuOpen ? 'open' : ''}`}>
+                        <div className="topic-buttons">
+                            <button className="flashbtn" onClick={() => handleTopicChange('all')}>All</button>
+                            <button className="flashbtn" onClick={() => handleTopicChange('daily')}>Daily Life and Activities</button>
+                            <button className="flashbtn" onClick={() => handleTopicChange('Holidays and Travel')}>Holidays and Travel</button>
+                            <button className="flashbtn" onClick={() => handleTopicChange('money')}>Money</button>
+                            <button className="flashbtn" onClick={() => handleTopicChange('food')}>Food</button>
+                        </div>
+                    </div>
 
                 <div className="gmenu"><ReadingMenu /></div>
                 <div><Sidebar /></div>

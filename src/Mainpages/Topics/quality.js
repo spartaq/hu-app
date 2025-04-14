@@ -9,7 +9,7 @@ import SEO from '../../Components/SEO.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
 import videoData from '../Listening-Exercises/Data/video.json';
-import readingcompData from '../Reading-Exercises/Data/readingcomp.json';
+import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import ComparisonExplanation from '../../Components/GrammarExplanationComps/comparisonsexplanation.js';

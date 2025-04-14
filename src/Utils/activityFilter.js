@@ -3,7 +3,7 @@ import Checkbox from "rc-checkbox";
 import { Link } from "react-router-dom";
 import { FaClock, FaBook, FaGraduationCap } from "react-icons/fa";
 import topics from "../Mainpages/Data/activitylist.js";
-import readingData from "../Mainpages/Reading-Exercises/Data/readingcomp.json";
+import readingData from "../Mainpages/Reading-Exercises/Data/readingcomp.js";
 import videoData from "../Mainpages/Listening-Exercises/Data/video.json";
 
 const ActivityFilter = ({ setFilters = () => {} }) => { 

@@ -1,9 +1,10 @@
-[
+module.exports = [
   {
     "readingcompTitle": "Air Traffic Delays",
     "topic": "business",
     "level": "b2",
-    "vocabulary": [
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [
       "disruption - break in service",
       "saturated - filled to capacity",
       "forecast - prediction",
@@ -537,6 +538,7 @@
   "readingcompTitle": "Following Up on an Order",
   "topic": "business conversation",
   "level": "b1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
     "order - rendelés",
     "delivery - kiszállítás",
@@ -625,6 +627,7 @@
   "readingcompTitle": "Quarterly Sales Review",
   "topic": "business discussion",
   "level": "b1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
       "quarter - negyedév",
       "results - eredmény",
@@ -706,7 +709,8 @@
     "readingcompTitle": "Caffeine: The Workplace Drug of Choice",
     "topic": "Food",
     "level": "b2",
-    "vocabulary": [
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [
       "stimulant - élénkítőszer",
       "reduce - csökkent",
       "nervousness - idegesség",
@@ -798,7 +802,8 @@
     "readingcompTitle": "Plans Are Stupid",
     "topic": "General",
     "level": "b2",
-    "vocabulary": [
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [
       "encountered - met",
       "procrastinate - to delay doing something",
       "consequences - results of an action or decision",
@@ -814,8 +819,8 @@
       ],
     "paragraphs": [
       {
-        "text": "<p>Do you make plans? Do you think plans are stupid? I have known many who do.</p><p>As a teacher, parent and friend, I have encountered many who think that plans are unnecessary or just, plain stupid. Of course, most of the people who say plans are stupid are not talking about plans for everyday routine items, such as getting dressed, preparing meals, etc. No, they are saying that planning your life is useless.</p><p>Why plan when you don’t have any real control over life? Why plan when things never really turn out like you planned? I’ll admit that in my own life, things never turn out exactly like I plan them. So why plan?</p><p>What do I do that never works out? Well, I plan by making a goal, breaking it down into “pieces of action,” all designed to help me accomplish my goal over an estimated amount of time. And, then? Well, to put it bluntly, it doesn’t happen. So why plan?</p><p>What really happened with my goal and/or plan? Usually, when I accomplish my “much adjusted goal” and look back, I notice that some things took longer, some shorter, and frankly, some were not completed and didn’t need to be. So, why have a plan?</p><p>A plan is still important because, in my opinion, I would not have reached my goal, if I hadn’t made the plan. It’s almost like the saying, “rules are made to be broken.” In one sense, of course rules are not made to be broken, but in another sense, they are. What I mean is that most of the time, rules are made AND consequences are established at the same time. Why have consequences, if rules are not broken? In that sense, we have an example where plans (rules) are made to be broken.</p><p>So, we need to make plans even though they will not necessarily be played out as planned. Think of it as life itself. Your body seems to have a plan, but it never plays out as planned. Your body has a built-in plan of eat, sleep, exercise, etc., and then, for example, a cold virus sets it off-plan. The plan has to be adjusted in order to keep you living. You do so and life continues, BUT not as originally planned. Therefore, life has a plan but it never works out as originally planned. Wow!</p><p>Now, let me make clear that I am NOT saying we shouldn’t plan. I am saying that we should expect our plan to always be faulty. A plan, even if it is faulty, still allows us to achieve our goal. In fact, a plan helps us get started toward change.</p><p>One way of viewing life is as a series of changes. Life implies change. A plan can help us to not procrastinate. A plan can help us go in the direction we want to go. A plan can help us decide and be comfortable with a decision, especially when the situation requires a quick decision.</p><p>Why make plans? Perhaps, making plans actually improves one’s quality of life. Planning for quality? Uhmmmm…</p>"
-,
+        "text": "<p>Do you make plans? Do you think plans are stupid? I have known many who do.</p><p>As a teacher, parent and friend, I have encountered many who think that plans are unnecessary or just, plain stupid. Of course, most of the people who say plans are stupid are not talking about plans for everyday routine items, such as getting dressed, preparing meals, etc. No, they are saying that planning your life is useless.</p><p>Why plan when you don’t have any real control over life? Why plan when things never really turn out like you planned? I’ll admit that in my own life, things never turn out exactly like I plan them. So why plan?</p><p>What do I do that never works out? Well, I plan by making a goal, breaking it down into “pieces of action,” all designed to help me accomplish my goal over an estimated amount of time. And, then? Well, to put it bluntly, it doesn’t happen. So why plan?</p><p>What really happened with my goal and/or plan? Usually, when I accomplish my “much adjusted goal” and look back, I notice that some things took longer, some shorter, and frankly, some were not completed and didn’t need to be. So, why have a plan?</p><p>A plan is still important because, in my opinion, I would not have reached my goal, if I hadn’t made the plan. It’s almost like the saying, “rules are made to be broken.” In one sense, of course rules are not made to be broken, but in another sense, they are. What I mean is that most of the time, rules are made AND consequences are established at the same time. Why have consequences, if rules are not broken? In that sense, we have an example where plans (rules) are made to be broken.</p><p>So, we need to make plans even though they will not necessarily be played out as planned. Think of it as life itself. Your body seems to have a plan, but it never plays out as planned. Your body has a built-in plan of eat, sleep, exercise, etc., and then, for example, a cold virus sets it off-plan. The plan has to be adjusted in order to keep you living. You do so and life continues, BUT not as originally planned. Therefore, life has a plan but it never works out as originally planned. Wow!</p><p>Now, let me make clear that I am NOT saying we shouldn’t plan. I am saying that we should expect our plan to always be faulty. A plan, even if it is faulty, still allows us to achieve our goal. In fact, a plan helps us get started toward change.</p><p>One way of viewing life is as a series of changes. Life implies change. A plan can help us to not procrastinate. A plan can help us go in the direction we want to go. A plan can help us decide and be comfortable with a decision, especially when the situation requires a quick decision.</p><p>Why make plans? Perhaps, making plans actually improves one’s quality of life. Planning for quality? Uhmmmm…</p>",
+        
 "questions": [
     {
       "number": "1",
@@ -876,7 +881,8 @@
     "readingcompTitle": "Resolutions",
     "topic": "health",
     "level": "b2",
-    "vocabulary": [
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [
       "bite off more than you can chew - To take on more than you can handle.",
       "get back on track - To return to the correct course or direction.",
       "learn the ropes - To understand the basics of something.",
@@ -934,7 +940,8 @@
     "readingcompTitle": "Pets",
     "topic": "environment",
     "level": "b2",
-    "vocabulary": [
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [
     "recruitment - the process of finding people to work for a company",
     "retention - the ability to keep employees or customers",
     "ubiquitous - something that is present or found everywhere",
@@ -1015,7 +1022,8 @@
     "readingcompTitle": "Breaking Bad Habits",
     "topic": "Food",
     "level": "b2",
-    "vocabulary": [
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [
       "Brace yourself - get ready",
       "discomfort - small pain",
       "to do the trick - to make something happen",
@@ -1095,7 +1103,8 @@
     "readingcompTitle": "Chat Productivity",
     "topic": "Chat",
     "level": "b2",
-    "vocabulary": [
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [
    "ubiquity - the fact of appearing everywhere or being very common",
     "beneficial - good or helpful for something",
     "proponents - people who support or argue in favor of something",
@@ -1173,7 +1182,8 @@
     "readingcompTitle": "App Fatigue",
     "topic": "Chat Platforms",
     "level": "b2",
-    "vocabulary": [
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [
     "staggering - incredibly suprising",
     "rely on - use",
     "abundance - a large quantity",
@@ -1254,7 +1264,8 @@
     "readingcompTitle": "Self Sevice Society",
     "topic": "Automation",
     "level": "b2",
-    "vocabulary": [  
+  "image": "/Images/smartphone2.jpg",
+  "vocabulary": [  
       "substitute - to replace one thing with another",  
       "efficiency - the ability to achieve a goal with minimal waste or effort",  
       "innovative - introducing new ideas or methods",  
@@ -1275,6 +1286,7 @@
     "paragraphs": [
       {
       "text": "<h1>A rise in self-service technologies may cause a decline in our sense of community</h1><p>Automation, once hidden behind closed doors in factories, is increasingly moving into public view. Customers can pay for groceries or clothing at a self-checkout machine, order fast food from a touchscreen kiosk or even pickup coffee from a 'robo-café.' These technologies, which substitute human contact for robot-based interactions, are examples of self-service technologies — innovative public-facing automation which 'enable customers to perform entire services on their own without direct assistance from employees.' While self-service technologies have the potential to improve efficiency, reduce costs and improve user experience, these technologies raise complex economic and political questions.</p><h1>Politics and exposure</h1><p>Much has been written from an economic perspective about whether automation will eliminate jobs, decrease wages, contribute to job growth, or 'create as many jobs as it destroys over time.' However, less attention has been given to thinking about how these technologies will affect our politics. Whether these new technologies replace jobs, relegate existing positions to non-public facing roles or create new employment opportunities, they will result in us interacting with fewer people than we have historically. Experiences with strangers can shape how we define our community and politics. If we no longer encounter cashiers or fast food employees, many of whom are temporary foreign workers, will our beliefs about immigration policies or minimum wage change? What do bike couriers think about bike lanes? How does a dental office receptionist feel about universal dental care, or a corner store clerk about crime rates?</p><p>However fleeting, exposure to people outside of your own socio-demographic groups affect attitudes positively. Existing research demonstrates that 'actual face-to-face interaction…typically reduces intergroup prejudice.' Exposure effects are also related to how we position ourselves within the world when compared to others. For instance, a recent South African study showed that 'willingness to sign a petition that calls for higher taxes on the wealthy increases in the presence of a high-status car.' Just seeing a BMW 3-series car near the petitioner made people more likely to favour wealth redistributive policies. Another study shows that being the victim of a crime increases political participation: 'Rather than becoming withdrawn or disempowered, crime victims tend to become more engaged in civic and political life.' We shape our politics based, at least partially, on what and who we have been exposed to.</p><h1>Identity and social interaction</h1><p>We build our sense of civic identity and opinions about government through social interactions. Political scientist Robert D. Putnam, who has studied civic engagement since the 1960s, argues Americans are less engaged in politics than they used to be and are more isolated, spending less time with friends, family and neighbours. Our social capital — which Putnam defines as the overarching belief about society that facilitates co-operation — diminishes when we lose opportunities to engage with people outside of our regular social networks.</p><p>This decline in social capital can be traced to changes in work and society more generally. Society, in other words, is becoming increasingly individualistic. Public-facing automation may further diminish our social capital by decreasing our interactions with other people. As we pay for parking at parking machines, rent bowling shoes and lanes through an app, or order food from touchscreen kiosks, we interact less with the people who work these jobs.</p><h1>Exacerbates inequality</h1><p>The impact of public-facing automation on social inequality also requires further study. Self-service technologies, particularly in the food services industry, may exacerbate social inequalities by limiting job opportunities for certain groups, such as those with different educational backgrounds or already-marginalized communities. As public-facing automation shifts workers away from public view, wages which reflect professional skill and customer service expectations may disappear. In the grocery industry, for instance, we may see a widening pay gap between technicians hired to upkeep self-checkout machines and the employees hired to stock shelves. The effects of increasing public-facing automation may not be well understood for years. In the meantime, as we seek to better understand the intersection between technology and society, we should ask: how will our sense of community and our political preferences change when we interact less with the people who work the jobs that self-service technologies replace?</p>",
+    
   
  "questions": [  
   {  
@@ -1370,6 +1382,7 @@
   {
     "readingcompTitle": "Types of People in Tech",
     "topic": "Technology",
+    "image": "/Images/watchingsports4.jpg",
     "level": "c1",
     "vocabulary": [
       "eager - excited",
@@ -2113,6 +2126,7 @@
   "readingcompTitle": "Stereotypes About Tech Workers",
   "topic": "Workplace Culture in Tech",
   "level": "c1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
     "stereotype - a widely held but oversimplified idea about a group of people",
     "introverted - preferring to spend time alone rather than with others",
@@ -2191,6 +2205,7 @@
   "readingcompTitle": "Neighbor Conflicts and Etiquette",
   "topic": "Neighbors and Community Living",
   "level": "c1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
     "suburban - relating to a residential area outside a city",
     "small talk - casual conversation about unimportant topics",
@@ -2259,6 +2274,7 @@
   "readingcompTitle": "Plane Crashes: Perception vs. Reality",
   "topic": "Aviation Safety",
   "level": "c1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
     "wreckage - the remains of something that has been destroyed",
     "deceiving - like a lie",
@@ -2320,6 +2336,7 @@
   "readingcompTitle": "Sports Hate",
   "topic": "Sports",
   "level": "c1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
     "wreckage - the remains of something that has been destroyed"
   ],
@@ -2404,6 +2421,7 @@
   "readingcompTitle": "Extreme Weather Experiences",
   "topic": "Sports",
   "level": "c1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
     "huddled - in a sitting position, hiding from something",
     "peeked - looked just a little bit",
@@ -2439,6 +2457,7 @@
   "readingcompTitle": "Education",
   "topic": "Sports",
   "level": "c1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
     "evolve - change",
     "cited - said",
@@ -2469,6 +2488,7 @@
   "readingcompTitle": "Changing Food Culture",
   "topic": "Fast Food",
   "level": "c1",
+  "image": "/Images/smartphone2.jpg",
   "vocabulary": [
     "traditional - old school",
     "households - families living together",

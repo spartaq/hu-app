@@ -1,5 +1,125 @@
 [
   {
+    "text": "The dashboard is showing unusually high sales for last week.",
+    "prompt": "data error",
+    "answer": "It could be a data error. / It might have been a mistake during data entry.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The monthly report hasn’t been generated.",
+    "prompt": "automation failure",
+    "answer": "It must be an automation failure. / It could have been turned off accidentally.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Customer churn increased after the new pricing model.",
+    "prompt": "pricing issue",
+    "answer": "It might be due to the pricing issue. / It must have affected customer satisfaction.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The KPIs suddenly dropped this quarter.",
+    "prompt": "external factors",
+    "answer": "It could be due to external factors. / It might have been the market changes.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A data scientist can’t access the BI tool.",
+    "prompt": "permission issue",
+    "answer": "It must be a permission issue. / It could have been a recent update that reset roles.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The dashboard isn’t displaying the latest figures.",
+    "prompt": "data refresh failure",
+    "answer": "It might be a data refresh failure. / It could have failed during the last update.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "An executive misunderstood the trend shown in a chart.",
+    "prompt": "misleading visualization",
+    "answer": "It could be a misleading visualization. / The chart must have lacked context.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "There’s a sudden increase in website traffic from an unknown region.",
+    "prompt": "marketing campaign",
+    "answer": "It might be from a marketing campaign. / It could have been a recent social media push.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A metric on the dashboard doesn’t match the raw data.",
+    "prompt": "calculation error",
+    "answer": "It must be a calculation error. / Someone might have used the wrong formula.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "One of the datasets is missing from the warehouse.",
+    "prompt": "ETL process failure",
+    "answer": "It could be an ETL process failure. / It might have failed during extraction.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Stakeholders received inconsistent results from different reports.",
+    "prompt": "different data sources",
+    "answer": "It must be because of different data sources. / One report might be outdated.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The sales forecast was way off last quarter.",
+    "prompt": "incomplete data",
+    "answer": "It could be due to incomplete data. / The model might have missed recent trends.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A visualization is taking too long to load.",
+    "prompt": "too much data",
+    "answer": "It must be trying to process too much data. / It might not be optimized for performance.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "There’s a spike in reported anomalies in customer behavior.",
+    "prompt": "system update",
+    "answer": "It might be due to a recent system update. / It could have affected user experience.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A user is seeing outdated data on their report.",
+    "prompt": "cached version",
+    "answer": "It could be a cached version. / The browser might not have refreshed properly.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A report was sent to the wrong department.",
+    "prompt": "distribution rule error",
+    "answer": "It must be a distribution rule error. / Someone might have misconfigured the settings.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The data export resulted in incomplete rows.",
+    "prompt": "formatting issue",
+    "answer": "It might be a formatting issue. / It could have been a delimiter problem.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The model predicted a dip in sales, but sales increased instead.",
+    "prompt": "model inaccuracy",
+    "answer": "It must be model inaccuracy. / The model might not have accounted for recent trends.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A BI tool crashed during a presentation.",
+    "prompt": "system overload",
+    "answer": "It could be due to system overload. / It might have been too many users at once.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A visualization is not showing some regions on the map.",
+    "prompt": "missing geographic data",
+    "answer": "It might be missing geographic data. / It could have failed to load location metadata.",
+    "topic": "problemsolving"
+  },
+  {
     "text": "A website isn’t loading, but other websites work fine.",
     "prompt": "server issue",
     "answer": "It must be a server issue. / It might be a problem with the specific website."

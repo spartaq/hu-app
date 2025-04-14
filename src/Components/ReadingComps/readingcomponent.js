@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
-import Readingcomp from '../../Mainpages/Reading-Exercises/Data/readingcomp.json';
+import Readingcomp from '../../Mainpages/Reading-Exercises/Data/readingcomp';
 import '../../CSS/skills.css';
 import { addTooltipsToText } from '../../Utils/tooltipUtils';
 

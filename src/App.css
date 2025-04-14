@@ -450,7 +450,7 @@ header, footer {
   width: 100%;
   border-radius: 5px;
   background-color: transparent;
-  margin: 0px 0px;
+  margin: auto;
   padding: 0 20px;
   /*height: 750px;*/
 }
@@ -574,6 +574,7 @@ header, footer {
   padding: 10px;*/
   width: 100%;
   margin-bottom: 35px;
+  background-color: whitesmoke;
 }
 
 .grammar-display-grid h5 {
@@ -1085,11 +1086,9 @@ input[type="range"] {
   font-size: small;
 }
 
-.check-answers-button {
-  color: orangered;
-  padding: 5px;
-  border-radius: 10px;
-  margin: 10px 300px 20px 300px;
+.checkbtn:hover {
+  background-color: orangered;
+  color: white;
 }
 
 
@@ -1107,8 +1106,17 @@ input[type="range"] {
 }
 
 .check-button:hover {
-  background-color: #e64a19; /* Hover color */
+  background-color: white; 
+  color: #ff5722;
 }
+
+.check-answers-button {
+  color: orangered;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px 300px 20px 300px;
+}
+
 
 .circle {
   display: inline-block;
@@ -1787,11 +1795,11 @@ input[type="range"] {
 .topics-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 12px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   color: black;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -1806,7 +1814,7 @@ input[type="range"] {
 
 .topics-image {
   width: 100%;
-  height: 250px;
+  height: 170px;
   object-fit: fill;
   border-radius: 8px;
 }
@@ -1815,9 +1823,10 @@ input[type="range"] {
   font-size: 1.25rem;
   font-weight: bold;
   margin: 10px 0;
+  padding: 9px 10px;  
   color: white;
   background-color: lightseagreen;
-  border-radius: 5px;
+  border-radius: 1px;
   width: 100%;
 }
 
@@ -1850,11 +1859,12 @@ input[type="range"] {
   background-color: white;
   color: orangered;
   border: orangered solid 1px;
-  padding: 8px 15px;
+  padding: 5px 15px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s ease;
+  width: 54%;
 }
 
 .topics-button:hover {
@@ -1911,8 +1921,20 @@ input[type="range"] {
   display: block;
 }
 
+
+
 .readingform {
-  padding: 0 150px;
+  padding: 30px 30px;
+  background-color: whitesmoke;
+}
+
+.reading-text {
+  margin: 0 auto;
+  padding: 50px 30px;
+  background-color: white;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 1.2rem;
 }
 
 .reading-title {
@@ -1922,6 +1944,12 @@ input[type="range"] {
 .reading-title h1 {
   font-size: 2em;
 }
+
+@media (max-width: 990px) {
+  .readingform {
+    padding: 0 0;
+  }
+}  
 
 /*============================filter container========================*/
 

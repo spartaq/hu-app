@@ -48,10 +48,12 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
-  padding: 5px;  
-  background-color: orangered;
-  border-radius: 5px;
+  padding: 25px 15px;  
+  background-color: rgba(255, 68, 0, 0.544);
+  border-radius: 1px;
+  font-size: 1.5em;
   color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
   .agendagrammar { /*this is the container for the grammar box part of the main grammar pages, not the topics pages*/
@@ -83,9 +85,9 @@ font-size: 1.5em;
 
   .categories-container {
     margin:auto;
-    background-color: transparent;
+    background-color: whitesmoke;
     /*width:66vw;*/    
-    flex-wrap:nowrap
+    flex-wrap:wrap
   }
 
   .languagepoint-container {
@@ -322,7 +324,7 @@ font-size: 1.5em;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
-  background-color: white;
+  background-color: whitesmoke;
   padding: 10px;
   border: 1px solid #ddd;
   align-items: center;
@@ -353,7 +355,7 @@ font-size: 1.5em;
     height: auto;
     margin:auto;
     overflow: auto;
-    width:50%;
+    width:100%;
     background-color: white;
     gap: 40px;
     font-size: 18px;
@@ -384,6 +386,7 @@ font-size: 1.5em;
     background-color: lightsalmon;
     text-align: center;
     color: black;
+    padding: 30px;
   }
   
   .droppable-definition.matched {

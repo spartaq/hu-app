@@ -47,7 +47,7 @@ import Audio from './Mainpages/Listening-Exercises/Audio';
 import WritingExercises from './Mainpages/Writing-Exercises/writing-exercises';
 import Writing1 from './Mainpages/Writing-Exercises/Writing1';
 import VocabularyExercises from './Mainpages/Vocabulary-Exercises/vocabulary-exercises';
-import Collocations1 from './Mainpages/Vocabulary-Exercises/Collocations1';
+import Collocations from './Mainpages/Vocabulary-Exercises/collocations';
 import WordForms from './Mainpages/Vocabulary-Exercises/word-forms';
 import PhrasalVerbs from './Mainpages/Vocabulary-Exercises/phrasal-verbs';
 import LinkingWords from './Mainpages/Vocabulary-Exercises/linking-words';
@@ -489,8 +489,8 @@ const router = createBrowserRouter([
             element: <VocabularyExercises />,
           },
           {
-            path: 'vocabulary-exercises/collocations1',
-            element: <Collocations1 />,
+            path: 'vocabulary-exercises/collocations',
+            element: <Collocations />,
           },
           {
             path: 'vocabulary-exercises/phrasal-verbs',

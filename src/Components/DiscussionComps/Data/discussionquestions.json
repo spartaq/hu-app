@@ -1895,7 +1895,8 @@
   {
     "text": "Have you seen any positive environmental changes in your community? What happened, and who was responsible?",
     "topic": "sustainability"
-  },  {
+  },  
+  {
     "text": "Have you ever experienced a major tech issue at work or in your personal life? What might have gone wrong, and how do you think it could have been prevented?",
     "topic": "problemsolving"
   },
@@ -1916,15 +1917,39 @@
     "topic": "problemsolving"
   },
   {
-    "text": "What role do you think teamwork plays in solving technical problems in the workplace? Can you share an example?",
+    "text": "Can you describe a time when a BI dashboard or report gave misleading information? What might have caused the problem, and how was it solved?",
     "topic": "problemsolving"
   },
   {
-    "text": "How do you prioritize which problems to solve first when faced with multiple tech issues at once?",
+    "text": "What steps do you usually take when a report or visualization is showing unexpected results?",
     "topic": "problemsolving"
   },
   {
-    "text": "What do you think is more important when solving a tech problem: speed or accuracy? Why?",
+    "text": "Have you ever encountered missing or inaccurate data in a BI system? What could be the root causes of such issues?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What strategies do you think are most effective for identifying the source of data inconsistencies in business reports?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "In your experience, how can collaboration between departments help solve BI-related issues faster?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What role does documentation play in solving BI tool or data pipeline problems?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever had to make a business decision based on incomplete or delayed data? How did you handle it?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What are some common causes of BI dashboard performance issues, and how might they be resolved?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What preventive measures can companies take to avoid recurring BI system failures?",
     "topic": "problemsolving"
   },
   {
@@ -1932,43 +1957,11 @@
     "topic": "problemsolving"
   },
   {
-    "text": "When faced with a difficult problem, do you prefer to work alone or collaborate with others to find a solution? Why?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Imagine you are part of a team responsible for fixing a major outage. What steps do you think must be taken to figure out what might have happened and who might have been responsible?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Do you think it’s possible that a company might overlook a security vulnerability on purpose to save time or money? Why or why not?",
-    "topic": "problemsolving"
-  },
-  {
     "text": "What steps should a company take if they suspect they are responsible for causing a tech issue that affects customers?",
     "topic": "problemsolving"
   },
   {
-    "text": "Can you think of any situations where a quick fix might cause bigger problems later? What might have been a better approach?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "In your opinion, how much blame should be placed on the developers vs. how much should be on the management or process failures when there is a bug that causes financial loss?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Think about any major tech problems you’ve had. Could you have done anything differently to prevent it from happening in the first place?",
-    "topic": "problemsolving"
-  },
-  {
     "text": "Do you think AI or automation could help prevent issues that can cause incidents? What role could technology play in improving problem-solving?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What role do you think communication plays in solving or not solving a problem? How important is communication during a crisis?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What’s your opinion on how quickly companies should fix problems in customer-facing systems? Do you think speed sometimes compromises the quality of the fix?",
     "topic": "problemsolving"
   },
   {

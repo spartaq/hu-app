@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
+import Breadcrumbs from '../../Components/Breadcrumb.js';
+import SEO from '../../Components/SEO.js';
 import VocabularyMenu from '../../Components/Menus/VocabularyMenu.js';
-import Sidebar from '../../Components/Sidebar';
+import Sidebar from '../../Components/Sidebar.js';
 import VocabularyExercises from '../../Components/VocabularyExerciseComps/collocationsexercisescomp.js';
-import VocabularyExplanation from '../../Components/VocabularyListComps/collocationsexplanation';
+import VocabularyExplanation from '../../Components/VocabularyListComps/collocationsexplanation.js';
 
 
-const Collocations1 = () => {
+const Collocations = () => {
   
   const [isGridVisible, setIsGridVisible] = useState(true);
 
@@ -63,4 +63,4 @@ const Collocations1 = () => {
   );
 };
 
-export default Collocations1;
+export default Collocations;
