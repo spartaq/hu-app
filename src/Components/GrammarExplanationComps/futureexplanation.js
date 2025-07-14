@@ -1,75 +1,47 @@
 import React from 'react';
 
-
 const FutureExplanation = () => {
+  return (
+    <div className="grammar-explanation">
+      <h2>Future Simple</h2>
 
-    return (
-        <div>
+      <div className="grammar-flex-table">
+        {[
+          ['Affirmative', 'Negative', 'Question'],
+          ['I will', "I will not (won't)", 'Will I?'],
+          ['You will', "You will not (won't)", 'Will you?'],
+          ['He will', "He will not (won't)", 'Will he?'],
+          ['She will', "She will not (won't)", 'Will she?'],
+          ['It will', "It will not (won't)", 'Will it?'],
+          ['We will', "We will not (won't)", 'Will we?'],
+          ['They will', "They will not (won't)", 'Will they?'],
+        ].map(([affirmative, negative, question], index) => (
+          <div key={index} className={`grammar-flex-row${index === 0 ? ' header' : ''}`}>
+            <div className="grammar-cell">{affirmative}</div>
+            <div className="grammar-cell">{negative}</div>
+            <div className="grammar-cell">{question}</div>
+          </div>
+        ))}
+      </div>
 
-<div>
-                            <div className="agendagrammar">
-                            <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left", border: "1px solid black" }}>
-            <thead>
-                <tr style={{ backgroundColor: "#f2f2f2" }}>
-                    <th style={{ border: "1px solid black", padding: "8px" }}>Type</th>
-                    <th style={{ border: "1px solid black", padding: "8px" }}>Subject</th>
-                    <th style={{ border: "1px solid black", padding: "8px" }}>Will</th>
-                    <th style={{ border: "1px solid black", padding: "8px" }}>Base Verb</th>
-                    <th style={{ border: "1px solid black", padding: "8px" }}>Object / Rest of Sentence</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>Positive</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>I / You / He / She / It / We / They</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>will</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>work</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>tomorrow.</td>
-                </tr>
-                <tr>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>Negative</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>I / You / He / She / It / We / They</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>will not (won’t)</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>work</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>tomorrow.</td>
-                </tr>
-                <tr>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>Yes/No Question</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>—</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>Will</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>I / you / he / she / it / we / they</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>work tomorrow?</td>
-                </tr>
-                <tr>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>Wh- Question</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>What</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>will</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>I / you / he / she / it / we / they</td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>do tomorrow?</td>
-                </tr>
-            </tbody>
-        </table>
+      <hr />
 
-
-                            <hr></hr>
-                        <p>going to do - plans (informal)</p>
-                        <p>about to do - will happen very soon and no time phrase can be added </p>
-                        <p>thinking of doing</p>
-                        <p>plan to do</p>
-                        <p>planning to do</p>
-                        <p>plan on doing</p>
-                        <p>planning on doing</p>
-
-
-                                     </div>
-                                    
-                                </div>
-
-        
-        
-        
-        </div>
-);
+      <div className="future-explanation">
+        <p>
+          There are different ways to talk about the future in English besides using <strong>will</strong>. Here are some common expressions to describe plans, intentions, or things that are about to happen:
+        </p>
+        <ul className="future-list">
+          <li><strong>going to do</strong> – used for plans and intentions (informal)</li>
+          <li><strong>about to do</strong> – something will happen very soon (no time phrase needed)</li>
+          <li><strong>thinking of doing</strong> – considering an action</li>
+          <li><strong>plan to do</strong> – intention or arrangement</li>
+          <li><strong>planning to do</strong> – similar to plan to do, but emphasizes the ongoing process</li>
+          <li><strong>plan on doing</strong> – to expect or intend</li>
+          <li><strong>planning on doing</strong> – similar to plan on doing, emphasizing intention</li>
+        </ul>
+      </div>
+    </div>
+  );
 };
 
 export default FutureExplanation;

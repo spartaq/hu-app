@@ -14,7 +14,7 @@ const Questions = ({
   const correctAnswer = question.answer.split(" - ")[0]; // Extract "True" or "False"
 
   return (
-    <div className="container mt-3 bg-light">
+    <div className="container mt-3">
       <div className="card-body">
         <p className="mt-2 text-warning">
           Time remaining: {timer}

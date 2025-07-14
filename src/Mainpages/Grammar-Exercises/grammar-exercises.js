@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../../Components/SEO';
-import Sidebar from '../../Components/Sidebar';
 import Breadcrumb from '../../Components/Breadcrumb';
 import grammar from '../../Images/grammar4-1280x470.jpg';
 
@@ -37,7 +36,7 @@ const Grammarexercises = () => {
 									  <p>Vocabulary exercises, flashcards and quizzes to help you improve and have greater success on exams.</p>
 									  <div class="linkbox-items-body">
 									  <div class="linkbox-items-body-content">
-									  <Link to="/grammar-exercises/to-be">
+									  <Link to="/grammar-exercises/to-be-present">
 									  <span><span className="label label-a1">A1</span> To Be: Am, Is, Are</span></Link>
 										<i class="fa fa-angle-right"></i>
 									  </div>
@@ -111,10 +110,10 @@ const Grammarexercises = () => {
 										<li><Link to="/grammar-exercises/indirect-speech"><span className="label label-b2">B2</span> Indirect Speech</Link></li>
 									  <li><Link to="/grammar-exercises/passive"><span className="label label-b2">B2</span> Passive</Link></li>
 									  <li><Link to="/grammar-exercises/passivebeing"><span className="label label-b2">B2</span> Passive being</Link></li>
-									  <li><Link to="/grammar-exercises/modals-obligation"><span className="label label-c1">C1</span> Modals Obligation</Link></li>
-									  <li><Link to="/grammar-exercises/modals-deduction"><span className="label label-c1">C1</span> Modals Deduction</Link></li>
 									  <li><Link to="/grammar-exercises/sense-verbs"><span className="label label-b2">B2</span> Sense Verbs</Link></li>
 									  <li><Link to="/grammar-exercises/ed-ing"><span className="label label-b2">B2</span> Ed or Ing</Link></li>
+									  <li><Link to="/grammar-exercises/modals-obligation"><span className="label label-c1">C1</span> Modals Obligation</Link></li>
+									  <li><Link to="/grammar-exercises/modals-deduction"><span className="label label-c1">C1</span> Modals Deduction</Link></li>
 									  <li><Link to="/grammar-exercises/reported-speech"><span className="label label-c1">C1</span> Reported Speech</Link></li>
 									  <li><Link to="/grammar-exercises/gerunds"><span className="label label-c1">C1</span> Gerunds</Link></li>
 									  <li><Link to="/grammar-exercises/infinitives"><span className="label label-c1">C1</span> Infinitives</Link></li>
@@ -125,6 +124,11 @@ const Grammarexercises = () => {
 									  <li><Link to="/grammar-exercises/causeeffect"><span className="label label-c1">C1</span> Cause and Effect</Link></li>
 									  <li><Link to="/grammar-exercises/relativeclauses"><span className="label label-c1">C1</span> Relative Clauses</Link></li>
 									  <li><Link to="/grammar-exercises/comparison"><span className="label label-c1">C1</span> Comparison</Link></li>
+									  <li><Link to="/grammar-exercises/wish"><span className="label label-c1">C1</span> Wishes and Regrets</Link></li>
+									  <li><Link to="/grammar-exercises/word-forms"><span className="label label-c1">C1</span> Word Forms</Link></li>
+									  <li><Link to="/grammar-exercises/linking-words"><span className="label label-c1">C1</span> Linking Words</Link></li>
+									  <li><Link to="/grammar-exercises/dependent-prepositions"><span className="label label-c1">C1</span> Dependent Prepositions</Link></li>
+									  <li><Link to="/grammar-exercises/collocations"><span className="label label-c1">C1</span> Collocations</Link></li>
 										</ul>
 									</div>
 								</div>
@@ -136,7 +140,7 @@ const Grammarexercises = () => {
 		</div>
 		
 		<div>
-             <div><Sidebar/></div>
+            
 		</div>
 
 	</div>

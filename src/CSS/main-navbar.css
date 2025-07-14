@@ -1,5 +1,5 @@
 .bg-body-tertiary {
-    background-color: lightseagreen !important;
+    background-color: #2A9D8F !important;
   }
   
   .custom-container {
@@ -29,6 +29,14 @@
     width: 100%;
     text-align: left;
     color:white;
+    background-color: #008080;
+  }
+
+  .navbar-toggler:hover {
+    width: 100%;
+    text-align: left;
+    color:#008080;
+    background-color: white;
   }
   
   .navbar-toggler span {
@@ -145,8 +153,16 @@
   
     .navbar-toggler {
       width: 100%;
-      text-align: right;
-      margin-top: 25px;
+      text-align: left;
+      color:white;
+      background-color: #008080;
+    }
+  
+    .navbar-toggler:hover {
+      width: 100%;
+      text-align: left;
+      color:#008080;
+      background-color: white;
     }
   
     .navbar-toggler span {
@@ -177,13 +193,13 @@
       font-size: 14px;
       font-weight: 700;
       flex-grow: 1;
-      color: white;
+      /*color: white;*/
     }
   
     .mobile-menu-icon {
       text-align: right;
       padding-right: 10px;
-      color: white;
+      /*color: white;*/
     }
     .dropdown-menu {
       background-color: #008080;

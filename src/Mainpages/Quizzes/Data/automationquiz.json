@@ -1,0 +1,57 @@
+[
+    {
+      "quiz": 1,
+      "quizTitle": "Fun Facts About Automation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What happens when you try to buy alcohol at a self-checkout and you're clearly underage?",
+          "options": ["The machine sells it anyway", "It asks for your Instagram", "It calls over a staff member for ID check", "It shuts down and screams"],
+          "answer": "It calls over a staff member for ID check - Self-checkouts still need human oversight for age-restricted items."
+        },
+        {
+          "id": 2,
+          "question": "Why do some people talk to self-checkout machines like they're alive?",
+          "options": ["They actually have hidden personalities", "It improves scanning accuracy", "It’s a weird human habit called 'anthropomorphism'", "They’re secretly listening"],
+          "answer": "It’s a weird human habit called 'anthropomorphism' - We naturally treat machines like people, especially when they act up."
+        },
+        {
+          "id": 3,
+          "question": "Which of these has been replaced by automation in some hotels?",
+          "options": ["Pillows", "Front desk staff", "Shampoo", "Room windows"],
+          "answer": "Front desk staff - Some hotels, especially in Japan, have robot receptionists."
+        },
+        {
+          "id": 4,
+          "question": "What hilarious error appeared in a UK self-checkout system?",
+          "options": ["It gave everyone free ice cream", "It thought bananas were laptops", "It said 'unexpected unicorn in the bagging area'", "It started speaking in pirate voice"],
+          "answer": "It said 'unexpected unicorn in the bagging area' - A cheeky programmer slipped in a joke."
+        },
+        {
+          "id": 5,
+          "question": "Which is a real reason people avoid using self-checkouts?",
+          "options": ["Fear of robots taking over", "They miss chatting with cashiers", "They think the machine judges them", "They can’t find the 'checkout with style' button"],
+          "answer": "They miss chatting with cashiers - Some shoppers enjoy the social aspect of traditional checkouts."
+        },
+        {
+          "id": 6,
+          "question": "What did a grocery chain in Sweden add to make checkouts more enjoyable?",
+          "options": ["Disco lights", "Jokes on the screen", "A 'slow checkout lane' for chatting", "Voice assistants with accents"],
+          "answer": "A 'slow checkout lane' for chatting - Perfect for people who want to take their time and connect with others."
+        },
+        {
+          "id": 7,
+          "question": "What odd thing happened when AI was used to monitor for shoplifters?",
+          "options": ["It accused mannequins", "It followed employees", "It mistook oranges for heads", "It caught a thief and apologized"],
+          "answer": "It accused mannequins - The system flagged them as suspicious because they weren’t moving."
+        },
+        {
+          "id": 8,
+          "question": "Which fast food type is most likely to use AI to take your order?",
+          "options": ["Burger joints", "Pizza places", "Taco trucks", "Fine dining"],
+          "answer": "Burger joints - AI is increasingly used in drive-thrus to speed up service."
+        }
+      ]
+    }
+  ]
+  

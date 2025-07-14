@@ -1,73 +1,24 @@
-import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
-import GrammarMenu from '../../Components/Menus/GrammarMenu.js';
-import Sidebar from '../../Components/Sidebar';
-import GrammarExercises from '../../Components/GrammarExerciseComps/prescontexercisescomp.js';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/presentcontinuousexplanation.js';
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/presentcontinuousexplanation';
+import mainimage from '../../Images/extremeweather1.jpg';
 
-const PresentContinuous = () => {
-  
-  const [isGridVisible, setIsGridVisible] = useState(true);
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "present-continuous" },
+];
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
-  };
-  
-
-  return (
-    <div>
-      <SEO
-        title="Grammar Exercises - Present Continuous"
-        description="A big list of English grammar exercises to practice for exams"
-        name="English Exam Exercises"
-        type="article"
-      />
-      <Breadcrumbs />
-      <div className="grammar-container">
-          
-          <div>
-          <div className="grammartitle">
-              <span className="label label-a1">A1</span>
-              <h3 className="mt-2">Present Continuous</h3>
-            </div>
-          
-          <div className="descriptionbox">      
-  
-            <div className="grammarctrl descriptionbox">
-              <button type="button" className="grammarbtn" onClick={toggleGridVisibility}>
-                {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}
-              </button>
-            </div>
-  
-            {isGridVisible && (
-              <div className="grammar-display-grid">
-                <GrammarExplanation />
-              </div>
-            )}
-          </div>
-  
-  
-                        <div>
-                            <div className="agenda-display-grid">
-                              <GrammarExercises />
-                            </div>
-                        </div>
-          </div>
-      
-
-          
-          
-        <div className="top-margin">
-          <GrammarMenu />
-          <Sidebar />
-        </div>
-      </div>
-    </div>
-  );
-};
-
+const PresentContinuous = () => (
+  <GrammarPageLayout
+    level="A1"
+    title="Present Continuous"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Present Continuous"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="A1"
+  />
+);
 
 export default PresentContinuous;
-
-		

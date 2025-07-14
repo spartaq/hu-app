@@ -1,0 +1,105 @@
+{
+  "sentences":[
+    {
+        "text": "have time, review the code before release",
+        "prompt": "",
+        "answer": "If we had had time, we would have reviewed the code before release."
+    },
+    {
+        "text": "know about the vulnerability earlier, patch it sooner",
+        "prompt": "",
+        "answer": "If we had known about the vulnerability earlier, we would have patched it sooner."
+    },
+    {
+        "text": "run more tests, avoid the system crash",
+        "prompt": "",
+        "answer": "If we had run more tests, we would have avoided the system crash."
+    },
+    {
+        "text": "get approval on time, complete the upgrade last month",
+        "prompt": "",
+        "answer": "If we had gotten approval on time, we would have completed the upgrade last month."
+    },
+    {
+        "text": "back up the data regularly, recover the lost files",
+        "prompt": "",
+        "answer": "If we had backed up the data regularly, we would have recovered the lost files."
+    },
+    {
+        "text": "receive the client requirements earlier, deliver the project on schedule",
+        "prompt": "",
+        "answer": "If we had received the client requirements earlier, we would have delivered the project on schedule."
+    },
+    {
+        "text": "prioritize critical updates, prevent the security breach",
+        "prompt": "",
+        "answer": "If we had prioritized critical updates, we would have prevented the security breach."
+    },
+    {
+        "text": "coordinate better with the vendor, reduce the implementation delays",
+        "prompt": "",
+        "answer": "If we had coordinated better with the vendor, we would have reduced the implementation delays."
+    },
+    {
+        "text": "allocate more budget, invest in a higher-quality solution",
+        "prompt": "",
+        "answer": "If we had allocated more budget, we would have invested in a higher-quality solution."
+    },
+    {
+        "text": "consult with the team, avoid making that decision",
+        "prompt": "",
+        "answer": "If we had consulted with the team, we would have avoided making that decision."
+    },
+    {
+        "text": "use the latest tools, complete the migration faster",
+        "prompt": "",
+        "answer": "If we had used the latest tools, we would have completed the migration faster."
+    },
+    {
+        "text": "monitor the network closely, identify the intrusion earlier",
+        "prompt": "",
+        "answer": "If we had monitored the network closely, we would have identified the intrusion earlier."
+    },
+    {
+        "text": "train the staff properly, reduce the number of errors",
+        "prompt": "",
+        "answer": "If we had trained the staff properly, we would have reduced the number of errors."
+    },
+    {
+        "text": "update the software regularly, avoid compatibility issues",
+        "prompt": "",
+        "answer": "If we had updated the software regularly, we would have avoided compatibility issues."
+    },
+    {
+        "text": "conduct a thorough risk assessment, plan for the worst-case scenario",
+        "prompt": "",
+        "answer": "If we had conducted a thorough risk assessment, we would have planned for the worst-case scenario."
+    },
+    {
+        "text": "schedule regular maintenance, prevent unexpected downtime",
+        "prompt": "",
+        "answer": "If we had scheduled regular maintenance, we would have prevented unexpected downtime."
+    },
+    {
+        "text": "investigate user complaints earlier, resolve the issues faster",
+        "prompt": "",
+        "answer": "If we had investigated user complaints earlier, we would have resolved the issues faster."
+    },
+    {
+        "text": "plan the deployment more carefully, avoid last-minute changes",
+        "prompt": "",
+        "answer": "If we had planned the deployment more carefully, we would have avoided last-minute changes."
+    },
+    {
+        "text": "communicate the changes effectively, minimize team confusion",
+        "prompt": "",
+        "answer": "If we had communicated the changes effectively, we would have minimized team confusion."
+    },
+    {
+        "text": "test the backup system thoroughly, restore the data successfully",
+        "prompt": "",
+        "answer": "If we had tested the backup system thoroughly, we would have restored the data successfully."
+    }
+]
+
+}

@@ -1,0 +1,310 @@
+{
+  "sentences":[
+  {
+    "text": "The dashboard is showing unusually high sales for last week.",
+    "prompt": "data error",
+    "answer": "It could be a data error. / It might have been a mistake during data entry.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The monthly report hasn’t been generated.",
+    "prompt": "automation failure",
+    "answer": "It must be an automation failure. / It could have been turned off accidentally.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Customer churn increased after the new pricing model.",
+    "prompt": "pricing issue",
+    "answer": "It might be due to the pricing issue. / It must have affected customer satisfaction.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The KPIs suddenly dropped this quarter.",
+    "prompt": "external factors",
+    "answer": "It could be due to external factors. / It might have been the market changes.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A data scientist can’t access the BI tool.",
+    "prompt": "permission issue",
+    "answer": "It must be a permission issue. / It could have been a recent update that reset roles.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The dashboard isn’t displaying the latest figures.",
+    "prompt": "data refresh failure",
+    "answer": "It might be a data refresh failure. / It could have failed during the last update.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "An executive misunderstood the trend shown in a chart.",
+    "prompt": "misleading visualization",
+    "answer": "It could be a misleading visualization. / The chart must have lacked context.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "There’s a sudden increase in website traffic from an unknown region.",
+    "prompt": "marketing campaign",
+    "answer": "It might be from a marketing campaign. / It could have been a recent social media push.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A metric on the dashboard doesn’t match the raw data.",
+    "prompt": "calculation error",
+    "answer": "It must be a calculation error. / Someone might have used the wrong formula.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "One of the datasets is missing from the warehouse.",
+    "prompt": "ETL process failure",
+    "answer": "It could be an ETL process failure. / It might have failed during extraction.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Stakeholders received inconsistent results from different reports.",
+    "prompt": "different data sources",
+    "answer": "It must be because of different data sources. / One report might be outdated.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The sales forecast was way off last quarter.",
+    "prompt": "incomplete data",
+    "answer": "It could be due to incomplete data. / The model might have missed recent trends.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A visualization is taking too long to load.",
+    "prompt": "too much data",
+    "answer": "It must be trying to process too much data. / It might not be optimized for performance.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "There’s a spike in reported anomalies in customer behavior.",
+    "prompt": "system update",
+    "answer": "It might be due to a recent system update. / It could have affected user experience.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A user is seeing outdated data on their report.",
+    "prompt": "cached version",
+    "answer": "It could be a cached version. / The browser might not have refreshed properly.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A report was sent to the wrong department.",
+    "prompt": "distribution rule error",
+    "answer": "It must be a distribution rule error. / Someone might have misconfigured the settings.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The data export resulted in incomplete rows.",
+    "prompt": "formatting issue",
+    "answer": "It might be a formatting issue. / It could have been a delimiter problem.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "The model predicted a dip in sales, but sales increased instead.",
+    "prompt": "model inaccuracy",
+    "answer": "It must be model inaccuracy. / The model might not have accounted for recent trends.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A BI tool crashed during a presentation.",
+    "prompt": "system overload",
+    "answer": "It could be due to system overload. / It might have been too many users at once.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A visualization is not showing some regions on the map.",
+    "prompt": "missing geographic data",
+    "answer": "It might be missing geographic data. / It could have failed to load location metadata.",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "A website isn’t loading, but other websites work fine.",
+    "prompt": "server issue",
+    "answer": "It must be a server issue. / It might be a problem with the specific website."
+  },
+  {
+    "text": "A developer pushed new code, and now the app is crashing.",
+    "answer": "It must be a bug in the new code. / It could be a compatibility issue."
+  },
+  {
+    "text": "Your laptop is running extremely slowly all of a sudden.",
+    "answer": "It might be a memory issue. / It can't be a hardware failure if it was fine yesterday."
+  },
+  {
+    "text": "Your team can’t access a shared database, but your internet is working.",
+    "answer": "It must be a permissions issue. / The database server might be down."
+  },
+  {
+    "text": "A user reports that their password isn’t working, but IT confirms the account is active.",
+    "answer": "They must be entering it incorrectly. / Their account might have been locked due to too many failed attempts."
+  },
+  {
+    "text": "You hear a loud crash in your neighbor’s apartment, followed by silence.",
+    "answer": "Something must have fallen. / It might have been their pet knocking something over."
+  },
+  {
+    "text": "Your friend isn’t answering texts but was active on social media 5 minutes ago.",
+    "answer": "They must be busy with something else. / They might have forgotten to reply."
+  },
+  {
+    "text": "You wake up feeling exhausted, even though you slept for 8 hours.",
+    "answer": "It must be poor sleep quality. / It could be stress affecting your sleep."
+  },
+  {
+    "text": "You smell something burning in the kitchen, but you weren’t cooking anything.",
+    "answer": "It must be something left on the stove. / It might be coming from a neighbor’s apartment."
+  },
+  {
+    "text": "Your coworker, who is usually very talkative, is being unusually quiet today.",
+    "answer": "They might be feeling unwell. / They could be having a bad day."
+  },
+  {
+    "text": "A website isn’t loading, but other websites work fine.",
+    "prompt": "server issue",
+    "answer": "It must be a server issue. / It might be a problem with the specific website."
+  },
+  {
+    "text": "Your colleague looks exhausted and is yawning constantly.",
+    "prompt": "lack of sleep",
+    "answer": "They must have stayed up late working. / They might be feeling unwell."
+  },
+  {
+    "text": "The office lights are off, and no one is inside.",
+    "prompt": "after hours",
+    "answer": "It must be after office hours. / They might have left early for a meeting."
+  },
+  {
+    "text": "Your friend said they sent you an email, but you can’t find it.",
+    "prompt": "wrong address",
+    "answer": "They might have sent it to the wrong address. / It must have gone to the spam folder."
+  },
+  {
+    "text": "Your laptop battery drains very quickly.",
+    "prompt": "old battery",
+    "answer": "It must be old. / It might have a software issue."
+  },
+  {
+    "text": "You hear a loud noise outside your window at night.",
+    "prompt": "wind or animal",
+    "answer": "It might be a cat knocking something over. / It must have been the wind."
+  },
+  {
+    "text": "Your coworker is not answering messages but was active earlier.",
+    "prompt": "in a meeting",
+    "answer": "They must be in a meeting. / They might have stepped away from their desk."
+  },
+  {
+    "text": "You left your phone on the table, but now it’s gone.",
+    "prompt": "someone moved it",
+    "answer": "Someone must have moved it. / You might have put it somewhere else."
+  },
+  {
+    "text": "The printer is not working even though it has paper and ink.",
+    "prompt": "software issue",
+    "answer": "It must be a software issue. / It might have a hardware malfunction."
+  },
+  {
+    "text": "Your friend was supposed to arrive an hour ago, but they aren’t here yet.",
+    "prompt": "stuck in traffic",
+    "answer": "They must have gotten stuck in traffic. / They might have forgotten the time."
+  },
+  {
+    "text": "Your coffee tastes different today.",
+    "prompt": "different brand",
+    "answer": "Someone must have used a different brand. / It might have been made with too much water."
+  },
+  {
+    "text": "Your computer is running much slower than usual.",
+    "prompt": "too many applications open",
+    "answer": "It must be running too many applications. / It might have a virus."
+  },
+  {
+    "text": "You wake up late even though you set an alarm.",
+    "prompt": "forgot to turn it on",
+    "answer": "I must have forgotten to turn it on. / It might have been on silent."
+  },
+  {
+    "text": "Your friend’s phone goes straight to voicemail.",
+    "prompt": "battery dead",
+    "answer": "Their phone must have died. / They might have turned it off."
+  },
+  {
+    "text": "The road outside is wet, but it didn’t rain today.",
+    "prompt": "sprinklers",
+    "answer": "It must have been the sprinklers. / Someone might have washed their car."
+  },
+  {
+    "text": "You left your keys on the kitchen counter, but now you can’t find them.",
+    "prompt": "someone moved them",
+    "answer": "Someone must have moved them. / I might have put them in my bag without realizing."
+  },
+  {
+    "text": "You hear music coming from your neighbor’s apartment, but they are on vacation.",
+    "prompt": "left the radio on",
+    "answer": "They must have left the radio on. / Someone might be house-sitting for them."
+  },
+  {
+    "text": "Your coworker suddenly left a meeting without saying anything.",
+    "prompt": "urgent call",
+    "answer": "They must have received an urgent call. / They might have felt sick."
+  },
+  {
+    "text": "Your car is making a strange noise when you start it.",
+    "prompt": "engine problem",
+    "answer": "It must have an engine problem. / It might be low on oil."
+  },
+  {
+    "text": "You sent a message to a friend, but they haven’t replied in hours.",
+    "prompt": "busy or no signal",
+    "answer": "They must be busy. / They might not have a signal."
+  },
+  {
+    "text": "You see a person enter the office without a key or badge.",
+    "prompt": "security issue",
+    "answer": "They can’t be an employee. / They might be a visitor."
+  },
+  {
+    "text": "You see a cat sitting next to an empty plate of fish.",
+    "prompt": "ate the fish",
+    "answer": "It must have eaten the fish. / It might have just been near it."
+  },
+  {
+    "text": "Your coworker has a brand-new laptop.",
+    "prompt": "new job benefit",
+    "answer": "It must be a company-issued device. / They might have bought it themselves."
+  },
+  {
+    "text": "You see a man wearing a heavy coat in summer.",
+    "prompt": "cold or medical condition",
+    "answer": "He must be feeling cold. / He might have a medical condition."
+  },
+  {
+    "text": "The car is covered in mud even though it was clean this morning.",
+    "prompt": "drove through mud",
+    "answer": "It must have been driven through mud. / Someone might have splashed it with dirty water."
+  },
+  {
+    "text": "Your coworker looks extremely happy after a phone call.",
+    "prompt": "good news",
+    "answer": "They must have received good news. / It might be about a promotion."
+  },
+  {
+    "text": "You see a person running very fast with a backpack.",
+    "prompt": "late or stolen",
+    "answer": "They must be late for something. / They might have stolen something."
+  },
+  {
+    "text": "You hear loud cheering from the office break room.",
+    "prompt": "sports match",
+    "answer": "It must be a big sports match. / They might be celebrating something else."
+  },
+  {
+    "text": "Your friend is wearing a jacket even though it’s warm outside.",
+    "prompt": "fashion or cold",
+    "answer": "They must like the style. / They might be feeling cold."
+  }
+]
+}

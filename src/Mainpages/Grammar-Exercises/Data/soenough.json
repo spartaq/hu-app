@@ -1,4 +1,124 @@
 [
+      {
+    "text": "The video quality was low. Many users complained.",
+    "prompt": "so",
+    "answer": "The video quality was so low that many users complained.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The subscription price is affordable. More customers signed up.",
+    "prompt": "so",
+    "answer": "The subscription price is so affordable that more customers signed up.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The buffering was frequent. People stopped watching the live stream.",
+    "prompt": "too",
+    "answer": "The buffering was too frequent for people to keep watching the live stream.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The interface is complicated. New users find it hard to navigate.",
+    "prompt": "too",
+    "answer": "The interface is too complicated for new users to navigate easily.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The streaming server was fast. It handled many viewers.",
+    "prompt": "enough",
+    "answer": "The streaming server was fast enough to handle many viewers.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The app provides subtitles in Hungarian. It helps viewers understand better.",
+    "prompt": "enough",
+    "answer": "The app provides enough subtitles in Hungarian to help viewers understand better.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The content library is limited. Customers want more variety.",
+    "prompt": "too",
+    "answer": "The content library is too limited for customers who want more variety.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The audio was clear. It improved the listening experience.",
+    "prompt": "so",
+    "answer": "The audio was so clear that it improved the listening experience.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The new update was buggy. It caused the app to crash often.",
+    "prompt": "so",
+    "answer": "The new update was so buggy that it caused the app to crash often.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The mobile app is user-friendly. Many users prefer it over the desktop version.",
+    "prompt": "so",
+    "answer": "The mobile app is so user-friendly that many users prefer it over the desktop version.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The monthly fee is high. Some customers canceled their subscriptions.",
+    "prompt": "too",
+    "answer": "The monthly fee is too high for some customers to keep their subscriptions.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The video library is extensive. It attracts a wide audience.",
+    "prompt": "so",
+    "answer": "The video library is so extensive that it attracts a wide audience.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The server didn't respond quickly. It affected streaming quality.",
+    "prompt": "too",
+    "answer": "The server responded too slowly to maintain good streaming quality.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The app offers multiple language options. It serves international users well.",
+    "prompt": "enough",
+    "answer": "The app offers enough language options to serve international users well.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The live chat support is fast. Customers get help immediately.",
+    "prompt": "so",
+    "answer": "The live chat support is so fast that customers get help immediately.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The video resolution isn't high. It disappointed many viewers.",
+    "prompt": "too",
+    "answer": "The video resolution is too low to satisfy many viewers.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The content updates are regular. Subscribers stay interested.",
+    "prompt": "so",
+    "answer": "The content updates are so regular that subscribers stay interested.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The app doesn't have offline mode. Users can't watch without internet.",
+    "prompt": "too",
+    "answer": "The app lacks offline mode, which is too inconvenient for users without internet.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The streaming speed varies. Sometimes it causes interruptions.",
+    "prompt": "too",
+    "answer": "The streaming speed is too inconsistent to avoid interruptions.",
+    "topic": "Streaming"
+  },
+  {
+    "text": "The customer feedback was positive. The company improved its service.",
+    "prompt": "so",
+    "answer": "The customer feedback was so positive that the company improved its service.",
+    "topic": "Streaming"
+  },
   {
     "text": "The deadline was tight. The team had to work overtime.",
     "prompt": "so",

@@ -1,142 +1,402 @@
 module.exports = [
-  {
-    "readingcompTitle": "Air Traffic Delays",
-    "topic": "air traffic delays",
-    "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+{
+  "readingcompTitle": "Festival Failures: Fyre and Woodstock ’99",
+  "topic": "event disasters",
+  "level": "b2",
+  "image": "/Images/woodstock-99.webp",
   "vocabulary": [
-      "disruption - break in service",
-      "saturated - filled to capacity",
-      "forecast - prediction",
-      "posed - presented",
-      "staff - employ",
-      "constrained - limited",
-      "volatile - unstable",
-      "strain - pressure",
-      "eye-watering - extremely high",
-      "congested - overcrowded",
-      "adhere - stick to",
-      "part and parcel of - an essential part of"
-    ],
-    "paragraphs": [
-      {
+    "disaster relief tents - tents used in disaster situations",
+    "styrofoam  - packing material made of a hard foam like material",
+    "pull out - cancel an appearance at an event",
+    "cautionary tale - story to learn from",
+    "venue - concert location/building",
+    "shade - protection from the sun",
+    "outrageous - crazy",
+    "leaned heavily on - mostly used",
+    "looted - stolen from"
+  ],
+  "paragraphs": [
+    {
+"text": [
+  "<p>Music festivals are meant to be unforgettable — for the music, the atmosphere, the memories. But sometimes, what people remember most is the disaster.</p>",
+  "<p>In 2017, Fyre Festival promised guests a once-in-a-lifetime luxury experience: white sand beaches, top musical acts, gourmet food, and glamorous influencer-filled parties. Promoted heavily on social media by models and celebrities, the festival sold an image of paradise. But when guests arrived on the Bahamian island, they were greeted not by beachfront villas, but by disaster relief tents. The “gourmet meals” were cheese sandwiches in styrofoam boxes. Luggage was thrown out of the back of trucks. Artists had pulled out, the power failed, and flights off the island were delayed. The whole event quickly collapsed, and the organizer was later sentenced to prison for fraud.</p>",
+  "<p>But Fyre wasn’t the first time a major festival turned into a cautionary tale.</p>",
+  "<p>Back in 1999, Woodstock tried to recreate its 1969 legacy — peace, music, and love. Instead, the result was chaos. Held on a former military base in New York during a heatwave, the venue lacked proper shade, free drinking water, and clean bathrooms. Vendors charged outrageous prices — $4 for water, $12 for a slice of pizza. Security was weak, and the lineup leaned heavily on aggressive, high-energy rock acts. Over the three days, tensions rose. By the final night, fires had been set, vendor booths were looted, and multiple reports of violence emerged. What was supposed to be a celebration of unity turned into one of the most infamous music disasters in modern history.</p>",
+  "<p>So what connects these two failures?</p>",
+  "<p>Both festivals were victims of overpromising and underplanning. The organizers had strong branding but weak logistics. At Fyre, it was style over substance — a social media illusion with no real infrastructure behind it. At Woodstock ’99, organizers underestimated the effect of heat, crowds, and poor conditions. In both cases, safety and basic needs were ignored in favor of hype and profit.</p>",
+  "<p>These events remind us that massive gatherings aren’t just about music. They’re about crowd management, preparation, and responsibility. When organizers forget that, even the best intentions can spiral into chaos.</p>",
+  "<p>And yet, every few years, a new event comes along making big promises. The question is: have we learned anything?</p>"
+],
+
+      "questions": [
+        {
+          "number": "1",
+          "question": "Do you think modern music festivals care more about marketing than safety? Why or why not?",
+          "choices": []
+        },
+        {
+          "number": "2",
+          "question": "If you had been at Fyre Festival or Woodstock ’99, what would you have done differently?",
+          "choices": []
+        },
+        {
+          "number": "3",
+          "question": "Why do you think people still trust expensive events like Fyre Festival, even after seeing past failures?",
+          "choices": []
+        },
+        {
+          "number": "4",
+          "question": "Do you think the organizers of these events should be punished or just criticized? Explain.",
+          "choices": []
+        },
+        {
+          "number": "5",
+          "question": "Would you ever attend a big music festival? Why or why not?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
+
+
+  {
+  "id": "colleague-catchup",
+  "readingcompTitle": "Catching Up at the Office",
+  "topic": "Business Dialogue",
+  "level": "b1",
+  "image": "/Images/tork-head.jpg",
+  "vocabulary": [
+    "promotion - előléptetés",
+    "project - projekt",
+    "deadline - határidő",
+    "training - képzés",
+    "position - pozíció",
+    "update - frissítés",
+    "role - szerep",
+    "clients - ügyfelek",
+    "travel - utazás",
+    "busy - elfoglalt",
+    "schedule - időbeosztás",
+    "improve - javítani",
+    "team - csapat",
+    "tough - nehéz"
+  ],
+  "paragraphs": [
+    {
       "text": [
-        "<p>Air traffic control delays and disruption across Europe could be worse this summer than last, senior aviation figures have warned.</p>",
-        "<p>The number of summer flights are forecast to exceed last year by more than 5% in what Eurocontrol head of air traffic management operations Steven Moore described as “a highly saturated network where any issue becomes a network problem”.</p>",
-        "<p>Eurocontrol is the European air navigation safety body and at the core of managing air traffic disruption.</p>",
-        "<p>Speaking on a Eurocontrol webinar, Moore noted air traffic in June to August last year was up 4.7% on the previous summer but delays increased by 47%, with a small number of air navigation service providers responsible for most delays.</p>",
-        "<p>He said a forecast 5.2% increase in traffic this summer posed “a significant challenge in a constrained network” and warned: “It’s plain we won’t have a summer without delays.”</p>",
-        "<p>Geneva airport chief operating officer Giovanni Russo agreed, saying: “We know there will be delays and disruption.”</p>",
-        "<p>He insisted: “All players need to stick to their plans. That is most important. [But] plan according to what is possible [and] staff correctly.”</p>",
-        "<p>However, Russo noted: “Days almost never go to plan. Something always goes wrong.”</p>",
-        "<p>Jesus Garcia, air navigation systems coordinator at Spanish air traffic management body Enaire, said: “We’re suffering a perfect storm with unpredictable and volatile traffic flow. Growth after Covid has not been uniform.</p>",
-        "<p>In addition, we’re suffering geopolitical conflict with increased miliary action and flight restrictions and increasing extreme weather phenomena. Together, it places a strain on capacity.”</p>",
-        "<p>He argued: “It’s a multi-phased problem, not [due to] a single problem or actor.”</p>",
-        "<p>Garcia also pointed out: “We need more air traffic controllers. [But] the problem with the availability of air traffic controllers is complex – training takes two to three years and recruitment is based on long-term planning not short-term demand. Recruitment for 2024 was based on 2021 traffic which was expected to be 15% down on 2019.”</p>",
-        "<p>EasyJet chief operating officer David Morgan reported a 41% increase in delays in the first two months of this year, describing this as a “worrying sign we’re moving in the wrong direction” and noted: “The southeast axis across Europe remains one of the biggest concerns.”</p>",
-        "<p>He said: “I can hardly remember a year when we’ve not had staffing issues. The cost of delays is eye-watering – it’s costing hundreds of millions to airlines.”</p>",
-        "<p>Morgan said easyJet was looking at whether “we can fly around the most congested areas” and pointed out: “Everyone likes to talk about realistic schedules, [but] it’s not always easy. Airlines must adhere to a schedule or risk losing [airport] slots.”</p>",
-        "<p>He acknowledged: “Delays are getting worse. They are part and parcel of summer, but staffing delays should be exceptional. Every year in peak summer period we’re struggling with staffing.”</p>"
+        "<p><strong>Catching Up at the Office</strong></p>",
+        "<p>Emma: Hi Daniel! I haven't seen you since February. How have you been?</p>",
+        "<p>Daniel: Hey Emma! Yes, it's been a while. I've been really busy with a new project. I also got a promotion last month!</p>",
+        "<p>Emma: That's great news! What's your new role?</p>",
+        "<p>Daniel: I'm now the regional sales manager. It means more travel and bigger clients, but I enjoy the challenge.</p>",
+        "<p>Emma: Sounds exciting. I've been doing some training to improve my presentation skills. Our team has more client meetings now, so it helps.</p>",
+        "<p>Daniel: Good idea. Communication is key. We just finished a tough project with a very tight deadline.</p>",
+        "<p>Emma: I know the feeling. It's been a busy year for all of us!</p>"
       ],
-        "questions": [
-          {
-            "number": "1",
-            "question": "By how much is summer air traffic expected to increase this year compared to last year?",
-            "choices": [
-              "A. 4.7%",
-              "B. 5.2%",
-              "C. 15%",
-              "D. 41%"
-            ]
-          },
-          {
-            "number": "2",
-            "question": "According to Steven Moore, what kind of network creates widespread problems when there is an issue?",
-            "choices": [
-              "A. A low-traffic network",
-              "B. A rural network",
-              "C. A highly saturated network",
-              "D. A domestic-only network"
-            ]
-          },
-          {
-            "number": "3",
-            "question": "What did Giovanni Russo say about the reliability of daily plans?",
-            "choices": [
-              "A. Days usually go according to plan",
-              "B. Most delays are weather-related",
-              "C. Days almost never go to plan",
-              "D. There is always enough staff to follow plans"
-            ]
-          },
-          {
-            "number": "4",
-            "question": "What is one of the reasons Jesus Garcia gave for the current strain on air traffic control capacity?",
-            "choices": [
-              "A. A decline in airline safety standards",
-              "B. A sharp fall in post-Covid travel",
-              "C. Uniform traffic growth across Europe",
-              "D. Geopolitical conflicts and extreme weather"
-            ]
-          },
-          {
-            "number": "5",
-            "question": "What challenge is associated with hiring more air traffic controllers?",
-            "choices": [
-              "A. They must relocate internationally",
-              "B. Most are not interested in the job",
-              "C. Training takes 2–3 years and depends on long-term planning",
-              "D. There are no training programs available"
-            ]
-          },
-          {
-            "number": "6",
-            "question": "What did David Morgan from easyJet describe as 'eye-watering'?",
-            "choices": [
-              "A. Weather conditions in southern Europe",
-              "B. The cost of delays for airlines",
-              "C. The cost of recruiting air traffic controllers",
-              "D. Fuel prices for summer flights"
-            ]
-          },
-          {
-            "number": "7",
-            "question": "What is the 'southeast axis' across Europe considered to be?",
-            "choices": [
-              "A. A quiet and well-managed region",
-              "B. The most reliable air corridor",
-              "C. One of the biggest concerns for delays",
-              "D. An area with extra controller capacity"
-            ]
-          },
-          {
-            "number": "8",
-            "question": "Why do airlines need to stick to schedules even when delays occur?",
-            "choices": [
-              "A. To ensure passenger comfort",
-              "B. To avoid paying fines to Eurocontrol",
-              "C. To prevent losing valuable airport slots",
-              "D. Because air traffic controllers require it"
-            ]
-          },
-          {
-            "number": "9",
-            "question": "Opinion: Do you think air travel will ever become delay-free during summer seasons? Why or why not?",
-            "choices": []
-          },
-          {
-            "number": "10",
-            "question": "Discussion: In your opinion, what is the most effective way to reduce delays in European airspace?",
-            "choices": []
+      "questions": [
+        {
+          "number": "1",
+          "question": "When did Emma last see Daniel?",
+          "choices": [
+            "A. Last week",
+            "B. In February",
+            "C. In December",
+            "D. Yesterday"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "Why has Daniel been busy?",
+          "choices": [
+            "A. He changed companies",
+            "B. He moved to another city",
+            "C. He was working on a new project and got a promotion",
+            "D. He was on vacation"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What is Daniel's new position?",
+          "choices": [
+            "A. Project manager",
+            "B. Team assistant",
+            "C. Regional sales manager",
+            "D. Marketing coordinator"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Why did Emma do some training?",
+          "choices": [
+            "A. She wants to change jobs",
+            "B. She needs better presentation skills for client meetings",
+            "C. She wants to travel more",
+            "D. She had free time"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What kind of project did Daniel just finish?",
+          "choices": [
+            "A. A relaxing one",
+            "B. A short holiday trip",
+            "C. A project with a tight deadline",
+            "D. A team-building activity"
+          ]
+        }
+      ]
+    }
+  ]
+},
+  {
+  "readingcompTitle": "Working as an Account Manager at Essity",
+  "topic": "Workplace",
+  "level": "b1",
+  "image": "/Images/tork-head.jpg",
+  "vocabulary": [
+    "provides - biztosít",
+    "hygiene - higiénia",
+    "solutions - megoldások",
+    "client - ügyfél",
+    "improve - javít",
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p><strong>Working as an Account Manager at Essity</strong></p>",
+        "<p>I work as an account manager at Essity, a company that provides hygiene and health products. My job is to talk to clients, understand what they need, and help them choose the best products. These can include things like paper towels, soap dispensers, or medical supplies.</p>",
+        "<p>Each day starts with checking emails and planning my meetings. I often visit customers to answer their questions and help solve any problems. Good communication is very important in this role. I also work with other teams at Essity, like marketing and logistics, to make sure everything runs smoothly.</p>",
+        "<p>What I like most about my job is that every day is different. I get to meet many people and help them improve their workplaces. It feels good to know that our products make a real difference.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main job of an account manager at Essity?",
+          "choices": [
+            "A. To make health products",
+            "B. To clean offices",
+            "C. To help clients find the right products",
+            "D. To deliver orders"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "What does the account manager do in the morning?",
+          "choices": [
+            "A. Visit clients",
+            "B. Check emails and plan meetings",
+            "C. Go to the warehouse",
+            "D. Make new products"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "Why is communication important in this job?",
+          "choices": [
+            "A. To sell more products",
+            "B. To travel more",
+            "C. To solve problems and help clients",
+            "D. To avoid work"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Which teams does the account manager work with?",
+          "choices": [
+            "A. Only logistics",
+            "B. Only marketing",
+            "C. Marketing and logistics",
+            "D. Sales and cleaning"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What does the account manager enjoy most?",
+          "choices": [
+            "A. The office view",
+            "B. Making products",
+            "C. Meeting people and making a difference",
+            "D. Working alone"
+          ]
           }
         ]
       }
     ]
+  },
+  {
+  "id": "account-manager-challenge",
+  "readingcompTitle": "Handling a Difficult Client",
+  "topic": "Workplace Challenge",
+  "level": "b1",
+  "image": "/Images/tork-head.jpg",
+  "vocabulary": [
+    "handling - kezelése",
+    "tough - nehéz",
+    "delivery - szállítás",
+    "demanding - igényes",
+    "solution - megoldás",
+    "expected - várt",
+    "calm - nyugodt",
+    "concerns - aggályok",
+    "options - lehetőségek",
+    "matched - illeszkedett",
+    "patience - türelem",
+    "respond - reagál",
+    "respect - tisztelet",
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p><strong>Handling a Difficult Client</strong></p>",
+        "<p>Last month, I had a tough situation as an account manager at Essity. One of my clients was very demanding. He often called and sent long emails, asking for changes and updates every day. He wasn't happy with the delivery times and said the products were not what he expected.</p>",
+        "<p>I stayed calm and listened carefully to his concerns. I spoke with our logistics team to speed up the delivery. I also offered different product options that better matched his needs. After a few days, things improved, and he started to trust me more.</p>",
+        "<p>This experience taught me the importance of patience, good communication, and staying professional. Not every customer is easy, but if you show respect and try to solve the problem, most people will respond well.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What was the problem the account manager faced?",
+          "choices": [
+            "A. He lost a client",
+            "B. A client was very demanding",
+            "C. He had too many meetings",
+            "D. He made a mistake with an order"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "How did the client act?",
+          "choices": [
+            "A. Calm and helpful",
+            "B. Friendly and quiet",
+            "C. Demanding and unhappy",
+            "D. Late and confused"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What did the account manager do to help?",
+          "choices": [
+            "A. He ignored the client",
+            "B. He told the client to wait",
+            "C. He called another company",
+            "D. He listened, found new products, and talked to the logistics team"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "What happened after a few days?",
+          "choices": [
+            "A. The client left",
+            "B. The problem got worse",
+            "C. The client trusted the manager more",
+            "D. The products were returned"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What did the account manager learn?",
+          "choices": [
+            "A. Always change the product",
+            "B. Some clients are not worth it",
+            "C. Good communication and patience help solve problems",
+            "D. Don’t talk to logistics"
+          ]
+        }
+      ]
+    }
+  ]
 },
+  {
+  
+  "readingcompTitle": "Streaming Fatigue: Too Much of a Good Thing?",
+  "topic": "streaming",
+  "level": "b2",
+  "image": "/Images/streamingfatigue1.webp",
+  "vocabulary": [
+    "streaming - online tartalom közvetítése",
+    "fatigue - fáradtság, kimerültség",
+    "overload - túlterheltség",
+    "subscription - előfizetés",
+    "binge - egyhuzamban sokat nézni/hallgatni",
+    "content - tartalom",
+    "decision-making - döntéshozatal",
+    "cancel - lemondani",
+    "curated - gondosan válogatott",
+    "engaged - elkötelezett, figyelmes"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Streaming services have changed how we watch TV shows, movies, and listen to music. With platforms like Netflix and Spotify, we can enjoy content anytime, anywhere. But with so much choice, some people are feeling tired of it all. This is called <strong>streaming fatigue</strong>.</p>",
+        "<p>Streaming fatigue happens when people feel overwhelmed by too many options. They spend more time browsing than watching or listening. Some even feel pressure to keep up with popular shows, which makes entertainment feel like work.</p>",
+        "<p>There is also <strong>subscription fatigue</strong>. Many users now pay for multiple services, and managing them all can be confusing and expensive. As a result, some people are starting to cancel their subscriptions or take breaks.</p>",
+        "<p>To fix this, some companies are offering <strong>curated</strong> content—smaller selections based on personal tastes. Music apps use playlists and recommendations to reduce decision-making stress and keep users <strong>engaged</strong>.</p>",
+        "<p>Experts say the best way to avoid streaming fatigue is to take breaks, limit screen time, and only watch or listen when you truly want to—not just because everyone else is doing it.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is 'streaming fatigue'?",
+          "choices": [
+            "A. Getting bored of old movies",
+            "B. Feeling tired from watching too many ads",
+            "C. Being overwhelmed by too much content",
+            "D. Having no access to streaming services"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "Why do some users cancel subscriptions?",
+          "choices": [
+            "A. They don't like TV shows anymore",
+            "B. They forget their passwords",
+            "C. They feel there are too few options",
+            "D. They are tired of paying for many services"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What does 'curated content' mean?",
+          "choices": [
+            "A. Content chosen randomly",
+            "B. Ads shown on free platforms",
+            "C. A limited selection based on user interests",
+            "D. Only music and no videos"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "How do music apps help reduce decision stress?",
+          "choices": [
+            "A. By limiting access to music",
+            "B. By offering free movies",
+            "C. With playlists and smart suggestions",
+            "D. By removing popular songs"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What is one suggested way to avoid streaming fatigue?",
+          "choices": [
+            "A. Watch as many shows as possible",
+            "B. Subscribe to every service",
+            "C. Take breaks and limit screen time",
+            "D. Follow every trending show"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+
   {
     "readingcompTitle": "Parents at a Football Match",
     "topic": "parents at a football match",
     "level": "a2",
+    "image": "/Images/parents-football-match1.jpg",
     "vocabulary": [
       "match - mérkőzés",  
       "referee - játékvezető",  
@@ -212,6 +472,7 @@ module.exports = [
     "readingcompTitle": "Talking About Your Children",
     "topic": "people description",
     "level": "a2",
+    "image": "/Images/talkingchildren1.jpg",
     "vocabulary": [
       "join - csatlakozni",  
       "kind - kedves",  
@@ -287,6 +548,7 @@ module.exports = [
     "readingcompTitle": "A Meeting with a Boss",
     "topic": "health",
     "level": "a2",
+    "image": "/Images/officerules1.jpg",
     "vocabulary": [
       "product - termék",
       "client - ügyfél",
@@ -369,6 +631,7 @@ module.exports = [
     "readingcompTitle": "A Meeting with a Distributor",
     "topic": "health",
     "level": "a2",
+    "image": "/Images/officerules2.avif",
     "vocabulary": [
 		"review - áttekint",
 		  "work - munka",
@@ -452,6 +715,7 @@ module.exports = [
     "readingcompTitle": "Discussing Yesterday's Activities",
     "topic": "business conversation",
     "level": "a2",
+    "image": "/Images/yesterdaymeeting1.webp",
     "vocabulary": [
       "shipment - szállítmány",  
       "order - rendelés",  
@@ -538,7 +802,7 @@ module.exports = [
   "readingcompTitle": "Following Up on an Order",
   "topic": "business conversation",
   "level": "b1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/officerules3.avif",
   "vocabulary": [
     "order - rendelés",
     "delivery - kiszállítás",
@@ -627,7 +891,7 @@ module.exports = [
   "readingcompTitle": "Quarterly Sales Review",
   "topic": "business discussion",
   "level": "b1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/qsalesreview1.jpg",
   "vocabulary": [
       "quarter - negyedév",
       "results - eredmény",
@@ -705,11 +969,224 @@ module.exports = [
   ]
 },
 
+{
+  "readingcompTitle": "New Workplace Rule",
+  "topic": "Company Policy",
+  "level": "b2",
+  "image": "/Images/companypolicy1.jpg",
+  "vocabulary": [
+    "insubordinates - disobedient employees",
+    "lawsuit - legal action",
+    "notice - warning"
+  ],
+  "paragraphs": [
+    {
+    "text": [
+      "<p>Entrepreneur Criticizes New Workplace Rule, Says It Might Be Illegal</p>",
+      "<p>A boss has been criticized for making a new rule at work that some people are calling \"crazy.\" Entrepreneur Ben Askins read the rule, sent by an anonymous worker, and said it was unfair. The new rule says that all workers must give three months' notice if they want to leave the company. The boss said this is because it takes that long to train someone new.</p>",
+      "<p>In addition, if a worker says they are leaving, their pay will be reduced by $6 per hour. The boss explained that by giving three months' notice, the workers are agreeing to the pay cut. He said, \"Since you will be leaving, your reduction in pay will be no issue. That's how this works from now on. You can thank your insubordinates for this,\" he added.</p>",
+      "<p>The new rule also says that workers who are leaving will have to do an extra 30 hours of overtime each week until the new person is fully trained.</p>",
+      "<p>Ben Askins said, \"This will cause a lot of workers to leave.\" Others agreed and said that this rule might lead to a lawsuit.</p>",
+      "<p><strong>Is this legal in Australia?</strong></p>",
+      "<p>In Australia, bosses are allowed to lower pay in certain situations, but not like this. For notice periods, how much notice you need to give depends on how long you’ve worked at the company. In Australia, workers need to give:</p>",
+      "<ul><li>one week if they've worked less than a year,</li><li>two weeks if they’ve worked one to three years,</li><li>three weeks if they’ve worked three to five years,</li><li>and four weeks if they’ve worked more than five years.</li></ul>",
+      "<p>Workers who are over 45 years old and have been with the company for more than two years must be given one extra week of notice.</p>"
+    ],
+     "questions": [
+{
+  "number": "1",
+  "question": "Do you think it’s fair for a boss to require three months’ notice to quit a job?",
+  "choices": [
+    "A. Yes, it's fair if training takes that long",
+    "B. No, it's too long",
+    "C. It depends on the job",
+    "D. I'm not sure"
+  ]
+},
+{
+  "number": "2",
+  "question": "How would you feel if your pay was reduced after you said you were quitting?",
+  "choices": [
+    "A. I would understand the decision",
+    "B. I would feel angry or disrespected",
+    "C. I wouldn't mind",
+    "D. I would quit immediately"
+  ]
+},
+{
+  "number": "3",
+  "question": "Do you agree with Ben Askins that this rule might cause more people to leave the company?",
+  "choices": [
+    "A. Yes, people won’t accept it",
+    "B. No, people will follow the rule",
+    "C. Maybe, it depends on other factors",
+    "D. I don’t have an opinion"
+  ]
+},
+{
+  "number": "4",
+  "question": "Is it reasonable to ask workers to do 30 hours of extra overtime while training someone?",
+  "choices": [
+    "A. Yes, if they’re paid for it",
+    "B. No, that’s too much",
+    "C. Only if the worker agrees",
+    "D. It depends on the situation"
+  ]
+},
+{
+  "number": "5",
+  "question": "Do you think this workplace rule should be legal?",
+  "choices": [
+    "A. Yes, companies should have freedom",
+    "B. No, it’s too harsh on employees",
+    "C. Only if workers agree in advance",
+    "D. I’m not sure"
+  ]
+}
+]
+
+    }
+  ]
+},
+{
+  "readingcompTitle": "Air Traffic Delays",
+  "topic": "air traffic delays",
+  "level": "b2",
+"image": "/Images/airdelay1.webp",
+"vocabulary": [
+    "disruption - break in service",
+    "saturated - filled to capacity",
+    "forecast - prediction",
+    "posed - presented",
+    "staff - employ",
+    "constrained - limited",
+    "volatile - unstable",
+    "strain - pressure",
+    "eye-watering - extremely high",
+    "congested - overcrowded",
+    "adhere - stick to",
+    "part and parcel of - an essential part of"
+  ],
+  "paragraphs": [
+    {
+    "text": [
+      "<p>Air traffic control delays and disruption across Europe could be worse this summer than last, senior aviation figures have warned.</p>",
+      "<p>The number of summer flights are forecast to exceed last year by more than 5% in what Eurocontrol head of air traffic management operations Steven Moore described as “a highly saturated network where any issue becomes a network problem”.</p>",
+      "<p>Eurocontrol is the European air navigation safety body and at the core of managing air traffic disruption.</p>",
+      "<p>Speaking on a Eurocontrol webinar, Moore noted air traffic in June to August last year was up 4.7% on the previous summer but delays increased by 47%, with a small number of air navigation service providers responsible for most delays.</p>",
+      "<p>He said a forecast 5.2% increase in traffic this summer posed “a significant challenge in a constrained network” and warned: “It’s plain we won’t have a summer without delays.”</p>",
+      "<p>Geneva airport chief operating officer Giovanni Russo agreed, saying: “We know there will be delays and disruption.”</p>",
+      "<p>He insisted: “All players need to stick to their plans. That is most important. [But] plan according to what is possible [and] staff correctly.”</p>",
+      "<p>However, Russo noted: “Days almost never go to plan. Something always goes wrong.”</p>",
+      "<p>Jesus Garcia, air navigation systems coordinator at Spanish air traffic management body Enaire, said: “We’re suffering a perfect storm with unpredictable and volatile traffic flow. Growth after Covid has not been uniform.</p>",
+      "<p>In addition, we’re suffering geopolitical conflict with increased miliary action and flight restrictions and increasing extreme weather phenomena. Together, it places a strain on capacity.”</p>",
+      "<p>He argued: “It’s a multi-phased problem, not [due to] a single problem or actor.”</p>",
+      "<p>Garcia also pointed out: “We need more air traffic controllers. [But] the problem with the availability of air traffic controllers is complex – training takes two to three years and recruitment is based on long-term planning not short-term demand. Recruitment for 2024 was based on 2021 traffic which was expected to be 15% down on 2019.”</p>",
+      "<p>EasyJet chief operating officer David Morgan reported a 41% increase in delays in the first two months of this year, describing this as a “worrying sign we’re moving in the wrong direction” and noted: “The southeast axis across Europe remains one of the biggest concerns.”</p>",
+      "<p>He said: “I can hardly remember a year when we’ve not had staffing issues. The cost of delays is eye-watering – it’s costing hundreds of millions to airlines.”</p>",
+      "<p>Morgan said easyJet was looking at whether “we can fly around the most congested areas” and pointed out: “Everyone likes to talk about realistic schedules, [but] it’s not always easy. Airlines must adhere to a schedule or risk losing [airport] slots.”</p>",
+      "<p>He acknowledged: “Delays are getting worse. They are part and parcel of summer, but staffing delays should be exceptional. Every year in peak summer period we’re struggling with staffing.”</p>"
+    ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "By how much is summer air traffic expected to increase this year compared to last year?",
+          "choices": [
+            "A. 4.7%",
+            "B. 5.2%",
+            "C. 15%",
+            "D. 41%"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "According to Steven Moore, what kind of network creates widespread problems when there is an issue?",
+          "choices": [
+            "A. A low-traffic network",
+            "B. A rural network",
+            "C. A highly saturated network",
+            "D. A domestic-only network"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What did Giovanni Russo say about the reliability of daily plans?",
+          "choices": [
+            "A. Days usually go according to plan",
+            "B. Most delays are weather-related",
+            "C. Days almost never go to plan",
+            "D. There is always enough staff to follow plans"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "What is one of the reasons Jesus Garcia gave for the current strain on air traffic control capacity?",
+          "choices": [
+            "A. A decline in airline safety standards",
+            "B. A sharp fall in post-Covid travel",
+            "C. Uniform traffic growth across Europe",
+            "D. Geopolitical conflicts and extreme weather"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What challenge is associated with hiring more air traffic controllers?",
+          "choices": [
+            "A. They must relocate internationally",
+            "B. Most are not interested in the job",
+            "C. Training takes 2–3 years and depends on long-term planning",
+            "D. There are no training programs available"
+          ]
+        },
+        {
+          "number": "6",
+          "question": "What did David Morgan from easyJet describe as 'eye-watering'?",
+          "choices": [
+            "A. Weather conditions in southern Europe",
+            "B. The cost of delays for airlines",
+            "C. The cost of recruiting air traffic controllers",
+            "D. Fuel prices for summer flights"
+          ]
+        },
+        {
+          "number": "7",
+          "question": "What is the 'southeast axis' across Europe considered to be?",
+          "choices": [
+            "A. A quiet and well-managed region",
+            "B. The most reliable air corridor",
+            "C. One of the biggest concerns for delays",
+            "D. An area with extra controller capacity"
+          ]
+        },
+        {
+          "number": "8",
+          "question": "Why do airlines need to stick to schedules even when delays occur?",
+          "choices": [
+            "A. To ensure passenger comfort",
+            "B. To avoid paying fines to Eurocontrol",
+            "C. To prevent losing valuable airport slots",
+            "D. Because air traffic controllers require it"
+          ]
+        },
+        {
+          "number": "9",
+          "question": "Opinion: Do you think air travel will ever become delay-free during summer seasons? Why or why not?",
+          "choices": []
+        },
+        {
+          "number": "10",
+          "question": "Discussion: In your opinion, what is the most effective way to reduce delays in European airspace?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
   {
     "readingcompTitle": "Caffeine: The Workplace Drug of Choice",
     "topic": "Food",
     "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/caffeine1.webp",
   "vocabulary": [
       "stimulant - élénkítőszer",
       "reduce - csökkent",
@@ -726,7 +1203,8 @@ module.exports = [
     "paragraphs": [
       {
         "text": "<p>Caffeine is the most widely used stimulant in the world. It is most common in coffee, but is also found in tea, sodas, and energy drinks. You can even find it in chewing gum, body creams, and bath bars. While caffeine gives us energy and keeps us awake, it also has some important medical uses.</p><h4>Medical Uses of Caffeine</h4><p>Caffeine can help premature babies who stop breathing (called apnea). It stabilizes their oxygen levels and helps them breathe better. In adults, caffeine improves energy, focus, and problem-solving skills. It also reduces mental and physical tiredness.</p><h4>The Problems with Caffeine</h4><p>Too much caffeine can cause problems, especially for people with anxiety. It can increase nervousness, fear, and cause trembling. If you take medicine for anxiety or panic, caffeine can make it less effective. Pregnant women should also limit caffeine because it hasn’t been studied enough for safety.</p><h4>Caffeine in Foods and Drinks</h4><p>Caffeine is often listed on drink labels, like soda or energy drinks. However, some products contain hidden caffeine. For example, guarana, a plant found in Brazil, has high amounts of caffeine and is often added to energy drinks. If you drink something with both coffee and guarana, you may be getting double the caffeine without realizing it.</p><h4>Caffeine Withdrawal</h4><p>If you stop using caffeine suddenly, you may feel withdrawal symptoms like headaches, tiredness, and a low mood. In more severe cases, people feel sick or very drowsy for a few days. Psychological symptoms, like feeling sad or unmotivated, can last longer.</p><h4>Caffeine Dependence</h4><p>Some people rely on caffeine so much that they can’t function without it. A study showed that caffeine withdrawal can lead to missing work, making mistakes, or feeling so tired you need to stay in bed. This shows that while caffeine has benefits, it also has real drawbacks.</p>",
-    "questions": [
+    
+        "questions": [
     {
       "number": "1",
       "question": "What is the most common source of caffeine mentioned in the text?",
@@ -802,7 +1280,7 @@ module.exports = [
     "readingcompTitle": "Plans Are Stupid",
     "topic": "General",
     "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/plansstuid1.png",
   "vocabulary": [
       "encountered - met",
       "procrastinate - to delay doing something",
@@ -820,8 +1298,7 @@ module.exports = [
     "paragraphs": [
       {
         "text": "<p>Do you make plans? Do you think plans are stupid? I have known many who do.</p><p>As a teacher, parent and friend, I have encountered many who think that plans are unnecessary or just, plain stupid. Of course, most of the people who say plans are stupid are not talking about plans for everyday routine items, such as getting dressed, preparing meals, etc. No, they are saying that planning your life is useless.</p><p>Why plan when you don’t have any real control over life? Why plan when things never really turn out like you planned? I’ll admit that in my own life, things never turn out exactly like I plan them. So why plan?</p><p>What do I do that never works out? Well, I plan by making a goal, breaking it down into “pieces of action,” all designed to help me accomplish my goal over an estimated amount of time. And, then? Well, to put it bluntly, it doesn’t happen. So why plan?</p><p>What really happened with my goal and/or plan? Usually, when I accomplish my “much adjusted goal” and look back, I notice that some things took longer, some shorter, and frankly, some were not completed and didn’t need to be. So, why have a plan?</p><p>A plan is still important because, in my opinion, I would not have reached my goal, if I hadn’t made the plan. It’s almost like the saying, “rules are made to be broken.” In one sense, of course rules are not made to be broken, but in another sense, they are. What I mean is that most of the time, rules are made AND consequences are established at the same time. Why have consequences, if rules are not broken? In that sense, we have an example where plans (rules) are made to be broken.</p><p>So, we need to make plans even though they will not necessarily be played out as planned. Think of it as life itself. Your body seems to have a plan, but it never plays out as planned. Your body has a built-in plan of eat, sleep, exercise, etc., and then, for example, a cold virus sets it off-plan. The plan has to be adjusted in order to keep you living. You do so and life continues, BUT not as originally planned. Therefore, life has a plan but it never works out as originally planned. Wow!</p><p>Now, let me make clear that I am NOT saying we shouldn’t plan. I am saying that we should expect our plan to always be faulty. A plan, even if it is faulty, still allows us to achieve our goal. In fact, a plan helps us get started toward change.</p><p>One way of viewing life is as a series of changes. Life implies change. A plan can help us to not procrastinate. A plan can help us go in the direction we want to go. A plan can help us decide and be comfortable with a decision, especially when the situation requires a quick decision.</p><p>Why make plans? Perhaps, making plans actually improves one’s quality of life. Planning for quality? Uhmmmm…</p>",
-        
-"questions": [
+        "questions": [
     {
       "number": "1",
       "question": "Do you agree with the author’s view that plans are necessary even though they may not work out as expected? Why or why not?",
@@ -881,7 +1358,7 @@ module.exports = [
     "readingcompTitle": "Resolutions",
     "topic": "health",
     "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/resolution1.png",
   "vocabulary": [
       "bite off more than you can chew - To take on more than you can handle.",
       "get back on track - To return to the correct course or direction.",
@@ -907,8 +1384,7 @@ module.exports = [
     ],
     "paragraphs": [
       {
-        "text": "<p>The start of a new year is always a time for renewal. It's a chance to hit the reset button, turn over a new leaf, and make a fresh start. For many, New Year’s resolutions serve as a catalyst for change. People across the world take a step back and reflect on the past year, considering how they can do things differently moving forward. But how can we make the most of this opportunity?</p><p>The key is to set realistic goals and stick to them. It's easy to bite off more than you can chew when you get excited about the possibilities, but it’s important to keep your resolutions manageable. Whether you want to get back on track with your health, improve your work-life balance, or learn the ropes of a new skill, setting achievable goals is essential.</p><p>For those who want to make changes in their professional life, the new year offers a clean slate. It's a great time to take the bull by the horns and pursue new opportunities. By taking small steps towards career development, you’ll be ahead of the game in no time. It’s also an excellent opportunity to brush up on existing skills or get your feet wet with something new. In today’s fast-paced world, learning never stops, and the new year is the perfect time to pick up the pace.</p><p>When it comes to personal growth, the idea of renewal can be seen in many ways. Whether it’s focusing on your physical health, your mental well-being, or your relationships, this is the time to make a fresh start. It’s not about biting off more than you can chew, but about taking it one step at a time. Small actions can lead to big changes, and before you know it, you’ll have made significant progress.</p><p>Of course, Rome wasn’t built in a day, and neither are personal transformations. Achieving your resolutions takes time, patience, and perseverance. Don’t get discouraged if things don’t change overnight. You might face challenges along the way, but the key is not to throw in the towel too soon. Remember, consistency is what makes the difference.</p><p>Lastly, it’s important to keep a positive attitude. When you look on the bright side and keep your eye on the prize, your chances of success are much higher. Surround yourself with people who motivate you, and don’t be afraid to take the plunge into new experiences. Whether you succeed or stumble along the way, every step forward is a step towards personal renewal.</p><p>As you move forward with your resolutions, remember that it's not about setting the world on fire but about making steady progress in the right direction. Keep your feet on the ground, think outside the box, and embrace the opportunity for growth. The new year is yours for the taking—so don’t hesitate to make it count!</p>"
-,
+        "text": "<p>The start of a new year is always a time for renewal. It's a chance to hit the reset button, turn over a new leaf, and make a fresh start. For many, New Year’s resolutions serve as a catalyst for change. People across the world take a step back and reflect on the past year, considering how they can do things differently moving forward. But how can we make the most of this opportunity?</p><p>The key is to set realistic goals and stick to them. It's easy to bite off more than you can chew when you get excited about the possibilities, but it’s important to keep your resolutions manageable. Whether you want to get back on track with your health, improve your work-life balance, or learn the ropes of a new skill, setting achievable goals is essential.</p><p>For those who want to make changes in their professional life, the new year offers a clean slate. It's a great time to take the bull by the horns and pursue new opportunities. By taking small steps towards career development, you’ll be ahead of the game in no time. It’s also an excellent opportunity to brush up on existing skills or get your feet wet with something new. In today’s fast-paced world, learning never stops, and the new year is the perfect time to pick up the pace.</p><p>When it comes to personal growth, the idea of renewal can be seen in many ways. Whether it’s focusing on your physical health, your mental well-being, or your relationships, this is the time to make a fresh start. It’s not about biting off more than you can chew, but about taking it one step at a time. Small actions can lead to big changes, and before you know it, you’ll have made significant progress.</p><p>Of course, Rome wasn’t built in a day, and neither are personal transformations. Achieving your resolutions takes time, patience, and perseverance. Don’t get discouraged if things don’t change overnight. You might face challenges along the way, but the key is not to throw in the towel too soon. Remember, consistency is what makes the difference.</p><p>Lastly, it’s important to keep a positive attitude. When you look on the bright side and keep your eye on the prize, your chances of success are much higher. Surround yourself with people who motivate you, and don’t be afraid to take the plunge into new experiences. Whether you succeed or stumble along the way, every step forward is a step towards personal renewal.</p><p>As you move forward with your resolutions, remember that it's not about setting the world on fire but about making steady progress in the right direction. Keep your feet on the ground, think outside the box, and embrace the opportunity for growth. The new year is yours for the taking—so don’t hesitate to make it count!</p>",
         "questions": [
           {
             "number": 1,
@@ -940,7 +1416,7 @@ module.exports = [
     "readingcompTitle": "Pets",
     "topic": "environment",
     "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/pets2.jpg",
   "vocabulary": [
     "recruitment - the process of finding people to work for a company",
     "retention - the ability to keep employees or customers",
@@ -955,8 +1431,7 @@ module.exports = [
     ],
     "paragraphs": [
       {
-        "text": "<p>The benefits of allowing pets in the workplace</p><p>In most cases, allowing pets to come to work really means dogs. In fact, June 24 is National Take Your Dog to Work Day, which shows how popular canine companions are. However, some companies welcome cats, birds, and other animals.</p><p>Here are some of the top benefits of permitting employees to bring pets to work:</p> <h4>1. Pets in the office can help with employee recruitment and retention.</h4> <p>There’s no denying pets are beloved companions. Banfield Pet Hospital surveyed new pet owners and found 76 percent prefer spending time with their pet over their partner, friends, or family. Pets are so ubiquitous many job seekers evaluate potential pet-related employee benefits when considering accepting a position.</p><p>Allowing pets in the office can be a great way to improve employee recruitment and retention, especially if you’re managing a multigenerational workforce. According to Statista, 87 million American homes include a pet. And data from the American Pet Products Association (APPA) reveals 32 percent of millennials, 27 percent of Gen Xers, and 16 percent of Gen Zers own pets. This wide swath of pet ownership means your employees are very likely to have a pet and may appreciate saving on doggy daycare. They may also be more willing to stay late if they don’t have to rush home to tend to their furry companions.</p> <h4>2. Pets in the office can improve company morale.</h4> <p>Businesses that allow furry or feathered friends to come to work with employees tend to have creative, open working environments. When the corporate culture emphasizes creating an excellent experience for employees, workplace morale can skyrocket.</p><p>Allowing pets at work can show your staff how much you care about them, which can make them feel happier and more appreciated.</p><p>Did You Know? Allowing pets at work can improve employee engagement and productivity. The Habri report cited above revealed more than 90 percent of employees working in pet-friendly offices say they're fully engaged, compared to 65 percent in pet-free environments.</p> <h4>3. Pets in the office can facilitate employee bonding, which motivates good work.</h4> <p>Some employees may feel more comfortable speaking to a co-worker if there’s a pet around to break the ice. Having animals in an office environment has been shown to facilitate interactions between employees who wouldn’t usually venture outside their comfort zones. This tendency can eventually lead to increased workplace collaboration, teamwork, and innovation. Additionally, employees tend to have greater compassion and understanding for their co-workers when they have a personal bond with them.</p> <h4>4. Pets in the office can improve employee health.</h4> <p>Having furry friends around can have positive effects on employees’ well-being. For starters, office pets require employees to get up from their desks to walk or play with their animals, which is good for employees’ physical health.</p><p>Office pets can also reduce employees’ productivity-killing workplace stress, improving their overall mental health. Reducing employee stress should be a priority for all employers for numerous reasons, including the fact that reduced stress can improve workplace safety. Less stress often leads to fewer stress-related injuries and illnesses, thus reducing the accompanying healthcare costs.</p> <h4>5. Pets in the office can help prevent employee burnout.</h4> <p>Pets are known to make people happy. For this reason, their presence may ultimately help workers avoid employee burnout. It’s easy for employees to dive into their work for hours on end without taking any breaks. Having their pets (or co-workers’ pets) there can remind them to take occasional breaks, allowing them to mentally reset before continuing their workday. These built-in breaks can reduce the potential for employee burnout.</p><p>Although allowing pets in the workplace brings many potential benefits, it’s not always a viable option. Here are some reasons you may not want to allow your team to bring pets to work.</p> <h4>1. Employees may have allergies or a fear of animals.</h4> <p>The presence of an animal could understandably threaten someone’s well-being and sense of safety. According to the Asthma and Allergy Foundation of America, allergies can be considered official disabilities under the Americans with Disabilities Act. As such, they should be respected and accommodated in the workplace. Before allowing animals in the workplace, be sure to survey your employees to establish whether there are allergies to consider or strong personal preferences that would make animals in the workplace a difficult and uncomfortable experience for someone.</p> <h4>2. Pets may not be conducive to a safe or sanitary work environment.</h4> <p>Certain industries can’t permit animals on-site for sanitation or safety reasons — for example, if the workplace must be sterile. You wouldn’t want a shedding dog in a laboratory, a cafe, or anywhere sterile supplies, meals, or manufactured products are made or packaged.</p><p>Similarly, noisy or hazardous work environments are not appropriate for on-site pets. For example, construction sites, machining facilities, and mining operations can be very loud and disturbing to pets — not to mention that it’s dangerous for animals to wander loose and potentially get injured.</p> <h4>3. Pets may be distracting or otherwise curb productivity.</h4> <p>While workplace pets can improve employee bonding, morale, and motivation, they may also prove distracting and detrimental to overall productivity. This is especially true for employees with noisy or energetic pets that require extensive attention, although even the most docile animals require care, supervision, and breaks to relieve themselves. And while the occasional pet break can be great for overall productivity and well-being, when animal breaks take up too much time, their presence might be counterproductive.</p> <h4>4. Pets may increase your legal liability.</h4> <p>Animals in the workplace come with increased responsibility and liability. You may be held responsible for personal injury or property damage caused by employees’ pets or even customers’ pets at your place of business. Pets are ultimately unpredictable — property damage and injuries are possibilities with even the most mild-mannered animals in specific situations.</p> <h4>5. Your office landlord may not allow pets.</h4> <p>Regardless of your personal views on employee pets in the workplace, your office space’s rules may limit you. Some businesses might embrace the idea of having friendly, fun pets around to brighten everyone’s day, but building regulations might restrict the presence of animals. Always check with your building owner before allowing pets to roam the halls.</p>"
-,
+        "text": "<p>The benefits of allowing pets in the workplace</p><p>In most cases, allowing pets to come to work really means dogs. In fact, June 24 is National Take Your Dog to Work Day, which shows how popular canine companions are. However, some companies welcome cats, birds, and other animals.</p><p>Here are some of the top benefits of permitting employees to bring pets to work:</p> <h4>1. Pets in the office can help with employee recruitment and retention.</h4> <p>There’s no denying pets are beloved companions. Banfield Pet Hospital surveyed new pet owners and found 76 percent prefer spending time with their pet over their partner, friends, or family. Pets are so ubiquitous many job seekers evaluate potential pet-related employee benefits when considering accepting a position.</p><p>Allowing pets in the office can be a great way to improve employee recruitment and retention, especially if you’re managing a multigenerational workforce. According to Statista, 87 million American homes include a pet. And data from the American Pet Products Association (APPA) reveals 32 percent of millennials, 27 percent of Gen Xers, and 16 percent of Gen Zers own pets. This wide swath of pet ownership means your employees are very likely to have a pet and may appreciate saving on doggy daycare. They may also be more willing to stay late if they don’t have to rush home to tend to their furry companions.</p> <h4>2. Pets in the office can improve company morale.</h4> <p>Businesses that allow furry or feathered friends to come to work with employees tend to have creative, open working environments. When the corporate culture emphasizes creating an excellent experience for employees, workplace morale can skyrocket.</p><p>Allowing pets at work can show your staff how much you care about them, which can make them feel happier and more appreciated.</p><p>Did You Know? Allowing pets at work can improve employee engagement and productivity. The Habri report cited above revealed more than 90 percent of employees working in pet-friendly offices say they're fully engaged, compared to 65 percent in pet-free environments.</p> <h4>3. Pets in the office can facilitate employee bonding, which motivates good work.</h4> <p>Some employees may feel more comfortable speaking to a co-worker if there’s a pet around to break the ice. Having animals in an office environment has been shown to facilitate interactions between employees who wouldn’t usually venture outside their comfort zones. This tendency can eventually lead to increased workplace collaboration, teamwork, and innovation. Additionally, employees tend to have greater compassion and understanding for their co-workers when they have a personal bond with them.</p> <h4>4. Pets in the office can improve employee health.</h4> <p>Having furry friends around can have positive effects on employees’ well-being. For starters, office pets require employees to get up from their desks to walk or play with their animals, which is good for employees’ physical health.</p><p>Office pets can also reduce employees’ productivity-killing workplace stress, improving their overall mental health. Reducing employee stress should be a priority for all employers for numerous reasons, including the fact that reduced stress can improve workplace safety. Less stress often leads to fewer stress-related injuries and illnesses, thus reducing the accompanying healthcare costs.</p> <h4>5. Pets in the office can help prevent employee burnout.</h4> <p>Pets are known to make people happy. For this reason, their presence may ultimately help workers avoid employee burnout. It’s easy for employees to dive into their work for hours on end without taking any breaks. Having their pets (or co-workers’ pets) there can remind them to take occasional breaks, allowing them to mentally reset before continuing their workday. These built-in breaks can reduce the potential for employee burnout.</p><p>Although allowing pets in the workplace brings many potential benefits, it’s not always a viable option. Here are some reasons you may not want to allow your team to bring pets to work.</p> <h4>1. Employees may have allergies or a fear of animals.</h4> <p>The presence of an animal could understandably threaten someone’s well-being and sense of safety. According to the Asthma and Allergy Foundation of America, allergies can be considered official disabilities under the Americans with Disabilities Act. As such, they should be respected and accommodated in the workplace. Before allowing animals in the workplace, be sure to survey your employees to establish whether there are allergies to consider or strong personal preferences that would make animals in the workplace a difficult and uncomfortable experience for someone.</p> <h4>2. Pets may not be conducive to a safe or sanitary work environment.</h4> <p>Certain industries can’t permit animals on-site for sanitation or safety reasons — for example, if the workplace must be sterile. You wouldn’t want a shedding dog in a laboratory, a cafe, or anywhere sterile supplies, meals, or manufactured products are made or packaged.</p><p>Similarly, noisy or hazardous work environments are not appropriate for on-site pets. For example, construction sites, machining facilities, and mining operations can be very loud and disturbing to pets — not to mention that it’s dangerous for animals to wander loose and potentially get injured.</p> <h4>3. Pets may be distracting or otherwise curb productivity.</h4> <p>While workplace pets can improve employee bonding, morale, and motivation, they may also prove distracting and detrimental to overall productivity. This is especially true for employees with noisy or energetic pets that require extensive attention, although even the most docile animals require care, supervision, and breaks to relieve themselves. And while the occasional pet break can be great for overall productivity and well-being, when animal breaks take up too much time, their presence might be counterproductive.</p> <h4>4. Pets may increase your legal liability.</h4> <p>Animals in the workplace come with increased responsibility and liability. You may be held responsible for personal injury or property damage caused by employees’ pets or even customers’ pets at your place of business. Pets are ultimately unpredictable — property damage and injuries are possibilities with even the most mild-mannered animals in specific situations.</p> <h4>5. Your office landlord may not allow pets.</h4> <p>Regardless of your personal views on employee pets in the workplace, your office space’s rules may limit you. Some businesses might embrace the idea of having friendly, fun pets around to brighten everyone’s day, but building regulations might restrict the presence of animals. Always check with your building owner before allowing pets to roam the halls.</p>",
         "questions": [
   {
     "number": 1,
@@ -1022,7 +1497,7 @@ module.exports = [
     "readingcompTitle": "Breaking Bad Habits",
     "topic": "Food",
     "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/habit1.jpg",
   "vocabulary": [
       "Brace yourself - get ready",
       "discomfort - small pain",
@@ -1103,7 +1578,7 @@ module.exports = [
     "readingcompTitle": "Chat Productivity",
     "topic": "Chat",
     "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/chatapps.png",
   "vocabulary": [
    "ubiquity - the fact of appearing everywhere or being very common",
     "beneficial - good or helpful for something",
@@ -1182,7 +1657,7 @@ module.exports = [
     "readingcompTitle": "App Fatigue",
     "topic": "Chat Platforms",
     "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/appfatigue.png",
   "vocabulary": [
     "staggering - incredibly suprising",
     "rely on - use",
@@ -1264,7 +1739,7 @@ module.exports = [
     "readingcompTitle": "Self Sevice Society",
     "topic": "Automation",
     "level": "b2",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/selfcheckout.jpg",
   "vocabulary": [  
       "substitute - to replace one thing with another",  
       "efficiency - the ability to achieve a goal with minimal waste or effort",  
@@ -1350,6 +1825,7 @@ module.exports = [
     "readingcompTitle": "Self Service Checkout Reddit",
     "topic": "Automation",
     "level": "c1",
+    "image": "/Images/selfcheckout.jpg",
     "vocabulary": [
       "So much for - there goes something (expressing disapppointment at ruined plans)",
       "scales - appliance to measure weight",  
@@ -1361,7 +1837,7 @@ module.exports = [
     ],
     "paragraphs": [
       {
-		"text": "<h1><strong>OP: You hear people complain about self-checkouts often, but never about self-service gas stations.</h1><p><strong><strong>Commenter 1:</strong> Because gas stations don’t have those stupid scales and give the message “place the item in the bagging area”</p><p><strong><strong>Commenter 2:</strong> Or 'please wait for cashier'. So much for not talking to anybody on my shopping trip.</p><p><strong><strong>Commenter 3:</strong> This ^ makes me wanna drop everything and leave</p><p><strong><strong>Commenter 4:</strong> I have just left my purchase and walked out before. More than once. The best was when I was doing it and the self checkout only had room for one bag. I had about 3 bags of groceries. So once I filled a bag, I took it and put it in my cart which caused the whole machine to alarm and stop. The cashier starts to berate me angrily so I said f-$%@! this “literally” and just stormed off.</p><p><strong><strong>Commenter 5:</strong> As an older guy now, half my self checkouts get abandoned if things don't work. Just walk out, the company doesn't have much invested in it anyway.</p><p><strong><strong>Commenter 10:</strong> See I feel like we are at the point with our technology where robot/machine checkout should be able to just tell if I'm shoving a gift card, debit, credit or cash into it. Like come on! You tell me what I'm paying you with</p><p><strong><strong>Commenter 11:</strong> If I mess up putting in my PIN number at the gas pump and have to hit cancel, I don't have to wait for an attendant to come put in their code.</p><h1><strong><strong>Commenter 17:</strong> Probably because most people don't know full service gas stations ever existed.</h1>",	  
+		"text": "<h1>OP: You hear people complain about self-checkouts often, but never about self-service gas stations.</h1><br><p><strong>Commenter 1:</strong> Because gas stations don’t have those stupid scales and give the message “place the item in the bagging area”</p><p><strong>Commenter 2:</strong> Or 'please wait for cashier'. So much for not talking to anybody on my shopping trip.</p><p><strong>Commenter 3:</strong> This ^ makes me wanna drop everything and leave</p><p><strong>Commenter 4:</strong> I have just left my purchase and walked out before. More than once. The best was when I was doing it and the self checkout only had room for one bag. I had about 3 bags of groceries. So once I filled a bag, I took it and put it in my cart which caused the whole machine to alarm and stop. The cashier starts to berate me angrily so I said f-$%@! this “literally” and just stormed off.</p><p><strong>Commenter 5:</strong> As an older guy now, half my self checkouts get abandoned if things don't work. Just walk out, the company doesn't have much invested in it anyway.</p><p><strong>Commenter 10:</strong> See I feel like we are at the point with our technology where robot/machine checkout should be able to just tell if I'm shoving a gift card, debit, credit or cash into it. Like come on! You tell me what I'm paying you with</p><p><strong>Commenter 11:</strong> If I mess up putting in my PIN number at the gas pump and have to hit cancel, I don't have to wait for an attendant to come put in their code.</p><p><strong>Commenter 17:</strong> Probably because most people don't know full service gas stations ever existed.</p>",	  
         
 		"questions": [
           {
@@ -1382,7 +1858,7 @@ module.exports = [
   {
     "readingcompTitle": "Types of People in Tech",
     "topic": "Technology",
-    "image": "/Images/watchingsports4.jpg",
+    "image": "/Images/techpeople1.jpg",
     "level": "c1",
     "vocabulary": [
       "eager - excited",
@@ -1479,6 +1955,7 @@ module.exports = [
     "readingcompTitle": "Types of Developers",
     "topic": "Technology",
     "level": "c1",
+    "image": "/Images/techpeople1.jpg",
  "vocabulary": [
   "broad - wide",
   "altruist - a person who is selflessly concerned for the well-being of others",
@@ -1561,6 +2038,7 @@ module.exports = [
     "readingcompTitle": "Planned Obsolescence and the Quality of Goods",
     "topic": "Quality",
     "level": "c1",
+    "image": "/Images/plannedobsolescence.avif",
     "vocabulary": [
       "planned obsolescence - conscious plan to make products that don't last",
       "aggravation - a situation that causes irritation or frustration",
@@ -1642,6 +2120,7 @@ module.exports = [
     "readingcompTitle": "Too Many Choices: A Problem That Can Paralyze",
     "topic": "Decision-Making and Choices",
     "level": "c1",
+    "image": "/Images/choice1.webp",
     "vocabulary": [
       "paralyze - to make someone unable to act or make decisions",
       "torture - to cause intense suffering or anxiety",
@@ -1771,6 +2250,7 @@ module.exports = [
     "readingcompTitle": "Are Dogs Smarter Than Cats? Science Has an Answer",
     "topic": "Animal Intelligence",
     "level": "c1",
+    "image": "/Images/dogscatssmart.jpg",
     "vocabulary": [
       "contentious - causing fights",
       "neurons - nerve cells in the brain that transmit information",
@@ -1860,6 +2340,7 @@ module.exports = [
     "readingcompTitle": "Recommended Steps per Day by Age",
     "topic": "Health & Fitness",
     "level": "c1",
+    "image": "/Images/steps1.jpg",
     "vocabulary": [
       "motivator - something that encourages action",
       "daunting - intimidating or discouraging",
@@ -1936,6 +2417,7 @@ module.exports = [
     "readingcompTitle": "Neighbor issues",
     "topic": "Technology",
     "level": "c1",
+    "image": "/Images/neighbors1.jpg",
     "vocabulary": [
       "peculiar - unusual or strange",
       "paranoid - excessively worried or anxious",
@@ -2034,6 +2516,7 @@ module.exports = [
   "readingcompTitle": "Utensils Around the World",
   "topic": "Technology",
   "level": "c1",
+  "image": "/Images/utensils1.jpg",
 "vocabulary": [
  "word - def"
 ],
@@ -2126,7 +2609,7 @@ module.exports = [
   "readingcompTitle": "Stereotypes About Tech Workers",
   "topic": "Workplace Culture in Tech",
   "level": "c1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/techpeople1.jpg",
   "vocabulary": [
     "stereotype - a widely held but oversimplified idea about a group of people",
     "introverted - preferring to spend time alone rather than with others",
@@ -2205,7 +2688,7 @@ module.exports = [
   "readingcompTitle": "Neighbor Conflicts and Etiquette",
   "topic": "Neighbors and Community Living",
   "level": "c1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/neighbors1.jpg",
   "vocabulary": [
     "suburban - relating to a residential area outside a city",
     "small talk - casual conversation about unimportant topics",
@@ -2274,7 +2757,7 @@ module.exports = [
   "readingcompTitle": "Plane Crashes: Perception vs. Reality",
   "topic": "Aviation Safety",
   "level": "c1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/plane1.webp",
   "vocabulary": [
     "wreckage - the remains of something that has been destroyed",
     "deceiving - like a lie",
@@ -2336,7 +2819,7 @@ module.exports = [
   "readingcompTitle": "Sports Hate",
   "topic": "Sports",
   "level": "c1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/watchingsports5.png",
   "vocabulary": [
     "wreckage - the remains of something that has been destroyed"
   ],
@@ -2421,7 +2904,7 @@ module.exports = [
   "readingcompTitle": "Extreme Weather Experiences",
   "topic": "Sports",
   "level": "c1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/extrememweather1.jpg",
   "vocabulary": [
     "huddled - in a sitting position, hiding from something",
     "peeked - looked just a little bit",
@@ -2457,7 +2940,7 @@ module.exports = [
   "readingcompTitle": "Education",
   "topic": "Sports",
   "level": "c1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/education1.jpg",
   "vocabulary": [
     "evolve - change",
     "cited - said",
@@ -2488,7 +2971,7 @@ module.exports = [
   "readingcompTitle": "Changing Food Culture",
   "topic": "Fast Food",
   "level": "c1",
-  "image": "/Images/smartphone2.jpg",
+  "image": "/Images/foodculture1.jpg",
   "vocabulary": [
     "traditional - old school",
     "households - families living together",
@@ -2511,7 +2994,111 @@ module.exports = [
       "questions": []
     }
   ]
+},
+
+{
+  "readingcompTitle": "Why We Didn't Open a Bakery Storefront",
+  "topic": "Side Jobs",
+  "image": "/Images/bakery.jpg",
+  "level": "c1",
+  "vocabulary": [
+    "monotonous - repetitive and dull",
+    "inventory - the goods and materials a business holds for sale",
+    "logistics - the detailed coordination of complex operations",
+    "margins - the difference between the cost and selling price",
+    "fallacy - a mistaken belief",
+    "impulse buying - unplanned purchases made spontaneously",
+    "curating - selecting or organizing something carefully",
+    "panacea - a solution for all problems",
+    "retrofit - to add new technology or features to older systems",
+    "capital expenditure - money spent by a business on major physical goods or services",
+    "make ends meet - to earn just enough to cover expenses",
+    "hit or miss - unpredictable in success or failure",
+    "black hole - something that consumes time or effort endlessly",
+    "do well - to succeed or perform successfully",
+    "pull the plug - to cancel or stop something completely",
+    "time suck - something that consumes a lot of time with little return",
+    "cash suck - something that consumes a lot of money with little return",
+    "fallacy - a mistaken belief, especially one based on unsound reasoning",
+    "hustle at the markets - to work hard and persistently selling at markets",
+    "the hill you end up dying on - a challenge or commitment that leads to failure or exhaustion",
+    "long slow drift - a gradual and often unwanted change",
+    "on all the time - constantly energetic or performative in public settings",
+    "drained me - exhausted me emotionally or physically",
+    "out of business - no longer operating due to failure",
+    "lucky time and place - fortunate timing and circumstances",
+    "scale up - to grow a business or operation in size or capacity"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>I had a small bakery, initially out of the home, then out of a rented commercial kitchen, and into other retail stores. We did well and were considering moving into our own retail space. In the end — it wasn't worth it for us. Here's why we decided against it:</p>",
+        "<p>It's not baking anymore at a certain volume, it's just basic chemistry. It gets monotonous, and boring and repetitive, and if you feel that baking is an outlet for your creativity, there's a chance you're going to hate it after a while.</p>",
+        "<p>You spend more time buying things than you do baking. Flour by cartload, sugar by the cartload, storing it, rotating it, learning how to keep inventory, figuring out if retail vs commercial is cheaper, trying to get a massive food supplier to deal with you — it can turn into a ton of logistics.</p>",
+        "<p>Inevitably, when you look at your margins, you realize that to make ends meet and make a profit, you have to start buying different ingredients. Your cake, for example, is great because you make it with a really nice oil, but buying that in bulk is expensive. You start thinking about maybe using canola oil. It can be a long slow drift into the kind of bakery you didn't ever want to be.</p>",
+        "<p>Farmer's markets are not fun. They're tiring, you have to like customer-facing events, and you have to be 'on' all the time. I liked baking, but the people — holy hell, the people drained me like I didn't believe was possible. Where I am, there's a fallacy that markets are a stepping stone to retail, but everyone with a store still has to hustle at the markets every weekend.</p>",
+        "<p>Retail storefront is a HUGE cash and time suck. Better locations mean more rent, and you have to get the customers to come to you specifically. Your success in markets was that the customers came to the event — that is a BIG distinction. Also, some landlords simply didn’t want another bakery.</p>",
+        "<p>Social media can be really hit or miss. Sometimes it works, sometimes it doesn't. It can be a black hole of time and effort without much return. You can’t rely on it completely.</p>",
+        "<p>Everything has to scale up — your mixer, your oven, your counter. Nothing at home is big enough. You need commercial-grade everything, which costs money.</p>",
+        "<p>As a contrast to the success stories: There was a bakery in my city that was loved. They did everything right, moved into a retail store, bought new equipment — and were out of business in a year. A coffee place took over and did fine, mostly due to lucky timing.</p>",
+        "<p>I wouldn’t undo the experience, but I wouldn’t do it again. The lessons I learned helped me in other sectors, but they were tough. If you’re starting small, you're doing it right. The retail storefront should be the LAST step — that’s where the risk gets very high.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Why did the writer ultimately decide against opening a retail bakery?",
+          "choices": [
+            "A. They didn't enjoy baking anymore",
+            "B. The market was too competitive",
+            "C. The risk and long-term commitment were too high",
+            "D. They preferred to sell at farmer's markets"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "What does the author say about farmer's markets?",
+          "choices": [
+            "A. They are the best way to make money",
+            "B. They are fun and easy",
+            "C. They require energy and are exhausting",
+            "D. They are the perfect step before retail"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What lesson did the author learn about social media?",
+          "choices": [
+            "A. It guarantees success if used properly",
+            "B. It is a waste of time for all businesses",
+            "C. It can be unpredictable and unreliable",
+            "D. It works well for bakeries"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Why did the author mention another bakery in the city?",
+          "choices": [
+            "A. To show that retail stores always fail",
+            "B. To illustrate how even popular bakeries can fail",
+            "C. To promote a local business",
+            "D. To explain how coffee shops are more profitable"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What advice does the author give to people starting a small bakery?",
+          "choices": [
+            "A. Avoid farmer's markets",
+            "B. Take on debt early",
+            "C. Start with a retail store",
+            "D. Make the retail storefront the final step"
+          ]
+        }
+      ]
+    }
+  ]
 }
+
 
 
 

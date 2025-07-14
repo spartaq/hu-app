@@ -1,4 +1,14 @@
-[
+[  
+  {
+    "word": "white lie",
+    "category": "Good",
+    "topic": "gossip"
+  },
+  {
+    "word": "lie",
+    "category": "Bad",
+    "topic": "gossip"
+  },
   {
     "word": "heatwave",
     "category": "Hot",
@@ -25,11 +35,6 @@
     "topic": "weather"
   },
   {
-    "word": "snowstorm",
-    "category": "Storm",
-    "topic": "weather"
-  },
-  {
     "word": "scorching",
     "category": "Hot",
     "topic": "weather"
@@ -45,17 +50,7 @@
     "topic": "weather"
   },
   {
-    "word": "torrential rain",
-    "category": "Rain",
-    "topic": "weather"
-  },
-  {
     "word": "downpour",
-    "category": "Rain",
-    "topic": "weather"
-  },
-  {
-    "word": "monsoon",
     "category": "Rain",
     "topic": "weather"
   },
@@ -70,33 +65,8 @@
     "topic": "weather"
   },
   {
-    "word": "cyclone",
-    "category": "Storm",
-    "topic": "weather"
-  },
-  {
-    "word": "typhoon",
-    "category": "Storm",
-    "topic": "weather"
-  },
-  {
-    "word": "gust",
-    "category": "Wind",
-    "topic": "weather"
-  },
-  {
-    "word": "gale",
-    "category": "Wind",
-    "topic": "weather"
-  },
-  {
     "word": "breeze",
     "category": "Wind",
-    "topic": "weather"
-  },
-  {
-    "word": "sleet",
-    "category": "Cold",
     "topic": "weather"
   },
   {
@@ -156,10 +126,6 @@
   },
   {
     "word": "freezing",
-    "category": "Cold",
-    "topic": "weather"
-  }, {
-    "word": "brisk",
     "category": "Cold",
     "topic": "weather"
   },

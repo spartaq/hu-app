@@ -1,5 +1,100 @@
 [
-        {
+          {
+            "text": "The new radar interface ___ a bit confusing at first.",
+            "answer": "looks",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The pilot's voice ___ calm during the emergency landing.",
+            "answer": "sounded",
+            "topic": "air traffic"
+          },
+          {
+            "text": "That explanation ___ as if the runway lights failed.",
+            "answer": "sounds",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The control tower windows ___ like they need cleaning.",
+            "answer": "look",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The airport lounge ___ like a luxury hotel.",
+            "answer": "smells",
+            "topic": "air traffic"
+          },
+          {
+            "text": "It ___ as if the arrival data hasn't updated yet.",
+            "answer": "seems",
+            "topic": "air traffic"
+          },
+          {
+            "text": "That holding pattern ___ unnecessary to me.",
+            "answer": "feels",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The onboard meal actually ___ pretty good this time.",
+            "answer": "tasted",
+            "topic": "air traffic"
+          },
+          {
+            "text": "He ___ like someone who's flown in bad weather before.",
+            "answer": "looks",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The air traffic flow control measures ___ effective so far.",
+            "answer": "seem",
+            "topic": "air traffic"
+          },
+          {
+            "text": "It ___ as though the radar is picking up a storm system.",
+            "answer": "looks",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The passenger ___ sick after the turbulent descent.",
+            "answer": "felt",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The situation ___ under control now.",
+            "answer": "seems",
+            "topic": "air traffic"
+          },
+          {
+            "text": "That explanation ___ like something a trainee would say.",
+            "answer": "sounds",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The interior of the cockpit ___ like burnt plastic.",
+            "answer": "smelled",
+            "topic": "air traffic"
+          },
+          {
+            "text": "It ___ as if the communication link was lost temporarily.",
+            "answer": "seemed",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The delay ___ longer than we were told.",
+            "answer": "feels",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The new runway ___ like a good solution to congestion.",
+            "answer": "sounds",
+            "topic": "air traffic"
+          },
+          {
+            "text": "The weather radar data ___ a bit outdated.",
+            "answer": "looks",
+            "topic": "air traffic"
+          },
+          {
             "text": "The API response times ___ reasonable for the new system.",
             "answer": "seem"
           },          

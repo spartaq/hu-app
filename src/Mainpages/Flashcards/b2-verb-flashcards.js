@@ -145,7 +145,7 @@ function FlashB2Verb() {
       />
        <div className="grammar-container">
 
-      <div className={`flashpage-container div1 ${isFullscreen ? 'fullscreen' : ''}`}>
+      <div className={`flashpage-container  ${isFullscreen ? 'fullscreen' : ''}`}>
         <div className={`column-right ${isFullscreen ? 'fullscreen' : ''}`}>
           <div className="flashset-controls">
            
@@ -264,10 +264,10 @@ function FlashB2Verb() {
         </div>
       </div>
 
-      <div className="gmenu div2"> <FlashcardMenu /> 
+      <div className="gmenu "> <FlashcardMenu /> 
       </div>
 
-      <div className="div3"> 
+      <div> 
 
             <Sidebar />
       </div>

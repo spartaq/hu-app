@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
@@ -15,8 +15,8 @@ import RandomQuestionGenerator from '../../Components/DiscussionComps/questionge
 import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/brandingquiz.json';
-import GrammarExplanation from '../../Components/VocabularyListComps/dependentprepositionsexplanation.js';
-import GrammarExercises from '../../Components/VocabularyExerciseComps/dependentprepositionsexercisescomp.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/dependentprepositionsexplanation.js';
+import GrammarExercises from '../../Components/GrammarExerciseComps/dependentprepositionsexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
@@ -51,7 +51,7 @@ const Branding = () => {
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
@@ -76,7 +76,7 @@ const Branding = () => {
 
                 </div>
                 
-                <div className="agenda-subtitle">Vocabulary</div>
+                <div className="agenda-vocabulary">Vocabulary</div>
                 <div>                   
                     <div className="agenda-display-grid">
                         <VocabularyMatch data={vocabData} topic="branding" />
@@ -85,19 +85,17 @@ const Branding = () => {
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
-                <Reading readings={readingcompData} title="Branding" /> 
-                    
-
+                <Reading readings={readingcompData} title="Branding" />
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="Branding" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="branding" />
             </div>
         </div>

@@ -1,0 +1,206 @@
+{
+  "sentences":[
+    {
+      "text": "I ___ happy yesterday.",
+      "answer": "was",
+      "topic": "Emotions"
+    },
+    {
+      "text": "She ___ tired after the long day.",
+      "answer": "was",
+      "topic": "Emotions"
+    },
+    {
+      "text": "We ___ excited about the trip.",
+      "answer": "were",
+      "topic": "Emotions"
+    },
+    {
+      "text": "They ___ late for the meeting.",
+      "answer": "were",
+      "topic": "Time"
+    },
+    {
+      "text": "He ___ nervous before the exam.",
+      "answer": "was",
+      "topic": "Emotions"
+    },
+    {
+      "text": "You ___ at the park in the afternoon.",
+      "answer": "were",
+      "topic": "Places"
+    },
+    {
+      "text": "The weather ___ perfect for a picnic.",
+      "answer": "was",
+      "topic": "Weather"
+    },
+    {
+      "text": "The children ___ very quiet during the show.",
+      "answer": "were",
+      "topic": "Behavior"
+    },
+    {
+      "text": "I ___ at home all weekend.",
+      "answer": "was",
+      "topic": "Places"
+    },
+    {
+      "text": "The movie ___ amazing!",
+      "answer": "was",
+      "topic": "Opinions"
+    },
+    {
+      "text": "We ___ very busy at work last week.",
+      "answer": "were",
+      "topic": "Work"
+    },
+    {
+      "text": "She ___ the best player on the team.",
+      "answer": "was",
+      "topic": "Sports"
+    },
+    {
+      "text": "They ___ happy with the results.",
+      "answer": "were",
+      "topic": "Emotions"
+    },
+    {
+      "text": "You ___ at the party on Friday.",
+      "answer": "were",
+      "topic": "Events"
+    },
+    {
+      "text": "It ___ a difficult decision to make.",
+      "answer": "was",
+      "topic": "Opinions"
+    },
+    {
+      "text": "The streets ___ empty early in the morning.",
+      "answer": "were",
+      "topic": "Places"
+    },
+    {
+      "text": "He ___ a great leader.",
+      "answer": "was",
+      "topic": "People"
+    },
+    {
+      "text": "The book ___ interesting and informative.",
+      "answer": "was",
+      "topic": "Opinions"
+    },
+    {
+      "text": "We ___ at the restaurant for dinner.",
+      "answer": "were",
+      "topic": "Places"
+    },
+    {
+      "text": "I ___ late for the train yesterday.",
+      "answer": "was",
+      "topic": "Time"
+    },
+    
+      {
+        "text": "___ she at the meeting yesterday?",
+        "answer": "Was",
+        "topic": "Work"
+      },
+      {
+        "text": "___ they happy with the project results?",
+        "answer": "Were",
+        "topic": "Project Management"
+      },
+      {
+        "text": "___ the report finished on time?",
+        "answer": "Was",
+        "topic": "Deadlines"
+      },
+      {
+        "text": "___ you in the office last Friday?",
+        "answer": "Were",
+        "topic": "Workplace"
+      },
+      {
+        "text": "___ the training session useful?",
+        "answer": "Was",
+        "topic": "Learning"
+      },
+      {
+        "text": "___ your manager present at the call?",
+        "answer": "Was",
+        "topic": "Meetings"
+      },
+      {
+        "text": "___ the documents on your desk?",
+        "answer": "Were",
+        "topic": "Office"
+      },
+      {
+        "text": "___ he responsible for the mistake?",
+        "answer": "Was",
+        "topic": "Responsibility"
+      },
+      {
+        "text": "___ the customers satisfied with the service?",
+        "answer": "Were",
+        "topic": "Customer Service"
+      },
+      {
+        "text": "___ it difficult to complete the task?",
+        "answer": "Was",
+        "topic": "Challenges"
+      },
+      {
+        "text": "The call ___ (not) very clear.",
+        "answer": "was",
+        "topic": "Communication"
+      },
+      {
+        "text": "They ___ (not) in the office last Monday.",
+        "answer": "were",
+        "topic": "Workplace"
+      },
+      {
+        "text": "The email ___ (not) correct.",
+        "answer": "was",
+        "topic": "Communication"
+      },
+      {
+        "text": "He ___ (not) the team leader.",
+        "answer": "was",
+        "topic": "Roles"
+      },
+      {
+        "text": "We ___ (not) ready for the presentation.",
+        "answer": "were",
+        "topic": "Meetings"
+      },
+      {
+        "text": "The system ___ (not) working yesterday.",
+        "answer": "was",
+        "topic": "Technology"
+      },
+      {
+        "text": "She ___ (not) happy with the changes.",
+        "answer": "was",
+        "topic": "Feedback"
+      },
+      {
+        "text": "The files ___ (not) in the correct folder.",
+        "answer": "were",
+        "topic": "Organization"
+      },
+      {
+        "text": "I ___ (not) late for the meeting.",
+        "answer": "was",
+        "topic": "Punctuality"
+      },
+      {
+        "text": "The deadline ___ (not) last Friday.",
+        "answer": "was",
+        "topic": "Deadlines"
+      }
+  ]
+}
+  

@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import SEO from '../../Components/SEO';
 import Breadcrumbs from '../../Components/Breadcrumb';
 import writing from '../../Images/writing1-1280x470.jpg';
-import Sidebar from '../../Components/Sidebar';
 
 const Writingexercises = () => {
     return ( 
@@ -44,7 +43,6 @@ const Writingexercises = () => {
 </div>
 <div>
 
-             <div><Sidebar/></div>
       </div>
 
   </div>

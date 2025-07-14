@@ -91,12 +91,18 @@ const PerfectpastExercises = () => {
   };
 
   const handleNextExercise = () => {
+        const filteredSentences = selectedTopic
+          ? sentencesData.filter((sentence) => sentence.topic === selectedTopic)
+          : sentencesData;
 
     const nextIndex = (currentIndex + 5) % filteredSentences.length;
     setCurrentIndex(nextIndex);
   };
 
   const handlePreviousExercise = () => {
+      const filteredSentences = selectedTopic
+        ? sentencesData.filter((sentence) => sentence.topic === selectedTopic)
+        : sentencesData;
     const previousIndex = (currentIndex - 5 + filteredSentences.length) % filteredSentences.length;
     setCurrentIndex(previousIndex);
   };
@@ -111,21 +117,12 @@ const PerfectpastExercises = () => {
         <div className="introtext">
           <div className="exercises-container">
 
-            <div className="exercisectrl">
-              <button type="button" className="checkbtn" onClick={handlePreviousExercise}><i className="fas fa-arrow-left"></i> Prev Set 
-              </button>
-              <button type="button" className="checkbtn" onClick={handleNextExercise}>
-              Next Set <i className="fas fa-arrow-right"></i>
-              </button>
-              <button type="submit" className="checkbtn" onClick={handleSubmit}>Check</button>
-              <button type="submit" className="checkbtn" onClick={handleReset}>Reset</button>
-              <button 
-                    type="button" 
-                    className="checkbtn" 
-                    onClick={toggleShowAnswers}
-                    >
-                    {showAnswers ? 'Hide Answers' : 'Show Answers'}
-                    </button>
+            
+            <p className="descriptionbox">Complete the sentences with either the present perfect or the simple past.</p>
+            
+            <form className="exercises-form" onSubmit={handleSubmit}>
+            <div className="counterfilter">
+            <PageCounter currentPage={currentPage} totalPages={totalPages} />
               <div className="filter-dropdown-container">
               <Select
                 value={selectedTopic ? { label: selectedTopic, value: selectedTopic } : null}
@@ -137,9 +134,6 @@ const PerfectpastExercises = () => {
               />
             </div>
             </div>
-            <p className="descriptionbox">Complete the sentences with the correct form of Present Perfect vs Past Simple.</p>
-            <form className="exercises-form" onSubmit={handleSubmit}>
-            <PageCounter currentPage={currentPage} totalPages={totalPages} />
               {displayedSentences.map((sentence, index) => (
                 <div key={index} className="sentence-container">
                   <span className="circle">{index + 1}</span>
@@ -161,21 +155,19 @@ const PerfectpastExercises = () => {
                 </div>
               ))}
                <div className="exercisectrl">
+              <button type="button" className="checkbtn" onClick={handlePreviousExercise}><i className="fas fa-arrow-left"></i> Prev Set 
+              </button>
+              <button type="button" className="checkbtn" onClick={handleNextExercise}>
+              Next Set <i className="fas fa-arrow-right"></i>
+              </button>
+              <button type="submit" className="checkbtn" onClick={handleReset}>Reset</button>
               <button 
                     type="button" 
                     className="checkbtn" 
                     onClick={toggleShowAnswers}
                     >
                     {showAnswers ? 'Hide Answers' : 'Show Answers'}
-                    </button>
-              <button type="submit" className="checkbtn">Check</button>
-              <button type="submit" className="checkbtn" onClick={handleReset}>Reset</button>
-              <button type="button" className="checkbtn" onClick={handlePreviousExercise}>
-              <i className="fas fa-arrow-left"></i> Prev Set 
-              </button>
-              <button type="button" className="checkbtn" onClick={handleNextExercise}>
-              Next Set <i className="fas fa-arrow-right"></i>
-              </button></div>
+                    </button></div>
             </form>
           </div>
         </div>

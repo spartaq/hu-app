@@ -1,5 +1,105 @@
 [
     {
+      "text": "I ______ (prepare) the sales report yesterday.",
+      "answer": "prepared",
+      "topic": "sales"
+    },
+    {
+      "text": "She ______ (visit) the customer in Germany.",
+      "answer": "visited",
+      "topic": "sales"
+    },
+    {
+      "text": "We ______ (close) a big deal last quarter.",
+      "answer": "closed",
+      "topic": "sales"
+    },
+    {
+      "text": "They ______ (organize) a product demo last week.",
+      "answer": "organized",
+      "topic": "sales"
+    },
+    {
+      "text": "He ______ (send) the invoice on Friday.",
+      "answer": "sent",
+      "topic": "sales"
+    },
+    {
+      "text": "The team ______ (meet) with the client in person.",
+      "answer": "met",
+      "topic": "sales"
+    },
+    {
+      "text": "I ______ (not receive) the confirmation email.",
+      "answer": "did not receive",
+      "topic": "sales"
+    },
+    {
+      "text": "She ______ (not attend) the sales meeting.",
+      "answer": "did not attend",
+      "topic": "sales"
+    },
+    {
+      "text": "They ______ (not reply) to our proposal.",
+      "answer": "did not reply",
+      "topic": "sales"
+    },
+    {
+      "text": "We ______ (not visit) the new store yet.",
+      "answer": "did not visit",
+      "topic": "sales"
+    },
+    {
+      "text": "He ______ (not confirm) the delivery date.",
+      "answer": "did not confirm",
+      "topic": "sales"
+    },
+    {
+      "text": "You ______ (not send) the updated contract.",
+      "answer": "did not send",
+      "topic": "sales"
+    },
+    {
+      "text": "_______ (you speak) to the new client last week?",
+      "answer": "Did you speak",
+      "topic": "sales"
+    },
+    {
+      "text": "_______ (they join) the video call on time?",
+      "answer": "Did they join",
+      "topic": "sales"
+    },
+    {
+      "text": "_______ (he follow up) after the meeting?",
+      "answer": "Did he follow up",
+      "topic": "sales"
+    },
+    {
+      "text": "_______ (she explain) the price changes?",
+      "answer": "Did she explain",
+      "topic": "sales"
+    },
+    {
+      "text": "Where ______ (you go) after the conference?",
+      "answer": "did you go",
+      "topic": "sales"
+    },
+    {
+      "text": "When ______ (they arrive) at the client’s office?",
+      "answer": "did they arrive",
+      "topic": "sales"
+    },
+    {
+      "text": "Why ______ (he cancel) the product demo?",
+      "answer": "did he cancel",
+      "topic": "sales"
+    },
+    {
+      "text": "What ______ (she say) about the offer?",
+      "answer": "did she say",
+      "topic": "sales"
+    },
+    {
       "text": "I ___ (go) to the park yesterday.",
       "answer": "went"
     },

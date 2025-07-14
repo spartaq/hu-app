@@ -8,12 +8,12 @@ import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
-import VocabularyMatch from '../../Utils/vocabmatch.js';
+import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
 import GapFillExercise from '../../Utils/gapfill.js';
 import jsonData from '../Vocabulary-Exercises/Data/gapfill.json'
 import PassiveExplanation from '../../Components/GrammarExplanationComps/passiveexplanation.js';
@@ -66,7 +66,7 @@ const Food = () => {
                     </div>
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
@@ -105,19 +105,19 @@ const Food = () => {
                    
                 
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
                 <div className="agenda-display-grid">
                     <GapFillExercise jsonData={jsonData} />
                     </div>
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="Utensils" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="utensils" />
             </div>
         </div>

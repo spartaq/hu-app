@@ -1,0 +1,295 @@
+{
+  "sentences":[
+    {
+    "text": "The air taxi ___ (fly) over the city right now.",
+    "answer": "is flying",
+    "topic": "air taxi"
+    },
+    {
+      "text": "Pilots usually ___ (check) the route before takeoff.",
+      "answer": "check",
+      "topic": "air taxi"
+    },
+    {
+      "text": "At the moment, the engineer ___ (test) a new navigation system.",
+      "answer": "is testing",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Passengers often ___ (book) their flights online.",
+      "answer": "book",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Look! The drone taxi ___ (land) on the rooftop pad.",
+      "answer": "is landing",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Controllers ___ (monitor) air traffic in the control room now.",
+      "answer": "are monitoring",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Every day, the company ___ (launch) several test flights.",
+      "answer": "launches",
+      "topic": "air taxi"
+    },
+    {
+      "text": "The technician ___ (install) new software at the moment.",
+      "answer": "is installing",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Air taxis ___ (use) electric power to reduce emissions.",
+      "answer": "use",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Right now, the pilot ___ (talk) to the control tower.",
+      "answer": "is talking",
+      "topic": "air taxi"
+    },
+    {
+      "text": "She ___ (send) emails to clients every morning.",
+      "answer": "sends"
+    },
+    {
+      "text": "They ___ (discuss) the project requirements now.",
+      "answer": "are discussing"
+    },
+    {
+      "text": "He ___ (write) code for the new feature.",
+      "answer": "writes"
+    },
+    {
+      "text": "We ___ (have) a team meeting every Monday.",
+      "answer": "have"
+    },
+    {
+      "text": "I ___ (update) the report at the moment.",
+      "answer": "am updating"
+    },
+    {
+      "text": "She ___ (prepare) the presentation for the client right now.",
+      "answer": "is preparing"
+    },
+    {
+      "text": "The system ___ (generate) reports automatically.",
+      "answer": "generates"
+    },
+    {
+      "text": "They ___ (test) the software right now.",
+      "answer": "are testing"
+    },
+    {
+      "text": "He ___ (attend) a conference every year.",
+      "answer": "attends"
+    },
+    {
+      "text": "We ___ (schedule) meetings in the afternoon.",
+      "answer": "schedule"
+    },
+    {
+      "text": "The team ___ (work) remotely this week.",
+      "answer": "is working"
+    },
+    {
+      "text": "She ___ (review) the project plan every day.",
+      "answer": "reviews"
+    },
+    {
+      "text": "I ___ (coordinate) with the design team at the moment.",
+      "answer": "am coordinating"
+    },
+    {
+      "text": "They ___ (deploy) the new software right now.",
+      "answer": "are deploying"
+    },
+    {
+      "text": "He ___ (analyze) data for the monthly report.",
+      "answer": "analyzes"
+    },
+    {
+      "text": "We ___ (have) a call with the client now.",
+      "answer": "are having"
+    },
+    {
+      "text": "She ___ (manage) multiple projects at once.",
+      "answer": "manages"
+    },
+    {
+      "text": "I ___ (test) the feature right now.",
+      "answer": "am testing"
+    },
+    {
+      "text": "They ___ (release) updates every month.",
+      "answer": "release"
+    },
+    {
+      "text": "He ___ (fix) the server issue now.",
+      "answer": "is fixing"
+    },
+    {
+      "text": "She ___ (not attend) the meeting right now.",
+      "answer": "is not attending"
+    },
+    {
+      "text": "He ___ (not write) the report every day.",
+      "answer": "does not write"
+    },
+    {
+      "text": "They ___ (not work) on the new project at the moment.",
+      "answer": "are not working"
+    },
+    {
+      "text": "We ___ (not send) the proposal yet.",
+      "answer": "are not sending"
+    },
+    {
+      "text": "I ___ (not review) the documents this week.",
+      "answer": "am not reviewing"
+    },
+    {
+      "text": "She ___ (not join) the video call now.",
+      "answer": "is not joining"
+    },
+    {
+      "text": "They ___ (not fix) the bug in the system now.",
+      "answer": "are not fixing"
+    },
+    {
+      "text": "He ___ (not attend) conferences regularly.",
+      "answer": "does not attend"
+    },
+    {
+      "text": "We ___ (not work) on weekends.",
+      "answer": "do not work"
+    },
+    {
+      "text": "The system ___ (not update) itself automatically.",
+      "answer": "does not update"
+    },
+    {
+      "text": "She ___ (not manage) the IT department at the moment.",
+      "answer": "is not managing"
+    },
+    {
+      "text": "They ___ (not launch) the product this week.",
+      "answer": "are not launching"
+    },
+    {
+      "text": "He ___ (not test) the feature right now.",
+      "answer": "is not testing"
+    },
+    {
+      "text": "I ___ (not prepare) the report at this moment.",
+      "answer": "am not preparing"
+    },
+    {
+      "text": "We ___ (not attend) daily stand-ups.",
+      "answer": "do not attend"
+    },
+    {
+      "text": "She ___ (not give) the presentation now.",
+      "answer": "is not giving"
+    },
+    {
+      "text": "The team ___ (not release) the update yet.",
+      "answer": "has not released"
+    },
+    {
+      "text": "I ___ (not schedule) the meeting yet.",
+      "answer": "have not scheduled"
+    },
+    {
+      "text": "They ___ (not work) from the office today.",
+      "answer": "are not working"
+    },
+    {
+      "text": "He ___ (not collaborate) with the design team right now.",
+      "answer": "is not collaborating"
+    },
+    {
+      "text": "___ (she send) the email to the client now?",
+      "answer": "Is she sending"
+    },
+    {
+      "text": "___ (they attend) the daily meeting?",
+      "answer": "Do they attend"
+    },
+    {
+      "text": "___ (he work) on the new feature right now?",
+      "answer": "Is he working"
+    },
+    {
+      "text": "___ (we have) a meeting this afternoon?",
+      "answer": "Are we having"
+    },
+    {
+      "text": "___ (they deploy) the software today?",
+      "answer": "Are they deploying"
+    },
+    {
+      "text": "___ (he review) the design at the moment?",
+      "answer": "Is he reviewing"
+    },
+    {
+      "text": "___ (she manage) multiple projects?",
+      "answer": "Does she manage"
+    },
+    {
+      "text": "___ (we update) the project status weekly?",
+      "answer": "Do we update"
+    },
+    {
+      "text": "___ (they test) the application now?",
+      "answer": "Are they testing"
+    },
+    {
+      "text": "___ (he attend) the tech conference every year?",
+      "answer": "Does he attend"
+    },
+    {
+      "text": "___ (she prepare) the presentation now?",
+      "answer": "Is she preparing"
+    },
+    {
+      "text": "___ (we work) on the feature today?",
+      "answer": "Are we working"
+    },
+    {
+      "text": "___ (they launch) new updates every month?",
+      "answer": "Do they launch"
+    },
+    {
+      "text": "___ (he fix) the server issue right now?",
+      "answer": "Is he fixing"
+    },
+    {
+      "text": "___ (she attend) the client meeting every Friday?",
+      "answer": "Does she attend"
+    },
+    {
+      "text": "___ (we collaborate) with the marketing team now?",
+      "answer": "Are we collaborating"
+    },
+    {
+      "text": "___ (they deliver) the project on time?",
+      "answer": "Do they deliver"
+    },
+    {
+      "text": "___ (he write) reports every morning?",
+      "answer": "Does he write"
+    },
+    {
+      "text": "___ (we discuss) the project right now?",
+      "answer": "Are we discussing"
+    },
+    {
+      "text": "___ (she work) remotely this week?",
+      "answer": "Is she working"
+    }
+  ]
+
+}

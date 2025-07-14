@@ -7,10 +7,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import VocabularyMatch from '../../Utils/vocabmatch.js';
+import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
 import GapFillExercise from '../../Utils/gapfill.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/sustainabilityquiz.json';
@@ -56,7 +56,7 @@ const Template = () => {
                     <h1 className="mt-2">###</h1>
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
@@ -95,19 +95,19 @@ const Template = () => {
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
                 <div className="agenda-display-grid">
                     <GapFillExercise jsonData={jsonData} />
                     </div>
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="###" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="###" />
             </div>
         </div>

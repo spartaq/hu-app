@@ -1,5 +1,3 @@
-
-
 [
   {
     "quiz": 1,
@@ -29,25 +27,25 @@
       },
       {
         "id": 3,
-        "question": "What is the highest yearly rainfall total for a single town?",
+        "question": "In 2022, which country suffered its worst drought in 500 years, severely affecting agriculture and river traffic?",
         "options": [
-          "20.3 meters in Mawsynram, India",
-          "22.9 meters in Hawaii, USA",
-          "26.5 meters in Cherrapunji, India",
-          "25.4 meters in the Manaus, Brazil (Amazon Rainforest)"
+          "India",
+          "Brazil",
+          "China",
+          "Germany"
         ],
-        "answer": "26.5 meters in Cherrapunji, India"
+        "answer": "Germany"
       },
       {
         "id": 4,
-        "question": "What is the fastest surface wind gust ever recorded?",
+        "question": "What major weather disaster hit Pakistan in 2022, affecting over 30 million people?",
         "options": [
-          "372 km/h in Mount Washington, USA",
-          "407 km/h in Barrow Island, Australia",
-          "450 km/h in Oklahoma, USA",
-          "322 km/h in Antarctica"
+          "A cyclone with 300 km/h winds",
+          "Massive flooding from monsoon rains",
+          "A severe winter snowstorm",
+          "A sandstorm that lasted 10 days"
         ],
-        "answer": "407 km/h in Barrow Island, Australia"
+        "answer": "Massive flooding from monsoon rains"
       },
       {
         "id": 5,
@@ -60,7 +58,6 @@
         ],
         "answer": "Extreme Heat"
       },
-	      
       {
         "id": 6,
         "question": "What is the highest temperature ever recorded in Europe?",
@@ -74,38 +71,37 @@
       },
       {
         "id": 7,
-        "question": "How many lightning strikes happen every day worldwide?",
+        "question": "Which country experienced 'black rain' after record wildfires in 2019?",
         "options": [
-          "1 million",
-          "5 million",
-          "8 million",
-          "11 million"
+          "Brazil",
+          "Indonesia",
+          "Australia",
+          "Canada"
         ],
-        "answer": "8 million"
+        "answer": "Australia"
       },
-     {
+      {
         "id": 8,
-        "question": "Which of these statements about lightning is TRUE?",
+        "question": "Which South American country experienced over 6 months of continuous rainfall in the Amazon in 2024, leading to mass flooding and displacement?",
         "options": [
-          "You are safe from lightning if you stand under a tree.",
-          "If your hair starts standing up, lightning is about to strike nearby.",
-          "Rubber-soled shoes protect you from getting struck by lightning.",
-          "Lightning never strikes the same place twice."
+          "Brazil",
+          "Peru",
+          "Colombia",
+          "Ecuador"
         ],
-        "answer": "If your hair starts standing up, lightning is about to strike nearby."
+        "answer": "Brazil"
       },
       {
         "id": 9,
-        "question": "Which **European landmark** was damaged by extreme weather in recent years?",
+        "question": "Which Middle Eastern country saw snowfall in its deserts in 2021?",
         "options": [
-          "The Eiffel Tower was struck by a tornado.",
-          "Flooding nearly collapsed the Leaning Tower of Pisa.",
-          "Venice's St. Mark’s Square was submerged in record-breaking high tides.",
-          "A storm cracked the glass pyramid at the Louvre."
+          "Iraq",
+          "Iran",
+          "United Arab Emirates",
+          "Saudi Arabia"
         ],
-        "answer": "Venice's St. Mark’s Square was submerged in record-breaking high tides."
-      }  
-	  
+        "answer": "Saudi Arabia"
+      }
     ]
   }
 ]

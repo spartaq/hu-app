@@ -1,0 +1,10 @@
+{
+  "sentences":[
+    {
+      "text": "We can’t deploy the new update ___ the QA team has finished testing.",
+      "answer": "until",
+      "topic": "chat"
+    }
+  ]
+}
+  

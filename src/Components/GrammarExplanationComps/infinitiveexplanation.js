@@ -1,59 +1,57 @@
 import React from 'react';
-
+import '../../CSS/grammarPage.css';
+import { FaBookOpen, FaLightbulb } from 'react-icons/fa';
 
 const InfinitiveExplanation = () => {
+  return (
+    <div className="grammar-explanation">
+      <h2><FaBookOpen /> Verb + to do</h2>
 
-    return (
-        <div>
+      <p>
+        Many verbs in English are followed by the infinitive form of another verb (to + base verb).
+        These are often used to express desires, intentions, decisions, and offers.
+      </p>
 
-<div>
-                            <div className="agendagrammar">
-                            
-<p><strong>Verb to do - want, promise, etc. </strong></p>
-<hr></hr>
-<p><strong>Want to do</strong></p>
-<table style={{ width: "100%", borderCollapse: "collapse", textAlign: "center", border: "1px solid black" }}>
-  <tbody>
-    {[
-  ["agree", "decide"],
-  ["choose", "expect"],
-  ["hope", "intend"],
-  ["manage", "offer"],
-  ["fail", "help"],
-  ["plan", "promise"],
-  ["refuse", "seem"],
-  ["threaten", "arrange"],
-  ["attempt", "learn"],
-  ["like", "love"],
-  ["hate", "prefer"],
-  ["forget", "remember"],
-  ["want", "would like/love"],
-  ["mean", "tend"],
-  ["try", ""]
-    ].map((row, index) => (
-      <tr key={index}>
-        {row.map((word, idx) => (
-          <td key={idx} style={{ border: "1px solid black", padding: "10px" }}>
-            <p>{word}</p>
-          </td>
-        ))}
-      </tr>
-    ))}
-  </tbody>
-</table>
+      <div className="example-block">
+        <p><strong>Examples:</strong></p>
+        <ul>
+          <li>She <strong>wants to travel</strong> around the world.</li>
+          <li>We <strong>hope to see</strong> you soon.</li>
+          <li>They <strong>promised to help</strong> with the move.</li>
+        </ul>
+      </div>
 
+      <div className="grammar-explanation-text">
+        <h3><FaLightbulb /> Common Verbs Followed by an Infinitive</h3>
 
-
-
-                                     </div>
-                                    
-                                </div>
-
-        
-        
-        
+        <div className="grammar-flex-table">
+          {[
+            ['agree', 'decide'],
+            ['choose', 'expect'],
+            ['hope', 'intend'],
+            ['manage', 'offer'],
+            ['fail', 'help'],
+            ['plan', 'promise'],
+            ['refuse', 'seem'],
+            ['threaten', 'arrange'],
+            ['attempt', 'learn'],
+            ['like', 'love'],
+            ['hate', 'prefer'],
+            ['forget', 'remember'],
+            ['want', 'would like/love'],
+            ['mean', 'tend'],
+            ['try', ''],
+          ].map((row, index) => (
+            <div key={index} className="grammar-flex-row">
+              {row.map((item, idx) => (
+                <div key={idx} className="grammar-cell">{item}</div>
+              ))}
+            </div>
+          ))}
         </div>
-);
+      </div>
+    </div>
+  );
 };
 
 export default InfinitiveExplanation;

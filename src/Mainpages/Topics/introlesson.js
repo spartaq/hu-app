@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import VocabularyMatch from '../../Utils/vocabmatch.js';
+import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/introlessonquiz.json';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/tenseexplanation.js';
@@ -25,18 +25,18 @@ const Introlesson = () => {
     return (
         <div>
             <SEO
-                title='Exam Topics - Introductory Lesson - English Exam Exercises'
+                title='Exam Topics - Grammar Review Lesson - English Exam Exercises'
                 description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - New Years Resolutions'
+                name='English Exam Exercises - Grammar Review'
                 type='article' 
             />
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Introduction</h1>
+                    <h1 className="mt-2">Grammar Review</h1>
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
@@ -79,7 +79,7 @@ const Introlesson = () => {
                 
              
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="telecom" />
             </div>
         </div>

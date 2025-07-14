@@ -7,16 +7,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import VocabularyMatch from '../../Utils/vocabmatch.js';
+import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
 import GapFillExercise from '../../Utils/gapfill.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/disagreementquiz.json';
 import ImageCarousel from '../../Utils/imgcarousel.js';
-import GrammarExplanation from '../../Components/VocabularyListComps/wordformsexplanation.js';
-import Grammarexercises from '../../Components/VocabularyExerciseComps/wordformsexercisescomp.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/wordformsexplanation.js';
+import Grammarexercises from '../../Components/GrammarExerciseComps/wordformsexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabularylist.json";
 import jsonData from '../Vocabulary-Exercises/Data/persuadinggapfill.json';
 
@@ -48,7 +48,7 @@ const Persuading = () => {
                         </div>
 
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
@@ -87,19 +87,19 @@ const Persuading = () => {
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
                 <div className="agenda-display-grid">
                     <GapFillExercise jsonData={jsonData} />
                     </div>
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="Persuading2" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="persuading" />
             </div>
         </div>

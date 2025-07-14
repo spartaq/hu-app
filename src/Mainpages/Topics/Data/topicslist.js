@@ -1,8 +1,41 @@
 module.exports = [
+  
+    {
+      "id": "streamingServices",
+      "title": "Streaming Services",
+      "subtitle": "Mixed Grammar",
+      "category": "Business",
+      "level": "B2",
+      "time": "45 min",
+      "description": "Talk about the future of streaming services.",
+      "image": "/Images/streaming1.jpg"
+    },
+    
+    {
+      "id": "sidejobs",
+      "title": "Side Jobs",
+      "subtitle": "Grammar Review",
+      "category": "Business",
+      "level": "B2",
+      "time": "45 min",
+      "description": "Talk about working a side job.",
+      "image": "/Images/homebakery2.png"
+    },
+    {
+      "id": "companypolicy",
+      "title": "Company Policy",
+      "subtitle": "Modals of Obligation",
+      "category": "Business",
+      "level": "B2",
+      "time": "45 min",
+      "description": "Talk about company policies and practices.",
+      "image": "/Images/companypolicy1.jpg"
+    },
     {
       "id": "language",
       "title": "Create Your Own Words",
-      "category": "Business",
+      "subtitle": "###",
+      "category": "General",
       "level": "B2",
       "time": "45 min",
       "description": "A lexicographer teaches you how to create your own words in English.",
@@ -10,7 +43,8 @@ module.exports = [
     },
     {
       "id": "branding",
-      "title": "Branding - Dependent Prepositions",
+      "title": "Branding",
+      "subtitle": "Dependent Prepositions",
       "category": "Business",
       "level": "B2",
       "time": "45 min",
@@ -19,7 +53,8 @@ module.exports = [
     },
     {
       "id": "smartphones",
-      "title": "Cell Phones - Comparison",
+      "title": "Cell Phones",
+      "subtitle": "Comparison",
       "category": "General",
       "level": "B1",
       "time": "30 min",
@@ -29,7 +64,8 @@ module.exports = [
     {
       "id": "money",
       "title": "Money Motivation - ###",
-      "category": "Business",
+      "subtitle": "###",
+      "category": "General",
       "level": "B2",
       "time": "60 min",
       "description": "Discuss what motivates people financially and explore related vocabulary.",
@@ -37,7 +73,8 @@ module.exports = [
     },
     {
       "id": "meetings",
-      "title": "Meetings - Modals of Deduction",
+      "title": "Meetings",
+      "subtitle": "Modals of Deduction",
       "category": "Business",
       "level": "B2",
       "time": "60 min",
@@ -46,7 +83,8 @@ module.exports = [
     },
     {
       "id": "workfuture",
-      "title": "Work Future - Future Forms",
+      "title": "Work Future",
+      "subtitle": "Future Forms",
       "category": "Business",
       "level": "B2",
       "time": "60 min",
@@ -55,7 +93,8 @@ module.exports = [
     },
     {
       "id": "fastfood",
-      "title": "Fast Food - Present Perfect vs Simple Past",
+      "title": "Fast Food",
+      "subtitle": "Present Perfect vs Simple Past",
       "category": "Food",
       "level": "B2",
       "time": "60 min",
@@ -64,7 +103,8 @@ module.exports = [
     },
     {
       "id": "caffeine",
-      "title": "Coffee - ###",
+      "title": "Coffee",
+      "subtitle": "###",
       "category": "Food",
       "level": "B2",
       "time": "60 min",
@@ -73,7 +113,8 @@ module.exports = [
     },
     {
       "id": "newyearsresolution",
-      "title": "New Year's Resolutions - Future Plans",
+      "title": "New Year's Resolutions",
+      "subtitle": "Future Plans",
       "category": "General",
       "level": "B2",
       "time": "60 min",
@@ -82,7 +123,8 @@ module.exports = [
     },
     {
       "id": "habits",
-      "title": "Habits - Expressing Habits",
+      "title": "Habits",
+      "subtitle": "Expressing Habits",
       "category": "General",
       "level": "B2",
       "time": "60 min",
@@ -91,8 +133,9 @@ module.exports = [
     },
     {
       "id": "chatplatforms",
-      "title": "Chat Platforms - So and Enough",
-      "category": "Business",
+      "title": "Chat Platforms",
+      "subtitle": "So and Enough",
+      "category": "General",
       "level": "B2",
       "time": "60 min",
       "description": "Discuss chat platforms while learning how to use 'so' and 'enough'.",
@@ -100,7 +143,8 @@ module.exports = [
     },
     {
       "id": "automation",
-      "title": "Automation - Cause and Effect",
+      "title": "Automation",
+      "subtitle": "Cause and Effect",
       "category": "Business",
       "level": "B2",
       "time": "60 min",
@@ -109,8 +153,9 @@ module.exports = [
     },
     {
       "id": "quality",
-      "title": "Quality - Comparison",
-      "category": "Business",
+      "title": "Quality",
+      "subtitle": "Comparison",
+      "category": "General",
       "level": "B2",
       "time": "60 min",
       "description": "Compare quality standards in various industries.",
@@ -118,7 +163,8 @@ module.exports = [
     },
     {
       "id": "choice",
-      "title": "Choice - Wishes and Regrets",
+      "title": "Choice",
+      "subtitle": "Wishes and Regrets",
       "category": "General",
       "level": "B2",
       "time": "60 min",
@@ -127,7 +173,8 @@ module.exports = [
     },
     {
       "id": "pets",
-      "title": "Pets - So and Enough",
+      "title": "Pets",
+      "subtitle": "So and Enough",
       "category": "General",
       "level": "B2",
       "time": "60 min",
@@ -136,7 +183,8 @@ module.exports = [
     },
     {
       "id": "walking",
-      "title": "Walking - Gerunds",
+      "title": "Walking",
+      "subtitle": "Gerunds",
       "category": "Health",
       "level": "B2",
       "time": "60 min",
@@ -145,7 +193,8 @@ module.exports = [
     },
     {
       "id": "people",
-      "title": "People - Relative Clauses",
+      "title": "People",
+      "subtitle": "Relative Clauses",
       "category": "General",
       "level": "B2",
       "time": "60 min",
@@ -154,7 +203,8 @@ module.exports = [
     },
     {
       "id": "neighbors",
-      "title": "Neighbors - 2nd Conditional",
+      "title": "Neighbors",
+      "subtitle": "2nd Conditional",
       "category": "General",
       "level": "B2",
       "time": "60 min",
@@ -163,7 +213,8 @@ module.exports = [
     },
     {
       "id": "food",
-      "title": "Food - Passive",
+      "title": "Food",
+      "subtitle": "Passive Voice",
       "category": "Food",
       "level": "B2",
       "time": "60 min",
@@ -172,16 +223,18 @@ module.exports = [
     },
     {
       "id": "tourism",
-      "title": "Tourism - Gerunds",
+      "title": "Tourism",
+      "subtitle": "Gerunds",
       "category": "Travel",
       "level": "B2",
       "time": "60 min",
       "description": "Discuss tourism and its impact while practicing gerunds.",
-      "image": "/Images/tourism.jpg"
+      "image": "/Images/budapest-tourism-crowd.jpg"
     },
     {
       "id": "advice",
-      "title": "Advice - Suggest",
+      "title": "Advice",
+      "subtitle": "Suggest",
       "category": "Business",
       "level": "B2",
       "time": "60 min",
@@ -190,7 +243,8 @@ module.exports = [
     },
     {
       "id": "ethics",
-      "title": "Ethics - Infinitives",
+      "title": "Ethics",
+      "subtitle": "Infinitives",
       "category": "Business",
       "level": "B2",
       "time": "60 min",
@@ -199,7 +253,8 @@ module.exports = [
     },
     {
       "id": "gossip",
-      "title": "Gossip - Reported Speech",
+      "title": "Gossip",
+      "subtitle": "Reported Speech",
       "category": "Business",
       "level": "B2",
       "time": "60 min",
@@ -208,7 +263,8 @@ module.exports = [
     },
     {
       "id": "sustainability",
-      "title": "Sustainability - Unless",
+      "title": "Sustainability",
+      "subtitle": "Unless",
       "category": "Environment",
       "level": "B2",
       "time": "60 min",
@@ -217,7 +273,8 @@ module.exports = [
     },
     {
       "id": "problemsolving",
-      "title": "Problem Solving - Modals of Deduction",
+      "title": "Problem Solving",
+      "subtitle": "Modals of Deduction",
       "category": "Business",
       "level": "B2",
       "time": "60 min",
@@ -226,7 +283,8 @@ module.exports = [
     },
     {
       "id": "medicine",
-      "title": "Medicine - No Grammar",
+      "title": "Medicine",
+      "subtitle": "No Grammar",
       "category": "Health",
       "level": "B2",
       "time": "60 min",
@@ -235,7 +293,8 @@ module.exports = [
     },
     {
         "id": "persuading",
-        "title": "Persuading - Word Forms",
+        "title": "Persuading",
+        "subtitle": "Word Forms",
         "category": "Business",
         "level": "B2",
         "time": "45 min",
@@ -244,7 +303,8 @@ module.exports = [
       },
       {
         "id": "sports",
-        "title": "Sports - Present Perfect",
+        "title": "Sports",
+        "subtitle": "Present Perfect",
         "category": "General",
         "level": "B1",
         "time": "30 min",
@@ -253,7 +313,8 @@ module.exports = [
       },
       {
         "id": "weather",
-        "title": "Weather - Mixed Conditionals",
+        "title": "Weather",
+        "subtitle": "Mixed Conditionals",
         "category": "General",
         "level": "B2",
         "time": "60 min",
@@ -262,7 +323,8 @@ module.exports = [
       },
       {
         "id": "education",
-        "title": "Education - Wish, 3rd Conditional",
+        "title": "Education",
+        "subtitle": "Wish, 3rd Conditional",
         "category": "Education",
         "level": "B2",
         "time": "60 min",
@@ -271,7 +333,8 @@ module.exports = [
       },
       {
         "id": "language",
-        "title": "Language - Tense Review",
+        "title": "Language",
+        "subtitle": "Tense Review",
         "category": "Business",
         "level": "C1",
         "time": "60 min",
@@ -280,7 +343,8 @@ module.exports = [
       },
       {
         "id": "introlesson",
-        "title": "Introduction - Tense Assessment",
+        "title": "Introduction",
+        "subtitle": "Tense Assessment",
         "category": "Listening",
         "level": "B1",
         "time": "45 min",
@@ -290,6 +354,7 @@ module.exports = [
       {
         "id": "airtraffic",
         "title": "Air Traffic",
+        "subtitle": "Modals of obligation",
         "category": "Business",
         "level": "B2",
         "time": "60 min",

@@ -1,5 +1,249 @@
 [
-        {
+                
+          
+  {
+    "text": "Employees ___ wear their ID badge at all times.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ share your password with anyone.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Staff ___ take a 30-minute break during an 8-hour shift.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ bring your own device, but it's allowed.",
+    "answer": "don't have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ report suspicious emails immediately.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Contractors ___ access internal systems without approval.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ attend the weekly team meetings, even if you're remote.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Employees ___ keep their desks clean and organized.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ clock out exactly at 5 PM if your tasks are not done.",
+    "answer": "don't have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "We ___ comply with data protection regulations at all times.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ check in with your manager every hour.",
+    "answer": "don't have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Visitors ___ be accompanied by an employee at all times.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ install unapproved software on your work computer.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ use headphones in the open office area if you’re working on calls.",
+    "answer": "can",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Employees ___ complete mandatory training within 30 days.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ ask IT for help if you're having login issues.",
+    "answer": "can",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ print personal documents at work.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ stay late if your project is already finished.",
+    "answer": "don't have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ eat at your desk if you’re working through lunch.",
+    "answer": "can",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ ignore a fire drill, even if you’re busy.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+
+
+  {
+            "text": "You ___ wear a helmet when entering the construction site.",
+            "answer": "must",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ access confidential files without proper clearance.",
+            "answer": "can’t",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "Employees ___ clock in before starting their shift.",
+            "answer": "have to",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ complete the training by Friday, but it's highly recommended.",
+            "answer": "ought to",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ attend the workshop unless your manager approves your absence.",
+            "answer": "must",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "Team members ___ report security issues as soon as they notice them.",
+            "answer": "should",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ use personal USB drives on company computers.",
+            "answer": "mustn’t",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "Employees ___ follow all safety guidelines during drills.",
+            "answer": "need to",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ join the optional Friday meeting if your schedule allows.",
+            "answer": "may",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ share your login credentials with anyone.",
+            "answer": "mustn’t",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "Remote workers ___ check in via the app at the start of the day.",
+            "answer": "have to",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ bring your badge tomorrow; security checks are stricter.",
+            "answer": "should",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ work late tonight unless there's an urgent issue.",
+            "answer": "don’t have to",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "The manager ___ approve overtime before it’s scheduled.",
+            "answer": "must",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ use the company car for personal errands.",
+            "answer": "can’t",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "Staff ___ ask for help from IT if they suspect malware.",
+            "answer": "should",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "New employees ___ complete onboarding within three days.",
+            "answer": "have to",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ attend the all-hands meeting; it’s recorded for later viewing.",
+            "answer": "don’t have to",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "We ___ review the policy changes by the end of the week.",
+            "answer": "need to",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You ___ face a delay if approvals aren’t submitted on time.",
+            "answer": "might",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "Participation in diversity training is ___ this quarter.",
+            "answer": "compulsory",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "It is ___ to back up files to the cloud system.",
+            "answer": "required",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "All employees are ___ to maintain confidentiality.",
+            "answer": "obligated",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You are ___ to follow all workplace safety protocols.",
+            "answer": "expected",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "Regular password changes are ___ to ensure security.",
+            "answer": "necessary",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "It is ___ to complete onboarding within the first week.",
+            "answer": "mandatory",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "You are ___ to return company equipment before leaving.",
+            "answer": "required",
+            "topic": "companypolicy"
+          },
+          {
+            "text": "Reporting harassment is ___ and encouraged.",
+            "answer": "obligatory",
+            "topic": "companypolicy"
+          },
+          { 
             "text": "It is ___ to attend the client presentation tomorrow.",
             "answer": "mandatory"
           },

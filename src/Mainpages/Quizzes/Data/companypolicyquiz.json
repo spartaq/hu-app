@@ -1,0 +1,69 @@
+[
+    {
+      "quiz": 1,
+      "quizTitle": "Unusual Company Policies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Apple employees are not allowed to correct customers if they mispronounce product names.",
+          "options": ["True", "False"],
+          "answer": "True - Apple emphasizes customer experience and avoids creating discomfort or embarrassment."
+        },
+        {
+          "id": 2,
+          "question": "Starbucks employees are required to taste-test all coffee products daily to ensure quality.",
+          "options": ["True", "False"],
+          "answer": "False - While tasting is encouraged during training, daily testing is not required for all products."
+        },
+        {
+          "id": 3,
+          "question": "Zappos pays $3,000 to employees if they quit after a brief training period.",
+          "options": ["True", "False"],
+          "answer": "True - Zappos offers this bonus to ensure only motivated employees stay."
+        },
+        {
+          "id": 4,
+          "question": "At Tesla, employees must wear blue socks to demonstrate company unity.",
+          "options": ["True", "False"],
+          "answer": "False - There is no known sock color policy at Tesla."
+        },
+        {
+          "id": 5,
+          "question": "Microsoft banned drinking non-caffeinated beverages in the office to maintain productivity.",
+          "options": ["True", "False"],
+          "answer": "False - Microsoft has no official rule banning non-caffeinated drinks."
+        },
+        {
+          "id": 6,
+          "question": "The New York Yankees had a no-beard policy for all male employees.",
+          "options": ["True", "False"],
+          "answer": "True - The Yankees enforce a strict grooming policy that prohibits facial hair beyond mustaches."
+        },
+        {
+          "id": 7,
+          "question": "At Disney World, employees had to share undergarments for character costumes until 2001.",
+          "options": ["True", "False"],
+          "answer": "True - This policy existed until union complaints led to changes in costume hygiene practices."
+        },
+        {
+          "id": 8,
+          "question": "American Apparel employees were hired or fired based on their physical attractiveness.",
+          "options": ["True", "False"],
+          "answer": "True - The company was known for strict aesthetic standards in hiring practices."
+        },
+        {
+          "id": 9,
+          "question": "A UK company introduced 'Naked Fridays' where employees could work nude.",
+          "options": ["True", "False"],
+          "answer": "True - This unusual initiative was tried as a team-building experiment in 2009."
+        },
+        {
+          "id": 10,
+          "question": "All Google employees must wear a badge indicating their favorite snack for instant bonding.",
+          "options": ["True", "False"],
+          "answer": "False - This is not an official policy at Google."
+        }
+      ]
+    }
+  ]
+  

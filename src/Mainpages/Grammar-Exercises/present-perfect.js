@@ -1,65 +1,26 @@
-import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
-import GrammarMenu from '../../Components/Menus/GrammarMenu.js';
-import Sidebar from '../../Components/Sidebar';
-import GrammarExercises from '../../Components/GrammarExerciseComps/presentperfectexercisescomp.js';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/presentperfectexplanation.js';
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/presentperfectexplanation';
+import mainimage from '../../Images/presperf.png';
 
-const PresentPerfect = () => {
-  
-  const [isGridVisible, setIsGridVisible] = useState(true);
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "presentperfect" },
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "present-perfect" },
+  { label: "Reading", description: "Do this exercise to practice reading and learn new vocabulary.", type: "reading", subtype: "essityaccount" },
+];
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
-  };
-
-  return (
-    <div>
-      <SEO
-        title="Grammar Exercises - Present Perfect"
-        description="A big list of English grammar exercises to practice for exams"
-        name="English Exam Exercises"
-        type="article"
-      />
-      <Breadcrumbs />
-      <div className="grammar-container">
-          
-          <div>
-          <div className="grammartitle">
-              <span className="label label-b1">B1</span>
-              <h3 className="mt-2">Present Perfect</h3>
-            </div>
-          
-          <div className="descriptionbox">      
-  
-            <div className="grammarctrl descriptionbox">
-              <button type="button" className="grammarbtn" onClick={toggleGridVisibility}>
-                {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}
-              </button>
-            </div>
-  
-            {isGridVisible && (
-              <div className="grammar-display-grid">
-                <GrammarExplanation />
-              </div>
-            )}
-          </div>
-  
-  
-                        <div>
-                            <div className="agenda-display-grid">
-                              <GrammarExercises />
-                            </div>
-                        </div>
-          </div>
-        <div className="top-margin">
-          <GrammarMenu />
-          <Sidebar />
-        </div>
-      </div>
-    </div>
-  );
-};
+const PresentPerfect = () => (
+  <GrammarPageLayout
+    level="B1"
+    title="Present Perfect"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Present Perfect"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B1"
+  />
+);
 
 export default PresentPerfect;

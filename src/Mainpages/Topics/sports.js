@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
@@ -56,7 +56,7 @@ const Sports = () => {
     </div>                    
 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
@@ -90,19 +90,19 @@ const Sports = () => {
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
                 <Reading readings={readingcompData} title="Sports Hate" /> 
                     
 
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="Why We Watch Sports" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="sports" />
             </div>
         </div>

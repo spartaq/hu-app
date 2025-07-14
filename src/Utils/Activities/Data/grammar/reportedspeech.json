@@ -1,0 +1,147 @@
+{
+  "sentences":[
+  {
+    "text": "'I heard that Ildiko is leaving the company next month.'",
+    "prompt": "Krisztian said",
+    "answer": "Krisztian said he had heard that Sarah was leaving the company the following month."
+  },
+  {
+    "text": "'The new manager is very strict about deadlines.'",
+    "prompt": "Tamas told me",
+    "answer": "Tamas told me that the new manager was very strict about deadlines."
+  },
+  {
+    "text": "'They are planning to lay off some employees in the next quarter.'",
+    "prompt": "Adam said",
+    "answer": "Adam said that they were planning to lay off some employees in the following quarter."
+  },
+  {
+    "text": "'Mark got promoted because he's friends with the director.'",
+    "prompt": "Mate said",
+    "answer": "Mate said that Mark had got promoted because he was friends with the director."
+  },
+  {
+    "text": "'I saw Lisa having lunch with someone from our competitor's company.'",
+    "prompt": "Marci told me",
+    "answer": "Marci told me he had seen Lisa having lunch with someone from their competitor's company."
+  },
+  {
+    "text": "'I heard that the company is giving everyone a surprise bonus this year.'",
+    "prompt": "Levi told me",
+    "answer": "Levi told me that she had heard the company was giving everyone a surprise bonus that year."
+  },
+  {
+    "text": "'Apparently, the new hire is incredibly talented and has already impressed the leadership team.'",
+    "prompt": "Reka said",
+    "answer": "Reka said that apparently, the new hire was incredibly talented and had already impressed the leadership team."
+  },
+  {
+    "text": "'Sarah secretly organized the charity fundraiser last weekend.'",
+    "prompt": "Judit said",
+    "answer": "Judit said that Sarah had secretly organized the charity fundraiser the previous weekend."
+  },
+  {
+    "text": "'I overheard that Mark is mentoring junior developers in his free time.'",
+    "prompt": "Almos said",
+    "answer": "Almos said she had overheard that Mark was mentoring junior developers in his free time."
+  },
+  {
+    "text": "'The CEO personally thanked the support staff for their hard work during the event.'",
+    "prompt": "Miklos told us",
+    "answer": "Miklos told us that the CEO had personally thanked the support staff for their hard work during the event."
+  },
+  {
+    "text": "'People are saying that our department has the best team spirit in the company.'",
+    "prompt": "Lena said",
+    "answer": "Lena said that people were saying their department had the best team spirit in the company."
+  },
+  {
+    "text": "'The IT team worked all night to fix the system, and no one even noticed there was a problem.'",
+    "prompt": "Chris said",
+    "answer": "Chris said that the IT team had worked all night to fix the system, and no one had even noticed there had been a problem."
+  },
+  {
+    "text": "'I found out that Lisa has been helping new employees settle in without being asked.'",
+    "prompt": "Tom said",
+    "answer": "Tom said that he had found out that Lisa had been helping new employees settle in without being asked."
+  },
+  {
+    "text": "'Rumor has it that the company is planning to introduce a four-day workweek soon.'",
+    "prompt": "Sophia said",
+    "answer": "Sophia said that rumor had it the company was planning to introduce a four-day workweek soon."
+  },
+  {
+    "text": "'I heard that our manager fought to get us all salary increases this year.'",
+    "prompt": "James said",
+    "answer": "James said that he had heard their manager had fought to get them all salary increases that year."
+  },
+    {
+      "text": "'Let's focus on customer feedback to improve our product offerings.'",
+      "prompt": "Management told us",
+      "answer": "Management told us focusing on customer feedback to improve product offerings."
+    },
+    {
+      "text": "'Our goal is to reach new markets by the end of the year.'",
+      "prompt": "Management said",
+      "answer": "Management said that their goal was to reach new markets by the end of the year."
+    },
+    {
+      "text": "'The development team is working on enhancing data security features.'",
+      "prompt": "Management told us",
+      "answer": "Management told us that the development team was working on enhancing data security features."
+    },
+
+        {
+          "text": "'We should prioritize customer feedback in our product development.'",
+          "prompt": "A colleague suggested",
+          "answer": "A colleague suggested we should prioritize customer feedback in our product development."
+        },
+        {
+          "text": "'We need to collaborate more effectively across teams.'",
+          "prompt": "The team leader emphasized",
+          "answer": "The team leader emphasized that we needed to collaborate more effectively across teams."
+        },
+        {
+          "text": "'I will ensure that the project is delivered on time.'",
+          "prompt": "The project manager said",
+          "answer": "The project manager said that he would ensure the project was delivered on time."
+        },
+        {
+          "text": "'You need to attend the weekly sync meetings for better alignment.'",
+          "prompt": "A colleague said",
+          "answer": "A colleague said that I needed to attend the weekly sync meetings for better alignment."
+        },
+        {
+          "text": "'We must reduce our operational costs this quarter.'",
+          "prompt": "The CFO told me",
+          "answer": "The CFO told me that we had to reduce our operational costs that quarter."
+        },
+        {
+          "text": "'I believe we can achieve our targets if we stay focused.'",
+          "prompt": "The team leader said",
+          "answer": "The team leader said that he believed we could achieve our targets if we stayed focused."
+        },
+        {
+          "text": "'Can you update the team on the project's progress during the next meeting?'",
+          "prompt": "Management asked",
+          "answer": "Management asked if I could update the team on the project's progress during the next meeting."
+        },
+        {
+          "text": "'It's crucial that we adhere to the new compliance regulations.'",
+          "prompt": "A colleague told",
+          "answer": "A colleague told us that it was crucial we adhered to the new compliance regulations."
+        },
+        {
+          "text": "'I have scheduled a workshop for next week to discuss the new strategy.'",
+          "prompt": "The manager said",
+          "answer": "The manager said that he had scheduled a workshop for the next week to discuss the new strategy."
+        },
+        {
+          "text": "'We should leverage data analytics to drive our marketing efforts.'",
+          "prompt": "The data analyst said",
+          "answer": "The data analyst said that we leverage data analytics to drive our marketing efforts."
+        }
+      ]
+      
+    }
+  

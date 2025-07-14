@@ -1,67 +1,24 @@
-import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
-import GrammarMenu from '../../Components/Menus/GrammarMenu.js';
-import Sidebar from '../../Components/Sidebar';
-import GrammarExercises from '../../Components/GrammarExerciseComps/edingexercisescomp.js';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/edingexplanation.js';
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/edingexplanation';
+import mainimage from '../../Images/eding1.jpg';
 
-const EdIng = () => {
-  
-  const [isGridVisible, setIsGridVisible] = useState(true);
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "ed-ing" },
+];
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
-  };
-
-  return (
-    <div>
-      <SEO
-        title="Grammar Exercises - Ed vs Ing Verbs"
-        description="A big list of English grammar exercises to practice for exams"
-        name="English Exam Exercises"
-        type="article"
-      />
-      <Breadcrumbs />
-      <div className="grammar-container">
-          
-          <div>
-          <div className="grammartitle">
-              <span className="label label-b2">B2</span>
-              <h3 className="mt-2">Ed-Ing</h3>
-            </div>
-          
-          <div className="descriptionbox">      
-  
-            <div className="grammarctrl descriptionbox">
-              <button type="button" className="grammarbtn" onClick={toggleGridVisibility}>
-                {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}
-              </button>
-            </div>
-  
-            {isGridVisible && (
-              <div className="grammar-display-grid">
-                <GrammarExplanation />
-              </div>
-            )}
-          </div>
-  
-  
-                        <div>
-                            <div className="agenda-display-grid">
-                              <GrammarExercises />
-                            </div>
-                        </div>
-          </div>
-        <div className="top-margin">
-          <GrammarMenu />
-          <Sidebar />
-        </div>
-      </div>
-    </div>
-  );
-};
+const EdIng = () => (
+  <GrammarPageLayout
+    level="B2"
+    title="Ed Ing"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Ed Ing"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B2"
+  />
+);
 
 export default EdIng;
-
-

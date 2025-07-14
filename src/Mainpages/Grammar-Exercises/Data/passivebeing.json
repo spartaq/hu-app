@@ -1,5 +1,53 @@
 [
-    {
+  {
+    "text": "Machines are replacing jobs in many industries.",
+    "prompt": "Jobs",
+    "answer": "Jobs are being replaced by machines in many industries.",
+    "topic": "automation"
+  },
+  {
+    "text": "AI systems are answering customer questions online.",
+    "prompt": "Customer questions",
+    "answer": "Customer questions are being answered by AI systems online.",
+    "topic": "automation"
+  },
+  {
+    "text": "Drones are delivering packages in some areas.",
+    "prompt": "Packages",
+    "answer": "Packages are being delivered by drones in some areas.",
+    "topic": "automation"
+  },
+  {
+    "text": "Robots are cleaning floors in office buildings.",
+    "prompt": "Floors",
+    "answer": "Floors are being cleaned by robots in office buildings.",
+    "topic": "automation"
+  },
+  {
+    "text": "Smart assistants are turning lights off automatically.",
+    "prompt": "Lights",
+    "answer": "Lights are being turned off automatically by smart assistants.",
+    "topic": "automation"
+  },
+  {
+    "text": "Facial recognition systems are scanning passengers at airports.",
+    "prompt": "Passengers",
+    "answer": "Passengers are being scanned by facial recognition systems at airports.",
+    "topic": "automation"
+  },
+  {
+    "text": "Companies are using automation to reduce costs.",
+    "prompt": "Automation",
+    "answer": "Automation is being used by companies to reduce costs.",
+    "topic": "automation"
+  },
+  {
+    "text": "Self-checkouts are processing payments without human staff.",
+    "prompt": "Payments",
+    "answer": "Payments are being processed by self-checkouts without human staff.",
+    "topic": "automation"
+  },
+  {
       "text": "People ignore me, and it doesn't feel good.",
       "prompt": "Being ignored",
       "answer": "Being ignored doesn't feel good.",

@@ -1,0 +1,76 @@
+{
+  "quizTitle": "Magánhangzó-harmónia – Vowel Harmony",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A bolt___ vásárolok.",
+      "options": ["ban", "ben", "nál", "nél"],
+      "answer": "ban - I shop in the store (back vowel → ban)",
+      "translate": "I shop in the store"
+    },
+    {
+      "id": 2,
+      "question": "A könyv___ sok kép van.",
+      "options": ["ben", "ban", "val", "vel"],
+      "answer": "ben - There are many pictures in the book (front vowel → ben)",
+      "translate": "There are many pictures in the book"
+    },
+    {
+      "id": 3,
+      "question": "A tükör___ nézem magam.",
+      "options": ["vel", "val", "ban", "ben"],
+      "answer": "vel - I look at myself with the mirror (front vowel → vel)",
+      "translate": "I look at myself with the mirror"
+    },
+    {
+      "id": 4,
+      "question": "A ház___ lakunk.",
+      "options": ["ban", "ben", "val", "vel"],
+      "answer": "ban - We live in the house (back vowel → ban)",
+      "translate": "We live in the house"
+    },
+    {
+      "id": 5,
+      "question": "A szék___ ülök.",
+      "options": ["ben", "ban", "on", "en"],
+      "answer": "en - I sit on the chair (front vowel → en)",
+      "translate": "I sit on the chair"
+    },
+    {
+      "id": 6,
+      "question": "Az autó___ utazom.",
+      "options": ["val", "vel", "ban", "ben"],
+      "answer": "val - I travel by car (back vowel → val)",
+      "translate": "I travel by car"
+    },
+    {
+      "id": 7,
+      "question": "A táskád a padló___ van.",
+      "options": ["on", "en", "ön", "n"],
+      "answer": "on - Your bag is on the floor (back vowel → on)",
+      "translate": "Your bag is on the floor"
+    },
+    {
+      "id": 8,
+      "question": "A füzet___ írok.",
+      "options": ["be", "ba", "val", "vel"],
+      "answer": "be - I write into the notebook (front vowel → be)",
+      "translate": "I write into the notebook"
+    },
+    {
+      "id": 9,
+      "question": "A kabát___ hideg van.",
+      "options": ["ban", "ben", "on", "en"],
+      "answer": "ban - It's cold in the coat (back vowel → ban)",
+      "translate": "It's cold in the coat"
+    },
+    {
+      "id": 10,
+      "question": "A gyerek___ játszom.",
+      "options": ["kel", "val", "vel", "gal"],
+      "answer": "kel - I play with the child (front vowel with irregular form → -kel)",
+      "translate": "I play with the child"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import IdiomsList from '../../Components/VocabularyListComps/idiomslist.js';
@@ -46,7 +46,7 @@ const Habits = () => {
                     <h1 className="mt-2">Habits</h1>
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div>
@@ -109,15 +109,15 @@ const Habits = () => {
 
                 </div>
 
-                <div className="agenda-subtitle">Reading</div>
+                <div className="agenda-reading">Reading</div>
 
                 <Reading readings={readingcompData} title="Breaking Bad Habits" />
                 
-                <div className="agenda-subtitle">Video</div>                
+                <div className="agenda-listening">Video</div>               
 
                 <Video videos={videoData} title="Habits" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="habits" />
                
             </div>

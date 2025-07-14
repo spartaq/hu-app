@@ -1,4 +1,126 @@
-[
+[ 
+  {
+    "text": "The new dashboard loads faster than the old one.",
+    "prompt": "much slower",
+    "answer": "The old dashboard is much slower than the new one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "Their report is more detailed than ours.",
+    "prompt": "not nearly as detailed",
+    "answer": "Our report is not nearly as detailed as theirs.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This tool is slightly better than the previous version.",
+    "prompt": "almost the same",
+    "answer": "This tool is almost the same as the previous version.",
+    "topic": "Quality"
+  },
+  {
+    "text": "Our data accuracy is higher than theirs.",
+    "prompt": "way lower",
+    "answer": "Their data accuracy is way lower than ours.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The BI dashboard is just as useful as the spreadsheet.",
+    "prompt": "not as useful",
+    "answer": "The spreadsheet is not as useful as the BI dashboard.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This month’s results are similar to last month’s.",
+    "prompt": "exactly the same",
+    "answer": "This month’s results are exactly the same as last month’s.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The visuals in this report are more appealing than last quarter’s.",
+    "prompt": "not quite as appealing",
+    "answer": "Last quarter’s visuals were not quite as appealing as this quarter’s.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The report format is completely different from what we usually use.",
+    "prompt": "very similar to",
+    "answer": "The usual format is very similar to this one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "This tool is the best one we’ve tested.",
+    "prompt": "nowhere near as good",
+    "answer": "The other tools were nowhere near as good as this one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The desktop app and mobile app are almost the same.",
+    "prompt": "very different",
+    "answer": "The desktop app is very different from the mobile app.",
+    "topic": "Quality"
+  },
+  {
+    "text": "Our new metrics dashboard is far more intuitive than the old one.",
+    "prompt": "not nearly as intuitive",
+    "answer": "The old dashboard is not nearly as intuitive as the new one.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The current system performs better than expected.",
+    "prompt": "slightly worse",
+    "answer": "The expected performance was slightly worse than the current system’s.",
+    "topic": "Quality"
+  },
+  {
+    "text": "Their tool isn’t as customizable as ours.",
+    "prompt": "more customizable",
+    "answer": "Our tool is more customizable than theirs.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The reports generated this week are far better than last week’s.",
+    "prompt": "not as good",
+    "answer": "Last week’s reports were not as good as this week’s.",
+    "topic": "Quality"
+  },
+  {
+    "text": "Our latest update is a bit more stable than the beta version.",
+    "prompt": "about the same",
+    "answer": "The latest update is about the same in stability as the beta version.",
+    "topic": "Quality"
+  },
+  {
+    "text": "Their forecasting model is more accurate than ours.",
+    "prompt": "less accurate",
+    "answer": "Our forecasting model is less accurate than theirs.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The two dashboards are very similar in design.",
+    "prompt": "not the same",
+    "answer": "The dashboards are not the same in design.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The system uptime this month is the highest it’s ever been.",
+    "prompt": "lower than",
+    "answer": "Previous months had lower uptime than this month.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The new analyst’s approach is much clearer than the old one.",
+    "prompt": "a lot less clear",
+    "answer": "The old analyst’s approach was a lot less clear than the new one’s.",
+    "topic": "Quality"
+  },
+  {
+    "text": "The software update made the interface easier to navigate.",
+    "prompt": "not as easy",
+    "answer": "The old interface was not as easy to navigate as the new one.",
+    "topic": "Quality"
+  },
+
+
   {
     "text": "The new smartphone is a lot better than the older model. (nowhere near)",
     "prompt": "Rewrite using 'nowhere near.'",

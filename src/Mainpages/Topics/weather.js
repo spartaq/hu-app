@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
@@ -18,6 +18,7 @@ import quizzesData from '../Quizzes/Data/weatherquiz.json';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/mixedconditionalsexplanation.js';
 import Grammarexercises from '../../Components/GrammarExerciseComps/mixedconditionalsexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
+import mainimage from '../../Images/extremeweather.jpg';
 
 
 
@@ -39,17 +40,19 @@ const Weather = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Weather</h1>
                 </div>
-
+                <div className="agenda-mainimg">
+                <img src={mainimage} alt="English Exam Exercises" />
+                </div>
                 
                 
-                <div className="agenda-subtitle">Quiz</div> 
+                <div className="agenda-quiz">Quiz</div> 
                 <div>                   
                     <div className="agenda-display-grid">
                         <Quiz quizzesData={quizzesData} />
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
@@ -81,19 +84,19 @@ const Weather = () => {
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
                 <Reading readings={readingcompData} title="Extreme Weather Experiences" /> 
                     
 
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="Strange Summer" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="weather" />
             </div>
         </div>

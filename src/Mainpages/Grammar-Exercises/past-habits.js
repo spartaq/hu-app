@@ -1,65 +1,24 @@
-import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
-import GrammarMenu from '../../Components/Menus/GrammarMenu.js';
-import Sidebar from '../../Components/Sidebar';
-import GrammarExercises from '../../Components/GrammarExerciseComps/pasthabitsexercisecomp.js';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/pasthabitsexplanation.js';
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/pasthabitsexplanation';
+import mainimage from '../../Images/habits1.jpg';
 
-const PastHabits = () => {
-  
-  const [isGridVisible, setIsGridVisible] = useState(true);
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "past-habits" },
+];
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
-  };
-  return (
-    <div>
-      <SEO
-        title="Grammar Exercises - Past Habits"
-        description="A big list of English grammar exercises to practice for exams"
-        name="English Exam Exercises"
-        type="article"
-      />
-      <Breadcrumbs />
-      <div className="grammar-container">
-          
-        <div>
-        <div className="grammartitle">
-            <span className="label label-b2">B2</span>
-            <h3 className="mt-2">Past Habits</h3>
-          </div>
-        
-        <div className="descriptionbox">      
-
-          <div className="grammarctrl descriptionbox">
-            <button type="button" className="grammarbtn" onClick={toggleGridVisibility}>
-              {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}
-            </button>
-          </div>
-
-          {isGridVisible && (
-            <div className="grammar-display-grid">
-              <GrammarExplanation />
-            </div>
-          )}
-        </div>
-
-
-                      <div>
-                          <div className="agenda-display-grid">
-                            <GrammarExercises />
-                          </div>
-                      </div>
-        </div>
-        
-        <div className="top-margin">
-          <GrammarMenu />
-          <Sidebar />
-        </div>
-      </div>
-    </div>
-  );
-};
+const PastHabits = () => (
+  <GrammarPageLayout
+    level="B2"
+    title="Past Habits"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Past Habits"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B2"
+  />
+);
 
 export default PastHabits;

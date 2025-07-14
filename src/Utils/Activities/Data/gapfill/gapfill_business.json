@@ -1,0 +1,11 @@
+{
+  "type": "gapfill",
+  "title": "Business Gap Fill",
+  "topic": "business",
+  "words": ["invoice", "client", "meeting"],
+  "text": [
+    "The ___ is due next week.",
+    "We have a ___ with the CEO at noon."
+  ],
+  "answers": ["invoice", "meeting"]
+}

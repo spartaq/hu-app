@@ -8,7 +8,7 @@ import SEO from '../../Components/SEO.js';
 import '../../CSS/lesson-agenda.css';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import Futureexcomp from '../../Components/GrammarExerciseComps/futureexercisecomp.js';
@@ -46,7 +46,7 @@ const NewYearResolutions = () => {
                     <h1 className="mt-2">New Year's Resolutions</h1>
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 <div>
                     <h2>Ways to express future plans</h2>
@@ -110,15 +110,15 @@ const NewYearResolutions = () => {
 
 
 
-                <div className="agenda-subtitle">Reading</div>
+                <div className="agenda-reading">Reading</div>
 
                 <Reading readings={readingcompData} title="DW Resolutions" />
                 
-                <div className="agenda-subtitle">Video</div>                
+                <div className="agenda-listening">Video</div>               
 
                 <Video videos={videoData} title="Easy to Make" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
 
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="resolutions" />
 

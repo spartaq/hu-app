@@ -1,66 +1,24 @@
-import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
-import GrammarMenu from '../../Components/Menus/GrammarMenu.js';
-import Sidebar from '../../Components/Sidebar';
-import GrammarExercises from '../../Components/GrammarExerciseComps/simpcontexercisescomp.js';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/simpcontexplanation.js';
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/simpcontexplanation';
+import mainimage from '../../Images/quiz1.jpg';
 
-const Simpcont = () => {
-  
-  const [isGridVisible, setIsGridVisible] = useState(true);
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "simpcont" },
+];
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
-  };
-
-  return (
-    <div>
-      <SEO
-        title="Grammar Exercises - Simple Present vs. Present Continuous"
-        description="A big list of English grammar exercises to practice for exams"
-        name="English Exam Exercises"
-        type="article"
-      />
-      <Breadcrumbs />
-      <div className="grammar-container">
-        
-          
-      <div>
-        <div className="grammartitle">
-            <span className="label label-a2">A2</span>
-            <h3 className="mt-2">Simple Present vs Present Continuous</h3>
-          </div>
-        
-        <div className="descriptionbox">      
-
-          <div className="grammarctrl descriptionbox">
-            <button type="button" className="grammarbtn" onClick={toggleGridVisibility}>
-              {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}
-            </button>
-          </div>
-
-          {isGridVisible && (
-            <div className="grammar-display-grid">
-              <GrammarExplanation />
-            </div>
-          )}
-        </div>
-
-
-                      <div>
-                          <div className="agenda-display-grid">
-                            <GrammarExercises />
-                          </div>
-                      </div>
-        </div>
-        <div className="top-margin">
-          <GrammarMenu />
-          <Sidebar />
-        </div>
-      </div>
-    </div>
-  );
-};
+const Simpcont = () => (
+  <GrammarPageLayout
+    level="A2"
+    title="Simpcont"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Simpcont"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="A2"
+  />
+);
 
 export default Simpcont;

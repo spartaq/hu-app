@@ -1,64 +1,24 @@
-import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
-import GrammarMenu from '../../Components/Menus/GrammarMenu.js';
-import Sidebar from '../../Components/Sidebar';
-import GrammarExercises from '../../Components/GrammarExerciseComps/tobepastexercisescomp.js';
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/tobepastexplanation';
-import exambooks from '../../Images/argue1.jpg';
-import { FaAngleDown } from "react-icons/fa";
+import mainimage from '../../Images/tobe-past1.png';
 
-const ToBePast = () => {
-  
-  const [isGridVisible, setIsGridVisible] = useState(true);
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "to-be-past" },
+];
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
-  };
-
-  return (
-    <div>
-      <SEO
-        title="Grammar Exercises - To Be Past"
-        description="A big list of English grammar exercises to practice for exams"
-        name="English Exam Exercises"
-        type="article"
-      />
-      <Breadcrumbs />
-      <div className="grammar-container">
-        
-          
-      <div>
-        <div className="grammartitle">
-            <span className="label label-a1">A1</span>
-            <h3 className="mt-2">To Be - Past</h3>
-          </div><div className="grammarimage">
-          <img src={exambooks} alt="English Exam Exercises" /></div>
-        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
-
-        {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}<FaAngleDown /></div>
-
-          {isGridVisible && (
-            <div className="grammar-display-grid">
-              <GrammarExplanation />
-            </div>
-          )}
-        
-
-
-                      <div>
-                          <div className="agenda-display-grid">
-                            <GrammarExercises />
-                          </div>
-                      </div>
-        </div>
-        <div className="top-margin">
-          <GrammarMenu />
-          <Sidebar />
-        </div>
-      </div>
-    </div>
-  );
-};
+const ToBePast = () => (
+  <GrammarPageLayout
+    level="A1"
+    title="To Be Past"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - To Be Past"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="A1"
+  />
+);
 
 export default ToBePast;

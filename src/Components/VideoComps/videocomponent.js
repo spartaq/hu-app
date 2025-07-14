@@ -6,10 +6,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { useLocation } from 'react-router-dom';
 import YouTubeVideos from "../../Components/YouTubeVideos";
-import videoData from '../../Mainpages/Listening-Exercises/Data/video.json';
-import { addTooltipsToText } from '../../Utils/tooltipUtils';  // <-- **Added import**
-import VocabularyMatch from '../../Utils/vocabmatch';
-import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
+import videoData from '../../Mainpages/Videos/Data/video.json';
+import { addTooltipsToText } from '../../Utils/tooltipUtils';  
 
 const VideoComponent = ({ title }) => {
 

@@ -1,20 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useParams } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 import SEO from '../../Components/SEO';
 import Readingcomp from './Data/readingcomp';
-import ReadingMenu from '../../Components/Menus/ReadingMenu';
 import Breadcrumbs from '../../Components/Breadcrumb';
-import Sidebar from '../../Components/Sidebar';
 import '../../CSS/skills.css';
 import { addTooltipsToText } from '../../Utils/tooltipUtils';
 import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import { FaAngleDown } from 'react-icons/fa';
+import RelatedExercises from '../../Utils/relatedExercises.js';
 
 
 const ReadingComp1 = () => {
     const [searchParams, setSearchParams] = useSearchParams();
+    const { id } = useParams();
 
     const initialTopic = searchParams.get('topic') || 'all';
     const initialLevel = searchParams.get('level') || 'all';
@@ -138,6 +138,8 @@ const ReadingComp1 = () => {
         return <div>Loading...</div>;
     }
 
+    console.log("currentLevel:", currentReading?.level);
+console.log("currentTitle:", currentReading?.readingcompTitle);
       
 
     return (
@@ -161,10 +163,20 @@ const ReadingComp1 = () => {
             </div>
             
             <div className="grammar-container">
-                <div className="exercises-container">
+                <div className="readings-container">
                     
 
-                    {showVocab && (
+
+
+
+                        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
+
+                        {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown /></div>
+
+
+                        {isGridVisible && (
+                            <div className="grammar-display-grid">
+                      {showVocab && (
                         <div className="overlay" onClick={closeVocab}>
                             <div className="transcript-overlay" onClick={(e) => e.stopPropagation()}>
                                 <div className="vocabulary-text">
@@ -181,19 +193,9 @@ const ReadingComp1 = () => {
                             </div>
                         </div>
                     )}
-                        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
-
-                        {isGridVisible ? 'Hide' : 'Vocabulary'}<FaAngleDown /></div>
-
-
-                        {isGridVisible && (
-                            <div className="grammar-display-grid">
-                            <VocabularyMatch
-                            data={vocabData}
-                            topic={readings[currentReading]?.topic.toLowerCase()}
-                            />
                             </div>
                         )}
+                        
                         <div className="showagendagrammarbox">Reading</div>
                     <form className="readingform" onSubmit={handleSubmit}>
                         <div className="reading-text">
@@ -228,6 +230,9 @@ const ReadingComp1 = () => {
                                     </Carousel.Item>
                                 ))}
                             </Carousel>
+
+
+
                         </div>
                         <div className="exercisectrl">
                         <button className="checkbtn" onClick={toggleTopicMenu}>☰ Topics</button>
@@ -248,8 +253,13 @@ const ReadingComp1 = () => {
                         </div>
                     </div>
 
-                <div className="gmenu"><ReadingMenu /></div>
-                <div><Sidebar /></div>
+                    <div className="top-margin">
+                    <RelatedExercises
+  currentCategory="reading-exercises"
+  currentLevel={readings[currentReading]?.level}
+  currentTitle={readings[currentReading]?.readingcompTitle}
+/>
+        </div>
             </div>
         </div>
     );

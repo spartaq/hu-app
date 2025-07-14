@@ -5,8 +5,8 @@ import PageCounter from '../../Utils/pagecounter';
 import { FaQuestionCircle } from "react-icons/fa";
 
 const ModalsobligationExercises = () => {
-  const [answers, setAnswers] = useState(Array(10).fill(''));
-  const [evaluation, setEvaluation] = useState(Array(10).fill(''));
+  const [answers, setAnswers] = useState(Array(5).fill(''));
+  const [evaluation, setEvaluation] = useState(Array(5).fill(''));
   const [displayedSentences, setDisplayedSentences] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedTopic, setSelectedTopic] = useState(null);
@@ -24,9 +24,9 @@ const ModalsobligationExercises = () => {
   }, [selectedTopic]);
 
   // Calculate total number of pages based on filtered sentences
-  const totalPages = Math.ceil(filteredSentences.length / 10);
+  const totalPages = Math.ceil(filteredSentences.length / 5);
   // Calculate current page
-  const currentPage = Math.floor(currentIndex / 10) + 1;
+  const currentPage = Math.floor(currentIndex / 5) + 1;
   
     const [showAnswers, setShowAnswers] = useState(false);
   
@@ -35,7 +35,7 @@ const ModalsobligationExercises = () => {
     };
     // Generate new sentences based on current index and selected topic
     const generateNewSentences = useCallback(() => {
-      const newSentences = filteredSentences.slice(currentIndex, currentIndex + 10);
+      const newSentences = filteredSentences.slice(currentIndex, currentIndex + 5);
       setDisplayedSentences(newSentences);
       setAnswers(Array(newSentences.length).fill(''));
       setEvaluation(Array(newSentences.length).fill(''));
@@ -87,7 +87,7 @@ const ModalsobligationExercises = () => {
 
   const handleReset = () => {
     setAnswers(Array(displayedSentences.length).fill(''));
-    setEvaluation(Array(displayedSentences.length).fill('null'));
+    setEvaluation(Array(displayedSentences.length).fill(null));
   };
 
   const handleNextExercise = () => {
@@ -95,7 +95,7 @@ const ModalsobligationExercises = () => {
       ? sentencesData.filter((sentence) => sentence.topic === selectedTopic)
       : sentencesData;
 
-    const nextIndex = (currentIndex + 10) % filteredSentences.length;
+    const nextIndex = (currentIndex + 5) % filteredSentences.length;
     setCurrentIndex(nextIndex);
   };
 
@@ -103,7 +103,7 @@ const ModalsobligationExercises = () => {
     const filteredSentences = selectedTopic
       ? sentencesData.filter((sentence) => sentence.topic === selectedTopic)
       : sentencesData;
-    const previousIndex = (currentIndex - 10 + filteredSentences.length) % filteredSentences.length;
+    const previousIndex = (currentIndex - 5 + filteredSentences.length) % filteredSentences.length;
     setCurrentIndex(previousIndex);
   };
 
@@ -117,21 +117,12 @@ const ModalsobligationExercises = () => {
         <div className="introtext">
           <div className="exercises-container">
 
-            <div className="exercisectrl">
-              <button type="button" className="checkbtn" onClick={handlePreviousExercise}><i className="fas fa-arrow-left"></i> Prev Set 
-              </button>
-              <button type="button" className="checkbtn" onClick={handleNextExercise}>
-              Next Set <i className="fas fa-arrow-right"></i>
-              </button>
-              <button type="submit" className="checkbtn" onClick={handleSubmit}>Check</button>
-              <button type="submit" className="checkbtn" onClick={handleReset}>Reset</button>
-              <button 
-                    type="button" 
-                    className="checkbtn" 
-                    onClick={toggleShowAnswers}
-                    >
-                    {showAnswers ? 'Hide Answers' : 'Show Answers'}
-                    </button>
+            
+<p className="descriptionbox">Complete the sentences with can, can't, must.</p>
+
+<form className="exercises-form" onSubmit={handleSubmit}>
+<div className="counterfilter">
+<PageCounter currentPage={currentPage} totalPages={totalPages} />
               <div className="filter-dropdown-container">
               <Select
                 value={selectedTopic ? { label: selectedTopic, value: selectedTopic } : null}
@@ -143,41 +134,41 @@ const ModalsobligationExercises = () => {
               />
             </div>
             </div>
-            <p className="descriptionbox">Complete the sentences with the correct form of "to be".</p>
-            <form className="exercises-form" onSubmit={handleSubmit}>
-            <PageCounter currentPage={currentPage} totalPages={totalPages} />
               {displayedSentences.map((sentence, index) => (
                 <div key={index} className="sentence-container">
                   <span className="circle">{index + 1}</span>
-
-                  <p>{sentence.text}</p>
-                  <input
-                    type="text"
-                    value={showAnswers ? sentence.answer : answers[index] || ''}
-                    onChange={(e) => handleChange(index, e.target.value)}
-                    placeholder={sentence.prompt}
-                    readOnly={showAnswers} 
-                  />
+                                    {sentence.text.split('___').map((part, partIndex) => (
+                                      <React.Fragment key={partIndex}>
+                                        {partIndex > 0 && (
+                                          <input
+                                            type="text"
+                                            value={showAnswers ? sentence.answer : answers[index] || ''}
+                                            onChange={(e) => handleChange(index, e.target.value)}
+                                            readOnly={showAnswers} 
+                                          />
+                                        )}
+                                        {part}
+                                      </React.Fragment>
+                                    ))}
+                                    <button type="button" className='checkbtn' onClick={(e) => handleSubmit(e, index)}>Check</button>
                     <FaQuestionCircle className="evaluation-icon" onClick={(e) => handleSubmit(e, index)} />
                                    {evaluation[index] === 'correct' ? ' ✔️' : evaluation[index] === 'incorrect' ? ' ❌' : ''}
                 </div>
               ))}
                <div className="exercisectrl">
+              <button type="button" className="checkbtn" onClick={handlePreviousExercise}><i className="fas fa-arrow-left"></i> Prev Set 
+              </button>
+              <button type="button" className="checkbtn" onClick={handleNextExercise}>
+              Next Set <i className="fas fa-arrow-right"></i>
+              </button>
+              <button type="submit" className="checkbtn" onClick={handleReset}>Reset</button>
               <button 
                     type="button" 
                     className="checkbtn" 
                     onClick={toggleShowAnswers}
                     >
                     {showAnswers ? 'Hide Answers' : 'Show Answers'}
-                    </button>
-              <button type="submit" className="checkbtn">Check</button>
-              <button type="submit" className="checkbtn" onClick={handleReset}>Reset</button>
-              <button type="button" className="checkbtn" onClick={handlePreviousExercise}>
-              <i className="fas fa-arrow-left"></i> Prev Set 
-              </button>
-              <button type="button" className="checkbtn" onClick={handleNextExercise}>
-              Next Set <i className="fas fa-arrow-right"></i>
-              </button></div>
+                    </button></div>
             </form>
           </div>
         </div>

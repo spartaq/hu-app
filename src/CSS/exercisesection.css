@@ -1,0 +1,482 @@
+.exercisesection {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+  border: 0px solid rgb(0, 0, 0);
+}
+.exercisesection__activity-box {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+  width: 100%;
+  max-width: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.exercisesection__card,
+.exercisesection__score-card,
+.exercisesection__start,
+.exercisesection__quiz-card {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+.exercisesection__card {
+  background-color: white;
+  width: 80%;
+  padding: 16px;
+  margin: 16px auto auto auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exercisesection__score-card {
+  background-color: white;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exercisesection__quiz-card {
+  background-color: white;
+  padding: 175px 200px;
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.exercisesection__quiz-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.exercisesection__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.exercisesection__start-button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exercisesection__start-button:hover {
+  background-color: #45a049;
+}
+
+/* Keep typography and layout compact */
+.exercisesection__question {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.exercisesection__options {
+  display: flex;
+  flex-direction: column;
+  margin: 12px auto;
+  width: 50%
+}
+
+/* Option buttons */
+.exercisesection__option-button {
+  display: block;
+  width: 100%;
+  margin: 4px 0;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  text-align: center;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.exercisesection__option-button:hover:not(:disabled) {
+  border-color: #888;
+  background-color: #f1f1f1;
+}
+
+.exercisesection__option-button.correct {
+  background-color: #4caf50;
+  color: white;
+}
+
+.exercisesection__option-button.incorrect {
+  background-color: #f44336;
+  color: white;
+}
+
+.exercisesection__next-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.exercisesection__feedback {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.exercisesection__feedback-explanation {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/*.exercisesection__nav {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.exercisesection__nav-button {
+  flex: 1 1 45%;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #eee;
+  cursor: pointer;
+}*/
+
+
+
+.exercisesection__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* mobile-friendly */
+}
+
+.exercisesection__nav-button {
+  padding: 5px 5px;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.exercisesection__nav-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.exercisesection__nav-counter {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.exercisesection__nav-controls {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.exercisesection__restart-button {
+  margin-top: 16px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: solid black 2px;
+  background-color: white;
+  width: 100%;
+}
+
+.exercisesection__answers {
+  margin-top: 16px;
+  word-wrap: break-word;
+}
+
+.newexerciseblock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grammartext {
+  width: 100%;
+  padding: 5px;
+}
+
+.vocab-match-container{
+  background-color: white;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  width:100%;
+}
+
+.vocab-columns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  max-width: 300px;
+}
+
+.vocab-item {
+  border: 1px solid gray;
+  padding: 8px;
+  cursor: pointer;
+  background: white;
+  transition: background 0.2s ease;
+}
+
+.vocab-item:hover {
+  background: #f0f0f0;
+}
+
+
+
+
+
+.readingform {
+  padding: 30px 30px;
+  background-color: whitesmoke;
+}
+
+.reading-text {
+  margin: 0 auto;
+  padding: 50px 30px;
+  background-color: white;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.reading-vocab-header-box {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  word-break: break-word;
+  background-color: rgb(245, 183, 177);
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.reading-title {
+  margin-bottom: 50px;
+}
+
+.reading-title h1 {
+  font-size: 2em;
+}
+
+@media (max-width: 990px) {
+  .readingform {
+    padding: 0 0;
+  }
+
+  .reading-text {
+  margin: 0 auto;
+  padding: 0px 5px;
+  background-color: white;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+}  
+
+/* Tight responsive tweak */
+@media (max-width: 280px) {
+  .exercisesection {
+    width: 100vw;
+    padding: 8px;
+  }
+}
+ 
+  @media (max-width: 980px) {
+ 
+    .exercisesection__question {
+    font-size: 1rem;
+  }
+
+  .exercisesection__card {
+    background-color: white;
+    width: 100%;
+    padding: 16px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .exercisesection__quiz-card {
+    padding: 100px 0px;
+  }
+
+  .exercisesection__option-button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+.exercisesection__nav-button {
+  flex: 1 1 auto;
+  min-width: 0; 
+}
+
+  .grammartext {
+    width: 100%;
+  }
+
+  
+ .vocab-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* allows wrapping if absolutely needed */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 140px;
+  flex: 1 1 200px; /* grow and shrink as needed */
+  max-width: 100%;
+}
+
+.vocab-item {
+  width: 100%;
+  max-width: 240px; /* adjusts based on screen */
+  font-size: 16px;
+  padding: 8px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+
+  .vocab-match-container {
+    padding: 10px;
+  }
+
+}
+
+.MuiStepConnector-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #ccc; /* line color */
+  transform: translateY(-50%);
+}
+
+.MuiStep-root {
+  position: relative;
+  flex: 1;
+  margin-top: 4px;
+}
+
+.stepperWrap {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center; 
+  gap: 8px;
+  margin-top: 10px; 
+}
+
+@media (min-width: 600px) {
+  .stepperWrap {
+    flex-wrap: nowrap !important;
+  }
+}
+
+.word-bank-button {
+  transition: transform 0.2s;
+}
+
+.word-bank-button.bounce {
+  animation: bounce 0.5s;
+  border: 2px solid red;
+}
+
+@keyframes bounce {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+
+

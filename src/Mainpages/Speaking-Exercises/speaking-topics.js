@@ -4,7 +4,6 @@ import data from './Data/speakingtopics.json';
 import Breadcrumbs from '../../Components/Breadcrumb';
 import SEO from '../../Components/SEO';
 import SpeakingMenu from '../../Components/Menus/SpeakingMenu';
-import Sidebar from '../../Components/Sidebar';
 
 function SpeakingTopics() {
   const [topics, setTopics] = useState(data);
@@ -114,7 +113,7 @@ function SpeakingTopics() {
           <SpeakingMenu />
         </div>
         <div>
-          <Sidebar />
+          
         </div>
       </div>
     </div>

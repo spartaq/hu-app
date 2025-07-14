@@ -1,55 +1,49 @@
-{
-    "text": [
-"Have you ever wondered why we use forks and knives while other cultures might use chopsticks or even their hands?",
-
-"Throughout history, cultures ____ unique ways to enjoy their food. Let's ____ some of the most interesting examples.",
-
-"We're probably most familiar with good old forks and knives in the Western Hemisphere, but did you know it wasn't always this way? For centuries, people actually ate with their hands. Over time, things changed. People became more concerned about hygiene, and food textures changed too. Using ____ became a sign of being polite and civilized.",
-
-"East Asia",
-
-"Now, let's travel to East Asia. In countries like China, Japan, Korea, and Vietnam, chopsticks are the utensil of choice. These tools are perfect for picking up small pieces of food, ____ noodles, and enjoying delicious rice bowls. Interestingly, chopsticks ____ for thousands of years.",
-
-"Mexico",
-
-"Now, let's head south of the border to Mexico. Here, tortillas are more than just delicious food—they're ____ utensils too. You can scoop, wrap, or tear warm tortillas to enjoy stews, beans, and all sorts of tasty fillings.",
-
-"Ethiopia",
-
-"Ever heard of a utensil you can eat? In Ethiopia, injera is a spongy flatbread made from teff flour. It serves double duty—it's both a plate for food and a way to ____ it up.",
-
-"Italy",
-
-"While forks are pretty common worldwide, Italy takes things to a whole new level with their pasta ____ skills. Have you ever wondered why they spin spaghetti around their fork? It's all about those long, delicious noodles. Twirling helps gather them ____ , ensuring every bite is perfectly ____ with that yummy sauce.",
-
-"South Asia",
-
-"Many South Asian and Middle Eastern cultures have a deep tradition of eating with their right hand. Bread like naan and rice are staples, easily shaped and scooped to enjoy curries and other flavorful dishes. This custom has historical roots, religious influences, and even ideas about cleanliness."
-
-    ],
-    "gaps": [
-      { "id": "gap-0", "correct": "have developed" },
-      { "id": "gap-1", "correct": "dive into" },
-      { "id": "gap-2", "correct": "utensils" },
-      { "id": "gap-3", "correct": "slurping" },
-      { "id": "gap-4", "correct": "have been around" },
-      { "id": "gap-5", "correct": "edible" },
-      { "id": "gap-6", "correct": "scoop" },
-      { "id": "gap-7", "correct": "twirling" },
-      { "id": "gap-8", "correct": "neatly" },
-      { "id": "gap-9", "correct": "coated" }
-    ],
-    "words": [
-      { "id": "word-1", "word": "have developed" },
-      { "id": "word-2", "word": "dive into" },
-      { "id": "word-3", "word": "utensils" },
-      { "id": "word-4", "word": "slurping" },
-      { "id": "word-5", "word": "have been around" },
-      { "id": "word-6", "word": "edible" },
-      { "id": "word-7", "word": "scoop" },
-      { "id": "word-8", "word": "twirling" },
-      { "id": "word-9", "word": "neatly" },
-      { "id": "word-10", "word": "coated" }
-    ]
+[
+  {
+    "id": "sports-gapfill-1",
+    "topic": "sports",
+    "type": "gap-fill",
+    "text": "Many people enjoy watching ___ on the weekend. Football is one of the most ___ sports in the world. Players need to work as a ___ to win the match. In tennis, however, athletes usually compete ___ and rely on their own skills.",
+    "words": ["sports", "popular", "team", "individually"]
+  },
+  {
+    "id": "travel-gapfill-1",
+    "topic": "travel",
+    "type": "gap-fill",
+    "text": "When traveling abroad, it's important to have a valid ___. Some people like to ___ hotels in advance, while others prefer to be more spontaneous.",
+    "words": ["passport", "book"]
+  },
+  {
+    "id": "gossip-gapfill-1",
+    "topic": "gossip",
+    "type": "gap-fill",
+    "text": [ 
+      "What's the first thing that comes to mind when I say workplace ___(informal talk about someone when that person is not present)? Do alarm bells go off in your mind? 'Danger, danger—avoid at all costs.'",
+      
+      "Or maybe you feel ___(curious)? 'Ooh, what's the latest juicy rumor?'",
+      
+      "Perhaps you're a bit conflicted—'Hmm, I'm tempted, but I know I shouldn't.' Guess what. You're not alone. Many people feel ___(undecided) about the role of gossip in the workplace.",
+      
+      "The truth is that everyone participates in some form of workplace gossip, whether it's ___(neither positive nor negative), positive, or negative.",
+      
+      "Some forms of gossip are actually helpful to a healthy workplace, while others can be very harmful to people, teams, and organizations.",
+      
+      "In this video, I'm going to ___(make something seem less negative) the good kind of gossip and give you some rules of thumb to help you figure out when it's OK and not OK to gossip at work.",
+      
+      "Gossip can be a form of getting information about something that helps us process what's going on around us.",
+      
+      "Gossip about someone's reputation can be either positive or negative.",
+      
+      "Managers can use gossip to gather ___(information, better understanding) on employees' performance or behaviors in order to improve the workplace culture.",
+      
+      "But gossiping can lead to a negative impact on productivity and ___(group feeling), especially if it spreads false information.",
+      
+      "Some gossip may spread misleading information that may not be true or cause negative feelings in the workplace.",
+      
+      "One way to avoid the negative effects of gossip is to focus on sharing positive or neutral gossip.",
+      
+      "Remember, gossip can be a source of emotional support but should be shared with caution."
+  ],
+    "words": ["gossip", "intrigued", "conflicted", "neutral", "destigmatize", "insights", "morale"]
   }
-  
+]
