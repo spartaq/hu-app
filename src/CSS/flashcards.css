@@ -107,9 +107,6 @@
 
 /* Fullscreen styles for mobile */
 @media (max-width: 1023px) {
-  .flashpage-container {
-    flex-direction: column;
-  }
 
   .column-left {
     display: none;
@@ -375,9 +372,12 @@
     grid-template-columns: 1fr;
     justify-content: center;
     margin: auto;
-    /*width: 96vw;*/
+    width: 96vw;
     padding: 0px;
   }
+
+  
+
 
   .flashheader {
     display: flex;

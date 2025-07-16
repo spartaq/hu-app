@@ -36,17 +36,6 @@ const Vocabularyexercises = () => {
   </div>
   </Link>
 
-  <Link to="/vocabulary-exercises/dependent-prepositions">
-  <div className="blog-card">
-    <div className="description">
-     <span className="label label-a1">A1</span>
-      <h1>Dependent Prepositions</h1>
-      <h2>Alternate ways of speaking</h2>
-      <p>Words that go with particular prepositions.</p>
-    </div>
-  </div>  
-  </Link>
-
   <Link to="/vocabulary-exercises/idioms">
     <div className="blog-card">
     <div className="description">
@@ -58,39 +47,6 @@ const Vocabularyexercises = () => {
   </div>              
   </Link> 
 
-  <Link to="/vocabulary-exercises/collocations"> 
-    <div className="blog-card">
-    <div className="description">
-    <span className="label label-c1">C1</span>
-      <h1>Collocations</h1>
-      <h2>What goes with what</h2>
-      <p>Collocations are words the frequently go together and are a key way to learn new vocabulary.</p>
-    </div>
-  </div>
-  </Link>
-
-  <Link to="/vocabulary-exercises/word-forms"> 
-  <div className="blog-card">
-    <div className="description">
-    <span className="label label-b2">B2</span>
-      <h1>Word Forms</h1>
-      <h2>The same, yet different</h2>
-      <p>Learn and practice the different forms (noun, verb, adjective, etc.) of common words. this helps to build up synonym vocabulary.</p>
-    </div>
-  </div>
-  </Link>
-
-  <Link to="/vocabulary-exercises/linking-words"> 
-  <div className="blog-card">
-    <div className="description">
-    <span className="label label-a1">A1</span>
-      <h1>Linking Words</h1>
-      <h2>How to connect</h2>
-      <p>Learn and practice linking words.</p>
-    </div>
-  </div>
-  </Link>
-
 
   </div>
 </div>
@@ -99,7 +55,7 @@ const Vocabularyexercises = () => {
 </div>
 <div>
 
-             <div><Sidebar/></div>
+            
       </div>
 
   </div>

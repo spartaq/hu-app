@@ -74,13 +74,13 @@ h1 {
 }
 
 h3 {
-  font-size:0.9rem;
-  text-transform: uppercase;
+  font-size:0.8rem;
+  text-transform: none;
   margin-top: 1%;
 }
 
 a {
-  color:#500c3f;
+  color:lightseagreen;
   text-decoration: none;
 }
 .menu-column a {
@@ -98,7 +98,7 @@ a {
   h3 {
     text-align: center;
     font-size:0.8rem;
-    text-transform: uppercase;
+    text-transform: none;
   }
 }
 
@@ -146,7 +146,7 @@ a {
   position: relative;
   display: grid;
   grid-template-columns: 100%;
-  width: 57%; 
+  width: 60%; 
   grid-template-areas: "header" "main" "footer";
   /*height: 100vh;*/
   margin: 0 auto; 
@@ -155,13 +155,6 @@ a {
 .grid--noscroll {
   overflow-y: hidden;
 }
-  /*.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    width: 78%; 
-    margin: 0 auto; 
-    gap: 16px; 
-  }*/
 
 
 @media only screen and (max-width: 1200px) {
@@ -182,7 +175,7 @@ a {
   flex: 1;
   overflow: visible; 
   padding: 0px; 
-  background-color: #eaeaea;
+  background-color: white;
 }
 
 header, footer {
@@ -341,7 +334,7 @@ header, footer {
 .exercises-container { /*exercises comp actual exercises container*/
   max-width: 100%;
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px;
+  padding: 0px 100px;
   background-color: rgb(255, 255, 255);
   /*border: 2px solid black;*/
   border-radius: 5px;
@@ -354,7 +347,7 @@ header, footer {
   padding: 0px 15px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
-  width: 88vw;
+  width: 93vw;
 }
 }
 
@@ -427,7 +420,7 @@ header, footer {
 }
 
 .grammartitle h3{
-  color: orangered;
+  color: #264653;
   font-size: 38px;
   font-weight: 600;
   text-align: left;
@@ -437,7 +430,7 @@ header, footer {
 
 
 
-.introtext {   /*introtext is a container directly below grammar-comp-container on comp pages*/
+.introtext {   /*introtext is a container directly below grammar-comp-container on comp pages, and it appears to control the top pictiure on the reading comp pages*/
   /*display: flex;*/
   width: 100%;
   border-radius: 5px;
@@ -543,6 +536,11 @@ header, footer {
 
 /*================================ Grammar box on exercise pages ============================================*/
 
+.grammardoexercise {
+  width: 100%;
+  margin-top: 70px;
+}
+
 .grammartable {
   border-collapse: collapse;
   width: 100%;
@@ -562,11 +560,11 @@ header, footer {
 .grammar-display-grid {
   display: flex;
   flex-direction: column;
-  /*border: 2px solid #ccc; 
-  padding: 10px;*/
+  /*border: 2px solid #ccc;*/ 
+  padding: 0px;
   width: 100%;
   margin-bottom: 35px;
-  background-color: whitesmoke;
+  /*background-color: whitesmoke;*/
 }
 
 .grammar-display-grid h5 {
@@ -614,11 +612,11 @@ header, footer {
 }
 .grammartable {
   border-collapse: collapse;
-  width: 85vw;
-  display:flex;
+  width: 94vw;
+  /*display:flex;
   row-gap: 5px;
   flex-direction: column;
-  align-items: center;
+  align-items: center;*/
 
 }
 }
@@ -633,7 +631,7 @@ header, footer {
 }
 .top-margin { /*top margin for sidebar on main pages*/
   position:relative;
-  margin-top:0px;
+  margin-top:100px;
 }
 
 .menu-container {
@@ -1315,7 +1313,7 @@ input[type="range"] {
 .sentence-container input {
   margin: 10px 15px;
   height: 30px;
-  width: 500px;
+  width: 20%;
 }
 
 .sentence-container > div {
@@ -1768,6 +1766,7 @@ input[type="range"] {
   gap: 20px;
   padding: 20px;
   max-width: 100%;
+  width: 100%;
   margin: auto;
 }
 
@@ -1788,6 +1787,7 @@ input[type="range"] {
 }
 
 .topics-box {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -1815,10 +1815,22 @@ input[type="range"] {
   transform: translateY(-5px);
 }
 
+.topics-box-ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 4px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.75rem;
+  border-bottom-right-radius: 8px;
+  z-index: 2;
+}
+
 .topics-image {
   width: 100%;
-  height: 270px;
-  object-fit: fill;
+  height: 200px;
+  overflow: hidden;
   border-radius: 0px;
 }
 
@@ -1827,15 +1839,24 @@ input[type="range"] {
   padding-top: 10px;
 }
 
-.topics-title {
-  font-size: 1.25rem;
-  font-weight: bold;
+.topics-card-header {
   margin: 0px 0;
-  padding: 10px 15px;  
-  color: white;
+  padding: 10px 15px;
   background-color: lightseagreen;
   border-radius: 1px;
   width: 100%;
+}
+
+.topics-title {
+  font-size: 1.75rem;
+  font-weight: bold;  
+  color: white;
+}
+
+.topics-subtitle {
+  font-size: 0.85rem;
+  font-style: italic;  
+  color: white;
 }
 
 .topics-category {
@@ -1902,6 +1923,10 @@ input[type="range"] {
   .topics-box {
     margin-bottom: 20px;
     padding: 0px;
+  }
+
+  .topics-image {
+    height: auto;
   }
 
   .topics-list {
@@ -1974,19 +1999,77 @@ input[type="range"] {
 
 .counterfilter {
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.filter-checkbox-container {
+.filter-container {
   display: flex;
-  flex-direction: row;
-  white-space: nowrap;
-  overflow-y: visible; 
-  column-gap: 8vw;
-  width: 100%;
-  background-color: darkgray;
-  padding:30px 0px;
+  justify-content: center;
+  background-color: #ddd;
+  margin-bottom: 30px;
+  padding: 30px 0;
 }
+
+.filter-box {
+  width: 100%;
+  max-width: 800px;
+  border: 0px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+  margin: 0 auto;
+}
+
+.filter-box.closed {
+  max-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-box.open {
+  max-height: 1000px; /* adjust as needed */
+  padding: 20px;
+}
+
+.filter-checkbox-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.toggle-filter-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #E9C46A;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.showagendagrammarbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  margin: 20px auto 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: darkblue;
+  border-radius: 0px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.3s;
+}
+
 
 .filter-dropdown-container {
   display: flex;
@@ -2001,10 +2084,7 @@ input[type="range"] {
 .filter-dropdown-container input {
   margin-right: 5px; 
 }
-.filter-checkbox-group {
-  margin: auto;
-  height: 100%; 
-}
+
 
 @media (max-width: 990px) {
   .filter-dropdown-container {
@@ -2059,7 +2139,26 @@ input[type="range"] {
   font-size: 18px;
 }
 
+/*================================================  relatedexercises  ========================*/
+.related-exercises {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #ccc;
+}
 
+.related-exercises-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.see-all-btn {
+  background: lightsalmon;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 /*================================================  todd, courses container, labels, figures  ========================*/
 
@@ -2122,9 +2221,11 @@ input[type="range"] {
   line-height: 2.5;
   color: #fff;
   text-align: center;
+  text-transform: capitalize;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
+
 }
 .label-a1 {
   background-color: #428bca;
@@ -2142,7 +2243,7 @@ input[type="range"] {
 }
 
 .label-c1 {
-  background-color: red;
+  background-color: crimson;
 }
 .label-all {
   background-color: green;
@@ -2198,4 +2299,46 @@ button.incorrect {
   background-color: #ffcdd2; /* light red */
   border: 2px solid red;
   color: #000;
+}
+/*================================gapfill stuyling=================*/
+
+
+.sentence-box {
+  display: inline-block;
+  width: 100px;
+  min-height: 40px;
+  margin: 5px;
+  padding: 8px;
+  border: 2px dashed #ccc;
+  text-align: center;
+  vertical-align: middle;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.gap {
+  margin: 0 4px;
+  padding: 2px 6px;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+
+/*========================quiz style====================*/
+.quizbg {
+  background-color: #2A9D8F;
+  width: 50% !important;
+}
+
+.quizbox {
+  margin: 0px auto auto auto;
+  width: 100%;
+  background-color: orangered;
+}
+
+.quizoptions {
+  width: 50%!important;
+  background-color: white;
+  color: black;
+  padding: 20px;
 }

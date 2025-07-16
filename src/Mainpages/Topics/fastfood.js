@@ -37,8 +37,10 @@ const FastFood = () => {
             />
 
             <div className="agenda-container">
-                <div className="agenda-title"><div className="grammarimage">
-                <img src={headerimg} alt="English Exam Exercises" /></div>
+                <div className="agenda-title">
+                    <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div>
                     <h1 className="mt-2">Fast Food</h1>
                 </div>
 
@@ -51,7 +53,7 @@ const FastFood = () => {
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
@@ -83,19 +85,19 @@ const FastFood = () => {
                     </div>                    
                 </div>
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
                 <Reading readings={readingcompData} title="Changing Food Culture" /> 
                     
 
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="Fast Food" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="fastfood" />
             </div>
         </div>

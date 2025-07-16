@@ -1,5 +1,165 @@
 [
   {
+    "text": "Do you think everyone should have a side job these days? Why or why not?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Are side jobs more about passion or money?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Can having a side job make you better at your main job?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it possible to have a successful side job without sacrificing personal time?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "At what point does a side job become a real business?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should companies be supportive of employees having side jobs?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it better to have one stable job or multiple income streams?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do you think some people take on side jobs just to feel more productive?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Can doing too many things at once hurt your creativity or focus?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it easier to succeed at a side job if it’s related to your main profession?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should schools teach students how to build side businesses?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is turning your hobby into a side job always a good idea?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do side jobs give people more freedom, or just more stress?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is having a side job a sign of ambition or of financial pressure?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Would society function better if more people had multiple small jobs instead of one full-time job?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "What’s more valuable: free time or extra income?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do you think AI and remote work are making side jobs easier or harder to manage?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should people keep their side jobs private from their employers?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do side jobs affect work-life balance in a positive or negative way?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "In the future, will traditional 9–5 jobs disappear because of the rise in side hustles?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "What’s the most unusual company policy you’ve ever heard of?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think dress codes at work are necessary?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should employees be allowed to work remotely whenever they want?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it fair for a company to monitor employee internet use?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies have strict social media rules for employees?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "How do you feel about ‘no talking’ policies in offices?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies ban office relationships?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What is your opinion on mandatory unpaid overtime?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you agree with policies that limit personal phone use at work?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies allow pets in the office?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should there be rules about how often employees can take breaks?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it okay for companies to ask employees to always be available after hours?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "How important is a clear vacation policy?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think companies should have rules about political discussions at work?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What kind of attendance policy is fair?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should there be a policy about sharing snacks or food in the workplace?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it a good idea for companies to have rules about how desks should look?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What’s your opinion on policies that require employees to always smile?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies have a policy for mental health days?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think company policies are usually made to help workers or control them?",
+    "topic": "companypolicy"
+  },
+  {
     "text": "Can you think of anything worse than McDonald's?",
     "topic": "fastfood"
   },

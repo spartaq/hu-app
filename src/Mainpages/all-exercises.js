@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../Components/SEO';
 import Breadcrumb from '../Components/Breadcrumb';
+import image from '../Images/exam-books.webp'
 
 export default function Index () {
     return ( 
@@ -11,10 +12,12 @@ export default function Index () {
         <ul className="all-exercises-list">
             <li><p className="category-title" href="/grammar-exercises">Grammar Exercises</p>
                 <ul>
-                    <li><Link to="/grammar-exercises/to-be">Be</Link><span class="label label-success">A1</span></li>
-                    <li><Link to="/grammar-exercises/simple-present">Simple Present</Link></li>
-                    <li><Link to="/grammar-exercises/present-continuous">Present Continuous</Link></li>
-                    <li><Link to="/grammar-exercises/simple-past">Simple Past</Link></li>
+                    <li>
+                    <img src={image} width="100px" height="100px" alt="English Exam Exercises" />
+                        <Link to="/grammar-exercises/to-be"><span class="label label-a1">A1</span> Be</Link></li>
+                    <li><img src={image} width="100px" height="100px" alt="English Exam Exercises" /><Link to="/grammar-exercises/simple-present">Simple Present</Link></li>
+                    <li><img src={image} width="100px" height="100px" alt="English Exam Exercises" /><Link to="/grammar-exercises/present-continuous">Present Continuous</Link></li>
+                    <li><img src={image} width="100px" height="100px" alt="English Exam Exercises" /><Link to="/grammar-exercises/simple-past">Simple Past</Link></li>
                     <li><Link to="/grammar-exercises/present-perfect">Present Perfect</Link></li>
                     <li><Link to="/grammar-exercises/perfect-past">Present Perfect vs Past Simple</Link></li>
                     <li><Link to="/grammar-exercises/first-conditional">1st Conditional</Link></li>

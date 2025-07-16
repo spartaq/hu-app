@@ -153,8 +153,8 @@ const ToBe = () => {
                       {part}
                     </React.Fragment>
                   ))}
-                  <button type="button" className='checkbtn' onClick={(e) => handleSubmit(e, index)}>Check</button>
-                  <FaQuestionCircle className="evaluation-icon" onClick={(e) => handleSubmit(e, index)} />
+                  &nbsp;&nbsp;<button type="button" className='checkbtn' onClick={(e) => handleSubmit(e, index)}> Check</button>&nbsp;
+                  <button type="button" className="checkbtn" onClick={toggleShowAnswers}> Show</button>&nbsp;
                   {evaluation[index] === 'correct' ? ' ✔️' : evaluation[index] === 'incorrect' ? ' ❌' : ''}
                 </div>
               ))}

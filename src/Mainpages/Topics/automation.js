@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Modal from 'react-modal';
 import '../../CSS/lesson-agenda.css';
 import 'swiper/swiper-bundle.css';
@@ -6,36 +6,28 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
-import Reading from '../../Components/ReadingComps/readingcomponent.js';
+import exambooks from '../../Images/selfcheckout.jpg';
 import Video from '../../Components/VideoComps/videocomponent.js';
 import videoData from '../Listening-Exercises/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
+import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import Causeeffectexercises from '../../Components/GrammarExerciseComps/causeeffectexercisescomp.js';
-import CauseeffectExplanation from '../../Components/GrammarExplanationComps/causeeffectexplanation.js';
+import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
+import Quiz from '../Quizzes/quiz.js';
+import quizzesData from '../Quizzes/Data/automationquiz.json';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/passivebeingexplanation.js';
+import GrammarExercises from '../../Components/GrammarExerciseComps/passivebeingexercisescomp.js';
+import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
+import idiomData from "../Vocabulary-Exercises/Data/idioms.json";
+import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
+import ImageCarousel from '../../Utils/imgcarousel.js';
+import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json'
 
 
 Modal.setAppElement('#root');
 
 const Automation = () => {
-    const [menuItems, setMenuItems] = useState([]);
-
-    useEffect(() => {
-        // Dynamically gather all agenda-subtitle elements
-        const subtitles = Array.from(document.querySelectorAll('.agenda-subtitle')).map((subtitle, index) => ({
-            id: `section-${index}`,
-            text: subtitle.textContent,
-        }));
-
-        // Add IDs to the subtitles
-        subtitles.forEach((item, index) => {
-            const element = document.querySelectorAll('.agenda-subtitle')[index];
-            element.setAttribute('id', item.id);
-        });
-
-        setMenuItems(subtitles);
-    }, []);
 
     return (
         <div>
@@ -48,52 +40,51 @@ const Automation = () => {
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Automation</h1> 
-                    <div className="anchor-menu">
-                        <ul>
-                            {menuItems.map((item) => (
-                                <li key={item.id}>
-                                    <a href={`#${item.id}`}>{item.text}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                    <h1 className="mt-2">Automation</h1>
                 </div>
+                <div className="grammarimage">
+                <img src={exambooks} alt="English Exam Exercises" /></div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
-                    
-                    <div className="grammarexplanation">
+
+                <div>
 
 
-                        <div>
-                        <CauseeffectExplanation /> 
-                        </div>                        
-                 
+                    <div>
+                    <GrammarExplanation /> 
+                    </div>                        
+
                     </div>
 
                     <div>
 
-                   
-                        <div className="agenda-display-grid">
-                           <Causeeffectexercises />
+                    <div className="agenda-display-grid">
+                           <GrammarExercises />
                         </div>
                    
                     </div>
 
                 </div>
+                
+                <div className="agenda-subtitle">Quiz</div> 
+                <div>                   
+                    <div className="agenda-display-grid">
+                        <Quiz quizzesData={quizzesData} />
+                    </div>                    
+                </div>
 
 
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-vocabulary">Vocabulary</div>
                 <Reading readings={readingcompData} title="Self Service Checkout Reddit" />
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                 <Video videos={videoData} title="Self-Checkout Systems: Convenience or Cumbersome?" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="automation" />
             </div>
         </div>

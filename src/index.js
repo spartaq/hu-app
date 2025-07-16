@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import App from './App';
 import MainFrame from './Mainpages/MainFrame';
+import Home from './Mainpages/Home';
 import A1A2Elementary from './Mainpages/Levels/a1-a2-elementary';
 import B1B2Intermediate from './Mainpages/Levels/b1-b2-intermediate';
 import C1Advanced from './Mainpages/Levels/c1-advanced';
@@ -21,6 +22,7 @@ import PresentContinuous from './Mainpages/Grammar-Exercises/present-continuous'
 import Future from './Mainpages/Grammar-Exercises/future';
 import SimplePast from './Mainpages/Grammar-Exercises/simple-past';
 import FirstConditional from './Mainpages/Grammar-Exercises/first-conditional';
+import FirstCondProd from './Mainpages/Grammar-Exercises/first-cond-prod';
 import SecondConditional from './Mainpages/Grammar-Exercises/second-conditional';
 import ThirdConditional from './Mainpages/Grammar-Exercises/third-conditional';
 import PresentPerfect from './Mainpages/Grammar-Exercises/present-perfect';
@@ -36,6 +38,20 @@ import SecondCondProd from './Mainpages/Grammar-Exercises/second-cond-prod';
 import ModalsDeduction from './Mainpages/Grammar-Exercises/modals-deduction';
 import Passive from './Mainpages/Grammar-Exercises/passive';
 import Simpcont from './Mainpages/Grammar-Exercises/simpcont';
+import Collocations from './Mainpages/Grammar-Exercises/collocations';
+import WordForms from './Mainpages/Grammar-Exercises/word-forms';
+import LinkingWords from './Mainpages/Grammar-Exercises/linking-words';
+import DependentPrepositions from './Mainpages/Grammar-Exercises/dependent-prepositions';
+import Gerunds from './Mainpages/Grammar-Exercises/gerunds';
+import CauseEffect from './Mainpages/Grammar-Exercises/causeeffect';
+import Comparison from './Mainpages/Grammar-Exercises/comparison';
+import Relativeclauses from './Mainpages/Grammar-Exercises/relativeclauses';
+import Soenough from './Mainpages/Grammar-Exercises/soenough';
+import Passivebeing from './Mainpages/Grammar-Exercises/passivebeing';
+import PastHabits from './Mainpages/Grammar-Exercises/past-habits';
+import MixedCondProd from './Mainpages/Grammar-Exercises/mixed-cond-prod';
+import AdjAdv from './Mainpages/Grammar-Exercises/adjadv';
+import Infinitives from './Mainpages/Grammar-Exercises/infinitives';
 import ReadingExercises from './Mainpages/Reading-Exercises/reading-exercises';
 import ParagraphHeadings from './Mainpages/Reading-Exercises/paragraph-headings';
 import ReadingComprehension from './Mainpages/Reading-Exercises/reading-comprehension';
@@ -47,12 +63,8 @@ import Audio from './Mainpages/Listening-Exercises/Audio';
 import WritingExercises from './Mainpages/Writing-Exercises/writing-exercises';
 import Writing1 from './Mainpages/Writing-Exercises/Writing1';
 import VocabularyExercises from './Mainpages/Vocabulary-Exercises/vocabulary-exercises';
-import Collocations from './Mainpages/Vocabulary-Exercises/collocations';
-import WordForms from './Mainpages/Vocabulary-Exercises/word-forms';
 import PhrasalVerbs from './Mainpages/Vocabulary-Exercises/phrasal-verbs';
-import LinkingWords from './Mainpages/Vocabulary-Exercises/linking-words';
 import Idioms from './Mainpages/Vocabulary-Exercises/idioms';
-import DependentPrepositions from './Mainpages/Vocabulary-Exercises/dependent-prepositions';
 import C1VocabFlashcards from './Mainpages/Flashcards/c1-vocab-flashcards';
 import C1VerbFlashcards from './Mainpages/Flashcards/c1-verb-flashcards';
 import B2VerbFlashcards from './Mainpages/Flashcards/b2-verb-flashcards';
@@ -82,19 +94,13 @@ import People from './Mainpages/Topics/people';
 import Food from './Mainpages/Topics/food';
 import Tourism from './Mainpages/Topics/tourism';
 import Neighbors from './Mainpages/Topics/neighbors';
-import FirstCondProd from './Mainpages/Grammar-Exercises/first-cond-prod';
-import Airtraffic from './Mainpages/Topics/airtraffic1';
-import Gerunds from './Mainpages/Grammar-Exercises/gerunds';
-import CauseEffect from './Mainpages/Grammar-Exercises/causeeffect';
-import Comparison from './Mainpages/Grammar-Exercises/comparison';
-import Relativeclauses from './Mainpages/Grammar-Exercises/relativeclauses';
-import Soenough from './Mainpages/Grammar-Exercises/soenough';
-import Passivebeing from './Mainpages/Grammar-Exercises/passivebeing';
-import VideoInputForm from './Utils/videoinputform';
+import Sidejobs from './Mainpages/Topics/sidejobs';
 import Advice from './Mainpages/Topics/advice';
 import Ethics from './Mainpages/Topics/ethics';
 import Gossip from './Mainpages/Topics/gossip';
 import Sustainability from './Mainpages/Topics/sustainability';
+import Airtraffic from './Mainpages/Topics/airtraffic1';
+import VideoInputForm from './Utils/videoinputform';
 import Unless from './Mainpages/Grammar-Exercises/unless';
 import Wish from './Mainpages/Grammar-Exercises/wish';
 import Problemsolving from './Mainpages/Topics/problemsolving';
@@ -103,11 +109,7 @@ import Persuading from './Mainpages/Topics/persuading';
 import Sports from './Mainpages/Topics/sports';
 import Weather from './Mainpages/Topics/weather';
 import Introlesson from './Mainpages/Topics/introlesson';
-import MixedCondProd from './Mainpages/Grammar-Exercises/mixed-cond-prod';
-import AdjAdv from './Mainpages/Grammar-Exercises/adjadv';
-import Infinitives from './Mainpages/Grammar-Exercises/infinitives';
 import Education from './Mainpages/Topics/education';
-import PastHabits from './Mainpages/Grammar-Exercises/past-habits';
 import Branding from './Mainpages/Topics/branding';
 import FastFood from './Mainpages/Topics/fastfood';
 import WorkFuture from './Mainpages/Topics/workfuture';
@@ -116,8 +118,14 @@ import Meetings from './Mainpages/Topics/meetings';
 import Money from './Mainpages/Topics/money';
 import Cellphones from './Mainpages/Topics/smartphones';
 import Language from './Mainpages/Topics/language';
-import Home from './Mainpages/Home';
+import Companypolicy from './Mainpages/Topics/companypolicy';
 import Videos from './Mainpages/Listening-Exercises/videos';
+import JelenIdoDef from './Mainpages/Hungarian/jelenidodef';
+import JelenIdoIndef from './Mainpages/Hungarian/jelenidoIndef';
+import MultIdo from './Mainpages/Hungarian/multido';
+import HungarianTemplate from './Mainpages/Hungarian/hungarianexercisetemplate';
+import Vannekicomp from './Mainpages/Hungarian/HungarianExerciseComps/vannekiexercisescomp';
+import Vanneki from './Mainpages/Hungarian/vanneki';
 
 
 
@@ -313,6 +321,14 @@ const router = createBrowserRouter([
             element: <Airtraffic />,
           },
           {
+            path: 'topics/companypolicy',
+            element: <Companypolicy />,
+          },
+          {
+            path: 'topics/sidejobs',
+            element: <Sidejobs />,
+          },
+          {
             path: 'grammar-exercises',
             element: <GrammarExercises />,
           },
@@ -457,6 +473,42 @@ const router = createBrowserRouter([
             element: <AdjAdv />,
           },
           {
+            path: 'grammar-exercises/collocations',
+            element: <Collocations />,
+          },
+          {
+            path: 'grammar-exercises/dependent-prepositions',
+            element: <DependentPrepositions />,
+          },
+          {
+            path: 'grammar-exercises/word-forms',
+            element: <WordForms />,
+          },
+          {
+            path: 'grammar-exercises/linking-words',
+            element: <LinkingWords />,
+          },
+          {
+            path: 'hungarian/jelenidodef',
+            element: <JelenIdoDef />,
+          },
+          {
+            path: 'hungarian/jelenidoindef',
+            element: <JelenIdoIndef />,
+          },
+          {
+            path: 'hungarian/multido',
+            element: <MultIdo />,
+          },
+          {
+            path: 'hungarian/vanneki',
+            element: <Vanneki />,
+          },
+          {
+            path: 'hungarian/hungarianexercisetemplate',
+            element: <HungarianTemplate />,
+          },
+          {
             path: 'reading-exercises',
             element: <ReadingExercises />,
           },
@@ -489,28 +541,12 @@ const router = createBrowserRouter([
             element: <VocabularyExercises />,
           },
           {
-            path: 'vocabulary-exercises/collocations',
-            element: <Collocations />,
-          },
-          {
             path: 'vocabulary-exercises/phrasal-verbs',
             element: <PhrasalVerbs />,
           },
           {
-            path: 'vocabulary-exercises/dependent-prepositions',
-            element: <DependentPrepositions />,
-          },
-          {
             path: 'vocabulary-exercises/idioms',
             element: <Idioms />,
-          },
-          {
-            path: 'vocabulary-exercises/word-forms',
-            element: <WordForms />,
-          },
-          {
-            path: 'vocabulary-exercises/linking-words',
-            element: <LinkingWords />,
           },
           {
             path: 'flashcards',

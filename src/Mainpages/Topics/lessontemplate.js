@@ -39,7 +39,7 @@ const LessonTemplate = () => {
                     <h1 className="mt-2">New Year's Resolutions</h1>
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 <div>
                     <p>Idioms connect to New Year's and renewal</p>
@@ -70,15 +70,15 @@ const LessonTemplate = () => {
 
                 </div>
 
-                <div className="agenda-subtitle">Reading</div>
+                <div className="agenda-reading">Reading</div>
 
                 <Reading readings={readingcompData} title="Nature" />
                 
-                <div className="agenda-subtitle">Video</div>                
+                <div className="agenda-listening">Video</div>               
 
                 <Video videos={videoData} title="New Year" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <div>    
                 <ul>
                     <li><strong>What would you try if you knew you could not fail?</strong></li>

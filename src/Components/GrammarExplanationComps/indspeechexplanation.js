@@ -8,15 +8,16 @@ const IndirectSpeechExplanation = () => {
 
 <div className="grammar-display-grid">
                             <div className="">
-                            <h2>QW + do you think + subj + verb form</h2>
-                            <h2>Do you think + subj + verb form</h2>
+                            <br></br><br></br>
+                            <strong>QW + do you think + subj + verb form</strong><br></br><br></br>
+                            <strong>Do you think + subj + verb form</strong><br></br><br></br>
 
                                 <p><strong>Examples:</strong></p>
                                 <p>Do you think John is coming to the meeting?</p>
                                 <p>Where do you think John is?</p>
 
-                                <h2>Do you know + if + subj + verb form</h2>
-                                <h2>Do you know + QW + subj + verb form</h2>
+                                <strong>Do you know + if + subj + verb form</strong><br></br><br></br>
+                                <strong>Do you know + QW + subj + verb form</strong><br></br><br></br>
 
                                 <p><strong>Common Phrases:</strong></p>
                                 <p>Do you know</p>

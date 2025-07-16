@@ -5,8 +5,8 @@ import PageCounter from '../../Utils/pagecounter';
 import { FaQuestionCircle } from "react-icons/fa";
 
 const ToBePast = () => {
-  const [answers, setAnswers] = useState(Array(10).fill(''));
-  const [evaluation, setEvaluation] = useState(Array(10).fill(''));
+  const [answers, setAnswers] = useState(Array(5).fill(''));
+  const [evaluation, setEvaluation] = useState(Array(5).fill(''));
   const [displayedSentences, setDisplayedSentences] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedTopic, setSelectedTopic] = useState(null);
@@ -33,7 +33,7 @@ const ToBePast = () => {
       };
     // Generate new sentences based on current index and selected topic
     const generateNewSentences = useCallback(() => {
-      const newSentences = filteredSentences.slice(currentIndex, currentIndex + 10);
+      const newSentences = filteredSentences.slice(currentIndex, currentIndex + 5);
       setDisplayedSentences(newSentences);
       setAnswers(Array(newSentences.length).fill(''));
       setEvaluation(Array(newSentences.length).fill(''));

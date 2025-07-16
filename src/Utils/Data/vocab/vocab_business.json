@@ -1,0 +1,13 @@
+{
+    "quizTitle": "Common Business Vocabulary",
+    "type": "vocab",
+    "topic": "business",
+    "pairs": [
+      { "term": "Revenue", "definition": "Income generated from normal business operations." },
+      { "term": "Invoice", "definition": "A document requesting payment for goods or services provided." },
+      { "term": "Budget", "definition": "A plan for managing income and expenses." },
+      { "term": "Profit", "definition": "The financial gain after deducting expenses from revenue." },
+      { "term": "Assets", "definition": "Resources owned by a company that have economic value." }
+    ]
+  }
+  

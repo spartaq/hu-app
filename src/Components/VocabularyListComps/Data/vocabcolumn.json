@@ -1,4 +1,14 @@
-[
+[  
+  {
+    "word": "white lie",
+    "category": "Good",
+    "topic": "gossip"
+  },
+  {
+    "word": "lie",
+    "category": "Bad",
+    "topic": "gossip"
+  },
   {
     "word": "heatwave",
     "category": "Hot",

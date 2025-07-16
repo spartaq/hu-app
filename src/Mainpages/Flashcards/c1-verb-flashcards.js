@@ -121,7 +121,7 @@ function FlashC1Verb() {
       />
        <div className="grammar-container">
 
-      <div className={`flashpage-container div1 ${isFullscreen ? 'fullscreen' : ''}`}>
+      <div className={`flashpage-container ${isFullscreen ? 'fullscreen' : ''}`}>
         <div className={`column-right ${isFullscreen ? 'fullscreen' : ''}`}>
           <div className="flashset-controls">
             <div className='flashsetnum'>C1 Verbs - {formatSetId(currentSet)}</div>
@@ -205,10 +205,10 @@ function FlashC1Verb() {
         </div>
       </div>
 
-      <div className="gmenu div2"> <FlashcardMenu /> 
+      <div className="gmenu"> <FlashcardMenu /> 
       </div>
 
-      <div className="div3"> 
+      <div> 
 
             <Sidebar />
       </div>

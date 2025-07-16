@@ -38,7 +38,7 @@ const Caffeine = () => {
                     <h1 className="mt-2">Caffeine</h1>
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 <div>
                     <p>Indirect Question forms - used to make questions "softer".</p>
@@ -69,17 +69,17 @@ const Caffeine = () => {
 
                 </div>
 
-                <div className="agenda-subtitle">Reading</div>
+                <div className="agenda-reading">Reading</div>
 				
 				<Reading readings={readingcompData} title="Caffeine: The Workplace Drug of Choice" />
                 
-                <div className="agenda-subtitle">Video</div> 														   
+                <div className="agenda-listening">Video</div>														   
 					  
 
                 <Video videos={videoData} title="caffeine" />
 						  
 					   
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <div>    
                     <ul>
                         <li>Do you need coffee to wake you up in the morning?</li>

@@ -1,0 +1,57 @@
+[
+    {
+      "quiz": 1,
+      "quizTitle": "Side Jobs",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Nearly _____ of Americans have a side hustle today.",
+          "options": ["20%", "29%", "40%", "55%"],
+          "answer": "40%"
+        },
+        {
+          "id": 2,
+          "question": "Side hustles earned _____ billion in total income in 2020.",
+          "options": ["$90", "$100", "$150", "$200"],
+          "answer": "$150"
+        },
+        {
+          "id": 3,
+          "question": "Many start side hustles to _____ .",
+          "options": ["travel more", "quit their job", "buy a house", "pay off student loans and debt"],
+          "answer": "pay off student loans and debt"
+        },
+        {
+          "id": 4,
+          "question": "The term \"side hustle\" gained popularity in the _____ .",
+          "options": ["1990s", "early 2000s", "mid-2000s", "2010s"],
+          "answer": "mid-2000s"
+        },
+        {
+          "id": 5,
+          "question": "_____ is one of the most common side hustles among people.",
+          "options": ["Coaching", "Freelancing", "Investing", "Tutoring"],
+          "answer": "Freelancing"
+        },
+        {
+          "id": 6,
+          "question": "70% of side hustlers work more than _____ hours each week.",
+          "options": ["5", "10", "15", "20"],
+          "answer": "15"
+        },
+        {
+          "id": 7,
+          "question": "_____ is a popular platform for creative side hustlers to sell items.",
+          "options": ["eBay", "Shopify", "Etsy", "Amazon"],
+          "answer": "Etsy"
+        },
+        {
+          "id": 8,
+          "question": "Side hustles can lead to full-time jobs; _____ make the switch.",
+          "options": ["1 in 10", "1 in 5", "1 in 3", "1 in 2"],
+          "answer": "1 in 3"
+        }
+      ]
+    }
+  ]
+  

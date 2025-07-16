@@ -2,687 +2,783 @@ module.exports = [
     {
       "id": "to-be",
       "title": "To Be Present",
+      "subtitle": "am, is, are",
       "category": "grammar-exercises",
+      "theme": "Business",
       "level": "A1",
+      "levelname": "Elementary",
       "time": "15 min",
       "description": "Exercises to practice the verb 'to be' in the present",
-      "image": "/Images/be-present.jpg"
+      "image": "/Images/tobepres2.jpg"
     },
     {
       "id": "to-be-past",
       "title": "To Be Past",
       "category": "grammar-exercises",
-      "level": "A1",
+      "subtitle": "was, were",
+      "level":"A1",
       "time": "45 min",
       "description": "Exercises to practice the verb 'to be' in the past",
-      "image": "/Images/computerprogramming.jpg"
+      "image": "/Images/tobe-past1.png"
     },
     {
       "id": "simple-present",
       "title": "Simple Present",
       "category": "grammar-exercises",
-      "level": "A1",
+      "subtitle": "work, works",
+      "level":"A1",
       "time": "30 min",
       "description": "Exercises to practice the simple present tense",
-      "image": "/Images/simple-present-card.png"
+      "image": "/Images/simppres1.jpg"
     },
     {
       "id": "present-continuous",
       "title": "Present Continuous",
       "category": "grammar-exercises",
-      "level": "A1",
+      "subtitle": "am, is, are working",
+      "level":"A1",
       "time": "60 min",
       "description": "Exercises to practice the present continuous tense",
-      "image": "/Images/argue3.jpg"
+      "image": "/Images/doing2.jpg"
     },
     {
       "id": "simpcont",
       "title": "Simple Present vs. Present Continuous",
       "category": "grammar-exercises",
-      "level": "A2",
+      "subtitle": "I am doing or I do",
+      "level":"A2",
       "time": "60 min",
       "description": "Exercises to practice the difference between the present continuous and the simple present tense",
-      "image": "/Images/pastcont.webp"
+      "image": "/Images/simppastcont1.jpg"
     },
     {
       "id": "past-continuous",
       "title": "Past Continuous",
       "category": "grammar-exercises",
-      "level": "A2",
+      "subtitle": "was, were doing",
+      "level":"A2",
       "time": "60 min",
       "description": "Exercises to practice the past continuous tense",
-      "image": "/Images/javacoursepng.png"
+      "image": "/Images/pastcont1.jpg"
     },
     {
       "id": "simple-past",
       "title": "Simple Past",
       "category": "grammar-exercises",
-      "level": "A2",
+      "subtitle": "went, lived",
+      "level":"A2",
       "time": "60 min",
-      "description": "Explore the fast food industry and its impact on society.",
-      "image": "/Images/watchingsports4.jpg"
+      "description": "Exercises to practice the simple past tense",
+      "image": "/Images/simplepast1.jpg"
     },
     {
       "id": "future",
       "title": "Future",
       "category": "grammar-exercises",
-      "level": "A2",
+      "subtitle": "will do, going to do",
+      "level":"A2",
       "time": "60 min",
-      "description": "Discuss coffee culture and the effects of caffeine.",
-      "image": "/Images/watchingsports5.png"
+      "description": "Exercises to practice the future tense",
+      "image": "/Images/future1.jpg"
     },
     {
       "id": "present-perfect",
       "title": "Present Perfect",
       "category": "grammar-exercises",
-      "level": "B1",
+      "subtitle": "have/has done",
+      "level":"B1",
       "time": "60 min",
-      "description": "Set and discuss New Year's resolutions while practicing future plans.",
-      "image": "/Images/presperf.png "
+      "description": "Exercises to practice the present perfect tense",
+      "image": "/Images/havedone1.png "
     },
     {
       "id": "perfect-past",
       "title": "Present Perfect vs Past Simple",
       "category": "grammar-exercises",
-      "level": "B1",
+      "subtitle": "have done or did",
+      "level":"B1",
       "time": "60 min",
-      "description": "Learn how to talk about personal and professional habits.",
-      "image": "/Images/habits.jpg"
+      "description": "Exercises to practice the difference between the present perfect and the simple past tense",
+      "image": "/Images/pastperf1.jpg"
     },
     {
       "id": "first-conditional",
       "title": "First Conditional",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "If I do, I will do",
+      "level":"B2",
       "time": "60 min",
-      "description": "Discuss chat platforms while learning how to use 'so' and 'enough'.",
-      "image": "/Images/chatplatforms.jpg"
+      "description": "Exercises to practice the first conditional",
+      "image": "/Images/firstcond1.jpg"
     },
     {
       "id": "first-cond-prod",
       "title": "First Conditional (Prompt)",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "If I do, I will do",
+      "level":"B2",
       "time": "60 min",
-      "description": "Explore automation trends and practice cause-and-effect structures.",
-      "image": "/Images/automation.jpg"
+      "description": "Exercises to practice the first conditional with a prompt",
+      "image": "/Images/firstcondprod1.jpg"
     },
     {
       "id": "second-conditional",
       "title": "Second Conditional",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "If I did, I would do",
+      "level":"B2",
       "time": "60 min",
-      "description": "Compare quality standards in various industries.",
-      "image": "/Images/quality.jpg"
+      "description": "Exercises to practice the second conditional",
+      "image": "/Images/secondcond1.webp"
     },
     {
       "id": "second-cond-prod",
       "title": "Second Conditional (Prompt)",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "If I did, I would do",
+      "level":"B2",
       "time": "60 min",
-      "description": "Discuss choices in business and express wishes and regrets.",
-      "image": "/Images/choice.jpg"
+      "description": "Exercises to practice the second conditional with a prompt",
+      "image": "/Images/secondcondprod1.jpg"
     },
     {
       "id": "third-conditional",
       "title": "Third Conditional",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "If I had done, I would have done",
+      "level":"B2",
       "time": "60 min",
       "description": "Learn about pet ownership and practice 'so' and 'enough'.",
-      "image": "/Images/pets.jpg"
+      "image": "/Images/thirdcond1.jpg"
     },
     {
       "id": "third-cond-prod",
       "title": "Third Conditional (Prompt)",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "If I had done, I would have done",
+      "level":"B2",
       "time": "60 min",
       "description": "Talk about walking and its benefits while practicing gerunds.",
-      "image": "/Images/walking.jpg"
+      "image": "/Images/thirdcondprod1.jpg"
     },
     {
       "id": "mixed-cond-prod",
       "title": "Mixed Conditionals (Prompt)",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "If I had done, I would be now",
+      "level":"B2",
       "time": "60 min",
       "description": "Describe people using relative clauses.",
-      "image": "/Images/people.jpg"
+      "image": "/Images/mixedcond1.jpg"
     },
     {
       "id": "indirect-speech",
       "title": "Indirect Speech",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "Do you know if",
+      "level":"B2",
       "time": "60 min",
-      "description": "Discuss neighborly issues while practicing the 2nd conditional.",
-      "image": "/Images/neighbors.jpg"
+      "description": "Asking without asking directly.",
+      "image": "/Images/reported1.jpg"
     },
     {
       "id": "passive",
       "title": "Passive",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "is made, was made",
+      "level":"B2",
       "time": "60 min",
-      "description": "Talk about food production and use the passive voice.",
-      "image": "/Images/food.jpg"
+      "description": "Learn about the passive voice and its uses.",
+      "image": "/Images/passive1.avif"
     },
     {
       "id": "passivebeing",
       "title": "Passive - being",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "is being made, was being made",
+      "level":"B2",
       "time": "60 min",
-      "description": "Discuss tourism and its impact while practicing gerunds.",
-      "image": "/Images/tourism.jpg"
+      "description": "Learn about the passive voice with being.",
+      "image": "/Images/Passivebeing1.jpg"
     },
     {
       "id": "modals-obligation",
       "title": "Modals of Obligation",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "have to, must, should",
+      "level":"B2",
       "time": "60 min",
-      "description": "Learn how to give and receive advice using 'suggest'.",
-      "image": "/Images/advice.jpg"
+      "description": "Learn how to use modals of obligation and necessity.",
+      "image": "/Images/obligation1.jpg"
     },
     {
       "id": "modals-deduction",
-      "title": "Modals of Deducttion",
+      "title": "Modals of Deduction",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "must, might, can't",
+      "level":"B2",
       "time": "60 min",
-      "description": "Explore ethical dilemmas and practice using infinitives.",
-      "image": "/Images/ethics.jpg"
+      "description": "Learn how to use modals of deduction.",
+      "image": "/Images/deduction2.jpg"
     },
     {
       "id": "sense-verbs",
       "title": "Sense Verbs",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "look, sound, taste, smell, feel",
+      "level":"B2",
       "time": "60 min",
-      "description": "Discuss workplace gossip while practicing reported speech.",
-      "image": "/Images/gossip.jpg"
+      "description": "Learn how to use sense verbs.",
+      "image": "/Images/sense1.jpg"
     },
     {
       "id": "ed-ing",
       "title": "Ed or Ing",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "bored, boring",
+      "level":"B2",
       "time": "60 min",
-      "description": "Explore sustainability practices while learning how to use 'unless'.",
-      "image": "/Images/sustainability.jpg"
+      "description": "Learn the difference bewtween bored and boring and other similar word pairs.",
+      "image": "/Images/eding1.jpg"
     },
     {
       "id": "reported-speech",
       "title": "Reported Speech",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "he said that",
+      "level":"B2",
       "time": "60 min",
-      "description": "Practice problem-solving strategies and modals of deduction.",
-      "image": "/Images/problemsolving.jpg"
+      "description": "Saying what other people said.",
+      "image": "/Images/reportedspeech1.png"
     },
     {
       "id": "gerunds",
       "title": "Gerunds",
       "category": "grammar-exercises",
-      "level": "B2",
+      "subtitle": "like doing",
+      "level":"B2",
       "time": "60 min",
-      "description": "Discuss medical advancements and their ethical implications.",
-      "image": "/Images/medicine.jpg"
+      "description": "Learn about gerunds and their uses.",
+      "image": "/Images/gerunds1.jpg"
     },
     {
         "id": "infinitives",
         "title": "Infinitives",
-        "category": "grammar-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "like to do",
+      "level": "B2",
         "time": "45 min",
         "description": "Learn persuasive techniques while practicing different word forms.",
-        "image": "/Images/persuading.jpg"
+        "image": "/Images/infinitives1.webp"
       },
       {
         "id": "unless",
         "title": "Unless",
-        "category": "grammar-exercises",
-        "level": "B1",
+      "category": "grammar-exercises",
+      "subtitle": "I won't do it unless",
+      "level": "B1",
         "time": "30 min",
         "description": "Discuss sports experiences while practicing the present perfect tense.",
-        "image": "/Images/sports.jpg"
+        "image": "/Images/unless1.jpg"
       },
       {
         "id": "adjadv",
         "title": "Adjectives and Adverbs",
-        "category": "grammar-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "extremely, very, really important",
+      "level": "B2",
         "time": "60 min",
         "description": "Explore extreme weather events while using mixed conditionals.",
-        "image": "/Images/weather.jpg"
+        "image": "/Images/adverbadjective1.jpg"
       },
       {
         "id": "pasthabits",
         "title": "Past Habits",
-        "category": "grammar-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "used to, would",
+      "level": "B2",
         "time": "60 min",
         "description": "Talk about past educational experiences and express wishes and regrets.",
-        "image": "/Images/education.jpg"
+        "image": "/Images/habits1.jpg"
       },
       {
         "id": "wish",
         "title": "Wishes and Regrets",
-        "category": "grammar-exercises",
-        "level": "B1",
+      "category": "grammar-exercises",
+      "subtitle": "I wish I was, I wish I had done",
+      "level": "B1",
         "time": "45 min",
         "description": "A lesson to assess students' understanding of various tenses.",
-        "image": "/Images/introlesson.jpg"
+        "image": "/Images/wish1.jpg"
       },
       {
         "id": "comparison",
         "title": "Comparison",
-        "category": "grammar-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "bigger, more interesting",
+      "level": "B2",
         "time": "60 min",
         "description": "Discuss the air traffic industry and aviation terminology.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/comparison1.jpg"
       },
       {
         "id": "soenough",
         "title": "So and Enough",
-        "category": "grammar-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "so big, big enough",
+      "level": "B2",
         "time": "60 min",
         "description": "Discuss the air traffic industry and aviation terminology.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/enough1.jpg"
       },
       {
         "id": "relativeclauses",
         "title": "Relative Clauses",
-        "category": "grammar-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "who is, which is",
+      "level": "B2",
         "time": "60 min",
         "description": "Discuss the air traffic industry and aviation terminology.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/office-space-michael-bolton.gif"
       },
       {
         "id": "causeeffect",
         "title": "Cause and Effect",
-        "category": "grammar-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "because, so, in order to",
+      "level": "B2",
         "time": "60 min",
         "description": "Discuss the air traffic industry and aviation terminology.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/causeandeffect1.jpg"
       },
       {
         "id": "word-forms",
         "title": "Word Forms",
-        "category": "vocabulary-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "decided, decision, decisive, decisively",
+      "level": "B2",
         "time": "60 min",
         "description": "Differnt forms of the same word.",
-        "image": "/Images/introlesson.jpg"
+        "image": "/Images/wordforms1.png"
       },
       {
         "id": "collocations",
         "title": "Collocations",
-        "category": "vocabulary-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "highly recommended",
+      "level": "B2",
         "time": "60 min",
         "description": "Words that always go together.",
-        "image": "/Images/introlesson.jpg"
-      },
-      {
-        "id": "idioms",
-        "title": "Idioms",
-        "category": "vocabulary-exercises",
-        "level": "B2",
-        "time": "60 min",
-        "description": "Large collection of idioms sorted by category.",
-        "image": "/Images/introlesson.jpg"
+        "image": "/Images/collocations1.webp"
       },
       {
         "id": "linking-words",
         "title": "Linking Words",
-        "category": "vocabulary-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "even though, in addition to",
+      "level": "B2",
         "time": "60 min",
         "description": "Words that join ideas.",
-        "image": "/Images/introlesson.jpg"
-      },
-      {
-        "id": "phrasal-verbs",
-        "title": "Phrasal Verbs",
-        "category": "vocabulary-exercises",
-        "level": "B2",
-        "time": "60 min",
-        "description": "Large collection of phrasal verbs sorted by category.",
-        "image": "/Images/introlesson.jpg"
+        "image": "/Images/linkingwords1.jpg"
       },
       {
         "id": "dependent-prepositions",
         "title": "Dependent Prepositions",
-        "category": "vocabulary-exercises",
-        "level": "B2",
+      "category": "grammar-exercises",
+      "subtitle": "angry at, interested in",
+      "level": "B2",
         "time": "60 min",
         "description": "Prepositions that always go with certain verbs.",
-        "image": "/Images/introlesson.jpg"
+        "image": "/Images/dependentpreps1.jpg"
+      },    
+      {
+        "id": "jelenidodef",
+        "title": "Jelen Idő - Határozott (Simple Present - Definite conjugation)",
+      "category": "hungarian",
+      "subtitle": "megyek, lakom",
+      "level": "HU",
+        "time": "60 min",
+        "description": "Jelen Idő - Simple present tense.",
+        "image": "/Images/jelenido1.jpg"
+      },    
+      {
+        "id": "jelenidoindef",
+        "title": "Jelen Idő - Általános (Simple Present - General conjugation)",
+      "category": "hungarian",
+      "subtitle": "megyek, lakom",
+      "level": "HU",
+        "time": "60 min",
+        "description": "Jelen Idő - Simple present tense.",
+        "image": "/Images/jelenido1.jpg"
+      },    
+      {
+        "id": "multido",
+        "title": "Mult Idő (Simple Past)",
+      "category": "hungarian",
+      "subtitle": "mentem, laktam",
+      "level": "HU",
+        "time": "60 min",
+        "description": "Mult Idő - Simple past tense.",
+        "image": "/Images/jelenido1.jpg"
+      },    
+      {
+        "id": "vanneki",
+        "title": "Van/Neki van (There is,There are/have)",
+      "category": "hungarian",
+      "subtitle": "van, nekem van",
+      "level": "HU",
+        "time": "60 min",
+        "description": "Van/Neki van - There is/have (possession)",
+        "image": "/Images/jelenido1.jpg"
+      },        
+      {
+        "id": "hungarianexercisetemplate",
+        "title": "Hungarian Template",
+      "category": "hungarian",
+      "subtitle": "test",
+      "level": "HU",
+        "time": "60 min",
+        "description": "Template.",
+        "image": "/Images/jelenido1.jpg"
+      },                 
+      {
+        "id": "phrasal-verbs",
+        "title": "Phrasal Verbs",
+      "category": "vocabulary-exercises",
+      "subtitle": "put off, get along",
+      "level": "B2",
+        "time": "60 min",
+        "description": "Large collection of phrasal verbs sorted by category.",
+        "image": "/Images/phrasalverbs1.jpg"
       },
-    
-        {
+      {
+        "id": "idioms",
+        "title": "Idioms",
+      "category": "vocabulary-exercises",
+      "subtitle": "when in Rome",
+      "level": "B2",
+        "time": "60 min",
+        "description": "Large collection of idioms sorted by category.",
+        "image": "/Images/idioms1.jpg"
+      },
+      {
           "id": "reading1",
           "title": "Parents at a Football Match",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
           "time": "60 min",
           "description": "A dialogue of parents talking at a football match.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading2",
           "title": "Discussing Yesterday's Activities",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
           "time": "60 min",
           "description": "Another reading for comprehension practice.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading3",
           "title": "Talking About Your Children",
-          "category": "reading-exercises",
-          "level": "A2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
           "time": "60 min",
           "description": "A conversation focused on discussing children and parenting.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading4",
           "title": "A Meeting with a Boss",
-          "category": "reading-exercises",
-          "level": "A2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
           "time": "60 min",
           "description": "A reading about an employee meeting with their boss.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading5",
           "title": "A Meeting with a Distributor",
-          "category": "reading-exercises",
-          "level": "A2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
           "time": "60 min",
           "description": "A business meeting between a company and a distributor.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading6",
           "title": "Following Up on an Order",
-          "category": "reading-exercises",
-          "level": "B1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B1",
           "time": "60 min",
           "description": "A conversation about checking the status of a recent order.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading7",
           "title": "Quarterly Sales Review",
-          "category": "reading-exercises",
-          "level": "B1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B1",
           "time": "60 min",
           "description": "A business review discussing sales figures from the last quarter.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading8",
           "title": "Caffeine: The Workplace Drug of Choice",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
           "time": "60 min",
           "description": "An article exploring caffeine consumption and its role in office culture.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading9",
           "title": "Plans Are Stupid",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
           "time": "60 min",
           "description": "A reading that challenges the value of detailed plans in fast-paced work environments.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading10",
           "title": "Resolutions",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "am, is, are",
+      "level": "B2",
           "time": "60 min",
           "description": "A discussion on personal and professional New Year’s resolutions.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading11",
           "title": "Pets",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
           "time": "60 min",
           "description": "A text exploring the role of pets in people's lives and work-from-home culture.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading12",
           "title": "Breaking Bad Habits",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
           "time": "60 min",
           "description": "Strategies and challenges related to overcoming workplace and personal habits.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading13",
           "title": "Chat Productivity",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
           "time": "60 min",
           "description": "An article discussing how workplace chat tools impact productivity.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading14",
           "title": "App Fatigue",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
           "time": "60 min",
           "description": "Exploring the downsides of using too many productivity and communication apps.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading15",
           "title": "Self Service Society",
-          "category": "reading-exercises",
-          "level": "B2",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
           "time": "60 min",
           "description": "A reading about how automation and self-service are changing consumer behavior.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading16",
           "title": "Self Service Checkout Reddit",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A Reddit discussion analyzing the pros and cons of self-service checkouts.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading17",
           "title": "Types of People in Tech",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "An exploration of common personality types found in the tech industry.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading18",
           "title": "Types of Developers",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A lighthearted yet insightful look at different developer archetypes.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading19",
           "title": "Planned Obsolescence and the Quality of Goods",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A critical examination of how products are intentionally designed to have a limited lifespan.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading20",
           "title": "Too Many Choices: A Problem That Can Paralyze",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A reading on how excessive choices can lead to stress and indecision.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading21",
           "title": "Are Dogs Smarter Than Cats? Science Has an Answer",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A scientific look at the intelligence of dogs vs. cats.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading22",
           "title": "Recommended Steps per Day by Age",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A health-focused article breaking down ideal daily step counts across age groups.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading23",
           "title": "Neighbor Issues",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "Common problems people face with their neighbors and possible solutions.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading24",
           "title": "Utensils Around the World",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "An article on cultural differences in eating utensils and traditions.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading25",
           "title": "Stereotypes About Tech Workers",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A critical look at the common stereotypes surrounding tech professionals.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading26",
           "title": "Neighbor Conflicts and Etiquette",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "How to handle and avoid conflicts with neighbors through etiquette and communication.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading27",
           "title": "Plane Crashes: Perception vs. Reality",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A comparison between public perception and actual statistics about air travel safety.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading28",
           "title": "Sports Hate",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "A discussion about rivalries and why some fans love to hate certain teams.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading29",
           "title": "Extreme Weather Experiences",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "Personal stories and reflections on living through extreme weather events.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading30",
           "title": "Education",
-          "category": "reading-exercises",
-          "level": "C1",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
           "time": "60 min",
           "description": "An analytical look at global education systems and training in the workplace.",
-          "image": "/Images/smartphone2.jpg"
         },
         {
           "id": "reading31",
           "title": "Changing Food Culture",
           "category": "reading-exercises",
+          "subtitle": "",
           "level": "C1",
           "time": "60 min",
           "description": "A reading on how modern life and globalization are transforming eating habits.",
-          "image": "/Images/smartphone2.jpg"
         },
       {
         "id": "vocabulary-quizzes",
         "title": "Quizzes",
         "category": "quizzes",
+        "subtitle": "",
         "level": "B2",
         "time": "60 min",
         "description": "Vocabulary quizzes to test your knowledge.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/quiz1.jpg"
       },
       {
         "id": "video1",
         "title": "Create Your Own Words",
         "category": "listening-exercises",
+        "subtitle": "",
         "level": "B2",
         "time": "60 min",
         "description": "A video discussing the need to create your own words.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/createwords1.jpg"
       },
       {
         "id": "video2",
         "title": "Animal Communication and AI",
         "category": "listening-exercises",
+        "subtitle": "",
         "level": "B2",
         "time": "60 min",
         "description": "A video discussing using AI to talk to animals.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/animalAI.png"
       },
       {
         "id": "b2-adj-flashcards",
         "title": "Flashcards",
         "category": "flashcards",
+        "subtitle": "",
         "level": "B2",
         "time": "60 min",
         "description": "Flashcards to practice the essential verbs, nouns and adjectives in English.",
-        "image": "/Images/smartphone2.jpg"
+        "image": "/Images/flaschcards1.jpg"
       }
   ]
   

@@ -8,11 +8,17 @@ import VocabularyExplanation from '../../Components/VocabularyListComps/idiomsli
 
 const Idioms = () => {
   
-  const [isGridVisible, setIsGridVisible] = useState(true);
+const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
+  const toggleGrammarVisibility = () => {
+    setIsGrammarVisible((prev) => !prev);
   };
+  
+  const [isExercisesVisible, setIsExercisesVisible] = useState(false);
+
+  const toggleExercisesVisibility = () => {
+    setIsExercisesVisible((prev) => !prev);
+  }; 
   return (
     <div>
       <SEO
@@ -34,12 +40,12 @@ const Idioms = () => {
           <div className="descriptionbox">      
   
             <div className="grammarctrl descriptionbox">
-              <button type="button" className="grammarbtn" onClick={toggleGridVisibility}>
-                {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}
+              <button type="button" className="grammarbtn" onClick={toggleGrammarVisibility}>
+                {isGrammarVisible ? 'Hide Grammar' : 'Show Grammar'}
               </button>
             </div>
   
-            {isGridVisible && (
+            {isGrammarVisible && (
               <div className="grammar-display-grid">
                 <VocabularyExplanation />
               </div>

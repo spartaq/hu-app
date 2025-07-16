@@ -61,7 +61,7 @@ const People = () => {
                 </div>
                
 
-                <div className="agenda-subtitle">Language Point</div> <div 
+                <div className="agenda-languagepoint">Language Point</div> <div 
                 className="languagepoint-container">
                     
                     <div>
@@ -84,19 +84,19 @@ const People = () => {
 
                 </div>
 
-                <div className="agenda-subtitle">Reading</div>
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">   
                 <Reading readings={readingcompData} title="Stereotypes About Tech Workers" />
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="People" />
 
 
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="people" />
             </div>
         </div>

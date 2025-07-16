@@ -5,16 +5,23 @@ import GrammarMenu from '../../Components/Menus/GrammarMenu';
 import Sidebar from '../../Components/Sidebar';
 import GrammarExercises from '../../Components/GrammarExplanationComps/infinitiveexplanation';
 import GrammarExplanation from '../../Components/GrammarExerciseComps/infinitiveexercisescomp';
+import RelatedExercises from '../../Utils/relatedExercises.js';
 
 
 
 const Infinitives = () => {
   
-  const [isGridVisible, setIsGridVisible] = useState(true);
+const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
+  const toggleGrammarVisibility = () => {
+    setIsGrammarVisible((prev) => !prev);
   };
+  
+  const [isExercisesVisible, setIsExercisesVisible] = useState(false);
+
+  const toggleExercisesVisibility = () => {
+    setIsExercisesVisible((prev) => !prev);
+  }; 
 
   return (
     <div>
@@ -38,12 +45,12 @@ const Infinitives = () => {
  
       
       <div className="grammarctrl descriptionbox">
-            <button type="button" className="grammarbtn" onClick={toggleGridVisibility}>
-              {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}
+            <button type="button" className="grammarbtn" onClick={toggleGrammarVisibility}>
+              {isGrammarVisible ? 'Hide Grammar' : 'Show Grammar'}
             </button>
           </div>
 
-          {isGridVisible && (
+          {isGrammarVisible && (
             <div className="grammar-display-grid">
               <GrammarExplanation />
             </div>
@@ -60,8 +67,7 @@ const Infinitives = () => {
         
         
         <div className="top-margin">
-          <GrammarMenu />
-          <Sidebar />
+          <RelatedExercises currentCategory="grammar-exercises" currentLevel="A1" />
         </div>
 
       </div>

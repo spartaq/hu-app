@@ -3,14 +3,13 @@ import { useSearchParams } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 import SEO from '../../Components/SEO';
 import Readingcomp from './Data/readingcomp';
-import ReadingMenu from '../../Components/Menus/ReadingMenu';
 import Breadcrumbs from '../../Components/Breadcrumb';
-import Sidebar from '../../Components/Sidebar';
 import '../../CSS/skills.css';
 import { addTooltipsToText } from '../../Utils/tooltipUtils';
 import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import { FaAngleDown } from 'react-icons/fa';
+import RelatedExercises from '../../Utils/relatedExercises.js';
 
 
 const ReadingComp1 = () => {
@@ -138,6 +137,8 @@ const ReadingComp1 = () => {
         return <div>Loading...</div>;
     }
 
+    console.log("currentLevel:", currentReading?.level);
+console.log("currentTitle:", currentReading?.readingcompTitle);
       
 
     return (
@@ -183,7 +184,7 @@ const ReadingComp1 = () => {
                     )}
                         <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
 
-                        {isGridVisible ? 'Hide' : 'Vocabulary'}<FaAngleDown /></div>
+                        {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown /></div>
 
 
                         {isGridVisible && (
@@ -248,8 +249,13 @@ const ReadingComp1 = () => {
                         </div>
                     </div>
 
-                <div className="gmenu"><ReadingMenu /></div>
-                <div><Sidebar /></div>
+                    <div className="top-margin">
+                    <RelatedExercises
+  currentCategory="reading-exercises"
+  currentLevel={readings[currentReading]?.level}
+  currentTitle={readings[currentReading]?.readingcompTitle}
+/>
+        </div>
             </div>
         </div>
     );

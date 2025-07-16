@@ -168,8 +168,8 @@ const getFilteredOptions = (choices, index) => {
           <button className="flashbtn" onClick={() => handleTopicChange('Daily')}>Daily Life and Activities</button>
           <button className="flashbtn" onClick={() => handleTopicChange('NoDaily')}>Work</button>
           </div> </div>
-          <div className="gmenu div2"><ReadingMenu /></div>
-                <div className="div3"> <Sidebar /></div> 
+          <div className="gmenu"><ReadingMenu /></div>
+                <div> <Sidebar /></div> 
                 </div>      
       </div>
     

@@ -12,37 +12,23 @@ import videoData from '../Listening-Exercises/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
+import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import VocabularyMatch from '../../Utils/vocabmatch.js';
+import GapMatch from '../../Utils/vocabmatch.js';
 import GapFillExercise from '../../Utils/gapfill.js';
-import jsonData from '../Vocabulary-Exercises/Data/gossipgapfill.json';
+import jsonData from '../Vocabulary-Exercises/Data/gapfill.json';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/gossipquiz.json';
-import ReportedspeechExplanation from '../../Components/GrammarExplanationComps/reportedspeechexplanation.js';
-import ReportedspeechExercises from '../../Components/GrammarExerciseComps/reportedspeechexercisescomp.js';
+import GrammarExercises from '../../Components/GrammarExerciseComps/indspeechexercisecomp.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/indspeechexplanation.js';
+
+const gossipGapfill = jsonData.find(item => item.topic === "gossip" && item.type === "gap-fill");
 
 
 
 Modal.setAppElement('#root');
 
 const Gossip = () => {
-    const [menuItems, setMenuItems] = useState([]);
-
-    useEffect(() => {
-        // Dynamically gather all agenda-subtitle elements
-        const subtitles = Array.from(document.querySelectorAll('.agenda-subtitle')).map((subtitle, index) => ({
-            id: `section-${index}`,
-            text: subtitle.textContent,
-        }));
-
-        // Add IDs to the subtitles
-        subtitles.forEach((item, index) => {
-            const element = document.querySelectorAll('.agenda-subtitle')[index];
-            element.setAttribute('id', item.id);
-        });
-
-        setMenuItems(subtitles);
-    }, []);
 
     return (
         <div>
@@ -58,57 +44,67 @@ const Gossip = () => {
                     <h1 className="mt-2">Gossip</h1>
                 </div>
 
-                <div className="agenda-subtitle">Language Point</div>
+                <div className="agenda-languagepoint">Language Point</div>
                 
                 
                 <div className="languagepoint-container">
                     
-                    <div>
+                    
 
 
                         <div>
-                        <ReportedspeechExplanation /> 
+                        <GrammarExplanation /> 
                         </div>                        
                  
-                    </div>
+                    
 
-                    <div>
+                    
 
                    
                         <div className="agenda-display-grid">
-                           <ReportedspeechExercises />
+                           <GrammarExercises />
                         </div>
                    
-                    </div>
+                    
 
                 </div>
                 
-                <div className="agenda-subtitle">Vocabulary</div> 
+                <div className="agenda-vocabulary">Vocabulary</div> 
                 
 
                 <div>
                    
                 <div className="agenda-display-grid">
-                    <VocabularyMatch data={vocabData} topic="gossip" />
+                    <VocabularyMatch 
+                    data={vocabData} 
+                    topic="gossip"
+                    type="categorization" />
                     </div>
+
                     <Quiz quizzesData={quizzesData} /> 
                     
                     </div>
                 
 
-                <div className="agenda-subtitle">Reading</div> 
+                <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
                 <div className="agenda-display-grid">
-                    <GapFillExercise jsonData={jsonData} />
+                
+                                <GapMatch 
+                  data={jsonData}
+                  topic="gossip" 
+                  type="gap-fill"
+                  text={gossipGapfill?.text}
+                />
                     </div>
                 </div>
                 
-                <div className="agenda-subtitle">Video</div> 
+                <div className="agenda-listening">Video</div>
                              
 
                 <Video videos={videoData} title="Gossip Positive" />
                 
-                <div className="agenda-subtitle">Discussion</div>
+                <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="gossip" />
             </div>
         </div>

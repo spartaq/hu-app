@@ -1,4 +1,123 @@
-[
+  [  {
+    "text": "The dashboard took longer to load. The server was under heavy traffic.",
+    "prompt": "",
+    "answer": "The dashboard took longer to load because the server was under heavy traffic.",
+    "topic": "BI"
+  },
+  {
+    "text": "The KPI metrics were inaccurate. There was a data mapping error.",
+    "prompt": "",
+    "answer": "The KPI metrics were inaccurate due to a data mapping error.",
+    "topic": "BI"
+  },
+  {
+    "text": "The sales team adjusted their strategy. Customer churn increased last quarter.",
+    "prompt": "",
+    "answer": "The sales team adjusted their strategy because customer churn increased last quarter.",
+    "topic": "BI"
+  },
+  {
+    "text": "We missed a market opportunity. The insights were not delivered on time.",
+    "prompt": "",
+    "answer": "We missed a market opportunity because the insights were not delivered on time.",
+    "topic": "BI"
+  },
+  {
+    "text": "The marketing campaign was successful. We analyzed customer behavior beforehand.",
+    "prompt": "",
+    "answer": "The marketing campaign was successful because we analyzed customer behavior beforehand.",
+    "topic": "BI"
+  },
+  {
+    "text": "The churn rate decreased. The company implemented predictive analytics.",
+    "prompt": "",
+    "answer": "The churn rate decreased as a result of the company implementing predictive analytics.",
+    "topic": "BI"
+  },
+  {
+    "text": "Customer service improved. The team used real-time BI dashboards.",
+    "prompt": "",
+    "answer": "Customer service improved due to the team using real-time BI dashboards.",
+    "topic": "BI"
+  },
+  {
+    "text": "The report had several inconsistencies. The source data was incomplete.",
+    "prompt": "",
+    "answer": "The report had several inconsistencies because the source data was incomplete.",
+    "topic": "BI"
+  },
+  {
+    "text": "The team restructured the data pipeline. Data delivery was delayed repeatedly.",
+    "prompt": "",
+    "answer": "The team restructured the data pipeline because data delivery was delayed repeatedly.",
+    "topic": "BI"
+  },
+  {
+    "text": "Decision-making became faster. Executives received daily reports.",
+    "prompt": "",
+    "answer": "Decision-making became faster because executives received daily reports.",
+    "topic": "BI"
+  },
+  {
+    "text": "The BI tool was upgraded. Users complained about performance issues.",
+    "prompt": "",
+    "answer": "The BI tool was upgraded because users complained about performance issues.",
+    "topic": "BI"
+  },
+  {
+    "text": "We improved forecasting accuracy. We included historical trends in the model.",
+    "prompt": "",
+    "answer": "We improved forecasting accuracy because we included historical trends in the model.",
+    "topic": "BI"
+  },
+  {
+    "text": "The executive board made informed decisions. They reviewed weekly insight summaries.",
+    "prompt": "",
+    "answer": "The executive board made informed decisions because they reviewed weekly insight summaries.",
+    "topic": "BI"
+  },
+  {
+    "text": "Revenue increased. The team identified key upsell opportunities using BI.",
+    "prompt": "",
+    "answer": "Revenue increased as a result of the team identifying key upsell opportunities using BI.",
+    "topic": "BI"
+  },
+  {
+    "text": "The analysts ran additional queries. Stakeholders requested deeper insights.",
+    "prompt": "",
+    "answer": "The analysts ran additional queries because stakeholders requested deeper insights.",
+    "topic": "BI"
+  },
+  {
+    "text": "Our segmentation strategy improved. The new clustering algorithm was applied.",
+    "prompt": "",
+    "answer": "Our segmentation strategy improved because the new clustering algorithm was applied.",
+    "topic": "BI"
+  },
+  {
+    "text": "The campaign failed. We ignored the BI team's warnings.",
+    "prompt": "",
+    "answer": "The campaign failed because we ignored the BI team's warnings.",
+    "topic": "BI"
+  },
+  {
+    "text": "There was a spike in customer complaints. The billing dashboard malfunctioned.",
+    "prompt": "",
+    "answer": "There was a spike in customer complaints because the billing dashboard malfunctioned.",
+    "topic": "BI"
+  },
+  {
+    "text": "The anomaly detection feature was enabled. Several outliers were identified.",
+    "prompt": "",
+    "answer": "Several outliers were identified because the anomaly detection feature was enabled.",
+    "topic": "BI"
+  },
+  {
+    "text": "The data warehouse was overloaded. Multiple large queries were run simultaneously.",
+    "prompt": "",
+    "answer": "The data warehouse was overloaded due to multiple large queries being run simultaneously.",
+    "topic": "BI"
+  },
 
   {
     "text": "The report was delayed. The employee was dealing with personal issues.",

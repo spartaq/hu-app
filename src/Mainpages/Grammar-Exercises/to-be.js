@@ -4,18 +4,25 @@ import SEO from '../../Components/SEO';
 import Sidebar from '../../Components/Sidebar';
 import GrammarExercises from '../../Components/GrammarExerciseComps/tobepresentexercisescomp.js';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/tobepresentexplanation.js';
-import exambooks from '../../Images/argue1.jpg';
+import exambooks from '../../Images/tobepres2.jpg';
 import { FaAngleDown } from "react-icons/fa";
-import ActivityFilter from '../../Utils/activityFilter.js';
+import RelatedExercises from '../../Utils/relatedExercises.js';
+import ExerciseRouter from '../../Components/ExerciseRouter';
 
 const ToBe = () => {
 
 
-  const [isGridVisible, setIsGridVisible] = useState(true);
+  const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 
-  const toggleGridVisibility = () => {
-    setIsGridVisible((prev) => !prev);
-  };  
+  const toggleGrammarVisibility = () => {
+    setIsGrammarVisible((prev) => !prev);
+  };
+  
+  const [isExercisesVisible, setIsExercisesVisible] = useState(false);
+
+  const toggleExercisesVisibility = () => {
+    setIsExercisesVisible((prev) => !prev);
+  }; 
   
   return (
     <div>
@@ -36,28 +43,26 @@ const ToBe = () => {
           </div>
           <div className="grammarimage">
           <img src={exambooks} alt="English Exam Exercises" /></div>
-        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
 
-        {isGridVisible ? 'Hide Grammar' : 'Show Grammar'}<FaAngleDown /></div>
           
-
-          {isGridVisible && (
-            <div className="grammar-display-grid">
+          <div className="grammar-display-grid">
               <GrammarExplanation />
             </div>
-          )}
+          <div className="grammardoexercise">
+            <p>Do this exercise to practice your grammar.</p></div>
+            
+        <div className="showagendagrammarbox"  onClick={toggleExercisesVisibility}>
+        {isExercisesVisible ? 'Exercises' : 'Exercises'}<FaAngleDown /></div>
+
+          {isExercisesVisible && (
+            <div className="agenda-display-grid">
+              <GrammarExercises />
+            </div>
+          )} 
         
-
-
-                      <div>
-                          <div className="agenda-display-grid">
-                            <GrammarExercises />
-                          </div>
-                      </div>
         </div>
         <div className="top-margin">
-          <ActivityFilter />
-          <Sidebar />
+          <RelatedExercises currentCategory="grammar-exercises" currentLevel="A1" />
         </div>
       </div>
     </div>
