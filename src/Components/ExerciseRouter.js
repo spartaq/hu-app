@@ -72,6 +72,8 @@ import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimple
 import videoPhones from "../Utils/Activities/Data/videos/phones.js";
 import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
 
+import topicExerciseSmartphones from "../Utils/Activities/Data/quiz/smartphoneExercisesQuiz.json";
+
 
 
 const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
@@ -109,6 +111,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return quizSimplePresentData;
             case "simplepast":
               return quizSimplePastData;
+            case "smartphones":
+              return topicExerciseSmartphones;
             default:
               return HuJelenIdoIndefQuizData; 
           }

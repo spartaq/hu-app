@@ -1,5 +1,57 @@
 module.exports = [
 {
+  "readingcompTitle": "Cell Phones Bad",
+  "topic": "event disasters",
+  "level": "b1",
+  "image": "/Images/cellphone1.webp",
+  "vocabulary": [
+    "hurting - fájni",
+     "screen - képérnyő",
+  ],
+  "paragraphs": [
+    {
+"text": [
+"<h1>Are Cell Phones Good or Bad?</h1>",
+"<p>Cell phones are everywhere. People use them for messages, games, photos, and videos. But are they helping us or hurting us?</p>",
+"<p>Some people say phones are bad. Kids spend too much time looking at screens. Families talk less at dinner. People feel stressed without their phones.</p>",
+"<p>Others say phones are helpful. We can talk to friends far away, find information quickly, and stay safe in emergencies. Some students even use phones to learn.</p>",
+"<p>Maybe phones are not good or bad. It depends how we use them. Like books, TVs, or anything else—phones can help or harm us.</p>",
+"<p>What do you think? Are phones a problem, or are they just part of life today?</p>"
+
+
+],
+
+      "questions": [
+        {
+    "number": "1",
+    "question": "Do you think cell phones are more helpful or harmful? Why?",
+    "choices": []
+  },
+  {
+    "number": "2",
+    "question": "How much time do you spend on your phone each day? Is that too much?",
+    "choices": []
+  },
+  {
+    "number": "3",
+    "question": "In what ways can phones improve learning or education?",
+    "choices": []
+  },
+  {
+    "number": "4",
+    "question": "Should kids have their own phones? Why or why not?",
+    "choices": []
+  },
+  {
+    "number": "5",
+    "question": "Can people live happily without phones today? Explain your answer.",
+    "choices": []
+  }
+      ]
+    }
+  ]
+},
+{
   "readingcompTitle": "Festival Failures: Fyre and Woodstock ’99",
   "topic": "event disasters",
   "level": "b2",

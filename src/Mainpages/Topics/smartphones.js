@@ -21,8 +21,12 @@ import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.jso
 import idiomData from "../Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
 import ImageCarousel from '../../Utils/imgcarousel.js';
-import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json'
+import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json';
+import ToggleSection from '../../Utils/toggleSection';
 
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "smartphones" },
+];
 
 
 Modal.setAppElement('#root');
@@ -67,18 +71,21 @@ const Cellphones = () => {
                  
                     </div>
 
-                    <div>
 
+
+                    <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}
                    
-                        <div className="agenda-display-grid">
-                           <GrammarExercises />
-                        </div>
+                    
                    
                     </div>
 
                 </div>
                 
-                <div className="agenda-subtitle">Quiz</div> 
+                <div className="agenda-quiz">Quiz</div> 
                 <div>                   
                     <div className="agenda-display-grid">
                         <Quiz quizzesData={quizzesData} />
