@@ -10,6 +10,7 @@ import GrammarExplanation from '../../Components/GrammarExplanationComps/suggest
 import Grammarexercises from '../../Components/GrammarExerciseComps/suggestexercisescomp.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js'
+<<<<<<< HEAD
 import CategoryMatch from '../../Utils/vocabmatch.js';
 import GapMatch from '../../Utils/vocabmatch.js';
 import WordOrder from '../../Utils/vocabmatch.js';
@@ -19,6 +20,14 @@ import gapfillData from '../Vocabulary-Exercises/Data/gapfill.json';
 import wordorderData from '../../Utils/Data/ordering/wordorder_present.json';
 import Video from '../../Components/VideoComps/videocomponent.js';
 import videoData from '../Listening-Exercises/Data/video.json';
+=======
+import CategoryMatch from '../../Utils/Activities/VocabMatch.js';
+import GapMatch from '../../Utils/Activities/VocabMatch.js';
+import categoryData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
+import gapfillData from '../Vocabulary-Exercises/Data/gapfill.json';
+import Video from '../../Components/VideoComps/videocomponent.js';
+import videoData from '../Videos/Data/video.json';
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/advicequiz.json';
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
@@ -78,12 +87,15 @@ const Advice = () => {
                     type="gap-fill"
                     text={gossipGapfill?.text}
                     />
+<<<<<<< HEAD
                     <hr></hr>
                     <WordOrder 
                     data={wordorderData}
                     topic="grammar" 
                     type="sentence-ordering"
                     />
+=======
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                     
                     </div>
                     

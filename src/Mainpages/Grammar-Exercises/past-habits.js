@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import Breadcrumbs from '../../Components/Breadcrumb';
 import SEO from '../../Components/SEO';
@@ -67,3 +68,29 @@ const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 };
 
 export default PastHabits;
+=======
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/pasthabitsexplanation';
+import mainimage from '../../Images/habits1.jpg';
+
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "past-habits" },
+];
+
+const PastHabits = () => (
+  <GrammarPageLayout
+    level="B2"
+    title="Past Habits"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Past Habits"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B2"
+  />
+);
+
+export default PastHabits;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c

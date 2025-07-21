@@ -1,5 +1,155 @@
 [
   {
+    "text": "The pilot ___ (report) low fuel before landing.",
+    "answer": "reported",
+    "topic": "atf"
+  },
+  {
+    "text": "We ___ (not receive) any updated weather information yet.",
+    "answer": "haven't received",
+    "topic": "atf"
+  },
+  {
+    "text": "Air traffic controllers ___ (handle) multiple emergencies last week.",
+    "answer": "handled",
+    "topic": "atf"
+  },
+  {
+    "text": "The airport authorities ___ (not issue) a statement so far.",
+    "answer": "haven't issued",
+    "topic": "atf"
+  },
+  {
+    "text": "I ___ (speak) with the tower just a minute ago.",
+    "answer": "spoke",
+    "topic": "atf"
+  },
+  {
+    "text": "They ___ (have) three runway incursions this year.",
+    "answer": "have had",
+    "topic": "atf"
+  },
+  {
+    "text": "The crew ___ (not follow) standard procedure during the last flight.",
+    "answer": "did not follow",
+    "topic": "atf"
+  },
+  {
+    "text": "The trainee ___ (complete) all required simulations already.",
+    "answer": "has completed",
+    "topic": "atf"
+  },
+  {
+    "text": "You ___ (miss) the safety briefing this morning.",
+    "answer": "missed",
+    "topic": "atf"
+  },
+  {
+    "text": "We ___ (log) all communication errors in the system.",
+    "answer": "have logged",
+    "topic": "atf"
+  },
+  {
+    "text": "He ___ (not attend) the coordination meeting last Friday.",
+    "answer": "did not attend",
+    "topic": "atf"
+  },
+  {
+    "text": "Controllers ___ (respond) to three incidents so far this month.",
+    "answer": "have responded",
+    "topic": "atf"
+  },
+  {
+    "text": "The radar system ___ (fail) during a storm last night.",
+    "answer": "failed",
+    "topic": "atf"
+  },
+  {
+    "text": "They ___ (install) a new radar system recently.",
+    "answer": "have installed",
+    "topic": "atf"
+  },
+  {
+    "text": "I ___ (listen) to the emergency broadcast yesterday.",
+    "answer": "listened",
+    "topic": "atf"
+  },
+  {
+    "text": "We ___ (not hear) back from the maintenance team yet.",
+    "answer": "haven't heard",
+    "topic": "atf"
+  },
+  {
+    "text": "She ___ (coordinate) with three different airports last week.",
+    "answer": "coordinated",
+    "topic": "atf"
+  },
+  {
+    "text": "They ___ (not update) the checklist since the last inspection.",
+    "answer": "haven't updated",
+    "topic": "atf"
+  },
+  {
+    "text": "The supervisor ___ (notice) the discrepancy during the briefing.",
+    "answer": "noticed",
+    "topic": "atf"
+  },
+  {
+    "text": "We ___ (experience) several delays due to fog this month.",
+    "answer": "have experienced",
+    "topic": "atf"
+  },
+  {
+    "text": "The pilot ___ (declare) an emergency earlier this morning.",
+    "answer": "declared",
+    "topic": "atf"
+  },
+  {
+    "text": "I ___ (not finish) reviewing the incident report yet.",
+    "answer": "haven't finished",
+    "topic": "atf"
+  },
+  {
+    "text": "They ___ (brief) the new staff on protocol last Monday.",
+    "answer": "briefed",
+    "topic": "atf"
+  },
+  {
+    "text": "He ___ (fly) in and out of this airport many times.",
+    "answer": "has flown",
+    "topic": "atf"
+  },
+  {
+    "text": "You ___ (call) the tower earlier, didn’t you?",
+    "answer": "called",
+    "topic": "atf"
+  },
+  {
+    "text": "The technician ___ (repair) the transponder already.",
+    "answer": "has repaired",
+    "topic": "atf"
+  },
+  {
+    "text": "She ___ (not check) the weather updates before takeoff.",
+    "answer": "did not check",
+    "topic": "atf"
+  },
+  {
+    "text": "We ___ (receive) several noise complaints this week.",
+    "answer": "have received",
+    "topic": "atf"
+  },
+  {
+    "text": "I ___ (talk) to the control tower about it yesterday.",
+    "answer": "talked",
+    "topic": "atf"
+  },
+  {
+    "text": "They ___ (change) the departure procedure recently.",
+    "answer": "have changed",
+    "topic": "atf"
+  },
+  {
     "text": "They ___ (eat) sushi for the first time in Tokyo.",
     "answer": "ate",
     "topic": "food"

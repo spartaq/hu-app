@@ -1,14 +1,31 @@
-import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
-import GrammarMenu from '../../Components/Menus/GrammarMenu';
-import Sidebar from '../../Components/Sidebar';
-import GrammarExercises from '../../Components/GrammarExerciseComps/gerundexercisescomp';
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/gerundexplanation';
+<<<<<<< HEAD
 import RelatedExercises from '../../Utils/relatedExercises.js';
+=======
+import mainimage from '../../Images/gerunds1.jpg';
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "gerunds" },
+];
 
+const Gerunds = () => (
+  <GrammarPageLayout
+    level="B2"
+    title="Gerunds"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Gerunds"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B2"
+  />
+);
 
+<<<<<<< HEAD
 const Gerunds = () => {
   
 const [isGrammarVisible, setIsGrammarVisible] = useState(true);
@@ -75,3 +92,6 @@ const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 export default Gerunds;
 
 		
+=======
+export default Gerunds;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c

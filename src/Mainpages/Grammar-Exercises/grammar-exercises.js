@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../../Components/SEO';
-import Sidebar from '../../Components/Sidebar';
 import Breadcrumb from '../../Components/Breadcrumb';
 import grammar from '../../Images/grammar4-1280x470.jpg';
 
@@ -37,7 +36,7 @@ const Grammarexercises = () => {
 									  <p>Vocabulary exercises, flashcards and quizzes to help you improve and have greater success on exams.</p>
 									  <div class="linkbox-items-body">
 									  <div class="linkbox-items-body-content">
-									  <Link to="/grammar-exercises/to-be">
+									  <Link to="/grammar-exercises/to-be-present">
 									  <span><span className="label label-a1">A1</span> To Be: Am, Is, Are</span></Link>
 										<i class="fa fa-angle-right"></i>
 									  </div>
@@ -125,7 +124,15 @@ const Grammarexercises = () => {
 									  <li><Link to="/grammar-exercises/causeeffect"><span className="label label-c1">C1</span> Cause and Effect</Link></li>
 									  <li><Link to="/grammar-exercises/relativeclauses"><span className="label label-c1">C1</span> Relative Clauses</Link></li>
 									  <li><Link to="/grammar-exercises/comparison"><span className="label label-c1">C1</span> Comparison</Link></li>
+<<<<<<< HEAD
 									  <li><Link to="/grammar-exercises/jelenido"><span className="label label-c1">C1</span> Jelen Ido (Simple Present)</Link></li>
+=======
+									  <li><Link to="/grammar-exercises/wish"><span className="label label-c1">C1</span> Wishes and Regrets</Link></li>
+									  <li><Link to="/grammar-exercises/word-forms"><span className="label label-c1">C1</span> Word Forms</Link></li>
+									  <li><Link to="/grammar-exercises/linking-words"><span className="label label-c1">C1</span> Linking Words</Link></li>
+									  <li><Link to="/grammar-exercises/dependent-prepositions"><span className="label label-c1">C1</span> Dependent Prepositions</Link></li>
+									  <li><Link to="/grammar-exercises/collocations"><span className="label label-c1">C1</span> Collocations</Link></li>
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 										</ul>
 									</div>
 								</div>
@@ -137,7 +144,7 @@ const Grammarexercises = () => {
 		</div>
 		
 		<div>
-             <div><Sidebar/></div>
+            
 		</div>
 
 	</div>

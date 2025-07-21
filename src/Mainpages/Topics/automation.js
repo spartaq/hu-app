@@ -6,9 +6,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
-import exambooks from '../../Images/selfcheckout.jpg';
+import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
@@ -42,8 +42,6 @@ const Automation = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Automation</h1>
                 </div>
-                <div className="grammarimage">
-                <img src={exambooks} alt="English Exam Exercises" /></div>
 
                 <div className="agenda-languagepoint">Language Point</div>
                 

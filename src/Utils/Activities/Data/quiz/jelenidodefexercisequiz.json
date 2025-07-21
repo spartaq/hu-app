@@ -1,0 +1,76 @@
+{
+  "quizTitle": "Jelen Idő Definite",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Én ___ a könyvet. (olvasni)",
+      "options": ["olvasom", "olvasod", "olvassa", "olvasunk"],
+      "answer": "olvasom - I read the book",
+      "translate": "I read the book"
+    },
+    {
+      "id": 2,
+      "question": "Te ___ a filmet. (nézni)",
+      "options": ["nézed", "nézem", "nézi", "nézitek"],
+      "answer": "nézed - You watch the movie",
+      "translate": "You watch the movie"
+    },
+    {
+      "id": 3,
+      "question": "Ő ___ a reggelit. (enni)",
+      "options": ["eszi", "eszem", "eszed", "esszük"],
+      "answer": "eszi - He/She eats the breakfast",
+      "translate": "He/She eats the breakfast"
+    },
+    {
+      "id": 4,
+      "question": "Mi ___ a pizzát. (sütni)",
+      "options": ["sütjük", "sütöd", "süti", "sütitek"],
+      "answer": "sütjük - We bake the pizza",
+      "translate": "We bake the pizza"
+    },
+    {
+      "id": 5,
+      "question": "Ti ___ a koncertet. (hallgatni)",
+      "options": ["hallgatjátok", "hallgatják", "hallgatom", "hallgatod"],
+      "answer": "hallgatjátok - You (plural) listen to the concert",
+      "translate": "You (plural) listen to the concert"
+    },
+    {
+      "id": 6,
+      "question": "Ők ___ a vendégeket. (fogadni)",
+      "options": ["fogadják", "fogadod", "fogadom", "fogadjuk"],
+      "answer": "fogadják - They receive the guests",
+      "translate": "They receive the guests"
+    },
+    {
+      "id": 7,
+      "question": "Én ___ a házi feladatot. (írni)",
+      "options": ["írom", "írod", "írja", "írjuk"],
+      "answer": "írom - I write the homework",
+      "translate": "I write the homework"
+    },
+    {
+      "id": 8,
+      "question": "Te ___ a bort. (inni)",
+      "options": ["iszod", "iszom", "iszik", "iszik"],
+      "answer": "iszod - You drink the wine",
+      "translate": "You drink the wine"
+    },
+    {
+      "id": 9,
+      "question": "Ő ___ a gyereket. (tanítani)",
+      "options": ["tanítja", "tanítom", "tanítod", "tanítjuk"],
+      "answer": "tanítja - He/She teaches the child",
+      "translate": "He/She teaches the child"
+    },
+    {
+      "id": 10,
+      "question": "Mi ___ a szobát. (takarítani)",
+      "options": ["takarítjuk", "takarítod", "takarítja", "takarítom"],
+      "answer": "takarítjuk - We clean the room",
+      "translate": "We clean the room"
+    }
+  ]
+}

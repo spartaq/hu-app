@@ -1,5 +1,55 @@
 [
     {
+    "text": "The air taxi ___ (fly) over the city right now.",
+    "answer": "is flying",
+    "topic": "air taxi"
+    },
+    {
+      "text": "Pilots usually ___ (check) the route before takeoff.",
+      "answer": "check",
+      "topic": "air taxi"
+    },
+    {
+      "text": "At the moment, the engineer ___ (test) a new navigation system.",
+      "answer": "is testing",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Passengers often ___ (book) their flights online.",
+      "answer": "book",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Look! The drone taxi ___ (land) on the rooftop pad.",
+      "answer": "is landing",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Controllers ___ (monitor) air traffic in the control room now.",
+      "answer": "are monitoring",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Every day, the company ___ (launch) several test flights.",
+      "answer": "launches",
+      "topic": "air taxi"
+    },
+    {
+      "text": "The technician ___ (install) new software at the moment.",
+      "answer": "is installing",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Air taxis ___ (use) electric power to reduce emissions.",
+      "answer": "use",
+      "topic": "air taxi"
+    },
+    {
+      "text": "Right now, the pilot ___ (talk) to the control tower.",
+      "answer": "is talking",
+      "topic": "air taxi"
+    },
+    {
       "text": "She ___ (send) emails to clients every morning.",
       "answer": "sends"
     },

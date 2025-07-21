@@ -1,0 +1,76 @@
+{
+  "quizTitle": "Fokusz – Word Order",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Ez az én ___ .",
+      "options": ["könyvem", "könyved", "könyve", "könyvünk"],
+      "answer": "könyvem - This is my book",
+      "translate": "This is my book"
+    },
+    {
+      "id": 2,
+      "question": "Hol van a te ___ ?",
+      "options": ["tollad", "tollam", "tollunk", "tolluk"],
+      "answer": "tollad - Where is your pen?",
+      "translate": "Where is your pen?"
+    },
+    {
+      "id": 3,
+      "question": "Ez az ő ___ .",
+      "options": ["háza", "házam", "házad", "házunk"],
+      "answer": "háza - This is his/her house",
+      "translate": "This is his/her house"
+    },
+    {
+      "id": 4,
+      "question": "Itt van a mi ___ .",
+      "options": ["autónk", "autóm", "autója", "autód"],
+      "answer": "autónk - Here is our car",
+      "translate": "Here is our car"
+    },
+    {
+      "id": 5,
+      "question": "Ti hol tartjátok a ___ ?",
+      "options": ["kulcsotokat", "kulcsunkat", "kulcsomat", "kulcsát"],
+      "answer": "kulcsotokat - Where do you (plural) keep your keys?",
+      "translate": "Where do you (plural) keep your keys?"
+    },
+    {
+      "id": 6,
+      "question": "Az ő ___ nagyon barátságosak.",
+      "options": ["macskáik", "macskánk", "macskád", "macskám"],
+      "answer": "macskáik - Their cats are very friendly",
+      "translate": "Their cats are very friendly"
+    },
+    {
+      "id": 7,
+      "question": "Láttam a ___ telefonját az asztalon.",
+      "options": ["fiú", "fiúét", "fiúja", "fiúnak"],
+      "answer": "fiú - I saw the boy's phone on the table",
+      "translate": "I saw the boy's phone on the table"
+    },
+    {
+      "id": 8,
+      "question": "Ez nem az én kabátom, hanem az ő ___ .",
+      "options": ["kabátja", "kabátod", "kabátjuk", "kabátunk"],
+      "answer": "kabátja - This isn’t my coat, it’s his/hers",
+      "translate": "This isn’t my coat, it’s his/hers"
+    },
+    {
+      "id": 9,
+      "question": "A barátaim autója új, de a ___ régi.",
+      "options": ["miénk", "tiéd", "övé", "enyém"],
+      "answer": "miénk - My friends' car is new, but ours is old",
+      "translate": "My friends' car is new, but ours is old"
+    },
+    {
+      "id": 10,
+      "question": "Ez nem az én ___ , hanem az övé.",
+      "options": ["székem", "széked", "széke", "székünk"],
+      "answer": "székem - This is not my chair, it's his/hers",
+      "translate": "This is not my chair, it's his/hers"
+    }
+  ]
+}

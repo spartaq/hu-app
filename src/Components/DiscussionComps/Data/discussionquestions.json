@@ -1,4 +1,230 @@
-[
+[{ "text": "Which streaming platforms do you use the most, and why?", "topic": "streaming" },
+  { "text": "How often do you watch movies or TV shows online?", "topic": "streaming" },
+  { "text": "Do you prefer binge-watching a series or watching one episode at a time?", "topic": "streaming" },
+  { "text": "What was the last show or movie you streamed? Would you recommend it?", "topic": "streaming" },
+  { "text": "What genres do you usually watch on streaming platforms?", "topic": "streaming" },
+  { "text": "Do you think streaming services offer enough content in Hungarian?", "topic": "streaming" },
+  { "text": "How important are subtitles or dubbing when you watch content?", "topic": "streaming" },
+  { "text": "Have you ever watched a show or movie just because it was trending?", "topic": "streaming" },
+  { "text": "Do you still watch traditional TV, or have you completely switched to streaming?", "topic": "streaming" },
+  { "text": "What do you think are the biggest advantages of streaming compared to cable TV?", "topic": "streaming" },
+  { "text": "Are there any disadvantages to streaming that you’ve noticed?", "topic": "streaming" },
+  { "text": "What are some of the biggest challenges in managing a streaming service?", "topic": "streaming" },
+  { "text": "How do you decide what content to feature or promote?", "topic": "streaming" },
+  { "text": "How do user habits in Hungary differ from other countries when it comes to streaming?", "topic": "streaming" },
+  { "text": "What role does data or analytics play in improving the streaming experience?", "topic": "streaming" },
+  { "text": "Are there any unique trends you've noticed among Hungarian viewers?", "topic": "streaming" },
+  { "text": "How important is local content versus international content on your platform?", "topic": "streaming" },
+  { "text": "Where do you see the future of streaming going in the next 5–10 years?", "topic": "streaming" },
+  { "text": "Do you think streaming platforms will replace cinemas someday?", "topic": "streaming" },
+  { "text": "What innovations would you like to see in the world of streaming?", "topic": "streaming" },
+  { "text": "How do you feel about the rise of ad-supported streaming services?", "topic": "streaming" },
+  { "text": "Do you think streaming platforms should invest more in original content?", "topic": "streaming" },
+  { "text": "What’s your opinion on the impact of streaming on traditional media?", "topic": "streaming" },
+  { "text": "Do you think streaming has changed the way we consume media for the better or worse?", "topic": "streaming" },
+  { "text": "Do you use music streaming platforms like Spotify or Apple Music? Which one is your favorite?", "topic": "streaming" },
+  { "text": "How has music streaming changed the way people listen to music?", "topic": "streaming" },
+  { "text": "What do you think about the playlists and algorithms used by music streaming services?", "topic": "streaming" },
+  { "text": "How do you think music artists benefit or lose from streaming platforms?", "topic": "streaming" },
+  { "text": "Do you think subscription models or ad-supported models work better for streaming services?", "topic": "streaming" },
+  { "text": "How do streaming services balance between offering free content and making profits?", "topic": "streaming" },
+  { "text": "What kind of pricing strategies do you think work best for streaming platforms?", "topic": "streaming" },
+  { "text": "How important is exclusive content or originals for attracting subscribers?", "topic": "streaming" },
+  { "text": "What challenges do streaming services face in competing with each other?", "topic": "streaming" },
+  { "text": "How do you see the role of advertising evolving in streaming services?", "topic": "streaming" },
+  { "text": "What’s your opinion on the impact of streaming on traditional media?", "topic": "streaming" },
+  { "text": "Do you think streaming has changed the way we consume media for the better or worse?", "topic": "streaming" },
+  { "text": "Do you use music streaming platforms like Spotify or Apple Music? Which one is your favorite?", "topic": "streaming" },
+  { "text": "How has music streaming changed the way people listen to music?", "topic": "streaming" },
+  { "text": "What do you think about the playlists and algorithms used by music streaming services?", "topic": "streaming" },
+  { "text": "How do you think music artists benefit or lose from streaming platforms?", "topic": "streaming" },
+  { "text": "Do you think subscription models or ad-supported models work better for streaming services?", "topic": "streaming" },
+  { "text": "How do streaming services balance between offering free content and making profits?", "topic": "streaming" },
+  { "text": "What kind of pricing strategies do you think work best for streaming platforms?", "topic": "streaming" },
+  { "text": "How important is exclusive content or originals for attracting subscribers?", "topic": "streaming" },
+  { "text": "What challenges do streaming services face in competing with each other?", "topic": "streaming" },
+  { "text": "How do you see the role of advertising evolving in streaming services?", "topic": "streaming" },
+
+  { "text": "What’s your favorite side job or hobby that you’ve turned into a business?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "How do you balance your side job with your main job?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "What’s the most rewarding part of having a side job?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Have you ever faced challenges because of your side job? What were they?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "What advice would you give someone starting a side job?",
+    "topic": "sidejobs"
+  },
+
+  {
+    "text": "Do you think everyone should have a side job these days? Why or why not?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Are side jobs more about passion or money?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Can having a side job make you better at your main job?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it possible to have a successful side job without sacrificing personal time?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "At what point does a side job become a real business?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should companies be supportive of employees having side jobs?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it better to have one stable job or multiple income streams?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do you think some people take on side jobs just to feel more productive?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Can doing too many things at once hurt your creativity or focus?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it easier to succeed at a side job if it’s related to your main profession?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should schools teach students how to build side businesses?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is turning your hobby into a side job always a good idea?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do side jobs give people more freedom, or just more stress?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is having a side job a sign of ambition or of financial pressure?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Would society function better if more people had multiple small jobs instead of one full-time job?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "What’s more valuable: free time or extra income?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do you think AI and remote work are making side jobs easier or harder to manage?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should people keep their side jobs private from their employers?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do side jobs affect work-life balance in a positive or negative way?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "In the future, will traditional 9–5 jobs disappear because of the rise in side hustles?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "What’s the most unusual company policy you’ve ever heard of?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think dress codes at work are necessary?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should employees be allowed to work remotely whenever they want?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it fair for a company to monitor employee internet use?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies have strict social media rules for employees?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "How do you feel about ‘no talking’ policies in offices?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies ban office relationships?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What is your opinion on mandatory unpaid overtime?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you agree with policies that limit personal phone use at work?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies allow pets in the office?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should there be rules about how often employees can take breaks?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it okay for companies to ask employees to always be available after hours?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "How important is a clear vacation policy?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think companies should have rules about political discussions at work?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What kind of attendance policy is fair?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should there be a policy about sharing snacks or food in the workplace?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it a good idea for companies to have rules about how desks should look?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What’s your opinion on policies that require employees to always smile?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies have a policy for mental health days?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think company policies are usually made to help workers or control them?",
+    "topic": "companypolicy"
+  },
   {
     "text": "Do you think everyone should have a side job these days? Why or why not?",
     "topic": "sidejobs"
@@ -1539,33 +1765,33 @@
     "topic": "neighbors"
   },
   {
-    "text": "What’s the most annoying thing a neighbor could do?",
+    "text": "What's the most annoying thing a neighbor could do?",
     "topic": "neighbors"
   },
   {
     "text": "Would you confront a neighbor if they were doing something that bothered you, or would you avoid the situation? Why?",
     "topic": "neighbors"
-},
-{
+  },
+  {
     "text": "You are on vacation and everything is stolen including all cash, credit cards, and identification. What would you do?",
     "topic": "neighbors"
-},
-{
+  },
+  {
     "text": "You bump another car in a parking lot. Nobody sees you, but the damage is minimal; in fact, it is almost unnoticeable. Would you leave your name and address? Why or why not?",
     "topic": "neighbors"
-},
-{
+  },
+  {
     "text": "You are in a bank and two people enter and start a hold up. How do you think you would react?",
     "topic": "neighbors"
-},
-{
+  },
+  {
     "text": "You win a contest in which you can choose to have free, unlimited services of a cook, a chauffeur, or a housecleaner. Which one would you choose and why?",
     "topic": "neighbors"
-},
-{
+  },
+  {
     "text": "You are informed that your house and all your possessions will be destroyed by an upcoming storm. Which three items (not people or pets) will you choose to save?",
     "topic": "neighbors"
-},
+  },
   {
     "text": "How do you deal with noisy neighbors?",
     "topic": "neighbors"
@@ -1587,7 +1813,7 @@
     "topic": "neighbors"
   },
   {
-    "text": "Do you think it’s important to know your neighbors well, or is it better to keep things private?",
+    "text": "Do you think it's important to know your neighbors well, or is it better to keep things private?",
     "topic": "neighbors"
   },
   {
@@ -1596,6 +1822,86 @@
   },
   {
     "text": "Have you ever had a 'neighborly' dispute that could have been avoided? How?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "If you saw your neighbor's house being burglarized while they were away, what would you do?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "Would you ask a neighbor to water your plants or collect your mail while you're away? Why or why not?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "How do you feel about neighbors who never say hello or acknowledge you when you see them?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "If your neighbor parked in your assigned parking spot repeatedly, how would you handle it?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "Do you think neighbors should help each other during emergencies, or is everyone responsible for themselves?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "What would you do if you discovered your neighbor was growing marijuana in their backyard?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "If your neighbor's tree branches were hanging over your property and dropping leaves, would you trim them yourself or talk to the neighbor first?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "How would you react if you found out your neighbor had been watching you through your windows?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "Would you lend tools or equipment to a neighbor you barely know? What about money?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "If your neighbor's children were being loud and disruptive in the shared yard area, would you say something to the kids or their parents?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "What's the weirdest thing you've ever seen a neighbor do?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "If you smelled something suspicious coming from your neighbor's house, would you investigate or call the authorities?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "How do you handle neighbors who don't maintain their property and it affects the neighborhood's appearance?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "Would you accept a dinner invitation from a neighbor you just met? What might make you hesitant?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "If your neighbor asked you to lie to their spouse about their whereabouts, what would you do?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "How would you feel if your neighbor installed security cameras that could see into your yard?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "What would you do if your neighbor's wifi password was easy to guess and you accidentally connected to it?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "If you won the lottery, would you tell your neighbors? Why or why not?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "How would you handle a situation where your neighbor keeps borrowing things but never returns them?",
+    "topic": "neighbors"
+  },
+  {
+    "text": "If your neighbor was having loud arguments or fights regularly, would you get involved or stay out of it?",
     "topic": "neighbors"
   },
   {
@@ -1702,6 +2008,89 @@
     "text": "Have you ever found a food in another country that you now love but had never tried before? What is it?",
     "topic": "utensils"
   },
+  
+  {
+    "text": "Where did you go on your last holiday? What did you enjoy most about it?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Have you ever visited a place just because it was popular on social media? Was it worth it?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you prefer traveling to cities, beaches, nature, or historical places? Why?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Have you ever had a bad experience while traveling? What happened?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you enjoy traveling to other countries or staying in your own country for holidays? Why?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Have you ever visited a UNESCO World Heritage Site? What was it like?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you usually plan your holidays in advance or travel spontaneously? Which do you prefer?",
+    "topic": "tourism"
+  },
+  {
+    "text": "What’s the most beautiful place you’ve ever been to?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you like visiting famous tourist attractions, or do you prefer exploring local areas?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Have you ever traveled alone? If not, would you like to try it?",
+    "topic": "tourism"
+  },
+  {
+    "text": "What is one travel destination you dream of visiting someday? Why?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you usually stay in hotels, hostels, or use platforms like Airbnb? Why?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you take a lot of photos when you travel, or do you prefer to just enjoy the moment?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Have you ever tried local food while traveling that surprised you? What was it?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you think tourism helps people learn about other cultures? Why or why not?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Have you ever visited a place that turned out to be completely different from what you expected?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you like guided tours or exploring on your own when you travel? Why?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Have you ever made friends with locals or other travelers while on holiday?",
+    "topic": "tourism"
+  },
+  {
+    "text": "What’s your favorite memory from a holiday or trip you've taken?",
+    "topic": "tourism"
+  },
+  {
+    "text": "Do you prefer relaxing holidays or activity-packed trips? Why?",
+    "topic": "tourism"
+  },
+
+
   {
     "text": "Have you ever visited a city that was overcrowded with tourists? How did it affect your experience?",
     "topic": "tourism"
@@ -1741,7 +2130,8 @@
   {
     "text": "What are some ways cities could reduce the negative impact of tourism while still benefiting from it?",
     "topic": "tourism"
-  },{
+  },
+  {
     "text": "How do you usually give suggestions at work? Directly or indirectly?",
     "topic": "advice"
   },
@@ -2364,63 +2754,35 @@
 { "text": "Do you think fans of rival teams should be allowed to attend the same games? Why or why not?", "topic": "sports" },
 { "text": "Why do some people consider watching sports a form of social identity?", "topic": "sports" },
 {
-  "text": "What’s your favorite season and why?", 
+  "text": "What’s your favorite season and why?",
   "topic": "weather"
 },
 {
-  "text": "Do you associate any special memories or traditions with your favorite season?", 
+  "text": "Do you associate any special memories or traditions with your favorite season?",
   "topic": "weather"
 },
 {
-  "text": "Have you ever been caught in bad weather? What happened, and how did you deal with it?", 
+  "text": "Have you ever been caught in bad weather? What happened, and how did you deal with it?",
   "topic": "weather"
 },
 {
-  "text": "Do you think we have lost our four distinct seasons in recent years? If so, what do you think has caused this change?", 
+  "text": "Do you think we have lost our four distinct seasons in recent years? If so, what do you think has caused this change?",
   "topic": "weather"
 },
 {
-  "text": "In your opinion, which season is the most beautiful? Why?", 
+  "text": "Have you ever been stranded in a snowstorm, flood, or other extreme weather? What did you do?",
   "topic": "weather"
 },
 {
-  "text": "Have you ever been stranded in a snowstorm, flood, or other extreme weather? What did you do?", 
+  "text": "Do you think the weather affects people’s emotions and behavior? For example, do you feel more energetic on sunny days or more tired in winter?",
   "topic": "weather"
 },
 {
-  "text": "Do you think the weather affects people’s emotions and behavior? For example, do you feel more energetic on sunny days or more tired in winter?", 
+  "text": "What’s the hottest or coldest temperature you’ve ever experienced? How did you cope with it?",
   "topic": "weather"
 },
 {
-  "text": "What’s the hottest or coldest temperature you’ve ever experienced? How did you cope with it?", 
-  "topic": "weather"
-},
-{
-  "text": "Are there any local extreme weather events in your country? How do people deal with them?", 
-  "topic": "weather"
-},
-{
-  "text": "Do you think climate change is making extreme weather worse? What evidence have you seen or heard?", 
-  "topic": "weather"
-},
-{
-  "text": "Who should take responsibility for preparing for extreme weather? Governments, businesses, or individuals?", 
-  "topic": "weather"
-},
-{
-  "text": "What can individuals do to prepare for extreme weather events? Have you ever made any preparations yourself?", 
-  "topic": "weather"
-},
-{
-  "text": "Would you live in an area prone to hurricanes, wildfires, or floods? Why or why not?", 
-  "topic": "weather"
-},
-{
-  "text": "Have you ever had a plan ruined by unexpected weather? What happened and how did you adapt?",
-  "topic": "weather"
-},
-{
-  "text": "If you could control the weather for a day, what would you choose and why?",
+  "text": "Do you think climate change is making extreme weather worse? What evidence have you seen or heard?",
   "topic": "weather"
 },
 {
@@ -2428,27 +2790,7 @@
   "topic": "weather"
 },
 {
-  "text": "Do you enjoy storms, or do they make you nervous? Why?",
-  "topic": "weather"
-},
-{
-  "text": "Have you ever seen a tornado, hurricane, or other extreme weather event up close? What was it like?",
-  "topic": "weather"
-},
-{
   "text": "Have you ever had a flight delayed or canceled due to weather? What did you do?",
-  "topic": "weather"
-},
-{
-  "text": "Do you believe weather forecasts, or do you think they are unreliable? Have they ever been totally wrong for you?",
-  "topic": "weather"
-},
-{
-  "text": "Do you think people overreact or underreact to extreme weather warnings? Why?",
-  "topic": "weather"
-},
-{
-  "text": "If you had to survive in the wild during extreme weather, what three items would you want with you?",
   "topic": "weather"
 },
 {
@@ -2456,33 +2798,14 @@
   "topic": "weather"
 },
 {
-  "text": "Have you ever had to cancel or change travel plans because of extreme weather? What happened?",
-  "topic": "weather"
-},
-{
-  "text": "Have you ever done something crazy or unusual in extreme weather, like swimming in a storm or hiking in the snow?",
-  "topic": "weather"
-},
-{
   "text": "What’s the weirdest or most unexpected weather you’ve ever experienced?",
-  "topic": "weather"
-},
-{
-  "text": "Do you think people complain too much about the weather, or is it a valid conversation topic?",
-  "topic": "weather"
-},
-{
-  "text": "What’s the best or worst weather for working or studying? Why?",
   "topic": "weather"
 },
 {
   "text": "Do you have any childhood memories related to snow days, heat waves, or big storms?",
   "topic": "weather"
 },
-{
-  "text": "Would you rather experience one day of the most extreme weather possible or have slightly annoying bad weather for a year?",
-  "topic": "weather"
-},
+
 {
   "text": "Have you ever attended a training session at work?",
   "topic": "education"

@@ -1,4 +1,400 @@
 module.exports = [
+<<<<<<< HEAD
+=======
+{
+  "readingcompTitle": "Festival Failures: Fyre and Woodstock ’99",
+  "topic": "event disasters",
+  "level": "b2",
+  "image": "/Images/woodstock-99.webp",
+  "vocabulary": [
+    "disaster relief tents - tents used in disaster situations",
+    "styrofoam  - packing material made of a hard foam like material",
+    "pull out - cancel an appearance at an event",
+    "cautionary tale - story to learn from",
+    "venue - concert location/building",
+    "shade - protection from the sun",
+    "outrageous - crazy",
+    "leaned heavily on - mostly used",
+    "looted - stolen from"
+  ],
+  "paragraphs": [
+    {
+"text": [
+  "<p>Music festivals are meant to be unforgettable — for the music, the atmosphere, the memories. But sometimes, what people remember most is the disaster.</p>",
+  "<p>In 2017, Fyre Festival promised guests a once-in-a-lifetime luxury experience: white sand beaches, top musical acts, gourmet food, and glamorous influencer-filled parties. Promoted heavily on social media by models and celebrities, the festival sold an image of paradise. But when guests arrived on the Bahamian island, they were greeted not by beachfront villas, but by disaster relief tents. The “gourmet meals” were cheese sandwiches in styrofoam boxes. Luggage was thrown out of the back of trucks. Artists had pulled out, the power failed, and flights off the island were delayed. The whole event quickly collapsed, and the organizer was later sentenced to prison for fraud.</p>",
+  "<p>But Fyre wasn’t the first time a major festival turned into a cautionary tale.</p>",
+  "<p>Back in 1999, Woodstock tried to recreate its 1969 legacy — peace, music, and love. Instead, the result was chaos. Held on a former military base in New York during a heatwave, the venue lacked proper shade, free drinking water, and clean bathrooms. Vendors charged outrageous prices — $4 for water, $12 for a slice of pizza. Security was weak, and the lineup leaned heavily on aggressive, high-energy rock acts. Over the three days, tensions rose. By the final night, fires had been set, vendor booths were looted, and multiple reports of violence emerged. What was supposed to be a celebration of unity turned into one of the most infamous music disasters in modern history.</p>",
+  "<p>So what connects these two failures?</p>",
+  "<p>Both festivals were victims of overpromising and underplanning. The organizers had strong branding but weak logistics. At Fyre, it was style over substance — a social media illusion with no real infrastructure behind it. At Woodstock ’99, organizers underestimated the effect of heat, crowds, and poor conditions. In both cases, safety and basic needs were ignored in favor of hype and profit.</p>",
+  "<p>These events remind us that massive gatherings aren’t just about music. They’re about crowd management, preparation, and responsibility. When organizers forget that, even the best intentions can spiral into chaos.</p>",
+  "<p>And yet, every few years, a new event comes along making big promises. The question is: have we learned anything?</p>"
+],
+
+      "questions": [
+        {
+          "number": "1",
+          "question": "Do you think modern music festivals care more about marketing than safety? Why or why not?",
+          "choices": []
+        },
+        {
+          "number": "2",
+          "question": "If you had been at Fyre Festival or Woodstock ’99, what would you have done differently?",
+          "choices": []
+        },
+        {
+          "number": "3",
+          "question": "Why do you think people still trust expensive events like Fyre Festival, even after seeing past failures?",
+          "choices": []
+        },
+        {
+          "number": "4",
+          "question": "Do you think the organizers of these events should be punished or just criticized? Explain.",
+          "choices": []
+        },
+        {
+          "number": "5",
+          "question": "Would you ever attend a big music festival? Why or why not?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
+
+
+  {
+  "id": "colleague-catchup",
+  "readingcompTitle": "Catching Up at the Office",
+  "topic": "Business Dialogue",
+  "level": "b1",
+  "image": "/Images/tork-head.jpg",
+  "vocabulary": [
+    "promotion - előléptetés",
+    "project - projekt",
+    "deadline - határidő",
+    "training - képzés",
+    "position - pozíció",
+    "update - frissítés",
+    "role - szerep",
+    "clients - ügyfelek",
+    "travel - utazás",
+    "busy - elfoglalt",
+    "schedule - időbeosztás",
+    "improve - javítani",
+    "team - csapat",
+    "tough - nehéz"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p><strong>Catching Up at the Office</strong></p>",
+        "<p>Emma: Hi Daniel! I haven't seen you since February. How have you been?</p>",
+        "<p>Daniel: Hey Emma! Yes, it's been a while. I've been really busy with a new project. I also got a promotion last month!</p>",
+        "<p>Emma: That's great news! What's your new role?</p>",
+        "<p>Daniel: I'm now the regional sales manager. It means more travel and bigger clients, but I enjoy the challenge.</p>",
+        "<p>Emma: Sounds exciting. I've been doing some training to improve my presentation skills. Our team has more client meetings now, so it helps.</p>",
+        "<p>Daniel: Good idea. Communication is key. We just finished a tough project with a very tight deadline.</p>",
+        "<p>Emma: I know the feeling. It's been a busy year for all of us!</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "When did Emma last see Daniel?",
+          "choices": [
+            "A. Last week",
+            "B. In February",
+            "C. In December",
+            "D. Yesterday"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "Why has Daniel been busy?",
+          "choices": [
+            "A. He changed companies",
+            "B. He moved to another city",
+            "C. He was working on a new project and got a promotion",
+            "D. He was on vacation"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What is Daniel's new position?",
+          "choices": [
+            "A. Project manager",
+            "B. Team assistant",
+            "C. Regional sales manager",
+            "D. Marketing coordinator"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Why did Emma do some training?",
+          "choices": [
+            "A. She wants to change jobs",
+            "B. She needs better presentation skills for client meetings",
+            "C. She wants to travel more",
+            "D. She had free time"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What kind of project did Daniel just finish?",
+          "choices": [
+            "A. A relaxing one",
+            "B. A short holiday trip",
+            "C. A project with a tight deadline",
+            "D. A team-building activity"
+          ]
+        }
+      ]
+    }
+  ]
+},
+  {
+  "readingcompTitle": "Working as an Account Manager at Essity",
+  "topic": "Workplace",
+  "level": "b1",
+  "image": "/Images/tork-head.jpg",
+  "vocabulary": [
+    "provides - biztosít",
+    "hygiene - higiénia",
+    "solutions - megoldások",
+    "client - ügyfél",
+    "improve - javít",
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p><strong>Working as an Account Manager at Essity</strong></p>",
+        "<p>I work as an account manager at Essity, a company that provides hygiene and health products. My job is to talk to clients, understand what they need, and help them choose the best products. These can include things like paper towels, soap dispensers, or medical supplies.</p>",
+        "<p>Each day starts with checking emails and planning my meetings. I often visit customers to answer their questions and help solve any problems. Good communication is very important in this role. I also work with other teams at Essity, like marketing and logistics, to make sure everything runs smoothly.</p>",
+        "<p>What I like most about my job is that every day is different. I get to meet many people and help them improve their workplaces. It feels good to know that our products make a real difference.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main job of an account manager at Essity?",
+          "choices": [
+            "A. To make health products",
+            "B. To clean offices",
+            "C. To help clients find the right products",
+            "D. To deliver orders"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "What does the account manager do in the morning?",
+          "choices": [
+            "A. Visit clients",
+            "B. Check emails and plan meetings",
+            "C. Go to the warehouse",
+            "D. Make new products"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "Why is communication important in this job?",
+          "choices": [
+            "A. To sell more products",
+            "B. To travel more",
+            "C. To solve problems and help clients",
+            "D. To avoid work"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Which teams does the account manager work with?",
+          "choices": [
+            "A. Only logistics",
+            "B. Only marketing",
+            "C. Marketing and logistics",
+            "D. Sales and cleaning"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What does the account manager enjoy most?",
+          "choices": [
+            "A. The office view",
+            "B. Making products",
+            "C. Meeting people and making a difference",
+            "D. Working alone"
+          ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "id": "account-manager-challenge",
+  "readingcompTitle": "Handling a Difficult Client",
+  "topic": "Workplace Challenge",
+  "level": "b1",
+  "image": "/Images/tork-head.jpg",
+  "vocabulary": [
+    "handling - kezelése",
+    "tough - nehéz",
+    "delivery - szállítás",
+    "demanding - igényes",
+    "solution - megoldás",
+    "expected - várt",
+    "calm - nyugodt",
+    "concerns - aggályok",
+    "options - lehetőségek",
+    "matched - illeszkedett",
+    "patience - türelem",
+    "respond - reagál",
+    "respect - tisztelet",
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p><strong>Handling a Difficult Client</strong></p>",
+        "<p>Last month, I had a tough situation as an account manager at Essity. One of my clients was very demanding. He often called and sent long emails, asking for changes and updates every day. He wasn't happy with the delivery times and said the products were not what he expected.</p>",
+        "<p>I stayed calm and listened carefully to his concerns. I spoke with our logistics team to speed up the delivery. I also offered different product options that better matched his needs. After a few days, things improved, and he started to trust me more.</p>",
+        "<p>This experience taught me the importance of patience, good communication, and staying professional. Not every customer is easy, but if you show respect and try to solve the problem, most people will respond well.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What was the problem the account manager faced?",
+          "choices": [
+            "A. He lost a client",
+            "B. A client was very demanding",
+            "C. He had too many meetings",
+            "D. He made a mistake with an order"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "How did the client act?",
+          "choices": [
+            "A. Calm and helpful",
+            "B. Friendly and quiet",
+            "C. Demanding and unhappy",
+            "D. Late and confused"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What did the account manager do to help?",
+          "choices": [
+            "A. He ignored the client",
+            "B. He told the client to wait",
+            "C. He called another company",
+            "D. He listened, found new products, and talked to the logistics team"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "What happened after a few days?",
+          "choices": [
+            "A. The client left",
+            "B. The problem got worse",
+            "C. The client trusted the manager more",
+            "D. The products were returned"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What did the account manager learn?",
+          "choices": [
+            "A. Always change the product",
+            "B. Some clients are not worth it",
+            "C. Good communication and patience help solve problems",
+            "D. Don’t talk to logistics"
+          ]
+        }
+      ]
+    }
+  ]
+},
+  {
+  
+  "readingcompTitle": "Streaming Fatigue: Too Much of a Good Thing?",
+  "topic": "streaming",
+  "level": "b2",
+  "image": "/Images/streamingfatigue1.webp",
+  "vocabulary": [
+    "streaming - online tartalom közvetítése",
+    "fatigue - fáradtság, kimerültség",
+    "overload - túlterheltség",
+    "subscription - előfizetés",
+    "binge - egyhuzamban sokat nézni/hallgatni",
+    "content - tartalom",
+    "decision-making - döntéshozatal",
+    "cancel - lemondani",
+    "curated - gondosan válogatott",
+    "engaged - elkötelezett, figyelmes"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Streaming services have changed how we watch TV shows, movies, and listen to music. With platforms like Netflix and Spotify, we can enjoy content anytime, anywhere. But with so much choice, some people are feeling tired of it all. This is called <strong>streaming fatigue</strong>.</p>",
+        "<p>Streaming fatigue happens when people feel overwhelmed by too many options. They spend more time browsing than watching or listening. Some even feel pressure to keep up with popular shows, which makes entertainment feel like work.</p>",
+        "<p>There is also <strong>subscription fatigue</strong>. Many users now pay for multiple services, and managing them all can be confusing and expensive. As a result, some people are starting to cancel their subscriptions or take breaks.</p>",
+        "<p>To fix this, some companies are offering <strong>curated</strong> content—smaller selections based on personal tastes. Music apps use playlists and recommendations to reduce decision-making stress and keep users <strong>engaged</strong>.</p>",
+        "<p>Experts say the best way to avoid streaming fatigue is to take breaks, limit screen time, and only watch or listen when you truly want to—not just because everyone else is doing it.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is 'streaming fatigue'?",
+          "choices": [
+            "A. Getting bored of old movies",
+            "B. Feeling tired from watching too many ads",
+            "C. Being overwhelmed by too much content",
+            "D. Having no access to streaming services"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "Why do some users cancel subscriptions?",
+          "choices": [
+            "A. They don't like TV shows anymore",
+            "B. They forget their passwords",
+            "C. They feel there are too few options",
+            "D. They are tired of paying for many services"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What does 'curated content' mean?",
+          "choices": [
+            "A. Content chosen randomly",
+            "B. Ads shown on free platforms",
+            "C. A limited selection based on user interests",
+            "D. Only music and no videos"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "How do music apps help reduce decision stress?",
+          "choices": [
+            "A. By limiting access to music",
+            "B. By offering free movies",
+            "C. With playlists and smart suggestions",
+            "D. By removing popular songs"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What is one suggested way to avoid streaming fatigue?",
+          "choices": [
+            "A. Watch as many shows as possible",
+            "B. Subscribe to every service",
+            "C. Take breaks and limit screen time",
+            "D. Follow every trending show"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   {
     "readingcompTitle": "Parents at a Football Match",
     "topic": "parents at a football match",

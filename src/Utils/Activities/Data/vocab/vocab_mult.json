@@ -1,0 +1,10 @@
+{
+    "quizTitle": "Common Hungarian Verbs",
+    "type": "vocab",
+    "topic": "mult",
+    "pairs": [
+      { "term": "megy", "definition": "go" },
+      { "term": "jön", "definition": "come" }
+    ]
+  }
+  

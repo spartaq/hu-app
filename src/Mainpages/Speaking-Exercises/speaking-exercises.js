@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../../Components/SEO';
 import Breadcrumbs from '../../Components/Breadcrumb';
-import Sidebar from '../../Components/Sidebar';
 import speaking from '../../Images/speaking3-1280x470.jpg';
 
 
@@ -51,7 +50,7 @@ const Speakingexercises = () => {
 </div>
 <div>
 
-             <div><Sidebar/></div>
+           
       </div> 
         
         </div>

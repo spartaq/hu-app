@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import Breadcrumbs from '../../Components/Breadcrumb';
-import SEO from '../../Components/SEO';
-import GrammarMenu from '../../Components/Menus/GrammarMenu.js';
-import Sidebar from '../../Components/Sidebar';
-import GrammarExercises from '../../Components/GrammarExerciseComps/tobepastexercisescomp.js';
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/tobepastexplanation';
+<<<<<<< HEAD
 import exambooks from '../../Images/tobe-past1.png';
 import { FaAngleDown } from "react-icons/fa";
 import RelatedExercises from '../../Utils/relatedExercises.js';
@@ -69,3 +66,26 @@ const ToBePast = () => {
 };
 
 export default ToBePast;
+=======
+import mainimage from '../../Images/tobe-past1.png';
+
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "to-be-past" },
+];
+
+const ToBePast = () => (
+  <GrammarPageLayout
+    level="A1"
+    title="To Be Past"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - To Be Past"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="A1"
+  />
+);
+
+export default ToBePast;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c

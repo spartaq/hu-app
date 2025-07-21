@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
   {
     "text": "She’s very good ___ working under pressure.",
     "answer": "at",
@@ -96,4 +97,12 @@
   }
 ]
 
+=======
+    {
+      "text": " ___ the latest company policy, we have to start work at 8am.",
+      "answer": "according to", 
+      "topic": ""
+    }
+  ]
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   

@@ -8,7 +8,7 @@ import SEO from '../../Components/SEO.js';
 import '../../CSS/lesson-agenda.css';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import Futureexcomp from '../../Components/GrammarExerciseComps/futureexercisecomp.js';

@@ -12,6 +12,8 @@ const App = () => {
 
     return (
         <HelmetProvider>
+            
+                
             <div className="app-container">
                 <SEO
                     title='English Exam Exercises'
@@ -21,10 +23,12 @@ const App = () => {
                     type='article' />
                 
                 <Navbar/>
+         
+            <div className="content">
                 <ScrollToTop />
-                <div className="content">
-                    <Outlet />
-                </div>
+                <Outlet />
+            </div>
+          
                 <Footer/>
             </div>
         </HelmetProvider>

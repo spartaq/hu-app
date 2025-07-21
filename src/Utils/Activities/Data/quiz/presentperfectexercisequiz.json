@@ -1,0 +1,127 @@
+{
+  "quizTitle": "Present Perfect",
+  "type": "quiz",
+  "questions": [
+
+    {
+      "id": 1,
+      "question": "I ___ in Budapest for 33 years.",
+      "options": ["am living", "haved live", "have lived", "living"],
+      "answer": "have lived",
+      "topic": "business"
+    },
+    {
+      "id": 2,
+      "question": "We ___ our sales target for the third consecutive year.",
+      "options": ["met", "have met", "have meet", "are met"],
+      "answer": "have met",
+      "topic": "business"
+    },
+    {
+      "id": 3,
+      "question": "The company ___ a new office in Berlin.",
+      "options": ["opened", "has opened", "opens", "have opening"],
+      "answer": "has opened",
+      "topic": "business"
+    },
+    {
+      "id": 4,
+      "question": "I ___ three emails to the client, but haven't received a reply.",
+      "options": ["have sent", "send", "sended", "sending"],
+      "answer": "have sent",
+      "topic": "business"
+    },
+    {
+      "id": 5,
+      "question": "They ___ a solution to the problem yet.",
+      "options": ["haven't found", "don't find", "didn't found", "not found"],
+      "answer": "haven't found",
+      "topic": "business"
+    },
+    {
+      "id": 6,
+      "question": "She ___ in marketing since 2015.",
+      "options": ["has worked", "is working", "worked", "have work"],
+      "answer": "has worked",
+      "topic": "business"
+    },
+    {
+      "id": 7,
+      "question": "___ any updates on the project yet?",
+      "options": ["Did you received", "Have you received", "Has you receive", "Do you received"],
+      "answer": "Have you received",
+      "topic": "business"
+    },
+    {
+      "id": 10,
+      "question": "I ___ with that supplier before.",
+      "options": ["have worked", "worked", "am working", "has worked"],
+      "answer": "have worked",
+      "topic": "business"
+    },
+    {
+      "id": 11,
+      "question": "They ___ the contract yet.",
+      "options": ["haven't signed", "didn't signed", "don't signed", "not signed"],
+      "answer": "haven't signed",
+      "topic": "business"
+    },
+    {
+      "id": 12,
+      "question": "How many new clients ___ this month?",
+      "options": ["you got", "have you gotten", "have you get", "did you got"],
+      "answer": "have you gotten",
+      "topic": "business"
+    },
+    {
+      "id": 14,
+      "question": "We ___ to the trade fair every year since 2020.",
+      "options": ["have gone", "go", "gone", "has went"],
+      "answer": "have gone",
+      "topic": "business"
+    },
+    {
+      "id": 18,
+      "question": "You ___ your access card again!",
+      "options": ["have lost", "lost", "has lost", "lose"],
+      "answer": "have lost",
+      "topic": "business"
+    },
+    {
+      "id": 19,
+      "question": "We ___ a response from the government yet.",
+      "options": ["haven't received", "didn't received", "don't received", "not received"],
+      "answer": "haven't received",
+      "topic": "business"
+    },
+    {
+      "id": 21,
+      "question": "I ___ in this position since January.",
+      "options": ["am", "have been", "was", "being"],
+      "answer": "have been",
+      "topic": "business"
+    },
+    {
+      "id": 22,
+      "question": "We ___ with this supplier for over ten years.",
+      "options": ["worked", "have worked", "are working", "work"],
+      "answer": "have worked",
+      "topic": "business"
+    },
+    
+    {
+      "id": 24,
+      "question": "They ___ in the same building for a long time.",
+      "options": ["have been", "are", "were", "being"],
+      "answer": "have been",
+      "topic": "business"
+    },
+    {
+      "id": 25,
+      "question": "The company ___ significant growth since 2020.",
+      "options": ["has seen", "saw", "see", "sees"],
+      "answer": "has seen",
+      "topic": "business"
+    }
+  ]
+}

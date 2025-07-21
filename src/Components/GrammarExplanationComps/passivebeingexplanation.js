@@ -1,64 +1,61 @@
 import React from 'react';
-
+import '../../CSS/grammarPage.css';
+import { FaBookOpen, FaLightbulb } from 'react-icons/fa';
 
 const PassivebeingExplanation = () => {
+  return (
+    <div className="grammar-explanation">
+      <h2><FaBookOpen /> Passive: "Being" and "Having Been"</h2>
 
-    return (
-        <div>
+      <p>
+        In English, we use <strong>"being + past participle"</strong> to express passive gerunds — turning passive actions into noun-like phrases. These are common after verbs like <em>like</em>, <em>hate</em>, and <em>enjoy</em>.
+      </p>
 
-<div>
-                            <div className="agendagrammar">
-                            <h1>Passive - "Being"</h1>
+      <div className="example-block">
+        <h3>Present Passive Gerunds: <em>"being + past participle"</em></h3>
+        <ul>
+          <li><strong>Being ignored</strong> doesn’t feel good.<br /><i>(The fact that I am ignored doesn’t feel good.)</i></li>
+          <li>No one likes <strong>being lied to</strong>.<br /><i>(The situation when people lie to them.)</i></li>
+          <li>What the players love most is <strong>being given the freedom</strong> to practice how they want.<br /><i>(Turns the whole phrase into a noun.)</i></li>
+          <li>I’m sick of <strong>being treated like a number</strong>.<br /><i>(The situation where people treat me like a number.)</i></li>
+        </ul>
+      </div>
 
-<p><strong>Passive present gerunds: "being" + past participle</strong></p>
+      <div className="example-block">
+        <h3>Past Passive Gerunds: <em>"having been + past participle"</em></h3>
+        <p>
+          Use <strong>"having been"</strong> to show that the passive action happened before another past event.
+        </p>
+        <ul>
+          <li><strong>They didn’t like having been overlooked</strong> for the award.<br /><i>(The gerund is the object of the verb "like.")</i></li>
+        </ul>
+        <p>
+          This structure is less common in everyday English. Most speakers prefer using the present passive form <strong>being</strong> when the timing is clear from context:
+        </p>
+        <ul>
+          <li><strong>They didn’t like being overlooked</strong> for the award. ✅</li>
+          <li><strong>They didn’t like having been overlooked</strong> for the award. ✅</li>
+        </ul>
+      </div>
 
-<p>The structure "being + 3rd form" turns a verb into a noun so you can use it with like, hate, type words. It means "the fact that I am verbed"</p>
+      <div className="example-block">
+        <h3>Introductory Clause with <em>"Having been"</em></h3>
+        <p>
+          We can also begin a sentence with <strong>having been</strong> to explain a reason or background event:
+        </p>
+        <ul>
+          <li><em>Having been given the job, he decided to celebrate with his family.</em><br /><i>(After receiving the job, he celebrated.)</i></li>
+        </ul>
+      </div>
 
-
-  <p><strong>Being ignored</strong> doesn't feel good. (The fact that I am ignored doesn't feel good.)</p>
-  <p>No one likes <strong>being lied to.</strong> (the situation when people lie to them)</p>
-  <p>What the players love most is <strong>being given the freedom to practice how they want.</strong> (turns the whole phrase into a noun)</p>
-  <p>I'm sick of <strong>being treated like a number.</strong> (the situation where people treat me like a number)</p>
-
-<h1>Passive Past Gerunds - "Having Been"</h1>
-
-<p>To make a passive past gerund, use <strong>having been</strong> plus a past participle verb. The <strong>having been</strong> part of the sentence clarifies that something happened before another past action. Let's take a look at five examples with the five functions we have already discussed.</p>
-  
-  <p><strong>They didn't like having been overlooked</strong> for the award. (gerund as object of a verb)</p>
-
-
-<p>This structure is not very common, as most English speakers will usually opt to use the present form <strong>being</strong>, since the past is usually clear from context. For instance, it makes perfect sense to say, <em>"They didn't like being overlooked for the award"</em> instead of <em>"They didn't like having been overlooked for the award."</em> Both sentences are correct and can be understood as referring to the past based on context.</p>
-
-<p>Also, there is another usage of <strong>having been</strong> to describe a previous event or situation and then talking about a result of this. This is usually used at the beginning of a sentence. Take a look:</p>
-
-<p><em>Having been given the job, he decided to celebrate with his family.</em></p>
-
-<p>This means "Now, after this event has happened and because of it,"</p>
-
-
-
-
-
-                                        
-
-
-
-                                     </div>
-                                    
-                                </div>
-
-        
-        
-        
-        </div>
-);
+      <div className="grammar-explanation-text">
+        <h3><FaLightbulb /> Tip</h3>
+        <p>
+          Use <strong>being + past participle</strong> for general passive ideas, especially after verbs and prepositions. Use <strong>having been</strong> when it's important to show that the action happened before another event in the past.
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default PassivebeingExplanation;
-
-
-
-
-
-
-

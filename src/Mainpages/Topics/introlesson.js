@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import VocabularyMatch from '../../Utils/vocabmatch.js';
+import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/introlessonquiz.json';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/tenseexplanation.js';

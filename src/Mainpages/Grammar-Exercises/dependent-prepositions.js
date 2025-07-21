@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import Breadcrumbs from '../../Components/Breadcrumb.js';
 import SEO from '../../Components/SEO.js';
@@ -69,3 +70,29 @@ const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 };
 
 export default Dependentprepositions;
+=======
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/dependentprepositionsexplanation';
+import mainimage from '../../Images/dependentpreps1.jpg';
+
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "dependent-prepositions" },
+];
+
+const DependentPrepositions = () => (
+  <GrammarPageLayout
+    level="B2"
+    title="Dependent Prepositions"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Dependent Prepositions"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B2"
+  />
+);
+
+export default DependentPrepositions;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c

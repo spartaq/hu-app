@@ -65,10 +65,21 @@
 }
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f0f0f0!important;
 }
 
+/* Reset box sizing and overflow globally */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100vw;
+  font-family: sans-serif;
+}
 h1 {
   font-size:3.2rem;
 }
@@ -175,7 +186,11 @@ a {
   flex: 1;
   overflow: visible; 
   padding: 0px; 
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color: aliceblue;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 
 header, footer {
@@ -285,12 +300,11 @@ header, footer {
   grid-gap: 10px;
   border: 0px solid white;
   border-radius: 5px;
-  background-color: transparent;
   /*margin: 10px 25px;*/
   height: 75%;
 }
 
-.grammar-container { /*top level container on main exercises pages*/
+/*.grammar-container { 
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
@@ -298,7 +312,7 @@ header, footer {
   border-radius: 5px;
   background-color: transparent;
   margin: 10px 25px;
-}
+}*/
 
 .div1 { 
   grid-area: 1 / 1 / 3 / 2; 
@@ -335,28 +349,51 @@ header, footer {
   max-width: 100%;
   margin: 0px 0px 0px 0px;
   padding: 0px 100px;
+<<<<<<< HEAD
   background-color: rgb(255, 255, 255);
+=======
+  background-color: transparent;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   /*border: 2px solid black;*/
   border-radius: 5px;
   width: 100%;
 }
 @media (max-width: 992px) {
 .exercises-container {
-  max-width: 100%;
   margin: 0px auto;
-  padding: 0px 15px;
-  background-color: rgb(255, 255, 255);
+  padding: 0px 0px;
+}
+}
+
+.readings-container { /*exercises comp actual exercises container*/
+  max-width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+  background-color: transparent;
+  /*border: 2px solid black;*/
   border-radius: 5px;
+<<<<<<< HEAD
   width: 93vw;
+=======
+  width: 100%;
+}
+@media (max-width: 992px) {
+.readings-container {
+  margin: 0px auto;
+  padding: 0px 0px;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 }
 
 
 
 .exercises-form {
-  margin: auto auto 40px 20px;
+  margin: auto auto 40px auto;
   font-size: 16px;
   width:auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
 }
 @media (max-width: 1000px) {
   .exercises-form {
@@ -376,13 +413,6 @@ header, footer {
   margin-bottom: 10px;
 }
 
-.exercises-container .title {
-  text-align: left;
-  color: lightseagreen; 
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
 .exercises-container .instructions {
   height: auto;
   background-color: #e4e1e1;
@@ -399,16 +429,7 @@ header, footer {
   margin-top: 30px;
 }
 
-.exercises-container .instructions {
-  height: auto;
-  background-color: #e4e1e1;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 2px 3px;
-  margin-bottom: 50px;
-}
-
-.grammartitle {
+/*.grammartitle {
   display: flex;
   flex-direction: row; 
   justify-content: flex-start;
@@ -426,7 +447,7 @@ header, footer {
   text-align: left;
   text-transform: none;
   padding-bottom: 0px;
- }
+ }*/
 
 
 
@@ -434,7 +455,7 @@ header, footer {
   /*display: flex;*/
   width: 100%;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: white;
   margin: auto;
   padding: 0 0px;
   /*height: 750px;*/
@@ -476,7 +497,7 @@ header, footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    background-color: transparent;
+    background-color: white;
     margin: 0px 0px;
     max-width: 1200px;
   }
@@ -515,7 +536,7 @@ header, footer {
   /*width: 83vw;*/
   display: block;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: white;
   max-width: 1000px;
   margin: 10px 0px;
   padding: 0 0px;
@@ -536,10 +557,14 @@ header, footer {
 
 /*================================ Grammar box on exercise pages ============================================*/
 
+<<<<<<< HEAD
 .grammardoexercise {
   width: 100%;
   margin-top: 70px;
 }
+=======
+
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
 .grammartable {
   border-collapse: collapse;
@@ -560,44 +585,52 @@ header, footer {
 .grammar-display-grid {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   /*border: 2px solid #ccc;*/ 
   padding: 0px;
   width: 100%;
   margin-bottom: 35px;
   /*background-color: whitesmoke;*/
+=======
+  border: 2px solid #ccc; 
+  padding: 10px;
+  width: 100%;
+  margin: 0px 0px;
+  background-color: white;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 
-.grammar-display-grid h5 {
+/*.grammar-display-grid h5 {
   margin-bottom: 50px!important;
   margin-top: 50px!important;
 }
 
 .grammar-display-row {
   display: flex;
-  justify-content: space-between; /* Spread words across the row */
+  justify-content: space-between; 
   margin-bottom: 10px;
-  border-bottom: 1px solid #ddd; /* Optional: Border between rows */
+  border-bottom: 1px solid #ddd; 
   padding-bottom: 10px;
   position: relative;
 }
 
 .grammar-display-item {
-  /*width: 23%;  To ensure each word takes up 1/4th of the row */
+  width: 23%; 
   font-size: 16px;
   text-align: center;
   padding: 5px;
-  border: 1px solid #ddd; /* Border around each item */
+  border: 1px solid #ddd; 
   background-color: #f9f9f9;
   position: relative;
 }
 
 .grammar-display-item:first-child {
-  text-align: center; /* Align the first item to the left (word) */
+  text-align: center; 
 }
 
 .grammar-display-item:last-child {
-  text-align: center; /* Align the last item to the right (adverb) */
-}
+  text-align: center; 
+}*/
 
 
 
@@ -612,8 +645,13 @@ header, footer {
 }
 .grammartable {
   border-collapse: collapse;
+<<<<<<< HEAD
   width: 94vw;
   /*display:flex;
+=======
+  /*width: 94vw;
+  display:flex;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   row-gap: 5px;
   flex-direction: column;
   align-items: center;*/
@@ -631,9 +669,17 @@ header, footer {
 }
 .top-margin { /*top margin for sidebar on main pages*/
   position:relative;
+<<<<<<< HEAD
   margin-top:100px;
+=======
+  margin-top:200px;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 
+.bottom-margin { /*top margin for sidebar on main pages*/
+  position:relative;
+  margin-bottom:200px;
+}
 .menu-container {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -697,6 +743,8 @@ header, footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0 10px;
+  background-color: white;
 }
 
 .videotitle {
@@ -717,6 +765,7 @@ header, footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
 }
 
 .video-container {
@@ -926,10 +975,10 @@ input[type="range"] {
 .question-container {
  display: flex;
   flex-direction: column;
-  margin: 0 0 0 0px;
+  margin: 10px 0;
   height: auto;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
   padding: 20px;
 }
@@ -938,14 +987,10 @@ input[type="range"] {
   text-align: center;
 }
 
-.question-container {
-  margin: 10px 0;
-}
-
 .choices-container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   margin: 20px auto auto auto; 
   text-align: left; 
 }
@@ -962,6 +1007,13 @@ input[type="range"] {
   color: #7e0126;
 }
 
+.carousel-control-next {
+ right: 10px!important;
+}
+
+.carousel-control-prev {
+  left: 10px!important;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -978,9 +1030,19 @@ input[type="range"] {
 
 @media (max-width: 950px) {
 .question-container {
-  width: 95%;
+  width: 100%;
   margin-bottom: 50px;
+  padding: 10px;
 }
+
+.carousel-control-next {
+ right: 10px;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
 }
 
 .question {
@@ -1313,7 +1375,11 @@ input[type="range"] {
 .sentence-container input {
   margin: 10px 15px;
   height: 30px;
+<<<<<<< HEAD
   width: 20%;
+=======
+  width: auto;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 
 .sentence-container > div {
@@ -1829,7 +1895,10 @@ input[type="range"] {
 
 .topics-image {
   width: 100%;
+<<<<<<< HEAD
   height: 200px;
+=======
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   overflow: hidden;
   border-radius: 0px;
 }
@@ -1965,37 +2034,7 @@ input[type="range"] {
   display: block;
 }
 
-
-
-.readingform {
-  padding: 30px 30px;
-  background-color: whitesmoke;
-}
-
-.reading-text {
-  margin: 0 auto;
-  padding: 50px 30px;
-  background-color: white;
-  border-radius: 12px;
-  text-align: left;
-  font-size: 1.2rem;
-}
-
-.reading-title {
-  margin-bottom: 50px;
-}
-
-.reading-title h1 {
-  font-size: 2em;
-}
-
-@media (max-width: 990px) {
-  .readingform {
-    padding: 0 0;
-  }
-}  
-
-/*============================filter container========================*/
+/*============================filter box container========================*/
 
 .counterfilter {
   display:flex;
@@ -2038,6 +2077,14 @@ input[type="range"] {
   gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 20px;
+<<<<<<< HEAD
+=======
+  padding: 0px;
+}
+
+.filter-checkbox-group {
+  line-height: 5vh;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 
 .toggle-filter-btn {
@@ -2051,6 +2098,7 @@ input[type="range"] {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .showagendagrammarbox {
   display: flex;
   justify-content: space-between;
@@ -2070,6 +2118,8 @@ input[type="range"] {
   transition: background-color 0.3s;
 }
 
+=======
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
 .filter-dropdown-container {
   display: flex;
@@ -2099,6 +2149,15 @@ input[type="range"] {
   .filter-checkbox-container {
     column-gap: 0;
   }
+
+  .filter-checkbox-wrapper {
+  padding: 20px;
+  }
+
+  .filter-checkbox-group {
+    line-height: 8vh;
+  }
+
 }
 
 .pagination {
@@ -2142,13 +2201,21 @@ input[type="range"] {
 /*================================================  relatedexercises  ========================*/
 .related-exercises {
   margin-top: 40px;
+<<<<<<< HEAD
   padding-top: 20px;
+=======
+  padding: 20px;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   border-top: 2px solid #ccc;
 }
 
 .related-exercises-footer {
   text-align: center;
+<<<<<<< HEAD
   margin-top: 20px;
+=======
+  margin: 20px 0px;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 
 .see-all-btn {
@@ -2247,7 +2314,15 @@ input[type="range"] {
 }
 .label-all {
   background-color: green;
-}  
+} 
+
+.label-hu1 {
+  background-color: purple;
+}
+
+.label-hu2 {
+  background-color: darkred;
+} 
 
 figure{
   width:100%;

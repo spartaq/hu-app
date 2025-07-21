@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "text": "Reggel 7-kor ___ . (én, felkel)",
+      "answer": "felkelek",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Minden reggel ___ egy kávét. (én, iszik)",
+      "answer": "iszom",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Munkanapokon gyorsan ___ . (én, reggelizik)",
+      "answer": "reggelizem",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "7:30-kor ___ a buszra. (én, felszáll)",
+      "answer": "felszállok",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "A munkahelyemre mindig időben ___ . (én, érkezik)",
+      "answer": "érkezem",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Délben az irodában ___ . (én, ebédel)",
+      "answer": "ebédelek",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Munka után általában ___ egy kicsit. (én, sétál)",
+      "answer": "sétálok",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Este otthon ___ egy könyvet. (én, olvas)",
+      "answer": "olvasok",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Néha este ___ egy filmet. (én, néz)",
+      "answer": "nézek",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Éjfél előtt általában ___ . (én, lefekszik)",
+      "answer": "lefekszem",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Reggelente először ___ fogat. (én, mos)",
+      "answer": "mosok",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Ezután gyorsan ___ . (én, zuhanyozik)",
+      "answer": "zuhanyozok",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Munka előtt mindig ___ egy e-mailt. (én, ellenőriz)",
+      "answer": "ellenőrzök",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "A kollégákkal együtt ___ egy kávét. (mi, főz)",
+      "answer": "főzünk",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Munka közben gyakran ___ zenét. (én, hallgat)",
+      "answer": "hallgatok",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Délután néha ___ egy kis szünetet. (én, tart)",
+      "answer": "tartok",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Hazafelé menet ___ a boltba. (én, bevásárol)",
+      "answer": "bevásárolok",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Otthon először ___ vacsorát. (én, készít)",
+      "answer": "készítek",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Vacsora után gyakran ___ a családommal. (én, beszélget)",
+      "answer": "beszélgetek",
+      "topic": "napi rutin"
+    },
+    {
+      "text": "Lefekvés előtt mindig ___ a telefont. (én, ellenőriz)",
+      "answer": "ellenőrzöm",
+      "topic": "napi rutin"
+    }
+  ]
+}

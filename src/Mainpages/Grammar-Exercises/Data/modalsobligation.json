@@ -1,6 +1,113 @@
 [
                 
+<<<<<<< HEAD
           {
+=======
+          
+  {
+    "text": "Employees ___ wear their ID badge at all times.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ share your password with anyone.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Staff ___ take a 30-minute break during an 8-hour shift.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ bring your own device, but it's allowed.",
+    "answer": "don't have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ report suspicious emails immediately.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Contractors ___ access internal systems without approval.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ attend the weekly team meetings, even if you're remote.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Employees ___ keep their desks clean and organized.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ clock out exactly at 5 PM if your tasks are not done.",
+    "answer": "don't have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "We ___ comply with data protection regulations at all times.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ check in with your manager every hour.",
+    "answer": "don't have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Visitors ___ be accompanied by an employee at all times.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ install unapproved software on your work computer.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ use headphones in the open office area if you’re working on calls.",
+    "answer": "can",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "Employees ___ complete mandatory training within 30 days.",
+    "answer": "have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ ask IT for help if you're having login issues.",
+    "answer": "can",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ print personal documents at work.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ stay late if your project is already finished.",
+    "answer": "don't have to",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ eat at your desk if you’re working through lunch.",
+    "answer": "can",
+    "topic": "telekomb1"
+  },
+  {
+    "text": "You ___ ignore a fire drill, even if you’re busy.",
+    "answer": "can't",
+    "topic": "telekomb1"
+  },
+
+
+  {
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             "text": "You ___ wear a helmet when entering the construction site.",
             "answer": "must",
             "topic": "companypolicy"

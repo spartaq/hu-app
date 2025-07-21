@@ -15,7 +15,7 @@ import A1A2Elementary from './Mainpages/Levels/a1-a2-elementary';
 import B1B2Intermediate from './Mainpages/Levels/b1-b2-intermediate';
 import C1Advanced from './Mainpages/Levels/c1-advanced';
 import GrammarExercises from './Mainpages/Grammar-Exercises/grammar-exercises';
-import ToBe from './Mainpages/Grammar-Exercises/to-be';
+import ToBePresent from './Mainpages/Grammar-Exercises/to-be-present';
 import ToBePast from './Mainpages/Grammar-Exercises/to-be-past';
 import SimplePresent from './Mainpages/Grammar-Exercises/simple-present';
 import PresentContinuous from './Mainpages/Grammar-Exercises/present-continuous';
@@ -55,11 +55,13 @@ import Infinitives from './Mainpages/Grammar-Exercises/infinitives';
 import ReadingExercises from './Mainpages/Reading-Exercises/reading-exercises';
 import ParagraphHeadings from './Mainpages/Reading-Exercises/paragraph-headings';
 import ReadingComprehension from './Mainpages/Reading-Exercises/reading-comprehension';
+import ReadingActivity from './Utils/Activities/ReadingActivity';
 import SpeakingExercises from './Mainpages/Speaking-Exercises/speaking-exercises';
 import PictureComparison from './Mainpages/Speaking-Exercises/picture-comparison';
 import Speakingtopics from './Mainpages/Speaking-Exercises/speaking-topics';
-import ListeningExercises from './Mainpages/Listening-Exercises/listening-exercises';
-import Audio from './Mainpages/Listening-Exercises/Audio';
+import Videos from './Mainpages/Videos/videos';
+import VideoActivity from './Utils/Activities/VideoActivity';
+import Audio from './Mainpages/Videos/Audio';
 import WritingExercises from './Mainpages/Writing-Exercises/writing-exercises';
 import Writing1 from './Mainpages/Writing-Exercises/Writing1';
 import VocabularyExercises from './Mainpages/Vocabulary-Exercises/vocabulary-exercises';
@@ -119,6 +121,7 @@ import Money from './Mainpages/Topics/money';
 import Cellphones from './Mainpages/Topics/smartphones';
 import Language from './Mainpages/Topics/language';
 import Companypolicy from './Mainpages/Topics/companypolicy';
+<<<<<<< HEAD
 import Videos from './Mainpages/Listening-Exercises/videos';
 import JelenIdoDef from './Mainpages/Hungarian/jelenidodef';
 import JelenIdoIndef from './Mainpages/Hungarian/jelenidoIndef';
@@ -126,6 +129,24 @@ import MultIdo from './Mainpages/Hungarian/multido';
 import HungarianTemplate from './Mainpages/Hungarian/hungarianexercisetemplate';
 import Vannekicomp from './Mainpages/Hungarian/HungarianExerciseComps/vannekiexercisescomp';
 import Vanneki from './Mainpages/Hungarian/vanneki';
+=======
+import StreamingServices from './Mainpages/Topics/streamingServices';
+import HuVerbConjugation from './Mainpages/Hungarian/verbconjugationtable';
+import HuDefIndefExplanation from './Mainpages/Hungarian/defIndefExplanation';
+import JelenIdoDef from './Mainpages/Hungarian/jelenidodef';
+import JelenIdoIndef from './Mainpages/Hungarian/jelenidoIndef';
+import MultIdo from './Mainpages/Hungarian/multido';
+import JovoIdo from './Mainpages/Hungarian/jovoido';
+import Nekivan from './Mainpages/Hungarian/nekivan';
+import Van from './Mainpages/Hungarian/van';
+import Birtoklas from './Mainpages/Hungarian/birtoklas';
+import Nevmas from './Mainpages/Hungarian/nevmas';
+import Nevuto from './Mainpages/Hungarian/nevuto';
+import Hasonlitas from './Mainpages/Hungarian/hasonlitas';
+import Fokusz from './Mainpages/Hungarian/fokusz';
+import Harmonia from './Mainpages/Hungarian/harmonia';
+import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
 
 
@@ -163,10 +184,6 @@ const router = createBrowserRouter([
           {
             path: 'level-test/level-test',
             element: <EnglishLevelTest />,
-          },
-          {
-            path: 'listening-exercises/videos',
-            element: <Videos />,
           },
           {
             path: 'levels/a1-a2-elementary',
@@ -329,12 +346,19 @@ const router = createBrowserRouter([
             element: <Sidejobs />,
           },
           {
+<<<<<<< HEAD
+=======
+            path: 'topics/streamingservices',
+            element: <StreamingServices />,
+          },
+          {
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             path: 'grammar-exercises',
             element: <GrammarExercises />,
           },
           {
-            path: 'grammar-exercises/to-be',
-            element: <ToBe />,
+            path: 'grammar-exercises/to-be-present',
+            element: <ToBePresent />,
           },
           {
             path: 'grammar-exercises/to-be-past',
@@ -489,6 +513,13 @@ const router = createBrowserRouter([
             element: <LinkingWords />,
           },
           {
+<<<<<<< HEAD
+=======
+            path: 'hungarian',
+            element: <HungarianExercises />,
+          },
+          {
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             path: 'hungarian/jelenidodef',
             element: <JelenIdoDef />,
           },
@@ -501,19 +532,68 @@ const router = createBrowserRouter([
             element: <MultIdo />,
           },
           {
+<<<<<<< HEAD
             path: 'hungarian/vanneki',
             element: <Vanneki />,
           },
           {
             path: 'hungarian/hungarianexercisetemplate',
             element: <HungarianTemplate />,
+=======
+            path: 'hungarian/van',
+            element: <Van />,
+          },
+          {
+            path: 'hungarian/nekivan',
+            element: <Nekivan />,
+          },
+          {
+            path: 'hungarian/jovoido',
+            element: <JovoIdo />,
+          },
+          {
+            path: 'hungarian/birtoklas',
+            element: <Birtoklas />,
+          },
+          {
+            path: 'hungarian/nevmas',
+            element: <Nevmas />,
+          },
+          {
+            path: 'hungarian/nevuto',
+            element: <Nevuto />,
+          },
+          {
+            path: 'hungarian/hasonlitas',
+            element: <Hasonlitas />,
+          },
+          {
+            path: 'hungarian/fokusz',
+            element: <Fokusz />,
+          },
+          {
+            path: 'hungarian/harmonia',
+            element: <Harmonia />,
+          },
+          {
+            path: 'hungarian/verbconjugationtable',
+            element: <HuVerbConjugation />,
+          },
+          {
+            path: 'hungarian/defindefexplanation',
+            element: <HuDefIndefExplanation />,
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
           },
           {
             path: 'reading-exercises',
             element: <ReadingExercises />,
           },
           {
-            path: 'reading-exercises/reading-comprehension',
+            path: '/reading/:id',
+            element: <ReadingActivity />,
+          },
+          {
+            path: '/reading-exercises/reading-comprehension',
             element: <ReadingComprehension />,
           },
           {
@@ -529,11 +609,15 @@ const router = createBrowserRouter([
             element: <Writing1 />,
           },
           {
-            path: 'listening-exercises',
-            element: <ListeningExercises />,
+            path: '/videos/:id',
+            element: <VideoActivity />,
           },
           {
-            path: 'listening-exercises/audio',
+            path: '/videos/videos',
+            element: <Videos />,
+          },
+          {
+            path: 'videos/audio',
             element: <Audio />,
           },
           {

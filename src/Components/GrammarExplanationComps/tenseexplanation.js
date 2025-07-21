@@ -1,83 +1,63 @@
 import React from 'react';
-
+import '../../CSS/grammarPage.css';
+import { FaBookOpen, FaLightbulb } from 'react-icons/fa';
 
 const TenseExplanation = () => {
+  return (
+    <div className="grammar-explanation">
 
-    return (
-        <div>
+      <h2><FaBookOpen /> Tense Review</h2>
 
-<div>
-                            <div className="agendagrammar">
-                            <h2>Tense Review</h2><br></br><br></br>
+      <section>
+        <h3><FaLightbulb /> Present Simple</h3>
+        <p>Used for routines, facts, and general truths.</p>
+        <p><strong>Example:</strong> I work at Magyar Telekom.</p>
+      </section>
 
-<h1>Present Simple</h1>
-<p>Used for routines, facts, and general truths.<br></br>
-<strong>Example:</strong> I work at Magyar Telekom.</p>
+      <section>
+        <h3><FaLightbulb /> Present Continuous</h3>
+        <p>Used for actions happening now or temporary situations.</p>
+        <p><strong>Example:</strong> I am leading a small team.</p>
+      </section>
 
-<h1>Present Continuous</h1>
-<p>Used for actions happening now or temporary situations.<br></br>
-<strong>Example:</strong> I am leading a small team.</p>
+      <section>
+        <h3><FaLightbulb /> Present Perfect</h3>
+        <p>Used for actions connected to the present or life experiences.</p>
+        <p><strong>Example:</strong> I have worked here for five years.</p>
+      </section>
 
-<h1>Present Perfect</h1>
-<p>Used for actions with a connection to the present or experiences.<br></br>
-<strong>Example:</strong> I have worked here for five years.</p>
+      <section>
+        <h3><FaLightbulb /> Past Simple</h3>
+        <p>Used for completed actions in the past.</p>
+        <p><strong>Example:</strong> I graduated in 2018.</p>
+      </section>
 
-<h1>Past Simple</h1>
-<p>Used for completed actions in the past.<br></br>
-<strong>Example:</strong> I graduated in 2018.</p>
+      <section>
+        <h3><FaLightbulb /> Past Perfect</h3>
+        <p>Used for actions that happened before another past event.</p>
+        <p><strong>Example:</strong> I had never worked in a large company before.</p>
+      </section>
 
-<h1>Past Perfect</h1>
-<p>Used for actions that happened before another past event.<br></br>
-<strong>Example:</strong> I had never worked in a large company before.</p>
+      <section>
+        <h3><FaLightbulb /> Future Simple</h3>
+        <p>Used for predictions or decisions about the future.</p>
+        <p><strong>Example:</strong> I will attend a training next month.</p>
+      </section>
 
-<h1>Future Simple</h1>
-<p>Used for predictions or future decisions.<br></br>
-<strong>Example:</strong> I will attend a training next month.</p>
+      <section>
+        <h3><FaLightbulb /> Future Perfect</h3>
+        <p>Used for actions that will be completed before a specific future time.</p>
+        <p><strong>Example:</strong> By next year, I will have completed my certification.</p>
+      </section>
 
-<h1>Future Perfect</h1>
-<p>Used for actions completed before a specific time in the future.<br></br>
-<strong>Example:</strong> By next year, I will have completed my certification.</p>
+      <section>
+        <h3><FaLightbulb /> Conditionals</h3>
+        <p>Used for hypothetical or unreal situations.</p>
+        <p><strong>Example:</strong> If I had more free time, I would take a cybersecurity course.</p>
+      </section>
 
-<h1>Conditionals</h1>
-<p>Used for hypothetical situations.<br></br>
-<strong>Example:</strong> If I had more free time, I would take a cybersecurity course.</p>
-
-
-
-                                        
-
-
-
-                                     </div>
-                                    
-                                </div>
-
-        
-        
-        
-        </div>
-);
+    </div>
+  );
 };
 
 export default TenseExplanation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

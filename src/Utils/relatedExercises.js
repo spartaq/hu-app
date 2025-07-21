@@ -3,7 +3,12 @@ import { FaClock, FaGraduationCap, FaBook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import topics from "../Mainpages/Data/activitylist.js";
 import readingData from "../Mainpages/Reading-Exercises/Data/readingcomp.js";
+<<<<<<< HEAD
 import videoData from "../Mainpages/Listening-Exercises/Data/video.json";
+=======
+import videoData from "../Mainpages/Videos/Data/video.json";
+import ScrollToTop from "../Components/ScrollToTop.js";
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
 const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", limit = 3 }) => {
   const levelColors = {
@@ -12,7 +17,12 @@ const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", li
     B1: "goldenrod",
     B2: "orangered",
     C1: "crimson",
+<<<<<<< HEAD
     HU: "purple",
+=======
+    HU1: "purple",
+    HU2: "darkred",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   };
 
   const skillColors = {
@@ -25,6 +35,7 @@ const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", li
     "hungarian": "green",
   };
 
+<<<<<<< HEAD
   const relatedTopics = topics
     .filter((topic) => {
       if (topic.category !== currentCategory || topic.level !== currentLevel || !topic.title) {
@@ -45,6 +56,35 @@ const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", li
     })
     .slice(0, limit);
 
+=======
+  // Step 1: Filter topics by category, level, and must have title
+const filteredTopics = topics.filter(
+  
+  (topic) => topic.category === currentCategory && topic.level === currentLevel && topic.title
+);
+
+ 
+
+// Step 2: Find index of the current exercise (by title)
+const currentIndex = filteredTopics.findIndex(
+  (topic) => topic.title === currentTitle
+);
+
+let relatedTopics = [];
+
+// Step 3: If current exercise not found, show first `limit` items
+if (currentIndex === -1) {
+  relatedTopics = filteredTopics.slice(0, limit);
+} else {
+  // Step 4: Collect next `limit` exercises after current, wrap around if needed
+  for (let i = 1; i <= limit; i++) {
+    const nextIndex = (currentIndex + i) % filteredTopics.length;
+    relatedTopics.push(filteredTopics[nextIndex]);
+  }
+}
+ console.log("Current Title:", currentTitle);
+console.log("Current Index in filteredTopics:", currentIndex);
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   return (
     <div className="related-exercises">
       <p>Try these activities next</p>
@@ -71,7 +111,14 @@ const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", li
 
           return (
             <li key={topic.id}>
+<<<<<<< HEAD
               <Link to={destination} className="topics-box-link">
+=======
+                <ScrollToTop />
+
+              <Link to={destination} className="topics-box-link">
+              
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                 <div className="topics-box">
                   <div
                     className="topics-box-ribbon"
@@ -109,6 +156,10 @@ const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", li
           );
         })}
       </ul>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       <div className="related-exercises-footer">
         <Link to="/#filter" className="see-all-btn">
           See all exercises

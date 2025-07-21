@@ -1,0 +1,334 @@
+{
+  "sentences":[
+    {
+        "text": "join the new project",
+        "prompt": "agree to",
+        "answer": "He agreed to join the new project."
+    },
+    {
+        "text": "move abroad next year",
+        "prompt": "decide to",
+        "answer": "They decided to move abroad next year."
+    },
+    {
+        "text": "take the more difficult task",
+        "prompt": "choose to",
+        "answer": "She chose to take the more difficult task."
+    },
+    {
+        "text": "receive a promotion by the end of the year",
+        "prompt": "expect to",
+        "answer": "He expects to receive a promotion by the end of the year."
+    },
+    {
+        "text": "travel around the world",
+        "prompt": "hope to",
+        "answer": "They hope to travel around the world."
+    },
+    {
+        "text": "finish the report by Friday",
+        "prompt": "intend to",
+        "answer": "She intends to finish the report by Friday."
+    },
+    {
+        "text": "complete the marathon despite the pain",
+        "prompt": "manage to",
+        "answer": "He managed to complete the marathon despite the pain."
+    },
+    {
+        "text": "pay for dinner",
+        "prompt": "offer to",
+        "answer": "She offered to pay for dinner."
+    },
+    {
+        "text": "fix the broken system on time",
+        "prompt": "fail to",
+        "answer": "They failed to fix the broken system on time."
+    },
+    {
+        "text": "carry the heavy bag for her",
+        "prompt": "help to",
+        "answer": "He helped to carry the heavy bag for her."
+    },
+    {
+        "text": "save more money this year",
+        "prompt": "plan to",
+        "answer": "They plan to save more money this year."
+    },
+    {
+        "text": "finish the work before the deadline",
+        "prompt": "promise to",
+        "answer": "She promised to finish the work before the deadline."
+    },
+    {
+        "text": "cooperate with the new policy",
+        "prompt": "refuse to",
+        "answer": "He refused to cooperate with the new policy."
+    },
+    {
+        "text": "be a fair leader",
+        "prompt": "seem to",
+        "answer": "She seems to be a fair leader."
+    },
+    {
+        "text": "report the issue to the manager",
+        "prompt": "threaten to",
+        "answer": "They threatened to report the issue to the manager."
+    },
+    {
+        "text": "book the flights for the team",
+        "prompt": "arrange to",
+        "answer": "She arranged to book the flights for the team."
+    },
+    {
+        "text": "solve the complex math problem",
+        "prompt": "attempt to",
+        "answer": "He attempted to solve the complex math problem."
+    },
+    {
+        "text": "play the guitar",
+        "prompt": "learn to",
+        "answer": "She learned to play the guitar."
+    },
+    {
+        "text": "watch old movies on weekends",
+        "prompt": "like to",
+        "answer": "They like to watch old movies on weekends."
+    },
+    {
+        "text": "spend time with their family",
+        "prompt": "love to",
+        "answer": "She loves to spend time with her family."
+    },
+    {
+        "text": "wake up early in the morning",
+        "prompt": "hate to",
+        "answer": "He hates to wake up early in the morning."
+    },
+    {
+        "text": "drink tea instead of coffee",
+        "prompt": "prefer to",
+        "answer": "They prefer to drink tea instead of coffee."
+    },
+    {
+        "text": "send the email before leaving the office",
+        "prompt": "forget to",
+        "answer": "He forgot to send the email before leaving the office."
+    },
+    {
+        "text": "bring her passport",
+        "prompt": "remember to",
+        "answer": "She remembered to bring her passport."
+    },
+    {
+        "text": "take a break after lunch",
+        "prompt": "want to",
+        "answer": "They want to take a break after lunch."
+    },
+    {
+        "text": "visit the museum",
+        "prompt": "would like to",
+        "answer": "She would like to visit the museum."
+    },
+    {
+        "text": "create a better work environment",
+        "prompt": "mean to",
+        "answer": "They meant to create a better work environment."
+    },
+    {
+        "text": "arrive on time to meetings",
+        "prompt": "tend to",
+        "answer": "He tends to arrive on time to meetings."
+    },
+    {
+        "text": "understand the new programming language",
+        "prompt": "try to",
+        "answer": "She tried to understand the new programming language."
+    },
+    {
+        "text": "help a lost tourist find their way",
+        "prompt": "offer to",
+        "answer": "She offered to help a lost tourist find their way."
+    },
+    {
+        "text": "report a lost phone instead of keeping it",
+        "prompt": "choose to",
+        "answer": "He chose to report a lost phone instead of keeping it."
+    },
+    {
+        "text": "tell a friend the truth about a mistake they made",
+        "prompt": "try to",
+        "answer": "She tried to tell a friend the truth about a mistake they made."
+    },
+    {
+        "text": "ignore workplace gossip about a colleague",
+        "prompt": "decide to",
+        "answer": "He decided to ignore workplace gossip about a colleague."
+    },
+    {
+        "text": "confront a coworker who is taking credit for your work",
+        "prompt": "intend to",
+        "answer": "She intended to confront a coworker who was taking credit for her work."
+    },
+    {
+        "text": "volunteer at a local shelter",
+        "prompt": "plan to",
+        "answer": "They planned to volunteer at a local shelter."
+    },
+    {
+        "text": "leave a generous tip at a restaurant",
+        "prompt": "remember to",
+        "answer": "He remembered to leave a generous tip at a restaurant."
+    },
+    {
+        "text": "say nothing when seeing someone steal from a store",
+        "prompt": "refuse to",
+        "answer": "She refused to say nothing when seeing someone steal from a store."
+    },
+    {
+        "text": "return a lost wallet",
+        "prompt": "decide to",
+        "answer": "She decided to return a lost wallet."
+    },
+    {
+        "text": "help an elderly neighbor with groceries",
+        "prompt": "offer to",
+        "answer": "He offered to help an elderly neighbor with groceries."
+    },
+    {
+        "text": "tell the truth even when it's difficult",
+        "prompt": "try to",
+        "answer": "She tried to tell the truth even when it was difficult."
+    },
+    {
+        "text": "cheat on an important exam",
+        "prompt": "refuse to",
+        "answer": "He refused to cheat on an important exam."
+    },
+    {
+        "text": "donate to charity regularly",
+        "prompt": "plan to",
+        "answer": "They planned to donate to charity regularly."
+    },
+    {
+        "text": "report a serious ethical violation",
+        "prompt": "decide to",
+        "answer": "She decided to report a serious ethical violation."
+    },
+    {
+        "text": "speak up when management ignores complaints",
+        "prompt": "choose to",
+        "answer": "He chose to speak up when management ignored complaints."
+    },
+    {
+        "text": "bribe a government official",
+        "prompt": "refuse to",
+        "answer": "The company refused to bribe a government official."
+    },
+    {
+        "text": "take responsibility for the mistake",
+        "prompt": "fail to",
+        "answer": "The manager failed to take responsibility for the mistake."
+    },
+    {
+        "text": "implement fair hiring practices",
+        "prompt": "promise to",
+        "answer": "The company promised to implement fair hiring practices."
+    },
+    {
+        "text": "give credit to the original author of a report",
+        "prompt": "remember to",
+        "answer": "She remembered to give credit to the original author of a report."
+    },
+    {
+        "text": "share confidential customer data",
+        "prompt": "refuse to",
+        "answer": "He refused to share confidential customer data."
+    },
+    {
+        "text": "speak honestly about a product’s limitations",
+        "prompt": "attempt to",
+        "answer": "The salesperson attempted to speak honestly about a product’s limitations."
+    },
+    {
+        "text": "submit an expense report for personal purchases",
+        "prompt": "forget to",
+        "answer": "He forgot to submit an expense report for personal purchases properly."
+    },
+    {
+        "text": "use AI-generated content without disclosure",
+        "prompt": "mean to",
+        "answer": "They didn’t mean to use AI-generated content without disclosure."
+    },
+    {
+        "text": "speak up when witnessing unfair treatment",
+        "prompt": "promise to",
+        "answer": "She promised to speak up when witnessing unfair treatment."
+    },
+    {
+        "text": "ignore a mistake on an invoice that benefits you",
+        "prompt": "fail to",
+        "answer": "He failed to ignore a mistake on an invoice that benefited him."
+    },
+    {
+        "text": "write report a cybersecurity breach immediately",
+        "answer": "She remembered to report a cybersecurity breach immediately."
+    },
+    {
+        "text": "give misleading information to a customer",
+        "answer": "He refused to give misleading information to a customer."
+    },
+    {
+        "text": "mentor a junior colleague",
+        "answer": "She offered to mentor a junior colleague."
+    },
+    {
+        "text": "correct an invoice error in the company’s favor",
+        "answer": "They chose to correct an invoice error in the company’s favor."
+    },
+    {
+        "text": "use someone else’s design without permission",
+        "answer": "He failed to use someone else’s design with permission."
+    },
+    {
+        "text": "stand up for a colleague being treated unfairly",
+        "answer": "She tried to stand up for a colleague being treated unfairly."
+    },
+    {
+        "text": "leave a restaurant without paying",
+        "answer": "He refused to leave a restaurant without paying."
+    },
+    {
+        "text": "fix a software bug before release",
+        "answer": "The team managed to fix a software bug before release."
+    },
+    {
+        "text": "plagiarize a research paper",
+        "answer": "He decided to plagiarize a research paper."
+    },
+    {
+        "text": "delete negative customer reviews",
+        "answer": "They planned to delete negative customer reviews."
+    },
+    {
+        "text": "lie on a job application",
+        "answer": "She didn’t intend to lie on a job application."
+    },
+    {
+        "text": "let a friend copy your homework",
+        "answer": "He preferred to let a friend copy his homework rather than say no."
+    },
+    {
+        "text": "delay a software update for proper testing",
+        "answer": "The company decided to delay a software update for proper testing."
+    },
+    {
+        "text": "donate leftover food instead of throwing it away",
+        "answer": "They arranged to donate leftover food instead of throwing it away."
+    },
+    {
+        "text": "disclose a conflict of interest",
+        "answer": "He promised to disclose a conflict of interest."
+    }
+]
+}

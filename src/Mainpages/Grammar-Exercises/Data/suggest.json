@@ -1,124 +1,117 @@
 
-[ 
-    {
-      "text": "I'd like to learn how to program.",
-      "prompt": "Suggest",
-      "answer": "I suggest signing up for a course from Udemy.",
-      "topic": "advice"
-    },
-    {
-      "text": "I'm looking for a good restaurant to try this weekend.",
-      "prompt": "Recommend",
-      "answer": "I recommend trying that new Italian place downtown.",
-      "topic": "advice"
-    },
-    {
-      "text": "I don't know whether I should take the new job offer or stay where I am.",
-      "prompt": "Suggest",
-      "answer": "I suggest making a list of pros and cons before deciding.",
-      "topic": "advice"
-    },
-    {
-      "text": "My laptop keeps crashing, and I have an important project due soon.",
-      "prompt": "Offer",
-      "answer": "I can offer you my spare laptop until yours gets fixed.",
-      "topic": "advice"
-    },
-    {
-      "text": "I need to get better at public speaking.",
-      "prompt": "Recommend",
-      "answer": "I recommend joining a local Toastmasters club.",
-      "topic": "advice"
-    },
-    {
-      "text": "I'm really struggling with my workload lately.",
-      "prompt": "Offer",
-      "answer": "I can offer to help you with some of your tasks if you need support.",
-      "topic": "advice"
-    },
-    {
-      "text": "I'm worried that I won't finish my report on time.",
-      "prompt": "Suggest",
-      "answer": "I suggest you let your boss know sooner rather than later.",
-      "topic": "advice"
-    },
-    {
-      "text": "I always feel nervous before an interview.",
-      "prompt": "Suggest",
-      "answer": "I suggest practicing with a friend to build confidence.",
-      "topic": "advice"
-    },
-    {
-      "text": "I don’t know what book to read next.",
-      "prompt": "Recommend",
-      "answer": "I recommend reading 'Atomic Habits'—it's really insightful!",
-      "topic": "advice"
-    },
-    {
-      "text": "I'm thinking about switching careers, but I'm not sure if it's the right move.",
-      "prompt": "Suggest",
-      "answer": "I suggest talking to people in the industry to get a better idea of what to expect.",
-      "topic": "advice"
-    },
-    {
-      "text": "My friend is moving to a new city, and I want to help them settle in.",
-      "prompt": "Offer",
-      "answer": "I can offer to introduce them to some people I know there.",
-      "topic": "advice"
-    },
-    {
-      "text": "I'm feeling really stressed about my upcoming exam.",
-      "prompt": "Suggest",
-      "answer": "I suggest making a study schedule to stay organized.",
-      "topic": "advice"
-    },
-    {
-      "text": "I want to improve my fitness but don’t know where to start.",
-      "prompt": "Recommend",
-      "answer": "I recommend starting with short daily walks and gradually increasing intensity.",
-      "topic": "advice"
-    },
-    {
-      "text": "I forgot to bring my charger, and my phone is about to die.",
-      "prompt": "Offer",
-      "answer": "I can offer you my charger—I have an extra one in my bag.",
-      "topic": "advice"
-    },
-    {
-      "text": "I keep procrastinating on my tasks and never finish things on time.",
-      "prompt": "Suggest",
-      "answer": "I suggest using the Pomodoro technique to stay focused and productive.",
-      "topic": "advice"
-    },
-    {
-      "text": "I think I offended my colleague, but I’m not sure how to fix it.",
-      "prompt": "Recommend",
-      "answer": "I recommend having an honest conversation and apologizing if necessary.",
-      "topic": "advice"
-    },
-    {
-      "text": "I’m planning a trip, but I don’t know where to go.",
-      "prompt": "Recommend",
-      "answer": "I recommend going to Japan — it has a great mix of culture, nature, and technology.",
-      "topic": "advice"
-    },
-    {
-      "text": "I need someone to review my report before I submit it.",
-      "prompt": "Offer",
-      "answer": "I can offer to proofread it for you if you’d like a second opinion.",
-      "topic": "advice"
-    },
-    {
-      "text": "I'm worried that I won't have enough time to complete my project.",
-      "prompt": "Promise",
-      "answer": "I promise to help you with some of the tasks to make it easier.",
-      "topic": "advice"
-    },
-    {
-      "text": "I want to save more money but find it hard to stick to a budget.",
-      "prompt": "Suggest",
-      "answer": "I suggest using a budgeting app to track your expenses.",
-      "topic": "advice"
-    }
-  ]
-  
+[
+  {
+    "text": "I'm having trouble understanding my phone bill.",
+    "prompt": "Suggest",
+    "answer": "I suggest you call Telekom customer service for clarification.",
+    "topic": "telekom"
+  },
+  {
+    "text": "I want to upgrade my internet package.",
+    "prompt": "Suggest",
+    "answer": "I suggest you check Telekom’s website for available plans.",
+    "topic": "telekom"
+  },
+  {
+    "text": "We’re planning on getting a family phone plan.",
+    "prompt": "Suggest",
+    "answer": "I suggest we ask Telekom about their family discounts.",
+    "topic": "telekom"
+  },
+  {
+    "text": "Where can I buy a new SIM card?",
+    "prompt": "Recommend",
+    "answer": "I recommend the Telekom shop at the main station.",
+    "topic": "telekom"
+  },
+  {
+    "text": "We're moving to a new apartment and need internet quickly.",
+    "prompt": "Suggest",
+    "answer": "I suggest you schedule the installation with Telekom as early as possible.",
+    "topic": "telekom"
+  },
+  {
+    "text": "Where can I get help with my mobile data settings?",
+    "prompt": "Suggest",
+    "answer": "I suggest you ask your contact support.",
+    "topic": "telekom"
+  },
+  {
+    "text": "My internet keeps cutting out during meetings.",
+    "prompt": "Suggest",
+    "answer": "I suggest you restart your router and contact Telekom if it continues.",
+    "topic": "telekom"
+  },
+  {
+    "text": "I'm thinking about switching to another provider from One.",
+    "prompt": "Recommend",
+    "answer": "I recommend Telekom.",
+    "topic": "telekom"
+  },
+  {
+    "text": "I'm not sure which mobile plan to choose.",
+    "prompt": "Suggest",
+    "answer": "I suggest you visit a Telekom shop and speak with a representative.",
+    "topic": "telekom"
+  },
+  {
+    "text": "I need a quiet place to talk with a Telekom advisor.",
+    "prompt": "Recommend",
+    "answer": "I recommend the Telekom office at Arena Mall.",
+    "topic": "telekom"
+  },
+  {
+    "text": "The Wi-Fi signal is weak in some rooms.",
+    "prompt": "Suggest",
+    "answer": "I suggest you install a Telekom Wi-Fi extender.",
+    "topic": "telekom"
+  },
+  {
+    "text": "Where should I go to buy a new phone?",
+    "prompt": "Recommend",
+    "answer": "I recommend the Telekom kiosk near Deák Ferenc Square.",
+    "topic": "telekom"
+  },
+  {
+    "text": "I’m confused about my roaming charges.",
+    "prompt": "Suggest",
+    "answer": "I suggest you speak with Telekom support to clarify your bill.",
+    "topic": "telekom"
+  },
+  {
+    "text": "We want to bundle TV and internet services.",
+    "prompt": "Suggest",
+    "answer": "I suggest we look at Telekom’s combo offers.",
+    "topic": "telekom"
+  },
+  {
+    "text": "Where can I pay my Telekom bill in person?",
+    "prompt": "Recommend",
+    "answer": "I recommend the Telekom store on Andrássy Avenue.",
+    "topic": "telekom"
+  },
+  {
+    "text": "I keep getting spam calls.",
+    "prompt": "Suggest",
+    "answer": "I suggest you enable Telekom's call blocking feature.",
+    "topic": "telekom"
+  },
+  {
+    "text": "Where can I return my old Telekom modem?",
+    "prompt": "Recommend",
+    "answer": "I recommend the Telekom customer service point at WestEnd.",
+    "topic": "telekom"
+  },
+  {
+    "text": "I'm not getting SMS notifications from Telekom.",
+    "prompt": "Suggest",
+    "answer": "I suggest you check your settings or call Telekom for support.",
+    "topic": "telekom"
+  },
+  {
+    "text": "We want better internet for streaming and gaming.",
+    "prompt": "Suggest",
+    "answer": "I suggest you upgrade to Telekom’s fiber package.",
+    "topic": "telekom"
+  }
+]

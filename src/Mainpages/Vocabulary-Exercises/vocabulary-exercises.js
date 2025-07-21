@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../../Components/SEO';
-import Sidebar from '../../Components/Sidebar';
 import Breadcrumb from '../../Components/Breadcrumb';
 import vocabulary from '../../Images/vocabulary-focus-1280x470.jpg';
 

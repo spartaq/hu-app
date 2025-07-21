@@ -15,14 +15,31 @@
 
 .agenda-title {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  padding: 10px;
-  font-size: 48px;
-  /*width: 70vw;
-  max-width: 100%;*/ 
+  padding: 0px;
 }
 
+<<<<<<< HEAD
+=======
+.agenda-title h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: orangered;
+  text-align: left; 
+}
+
+
+.agenda-mainimg {
+  width: 100%;
+}
+
+.agenda-mainimg img {
+    width: 100%;
+}
+
+
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 .agenda-languagepoint {
   margin-top: 50px;
   font-size: 30px;
@@ -60,6 +77,20 @@
   margin-top: 50px;
   font-size: 30px;
   font-weight: 600;
+<<<<<<< HEAD
+=======
+  background-color: chocolate;
+  color: white;
+  /*width: 75vw;
+  max-width: 100%;*/
+  text-align: center; 
+}
+
+.agenda-quiz {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 600;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   background-color: purple;
   color: white;
   /*width: 75vw;
@@ -106,8 +137,13 @@
     /*background-color: whitesmoke;*/
     color: black;
     border-radius: 5px;
+<<<<<<< HEAD
     padding: 5px;
     margin: 65px auto auto auto;
+=======
+    padding: 10px;
+    /*margin: auto;*/
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
     height: auto;
     /*max-height: 800px;*/
     overflow: auto;    
@@ -116,11 +152,15 @@
   .agendagrammar h1 {
 font-size: 1.5em;
   }
-.grammarimage img {  
+/*.grammarimage img {  
   width: 100%;
   height: 400px;
   object-fit: cover;
+<<<<<<< HEAD
 }
+=======
+}*/
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
 
   .reading-container {
@@ -132,7 +172,6 @@ font-size: 1.5em;
   .categories-container {
     margin:auto;
     background-color: whitesmoke;
-    /*width:66vw;*/    
     flex-wrap:wrap
   }
 
@@ -189,9 +228,9 @@ font-size: 1.5em;
       overflow: hidden;
     }
 
-    .grammarimage img {
+    /*.grammarimage img {
       height: auto;
-    }
+    }*/
 
     .languagepoint-container {
       display: grid;
@@ -207,7 +246,6 @@ font-size: 1.5em;
     .categories-container {
       margin:auto;
       background-color: transparent;
-      width:75vw;
       flex-wrap: wrap;
     }
   }
@@ -495,7 +533,7 @@ font-size: 1.5em;
   flex-direction: column; /* Stack word bank above text */
   align-items: left;
   gap: 20px;
-  padding: 20px;
+  padding: 5px;
   font-size: 1.4em;
 }
 
@@ -507,27 +545,51 @@ font-size: 1.5em;
   align-items: center;
   background-color: white;
   border: 0px solid black;
+<<<<<<< HEAD
   padding: 10px;
   margin: auto;
   width: 80%; /* Adjust width as needed */
+=======
+  border-radius: 8px;
+  padding: 10px;
+  margin: auto;
+  width: 100%; 
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   min-height: 80px; /* Ensure box doesn't collapse */
 }
 
 .word-bank button {
+<<<<<<< HEAD
   background-color: darkblue;
   color:white;
   border: 0px solid black;
   padding: 10px;
+=======
+  background-color: brown;
+  color:white;
+  border: 0px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 
 .word-bank-button.selected {
   background-color: #d3eafd;
   border-color: #007bff;
+<<<<<<< HEAD
+=======
+  color:black;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 }
 
 .simulated-input {
   display: block;
+<<<<<<< HEAD
   width: 85%;
+=======
+  width: 100%;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   padding: 0.5rem;
   font-size: 1.2rem;
   border: 2px solid #ccc;
@@ -554,9 +616,15 @@ font-size: 1.5em;
   border-bottom: 1px dashed #aaa;
 }
 
+<<<<<<< HEAD
 .sentence-ordering-container {
   background-color: rgba(0, 0, 139, 0.272);
 }
+=======
+/*.sentence-ordering-container {
+  background-color: rgba(0, 0, 139, 0.272);
+}*/
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
 .draggable-word {
   padding: 10px;
@@ -573,7 +641,10 @@ font-size: 1.5em;
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
+<<<<<<< HEAD
   max-width: 900px;
+=======
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   margin:auto;
   padding: 20px;
   background-color: white;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import Breadcrumbs from '../../Components/Breadcrumb.js';
 import SEO from '../../Components/SEO.js';
@@ -65,3 +66,29 @@ const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 };
 
 export default AdjAdv;
+=======
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/adjadvexplanation';
+import mainimage from '../../Images/adjadv.jpg';
+
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "adjadv" },
+];
+
+const Adjadv = () => (
+  <GrammarPageLayout
+    level="B2"
+    title="Adjadv"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Adjadv"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B2"
+  />
+);
+
+export default Adjadv;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c

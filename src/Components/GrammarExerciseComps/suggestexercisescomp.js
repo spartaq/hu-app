@@ -143,7 +143,7 @@ const Suggestexercises = () => {
                 />
               </div>
             </div>
-            <p className="descriptionbox">Complete the sentences below based on the prompts.</p>
+            <p className="descriptionbox">Use "Suggest you/we do" or "Recommend Place" to complete.</p>
             <form className="exercises-form" onSubmit={handleSubmit}>
             <PageCounter currentPage={currentPage} totalPages={totalPages} />
               {displayedSentences.map((sentence, index) => (

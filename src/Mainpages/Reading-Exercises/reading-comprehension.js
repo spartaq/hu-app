@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useParams } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 import SEO from '../../Components/SEO';
 import Readingcomp from './Data/readingcomp';
@@ -14,6 +14,7 @@ import RelatedExercises from '../../Utils/relatedExercises.js';
 
 const ReadingComp1 = () => {
     const [searchParams, setSearchParams] = useSearchParams();
+    const { id } = useParams();
 
     const initialTopic = searchParams.get('topic') || 'all';
     const initialLevel = searchParams.get('level') || 'all';
@@ -162,10 +163,20 @@ console.log("currentTitle:", currentReading?.readingcompTitle);
             </div>
             
             <div className="grammar-container">
-                <div className="exercises-container">
+                <div className="readings-container">
                     
 
-                    {showVocab && (
+
+
+
+                        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
+
+                        {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown /></div>
+
+
+                        {isGridVisible && (
+                            <div className="grammar-display-grid">
+                      {showVocab && (
                         <div className="overlay" onClick={closeVocab}>
                             <div className="transcript-overlay" onClick={(e) => e.stopPropagation()}>
                                 <div className="vocabulary-text">
@@ -182,6 +193,7 @@ console.log("currentTitle:", currentReading?.readingcompTitle);
                             </div>
                         </div>
                     )}
+<<<<<<< HEAD
                         <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
 
                         {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown /></div>
@@ -193,8 +205,11 @@ console.log("currentTitle:", currentReading?.readingcompTitle);
                             data={vocabData}
                             topic={readings[currentReading]?.topic.toLowerCase()}
                             />
+=======
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                             </div>
                         )}
+                        
                         <div className="showagendagrammarbox">Reading</div>
                     <form className="readingform" onSubmit={handleSubmit}>
                         <div className="reading-text">
@@ -229,6 +244,9 @@ console.log("currentTitle:", currentReading?.readingcompTitle);
                                     </Carousel.Item>
                                 ))}
                             </Carousel>
+
+
+
                         </div>
                         <div className="exercisectrl">
                         <button className="checkbtn" onClick={toggleTopicMenu}>☰ Topics</button>

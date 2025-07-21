@@ -8,18 +8,19 @@ import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Video from '../../Components/VideoComps/videocomponent.js';
-import videoData from '../Listening-Exercises/Data/video.json';
+import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
-import VocabularyMatch from '../../Utils/vocabmatch.js';
+import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
 import GapFillExercise from '../../Utils/gapfill.js';
 import jsonData from '../Vocabulary-Exercises/Data/tourismgapfill.json';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/tourismquiz.json';
-import GerundExplanation from '../../Components/GrammarExplanationComps/gerundexplanation.js'
-import GerundExercises from '../../Components/GrammarExerciseComps/gerundexercisescomp.js'
+import SuggestExplanation from '../../Components/GrammarExplanationComps/suggestexplanation.js'
+import SuggestExercises from '../../Components/GrammarExerciseComps/suggestexercisescomp.js'
+import headerimg from '../../Images/budapest-tourism-crowd.jpg';
 
 
 Modal.setAppElement('#root');
@@ -48,24 +49,21 @@ const Tourism = () => {
             <SEO
                 title='Exam Topics - Tourism - English Exam Exercises'
                 description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - New Years Resolutions'
+                name='English Exam Exercises - Tourism'
                 type='article' 
             />
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Tourism</h1> 
-                    <div className="anchor-menu">
-                        <ul>
-                            {menuItems.map((item) => (
-                                <li key={item.id}>
-                                    <a href={`#${item.id}`}>{item.text}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                    <h1 className="mt-2">Tourism</h1>                    
                 </div>
+<<<<<<< HEAD
 
+=======
+                <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div>
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                 <div className="agenda-languagepoint">Language Point</div>
                 
                 
@@ -75,7 +73,7 @@ const Tourism = () => {
 
 
                         <div>
-                        <GerundExplanation /> 
+                        <SuggestExplanation /> 
                         </div>                        
                  
                     </div>
@@ -84,21 +82,19 @@ const Tourism = () => {
 
                    
                         <div className="agenda-display-grid">
-                           <GerundExercises />
+                           <SuggestExercises />
                         </div>
                    
                     </div>
 
                 </div>
                 
-                <div className="agenda-subtitle">Vocabulary</div> 
+                
                 
 
                 <div>
                    
-                <div className="agenda-display-grid">
-                    <VocabularyMatch data={vocabData} topic="tourism" />
-                    </div>
+              <div className="agenda-quiz">Quiz</div>
                     <Quiz quizzesData={quizzesData} /> 
                     
                     </div>

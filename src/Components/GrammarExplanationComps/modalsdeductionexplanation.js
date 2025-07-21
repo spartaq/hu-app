@@ -1,53 +1,42 @@
 import React from 'react';
-
+import '../../CSS/grammarPage.css';
+import { FaBookOpen, FaLightbulb } from 'react-icons/fa';
 
 const ModalsdeductionExplanation = () => {
+  return (
+    <div className="grammar-explanation">
+      <h2><FaBookOpen /> Modals of Deduction</h2>
 
-    return (
-        <div>
+      <p>
+        Modals of deduction are used to express how certain we are about something in the present or past. These modals include <strong>must</strong>, <strong>can't</strong>, <strong>might</strong>, <strong>may</strong>, and <strong>could</strong>.
+      </p>
 
-<div className="grammar-display-grid">
-                            <div className="agendagrammar">
-                            <h2>Modals of Deduction</h2>
+      <div className="example-block">
+        <h3>Present Deduction</h3>
+        <p>We use modal verbs + base verb to talk about what we think is true now.</p>
+        <ul>
+          <li><strong>Must</strong> – We are sure something is true. <br />Example: He <strong>must</strong> be at work. His car is in the parking lot.</li>
+          <li><strong>Can't / Cannot</strong> – We are sure something is not true. <br />Example: She <strong>can’t</strong> be the manager. She’s too young.</li>
+          <li><strong>Might / May / Could</strong> – We think something is possible. <br />Example: They <strong>might</strong> be on holiday, but I’m not sure.</li>
+        </ul>
+      </div>
 
-<h3>Present Deduction</h3>
-<p>We use modal verbs to express how certain we are about something in the present.</p>
-<ul>
-    <li><strong>Must</strong> – We are sure something is true.  
-        <br></br>Example: "He <strong>must</strong> be at work. His car is in the parking lot."
-    </li>
-    <li><strong>Can't / Cannot</strong> – We are sure something is not true.  
-        <br></br>Example: "She <strong>can't</strong> be the manager. She's too young."
-    </li>
-    <li><strong>Might / May / Could</strong> – We think something is possible but are not certain.  
-        <br></br>Example: "They <strong>might</strong> be on holiday, but I'm not sure."
-    </li>
-</ul>
+      <div className="example-block">
+        <h3>Past Deduction</h3>
+        <p>For the past, use modal verbs + <strong>have</strong> + past participle.</p>
+        <ul>
+          <li><strong>Must have</strong> – We are sure something happened. <br />Example: He <strong>must have</strong> forgotten about the meeting.</li>
+          <li><strong>Can't have / Couldn't have</strong> – We are sure something didn’t happen. <br />Example: She <strong>can’t have</strong> finished the report already.</li>
+          <li><strong>Might have / May have / Could have</strong> – We think something was possible. <br />Example: They <strong>might have</strong> missed the train.</li>
+        </ul>
+      </div>
 
-<h3>Past Deduction</h3>
-<p>For deductions about the past, we use modal verbs with <strong>have + past participle</strong>.</p>
-<ul>
-    <li><strong>Must have</strong> – We are sure something happened.  
-        <br></br>Example: "He <strong>must have</strong> forgotten about the meeting."
-    </li>
-    <li><strong>Can't have / Couldn't have</strong> – We are sure something did not happen.  
-        <br></br>Example: "She <strong>can't have</strong> finished the report already."
-    </li>
-    <li><strong>Might have / May have / Could have</strong> – We think something was possible in the past.  
-        <br></br>Example: "They <strong>might have</strong> missed the train."
-    </li>
-</ul>
-
-
-                                     </div>
-                                    
-                                </div>
-
-        
-        
-        
-        </div>
-);
+      <div className="grammar-explanation-text">
+        <h3><FaLightbulb /> Tip</h3>
+        <p>These structures help you sound more natural when making guesses or deductions based on evidence. Use the present form for now, and the "have + past participle" form for the past.</p>
+      </div>
+    </div>
+  );
 };
 
 export default ModalsdeductionExplanation;

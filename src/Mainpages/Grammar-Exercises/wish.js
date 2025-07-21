@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import Breadcrumbs from '../../Components/Breadcrumb';
 import SEO from '../../Components/SEO';
@@ -7,8 +8,14 @@ import exambooks from '../../Images/wish1.jpg';
 import { FaAngleDown } from "react-icons/fa";
 import RelatedExercises from '../../Utils/relatedExercises.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/wishexercisescomp.js';
+=======
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 import GrammarExplanation from '../../Components/GrammarExplanationComps/wishexplanation';
+import mainimage from '../../Images/wish1.jpg';
 
+<<<<<<< HEAD
 const Wish = () => {
   
 const [isGrammarVisible, setIsGrammarVisible] = useState(true);
@@ -67,3 +74,24 @@ const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 };
 
 export default Wish;
+=======
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "wish" },
+];
+
+const Wish = () => (
+  <GrammarPageLayout
+    level="C1"
+    title="Wish"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Wish"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="C1"
+  />
+);
+
+export default Wish;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c

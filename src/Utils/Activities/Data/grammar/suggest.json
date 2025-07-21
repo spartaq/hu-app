@@ -1,0 +1,126 @@
+
+{
+  "sentences":[
+    {
+      "text": "I'd like to learn how to program.",
+      "prompt": "Suggest",
+      "answer": "I suggest signing up for a course from Udemy.",
+      "topic": "advice"
+    },
+    {
+      "text": "I'm looking for a good restaurant to try this weekend.",
+      "prompt": "Recommend",
+      "answer": "I recommend trying that new Italian place downtown.",
+      "topic": "advice"
+    },
+    {
+      "text": "I don't know whether I should take the new job offer or stay where I am.",
+      "prompt": "Suggest",
+      "answer": "I suggest making a list of pros and cons before deciding.",
+      "topic": "advice"
+    },
+    {
+      "text": "My laptop keeps crashing, and I have an important project due soon.",
+      "prompt": "Offer",
+      "answer": "I can offer you my spare laptop until yours gets fixed.",
+      "topic": "advice"
+    },
+    {
+      "text": "I need to get better at public speaking.",
+      "prompt": "Recommend",
+      "answer": "I recommend joining a local Toastmasters club.",
+      "topic": "advice"
+    },
+    {
+      "text": "I'm really struggling with my workload lately.",
+      "prompt": "Offer",
+      "answer": "I can offer to help you with some of your tasks if you need support.",
+      "topic": "advice"
+    },
+    {
+      "text": "I'm worried that I won't finish my report on time.",
+      "prompt": "Suggest",
+      "answer": "I suggest you let your boss know sooner rather than later.",
+      "topic": "advice"
+    },
+    {
+      "text": "I always feel nervous before an interview.",
+      "prompt": "Suggest",
+      "answer": "I suggest practicing with a friend to build confidence.",
+      "topic": "advice"
+    },
+    {
+      "text": "I don’t know what book to read next.",
+      "prompt": "Recommend",
+      "answer": "I recommend reading 'Atomic Habits'—it's really insightful!",
+      "topic": "advice"
+    },
+    {
+      "text": "I'm thinking about switching careers, but I'm not sure if it's the right move.",
+      "prompt": "Suggest",
+      "answer": "I suggest talking to people in the industry to get a better idea of what to expect.",
+      "topic": "advice"
+    },
+    {
+      "text": "My friend is moving to a new city, and I want to help them settle in.",
+      "prompt": "Offer",
+      "answer": "I can offer to introduce them to some people I know there.",
+      "topic": "advice"
+    },
+    {
+      "text": "I'm feeling really stressed about my upcoming exam.",
+      "prompt": "Suggest",
+      "answer": "I suggest making a study schedule to stay organized.",
+      "topic": "advice"
+    },
+    {
+      "text": "I want to improve my fitness but don’t know where to start.",
+      "prompt": "Recommend",
+      "answer": "I recommend starting with short daily walks and gradually increasing intensity.",
+      "topic": "advice"
+    },
+    {
+      "text": "I forgot to bring my charger, and my phone is about to die.",
+      "prompt": "Offer",
+      "answer": "I can offer you my charger—I have an extra one in my bag.",
+      "topic": "advice"
+    },
+    {
+      "text": "I keep procrastinating on my tasks and never finish things on time.",
+      "prompt": "Suggest",
+      "answer": "I suggest using the Pomodoro technique to stay focused and productive.",
+      "topic": "advice"
+    },
+    {
+      "text": "I think I offended my colleague, but I’m not sure how to fix it.",
+      "prompt": "Recommend",
+      "answer": "I recommend having an honest conversation and apologizing if necessary.",
+      "topic": "advice"
+    },
+    {
+      "text": "I’m planning a trip, but I don’t know where to go.",
+      "prompt": "Recommend",
+      "answer": "I recommend going to Japan — it has a great mix of culture, nature, and technology.",
+      "topic": "advice"
+    },
+    {
+      "text": "I need someone to review my report before I submit it.",
+      "prompt": "Offer",
+      "answer": "I can offer to proofread it for you if you’d like a second opinion.",
+      "topic": "advice"
+    },
+    {
+      "text": "I'm worried that I won't have enough time to complete my project.",
+      "prompt": "Promise",
+      "answer": "I promise to help you with some of the tasks to make it easier.",
+      "topic": "advice"
+    },
+    {
+      "text": "I want to save more money but find it hard to stick to a budget.",
+      "prompt": "Suggest",
+      "answer": "I suggest using a budgeting app to track your expenses.",
+      "topic": "advice"
+    }
+  ]
+  
+}

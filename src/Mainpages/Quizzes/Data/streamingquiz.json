@@ -1,0 +1,68 @@
+[
+  {
+    "quiz": 1,
+    "quizTitle": "Fun Facts About TV and Music Streaming",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Netflix started as a DVD rental service before becoming a streaming giant.",
+        "options": ["True", "False"],
+        "answer": "True - Netflix originally mailed DVDs before shifting fully to streaming."
+      },
+      {
+        "id": 2,
+        "question": "Spotify was launched before YouTube.",
+        "options": ["True", "False"],
+        "answer": "False - YouTube launched in 2005, Spotify came later in 2008."
+      },
+      {
+        "id": 3,
+        "question": "Binge-watching a TV series was first popularized by streaming services.",
+        "options": ["True", "False"],
+        "answer": "True - Streaming platforms encouraged binge-watching by releasing whole seasons at once."
+      },
+      {
+        "id": 4,
+        "question": "Apple Music pays more royalties to artists per stream than Spotify.",
+        "options": ["True", "False"],
+        "answer": "True - Apple Music generally pays higher royalties than Spotify."
+      },
+      {
+        "id": 5,
+        "question": "The most-watched streaming event ever was the finale of 'Game of Thrones'.",
+        "options": ["True", "False"],
+        "answer": "False - While very popular, the 'Game of Thrones' finale was mainly on HBO, a cable channel; some streaming records are held by other shows."
+      },
+      {
+        "id": 6,
+        "question": "YouTube Premium offers an ad-free music experience similar to Spotify Premium.",
+        "options": ["True", "False"],
+        "answer": "True - YouTube Premium allows ad-free videos and background music listening."
+      },
+      {
+        "id": 7,
+        "question": "Streaming platforms use complex algorithms to recommend shows and songs tailored to your taste.",
+        "options": ["True", "False"],
+        "answer": "True - Algorithms analyze your viewing/listening habits to suggest content."
+      },
+      {
+        "id": 8,
+        "question": "Most streaming services offer a free subscription tier with no ads.",
+        "options": ["True", "False"],
+        "answer": "False - Free tiers often include ads to generate revenue."
+      },
+      {
+        "id": 9,
+        "question": "The term 'streaming' means downloading a file completely before playing it.",
+        "options": ["True", "False"],
+        "answer": "False - Streaming plays data in real-time without downloading the entire file first."
+      },
+      {
+        "id": 10,
+        "question": "Podcasts are now commonly available on most music streaming platforms.",
+        "options": ["True", "False"],
+        "answer": "True - Platforms like Spotify and Apple Music have large podcast libraries."
+      }
+    ]
+  }
+]

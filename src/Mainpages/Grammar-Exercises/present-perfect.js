@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import Breadcrumbs from '../../Components/Breadcrumb';
 import SEO from '../../Components/SEO';
@@ -67,3 +68,31 @@ const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 };
 
 export default PresentPerfect;
+=======
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/presentperfectexplanation';
+import mainimage from '../../Images/presperf.png';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "presentperfect" },
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "present-perfect" },
+  { label: "Reading", description: "Do this exercise to practice reading and learn new vocabulary.", type: "reading", subtype: "essityaccount" },
+];
+
+const PresentPerfect = () => (
+  <GrammarPageLayout
+    level="B1"
+    title="Present Perfect"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Present Perfect"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B1"
+  />
+);
+
+export default PresentPerfect;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c

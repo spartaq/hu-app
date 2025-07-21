@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import Breadcrumbs from '../../Components/Breadcrumb';
 import SEO from '../../Components/SEO';
@@ -8,9 +9,32 @@ import { FaAngleDown } from "react-icons/fa";
 import RelatedExercises from '../../Utils/relatedExercises.js';
 import GrammarExercises from '../../Components/GrammarExplanationComps/passivebeingexplanation';
 import GrammarExplanation from '../../Components/GrammarExerciseComps/passivebeingexercisescomp';
+=======
+import React from 'react';
+import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/passivebeingexplanation';
+import mainimage from '../../Images/Passivebeing1.jpg';
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
+const sections = [
+  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "passivebeing" },
+];
 
+const Passivebeing = () => (
+  <GrammarPageLayout
+    level="B2"
+    title="Passivebeing"
+    image={mainimage}
+    ExplanationComponent={GrammarExplanation}
+    sections={sections}
+    seoTitle="English Exam Exercises - Passivebeing"
+    seoDescription="A big list of English exam exercises to practice"
+    relatedCategory="grammar-exercises"
+    relatedLevel="B2"
+  />
+);
 
+<<<<<<< HEAD
 const Passivebeing = () => {
   
 const [isGrammarVisible, setIsGrammarVisible] = useState(true);
@@ -74,3 +98,6 @@ const [isGrammarVisible, setIsGrammarVisible] = useState(true);
 export default Passivebeing;
 
 		
+=======
+export default Passivebeing;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c

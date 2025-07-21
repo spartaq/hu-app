@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import SEO from "../../Components/SEO";
 import Breadcrumb from "../../Components/Breadcrumb";
-import Sidebar from "../../Components/Sidebar";
 import reading from "../../Images/reading1-1280x470.jpg";
 import ReadingMenu from "../../Components/Menus/ReadingMenu";
 import readingcomp from "./Data/readingcomp";
@@ -79,7 +78,7 @@ const Readingexercises = () => {
                 </div>
 
                 <div>
-                    <Sidebar />
+                    
                 </div>
             </div>
         </div>

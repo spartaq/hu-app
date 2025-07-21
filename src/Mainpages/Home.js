@@ -1,9 +1,21 @@
-import React from "react";
-import exambooks from '../Images/exam-books.webp'
+import { useEffect } from "react";
+import { useLocation } from 'react-router-dom';
+import exambooks from '../Images/exam-books.webp';
 import Sidebar from '../Components/Sidebar';
 import ActivityFilter from "../Utils/activityFilter.js";
 
-const Home = ({ setFilters = () => {} }) => {  
+const Home = ({ setFilters = () => {} }) => {
+  
+    const location = useLocation();
+
+    useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
 
   return (
     <div>
@@ -19,8 +31,11 @@ const Home = ({ setFilters = () => {} }) => {
              
              </div>
 
-             <div><ActivityFilter/></div>         
-<div><Sidebar/></div>
+              <div id="filter">
+                <ActivityFilter/>
+                </div>  
+
+
 </div>
 
    

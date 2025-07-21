@@ -1,0 +1,172 @@
+{
+  "sentences":[
+  {
+    "text": "Machines are replacing jobs in many industries.",
+    "prompt": "Jobs",
+    "answer": "Jobs are being replaced by machines in many industries.",
+    "topic": "automation"
+  },
+  {
+    "text": "AI systems are answering customer questions online.",
+    "prompt": "Customer questions",
+    "answer": "Customer questions are being answered by AI systems online.",
+    "topic": "automation"
+  },
+  {
+    "text": "Drones are delivering packages in some areas.",
+    "prompt": "Packages",
+    "answer": "Packages are being delivered by drones in some areas.",
+    "topic": "automation"
+  },
+  {
+    "text": "Robots are cleaning floors in office buildings.",
+    "prompt": "Floors",
+    "answer": "Floors are being cleaned by robots in office buildings.",
+    "topic": "automation"
+  },
+  {
+    "text": "Smart assistants are turning lights off automatically.",
+    "prompt": "Lights",
+    "answer": "Lights are being turned off automatically by smart assistants.",
+    "topic": "automation"
+  },
+  {
+    "text": "Facial recognition systems are scanning passengers at airports.",
+    "prompt": "Passengers",
+    "answer": "Passengers are being scanned by facial recognition systems at airports.",
+    "topic": "automation"
+  },
+  {
+    "text": "Companies are using automation to reduce costs.",
+    "prompt": "Automation",
+    "answer": "Automation is being used by companies to reduce costs.",
+    "topic": "automation"
+  },
+  {
+    "text": "Self-checkouts are processing payments without human staff.",
+    "prompt": "Payments",
+    "answer": "Payments are being processed by self-checkouts without human staff.",
+    "topic": "automation"
+  },
+  {
+      "text": "People ignore me, and it doesn't feel good.",
+      "prompt": "Being ignored",
+      "answer": "Being ignored doesn't feel good.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "No one likes it when people lie to them.",
+      "prompt": "No one likes being",
+      "answer": "No one likes being lied to.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "The players love it most when coaches give them the freedom to practice how they want.",
+      "prompt": "What the players love most is being",
+      "answer": "What the players love most is being given the freedom to practice how they want.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "I'm sick of people treating me like a number.",
+      "prompt": "I'm sick of being",
+      "answer": "I'm sick of being treated like a number.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "We talked about the company promoting you.",
+      "prompt": "We talked about your being",
+      "answer": "We talked about your being promoted.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "I hate it when people interrupt me while I'm talking.",
+      "prompt": "I hate being",
+      "answer": "I hate being interrupted while I'm talking.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "She enjoys it when others recognize her efforts.",
+      "prompt": "She enjoys being",
+      "answer": "She enjoys being recognized for her efforts.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "Many employees don't like it when managers criticize them in public.",
+      "prompt": "Many employees don't like being",
+      "answer": "Many employees don't like being criticized in public.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "He appreciated the company awarding him the prize.",
+      "prompt": "He appreciated being",
+      "answer": "He appreciated being awarded the prize.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "She was angry about someone excluding her from the project.",
+      "prompt": "She was angry about being",
+      "answer": "She was angry about being excluded from the project.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "I don't mind people asking me difficult questions.",
+      "prompt": "I don't mind being",
+      "answer": "I don't mind being asked difficult questions.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "He resented people forcing him to work overtime.",
+      "prompt": "He resented being",
+      "answer": "He resented being forced to work overtime.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "They insisted on someone informing them immediately.",
+      "prompt": "They insisted on being",
+      "answer": "They insisted on being informed immediately.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "She felt uncomfortable when people stared at her.",
+      "prompt": "She felt uncomfortable being",
+      "answer": "She felt uncomfortable being stared at.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "We discussed the committee rejecting his proposal.",
+      "prompt": "We discussed his being",
+      "answer": "We discussed his being rejected by the committee.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "He was upset about someone accusing him of stealing.",
+      "prompt": "He was upset about being",
+      "answer": "He was upset about being accused of stealing.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "I regret that the company fired me.",
+      "prompt": "I regret being",
+      "answer": "I regret being fired by the company.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "The team was proud that the company selected them for the project.",
+      "prompt": "The team was proud of being",
+      "answer": "The team was proud of being selected for the project.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "She was frustrated about someone misleading her.",
+      "prompt": "She was frustrated about being",
+      "answer": "She was frustrated about being misled.",
+      "topic": "passive-being"
+    },
+    {
+      "text": "I like when someone gives me clear instructions.",
+      "prompt": "I like being",
+      "answer": "I like being given clear instructions.",
+      "topic": "passive-being"
+    }
+  ]
+}

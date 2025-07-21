@@ -2,7 +2,6 @@ import React from 'react';
 import '../CSS/flashcards.css'
 import { Link } from 'react-router-dom';
 import SEO from '../Components/SEO';
-import Sidebar from '../Components/Sidebar';
 import Breadcrumb from '../Components/Breadcrumb';
 import flashcard from '../Images/flashcard2-1280x470.jpg'
 
@@ -91,7 +90,7 @@ const Flashcards = () => {
 </div>
 <div>
 
- <div><Sidebar/></div>
+
 </div>
 
 </div>
