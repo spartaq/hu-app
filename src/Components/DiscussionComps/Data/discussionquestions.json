@@ -2445,6 +2445,47 @@
   {
     "text": "Have you seen any positive environmental changes in your community? What happened, and who was responsible?",
     "topic": "sustainability"
+  },
+  
+  {
+    "text": "Can you describe a time in your personal life when a small problem turned into a bigger issue? How did you deal with it?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever had to solve a problem while traveling, like missing a flight or losing luggage? What did you do?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What’s a personal conflict you’ve had to resolve recently? What approach helped the most?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever had to make a difficult financial decision? How did you evaluate the options?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Can you think of a time when you had to help a friend or family member solve a personal problem?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What’s the most unexpected situation you’ve faced at home, and how did you handle it?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever faced a health-related issue where you had to make a fast decision? What factors influenced your choice?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What strategies help you stay calm and think clearly during a personal crisis?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever had a misunderstanding with someone close to you? How did you work it out?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What is a mistake you've made in your personal life that taught you a useful lesson?",
+    "topic": "problemsolving"
   },  
   {
     "text": "Have you ever experienced a major tech issue at work or in your personal life? What might have gone wrong, and how do you think it could have been prevented?",
@@ -2457,51 +2498,7 @@
   {
     "text": "In your opinion, how can tech companies improve their processes to avoid common issues or failures?",
     "topic": "problemsolving"
-  },
-  {
-    "text": "Can you think of any societal problems that technology has helped solve? How do you think technology can continue to address these issues?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Have you ever encountered a situation where technology made a societal issue worse instead of better? What do you think could have been done differently?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Can you describe a time when a BI dashboard or report gave misleading information? What might have caused the problem, and how was it solved?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What steps do you usually take when a report or visualization is showing unexpected results?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Have you ever encountered missing or inaccurate data in a BI system? What could be the root causes of such issues?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What strategies do you think are most effective for identifying the source of data inconsistencies in business reports?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "In your experience, how can collaboration between departments help solve BI-related issues faster?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What role does documentation play in solving BI tool or data pipeline problems?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Have you ever had to make a business decision based on incomplete or delayed data? How did you handle it?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What are some common causes of BI dashboard performance issues, and how might they be resolved?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What preventive measures can companies take to avoid recurring BI system failures?",
-    "topic": "problemsolving"
-  },
+  },  
   {
     "text": "Do you believe technology can fully solve major societal issues, like climate change or inequality? Why or why not?",
     "topic": "problemsolving"
