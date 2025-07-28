@@ -121,7 +121,6 @@ import Money from './Mainpages/Topics/money';
 import Cellphones from './Mainpages/Topics/smartphones';
 import Language from './Mainpages/Topics/language';
 import Companypolicy from './Mainpages/Topics/companypolicy';
-<<<<<<< HEAD
 import Videos from './Mainpages/Listening-Exercises/videos';
 import JelenIdoDef from './Mainpages/Hungarian/jelenidodef';
 import JelenIdoIndef from './Mainpages/Hungarian/jelenidoIndef';
@@ -129,7 +128,6 @@ import MultIdo from './Mainpages/Hungarian/multido';
 import HungarianTemplate from './Mainpages/Hungarian/hungarianexercisetemplate';
 import Vannekicomp from './Mainpages/Hungarian/HungarianExerciseComps/vannekiexercisescomp';
 import Vanneki from './Mainpages/Hungarian/vanneki';
-=======
 import StreamingServices from './Mainpages/Topics/streamingServices';
 import HuVerbConjugation from './Mainpages/Hungarian/verbconjugationtable';
 import HuDefIndefExplanation from './Mainpages/Hungarian/defIndefExplanation';
@@ -146,7 +144,6 @@ import Hasonlitas from './Mainpages/Hungarian/hasonlitas';
 import Fokusz from './Mainpages/Hungarian/fokusz';
 import Harmonia from './Mainpages/Hungarian/harmonia';
 import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
 
 
@@ -345,14 +342,10 @@ const router = createBrowserRouter([
             path: 'topics/sidejobs',
             element: <Sidejobs />,
           },
-          {
-<<<<<<< HEAD
-=======
-            path: 'topics/streamingservices',
+          { path: 'topics/streamingservices',
             element: <StreamingServices />,
           },
           {
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             path: 'grammar-exercises',
             element: <GrammarExercises />,
           },
@@ -512,15 +505,10 @@ const router = createBrowserRouter([
             path: 'grammar-exercises/linking-words',
             element: <LinkingWords />,
           },
-          {
-<<<<<<< HEAD
-=======
-            path: 'hungarian',
+          { path: 'hungarian',
             element: <HungarianExercises />,
           },
-          {
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
-            path: 'hungarian/jelenidodef',
+          { path: 'hungarian/jelenidodef',
             element: <JelenIdoDef />,
           },
           {
@@ -531,15 +519,14 @@ const router = createBrowserRouter([
             path: 'hungarian/multido',
             element: <MultIdo />,
           },
-          {
-<<<<<<< HEAD
-            path: 'hungarian/vanneki',
+          { path: 'hungarian/vanneki',
             element: <Vanneki />,
           },
           {
             path: 'hungarian/hungarianexercisetemplate',
             element: <HungarianTemplate />,
-=======
+          },
+          {
             path: 'hungarian/van',
             element: <Van />,
           },
@@ -582,7 +569,6 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/defindefexplanation',
             element: <HuDefIndefExplanation />,
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
           },
           {
             path: 'reading-exercises',
