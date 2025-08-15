@@ -12,16 +12,17 @@ import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/companypolicyquiz.json';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/modalsobligationexplanation.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/modalsobligationexercisescomp.js';
-import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
-import idiomData from "../Vocabulary-Exercises/Data/idioms.json";
-import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
 import ImageCarousel from '../../Utils/imgcarousel.js';
-import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json'
+import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "obligation" },
+];
 
 
 
@@ -68,12 +69,13 @@ const Companypolicy = () => {
                     </div>
 
                     <div>
-
                    
-                        <div className="agenda-display-grid">
-                           <GrammarExercises />
-                        </div>
-                   
+                               <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
                     </div>
 
                 </div>

@@ -77,11 +77,8 @@ const Cellphones = () => {
         {sections.map((section, i) => (
           <div className="bottom-margin" key={i}>
           <ToggleSection  {...section} /> </div>
-        ))}
-                   
-                    
-                   
-                    </div>
+        ))}      
+           </div>
 
                 </div>
                 

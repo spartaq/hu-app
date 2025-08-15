@@ -98,7 +98,7 @@ const Problemsolving = () => {
                 <Video videos={videoData} title="Tech solutions" />
                 
                 <div className="agenda-discussion">Discussion</div>
-                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="problemsolving" />
+                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="4ig" />
             </div>
         </div>
     );

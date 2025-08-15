@@ -16,6 +16,7 @@ import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoin
 import quizPresentPerfectData from "../Utils/Activities/Data/quiz/presentperfectexercisequiz.json";
 import quizSimplePresentData from "../Utils/Activities/Data/quiz/simplepresentexercisequiz.json";
 import quizSimplePastData from "../Utils/Activities/Data/quiz/simplepastexercisequiz.json";
+import quizObligationData from "../Utils/Activities/Data/quiz/modalsObligationExerciseQuiz.json";
 import orderingPresentData from "../Utils/Activities/Data/ordering/wordorder_present.json";
 import orderingPastData from "../Utils/Activities/Data/ordering/wordorder_past.json";
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
@@ -111,6 +112,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return quizSimplePresentData;
             case "simplepast":
               return quizSimplePastData;
+            case "obligation":
+              return quizObligationData;
             case "smartphones":
               return topicExerciseSmartphones;
             default:

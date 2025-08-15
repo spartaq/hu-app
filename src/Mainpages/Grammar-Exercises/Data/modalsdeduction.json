@@ -1,5 +1,125 @@
 [
   {
+    "text": "The CEO's calendar suddenly has overlapping meetings all week.",
+    "prompt": "sync issue",
+    "answer": "It could be a calendar sync issue. / It might have pulled from two systems at once.",
+    "topic": "4igm"
+  },
+  {
+    "text": "A confidential PDF was shared with external contacts.",
+    "prompt": "mislabelled document",
+    "answer": "It must have been mislabelled. / It could have been marked public by mistake.",
+    "topic": "4igm"
+  },
+  {
+    "text": "Several clients didn’t receive the quarterly newsletter.",
+    "prompt": "email filter",
+    "answer": "It might have been caught in spam filters. / It could be a segmentation error.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The CEO's video call dropped twice during the investor briefing.",
+    "prompt": "network instability",
+    "answer": "It must have been network instability. / It might be a firewall setting.",
+    "topic": "4igm"
+  },
+  {
+    "text": "A financial summary in the investor deck is missing three key metrics.",
+    "prompt": "version control issue",
+    "answer": "It could be a version control issue. / Someone might have uploaded the wrong draft.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The system logged the CEO out during a critical approval process.",
+    "prompt": "session timeout",
+    "answer": "It might have been a session timeout. / It could be a security protocol.",
+    "topic": "4igm"
+  },
+  {
+    "text": "One of the KPIs is showing a 300% jump in just two days.",
+    "prompt": "dashboard glitch",
+    "answer": "It could be a dashboard glitch. / It must be a calculation error.",
+    "topic": "4igm"
+  },
+  {
+    "text": "You can't find the CEO’s travel itinerary for next week.",
+    "prompt": "deleted accidentally",
+    "answer": "It might have been deleted accidentally. / It could be saved in a different folder.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The approval request was never received by the legal team.",
+    "prompt": "workflow failure",
+    "answer": "It could have failed in the workflow. / Someone might have removed them from the chain.",
+    "topic": "4igm"
+  },
+  {
+    "text": "An external partner is complaining about not receiving signed documents.",
+    "prompt": "email delay",
+    "answer": "It might be delayed in the email system. / It could have been blocked by their server.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The presentation deck is missing its final slide.",
+    "prompt": "upload issue",
+    "answer": "It might not have been uploaded properly. / It could be in a different version.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The CEO’s LinkedIn post has a broken image.",
+    "prompt": "media upload error",
+    "answer": "It must have been an upload error. / The image link might be outdated.",
+    "topic": "4igm"
+  },
+  {
+    "text": "Your meeting link opens the wrong Zoom room.",
+    "prompt": "link mix-up",
+    "answer": "It could be a link mix-up. / Someone might have reused an old invitation.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The KPI chart looks different from the one shown yesterday.",
+    "prompt": "data refresh",
+    "answer": "It must have refreshed overnight. / It could be using a different data range.",
+    "topic": "4igm"
+  },
+  {
+    "text": "You received a call from a journalist asking about an internal memo.",
+    "prompt": "leak",
+    "answer": "It might have been leaked. / Someone could have forwarded it accidentally.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The CEO’s approval email was never logged in the system.",
+    "prompt": "email parsing error",
+    "answer": "It might be an email parsing error. / It could have been sent from the wrong address.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The CEO’s profile photo was replaced with a placeholder image.",
+    "prompt": "profile update glitch",
+    "answer": "It must have glitched during a profile update. / Someone might have removed it by mistake.",
+    "topic": "4igm"
+  },
+  {
+    "text": "An old task suddenly reappeared on the CEO's to-do list.",
+    "prompt": "task sync bug",
+    "answer": "It might be a sync bug. / It could have been reactivated during an update.",
+    "topic": "4igm"
+  },
+  {
+    "text": "An urgent approval was marked as low priority.",
+    "prompt": "tagging error",
+    "answer": "It could be a tagging error. / Someone might have used the wrong flag.",
+    "topic": "4igm"
+  },
+  {
+    "text": "The CEO's name is missing from the internal directory.",
+    "prompt": "directory sync failure",
+    "answer": "It must be a directory sync failure. / The entry might have been archived accidentally.",
+    "topic": "4igm"
+  },
+  {
     "text": "The dashboard is showing unusually high sales for last week.",
     "prompt": "data error",
     "answer": "It could be a data error. / It might have been a mistake during data entry.",

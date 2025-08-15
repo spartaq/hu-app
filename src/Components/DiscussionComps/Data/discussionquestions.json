@@ -1,4 +1,126 @@
-[{ "text": "Which streaming platforms do you use the most, and why?", "topic": "streaming" },
+[
+  
+  {
+    "text": "What’s your usual first step when something goes wrong in a high-stakes project?",
+    "topic": "4ig"
+  },
+  {
+    "text": "Do you prefer solving problems alone or as part of a team? Why?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s the most challenging problem you’ve had to solve as an assistant?",
+    "topic": "4ig"
+  },
+  {
+    "text": "How do you stay calm and focused when things go off track during a busy day?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s your strategy when you’re missing information but need to take action?",
+    "topic": "4ig"
+  },
+  {
+    "text": "Have you ever had to solve a problem before the CEO even noticed it? What happened?",
+    "topic": "4ig"
+  },
+  {
+    "text": "How do you decide when to escalate a problem versus handling it yourself?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s a tool or app that really helps you solve problems quickly?",
+    "topic": "4ig"
+  },
+  {
+    "text": "Do you think speed or accuracy is more important in problem-solving?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s one thing you’ve learned about problem-solving from working closely with a CEO?",
+    "topic": "4ig"
+  },
+  {
+    "text": "If the CEO were double-booked for two critical meetings, how would you solve it without anyone noticing?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s your secret weapon when everything is falling apart and you only have 10 minutes?",
+    "topic": "4ig"
+  },
+  {
+    "text": "If you had an AI assistant to help solve your daily problems, what would you have it do first?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s the funniest 'solution' you’ve seen someone try that totally failed?",
+    "topic": "4ig"
+  },
+  {
+    "text": "Would you rather deal with a broken calendar, a late investor deck, or a misrouted email to the board?",
+    "topic": "4ig"
+  },
+  {
+    "text": "If solving problems were a game, what level do you think you’re on?",
+    "topic": "4ig"
+  },
+  {
+    "text": "How do you prioritize chaos when everything is marked 'urgent'?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s a small daily problem that makes you feel like a superhero when you solve it?",
+    "topic": "4ig"
+  },
+  {
+    "text": "Do you think working under pressure makes you more creative or just more caffeinated?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s your most common problem-solving phrase — and does it involve coffee?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What do you do when a tech issue hits 5 minutes before a live call with the board?",
+    "topic": "4ig"
+  },
+  {
+    "text": "If you could automate one problem forever, what would it be?",
+    "topic": "4ig"
+  },
+  {
+    "text": "Have you ever solved a problem so smoothly no one even realized there *was* a problem?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s your strategy for handling last-minute requests — fight, flight, or fix-it mode?",
+    "topic": "4ig"
+  },
+  {
+    "text": "Do you think assistants are secretly the best problem-solvers in the company?",
+    "topic": "4ig"
+  },
+  {
+    "text": "If your workday were a movie, what would the title of the plot twist scene be?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s something small you fixed that made a huge difference for the CEO?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What’s a mistake you caught just in time — and how did you feel afterward?",
+    "topic": "4ig"
+  },
+  {
+    "text": "Would you rather have unlimited time or unlimited information when solving a problem?",
+    "topic": "4ig"
+  },
+  {
+    "text": "What advice would you give to someone who panics every time something unexpected happens?",
+    "topic": "4ig"
+  },
+  { "text": "Which streaming platforms do you use the most, and why?", "topic": "streaming" },
   { "text": "How often do you watch movies or TV shows online?", "topic": "streaming" },
   { "text": "Do you prefer binge-watching a series or watching one episode at a time?", "topic": "streaming" },
   { "text": "What was the last show or movie you streamed? Would you recommend it?", "topic": "streaming" },
