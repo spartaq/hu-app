@@ -1,8 +1,108 @@
 [
+<<<<<<< HEAD
+  {
+    "text": "She’s very good ___ working under pressure.",
+    "answer": "at",
+    "topic": ""
+  },
+  {
+    "text": "I’m interested ___ learning more about branding.",
+    "answer": "in",
+    "topic": ""
+  },
+  {
+    "text": "They apologized ___ the confusion.",
+    "answer": "for",
+    "topic": ""
+  },
+  {
+    "text": "He’s responsible ___ managing the sales team.",
+    "answer": "for",
+    "topic": ""
+  },
+  {
+    "text": "She’s afraid ___ making mistakes in English.",
+    "answer": "of",
+    "topic": ""
+  },
+  {
+    "text": "This laptop belongs ___ my colleague.",
+    "answer": "to",
+    "topic": ""
+  },
+  {
+    "text": "We’re not familiar ___ that brand.",
+    "answer": "with",
+    "topic": ""
+  },
+  {
+    "text": "The CEO is angry ___ the delays in production.",
+    "answer": "about",
+    "topic": ""
+  },
+  {
+    "text": "He’s tired ___ hearing the same complaints.",
+    "answer": "of",
+    "topic": ""
+  },
+  {
+    "text": "I’m proud ___ the team’s progress this quarter.",
+    "answer": "of",
+    "topic": ""
+  },
+  {
+    "text": "They succeeded ___ launching the product on time.",
+    "answer": "in",
+    "topic": ""
+  },
+  {
+    "text": "She’s married ___ a Hungarian chef.",
+    "answer": "to",
+    "topic": ""
+  },
+  {
+    "text": "He’s famous ___ his unique marketing style.",
+    "answer": "for",
+    "topic": ""
+  },
+  {
+    "text": "We’re all dependent ___ a stable internet connection.",
+    "answer": "on",
+    "topic": ""
+  },
+  {
+    "text": "Are you aware ___ the risks involved?",
+    "answer": "of",
+    "topic": ""
+  },
+  {
+    "text": "She complained ___ the poor customer service.",
+    "answer": "about",
+    "topic": ""
+  },
+  {
+    "text": "They’re capable ___ handling complex negotiations.",
+    "answer": "of",
+    "topic": ""
+  },
+  {
+    "text": "This software is compatible ___ most operating systems.",
+    "answer": "with",
+    "topic": ""
+  },
+  {
+    "text": "He insisted ___ paying for the meal.",
+    "answer": "on",
+    "topic": ""
+  }
+]
+
+=======
     {
       "text": " ___ the latest company policy, we have to start work at 8am.",
       "answer": "according to", 
       "topic": ""
     }
   ]
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   

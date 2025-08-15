@@ -348,6 +348,166 @@
     "topic": "companypolicy"
   },
   {
+    "text": "Do you think everyone should have a side job these days? Why or why not?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Are side jobs more about passion or money?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Can having a side job make you better at your main job?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it possible to have a successful side job without sacrificing personal time?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "At what point does a side job become a real business?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should companies be supportive of employees having side jobs?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it better to have one stable job or multiple income streams?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do you think some people take on side jobs just to feel more productive?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Can doing too many things at once hurt your creativity or focus?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is it easier to succeed at a side job if it’s related to your main profession?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should schools teach students how to build side businesses?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is turning your hobby into a side job always a good idea?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do side jobs give people more freedom, or just more stress?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Is having a side job a sign of ambition or of financial pressure?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Would society function better if more people had multiple small jobs instead of one full-time job?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "What’s more valuable: free time or extra income?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do you think AI and remote work are making side jobs easier or harder to manage?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Should people keep their side jobs private from their employers?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "Do side jobs affect work-life balance in a positive or negative way?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "In the future, will traditional 9–5 jobs disappear because of the rise in side hustles?",
+    "topic": "sidejobs"
+  },
+  {
+    "text": "What’s the most unusual company policy you’ve ever heard of?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think dress codes at work are necessary?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should employees be allowed to work remotely whenever they want?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it fair for a company to monitor employee internet use?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies have strict social media rules for employees?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "How do you feel about ‘no talking’ policies in offices?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies ban office relationships?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What is your opinion on mandatory unpaid overtime?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you agree with policies that limit personal phone use at work?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies allow pets in the office?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should there be rules about how often employees can take breaks?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it okay for companies to ask employees to always be available after hours?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "How important is a clear vacation policy?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think companies should have rules about political discussions at work?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What kind of attendance policy is fair?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should there be a policy about sharing snacks or food in the workplace?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Is it a good idea for companies to have rules about how desks should look?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "What’s your opinion on policies that require employees to always smile?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Should companies have a policy for mental health days?",
+    "topic": "companypolicy"
+  },
+  {
+    "text": "Do you think company policies are usually made to help workers or control them?",
+    "topic": "companypolicy"
+  },
+  {
     "text": "Can you think of anything worse than McDonald's?",
     "topic": "fastfood"
   },
@@ -2407,6 +2567,47 @@
   {
     "text": "Have you seen any positive environmental changes in your community? What happened, and who was responsible?",
     "topic": "sustainability"
+  },
+  
+  {
+    "text": "Can you describe a time in your personal life when a small problem turned into a bigger issue? How did you deal with it?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever had to solve a problem while traveling, like missing a flight or losing luggage? What did you do?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What’s a personal conflict you’ve had to resolve recently? What approach helped the most?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever had to make a difficult financial decision? How did you evaluate the options?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Can you think of a time when you had to help a friend or family member solve a personal problem?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What’s the most unexpected situation you’ve faced at home, and how did you handle it?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever faced a health-related issue where you had to make a fast decision? What factors influenced your choice?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What strategies help you stay calm and think clearly during a personal crisis?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "Have you ever had a misunderstanding with someone close to you? How did you work it out?",
+    "topic": "problemsolving"
+  },
+  {
+    "text": "What is a mistake you've made in your personal life that taught you a useful lesson?",
+    "topic": "problemsolving"
   },  
   {
     "text": "Have you ever experienced a major tech issue at work or in your personal life? What might have gone wrong, and how do you think it could have been prevented?",
@@ -2419,51 +2620,7 @@
   {
     "text": "In your opinion, how can tech companies improve their processes to avoid common issues or failures?",
     "topic": "problemsolving"
-  },
-  {
-    "text": "Can you think of any societal problems that technology has helped solve? How do you think technology can continue to address these issues?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Have you ever encountered a situation where technology made a societal issue worse instead of better? What do you think could have been done differently?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Can you describe a time when a BI dashboard or report gave misleading information? What might have caused the problem, and how was it solved?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What steps do you usually take when a report or visualization is showing unexpected results?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Have you ever encountered missing or inaccurate data in a BI system? What could be the root causes of such issues?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What strategies do you think are most effective for identifying the source of data inconsistencies in business reports?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "In your experience, how can collaboration between departments help solve BI-related issues faster?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What role does documentation play in solving BI tool or data pipeline problems?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "Have you ever had to make a business decision based on incomplete or delayed data? How did you handle it?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What are some common causes of BI dashboard performance issues, and how might they be resolved?",
-    "topic": "problemsolving"
-  },
-  {
-    "text": "What preventive measures can companies take to avoid recurring BI system failures?",
-    "topic": "problemsolving"
-  },
+  },  
   {
     "text": "Do you believe technology can fully solve major societal issues, like climate change or inequality? Why or why not?",
     "topic": "problemsolving"

@@ -1,5 +1,17 @@
 
 import ExerciseSection from "../Mainpages/Quizzes/exercisesection";
+<<<<<<< HEAD
+import presentQuizData from "../Utils/Data/quiz/jelenidoexercisequiz.json";
+import pastQuizData from "../Utils/Data/quiz/multidoexercisequiz.json";
+import orderingPresentData from "../Utils/Data/ordering/wordorder_present.json";
+import orderingPastData from "../Utils/Data/ordering/wordorder_past.json";
+import vocabBusinessData from "../Utils/Data/vocab/vocab_business.json";
+import vocabTravelData from "../Utils/Data/vocab/vocab_travel.json";
+import vocabMultData from "../Utils/Data/vocab/vocab_mult.json";
+
+
+const ExerciseRouter = ({ type, subtype }) => {
+=======
 import HuJelenIdoDefQuizData from "../Utils/Activities/Data/quiz/jelenidodefexercisequiz.json";
 import HuJelenIdoIndefQuizData from "../Utils/Activities/Data/quiz/jelenidoindefexercisequiz.json";
 import HuMultIdoQuizData from "../Utils/Activities/Data/quiz/multidoexercisequiz.json";
@@ -78,10 +90,19 @@ import topicExerciseSmartphones from "../Utils/Activities/Data/quiz/smartphoneEx
 
 
 const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
     const getDataByType = (type, subtype) => {
       switch (type) {
         case "quiz":
           switch (subtype) {
+<<<<<<< HEAD
+            case "present":
+              return presentQuizData;
+            case "past":
+              return pastQuizData;
+            default:
+              return presentQuizData; // fallback
+=======
             case "jelenidodef":
               return HuJelenIdoDefQuizData;
             case "jelenidoindef":
@@ -118,6 +139,7 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return topicExerciseSmartphones;
             default:
               return HuJelenIdoIndefQuizData; 
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
           }
         case "ordering":
           switch (subtype) {
@@ -125,22 +147,36 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return orderingPresentData;
             case "past":
               return orderingPastData;
+<<<<<<< HEAD
+=======
             case "fokusz":
               return orderingFokuszData;
             case "jelenidoindef":
               return orderingjelenIdoIndef;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             default:
               return orderingPresentData;
           }
         case "vocab":
           switch (subtype) {
+<<<<<<< HEAD
+            case "business":
+              return vocabBusinessData;
+=======
             case "verbs":
               return vocabVerbsData;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             case "travel":
               return vocabTravelData;
               case "mult":
                 return vocabMultData;
             default:
+<<<<<<< HEAD
+              return vocabBusinessData;
+          }
+        default:
+          return null;
+=======
               return vocabVerbsData;
           }
           case "gapfill":
@@ -265,11 +301,19 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
                 }
               default:
                 return null;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       }
     };
   
     const data = getDataByType(type, subtype);
   
+<<<<<<< HEAD
+    if (!data) {
+      return <div>Loading...</div>;
+    }
+  
+    return <ExerciseSection type={type} data={data} />;
+=======
       if (
         (type === "quiz" && (!data || !Array.isArray(data.questions))) ||
         (type === "ordering" && (!data || !Array.isArray(data))) ||
@@ -285,6 +329,7 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
 
   
     return <ExerciseSection type={type} data={data} id={subtype} scrollTargetRef={scrollTargetRef} />;
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   };
   
   export default ExerciseRouter;

@@ -106,7 +106,11 @@ module.exports = [
       "title": "First Conditional",
       "category": "grammar-exercises",
       "subtitle": "If I do, I will do",
+<<<<<<< HEAD
+      "level":"B2",
+=======
       "level":"B1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "time": "60 min",
       "description": "Exercises to practice the first conditional",
       "image": "/Images/firstcond1.jpg"
@@ -116,7 +120,11 @@ module.exports = [
       "title": "First Conditional (Prompt)",
       "category": "grammar-exercises",
       "subtitle": "If I do, I will do",
+<<<<<<< HEAD
+      "level":"B2",
+=======
       "level":"B1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "time": "60 min",
       "description": "Exercises to practice the first conditional with a prompt",
       "image": "/Images/firstcondprod1.jpg"
@@ -276,7 +284,11 @@ module.exports = [
         "title": "Unless",
       "category": "grammar-exercises",
       "subtitle": "I won't do it unless",
+<<<<<<< HEAD
+      "level": "B1",
+=======
       "level": "B2",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "30 min",
         "description": "Discuss sports experiences while practicing the present perfect tense.",
         "image": "/Images/unless1.jpg"
@@ -306,7 +318,11 @@ module.exports = [
         "title": "Wishes and Regrets",
       "category": "grammar-exercises",
       "subtitle": "I wish I was, I wish I had done",
+<<<<<<< HEAD
+      "level": "B1",
+=======
       "level": "C1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "45 min",
         "description": "A lesson to assess students' understanding of various tenses.",
         "image": "/Images/wish1.jpg"
@@ -316,7 +332,11 @@ module.exports = [
         "title": "Comparison",
       "category": "grammar-exercises",
       "subtitle": "bigger, more interesting",
+<<<<<<< HEAD
+      "level": "B2",
+=======
       "level": "A2",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "60 min",
         "description": "Discuss the air traffic industry and aviation terminology.",
         "image": "/Images/comparison1.jpg"
@@ -366,7 +386,11 @@ module.exports = [
         "title": "Collocations",
       "category": "grammar-exercises",
       "subtitle": "highly recommended",
+<<<<<<< HEAD
+      "level": "B2",
+=======
       "level": "C1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "60 min",
         "description": "Words that always go together.",
         "image": "/Images/collocations1.webp"
@@ -376,7 +400,11 @@ module.exports = [
         "title": "Linking Words",
       "category": "grammar-exercises",
       "subtitle": "even though, in addition to",
+<<<<<<< HEAD
+      "level": "B2",
+=======
       "level": "C1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "60 min",
         "description": "Words that join ideas.",
         "image": "/Images/linkingwords1.jpg"
@@ -396,7 +424,11 @@ module.exports = [
         "title": "Jelen Idő - Határozott (Simple Present - Definite conjugation)",
       "category": "hungarian",
       "subtitle": "megyek, lakom",
+<<<<<<< HEAD
+      "level": "HU",
+=======
       "level": "HU1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "60 min",
         "description": "Jelen Idő - Simple present tense.",
         "image": "/Images/jelenido1.jpg"
@@ -406,7 +438,11 @@ module.exports = [
         "title": "Jelen Idő - Általános (Simple Present - General conjugation)",
       "category": "hungarian",
       "subtitle": "megyek, lakom",
+<<<<<<< HEAD
+      "level": "HU",
+=======
       "level": "HU1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "60 min",
         "description": "Jelen Idő - Simple present tense.",
         "image": "/Images/jelenido1.jpg"
@@ -416,12 +452,23 @@ module.exports = [
         "title": "Mult Idő (Simple Past)",
       "category": "hungarian",
       "subtitle": "mentem, laktam",
+<<<<<<< HEAD
+      "level": "HU",
+=======
       "level": "HU1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "60 min",
         "description": "Mult Idő - Simple past tense.",
         "image": "/Images/jelenido1.jpg"
       },    
       {
+<<<<<<< HEAD
+        "id": "vanneki",
+        "title": "Van/Neki van (There is,There are/have)",
+      "category": "hungarian",
+      "subtitle": "van, nekem van",
+      "level": "HU",
+=======
         "id": "van",
         "title": "Van (There is, There are)",
       "category": "hungarian",
@@ -437,11 +484,23 @@ module.exports = [
       "category": "hungarian",
       "subtitle": "nekem van, neki van",
       "level": "HU1",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
         "time": "60 min",
         "description": "Van/Neki van - There is/have (possession)",
         "image": "/Images/jelenido1.jpg"
       },        
       {
+<<<<<<< HEAD
+        "id": "hungarianexercisetemplate",
+        "title": "Hungarian Template",
+      "category": "hungarian",
+      "subtitle": "test",
+      "level": "HU",
+        "time": "60 min",
+        "description": "Template.",
+        "image": "/Images/jelenido1.jpg"
+      },                 
+=======
         "id": "jovoido",
         "title": "Jövő Idő (Future)",
       "category": "hungarian",
@@ -511,6 +570,7 @@ module.exports = [
         "description": "Magánhangzó Harmónia (Vowel Harmony)",
         "image": "/Images/jelenido1.jpg"
       },                     
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       {
         "id": "phrasal-verbs",
         "title": "Phrasal Verbs",
@@ -520,6 +580,298 @@ module.exports = [
         "time": "60 min",
         "description": "Large collection of phrasal verbs sorted by category.",
         "image": "/Images/phrasalverbs1.jpg"
+<<<<<<< HEAD
+      },
+      {
+        "id": "idioms",
+        "title": "Idioms",
+      "category": "vocabulary-exercises",
+      "subtitle": "when in Rome",
+      "level": "B2",
+        "time": "60 min",
+        "description": "Large collection of idioms sorted by category.",
+        "image": "/Images/idioms1.jpg"
+      },
+      {
+          "id": "reading1",
+          "title": "Parents at a Football Match",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
+          "time": "60 min",
+          "description": "A dialogue of parents talking at a football match.",
+        },
+        {
+          "id": "reading2",
+          "title": "Discussing Yesterday's Activities",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
+          "time": "60 min",
+          "description": "Another reading for comprehension practice.",
+        },
+        {
+          "id": "reading3",
+          "title": "Talking About Your Children",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
+          "time": "60 min",
+          "description": "A conversation focused on discussing children and parenting.",
+        },
+        {
+          "id": "reading4",
+          "title": "A Meeting with a Boss",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
+          "time": "60 min",
+          "description": "A reading about an employee meeting with their boss.",
+        },
+        {
+          "id": "reading5",
+          "title": "A Meeting with a Distributor",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "A2",
+          "time": "60 min",
+          "description": "A business meeting between a company and a distributor.",
+        },
+        {
+          "id": "reading6",
+          "title": "Following Up on an Order",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B1",
+          "time": "60 min",
+          "description": "A conversation about checking the status of a recent order.",
+        },
+        {
+          "id": "reading7",
+          "title": "Quarterly Sales Review",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B1",
+          "time": "60 min",
+          "description": "A business review discussing sales figures from the last quarter.",
+        },
+        {
+          "id": "reading8",
+          "title": "Caffeine: The Workplace Drug of Choice",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
+          "time": "60 min",
+          "description": "An article exploring caffeine consumption and its role in office culture.",
+        },
+        {
+          "id": "reading9",
+          "title": "Plans Are Stupid",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
+          "time": "60 min",
+          "description": "A reading that challenges the value of detailed plans in fast-paced work environments.",
+        },
+        {
+          "id": "reading10",
+          "title": "Resolutions",
+      "category": "reading-exercises",
+      "subtitle": "am, is, are",
+      "level": "B2",
+          "time": "60 min",
+          "description": "A discussion on personal and professional New Year’s resolutions.",
+        },
+        {
+          "id": "reading11",
+          "title": "Pets",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
+          "time": "60 min",
+          "description": "A text exploring the role of pets in people's lives and work-from-home culture.",
+        },
+        {
+          "id": "reading12",
+          "title": "Breaking Bad Habits",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
+          "time": "60 min",
+          "description": "Strategies and challenges related to overcoming workplace and personal habits.",
+        },
+        {
+          "id": "reading13",
+          "title": "Chat Productivity",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
+          "time": "60 min",
+          "description": "An article discussing how workplace chat tools impact productivity.",
+        },
+        {
+          "id": "reading14",
+          "title": "App Fatigue",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
+          "time": "60 min",
+          "description": "Exploring the downsides of using too many productivity and communication apps.",
+        },
+        {
+          "id": "reading15",
+          "title": "Self Service Society",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "B2",
+          "time": "60 min",
+          "description": "A reading about how automation and self-service are changing consumer behavior.",
+        },
+        {
+          "id": "reading16",
+          "title": "Self Service Checkout Reddit",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A Reddit discussion analyzing the pros and cons of self-service checkouts.",
+        },
+        {
+          "id": "reading17",
+          "title": "Types of People in Tech",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "An exploration of common personality types found in the tech industry.",
+        },
+        {
+          "id": "reading18",
+          "title": "Types of Developers",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A lighthearted yet insightful look at different developer archetypes.",
+        },
+        {
+          "id": "reading19",
+          "title": "Planned Obsolescence and the Quality of Goods",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A critical examination of how products are intentionally designed to have a limited lifespan.",
+        },
+        {
+          "id": "reading20",
+          "title": "Too Many Choices: A Problem That Can Paralyze",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A reading on how excessive choices can lead to stress and indecision.",
+        },
+        {
+          "id": "reading21",
+          "title": "Are Dogs Smarter Than Cats? Science Has an Answer",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A scientific look at the intelligence of dogs vs. cats.",
+        },
+        {
+          "id": "reading22",
+          "title": "Recommended Steps per Day by Age",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A health-focused article breaking down ideal daily step counts across age groups.",
+        },
+        {
+          "id": "reading23",
+          "title": "Neighbor Issues",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "Common problems people face with their neighbors and possible solutions.",
+        },
+        {
+          "id": "reading24",
+          "title": "Utensils Around the World",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "An article on cultural differences in eating utensils and traditions.",
+        },
+        {
+          "id": "reading25",
+          "title": "Stereotypes About Tech Workers",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A critical look at the common stereotypes surrounding tech professionals.",
+        },
+        {
+          "id": "reading26",
+          "title": "Neighbor Conflicts and Etiquette",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "How to handle and avoid conflicts with neighbors through etiquette and communication.",
+        },
+        {
+          "id": "reading27",
+          "title": "Plane Crashes: Perception vs. Reality",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A comparison between public perception and actual statistics about air travel safety.",
+        },
+        {
+          "id": "reading28",
+          "title": "Sports Hate",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "A discussion about rivalries and why some fans love to hate certain teams.",
+        },
+        {
+          "id": "reading29",
+          "title": "Extreme Weather Experiences",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "Personal stories and reflections on living through extreme weather events.",
+        },
+        {
+          "id": "reading30",
+          "title": "Education",
+      "category": "reading-exercises",
+      "subtitle": "",
+      "level": "C1",
+          "time": "60 min",
+          "description": "An analytical look at global education systems and training in the workplace.",
+        },
+        {
+          "id": "reading31",
+          "title": "Changing Food Culture",
+          "category": "reading-exercises",
+          "subtitle": "",
+          "level": "C1",
+          "time": "60 min",
+          "description": "A reading on how modern life and globalization are transforming eating habits.",
+        },
+=======
       },
       {
         "id": "idioms",
@@ -819,6 +1171,7 @@ module.exports = [
         "time": "60 min",
         "description": "A reading on why a bakery was not a good business investment."
       },
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       {
         "id": "vocabulary-quizzes",
         "title": "Quizzes",
@@ -830,6 +1183,27 @@ module.exports = [
         "image": "/Images/quiz1.jpg"
       },
       {
+<<<<<<< HEAD
+        "id": "video1",
+        "title": "Create Your Own Words",
+        "category": "listening-exercises",
+        "subtitle": "",
+        "level": "B2",
+        "time": "60 min",
+        "description": "A video discussing the need to create your own words.",
+        "image": "/Images/createwords1.jpg"
+      },
+      {
+        "id": "video2",
+        "title": "Animal Communication and AI",
+        "category": "listening-exercises",
+        "subtitle": "",
+        "level": "B2",
+        "time": "60 min",
+        "description": "A video discussing using AI to talk to animals.",
+        "image": "/Images/animalAI.png"
+      },
+=======
           "id": "create-your-own-words",
           "title": "Create Your Own Words",
           "category": "videos",
@@ -1249,6 +1623,7 @@ module.exports = [
           "description": "An educational series on how artificial intelligence is transforming modern education.",
           "image": "/Images/ai-school.jpg"
         },
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       {
         "id": "b2-adj-flashcards",
         "title": "Flashcards",

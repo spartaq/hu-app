@@ -1,5 +1,17 @@
 module.exports = [
   
+<<<<<<< HEAD
+  {
+    "id": "sidejobs",
+    "title": "Side Jobs",
+    "subtitle": "Grammar Review",
+    "category": "Business",
+    "level": "B2",
+    "time": "45 min",
+    "description": "Talk about working a side job.",
+    "image": "/Images/homebakery2.png"
+  },
+=======
     {
       "id": "streamingServices",
       "title": "Streaming Services",
@@ -21,6 +33,7 @@ module.exports = [
       "description": "Talk about working a side job.",
       "image": "/Images/homebakery2.png"
     },
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
     {
       "id": "companypolicy",
       "title": "Company Policy",
@@ -35,7 +48,11 @@ module.exports = [
       "id": "language",
       "title": "Create Your Own Words",
       "subtitle": "###",
+<<<<<<< HEAD
+      "category": "Business",
+=======
       "category": "General",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "level": "B2",
       "time": "45 min",
       "description": "A lexicographer teaches you how to create your own words in English.",
@@ -65,7 +82,11 @@ module.exports = [
       "id": "money",
       "title": "Money Motivation - ###",
       "subtitle": "###",
+<<<<<<< HEAD
+      "category": "Business",
+=======
       "category": "General",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "level": "B2",
       "time": "60 min",
       "description": "Discuss what motivates people financially and explore related vocabulary.",
@@ -135,7 +156,11 @@ module.exports = [
       "id": "chatplatforms",
       "title": "Chat Platforms",
       "subtitle": "So and Enough",
+<<<<<<< HEAD
+      "category": "Business",
+=======
       "category": "General",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "level": "B2",
       "time": "60 min",
       "description": "Discuss chat platforms while learning how to use 'so' and 'enough'.",
@@ -155,7 +180,11 @@ module.exports = [
       "id": "quality",
       "title": "Quality",
       "subtitle": "Comparison",
+<<<<<<< HEAD
+      "category": "Business",
+=======
       "category": "General",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "level": "B2",
       "time": "60 min",
       "description": "Compare quality standards in various industries.",

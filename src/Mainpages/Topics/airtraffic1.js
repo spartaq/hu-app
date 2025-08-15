@@ -12,8 +12,8 @@ import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import GrammarExercises from '../../Components/GrammarExerciseComps/adjadvexercisescomp.js';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/adjadvexplanation.js';
+import SecondconditionalExercises from '../../Components/GrammarExerciseComps/secondconditionalexercisescomp.js';
+import SecondcondExplanation from '../../Components/GrammarExplanationComps/secondcondexplanation.js';
 
 
 Modal.setAppElement('#root');

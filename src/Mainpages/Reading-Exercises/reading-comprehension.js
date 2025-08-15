@@ -193,6 +193,20 @@ console.log("currentTitle:", currentReading?.readingcompTitle);
                             </div>
                         </div>
                     )}
+<<<<<<< HEAD
+                        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
+
+                        {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown /></div>
+
+
+                        {isGridVisible && (
+                            <div className="grammar-display-grid">
+                            <VocabularyMatch
+                            data={vocabData}
+                            topic={readings[currentReading]?.topic.toLowerCase()}
+                            />
+=======
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                             </div>
                         )}
                         

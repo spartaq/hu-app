@@ -1,73 +1,66 @@
 [{
-    "quiz": 1,
-    "quizTitle": "Myths About Education",
-    "questions": [
-      {
-        "id": 1,
-        "question": "Students who perform poorly in school are not as intelligent as those who perform well.",
-        "options": ["True", "False"],
-        "answer": "False - A student's performance in school can be influenced by many factors such as environment, teaching methods, and personal circumstances. Intelligence is not solely determined by school grades."
-      },
-      {
-        "id": 2,
-        "question": "Online learning is less effective than traditional classroom learning.",
-        "options": ["True", "False"],
-        "answer": "False - Online learning can be just as effective as traditional learning if designed properly. Many studies show that online learning, when used effectively, can offer flexibility and access to resources that can enhance learning."
-      },
-      {
-        "id": 3,
-        "question": "Adults are not capable of learning new skills effectively.",
-        "options": ["True", "False"],
-        "answer": "False - Adults can learn new skills effectively, and many continue to do so throughout their careers. In fact, lifelong learning is important for personal and professional growth."
-      },
-      {
-        "id": 4,
-        "question": "The most successful students are always the quiet ones who listen more than they speak.",
-        "options": ["True", "False"],
-        "answer": "False - Success in education is not determined by how much a student talks, but by engagement, critical thinking, and collaboration. Different students succeed in different ways."
-      },
-      {
-        "id": 5,
-        "question": "You need to memorize information to learn it effectively.",
-        "options": ["True", "False"],
-        "answer": "False - Active learning, such as understanding concepts and applying them, is more effective than rote memorization. Critical thinking is key to true understanding."
-      },
-      {
-        "id": 6,
-        "question": "Learning styles (like visual, auditory, kinesthetic) greatly influence how well a student learns.",
-        "options": ["True", "False"],
-        "answer": "False - While people have different preferences, research suggests that tailoring lessons strictly to a student's learning style doesn't significantly improve learning outcomes. A balanced approach works best."
-      },
-      {
-        "id": 7,
-        "question": "Formal classroom training is the most effective way to upskill employees in the workplace.",
-        "options": ["True", "False"],
-        "answer": "False - While formal training can be helpful, many employees learn more effectively through hands-on experiences, mentorship, or self-directed learning rather than traditional classroom sessions."
-      },
-      {
-        "id": 8,
-        "question": "The best way to ensure employees learn is to assign them a specific learning path with set deadlines.",
-        "options": ["True", "False"],
-        "answer": "False - While structure can help, overly rigid learning paths can hinder creativity and reduce engagement. Employees often learn best when they can tailor their learning to their interests and needs."
-      },
-      {
-        "id": 9,
-        "question": "Employees should be expected to learn new skills on their own without the need for external resources or support.",
-        "options": ["True", "False"],
-        "answer": "False - While self-learning is valuable, it’s important for organizations to provide resources, mentorship, and support to ensure employees can effectively develop new skills."
-      },
-      {
-        "id": 10,
-        "question": "Employees who have been with the company for many years are less open to learning new things than newer employees.",
-        "options": ["True", "False"],
-        "answer": "False - Long-term employees often bring valuable experience and institutional knowledge. Many are eager to learn and adapt, especially if the learning aligns with their personal growth or career goals."
-      },
-      {
-        "id": 11,
-        "question": "The best way to learn in a workplace environment is by making mistakes and learning from them, even if the mistakes are costly.",
-        "options": ["True", "False"],
-        "answer": "False - While mistakes can be valuable learning opportunities, there should be a balance. Allowing mistakes that are too costly or damaging can harm the organization and undermine confidence."
-      }
-    ]
-  }]
-  
+  "quiz": 1,
+  "quizTitle": "Myths About Branding",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Branding is just about having a logo and a catchy slogan.",
+      "options": ["True", "False"],
+      "answer": "False - Branding goes far beyond logos and slogans. It encompasses a company's identity, values, tone, customer experience, and emotional connection with its audience."
+    },
+    {
+      "id": 2,
+      "question": "Only large companies need to worry about branding.",
+      "options": ["True", "False"],
+      "answer": "False - Branding is important for businesses of all sizes. Even small companies and individuals benefit from a clear, consistent brand identity that builds trust and recognition."
+    },
+    {
+      "id": 3,
+      "question": "A strong product will sell itself—branding is unnecessary.",
+      "options": ["True", "False"],
+      "answer": "False - While product quality is crucial, branding plays a key role in how a product is perceived, remembered, and differentiated from competitors."
+    },
+    {
+      "id": 4,
+      "question": "Once you’ve created a brand, it should never change.",
+      "options": ["True", "False"],
+      "answer": "False - Brands evolve over time to stay relevant, respond to market changes, and reflect updated values or audiences. Rebranding can be a strategic move."
+    },
+    {
+      "id": 5,
+      "question": "Branding is only important for consumer-facing companies.",
+      "options": ["True", "False"],
+      "answer": "False - Business-to-business (B2B) companies also benefit from strong branding, which helps build trust, credibility, and loyalty with clients and partners."
+    },
+    {
+      "id": 6,
+      "question": "A good logo guarantees a successful brand.",
+      "options": ["True", "False"],
+      "answer": "False - A logo is just one part of a brand. Successful branding also requires strategy, storytelling, consistent messaging, and a strong customer experience."
+    },
+    {
+      "id": 7,
+      "question": "Branding is a one-time project done during a company launch.",
+      "options": ["True", "False"],
+      "answer": "False - Branding is an ongoing effort. It must be maintained and reinforced across all touchpoints to ensure consistency and relevance."
+    },
+    {
+      "id": 8,
+      "question": "Your brand is what you say it is.",
+      "options": ["True", "False"],
+      "answer": "False - Your brand is ultimately defined by how your audience perceives you. Branding efforts help influence that perception, but it’s shaped through experience and reputation."
+    },
+    {
+      "id": 9,
+      "question": "Visual consistency is more important than emotional impact in branding.",
+      "options": ["True", "False"],
+      "answer": "False - Both are important, but emotional connection often drives loyalty and long-term success. A brand that resonates emotionally creates stronger relationships."
+    },
+    {
+      "id": 10,
+      "question": "You don’t need branding if you’re not selling a product.",
+      "options": ["True", "False"],
+      "answer": "False - Whether you're selling a product, service, or idea—or building a personal brand—branding helps you stand out and communicate your value clearly."
+    }
+  ]
+}]

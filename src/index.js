@@ -121,6 +121,13 @@ import Money from './Mainpages/Topics/money';
 import Cellphones from './Mainpages/Topics/smartphones';
 import Language from './Mainpages/Topics/language';
 import Companypolicy from './Mainpages/Topics/companypolicy';
+import Videos from './Mainpages/Listening-Exercises/videos';
+import JelenIdoDef from './Mainpages/Hungarian/jelenidodef';
+import JelenIdoIndef from './Mainpages/Hungarian/jelenidoIndef';
+import MultIdo from './Mainpages/Hungarian/multido';
+import HungarianTemplate from './Mainpages/Hungarian/hungarianexercisetemplate';
+import Vannekicomp from './Mainpages/Hungarian/HungarianExerciseComps/vannekiexercisescomp';
+import Vanneki from './Mainpages/Hungarian/vanneki';
 import StreamingServices from './Mainpages/Topics/streamingServices';
 import HuVerbConjugation from './Mainpages/Hungarian/verbconjugationtable';
 import HuDefIndefExplanation from './Mainpages/Hungarian/defIndefExplanation';
@@ -335,8 +342,7 @@ const router = createBrowserRouter([
             path: 'topics/sidejobs',
             element: <Sidejobs />,
           },
-          {
-            path: 'topics/streamingservices',
+          { path: 'topics/streamingservices',
             element: <StreamingServices />,
           },
           {
@@ -499,12 +505,10 @@ const router = createBrowserRouter([
             path: 'grammar-exercises/linking-words',
             element: <LinkingWords />,
           },
-          {
-            path: 'hungarian',
+          { path: 'hungarian',
             element: <HungarianExercises />,
           },
-          {
-            path: 'hungarian/jelenidodef',
+          { path: 'hungarian/jelenidodef',
             element: <JelenIdoDef />,
           },
           {
@@ -514,6 +518,13 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/multido',
             element: <MultIdo />,
+          },
+          { path: 'hungarian/vanneki',
+            element: <Vanneki />,
+          },
+          {
+            path: 'hungarian/hungarianexercisetemplate',
+            element: <HungarianTemplate />,
           },
           {
             path: 'hungarian/van',

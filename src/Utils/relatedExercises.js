@@ -3,8 +3,12 @@ import { FaClock, FaGraduationCap, FaBook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import topics from "../Mainpages/Data/activitylist.js";
 import readingData from "../Mainpages/Reading-Exercises/Data/readingcomp.js";
+<<<<<<< HEAD
+import videoData from "../Mainpages/Listening-Exercises/Data/video.json";
+=======
 import videoData from "../Mainpages/Videos/Data/video.json";
 import ScrollToTop from "../Components/ScrollToTop.js";
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
 
 const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", limit = 3 }) => {
   const levelColors = {
@@ -13,8 +17,12 @@ const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", li
     B1: "goldenrod",
     B2: "orangered",
     C1: "crimson",
+<<<<<<< HEAD
+    HU: "purple",
+=======
     HU1: "purple",
     HU2: "darkred",
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   };
 
   const skillColors = {
@@ -27,6 +35,28 @@ const RelatedExercises = ({ currentCategory, currentLevel, currentTitle = "", li
     "hungarian": "green",
   };
 
+<<<<<<< HEAD
+  const relatedTopics = topics
+    .filter((topic) => {
+      if (topic.category !== currentCategory || topic.level !== currentLevel || !topic.title) {
+        return false;
+      }
+
+      // Try to find a matching reading or video item for comparison
+      const isReading = topic.category === "reading-exercises";
+      const isListening = topic.category === "listening-exercises";
+      const matchTitle = isReading
+        ? readingData.find((r) => r.readingcompTitle === topic.title)
+        : isListening
+        ? videoData.find((v) => v.title === topic.title)
+        : null;
+
+      const topicTitle = matchTitle?.title || matchTitle?.readingcompTitle || topic.title;
+      return topicTitle !== currentTitle;
+    })
+    .slice(0, limit);
+
+=======
   // Step 1: Filter topics by category, level, and must have title
 const filteredTopics = topics.filter(
   
@@ -54,6 +84,7 @@ if (currentIndex === -1) {
 }
  console.log("Current Title:", currentTitle);
 console.log("Current Index in filteredTopics:", currentIndex);
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   return (
     <div className="related-exercises">
       <p>Try these activities next</p>
@@ -80,10 +111,14 @@ console.log("Current Index in filteredTopics:", currentIndex);
 
           return (
             <li key={topic.id}>
+<<<<<<< HEAD
+              <Link to={destination} className="topics-box-link">
+=======
                 <ScrollToTop />
 
               <Link to={destination} className="topics-box-link">
               
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                 <div className="topics-box">
                   <div
                     className="topics-box-ribbon"
@@ -121,7 +156,10 @@ console.log("Current Index in filteredTopics:", currentIndex);
           );
         })}
       </ul>
+<<<<<<< HEAD
+=======
       
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       <div className="related-exercises-footer">
         <Link to="/#filter" className="see-all-btn">
           See all exercises

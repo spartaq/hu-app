@@ -1,4 +1,6 @@
 module.exports = [
+<<<<<<< HEAD
+=======
 {
   "readingcompTitle": "Cell Phones Bad",
   "topic": "event disasters",
@@ -444,6 +446,7 @@ module.exports = [
 },
 
 
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   {
     "readingcompTitle": "Parents at a Football Match",
     "topic": "parents at a football match",

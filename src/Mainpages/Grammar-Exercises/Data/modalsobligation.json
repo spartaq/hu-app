@@ -1,5 +1,8 @@
 [
                 
+<<<<<<< HEAD
+          {
+=======
           
   {
     "text": "Employees ___ wear their ID badge at all times.",
@@ -104,6 +107,7 @@
 
 
   {
+>>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             "text": "You ___ wear a helmet when entering the construction site.",
             "answer": "must",
             "topic": "companypolicy"
