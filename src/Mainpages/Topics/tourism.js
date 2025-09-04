@@ -57,13 +57,13 @@ const Tourism = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Tourism</h1>                    
                 </div>
-<<<<<<< HEAD
+
 
 =======
                 <div className="grammarimage">
                 <img src={headerimg} alt="English Exam Exercises" />
                 </div>
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
                 <div className="agenda-languagepoint">Language Point</div>
                 
                 

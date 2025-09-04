@@ -1,6 +1,5 @@
 module.exports = [
-<<<<<<< HEAD
-=======
+
 {
   "readingcompTitle": "Cell Phones Bad",
   "topic": "event disasters",
@@ -197,6 +196,158 @@ module.exports = [
             "B. A short holiday trip",
             "C. A project with a tight deadline",
             "D. A team-building activity"
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "readingcompTitle": "Working as a Weekend DJ at a Hit Radio Station",
+  "topic": "Workplace",
+  "level": "b1",
+  "image": "/Images/radio-dj.jpg",
+  "vocabulary": [
+    "broadcast - sugároz",
+    "playlist - lejátszási lista",
+    "listeners - hallgatók",
+    "advertisement - reklám",
+    "microphone - mikrofon",
+    "schedule - menetrend"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p><strong>Working as a Weekend DJ at a Hit Radio Station</strong></p>",
+        "<p>I work as a weekend DJ at a popular hit radio station. My main job is to play music, talk to listeners, and keep the show entertaining. I also introduce songs, share news, and read advertisements on air.</p>",
+        "<p>Each day, I start by preparing the playlist and checking the schedule. I also practice announcements and review any special segments for the show. During the broadcast, I talk to listeners, take song requests, and make sure the music flows smoothly. I sometimes interview guests or promote upcoming events.</p>",
+        "<p>What I enjoy most about my job is the live interaction with listeners and the excitement of being on air. Every show is different, and I get to share music that I love while making people happy. It is also fun to work with a team of producers and sound engineers to make each broadcast successful.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main job of the weekend DJ?",
+          "choices": [
+            "A. To write music for the station",
+            "B. To play music, talk to listeners, and keep the show entertaining",
+            "C. To fix technical problems in the studio",
+            "D. To sell advertising space"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "What does the DJ do before the show starts?",
+          "choices": [
+            "A. Take a break and relax",
+            "B. Prepare the playlist, check the schedule, and practice announcements",
+            "C. Interview listeners at home",
+            "D. Deliver equipment to the studio"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "How does the DJ interact with listeners?",
+          "choices": [
+            "A. By sending emails after the show",
+            "B. By talking live on air and taking song requests",
+            "C. By writing letters to fans",
+            "D. By posting on social media only"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Who does the DJ work with to make the broadcast successful?",
+          "choices": [
+            "A. Marketing and sales",
+            "B. Producers and sound engineers",
+            "C. HR and legal teams",
+            "D. Other DJs only"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What does the DJ enjoy most about the job?",
+          "choices": [
+            "A. Listening to music at home",
+            "B. Live interaction with listeners and sharing music",
+            "C. Organizing office parties",
+            "D. Working alone in the studio"
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "readingcompTitle": "Working in IT Billing at Telekom",
+  "topic": "Workplace",
+  "level": "b1",
+  "image": "/Images/telekom-billing.jpg",
+  "vocabulary": [
+    "billing - számlázás",
+    "system - rendszer",
+    "clients - ügyfelek",
+    "invoice - számla",
+    "resolve - megold",
+    "report - jelentés"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p><strong>Working in IT Billing at Telekom</strong></p>",
+        "<p>I work in the IT billing department at Telekom. My main task is to manage the billing system, which includes creating invoices, checking payments, and solving any errors. I also support clients when they have questions about their bills.</p>",
+        "<p>Each day starts by reviewing emails and system alerts. Sometimes I need to fix problems in the billing software, like incorrect charges or missing invoices. I also prepare reports for management to show how the billing system is performing.</p>",
+        "<p>What I enjoy most about my job is that I learn new things every day. IT billing is complex, and I often work with colleagues from other departments, like customer service or finance, to make sure everything runs smoothly. It is rewarding to help clients understand their bills and resolve problems quickly.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main task of someone working in IT billing at Telekom?",
+          "choices": [
+            "A. Creating marketing campaigns",
+            "B. Managing the billing system and invoices",
+            "C. Selling new contracts",
+            "D. Installing internet routers"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "What does the employee do at the beginning of the day?",
+          "choices": [
+            "A. Go to meetings with clients",
+            "B. Review emails and system alerts",
+            "C. Prepare presentations",
+            "D. Update social media"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "Why does the employee sometimes fix problems in the billing software?",
+          "choices": [
+            "A. To create new invoices",
+            "B. To correct errors like incorrect charges or missing invoices",
+            "C. To train new employees",
+            "D. To improve the office network"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Which departments does the billing employee work with?",
+          "choices": [
+            "A. Customer service and finance",
+            "B. Marketing and sales",
+            "C. HR and legal",
+            "D. Only the IT department"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What does the employee enjoy most about their job?",
+          "choices": [
+            "A. Traveling for work",
+            "B. Learning new things and solving problems",
+            "C. Working alone",
+            "D. Organizing office parties"
           ]
         }
       ]
@@ -446,7 +597,7 @@ module.exports = [
 },
 
 
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
   {
     "readingcompTitle": "Parents at a Football Match",
     "topic": "parents at a football match",

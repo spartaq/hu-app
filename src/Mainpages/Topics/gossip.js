@@ -89,12 +89,7 @@ const Gossip = () => {
                 <div className="reading-container">
                 <div className="agenda-display-grid">
                 
-                                <GapMatch 
-                  data={jsonData}
-                  topic="gossip" 
-                  type="gap-fill"
-                  text={gossipGapfill?.text}
-                />
+                    
                     </div>
                 </div>
                 

@@ -1,4 +1,56 @@
-[ 
+[
+  {
+  "title": "Meetings and Managers",
+  "videoId": "0UmUgaJwEr0",  
+  "topic": "Meetings",
+  "level": "B2",
+  "vocabulary": [
+    "word - def"
+    
+  ],
+  "transcript": [
+    "<h1>Meetings and Managers</h1>",
+    "<p>Text</p>"
+  ],
+  "questions": [
+    {
+      "number": "1",
+      "question": "What is the main issue artists face with Spotify payments?",
+      "choices": [
+        "A. Songs are too long for Spotify’s model.",
+        "B. They don’t have enough fans.",
+        "C. The pay per stream is extremely low.",
+        "D. Record labels take all the profits."
+      ]
+    }
+  ]
+},
+  
+  {
+  "title": "Does money motivate you?",
+  "videoId": "Ulx5d6nhqz8",  
+  "topic": "Money as motivator",
+  "level": "B2",
+  "vocabulary": [
+    "word - def"    
+  ],
+  "transcript": [
+    "<h1>Money Motivation</h1>",
+    "<p>text</p>"
+  ],
+  "questions": [
+    {
+      "number": "1",
+      "question": "What is the main issue artists face with Spotify payments?",
+      "choices": [
+        "A. Songs are too long for Spotify’s model.",
+        "B. They don’t have enough fans.",
+        "C. The pay per stream is extremely low.",
+        "D. Record labels take all the profits."
+      ]
+    }
+  ]
+}, 
 {
   "title": "Spotify and the Music Industry",
   "videoId": "TXrAyYRVkII",  

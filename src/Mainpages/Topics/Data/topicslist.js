@@ -1,17 +1,8 @@
 module.exports = [
   
-<<<<<<< HEAD
-  {
-    "id": "sidejobs",
-    "title": "Side Jobs",
-    "subtitle": "Grammar Review",
-    "category": "Business",
-    "level": "B2",
-    "time": "45 min",
-    "description": "Talk about working a side job.",
-    "image": "/Images/homebakery2.png"
-  },
-=======
+
+  
+
     {
       "id": "streamingServices",
       "title": "Streaming Services",
@@ -33,7 +24,7 @@ module.exports = [
       "description": "Talk about working a side job.",
       "image": "/Images/homebakery2.png"
     },
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
     {
       "id": "companypolicy",
       "title": "Company Policy",
@@ -45,20 +36,6 @@ module.exports = [
       "image": "/Images/companypolicy1.jpg"
     },
     {
-      "id": "language",
-      "title": "Create Your Own Words",
-      "subtitle": "###",
-<<<<<<< HEAD
-      "category": "Business",
-=======
-      "category": "General",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
-      "level": "B2",
-      "time": "45 min",
-      "description": "A lexicographer teaches you how to create your own words in English.",
-      "image": "/Images/watchingsports3.jpg"
-    },
-    {
       "id": "branding",
       "title": "Branding",
       "subtitle": "Dependent Prepositions",
@@ -66,7 +43,7 @@ module.exports = [
       "level": "B2",
       "time": "45 min",
       "description": "Explore branding strategies while practicing dependent prepositions.",
-      "image": "/Images/argue1.jpg"
+      "image": "/Images/pastperf1.jpg"
     },
     {
       "id": "smartphones",
@@ -76,31 +53,27 @@ module.exports = [
       "level": "B1",
       "time": "30 min",
       "description": "A discussion on the role of smart phones in modern communication.",
-      "image": "/Images/argue1.jpg"
+      "image": "/Images/cellphone1.webp"
     },
     {
       "id": "money",
-      "title": "Money Motivation - ###",
-      "subtitle": "###",
-<<<<<<< HEAD
-      "category": "Business",
-=======
+      "title": "Money Motivation",
+      "subtitle": "Present Perfect",
       "category": "General",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "level": "B2",
       "time": "60 min",
       "description": "Discuss what motivates people financially and explore related vocabulary.",
-      "image": "/Images/argue3.jpg"
+      "image": "/Images/money-motivation-1.webp"
     },
     {
       "id": "meetings",
       "title": "Meetings",
-      "subtitle": "Modals of Deduction",
+      "subtitle": "Reported Speech",
       "category": "Business",
       "level": "B2",
       "time": "60 min",
       "description": "Improve your ability to deduce meaning in professional meetings.",
-      "image": "/Images/argue4.webp"
+      "image": "/Images/yesterdaymeeting1.webp"
     },
     {
       "id": "workfuture",
@@ -110,7 +83,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Discuss future trends in work and practice future tenses.",
-      "image": "/Images/watchingsports3.jpg"
+      "image": "/Images/future1.jpg"
     },
     {
       "id": "fastfood",
@@ -125,12 +98,12 @@ module.exports = [
     {
       "id": "caffeine",
       "title": "Coffee",
-      "subtitle": "###",
+      "subtitle": "Indirect Speech",
       "category": "Food",
       "level": "B2",
       "time": "60 min",
       "description": "Discuss coffee culture and the effects of caffeine.",
-      "image": "/Images/watchingsports5.png"
+      "image": "/Images/caffeine1.webp"
     },
     {
       "id": "newyearsresolution",
@@ -140,7 +113,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Set and discuss New Year's resolutions while practicing future plans.",
-      "image": "/Images/cellphone3.jpg"
+      "image": "/Images/resolution1.png"
     },
     {
       "id": "habits",
@@ -150,17 +123,13 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Learn how to talk about personal and professional habits.",
-      "image": "/Images/habits.jpg"
+      "image": "/Images/habits1.jpg"
     },
     {
       "id": "chatplatforms",
       "title": "Chat Platforms",
       "subtitle": "So and Enough",
-<<<<<<< HEAD
-      "category": "Business",
-=======
       "category": "General",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "level": "B2",
       "time": "60 min",
       "description": "Discuss chat platforms while learning how to use 'so' and 'enough'.",
@@ -174,21 +143,17 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Explore automation trends and practice cause-and-effect structures.",
-      "image": "/Images/automation.jpg"
+      "image": "/Images/selfcheckout.jpg"
     },
     {
       "id": "quality",
       "title": "Quality",
       "subtitle": "Comparison",
-<<<<<<< HEAD
-      "category": "Business",
-=======
       "category": "General",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       "level": "B2",
       "time": "60 min",
       "description": "Compare quality standards in various industries.",
-      "image": "/Images/quality.jpg"
+      "image": "/Images/closeupanswer3.jpg"
     },
     {
       "id": "choice",
@@ -198,7 +163,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Discuss choices in business and express wishes and regrets.",
-      "image": "/Images/choice.jpg"
+      "image": "/Images/choice1.webp"
     },
     {
       "id": "pets",
@@ -208,7 +173,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Learn about pet ownership and practice 'so' and 'enough'.",
-      "image": "/Images/pets.jpg"
+      "image": "/Images/dogscatssmart.jpg"
     },
     {
       "id": "walking",
@@ -238,7 +203,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Discuss neighborly issues while practicing the 2nd conditional.",
-      "image": "/Images/neighbors.jpg"
+      "image": "/Images/neighbors1.jpg"
     },
     {
       "id": "food",

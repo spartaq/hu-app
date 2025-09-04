@@ -1,0 +1,174 @@
+{
+  "quizTitle": "Tenses in Context",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "I ___ (work) here for five years now.",
+      "options": ["worked", "have worked", "am working", "was working"],
+      "answer": "have worked",
+      "topic": "tense"
+    },
+    {
+      "id": 2,
+      "question": "Before joining the company, I ___ (be) a freelancer.",
+      "options": ["was", "am", "have been", "will be"],
+      "answer": "was",
+      "topic": "tense"
+    },
+    {
+      "id": 3,
+      "question": "Currently, I ___ (lead) a small team of engineers.",
+      "options": ["lead", "am leading", "was leading", "have led"],
+      "answer": "am leading",
+      "topic": "tense"
+    },
+    {
+      "id": 4,
+      "question": "I ___ (always/enjoy) working with technology and innovation.",
+      "options": ["always enjoy", "have always enjoyed", "always enjoyed", "am always enjoying"],
+      "answer": "have always enjoyed",
+      "topic": "tense"
+    },
+    {
+      "id": 5,
+      "question": "At the moment, we ___ (develop) a new customer support system.",
+      "options": ["develop", "are developing", "developed", "have developed"],
+      "answer": "are developing",
+      "topic": "tense"
+    },
+    {
+      "id": 6,
+      "question": "When I first started here, I ___ (not/know) much about telecommunications.",
+      "options": ["don’t know", "haven’t known", "did not know", "was not knowing"],
+      "answer": "did not know",
+      "topic": "tense"
+    },
+    {
+      "id": 7,
+      "question": "I ___ (graduate) from university in 2018 with a degree in IT.",
+      "options": ["graduate", "was graduating", "graduated", "have graduated"],
+      "answer": "graduated",
+      "topic": "tense"
+    },
+    {
+      "id": 8,
+      "question": "Since I joined the company, I ___ (learn) a lot about network security.",
+      "options": ["learn", "was learning", "learned", "have learned"],
+      "answer": "have learned",
+      "topic": "tense"
+    },
+    {
+      "id": 9,
+      "question": "The new cybersecurity policy ___ (implement) last month to improve data protection.",
+      "options": ["implemented", "was implemented", "is implemented", "is implementing"],
+      "answer": "was implemented",
+      "topic": "tense"
+    },
+    {
+      "id": 10,
+      "question": "If our team ___ (be informed) earlier, we could have prevented the outage.",
+      "options": ["is informed", "was informed", "had been informed", "has been informed"],
+      "answer": "had been informed",
+      "topic": "tense"
+    },
+    {
+      "id": 11,
+      "question": "If we ___ (not/update) our security protocols, we might face a data breach.",
+      "options": ["don’t update", "didn’t update", "haven’t updated", "won’t update"],
+      "answer": "don’t update",
+      "topic": "tense"
+    },
+    {
+      "id": 12,
+      "question": "I ___ (not/see) the latest project update. Has it been shared yet?",
+      "options": ["didn’t see", "don’t see", "haven’t seen", "wasn’t seeing"],
+      "answer": "haven't seen",
+      "topic": "tense"
+    },
+    {
+      "id": 13,
+      "question": "The software update ___ (roll out) gradually across all departments.",
+      "options": ["is rolled out", "is rolling out", "is being rolled out", "was rolled out"],
+      "answer": "is being rolled out",
+      "topic": "tense"
+    },
+    {
+      "id": 14,
+      "question": "The application ___ (crash) due to an unexpected bug in the last update.",
+      "options": ["crashed", "must have crashed", "was crashing", "has crashed"],
+      "answer": "must have crashed",
+      "topic": "tense"
+    },
+    {
+      "id": 15,
+      "question": "If the developers ___ (test) the software properly, these bugs wouldn’t exist.",
+      "options": ["test", "tested", "had tested", "have tested"],
+      "answer": "had tested",
+      "topic": "tense"
+    },
+    {
+      "id": 16,
+      "question": "Customers will experience delays ___ (unless, until, as long as) we resolve the server issues.",
+      "options": ["unless", "until", "as long as"],
+      "answer": "unless",
+      "topic": "tense"
+    },
+    {
+      "id": 17,
+      "question": "If we ___ (have) more funding, we could develop a better AI model.",
+      "options": ["have", "had", "have had", "will have"],
+      "answer": "had",
+      "topic": "tense"
+    },
+    {
+      "id": 18,
+      "question": "If the feature ___ (not/release) on time, the client would have been disappointed.",
+      "options": ["was not released", "had not been released", "is not released", "has not been released"],
+      "answer": "had not been released",
+      "topic": "tense"
+    },
+    {
+      "id": 19,
+      "question": "The training materials ___ (update) regularly to reflect new technologies.",
+      "options": ["update", "are updated", "were updated", "have been updated"],
+      "answer": "are updated",
+      "topic": "tense"
+    },
+    {
+      "id": 20,
+      "question": "The new automation tool ___ (not/test) thoroughly before deployment.",
+      "options": ["is not tested", "was not tested", "has not been tested", "not tested"],
+      "answer": "was not tested",
+      "topic": "tense"
+    },
+    {
+      "id": 21,
+      "question": "If we ___ (listen) to the feedback, the product might have been more successful.",
+      "options": ["listen", "listened", "had listened", "were listening"],
+      "answer": "had listened",
+      "topic": "tense"
+    },
+    {
+      "id": 22,
+      "question": "The security breach ___ (cause) by a phishing attack.",
+      "options": ["caused", "was caused", "is causing", "has caused"],
+      "answer": "was caused",
+      "topic": "tense"
+    },
+    {
+      "id": 23,
+      "question": "We ___ (not/complete) the migration yet, but we are almost done.",
+      "options": ["did not complete", "don’t complete", "haven’t completed", "won’t complete"],
+      "answer": "haven't completed",
+      "topic": "tense"
+    },
+    {
+      "id": 24,
+      "question": "If the firewall ___ (configure) correctly, the attack could have been prevented.",
+      "options": ["was configured", "had been configured", "is configured", "has been configured"],
+      "answer": "had been configured",
+      "topic": "tense"
+    }
+  ]
+}

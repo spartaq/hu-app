@@ -186,11 +186,11 @@ a {
   flex: 1;
   overflow: visible; 
   padding: 0px; 
-<<<<<<< HEAD
+
   background-color: white;
-=======
+
   background-color: aliceblue;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 }
 
 header, footer {
@@ -349,11 +349,11 @@ header, footer {
   max-width: 100%;
   margin: 0px 0px 0px 0px;
   padding: 0px 100px;
-<<<<<<< HEAD
+
   background-color: rgb(255, 255, 255);
-=======
+
   background-color: transparent;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
   /*border: 2px solid black;*/
   border-radius: 5px;
   width: 100%;
@@ -372,16 +372,16 @@ header, footer {
   background-color: transparent;
   /*border: 2px solid black;*/
   border-radius: 5px;
-<<<<<<< HEAD
+
   width: 93vw;
-=======
+
   width: 100%;
 }
 @media (max-width: 992px) {
 .readings-container {
   margin: 0px auto;
   padding: 0px 0px;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 }
 }
 
@@ -557,14 +557,14 @@ header, footer {
 
 /*================================ Grammar box on exercise pages ============================================*/
 
-<<<<<<< HEAD
+
 .grammardoexercise {
   width: 100%;
   margin-top: 70px;
 }
-=======
 
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
+
 
 .grammartable {
   border-collapse: collapse;
@@ -585,19 +585,19 @@ header, footer {
 .grammar-display-grid {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
+
   /*border: 2px solid #ccc;*/ 
   padding: 0px;
   width: 100%;
   margin-bottom: 35px;
   /*background-color: whitesmoke;*/
-=======
+
   border: 2px solid #ccc; 
   padding: 10px;
   width: 100%;
   margin: 0px 0px;
   background-color: white;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 }
 
 /*.grammar-display-grid h5 {
@@ -645,13 +645,13 @@ header, footer {
 }
 .grammartable {
   border-collapse: collapse;
-<<<<<<< HEAD
+
   width: 94vw;
   /*display:flex;
-=======
+
   /*width: 94vw;
   display:flex;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
   row-gap: 5px;
   flex-direction: column;
   align-items: center;*/
@@ -669,11 +669,11 @@ header, footer {
 }
 .top-margin { /*top margin for sidebar on main pages*/
   position:relative;
-<<<<<<< HEAD
+
   margin-top:100px;
-=======
+
   margin-top:200px;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 }
 
 .bottom-margin { /*top margin for sidebar on main pages*/
@@ -1375,11 +1375,11 @@ input[type="range"] {
 .sentence-container input {
   margin: 10px 15px;
   height: 30px;
-<<<<<<< HEAD
+
   width: 20%;
-=======
+
   width: auto;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 }
 
 .sentence-container > div {
@@ -1895,10 +1895,10 @@ input[type="range"] {
 
 .topics-image {
   width: 100%;
-<<<<<<< HEAD
+
   height: 200px;
-=======
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
+
   overflow: hidden;
   border-radius: 0px;
 }
@@ -2077,14 +2077,14 @@ input[type="range"] {
   gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 20px;
-<<<<<<< HEAD
-=======
+
+
   padding: 0px;
 }
 
 .filter-checkbox-group {
   line-height: 5vh;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 }
 
 .toggle-filter-btn {
@@ -2098,7 +2098,7 @@ input[type="range"] {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
+
 .showagendagrammarbox {
   display: flex;
   justify-content: space-between;
@@ -2118,8 +2118,8 @@ input[type="range"] {
   transition: background-color 0.3s;
 }
 
-=======
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
+
 
 .filter-dropdown-container {
   display: flex;
@@ -2201,21 +2201,21 @@ input[type="range"] {
 /*================================================  relatedexercises  ========================*/
 .related-exercises {
   margin-top: 40px;
-<<<<<<< HEAD
+
   padding-top: 20px;
-=======
+
   padding: 20px;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
   border-top: 2px solid #ccc;
 }
 
 .related-exercises-footer {
   text-align: center;
-<<<<<<< HEAD
+
   margin-top: 20px;
-=======
+
   margin: 20px 0px;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 }
 
 .see-all-btn {

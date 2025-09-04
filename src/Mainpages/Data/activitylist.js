@@ -106,11 +106,11 @@ module.exports = [
       "title": "First Conditional",
       "category": "grammar-exercises",
       "subtitle": "If I do, I will do",
-<<<<<<< HEAD
+
       "level":"B2",
-=======
+
       "level":"B1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
       "time": "60 min",
       "description": "Exercises to practice the first conditional",
       "image": "/Images/firstcond1.jpg"
@@ -120,11 +120,11 @@ module.exports = [
       "title": "First Conditional (Prompt)",
       "category": "grammar-exercises",
       "subtitle": "If I do, I will do",
-<<<<<<< HEAD
+
       "level":"B2",
-=======
+
       "level":"B1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
       "time": "60 min",
       "description": "Exercises to practice the first conditional with a prompt",
       "image": "/Images/firstcondprod1.jpg"
@@ -284,11 +284,11 @@ module.exports = [
         "title": "Unless",
       "category": "grammar-exercises",
       "subtitle": "I won't do it unless",
-<<<<<<< HEAD
+
       "level": "B1",
-=======
+
       "level": "B2",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "30 min",
         "description": "Discuss sports experiences while practicing the present perfect tense.",
         "image": "/Images/unless1.jpg"
@@ -318,11 +318,11 @@ module.exports = [
         "title": "Wishes and Regrets",
       "category": "grammar-exercises",
       "subtitle": "I wish I was, I wish I had done",
-<<<<<<< HEAD
+
       "level": "B1",
-=======
+
       "level": "C1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "45 min",
         "description": "A lesson to assess students' understanding of various tenses.",
         "image": "/Images/wish1.jpg"
@@ -332,11 +332,11 @@ module.exports = [
         "title": "Comparison",
       "category": "grammar-exercises",
       "subtitle": "bigger, more interesting",
-<<<<<<< HEAD
+
       "level": "B2",
-=======
+
       "level": "A2",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "60 min",
         "description": "Discuss the air traffic industry and aviation terminology.",
         "image": "/Images/comparison1.jpg"
@@ -386,11 +386,11 @@ module.exports = [
         "title": "Collocations",
       "category": "grammar-exercises",
       "subtitle": "highly recommended",
-<<<<<<< HEAD
+
       "level": "B2",
-=======
+
       "level": "C1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "60 min",
         "description": "Words that always go together.",
         "image": "/Images/collocations1.webp"
@@ -400,11 +400,11 @@ module.exports = [
         "title": "Linking Words",
       "category": "grammar-exercises",
       "subtitle": "even though, in addition to",
-<<<<<<< HEAD
+
       "level": "B2",
-=======
+
       "level": "C1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "60 min",
         "description": "Words that join ideas.",
         "image": "/Images/linkingwords1.jpg"
@@ -424,11 +424,11 @@ module.exports = [
         "title": "Jelen Idő - Határozott (Simple Present - Definite conjugation)",
       "category": "hungarian",
       "subtitle": "megyek, lakom",
-<<<<<<< HEAD
+
       "level": "HU",
-=======
+
       "level": "HU1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "60 min",
         "description": "Jelen Idő - Simple present tense.",
         "image": "/Images/jelenido1.jpg"
@@ -438,11 +438,11 @@ module.exports = [
         "title": "Jelen Idő - Általános (Simple Present - General conjugation)",
       "category": "hungarian",
       "subtitle": "megyek, lakom",
-<<<<<<< HEAD
+
       "level": "HU",
-=======
+
       "level": "HU1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "60 min",
         "description": "Jelen Idő - Simple present tense.",
         "image": "/Images/jelenido1.jpg"
@@ -452,23 +452,23 @@ module.exports = [
         "title": "Mult Idő (Simple Past)",
       "category": "hungarian",
       "subtitle": "mentem, laktam",
-<<<<<<< HEAD
+
       "level": "HU",
-=======
+
       "level": "HU1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "60 min",
         "description": "Mult Idő - Simple past tense.",
         "image": "/Images/jelenido1.jpg"
       },    
       {
-<<<<<<< HEAD
+
         "id": "vanneki",
         "title": "Van/Neki van (There is,There are/have)",
       "category": "hungarian",
       "subtitle": "van, nekem van",
       "level": "HU",
-=======
+
         "id": "van",
         "title": "Van (There is, There are)",
       "category": "hungarian",
@@ -484,13 +484,13 @@ module.exports = [
       "category": "hungarian",
       "subtitle": "nekem van, neki van",
       "level": "HU1",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
         "time": "60 min",
         "description": "Van/Neki van - There is/have (possession)",
         "image": "/Images/jelenido1.jpg"
       },        
       {
-<<<<<<< HEAD
+
         "id": "hungarianexercisetemplate",
         "title": "Hungarian Template",
       "category": "hungarian",
@@ -500,7 +500,7 @@ module.exports = [
         "description": "Template.",
         "image": "/Images/jelenido1.jpg"
       },                 
-=======
+{
         "id": "jovoido",
         "title": "Jövő Idő (Future)",
       "category": "hungarian",
@@ -570,7 +570,7 @@ module.exports = [
         "description": "Magánhangzó Harmónia (Vowel Harmony)",
         "image": "/Images/jelenido1.jpg"
       },                     
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
       {
         "id": "phrasal-verbs",
         "title": "Phrasal Verbs",
@@ -580,7 +580,7 @@ module.exports = [
         "time": "60 min",
         "description": "Large collection of phrasal verbs sorted by category.",
         "image": "/Images/phrasalverbs1.jpg"
-<<<<<<< HEAD
+
       },
       {
         "id": "idioms",
@@ -871,8 +871,8 @@ module.exports = [
           "time": "60 min",
           "description": "A reading on how modern life and globalization are transforming eating habits.",
         },
-=======
-      },
+
+    
       {
         "id": "idioms",
         "title": "Idioms",
@@ -1171,7 +1171,7 @@ module.exports = [
         "time": "60 min",
         "description": "A reading on why a bakery was not a good business investment."
       },
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
       {
         "id": "vocabulary-quizzes",
         "title": "Quizzes",
@@ -1183,7 +1183,7 @@ module.exports = [
         "image": "/Images/quiz1.jpg"
       },
       {
-<<<<<<< HEAD
+
         "id": "video1",
         "title": "Create Your Own Words",
         "category": "listening-exercises",
@@ -1203,7 +1203,7 @@ module.exports = [
         "description": "A video discussing using AI to talk to animals.",
         "image": "/Images/animalAI.png"
       },
-=======
+{
           "id": "create-your-own-words",
           "title": "Create Your Own Words",
           "category": "videos",
@@ -1301,7 +1301,7 @@ module.exports = [
           "level": "B2",
           "time": "60 min",
           "description": "An exploration of how habits form, break, and influence our daily behavior.",
-          "image": "/Images/habits.jpg"
+          "image": "/Images/habits1.jpg"
         },
         {
           "id": "app-fatigue",
@@ -1311,7 +1311,7 @@ module.exports = [
           "level": "B2",
           "time": "60 min",
           "description": "A discussion on why too many mobile and web applications can lead to user burnout.",
-          "image": "/Images/app-fatigue.jpg"
+          "image": "/Images/appfatigue.png"
         },
         {
           "id": "automation",
@@ -1321,7 +1321,7 @@ module.exports = [
           "level": "B2",
           "time": "60 min",
           "description": "An examination of automation’s impact on industries, jobs, and daily life.",
-          "image": "/Images/automation.jpg"
+          "image": "/Images/selfcheckout.jpg"
         },
         {
           "id": "self-checkout-systems-convenience-or-cumbersome",
@@ -1623,7 +1623,7 @@ module.exports = [
           "description": "An educational series on how artificial intelligence is transforming modern education.",
           "image": "/Images/ai-school.jpg"
         },
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
       {
         "id": "b2-adj-flashcards",
         "title": "Flashcards",

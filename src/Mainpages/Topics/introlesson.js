@@ -14,6 +14,11 @@ import quizzesData from '../Quizzes/Data/introlessonquiz.json';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/tenseexplanation.js';
 import Grammarexercises from '../../Components/GrammarExerciseComps/tenseexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "tense" },
+];
 
 
 
@@ -53,6 +58,14 @@ const Introlesson = () => {
                     <div>
 
                    
+<div>
+                    {sections.map((section, i) => (
+                    <div className="bottom-margin" key={i}>
+                    <ToggleSection  {...section} /> </div>
+                    ))}      
+                    </div>
+
+                   
                         <div className="agenda-display-grid">
                            <Grammarexercises />
                         </div>
@@ -80,7 +93,7 @@ const Introlesson = () => {
              
                 
                 <div className="agenda-discussion">Discussion</div>
-                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="telecom" />
+                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="streaming" />
             </div>
         </div>
     );

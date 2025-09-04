@@ -18,6 +18,12 @@ import idiomsexerciseData from '../../Mainpages/Vocabulary-Exercises/Data/idioms
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import PastHabitsExplanation from '../../Components/GrammarExplanationComps/pasthabitsexplanation.js';
 import Pasthabitsexcomp from '../../Components/GrammarExerciseComps/pasthabitsexercisecomp.js';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "habits" },
+];
+
 
 
 Modal.setAppElement('#root');
@@ -69,11 +75,14 @@ const Habits = () => {
                             {isExerciseVisible ? "Hide Exercise" : "Show Exercise"}
                         </button>
                     </div>
-                    {isExerciseVisible && (
-                        <div className="grammar-display-grid">
-                           <Pasthabitsexcomp /> 
-                        </div>
-                    )}
+                  
+
+                    <div>
+                    {sections.map((section, i) => (
+                    <div className="bottom-margin" key={i}>
+                    <ToggleSection  {...section} /> </div>
+                    ))}      
+                    </div>
 
 
                 </div>
@@ -81,12 +90,7 @@ const Habits = () => {
                 <div className="agenda-subtitle">Vocabulary</div>
                 
                 <div>
-                    <p>Expressions related to habits</p>                    
-                    <div className="grammarctrl descriptionbox">
-                        <button type="button" className="grammarbtn" onClick={toggleGridVisibility}>
-                            {isGridVisible ? "Hide Language Point" : "Show Language Point"}
-                        </button>
-                    </div>
+                   
 
                     {isGridVisible && (
                         <div className="grammar-display-grid">
@@ -95,16 +99,7 @@ const Habits = () => {
                                 </div>                        
                              )}
 
-                    <div className="grammarctrl descriptionbox">
-                        <button type="button" className="grammarbtn" onClick={toggleExerciseVisibility}>
-                            {isExerciseVisible ? "Hide Exercise" : "Show Exercise"}
-                        </button>
-                    </div>
-                    {isExerciseVisible && (
-                        <div className="grammar-display-grid">
-                           <Idiomsexercise idiomsexercise={idiomsexerciseData} topic="habits" /> 
-                        </div>
-                    )}
+                    
 
 
                 </div>

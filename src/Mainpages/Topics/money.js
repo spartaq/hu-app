@@ -14,13 +14,16 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import Quiz from '../Quizzes/quiz.js';
-import quizzesData from '../Quizzes/Data/brandingquiz.json';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/modalsdeductionexplanation.js';
-import GrammarExercises from '../../Components/GrammarExerciseComps/modalsdeductionexercisescomp.js';
+import quizzesData from '../Quizzes/Data/moneyquiz.json';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/pasthabitsexplanation.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
+import ToggleSection from '../../Utils/toggleSection';
 
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "habits" },
+];
 
 
 Modal.setAppElement('#root');
@@ -32,8 +35,8 @@ const Money = () => {
         <div>
             <SEO
                 title='Exam Topics - Money - English Exam Exercises'
-                description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - New Years Resolutions'
+                description='A group of English exam exercises centered around the topic of money'
+                name='English Exam Exercises - Money'
                 type='article' 
             />
 
@@ -66,11 +69,14 @@ const Money = () => {
                     </div>
 
                     <div>
-
+                    <div>
+                    {sections.map((section, i) => (
+                    <div className="bottom-margin" key={i}>
+                    <ToggleSection  {...section} /> </div>
+                    ))}      
+                    </div>
                    
-                        <div className="agenda-display-grid">
-                           <GrammarExercises />
-                        </div>
+                      
                    
                     </div>
 
@@ -79,8 +85,6 @@ const Money = () => {
                 <div className="agenda-subtitle">Vocabulary</div>
                 <div>                   
                     <div className="agenda-display-grid">
-                        <VocabularyMatch data={vocabData} topic="money" />
-                        <hr></hr>
                         <PhrasalverbsList data={idiomData} topic="money" />
                     </div>                    
                 </div>
@@ -95,7 +99,7 @@ const Money = () => {
                 <div className="agenda-listening">Video</div>
                              
 
-                <Video videos={videoData} title="Money" />
+                <Video videos={videoData} title="Does money motivate you?" />
                 
                 <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="money" />

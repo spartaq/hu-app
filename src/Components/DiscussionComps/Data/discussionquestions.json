@@ -1,5 +1,44 @@
 [
-  
+  {
+    "text": "What does money mean to you personally?",
+    "topic": "money"
+  },
+  {
+    "text": "Do you think money can buy happiness? Why or why not?",
+    "topic": "money"
+  },
+  {
+    "text": "Is it better to save money or spend it on experiences?",
+    "topic": "money"
+  },
+  {
+    "text": "How important is financial education in schools?",
+    "topic": "money"
+  },
+  {
+    "text": "Do you prefer using cash, cards, or digital payments? Why?",
+    "topic": "money"
+  },
+  {
+    "text": "How do you decide what is worth spending money on?",
+    "topic": "money"
+  },
+  {
+    "text": "What are the advantages and disadvantages of borrowing money?",
+    "topic": "money"
+  },
+  {
+    "text": "Should rich people pay higher taxes than others?",
+    "topic": "money"
+  },
+  {
+    "text": "Is saving for retirement more important than enjoying life now?",
+    "topic": "money"
+  },
+  {
+    "text": "What would you do if you suddenly received a large amount of money?",
+    "topic": "money"
+  },
   {
     "text": "What’s your usual first step when something goes wrong in a high-stakes project?",
     "topic": "4ig"
@@ -1743,7 +1782,7 @@
     "topic": "walking"
   },
   {
-    "text": "How does regular exercise affect mental health?",
+    "text": "How does regular exercise affect your mental health?",
     "topic": "walking"
   },
   {
@@ -3248,7 +3287,47 @@
       {
         "text": "What role do you think telecom companies should play in promoting sustainability and reducing their environmental impact?",
         "topic": "telecom"
-      }
+      },
+      {
+    "text": "Do you think most meetings are productive or a waste of time? Why?",
+    "topic": "meetings"
+  },
+  {
+    "text": "What makes a meeting effective in your opinion?",
+    "topic": "meetings"
+  },
+  {
+    "text": "Do you prefer face-to-face meetings or online meetings? Why?",
+    "topic": "meetings"
+  },
+  {
+    "text": "How long should an ideal meeting last?",
+    "topic": "meetings"
+  },
+  {
+    "text": "What role should the leader or organizer play in a meeting?",
+    "topic": "meetings"
+  },
+  {
+    "text": "Should everyone be required to participate actively in a meeting?",
+    "topic": "meetings"
+  },
+  {
+    "text": "What are the biggest problems with meetings in your experience?",
+    "topic": "meetings"
+  },
+  {
+    "text": "Do you think decisions should always be made during meetings, or afterwards?",
+    "topic": "meetings"
+  },
+  {
+    "text": "What tools or strategies can make meetings more engaging?",
+    "topic": "meetings"
+  },
+  {
+    "text": "If you could change one thing about meetings at your workplace, what would it be?",
+    "topic": "meetings"
+  }
 
 
   

@@ -1,31 +1,4 @@
-import React from 'react';
-<<<<<<< HEAD
 
-
-const CollocationsExplanation = () => {
-
-    return (
-        <div>
-
-<div>
-                            <div className="agendagrammar">
-                        <p>Collocations deeply troubled</p>
-
-
-
-                                     </div>
-                                    
-                                </div>
-
-        
-        
-        
-        </div>
-);
-};
-
-export default CollocationsExplanation;
-=======
 import { FaBookOpen, FaLightbulb } from 'react-icons/fa';
 import '../../CSS/grammarPage.css';
 
@@ -71,4 +44,4 @@ const CollocationsExplanation = () => {
 };
 
 export default CollocationsExplanation;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+

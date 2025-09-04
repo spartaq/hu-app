@@ -1,0 +1,216 @@
+{
+  "quizTitle": "Second Conditional",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "If I ___ the system admin, I would upgrade the servers immediately.",
+      "options": ["am", "was", "were", "be"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 2,
+      "question": "She would solve the network issue if she ___ the right tools.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Telekom"
+    },
+    {
+      "id": 3,
+      "question": "If we ___ better software, our work would be much easier.",
+      "options": ["use", "used", "using", "uses"],
+      "answer": "used",
+      "topic": "Telekom"
+    },
+    {
+      "id": 4,
+      "question": "He would fix the bug faster if he ___ more experience with databases.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Telekom"
+    },
+    {
+      "id": 5,
+      "question": "If the Wi-Fi ___ more stable, the customers would be happier.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 6,
+      "question": "If they ___ the code review, the release would be smoother.",
+      "options": ["do", "did", "done", "does"],
+      "answer": "did",
+      "topic": "Telekom"
+    },
+    {
+      "id": 7,
+      "question": "What would you do if you ___ the new Telekom radio station?",
+      "options": ["manage", "managed", "managing", "manages"],
+      "answer": "managed",
+      "topic": "Telekom"
+    },
+    {
+      "id": 8,
+      "question": "If I ___ a faster laptop, I would finish my coding tasks earlier.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Telekom"
+    },
+    {
+      "id": 9,
+      "question": "If we ___ more DJs, the Telekom weekend show would be longer.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Telekom"
+    },
+    {
+      "id": 10,
+      "question": "If I ___ you, I would accept the IT security training.",
+      "options": ["am", "was", "were", "be"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 11,
+      "question": "If the system ___ more reliable, we would spend less time troubleshooting.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 12,
+      "question": "If I ___ the CEO of Telekom, I would invest more in cloud services.",
+      "options": ["am", "was", "were", "be"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 13,
+      "question": "If my show ___ more popular, I would get more sponsors.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 14,
+      "question": "If they ___ new equipment, the studio sound would be better.",
+      "options": ["buy", "bought", "buying", "buys"],
+      "answer": "bought",
+      "topic": "Telekom"
+    },
+    {
+      "id": 15,
+      "question": "If he ___ more confident, he would host the live show himself.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 16,
+      "question": "If we ___ more staff, we would finish the IT project on time.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Telekom"
+    },
+    {
+      "id": 17,
+      "question": "If I ___ a new mixer, my DJ sets would sound amazing.",
+      "options": ["buy", "bought", "buying", "buys"],
+      "answer": "bought",
+      "topic": "Telekom"
+    },
+    {
+      "id": 18,
+      "question": "If I ___ more free time, I would learn another programming language.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Telekom"
+    },
+    {
+      "id": 19,
+      "question": "If the signal ___ stronger, more people would listen online.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 20,
+      "question": "If we ___ better communication, projects would run more smoothly.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Telekom"
+    },
+    {
+      "id": 21,
+      "question": "If I ___ more creative, I would design new jingles for my radio show.",
+      "options": ["am", "was", "were", "be"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 22,
+      "question": "If the database ___ faster, our app would perform better.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 23,
+      "question": "If he ___ more practice, he would become a better DJ.",
+      "options": ["get", "got", "getting", "gets"],
+      "answer": "got",
+      "topic": "Telekom"
+    },
+    {
+      "id": 24,
+      "question": "If the IT budget ___ bigger, we would modernize the whole system.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 25,
+      "question": "If I ___ more confident on air, I would host a daily morning show.",
+      "options": ["am", "was", "were", "be"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 26,
+      "question": "If they ___ the server room, they would discover the overheating issue.",
+      "options": ["check", "checked", "checking", "checks"],
+      "answer": "checked",
+      "topic": "Telekom"
+    },
+    {
+      "id": 27,
+      "question": "If I ___ famous, I would invite Telekom colleagues to my radio program.",
+      "options": ["am", "was", "were", "be"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 28,
+      "question": "If customers ___ more patient, support calls would be easier.",
+      "options": ["be", "were", "was", "been"],
+      "answer": "were",
+      "topic": "Telekom"
+    },
+    {
+      "id": 29,
+      "question": "If my boss ___ my passion for DJing, he would let me use the studio after hours.",
+      "options": ["know", "knew", "knowing", "knows"],
+      "answer": "knew",
+      "topic": "Telekom"
+    },
+    {
+      "id": 30,
+      "question": "If I ___ a chance, I would organize a Telekom IT + DJ event.",
+      "options": ["get", "got", "getting", "gets"],
+      "answer": "got",
+      "topic": "Telekom"
+    }
+  ]
+}

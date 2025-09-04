@@ -582,5 +582,125 @@
     "definition": "to catch up with the latest information or developments", 
     "example": "My manager gave me a briefing to get me up to speed on the new project.", 
     "topic": "introlesson"
+  },
+  {
+    "word": "save up",
+    "definition": "To keep money so you can use it later for something special.",
+    "example": "I’m saving up to buy a new laptop.",
+    "topic": "money"
+  },
+  {
+    "word": "pay back",
+    "definition": "To return money that you borrowed from someone.",
+    "example": "She promised to pay back the loan by next week.",
+    "topic": "money"
+  },
+  {
+    "word": "run out of",
+    "definition": "To use all of something and have no more left.",
+    "example": "We’ve run out of cash, so we’ll need to use a card.",
+    "topic": "money"
+  },
+  {
+    "word": "cut back on",
+    "definition": "To spend less money on something.",
+    "example": "I’m trying to cut back on eating out to save money.",
+    "topic": "money"
+  },
+  {
+    "word": "chip in",
+    "definition": "To contribute money with others for a common purpose.",
+    "example": "Everyone chipped in to buy a gift for the teacher.",
+    "topic": "money"
+  },
+  {
+    "word": "pay off",
+    "definition": "To finish paying a debt completely.",
+    "example": "He finally paid off his student loan.",
+    "topic": "money"
+  },
+  {
+    "word": "fork out",
+    "definition": "To spend money on something, often unwillingly.",
+    "example": "We had to fork out a lot of money for car repairs.",
+    "topic": "money"
+  },
+  {
+    "word": "splash out",
+    "definition": "To spend a lot of money on something special or unnecessary.",
+    "example": "They splashed out on a luxury holiday.",
+    "topic": "money"
+  },
+  {
+    "word": "rip off",
+    "definition": "To charge someone too much money; to cheat financially.",
+    "example": "Tourists often get ripped off at the market.",
+    "topic": "money"
+  },
+  {
+    "word": "break even",
+    "definition": "To make enough money to cover costs but not make a profit.",
+    "example": "The company barely broke even last year.",
+    "topic": "money"
+  },
+  {
+    "word": "set up",
+    "definition": "To arrange or organize a meeting.",
+    "example": "Let’s set up a meeting for next Monday.",
+    "topic": "meetings"
+  },
+  {
+    "word": "call off",
+    "definition": "To cancel a planned meeting.",
+    "example": "They had to call off the meeting due to bad weather.",
+    "topic": "meetings"
+  },
+  {
+    "word": "put off",
+    "definition": "To postpone or delay a meeting.",
+    "example": "Can we put off the meeting until tomorrow?",
+    "topic": "meetings"
+  },
+  {
+    "word": "bring up",
+    "definition": "To introduce a topic in a meeting.",
+    "example": "She brought up an important issue during the discussion.",
+    "topic": "meetings"
+  },
+  {
+    "word": "go over",
+    "definition": "To review or discuss something carefully in a meeting.",
+    "example": "Let’s go over the agenda before we start.",
+    "topic": "meetings"
+  },
+  {
+    "word": "run through",
+    "definition": "To quickly review or practice the main points.",
+    "example": "We ran through the presentation before the meeting.",
+    "topic": "meetings"
+  },
+  {
+    "word": "speak up",
+    "definition": "To express your opinion clearly in a meeting.",
+    "example": "Don’t be afraid to speak up if you have ideas.",
+    "topic": "meetings"
+  },
+  {
+    "word": "cut off",
+    "definition": "To interrupt someone while they are speaking.",
+    "example": "He cut her off before she could finish her point.",
+    "topic": "meetings"
+  },
+  {
+    "word": "wrap up",
+    "definition": "To bring a meeting to an end.",
+    "example": "Let’s wrap up and summarize the key points.",
+    "topic": "meetings"
+  },
+  {
+    "word": "follow up",
+    "definition": "To take further action or check progress after a meeting.",
+    "example": "I’ll follow up with an email summarizing the decisions.",
+    "topic": "meetings"
   }
 ]

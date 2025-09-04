@@ -15,11 +15,16 @@ import RandomQuestionGenerator from '../../Components/DiscussionComps/questionge
 import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/meetingsquiz.json';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/modalsdeductionexplanation.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/reportedspeechexplanation.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/modalsdeductionexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "reportedspeech" },
+];
 
 
 
@@ -32,8 +37,8 @@ const Meetings = () => {
         <div>
             <SEO
                 title='Exam Topics - Meetings - English Exam Exercises'
-                description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - New Years Resolutions'
+                description='A group of English exam exercises centered around the topic of the meetings'
+                name='English Exam Exercises - Meetings'
                 type='article' 
             />
 
@@ -67,20 +72,20 @@ const Meetings = () => {
 
                     <div>
 
-                   
-                        <div className="agenda-display-grid">
-                           <GrammarExercises />
-                        </div>
+                       <div>
+                    {sections.map((section, i) => (
+                    <div className="bottom-margin" key={i}>
+                    <ToggleSection  {...section} /> </div>
+                    ))}      
+                    </div>
                    
                     </div>
 
                 </div>
                 
-                <div className="agenda-subtitle">Vocabulary</div>
+                <div className="agenda-vocabulary">Vocabulary</div>
                 <div>                   
                     <div className="agenda-display-grid">
-                        <VocabularyMatch data={vocabData} topic="meetings" />
-                        <hr></hr>
                         <PhrasalverbsList data={idiomData} topic="meetings" />
                     </div>                    
                 </div>

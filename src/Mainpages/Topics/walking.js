@@ -14,29 +14,20 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import GerundExplanation from '../../Components/GrammarExplanationComps/gerundexplanation.js';
 import Gerundexercises from '../../Components/GrammarExerciseComps/gerundexercisescomp.js';
+import headerimg from '../../Images/walking.jpg';
+import ToggleSection from '../../Utils/toggleSection';
+import Quiz from '../Quizzes/quiz.js';
+import quizzesData from '../Quizzes/Data/walkingquiz.json';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "gerunds" },
+];
 
 
 Modal.setAppElement('#root');
 
 const Walking = () => {
-    const [menuItems, setMenuItems] = useState([]);
-
-    useEffect(() => {
-        // Dynamically gather all agenda-subtitle elements
-        const subtitles = Array.from(document.querySelectorAll('.agenda-subtitle')).map((subtitle, index) => ({
-            id: `section-${index}`,
-            text: subtitle.textContent,
-        }));
-
-        // Add IDs to the subtitles
-        subtitles.forEach((item, index) => {
-            const element = document.querySelectorAll('.agenda-subtitle')[index];
-            element.setAttribute('id', item.id);
-        });
-
-        setMenuItems(subtitles);
-    }, []);
-
+    
     return (
         <div>
             <SEO
@@ -48,16 +39,12 @@ const Walking = () => {
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Walking</h1> 
-                    <div className="anchor-menu">
-                        <ul>
-                            {menuItems.map((item) => (
-                                <li key={item.id}>
-                                    <a href={`#${item.id}`}>{item.text}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                <div>                   
+                <h1 className="mt-2">Walking</h1> 
+                  </div>  
+                      <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
                 </div>
 
                 <div className="agenda-languagepoint">Language Point</div>
@@ -77,16 +64,24 @@ const Walking = () => {
                     <div>
 
                    
-                        <div className="agenda-display-grid">
-                           <Gerundexercises />
-                        </div>
+                        <div>
+                    {sections.map((section, i) => (
+                    <div className="bottom-margin" key={i}>
+                    <ToggleSection  {...section} /> </div>
+                    ))}      
+                    </div>
                    
                     </div>
 
                 </div>
 
                 
-
+ <div className="agenda-quiz">Quiz</div> 
+                <div>                   
+                    <div className="agenda-display-grid">
+                        <Quiz quizzesData={quizzesData} />
+                    </div>                    
+                </div>
                 
 
                 <div className="agenda-reading">Reading</div>

@@ -1,0 +1,147 @@
+{
+  "quizTitle": "Gerunds with Verbs",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "I really enjoy ___ travel arrangements for the CEO before big conferences.",
+      "options": ["make", "making", "to make", "made"],
+      "answer": "making",
+      "topic": "Walking"
+    },
+    {
+      "id": 2,
+      "question": "She suggested ___ a weekly team update to keep everyone informed.",
+      "options": ["to write", "write", "writing", "wrote"],
+      "answer": "writing",
+      "topic": "Walking"
+    },
+    {
+      "id": 3,
+      "question": "I can’t stand ___ in traffic for hours on the way to the office.",
+      "options": ["sit", "to sit", "sitting", "sat"],
+      "answer": "sitting",
+      "topic": "Walking"
+    },
+    {
+      "id": 4,
+      "question": "I’m getting used to ___ early for 7 a.m. calls with international partners.",
+      "options": ["wake", "to wake", "waking", "woke"],
+      "answer": "waking",
+      "topic": "Walking"
+    },
+    {
+      "id": 5,
+      "question": "At weekends, I enjoy ___ in the park after a busy week.",
+      "options": ["walk", "to walk", "walking", "walked"],
+      "answer": "walking",
+      "topic": "Walking"
+    },
+    {
+      "id": 6,
+      "question": "He avoided ___ about the project delays during the board meeting.",
+      "options": ["to talk", "talk", "talking", "talked"],
+      "answer": "talking",
+      "topic": "Walking"
+    },
+    {
+      "id": 7,
+      "question": "I don’t mind ___ emails on weekends if it helps the project move forward.",
+      "options": ["answer", "to answer", "answering", "answered"],
+      "answer": "answering",
+      "topic": "Walking"
+    },
+    {
+      "id": 8,
+      "question": "She hates ___ in front of large audiences without preparation.",
+      "options": ["speak", "speaking", "to speak", "spoke"],
+      "answer": "speaking",
+      "topic": "Walking"
+    },
+    {
+      "id": 9,
+      "question": "I look forward to ___ my friends after a long business trip.",
+      "options": ["meet", "to meet", "meeting", "met"],
+      "answer": "meeting",
+      "topic": "Walking"
+    },
+    {
+      "id": 10,
+      "question": "He admitted ___ too much coffee during busy days.",
+      "options": ["drink", "drinking", "to drink", "drank"],
+      "answer": "drinking",
+      "topic": "Walking"
+    },
+    {
+      "id": 11,
+      "question": "We practiced ___ the new presentation before the client meeting.",
+      "options": ["rehearse", "to rehearse", "rehearsing", "rehearsed"],
+      "answer": "rehearsing",
+      "topic": "Walking"
+    },
+    {
+      "id": 12,
+      "question": "I can’t help ___ about yesterday’s mistakes during my commute.",
+      "options": ["think", "thinking", "to think", "thought"],
+      "answer": "thinking",
+      "topic": "Walking"
+    },
+    {
+      "id": 13,
+      "question": "She enjoys ___ yoga every morning to start her day relaxed.",
+      "options": ["do", "doing", "to do", "did"],
+      "answer": "doing",
+      "topic": "Walking"
+    },
+    {
+      "id": 14,
+      "question": "They postponed ___ the quarterly report until next week.",
+      "options": ["finish", "to finish", "finishing", "finished"],
+      "answer": "finishing",
+      "topic": "Walking"
+    },
+    {
+      "id": 15,
+      "question": "I avoid ___ late-night snacks before an early meeting.",
+      "options": ["eat", "eating", "to eat", "ate"],
+      "answer": "eating",
+      "topic": "Walking"
+    },
+    {
+      "id": 16,
+      "question": "He admitted ___ too many work calls after dinner.",
+      "options": ["take", "taking", "to take", "took"],
+      "answer": "taking",
+      "topic": "Walking"
+    },
+    {
+      "id": 17,
+      "question": "She enjoys ___ podcasts while walking in the park.",
+      "options": ["listen", "listening", "to listen", "listened"],
+      "answer": "listening",
+      "topic": "Walking"
+    },
+    {
+      "id": 18,
+      "question": "I can’t stand ___ around without a clear plan for the day.",
+      "options": ["wander", "wandering", "to wander", "wandered"],
+      "answer": "wandering",
+      "topic": "Walking"
+    },
+    {
+      "id": 19,
+      "question": "We discussed ___ a team walk every Friday afternoon.",
+      "options": ["organize", "organizing", "to organize", "organized"],
+      "answer": "organizing",
+      "topic": "Walking"
+    },
+    {
+      "id": 20,
+      "question": "I look forward to ___ along the river after finishing work.",
+      "options": ["stroll", "strolling", "to stroll", "strolled"],
+      "answer": "strolling",
+      "topic": "Walking"
+    }
+  ]
+}
+

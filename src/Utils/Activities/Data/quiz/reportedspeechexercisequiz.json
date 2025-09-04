@@ -1,0 +1,76 @@
+{
+  "quizTitle": "Reported Speech",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Direct: She said, 'I am tired.' → Reported: She said she ___ tired.",
+      "options": ["is", "was", "were", "be"],
+      "answer": "was",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 2,
+      "question": "Direct: He said, 'I will help you.' → Reported: He said he ___ help me.",
+      "options": ["will", "would", "shall", "should"],
+      "answer": "would",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 3,
+      "question": "Direct: They said, 'We have finished our homework.' → Reported: They said they ___ finished their homework.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 4,
+      "question": "Direct: She said, 'I can swim fast.' → Reported: She said she ___ swim fast.",
+      "options": ["can", "could", "may", "might"],
+      "answer": "could",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 5,
+      "question": "Direct: He said, 'I am going to the party.' → Reported: He said he ___ going to the party.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "was",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 6,
+      "question": "Direct: She said, 'I have seen that movie.' → Reported: She said she ___ seen that movie.",
+      "options": ["have", "had", "has", "having"],
+      "answer": "had",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 7,
+      "question": "Direct: John said, 'I am learning Spanish.' → Reported: John said he ___ learning Spanish.",
+      "options": ["is", "was", "were", "been"],
+      "answer": "was",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 8,
+      "question": "Direct: They said, 'We will travel to Italy.' → Reported: They said they ___ travel to Italy.",
+      "options": ["will", "would", "shall", "should"],
+      "answer": "would",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 9,
+      "question": "Direct: She said, 'I may join the meeting.' → Reported: She said she ___ join the meeting.",
+      "options": ["may", "might", "must", "should"],
+      "answer": "might",
+      "topic": "Reported Speech"
+    },
+    {
+      "id": 10,
+      "question": "Direct: He said, 'I bought a new car.' → Reported: He said he ___ a new car.",
+      "options": ["buy", "bought", "had bought", "was buying"],
+      "answer": "had bought",
+      "topic": "Reported Speech"
+    }
+  ]
+}

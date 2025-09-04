@@ -1,0 +1,48 @@
+{
+  "quizTitle": "Talking About Habits",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "As the CEO’s assistant, I ___ answer emails very late in the evening.",
+      "options": ["tend to", "used to", "keep", "am used to"],
+      "answer": "tend to",
+      "topic": "Work Habits"
+    },
+    {
+      "id": 2,
+      "question": "When I first started at 4iG, I ___ take notes on paper, but now I do everything digitally.",
+      "options": ["keep", "used to", "tend to", "am used to"],
+      "answer": "used to",
+      "topic": "Work Habits"
+    },
+    {
+      "id": 3,
+      "question": "The CEO ___ forgetting to bring his ID card, so I always keep a visitor pass ready.",
+      "options": ["used to", "am used to", "keeps", "tends to"],
+      "answer": "keeps",
+      "topic": "Work Habits"
+    },
+    {
+      "id": 4,
+      "question": "I ___ getting up early, so the 6:30 train is not a problem for me.",
+      "options": ["am used to", "tend to", "used to", "keep"],
+      "answer": "am used to",
+      "topic": "Personal Routine"
+    },
+    {
+      "id": 5,
+      "question": "In the past, I ___ stay up very late watching series, but now I go to bed earlier.",
+      "options": ["am used to", "used to", "tend to", "keep"],
+      "answer": "used to",
+      "topic": "Personal Routine"
+    },
+    {
+      "id": 6,
+      "question": "Even when I plan to relax, I ___ checking my phone for new emails every few minutes.",
+      "options": ["am used to", "used to", "tend to", "keep"],
+      "answer": "keep",
+      "topic": "Work-Life Balance"
+    }
+  ]
+}

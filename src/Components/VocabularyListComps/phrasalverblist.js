@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import vocabularyList from '../VocabularyListComps/Data/vocabularylist.json';
+import vocabularyList from '../VocabularyListComps/Data/phrasalverblist.json';
 
 const VocabularyList = ({ topic }) => {
   const [selectedTopic, setSelectedTopic] = useState('all');

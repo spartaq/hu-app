@@ -27,11 +27,9 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
   });
 
   const totalPages = Math.ceil(filteredTopics.length / topicsPerPage);
-<<<<<<< HEAD
-  const levelOrder = ["A1", "A2", "B1", "B2", "C1", "HU"];
-=======
+
   const levelOrder = ["A1", "A2", "B1", "B2", "C1", "HU1", "HU2"];
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
   const sortedTopics = [...filteredTopics].sort(
     (a, b) => levelOrder.indexOf(a.level) - levelOrder.indexOf(b.level)
   );
@@ -51,23 +49,15 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
     B1: "goldenrod",
     B2: "orangered",
     C1: "crimson",
-<<<<<<< HEAD
-    HU: "purple",
-=======
     HU1: "purple",
     HU2: "darkred",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   };
 
   const skillColors = {
     "grammar-exercises": "red",
     "reading-exercises": "orange",
     "vocabulary-exercises": "blue",
-<<<<<<< HEAD
-    "listening-exercises": "purple",
-=======
     "videos": "purple",
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
     "flashcards": "#ff7f50",
     "quizzes": "yellow",
     "hungarian": "green",
@@ -91,9 +81,6 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
                   >
                     <div className="filter-checkbox-group">
                       <h3>Skill</h3>
-<<<<<<< HEAD
-                      {["grammar-exercises", "vocabulary-exercises", "reading-exercises", "listening-exercises", "quizzes", "flashcards", "hungarian"].map((topic) => (
-=======
                       {[
                         "grammar-exercises",
                         "vocabulary-exercises",
@@ -103,32 +90,23 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
                         "flashcards",
                         "hungarian",
                       ].map((topic) => (
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                         <div key={topic}>
                           <Checkbox
                             checked={selectedTopics.includes(topic)}
                             onChange={() => handleCheckboxChange(topic, setSelectedTopics)}
                           />
                           &nbsp;&nbsp;
-<<<<<<< HEAD
-                          {topic.replace("-", " ").replace("exercises", "").replace(/\b\w/g, c => c.toUpperCase())}
-=======
                           {topic
                             .replace("-", " ")
                             .replace("exercises", "")
                             .replace(/\b\w/g, (c) => c.toUpperCase())}
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                         </div>
                       ))}
                     </div>
 
                     <div className="filter-checkbox-group">
                       <h3>Level</h3>
-<<<<<<< HEAD
-                      {["A1", "A2", "B1", "B2", "C1", "HU"].map((level) => (
-=======
                       {["A1", "A2", "B1", "B2", "C1", "HU1", "HU2"].map((level) => (
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
                         <div key={level}>
                           <Checkbox
                             checked={selectedLevels.includes(level)}
@@ -163,80 +141,6 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
 
           <ul className="topics-list">
             <AnimatePresence>
-<<<<<<< HEAD
-              {currentTopics.map((topic) => {
-                const matchingReading = topic.category === "reading-exercises"
-                  ? readingData.find((reading) => reading.readingcompTitle === topic.title)
-                  : null;
-                const matchingVideo = topic.category === "listening-exercises"
-                  ? videoData.find((video) => video.title === topic.title)
-                  : null;
-
-                return (
-                  <motion.li
-                    key={topic.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Link
-                      to={
-                        topic.category === "reading-exercises" && matchingReading
-                          ? `/reading-exercises/reading-comprehension?readingcompTitle=${encodeURIComponent(
-                              matchingReading.readingcompTitle
-                            )}`
-                          : topic.category === "listening-exercises" && matchingVideo
-                          ? `/listening-exercises/videos?title=${encodeURIComponent(matchingVideo.title)}`
-                          : `/${topic.category}/${topic.id.toLowerCase()}`
-                      }
-                      className="topics-box-link"
-                    >
-                      <div className="topics-box">
-                        <div
-                          className="topics-box-ribbon"
-                          style={{ backgroundColor: skillColors[topic.category] || "lightseagreen" }}
-                        >
-                          {topic.category
-                            .replace("-exercises", "")
-                            .replace(/\b\w/g, (c) => c.toUpperCase())}
-                        </div>
-
-                        <img
-                          src={
-                            topic.category === "reading-exercises" && matchingReading
-                              ? matchingReading.image
-                              : topic.category === "listening-exercises" && matchingVideo
-                              ? matchingVideo.image
-                              : topic.image
-                          }
-                          alt={topic.title}
-                          className="topics-image"
-                        />
-
-                        <div
-                          className="topics-card-header"
-                          style={{ backgroundColor: levelColors[topic.level] || "lightseagreen" }}
-                        >
-                          <div className="topics-category">{topic.levelname}</div>
-                          <div className="topics-title">{topic.title}</div>
-                          <div className="topics-subtitle">{topic.subtitle}</div>
-                        </div>
-
-                        <div className="topics-details">
-                          <div className="topics-level-time">
-                            <FaGraduationCap className="topics-icon" /> {topic.level} &nbsp; | &nbsp;
-                            <FaClock className="topics-icon" /> {topic.time} &nbsp; | &nbsp;
-                            <FaBook className="topics-icon" /> {topic.category.replace("-exercises", "").toUpperCase()}
-                          </div>
-                          <div className="topics-description">{topic.description}</div>
-                        </div>
-                      </div>
-                    </Link>
-                  </motion.li>
-                );
-              })}
-=======
               {currentTopics.map((topic) => (
                 <motion.li
                   key={topic.id}
@@ -247,7 +151,7 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
                 >
                   <Link
                     to={
-                      topic.category === 'videos'
+                      topic.category === "videos"
                         ? `/videos/videos?title=${encodeURIComponent(topic.title)}`
                         : topic.category === "reading-exercises"
                         ? `/reading/${encodeURIComponent(topic.id.toLowerCase())}`
@@ -258,26 +162,18 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
                     <div className="topics-box">
                       <div
                         className="topics-box-ribbon"
-                        style={{
-                          backgroundColor: skillColors[topic.category] || "lightseagreen",
-                        }}
+                        style={{ backgroundColor: skillColors[topic.category] || "lightseagreen" }}
                       >
                         {topic.category
                           .replace("-exercises", "")
                           .replace(/\b\w/g, (c) => c.toUpperCase())}
                       </div>
 
-                      <img
-                        src={topic.image}
-                        alt={topic.title}
-                        className="topics-image"
-                      />
+                      <img src={topic.image} alt={topic.title} className="topics-image" />
 
                       <div
                         className="topics-card-header"
-                        style={{
-                          backgroundColor: levelColors[topic.level] || "lightseagreen",
-                        }}
+                        style={{ backgroundColor: levelColors[topic.level] || "lightseagreen" }}
                       >
                         <div className="topics-category">{topic.levelname}</div>
                         <div className="topics-title">{topic.title}</div>
@@ -297,19 +193,14 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
                   </Link>
                 </motion.li>
               ))}
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             </AnimatePresence>
           </ul>
 
           {visibleCount < filteredTopics.length && (
-<<<<<<< HEAD
-            <button onClick={() => setVisibleCount((prev) => prev + topicsPerPage)} className="load-more-button">
-=======
             <button
               onClick={() => setVisibleCount((prev) => prev + topicsPerPage)}
               className="load-more-button"
             >
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
               Load More
             </button>
           )}

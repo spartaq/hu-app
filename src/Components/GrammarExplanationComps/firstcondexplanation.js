@@ -4,16 +4,7 @@ import '../../CSS/grammarPage.css';
 
 const FirstconditionalExplanation = () => {
   return (
-    <div className="grammar-explanation">
-      <h2><FaBookOpen style={{ marginRight: '8px' }} />First Conditional</h2>
-      <p>We use the first conditional to talk about real and possible situations in the future.</p>
-
-      <h3>Structure</h3>
-      <p><strong>If + present simple, will + base verb</strong></p>
-      <p>Use the present simple after <strong>if</strong>, and <strong>will</strong> + verb in the main clause.</p>
-
-<<<<<<< HEAD
-<div>
+  
                             <div className="agendagrammar">
                             
                             <div className="grammartext">
@@ -67,7 +58,7 @@ const FirstconditionalExplanation = () => {
           </div>
         ))}
       </div>
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 
       <h3>Examples</h3>
       <ul>

@@ -4,15 +4,6 @@ import { FaLightbulb, FaListUl, FaLanguage, FaBookOpen } from 'react-icons/fa';
 
 const TobepresExplanation = () => {
   return (
-    <div className="grammar-explanation">
-
-      <h2><FaBookOpen /> Grammar Explanation</h2>
-      <p>
-        We can use the present simple of the verb <strong>to be</strong> to talk about situations and states in the present.
-      </p>
-
-<<<<<<< HEAD
-<div>
                             <div className="agendagrammar">
                             
                             <div className="grammartext">
@@ -112,7 +103,7 @@ const TobepresExplanation = () => {
               <li><strong>What time</strong> is it? – It's six o'clock.</li>
             </ul>
           </div>
-=======
+
       <div className="grammar-flex-table">
         {[
           ['Affirmative', 'Negative', 'Question'],
@@ -162,7 +153,7 @@ const TobepresExplanation = () => {
           <li>Are we late?</li>
           <li>Are they your children?</li>
         </ul>
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 
         <h3><FaLanguage /> Short Answers</h3>
         <ul>

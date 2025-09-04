@@ -38,8 +38,8 @@ const Cellphones = () => {
         <div>
             <SEO
                 title='Exam Topics - Cell Phones - English Exam Exercises'
-                description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - New Years Resolutions'
+                description='A group of English exam exercises centered around the topic of cell phones'
+                name='English Exam Exercises - Cellphones'
                 type='article' 
             />
 

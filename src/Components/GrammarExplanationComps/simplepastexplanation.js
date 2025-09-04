@@ -9,7 +9,7 @@ const SimplepastExplanation = () => {
 
       <p>We use the past simple to talk about completed actions, events, and situations in the past.</p>
 
-<<<<<<< HEAD
+
 <div>
                             <div className="agendagrammar">
                             
@@ -122,7 +122,7 @@ const SimplepastExplanation = () => {
 =======
       <div className="example-block">
         <h3>Affirmative | Negative | Question</h3>
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+
 
 <div className="grammar-flex-table">
   {[

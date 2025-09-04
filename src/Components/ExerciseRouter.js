@@ -1,17 +1,5 @@
 
 import ExerciseSection from "../Mainpages/Quizzes/exercisesection";
-<<<<<<< HEAD
-import presentQuizData from "../Utils/Data/quiz/jelenidoexercisequiz.json";
-import pastQuizData from "../Utils/Data/quiz/multidoexercisequiz.json";
-import orderingPresentData from "../Utils/Data/ordering/wordorder_present.json";
-import orderingPastData from "../Utils/Data/ordering/wordorder_past.json";
-import vocabBusinessData from "../Utils/Data/vocab/vocab_business.json";
-import vocabTravelData from "../Utils/Data/vocab/vocab_travel.json";
-import vocabMultData from "../Utils/Data/vocab/vocab_mult.json";
-
-
-const ExerciseRouter = ({ type, subtype }) => {
-=======
 import HuJelenIdoDefQuizData from "../Utils/Activities/Data/quiz/jelenidodefexercisequiz.json";
 import HuJelenIdoIndefQuizData from "../Utils/Activities/Data/quiz/jelenidoindefexercisequiz.json";
 import HuMultIdoQuizData from "../Utils/Activities/Data/quiz/multidoexercisequiz.json";
@@ -29,13 +17,19 @@ import quizPresentPerfectData from "../Utils/Activities/Data/quiz/presentperfect
 import quizSimplePresentData from "../Utils/Activities/Data/quiz/simplepresentexercisequiz.json";
 import quizSimplePastData from "../Utils/Activities/Data/quiz/simplepastexercisequiz.json";
 import quizObligationData from "../Utils/Activities/Data/quiz/modalsObligationExerciseQuiz.json";
+import quizSecondcondData from "../Utils/Activities/Data/quiz/secondcondexercisequiz.json";
+import quizHabitsData from "../Utils/Activities/Data/quiz/habitsexercisequiz.json";
+import quizGerundsData from "../Utils/Activities/Data/quiz/gerundsexercisequiz.json";
+import quizTenseData from "../Utils/Activities/Data/quiz/tenseexercisequiz.json";
+import quizReportedspeechData from "../Utils/Activities/Data/quiz/reportedspeechexercisequiz.json";
 import orderingPresentData from "../Utils/Activities/Data/ordering/wordorder_present.json";
 import orderingPastData from "../Utils/Activities/Data/ordering/wordorder_past.json";
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
 import orderingjelenIdoIndef from "../Utils/Activities/Data/ordering/wordorder_jelenidoindef.json";
 import vocabVerbsData from "../Utils/Activities/Data/vocab/vocab_verbs.json";
-import vocabTravelData from "../Utils/Activities/Data/vocab/vocab_travel.json";
-import vocabMultData from "../Utils/Activities/Data/vocab/vocab_mult.json";
+import vocabBusinessData from "../Utils/Data/vocab/vocab_business.json";
+import vocabTravelData from "../Utils/Data/vocab/vocab_travel.json";
+import vocabMultData from "../Utils/Data/vocab/vocab_mult.json";
 import gapfillBusinessData from "../Utils/Activities/Data/gapfill/gapfill_business.json";
 import gapfillJelenidoindefData from "../Utils/Activities/Data/gapfill/gapfill_jelenidoindef.json";
 import grammarToBePresentData from "../Utils/Activities/Data/grammar/tobepresent.json";
@@ -90,19 +84,10 @@ import topicExerciseSmartphones from "../Utils/Activities/Data/quiz/smartphoneEx
 
 
 const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
     const getDataByType = (type, subtype) => {
       switch (type) {
         case "quiz":
-          switch (subtype) {
-<<<<<<< HEAD
-            case "present":
-              return presentQuizData;
-            case "past":
-              return pastQuizData;
-            default:
-              return presentQuizData; // fallback
-=======
+          switch (subtype) { 
             case "jelenidodef":
               return HuJelenIdoDefQuizData;
             case "jelenidoindef":
@@ -135,11 +120,20 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return quizSimplePastData;
             case "obligation":
               return quizObligationData;
+            case "secondcond":
+              return quizSecondcondData;
+            case "habits":
+              return quizHabitsData;
+            case "gerunds":
+              return quizGerundsData;
+            case "tense":
+              return quizTenseData;
+            case "reportedspeech":
+              return quizReportedspeechData;
             case "smartphones":
               return topicExerciseSmartphones;
             default:
-              return HuJelenIdoIndefQuizData; 
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
+              return HuJelenIdoIndefQuizData;
           }
         case "ordering":
           switch (subtype) {
@@ -147,37 +141,25 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return orderingPresentData;
             case "past":
               return orderingPastData;
-<<<<<<< HEAD
-=======
             case "fokusz":
               return orderingFokuszData;
             case "jelenidoindef":
               return orderingjelenIdoIndef;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             default:
               return orderingPresentData;
           }
         case "vocab":
           switch (subtype) {
-<<<<<<< HEAD
             case "business":
               return vocabBusinessData;
-=======
             case "verbs":
               return vocabVerbsData;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
             case "travel":
               return vocabTravelData;
               case "mult":
                 return vocabMultData;
             default:
-<<<<<<< HEAD
               return vocabBusinessData;
-          }
-        default:
-          return null;
-=======
-              return vocabVerbsData;
           }
           case "gapfill":
             switch (subtype) {
@@ -301,19 +283,15 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
                 }
               default:
                 return null;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
       }
     };
   
     const data = getDataByType(type, subtype);
-  
-<<<<<<< HEAD
     if (!data) {
       return <div>Loading...</div>;
     }
   
     return <ExerciseSection type={type} data={data} />;
-=======
       if (
         (type === "quiz" && (!data || !Array.isArray(data.questions))) ||
         (type === "ordering" && (!data || !Array.isArray(data))) ||
@@ -329,7 +307,6 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
 
   
     return <ExerciseSection type={type} data={data} id={subtype} scrollTargetRef={scrollTargetRef} />;
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
   };
   
   export default ExerciseRouter;

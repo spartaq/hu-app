@@ -11,7 +11,6 @@ import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.jso
 import { FaAngleDown } from 'react-icons/fa';
 import RelatedExercises from '../../Utils/relatedExercises.js';
 
-
 const ReadingComp1 = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const { id } = useParams();
@@ -103,10 +102,10 @@ const ReadingComp1 = () => {
     };
 
     const [isGridVisible, setIsGridVisible] = useState(true);
-    
-      const toggleGridVisibility = () => {
+
+    const toggleGridVisibility = () => {
         setIsGridVisible((prev) => !prev);
-      };
+    };
 
     const [showVocab, setShowVocab] = useState(false);
 
@@ -121,7 +120,7 @@ const ReadingComp1 = () => {
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (topicMenuRef.current && !topicMenuRef.current.contains(event.target)) {
-                setIsTopicMenuOpen(true);
+                setIsTopicMenuOpen(false);
             }
         };
         if (isTopicMenuOpen) {
@@ -138,9 +137,8 @@ const ReadingComp1 = () => {
         return <div>Loading...</div>;
     }
 
-    console.log("currentLevel:", currentReading?.level);
-console.log("currentTitle:", currentReading?.readingcompTitle);
-      
+    console.log("currentLevel:", readings[currentReading]?.level);
+    console.log("currentTitle:", readings[currentReading]?.readingcompTitle);
 
     return (
         <div>
@@ -161,56 +159,41 @@ console.log("currentTitle:", currentReading?.readingcompTitle);
                     </div>
                 </div>
             </div>
-            
+
             <div className="grammar-container">
                 <div className="readings-container">
-                    
+                    <div className="showagendagrammarbox" onClick={toggleGridVisibility}>
+                        {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown />
+                    </div>
 
-
-
-
-                        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
-
-                        {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown /></div>
-
-
-                        {isGridVisible && (
-                            <div className="grammar-display-grid">
-                      {showVocab && (
-                        <div className="overlay" onClick={closeVocab}>
-                            <div className="transcript-overlay" onClick={(e) => e.stopPropagation()}>
-                                <div className="vocabulary-text">
-                                    {readings[currentReading]?.vocabulary ? (
-                                        <ul>
-                                            {readings[currentReading].vocabulary.map((item, index) => (
-                                                <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
-                                            ))}
-                                        </ul>
-                                    ) : (
-                                        <p>No vocabulary available for this reading.</p>
-                                    )}
+                    {isGridVisible && (
+                        <div className="grammar-display-grid">
+                            {showVocab && (
+                                <div className="overlay" onClick={closeVocab}>
+                                    <div className="transcript-overlay" onClick={(e) => e.stopPropagation()}>
+                                        <div className="vocabulary-text">
+                                            {readings[currentReading]?.vocabulary ? (
+                                                <ul>
+                                                    {readings[currentReading].vocabulary.map((item, index) => (
+                                                        <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                                                    ))}
+                                                </ul>
+                                            ) : (
+                                                <p>No vocabulary available for this reading.</p>
+                                            )}
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            )}
+
+                            <VocabularyMatch
+                                data={vocabData}
+                                topic={readings[currentReading]?.topic.toLowerCase()}
+                            />
                         </div>
                     )}
-<<<<<<< HEAD
-                        <div className="showagendagrammarbox"  onClick={toggleGridVisibility}>
 
-                        {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown /></div>
-
-
-                        {isGridVisible && (
-                            <div className="grammar-display-grid">
-                            <VocabularyMatch
-                            data={vocabData}
-                            topic={readings[currentReading]?.topic.toLowerCase()}
-                            />
-=======
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
-                            </div>
-                        )}
-                        
-                        <div className="showagendagrammarbox">Reading</div>
+                    <div className="showagendagrammarbox">Reading</div>
                     <form className="readingform" onSubmit={handleSubmit}>
                         <div className="reading-text">
                             {readings[currentReading]?.paragraphs.map((paragraph, index) => (
@@ -244,36 +227,34 @@ console.log("currentTitle:", currentReading?.readingcompTitle);
                                     </Carousel.Item>
                                 ))}
                             </Carousel>
-
-
-
                         </div>
+
                         <div className="exercisectrl">
-                        <button className="checkbtn" onClick={toggleTopicMenu}>☰ Topics</button>
-                        <button type="button" className='checkbtn' onClick={toggleVocab}>Vocabulary</button>                        
-                        <button type="button" className="checkbtn" onClick={handlePrevReading}><i className="fas fa-arrow-left"></i></button>
-                        <button type="button" className="checkbtn" onClick={handleNextReading}><i className="fas fa-arrow-right"></i></button>
-                    </div>
+                            <button className="checkbtn" onClick={toggleTopicMenu}>☰ Topics</button>
+                            <button type="button" className='checkbtn' onClick={toggleVocab}>Vocabulary</button>
+                            <button type="button" className="checkbtn" onClick={handlePrevReading}><i className="fas fa-arrow-left"></i></button>
+                            <button type="button" className="checkbtn" onClick={handleNextReading}><i className="fas fa-arrow-right"></i></button>
+                        </div>
                     </form>
                 </div>
 
                 <div ref={topicMenuRef} className={`skills-topic-menu ${isTopicMenuOpen ? 'open' : ''}`}>
-                        <div className="topic-buttons">
-                            <button className="flashbtn" onClick={() => handleTopicChange('all')}>All</button>
-                            <button className="flashbtn" onClick={() => handleTopicChange('daily')}>Daily Life and Activities</button>
-                            <button className="flashbtn" onClick={() => handleTopicChange('Holidays and Travel')}>Holidays and Travel</button>
-                            <button className="flashbtn" onClick={() => handleTopicChange('money')}>Money</button>
-                            <button className="flashbtn" onClick={() => handleTopicChange('food')}>Food</button>
-                        </div>
+                    <div className="topic-buttons">
+                        <button className="flashbtn" onClick={() => handleTopicChange('all')}>All</button>
+                        <button className="flashbtn" onClick={() => handleTopicChange('daily')}>Daily Life and Activities</button>
+                        <button className="flashbtn" onClick={() => handleTopicChange('Holidays and Travel')}>Holidays and Travel</button>
+                        <button className="flashbtn" onClick={() => handleTopicChange('money')}>Money</button>
+                        <button className="flashbtn" onClick={() => handleTopicChange('food')}>Food</button>
                     </div>
+                </div>
 
-                    <div className="top-margin">
+                <div className="top-margin">
                     <RelatedExercises
-  currentCategory="reading-exercises"
-  currentLevel={readings[currentReading]?.level}
-  currentTitle={readings[currentReading]?.readingcompTitle}
-/>
-        </div>
+                        currentCategory="reading-exercises"
+                        currentLevel={readings[currentReading]?.level}
+                        currentTitle={readings[currentReading]?.readingcompTitle}
+                    />
+                </div>
             </div>
         </div>
     );

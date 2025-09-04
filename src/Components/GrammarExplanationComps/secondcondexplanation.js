@@ -4,16 +4,6 @@ import '../../CSS/grammarPage.css';
 
 const SecondcondExplanation = () => {
   return (
-    <div className="grammar-explanation">
-      <h2><FaBookOpen style={{ marginRight: '8px' }} />Second Conditional</h2>
-      <p>We use the second conditional to talk about imaginary, unlikely, or hypothetical situations in the present or future.</p>
-
-      <h3>Structure</h3>
-      <p><strong>If + past simple, would + base verb</strong></p>
-      <p>We use the past simple after <strong>if</strong>, and <strong>would</strong> + verb in the main clause.</p>
-
-<<<<<<< HEAD
-<div>
                             <div className="agendagrammar">
                             <div className="grammartext">
   <h2>Grammar explanation</h2>
@@ -52,24 +42,6 @@ const SecondcondExplanation = () => {
     <li>If I was you, I would take the job. ✅ (common in informal speech)</li>
   </ul>
 </div>
-
-=======
-      <h4>Example structure:</h4>
-      <div className="grammar-flex-table">
-        {[
-          ['If-clause (past simple)', 'Main clause (would + base verb)'],
-          ['If I won the lottery', 'I would travel the world'],
-          ['If she studied more', 'she would pass the test'],
-          ['If it rained', 'we would stay at home'],
-        ].map(([ifClause, mainClause], index) => (
-          <div key={index} className={`grammar-flex-row${index === 0 ? ' header' : ''}`}>
-            <div className="grammar-cell">{ifClause}</div>
-            <div className="grammar-cell">{mainClause}</div>
-          </div>
-        ))}
-      </div>
->>>>>>> 526c2da47c5a6909af179aa867eaaa4630814b1c
-
       <h3>Examples</h3>
       <ul>
         <li>If I were taller, I would play basketball.</li>
