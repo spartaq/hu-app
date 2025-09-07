@@ -48,12 +48,12 @@ body {
 
 .grammarimage img {
   width: 100%;
-  height: 450px;
+  height: 500px;
   max-width: 100%;
   display: block;
   border-radius: 4px;
-  object-fit: cover;
-  object-position: bottom;
+  object-fit: contain;
+  object-position: top;
 }
 
 
@@ -148,8 +148,8 @@ body {
   max-width: 100%;
   display: block;
   border-radius: 4px;
-  object-fit: cover;
-  object-position: center;
+  object-fit: contain;
+  object-position: bottom;
 }
   .showagendagrammarbox {
     font-size: 1rem;

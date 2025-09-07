@@ -153,14 +153,6 @@
   .agendagrammar h1 {
 font-size: 1.5em;
   }
-/*.grammarimage img {  
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-
-}
-
-}*/
 
 
 
@@ -229,9 +221,7 @@ font-size: 1.5em;
       overflow: hidden;
     }
 
-    /*.grammarimage img {
-      height: auto;
-    }*/
+
 
     .languagepoint-container {
       display: grid;

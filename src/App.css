@@ -787,7 +787,7 @@ header, footer {
   overflow-y: auto;
   max-height: 100%;
   height: 500px!important;
-  width: 60%;
+  width: 100%;
 }
 
 .vocabulary-text {

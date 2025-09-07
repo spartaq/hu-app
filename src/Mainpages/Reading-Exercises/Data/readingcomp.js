@@ -1,4 +1,59 @@
 module.exports = [
+{
+  "readingcompTitle": "Bucket Lists in the U.S.",
+  "topic": "travel and goals",
+  "level": "b1",
+  "image": "/Images/eiffel_tower.jpg",
+  "vocabulary": [
+    "bucket list - kívánságlista",
+    "survey - felmérés",
+    "goal - cél",
+    "priority - elsődleges szempont",
+    "experience - élmény",
+    "resource - erőforrás"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<h1>Bucket Lists in the U.S.</h1>",
+        "<p>Not everyone has the same bucket list. Lists can be different depending on age, money, interests, and how willing people are to take risks. But for many Americans, travel is very important.</p>",
+        "<p>Choice Mutual Insurance recently surveyed almost 2,000 Americans of different ages (18–77) and genders (male, female, non-binary). The survey wanted to understand their hopes and goals.</p>",
+        "<p>Most Americans—95%—said they still had bucket list goals they had not completed. On average, each person had 19 items on their list.</p>",
+        "<p>Travel is high on many lists. Popular travel items include visiting famous places in Europe and North America, going on a cruise or a train trip, visiting all 50 U.S. states, and visiting U.S. national parks.</p>",
+        "<p>Some items not directly about travel are still travel-related, like skydiving, buying a vacation home, or learning a new language. Other top items are about money, like becoming a millionaire or retiring early. Many people said money stopped them from completing all their goals.</p>",
+        "<p>Researchers at Stanford School of Medicine say bucket lists are important. A bucket list helps us live a life with hopes and goals. It lets us think about what matters to us and what experiences we want in our life.</p>",
+        "<p>As people get older, their interests and priorities change, and travel can be harder. Bucket lists should be updated regularly. Time and money are limited. A clear and practical bucket list helps people use them in the most meaningful way.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Do you have a bucket list? What is on it?",
+          "choices": []
+        },
+        {
+          "number": "2",
+          "question": "Why do you think travel is so popular on bucket lists?",
+          "choices": []
+        },
+        {
+          "number": "3",
+          "question": "What stops people from completing all the items on their bucket lists?",
+          "choices": []
+        },
+        {
+          "number": "4",
+          "question": "How can a bucket list help you in your life?",
+          "choices": []
+        },
+        {
+          "number": "5",
+          "question": "Should people update their bucket lists regularly? Why or why not?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
 
 {
   "readingcompTitle": "Cell Phones Bad",

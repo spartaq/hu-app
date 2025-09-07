@@ -1,5 +1,6 @@
 import React from 'react';
-
+import '../../CSS/grammarPage.css';
+import { FaBookOpen, FaListUl, FaLightbulb } from 'react-icons/fa';
 const PresentperfectExplanation = () => {
   return (
     
@@ -7,74 +8,66 @@ const PresentperfectExplanation = () => {
         <div>
 
 <div>
-                            <div className="agendagrammar">
+                            <div className="grammar-explanation">
 
                             <div className="grammartext">
-  <h2>Grammar explanation</h2>
-  <p>We use the present perfect to talk about experiences, changes, or actions that have an effect on the present.</p>
+  <h2><FaBookOpen style={{ marginRight: '0.5rem' }} />Grammar explanation: Present Perfect</h2>
+<p>We use the present perfect to connect the past with the present. It can describe actions that started in the past and continue now, or experiences that happened at an unspecified time.</p>
 
-  <h3>Affirmative | Negative | Question</h3>
-  <table className="grammartable" border="1" cellpadding="5">
-    <tr><th>Affirmative</th><th>Negative</th><th>Question</th></tr>
-    <tr><td>I/You/We/They have (’ve) worked</td><td>I/You/We/They have not (haven't) worked</td><td>Have I/you/we/they worked?</td></tr>
-    <tr><td>He/She/It has (’s) worked</td><td>He/She/It has not (hasn't) worked</td><td>Has he/she/it worked?</td></tr>
-  </table>
+<h3>Affirmative | Negative | Question</h3>
+<table class="grammartable" border="1" cellpadding="5">
+  <tr><th>Affirmative</th><th>Negative</th><th>Question</th></tr>
+  <tr><td>I/You/We/They have (’ve) done</td><td>I/You/We/They have not (haven't) done</td><td>Have I/you/we/they done?</td></tr>
+  <tr><td>He/She/It has (’s) done</td><td>He/She/It has not (hasn't) done</td><td>Has he/she/it done?</td></tr>
+</table>
 
-  <h3>Form</h3>
-  <p>The present perfect is formed with <strong>have/has</strong> + the <strong>past participle</strong> of the verb.</p>
-  <ul>
-    <li>work → worked</li>
-    <li>go → gone</li>
-    <li>see → seen</li>
-    <li>buy → bought</li>
-  </ul>
+<h3><FaListUl style={{ marginRight: '0.5rem' }} />Uses</h3>
+<ul>
+  <li><strong>Stative verbs with for and since to show something started in the past and continues now.</strong>: Some verbs (called stative verbs) describe states, feelings, or possession rather than actions. 
+    These are not usually used in the continuous form, so we often use the simple present perfect with them.<br/>
+    <em>I have known her for 10 years.</em><br/>
+    <em>They have always liked that restaurant.</em><br/>
+    <br/>
+    <u>Common stative verbs:</u> work, live, know, like, love, hate, prefer, believe, understand, remember, want, need, belong, have (for possession), seem.
+  </li>
+  
+  <li><strong>To say how many times</strong>: to describe repeated actions up to now.<br/>
+    <em>I have seen that film three times.</em>
+  </li>
+  <li><strong>With ever/never</strong>: to talk about life experience.<br/>
+    <em>Have you <strong>ever</strong> been to London?</em><br/>
+    <em>I have <strong>never</strong> eaten sushi.</em>
+  </li>
+</ul>
 
-  <h3>Contractions</h3>
-  <p>We often use contractions when speaking or in informal writing.</p>
-  <ul>
-    <li>I have finished. = <strong>I've</strong> finished.</li>
-    <li>She has gone home. = <strong>She's</strong> gone home.</li>
-    <li>We have seen that movie. = <strong>We've</strong> seen that movie.</li>
-    <li>They have eaten lunch. = <strong>They've</strong> eaten lunch.</li>
-  </ul>
+<hr/>
 
-  <h3>Negatives</h3>
-  <p>Use <strong>have not</strong> (haven't) or <strong>has not</strong> (hasn't) + past participle for negatives.</p>
-  <ul>
-    <li>I haven't finished my homework yet.</li>
-    <li>He hasn't called me today.</li>
-    <li>We haven't visited Paris.</li>
-  </ul>
+<h2>Grammar explanation: Present Perfect Continuous</h2>
+<p>We use the present perfect continuous to focus on the <strong>activity</strong> or <strong>duration</strong> of something that started in the past and continues now, or has just finished with a present result.</p>
 
-  <h3>Questions</h3>
-  <p>Use <strong>Have</strong> or <strong>Has</strong> before the subject to form questions.</p>
-  <ul>
-    <li>Have you been to Japan?</li>
-    <li>Has she finished the report?</li>
-    <li>Have they left already?</li>
-  </ul>
+<h3>Affirmative | Negative | Question</h3>
+<table class="grammartable" border="1" cellpadding="5">
+  <tr><th>Affirmative</th><th>Negative</th><th>Question</th></tr>
+  <tr><td>I/You/We/They have been working</td><td>I/You/We/They have not (haven't) been working</td><td>Have I/you/we/they been working?</td></tr>
+  <tr><td>He/She/It has been working</td><td>He/She/It has not (hasn't) been working</td><td>Has he/she/it been working?</td></tr>
+</table>
 
-  <h3>Short answers</h3>
-  <ul>
-    <li>Yes, I have. / No, I haven't.</li>
-    <li>Yes, you have. / No, you haven't.</li>
-    <li>Yes, we have. / No, we haven't.</li>
-    <li>Yes, they have. / No, they haven't.</li>
-    <li>Yes, he has. / No, he hasn't.</li>
-    <li>Yes, she has. / No, she hasn't.</li>
-    <li>Yes, it has. / No, it hasn't.</li>
-  </ul>
+<h3>Uses</h3>
+<ul>
+  <li><strong>Ongoing actions</strong>: started in the past and still happening.<br/>
+    <em>She has been studying English for 2 years.</em>
+  </li>
+  <li><strong>Recent activity with present result</strong>: the action may have stopped, but the effect is visible now.<br/>
+    <em>I’m tired because I have been running.</em>
+  </li>
+</ul>
 
-  <p><em>Note that we only use contractions with negative short answers.</em></p>
+<h3>Present Perfect vs Present Perfect Continuous</h3>
+<ul>
+  <li><strong>Present Perfect (focus on result):</strong> I have written 10 emails today. (completed result)</li>
+  <li><strong>Present Perfect Continuous (focus on activity/duration):</strong> I have been writing emails all morning. (ongoing activity)</li>
+</ul>
 
-  <h3>Questions with question words</h3>
-  <p>Use a question word before <strong>have</strong> or <strong>has</strong> to ask for more information.</p>
-  <ul>
-    <li><strong>Where</strong> have you been?</li>
-    <li><strong>What</strong> has he done?</li>
-    <li><strong>How long</strong> have they lived here?</li>
-    <li><strong>Why</strong> has she left?</li>
-  </ul>
 </div>
 
                             

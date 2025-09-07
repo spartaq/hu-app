@@ -1,4 +1,38 @@
 [
+  
+  
+  {"text": "Do you have a bucket list? What would you put on it?", "topic": "bucketlist"},
+  {"text": "Why do you think people make bucket lists?", "topic": "bucketlist"},
+  {"text": "Which is more important to you: experiences or money? Why?", "topic": "bucketlist"},
+  {"text": "Have you ever completed something from your bucket list? Tell us about it.", "topic": "bucketlist"},
+  {"text": "How can setting goals help people in their life?", "topic": "bucketlist"},
+  {"text": "Do you think travel should be on everyone’s bucket list? Why or why not?", "topic": "bucketlist"},
+  {"text": "What is one goal you want to achieve in the next five years?", "topic": "bucketlist"},
+  {"text": "Do you prefer to plan your goals carefully or follow your dreams spontaneously?", "topic": "bucketlist"},
+  {"text": "How can money or time affect achieving your goals?", "topic": "bucketlist"},
+  {"text": "Should bucket lists change as people get older? Why or why not?", "topic": "bucketlist"},
+  {"text": "Do you like short-term goals or long-term goals better? Why?", "topic": "bucketlist"},
+  {"text": "Have you ever helped someone achieve a goal or dream? How?", "topic": "bucketlist"},
+  {"text": "What is one adventure you would like to try in your life?", "topic": "bucketlist"},
+  {"text": "Do you think social media affects the goals people set? How?", "topic": "bucketlist"},
+  {"text": "Is it better to have a few big goals or many small goals? Why?", "topic": "bucketlist"},
+  {"text": "Can achieving a goal make you happier? Why or why not?", "topic": "bucketlist"},
+  {"text": "Do you prefer goals related to learning, travel, or money? Explain your choice.", "topic": "bucketlist"},
+  {"text": "Have you ever changed a goal because it was too hard? Tell us why.", "topic": "bucketlist"},
+  {"text": "Should schools teach students how to set life goals? Why or why not?", "topic": "bucketlist"},
+  {"text": "Do you think bucket lists are more popular among young people or older people? Why?", "topic": "bucketlist"},
+  {"text": "What is the most important experience you want to have in your lifetime?", "topic": "bucketlist"},
+  {"text": "Can achieving small goals help with bigger dreams? How?", "topic": "bucketlist"},
+  {"text": "Do you share your bucket list with friends or family? Why or why not?", "topic": "bucketlist"},
+  {"text": "Have you ever been inspired by someone else’s bucket list? How?", "topic": "bucketlist"},
+  {"text": "What is one skill you would like to learn in your lifetime?", "topic": "bucketlist"},
+  {"text": "Do you prefer realistic goals or ambitious dreams? Why?", "topic": "bucketlist"},
+  {"text": "How do you stay motivated to achieve your goals?", "topic": "bucketlist"},
+  {"text": "Do you think people feel more fulfilled when they complete a goal or when they try something new? Explain.", "topic": "bucketlist"},
+  {"text": "Can traveling change the way you see life? How?", "topic": "bucketlist"},
+  {"text": "Do you think it is important to write down your goals? Why or why not?", "topic": "bucketlist"},
+
+  
   {
     "text": "What does money mean to you personally?",
     "topic": "money"

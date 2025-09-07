@@ -1,7 +1,16 @@
 module.exports = [
   
 
-  
+  {
+      "id": "bucketList",
+      "title": "Bucket List",
+      "subtitle": "Present Perfect",
+      "category": "General",
+      "level": "B2",
+      "time": "45 min",
+      "description": "Talking abiout bucket lists and life goals.",
+      "image": "/Images/bucket.webp"
+    },
 
     {
       "id": "streamingServices",

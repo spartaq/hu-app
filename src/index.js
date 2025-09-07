@@ -19,6 +19,7 @@ import ToBePresent from './Mainpages/Grammar-Exercises/to-be-present';
 import ToBePast from './Mainpages/Grammar-Exercises/to-be-past';
 import SimplePresent from './Mainpages/Grammar-Exercises/simple-present';
 import PresentContinuous from './Mainpages/Grammar-Exercises/present-continuous';
+import SomeAny from './Mainpages/Grammar-Exercises/some-any';
 import Future from './Mainpages/Grammar-Exercises/future';
 import SimplePast from './Mainpages/Grammar-Exercises/simple-past';
 import FirstConditional from './Mainpages/Grammar-Exercises/first-conditional';
@@ -139,6 +140,7 @@ import Hasonlitas from './Mainpages/Hungarian/hasonlitas';
 import Fokusz from './Mainpages/Hungarian/fokusz';
 import Harmonia from './Mainpages/Hungarian/harmonia';
 import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
+import BucketList from './Mainpages/Topics/bucketlist';
 
 
 
@@ -340,6 +342,9 @@ const router = createBrowserRouter([
           { path: 'topics/streamingservices',
             element: <StreamingServices />,
           },
+          { path: 'topics/bucketlist',
+            element: <BucketList />,
+          },
           {
             path: 'grammar-exercises',
             element: <GrammarExercises />,
@@ -360,6 +365,10 @@ const router = createBrowserRouter([
             path: 'grammar-exercises/present-continuous',
             element: <PresentContinuous />,
           },
+          {
+            path: 'grammar-exercises/some-any',
+            element: <SomeAny />,
+          },          
           {
             path: 'grammar-exercises/simpcont',
             element: <Simpcont />,

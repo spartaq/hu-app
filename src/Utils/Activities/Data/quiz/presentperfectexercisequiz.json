@@ -1,127 +1,147 @@
 {
-  "quizTitle": "Present Perfect",
+  "quizTitle": "Present Perfect & Present Perfect Continuous",
   "type": "quiz",
   "questions": [
 
     {
       "id": 1,
-      "question": "I ___ in Budapest for 33 years.",
-      "options": ["am living", "haved live", "have lived", "living"],
-      "answer": "have lived",
-      "topic": "business"
+      "question": "I ___ jogging every morning for the last two weeks.",
+      "options": ["have been gone", "have gone", "was going", "have went"],
+      "answer": "have gone",
+      "topic": "lifestyle"
     },
     {
       "id": 2,
-      "question": "We ___ our sales target for the third consecutive year.",
-      "options": ["met", "have met", "have meet", "are met"],
-      "answer": "have met",
-      "topic": "business"
+      "question": "How long ___ guitar lessons?",
+      "options": ["have you been taking", "have you took", "did you take", "are you taking"],
+      "answer": "have you been taking",
+      "topic": "hobbies"
     },
     {
       "id": 3,
-      "question": "The company ___ a new office in Berlin.",
-      "options": ["opened", "has opened", "opens", "have opening"],
-      "answer": "has opened",
-      "topic": "business"
+      "question": "She ___ three concerts this month.",
+      "options": ["has gone to", "has been going to", "went to", "was going"],
+      "answer": "has attendedgone to",
+      "topic": "music"
     },
     {
       "id": 4,
-      "question": "I ___ three emails to the client, but haven't received a reply.",
-      "options": ["have sent", "send", "sended", "sending"],
-      "answer": "have sent",
-      "topic": "business"
+      "question": "I ___ a new video game since yesterday evening.",
+      "options": ["have been playing", "have played", "am playing", "played"],
+      "answer": "have been playing",
+      "topic": "gaming"
     },
     {
       "id": 5,
-      "question": "They ___ a solution to the problem yet.",
-      "options": ["haven't found", "don't find", "didn't found", "not found"],
-      "answer": "haven't found",
-      "topic": "business"
+      "question": "We ___ our favorite café every weekend for years.",
+      "options": ["have been going to", "have went to", "have visiting", "visit"],
+      "answer": "have been visiting",
+      "topic": "lifestyle"
     },
     {
       "id": 6,
-      "question": "She ___ in marketing since 2015.",
-      "options": ["has worked", "is working", "worked", "have work"],
-      "answer": "has worked",
-      "topic": "business"
+      "question": "He ___ to the gym three times this week.",
+      "options": ["has gone", "has been going", "did gone", "goes"],
+      "answer": "has gone",
+      "topic": "fitness"
     },
     {
       "id": 7,
-      "question": "___ any updates on the project yet?",
-      "options": ["Did you received", "Have you received", "Has you receive", "Do you received"],
-      "answer": "Have you received",
-      "topic": "business"
+      "question": "How long ___ English with a tutor?",
+      "options": ["have you been studying", "are you studying", "do you study", "do you studying"],
+      "answer": "have you been studying",
+      "topic": "education"
+    },
+    {
+      "id": 8,
+      "question": "I ___ my favorite book three times this year.",
+      "options": ["have read", "have been reading", "am reading", "read"],
+      "answer": "have read",
+      "topic": "hobbies"
+    },
+    {
+      "id": 9,
+      "question": "They ___ for the football match since morning.",
+      "options": ["have been waiting", "have waited", "waited", "are waiting"],
+      "answer": "have been waiting",
+      "topic": "sports"
     },
     {
       "id": 10,
-      "question": "I ___ with that supplier before.",
-      "options": ["have worked", "worked", "am working", "has worked"],
-      "answer": "have worked",
-      "topic": "business"
+      "question": "Have you ever ___ sushi?",
+      "options": ["eaten", "been eating", "ate", "eat"],
+      "answer": "eaten",
+      "topic": "food"
     },
     {
       "id": 11,
-      "question": "They ___ the contract yet.",
-      "options": ["haven't signed", "didn't signed", "don't signed", "not signed"],
-      "answer": "haven't signed",
-      "topic": "business"
+      "question": "I ___ a lot of emails today.",
+      "options": ["have sent", "have been sending", "sent", "am sending"],
+      "answer": "have sent",
+      "topic": "lifestyle"
     },
     {
       "id": 12,
-      "question": "How many new clients ___ this month?",
-      "options": ["you got", "have you gotten", "have you get", "did you got"],
-      "answer": "have you gotten",
-      "topic": "business"
+      "question": "She ___ on a new project since last Monday.",
+      "options": ["has been working", "has worked", "worked", "is working"],
+      "answer": "has been working",
+      "topic": "career"
+    },
+    {
+      "id": 13,
+      "question": "I ___ to the same album over and over for months.",
+      "options": ["have been listening", "have listened", "listened", "are listening"],
+      "answer": "have been listening",
+      "topic": "education"
     },
     {
       "id": 14,
-      "question": "We ___ to the trade fair every year since 2020.",
-      "options": ["have gone", "go", "gone", "has went"],
+      "question": "How long ___ his new car?",
+      "options": ["has your brother been having", "has your brother had", "does your brother have", "is your brother having"],
+      "answer": "has your brother had",
+      "topic": "lifestyle"
+    },
+    {
+      "id": 15,
+      "question": "I ___ my friends a message, but they haven't replied.",
+      "options": ["have sent", "have been sending", "sent", "am sending"],
+      "answer": "have sent",
+      "topic": "social"
+    },
+    {
+      "id": 16,
+      "question": "We ___ at the new restaurant several times this month.",
+      "options": ["have eaten", "have been eating", "ate", "are eating"],
+      "answer": "have eaten",
+      "topic": "food"
+    },
+    {
+      "id": 17,
+      "question": "They ___ to several music festivals this year.",
+      "options": ["have been going", "have gone", "went", "are going"],
       "answer": "have gone",
-      "topic": "business"
+      "topic": "music"
     },
     {
       "id": 18,
-      "question": "You ___ your access card again!",
-      "options": ["have lost", "lost", "has lost", "lose"],
-      "answer": "have lost",
-      "topic": "business"
+      "question": "I ___ a lot of coffee today.",
+      "options": ["have been having", "have had", "had had", "had drink"],
+      "answer": "have had",
+      "topic": "lifestyle"
     },
     {
       "id": 19,
-      "question": "We ___ a response from the government yet.",
-      "options": ["haven't received", "didn't received", "don't received", "not received"],
-      "answer": "haven't received",
-      "topic": "business"
+      "question": "How many meetings ___ this week?",
+      "options": ["have you had", "do you having", "do you have", "did you have"],
+      "answer": "have you played",
+      "topic": "gaming"
     },
     {
-      "id": 21,
-      "question": "I ___ in this position since January.",
-      "options": ["am", "have been", "was", "being"],
-      "answer": "have been",
-      "topic": "business"
-    },
-    {
-      "id": 22,
-      "question": "We ___ with this supplier for over ten years.",
-      "options": ["worked", "have worked", "are working", "work"],
-      "answer": "have worked",
-      "topic": "business"
-    },
-    
-    {
-      "id": 24,
-      "question": "They ___ in the same building for a long time.",
-      "options": ["have been", "are", "were", "being"],
-      "answer": "have been",
-      "topic": "business"
-    },
-    {
-      "id": 25,
-      "question": "The company ___ significant growth since 2020.",
-      "options": ["has seen", "saw", "see", "sees"],
-      "answer": "has seen",
-      "topic": "business"
+      "id": 20,
+      "question": "She ___ podcasts about productivity recently.",
+      "options": ["has been listening to", "has listened to", "listened to", "is listening to"],
+      "answer": "has been listening to",
+      "topic": "education"
     }
   ]
 }
