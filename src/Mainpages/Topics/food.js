@@ -15,7 +15,7 @@ import RandomQuestionGenerator from '../../Components/DiscussionComps/questionge
 import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
 import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
 import GapFillExercise from '../../Utils/gapfill.js';
-import jsonData from '../Vocabulary-Exercises/Data/gapfill.json'
+import jsonData from '../Vocabulary-Exercises/Data/tourismgapfill.json'
 import PassiveExplanation from '../../Components/GrammarExplanationComps/passiveexplanation.js';
 import PassiveExercises from '../../Components/GrammarExerciseComps/passiveexercisescomp.js';
 import Quiz from '../Quizzes/quiz.js';
@@ -27,21 +27,7 @@ Modal.setAppElement('#root');
 const Food = () => {
     const [menuItems, setMenuItems] = useState([]);
 
-    useEffect(() => {
-        // Dynamically gather all agenda-subtitle elements
-        const subtitles = Array.from(document.querySelectorAll('.agenda-subtitle')).map((subtitle, index) => ({
-            id: `section-${index}`,
-            text: subtitle.textContent,
-        }));
-
-        // Add IDs to the subtitles
-        subtitles.forEach((item, index) => {
-            const element = document.querySelectorAll('.agenda-subtitle')[index];
-            element.setAttribute('id', item.id);
-        });
-
-        setMenuItems(subtitles);
-    }, []);
+    
 
     return (
         <div>

@@ -14,6 +14,7 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import Soenoughexercises from '../../Components/GrammarExerciseComps/soenoughexercisescomp.js';
 import SoenoughExplanation from '../../Components/GrammarExplanationComps/soenoughexplanation.js';
+import headerimg from '../../Images/dogscatssmart.jpg';
 
 
 Modal.setAppElement('#root');
@@ -49,17 +50,12 @@ const Pets = () => {
             <div className="agenda-container">
                 <div className="agenda-title">
                     <h1 className="mt-2">Pets</h1>
-                    <div className="anchor-menu">
-                        <ul>
-                            {menuItems.map((item) => (
-                                <li key={item.id}>
-                                    <a href={`#${item.id}`}>{item.text}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
                 </div>
                
+               
+                <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
 
                 <div className="agenda-languagepoint">Language Point</div> <div 
                 className="languagepoint-container">

@@ -162,36 +162,7 @@ const ReadingComp1 = () => {
 
             <div className="grammar-container">
                 <div className="readings-container">
-                    <div className="showagendagrammarbox" onClick={toggleGridVisibility}>
-                        {isGridVisible ? 'Vocabulary' : 'Vocabulary'}<FaAngleDown />
-                    </div>
-
-                    {isGridVisible && (
-                        <div className="grammar-display-grid">
-                            {showVocab && (
-                                <div className="overlay" onClick={closeVocab}>
-                                    <div className="transcript-overlay" onClick={(e) => e.stopPropagation()}>
-                                        <div className="vocabulary-text">
-                                            {readings[currentReading]?.vocabulary ? (
-                                                <ul>
-                                                    {readings[currentReading].vocabulary.map((item, index) => (
-                                                        <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
-                                                    ))}
-                                                </ul>
-                                            ) : (
-                                                <p>No vocabulary available for this reading.</p>
-                                            )}
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-
-                            <VocabularyMatch
-                                data={vocabData}
-                                topic={readings[currentReading]?.topic.toLowerCase()}
-                            />
-                        </div>
-                    )}
+                    
 
                     <div className="showagendagrammarbox">Reading</div>
                     <form className="readingform" onSubmit={handleSubmit}>

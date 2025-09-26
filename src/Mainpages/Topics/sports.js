@@ -92,7 +92,7 @@ const Sports = () => {
 
                 <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
-                <Reading readings={readingcompData} title="Sports Hate" /> 
+                <Reading readings={readingcompData} title="Why People Like Sports" /> 
                     
 
                 </div>

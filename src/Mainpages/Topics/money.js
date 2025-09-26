@@ -20,6 +20,7 @@ import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.jso
 import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
 import ToggleSection from '../../Utils/toggleSection';
+import headerimg from '../../Images/bucket.webp';
 
 const sections = [
   { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "habits" },
@@ -43,6 +44,9 @@ const Money = () => {
             <div className="agenda-container">
                 <div className="agenda-title">
                     <h1 className="mt-2">Money</h1>
+                    <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
                 </div>
 
                 

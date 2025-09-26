@@ -21,6 +21,8 @@ import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.jso
 import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
 import ToggleSection from '../../Utils/toggleSection';
+import headerimg from '../../Images/meetings.jpg';
+
 
 const sections = [
   { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "reportedspeech" },
@@ -46,7 +48,9 @@ const Meetings = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Meetings</h1>
                 </div>
-
+                <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
                 
                 
                 <div className="agenda-subtitle">Quiz</div> 
@@ -92,7 +96,7 @@ const Meetings = () => {
 
                 <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
-                <Reading readings={readingcompData} title="Meetings" /> 
+                <Reading readings={readingcompData} title="Effective Meetings" /> 
                     
 
                 </div>
@@ -100,7 +104,7 @@ const Meetings = () => {
                 <div className="agenda-listening">Video</div>
                              
 
-                <Video videos={videoData} title="Meetings" />
+                <Video videos={videoData} title="Meeting Could Have Been An Email" />
                 
                 <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="meetings" />

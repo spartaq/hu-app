@@ -17,9 +17,9 @@ import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/brandingquiz.json';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/dependentprepositionsexplanation.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/dependentprepositionsexercisescomp.js';
-import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
+import headerimg from '../../Images/Iconic_Logos.png';
 
 
 
@@ -42,7 +42,9 @@ const Branding = () => {
                     <h1 className="mt-2">Branding</h1>
                 </div>
 
-                
+                <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
                 
                 <div className="agenda-subtitle">Quiz</div> 
                 <div>                   
@@ -79,15 +81,13 @@ const Branding = () => {
                 <div className="agenda-vocabulary">Vocabulary</div>
                 <div>                   
                     <div className="agenda-display-grid">
-                        <VocabularyMatch data={vocabData} topic="branding" />
-                        <hr></hr>
                         <PhrasalverbsList data={idiomData} topic="branding" />
                     </div>                    
                 </div>
 
                 <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
-                <Reading readings={readingcompData} title="Branding" />
+                <Reading readings={readingcompData} title="The Power of Brands" />
                 </div>
                 
                 <div className="agenda-listening">Video</div>

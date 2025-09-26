@@ -18,6 +18,7 @@ import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/ethicsquiz.json';
 import InfinitiveExplanation from '../../Components/GrammarExplanationComps/infinitiveexplanation.js';
 import Infinitiveexercises from '../../Components/GrammarExerciseComps/infinitiveexercisescomp.js';
+import headerimg from '../../Images/eding1.jpg';
 
 
 
@@ -55,6 +56,11 @@ const Ethics = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Ethics</h1>
                 </div>
+
+                <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
+
 
                 <div className="agenda-languagepoint">Language Point</div>
                 

@@ -14,6 +14,7 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import ComparisonExplanation from '../../Components/GrammarExplanationComps/comparisonsexplanation.js';
 import Comparisonexercises from '../../Components/GrammarExerciseComps/comparisonexercisescomp.js';
+import headerimg from '../../Images/closeupanswer3.jpg';
 
 
 Modal.setAppElement('#root');
@@ -34,6 +35,10 @@ const Quality = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Quality</h1>
                 </div>
+
+                <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
 
                 <div className="agenda-languagepoint">Language Point</div>
                 

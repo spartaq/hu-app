@@ -12,13 +12,13 @@ import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import IdiomsList from '../../Components/VocabularyListComps/idiomslist.js';
-import Idiomsexercise from '../../Components/VocabularyExerciseComps/idiomsexercisescomp.js';
 import idiomsData from '../../Components/VocabularyListComps/Data/idiomslist.json';
-import idiomsexerciseData from '../../Mainpages/Vocabulary-Exercises/Data/idioms.json';
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import PastHabitsExplanation from '../../Components/GrammarExplanationComps/pasthabitsexplanation.js';
-import Pasthabitsexcomp from '../../Components/GrammarExerciseComps/pasthabitsexercisecomp.js';
 import ToggleSection from '../../Utils/toggleSection';
+import Quiz from '../Quizzes/quiz.js';
+import quizzesData from '../Quizzes/Data/caffeinequiz.json';
+import headerimg from '../../Images/habit1.jpg';
 
 const sections = [
   { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "habits" },
@@ -51,7 +51,9 @@ const Habits = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Habits</h1>
                 </div>
-
+            <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div>
                 <div className="agenda-languagepoint">Language Point</div>
                 
                 

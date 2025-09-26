@@ -14,6 +14,7 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import Wishexercises from '../../Components/GrammarExerciseComps/wishexercisescomp.js';
 import WishExplanation from '../../Components/GrammarExplanationComps/wishexplanation.js';
+import headerimg from '../../Images/choice1.webp';
 
 
 Modal.setAppElement('#root');
@@ -49,16 +50,12 @@ const Choice = () => {
             <div className="agenda-container">
                 <div className="agenda-title">
                     <h1 className="mt-2">Choice</h1> 
-                    <div className="anchor-menu">
-                        <ul>
-                            {menuItems.map((item) => (
-                                <li key={item.id}>
-                                    <a href={`#${item.id}`}>{item.text}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
+                     </div>
+                     
+
+                <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
 
                 <div className="agenda-languagepoint">Language Point</div>
                 

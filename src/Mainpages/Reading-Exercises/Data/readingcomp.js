@@ -1,29 +1,452 @@
 module.exports = [
 {
+  "readingcompTitle": "The Future of Work",
+  "topic": "work and technology",
+  "level": "b1",
+  "image": "/Images/future1.jpg",
+  "vocabulary": [
+    "remote - working from home or another place outside the office",
+    "flexible - able to change easily",
+    "automation - machines or software doing work instead of people",
+    "skills - abilities you learn and use",
+    "collaboration - working together with others",
+    "global - relating to the whole world",
+    "digital - using computers or the internet",
+    "balance - a situation where different parts are equal or fair"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<h1>The Future of Work</h1>",
+        "<p>Work is changing quickly. New technology, like fast internet and smart machines, is creating new jobs and changing old ones. Many people can now work remotely, from home or anywhere with Wi-Fi.</p>",
+        "<p>In the future, jobs will need more digital skills. People will have to learn how to use new tools and keep learning all their lives. Collaboration will also be important, because many projects will connect workers across the world.</p>",
+        "<p>Automation will take over some simple tasks, but humans will still be needed for creative thinking, problem solving, and communication. Flexible work, such as choosing your hours, may give people a better balance between work and free time.</p>",
+        "<p>The future of work brings both challenges and opportunities. If people learn new skills and stay open to change, they can succeed in this global, digital world.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What allows many people to work remotely today?",
+          "choices": ["a) Better coffee", "b) Fast internet and technology", "c) Long holidays", "d) Local offices"]
+        },
+        {
+          "number": "2",
+          "question": "Why will digital skills be important in the future?",
+          "choices": ["a) Because they are fun", "b) Because jobs will need new tools and learning", "c) Because books are disappearing", "d) Because schools will close"]
+        },
+        {
+          "number": "3",
+          "question": "Which tasks are machines most likely to do?",
+          "choices": ["a) Creative thinking", "b) Problem solving", "c) Simple, repeated work", "d) Communication with people"]
+        },
+        {
+          "number": "4",
+          "question": "What is one possible benefit of flexible work?",
+          "choices": ["a) More free time and balance", "b) More stress", "c) Less teamwork", "d) Fewer jobs"]
+        },
+        {
+          "number": "5",
+          "question": "Do you think you would enjoy working remotely? Why or why not?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
+
+  {
+  "readingcompTitle": "Effective Meetings",
+  "topic": "business skills",
+  "level": "b1",
+  "image": "/Images/meeting.jpg",
+  "vocabulary": [
+    "agenda - a list of topics to be discussed",
+    "participant - a person who takes part in a meeting",
+    "discussion - a conversation about a topic",
+    "decision - a conclusion reached after consideration",
+    "action - a task assigned to someone",
+    "dysfunctional - not operating normally or properly",
+    "constructive - helpful and intended to improve",
+    "engagement - involvement or participation"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>___ 1. Participants knew the purpose and agenda for the meeting in advance. ___ </p>",
+        "<p>___ 2. The right participants were at the meeting; they arrived on time and stayed for the duration. ___ </p>",
+        "<p>___ 3. The meeting started on time and ended on time or early. ___ </p>",
+        "<p>___ 4. The meeting’s purpose, desired products, and agenda were all reviewed at the start of the meeting. ___ </p>",
+        "<p>___ 5. People spoke openly, honestly and respectfully, with one conversation occurring at a time. ___ </p>",
+        "<p>___ 6. The discussions stayed focused and on topic. ___ </p>",
+        "<p>___ 7. All participants were engaged in the meeting; no one dominated the discussion. ___ </p>",
+        "<p>___ 8. There was adequate dialogue and debate prior to making decisions. ___ </p>",
+        "<p>___ 9. Disagreements were handled constructively. ___ </p>",
+        "<p>___ 10. Any dysfunctional behavior (e.g., doing other work, speaking with disrespect) was addressed. ___ </p>",
+        "<p>___ 11. Prior to ending the meeting, all issues, decisions, and actions were reviewed. ___ </p>",
+        "<p>___ 12. The meeting produced a valuable result that could not have been achieved without a meeting. ___ </p>",
+        "<p>___ 13. Following the meeting, a summary of decisions and actions was distributed to all participants. ___ </p>",
+        "<p>___ 14. A follow-up process was used to ensure all assigned actions were accomplished. ___ </p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Why is it important for participants to know the agenda in advance?",
+          "choices": ["a) So they can skip the meeting", "b) To prepare and contribute effectively", "c) To arrive late", "d) To avoid discussion"]
+        },
+        {
+          "number": "2",
+          "question": "What should be reviewed at the start of the meeting?",
+          "choices": ["a) The office rules", "b) The meeting’s purpose, agenda, and desired products", "c) The previous day’s lunch", "d) The participants’ schedules"]
+        },
+        {
+          "number": "3",
+          "question": "How should disagreements be handled?",
+          "choices": ["a) Ignored", "b) Constructively", "c) Heated arguments", "d) Postponed indefinitely"]
+        },
+        {
+          "number": "4",
+          "question": "What should happen after the meeting?",
+          "choices": ["a) Everyone leaves without notice", "b) A summary of decisions and actions is distributed", "c) Participants meet privately", "d) No follow-up is needed"]
+        },
+        {
+          "number": "5",
+          "question": "What makes a meeting valuable?",
+          "choices": ["a) It is long", "b) It produces results that could not have been achieved without it", "c) Only one person speaks", "d) No agenda is followed"]
+        }
+      ]
+    }
+  ]
+},
+  {
+  "readingcompTitle": "The Power of Brands",
+  "topic": "consumer behavior",
+  "level": "b1",
+  "image": "/Images/brands.jpg",
+  "vocabulary": [
+    "brand - a product name that is well known",
+    "identity - the way a person sees themselves",
+    "loyalty - strong support for something",
+    "subconscious - happening in the mind without awareness",
+    "affiliation - connection or link with something",
+    "empathy - ability to share or understand another's feelings",
+    "influence - power to affect decisions or actions",
+    "rational - logical and reasonable"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<h1>The Power of Brands</h1>",
+        "<p>Brands are more than products. Coke is just soda, Tylenol just medicine, and Levi’s just jeans, yet people pay more for these names. This is because brands tell stories that shape how we think and act.</p>",
+        "<p>Studies show brands can affect us without us noticing. For example, people who saw the Apple logo performed better on creative tasks than those who saw IBM’s. Apple is linked with being cool and creative.</p>",
+        "<p>Choosing a brand can also mean choosing an identity. Nike suggests performance, while Under Armour suggests the underdog spirit. People often defend their favorite brands as if they were family.</p>",
+        "<p>Brain studies found Apple fans reacted to bad news about Apple the same way they would to bad news about loved ones. Samsung users, however, only showed positive feelings when Apple had bad news, showing rivalry rather than loyalty.</p>",
+        "<p>Even people who claim not to care about brands often follow an ‘anti-brand’ identity. Brands now play a role once held by communities or traditions, becoming part of who we are. To make smart choices, it helps to pause and ask: Why am I buying this product?</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Why do people often pay more for certain brands?",
+          "choices": ["a) Because they are always better quality", "b) Because brands tell stories and shape identity", "c) Because they are the only products available", "d) Because stores make them cheaper"]
+        },
+        {
+          "number": "2",
+          "question": "What effect did the Apple logo have in the study?",
+          "choices": ["a) It made people run faster", "b) It made people more creative", "c) It made people like Apple less", "d) It made people think about IBM"]
+        },
+        {
+          "number": "3",
+          "question": "How did Apple fans react in brain studies?",
+          "choices": ["a) They ignored Apple news", "b) They showed empathy like for family", "c) They showed no reaction", "d) They reacted only when Samsung had bad news"]
+        },
+        {
+          "number": "4",
+          "question": "What is an ‘anti-brand’ brand?",
+          "choices": ["a) A brand that sells no products", "b) A way of rejecting brands but still showing identity", "c) A brand that copies others", "d) A secret brand with no name"]
+        },
+        {
+          "number": "5",
+          "question": "Do you think brands influence your choices? Why or why not?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "readingcompTitle": "Why People Like Sports",
+  "topic": "health and leisure",
+  "level": "b1",
+  "image": "/Images/parents-football-match1.jpg",
+  "vocabulary": [
+    "competition - sports event",
+    "improve - make better",
+    "exercise - Physical activity that keeps the body healthy and strong.",
+    "require - must do",
+    "cooperate - work together",
+    "individual - not in a group",
+    "stay - not change, not move",
+    "athlete - person who does sports"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<h1>Why People Like Sports</h1>",
+        "<p>Sports are popular all over the world. People of all ages enjoy them, either by playing or by watching. Some people like sports because they are fun and exciting, while others enjoy them as a way to stay healthy.</p>",
+        "<p>Playing sports is a good form of exercise. It helps people improve their fitness and gives them more energy in daily life. Sports like football, basketball, or tennis can also reduce stress and make people feel happier.</p>",
+        "<p>Another reason people like sports is teamwork. Many sports require players to cooperate and trust each other. This builds friendships and teaches important life skills. Even individual sports, like running or swimming, help people set goals and stay motivated.</p>",
+        "<p>Sports are also exciting for spectators. Watching a live match can bring people together and create a strong feeling of community. For many, supporting their favorite team or athlete is a tradition they share with family and friends.</p>",
+        "<p>Finally, sports can inspire people. Professional athletes show what is possible with hard work and dedication. At the same time, amateurs enjoy sports simply because they love the activity. Whether playing or watching, sports give people joy, energy, and motivation.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is one reason people play sports?",
+          "choices": ["a) To get more sleep", "b) To improve fitness", "c) To learn languages", "d) To earn money easily"]
+        },
+        {
+          "number": "2",
+          "question": "What do many sports teach people?",
+          "choices": ["a) How to travel", "b) How to cook", "c) How to work as a team", "d) How to save money"]
+        },
+        {
+          "number": "3",
+          "question": "Why do spectators enjoy sports?",
+          "choices": []
+        },
+        {
+          "number": "4",
+          "question": "Who is a professional athlete?",
+          "choices": ["a) A person who watches sports", "b) Someone who plays for fun", "c) Someone who plays for money", "d) A coach who teaches sports"]
+        },
+        {
+          "number": "5",
+          "question": "Do you prefer playing or watching sports? Why?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
+
+ {
+  "readingcompTitle": "Five Power and Electric Trends That Will Shape the Future",
+  "topic": "technology and innovation",
+  "level": "b1",
+  "image": "/Images/future1.jpg",
+  "vocabulary": [
+    "strive - work hard",
+    "influences - has an effect on",
+    "sensor - A device that detects and measures things like heat or movement.",
+    "eliminates - removes",
+    "untangling - taking the knots out of",
+    "reliable - won't break down"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<h1>Five Power and Electric Trends That Will Shape the Future</h1>",
+        "<p>As technology continues its ever-changing wave of innovations and updates, engineers must strive to stay ahead of electrical engineering trends. Why? Because the future of electronics influences several industries, such as automotive, healthcare, manufacturing, telecommunications, banking and finance, retail, education, energy, aerospace, and security. In short, regardless of the industry, engineers will be responsible for building new ways of interacting with technology.</p>",
+        "<h2>1. Wireless Power Transfer</h2>",
+        "<p>Have you ever worried about forgetting to pack your charger when getting ready to leave on a trip? Or maybe you did forget it. This trend in electrical engineering eliminates any need for concern or inconvenience.</p>",
+        "<p>Though still in its early stages of development and production, wireless power transfer is a promising innovation for the future of electronics. In short, wireless power transfer (WPT), also known as wireless energy transfer, is the transmission of electrical energy from a power source to a receiver without the use of interconnecting wires. WPT systems use time-varying electromagnetic fields for energy transmission. These systems ride along the same fields and waves as wireless communication devices. Essentially, a receiver in a device picks up the power, which allows for contactless charging, powering, and data communication.</p>",
+        "<p><strong>Simple and Convenient:</strong> Developed by MIT physicists, wireless power transfer eliminates the need for chasing chargers or untangling dozens of cords and cables. This technology transfers power to devices through plastic, granite, wood, and even the air.</p>",
+        "<p><strong>Innovative Uses:</strong> If you think wireless power transfer is limited to your phone or computer, think again. Electric vehicle charging docks, security software, and heart pumps have all been discussed as potential use cases for wireless power transfer. Smart homes, industrial machinery, wearables, and even remote areas can all benefit from this technology.</p>",
+        "<h2>2. Wearable Tech</h2>",
+        "<p>While wearable technology is nothing new, its constant innovation and new iterations require the industry to think on its feet (literally) to meet consumer demand and to stay ahead of electrical engineering trends.</p>",
+        "<p><strong>Heart Monitors for the People:</strong> Some would argue that the original wearable tech piece was the first pair of eyeglasses. But we’d suggest something along the lines of a step counter with a digital display or a Garmin sports watch. What began as an activity-tracking device has grown into wearable pieces that send and receive texts, make calls, and alert wearers of possible health conditions.</p>",
+        "<p><strong>Forward-Thinking Fashion:</strong> Wearable tech can become a life-saving device. SolePower boots, for example, are designed to reduce workplace injuries. They monitor the wearer’s real-time location, environmental conditions, and fatigue. Smart clothing also incorporates sensors into fabric to track signals like heart rate, temperature, and respiration. Brands like Sensoria and Spire Health give feedback to users and doctors in real time.</p>",
+        "<h2>3. Electric Power Distribution and Supply</h2>",
+        "<p>Almost gone are the days of customer reliance on power from a single, localized power company. Today’s power generation industry trends dictate a better, more efficient way to generate power with smart grids and microgrids.</p>",
+        "<p><strong>Smart Grids:</strong> A smart grid uses digital technology to monitor and manage the flow of electricity, improving efficiency and reliability. It allows renewable energy sources and storage to support a more sustainable supply.</p>",
+        "<p><strong>Microgrids:</strong> Microgrids are self-contained power systems for communities. They provide reliability, cost savings, sustainability, efficiency, and scalability. Communities can even sell surplus energy back to the main grid.</p>",
+        "<h2>4. Electric Vehicles</h2>",
+        "<p>Despite years of mass production, electric vehicles (EVs) are still rising in popularity. They are supported by governments through tax incentives and more charging stations. The Biden administration, for example, wants half of all U.S. vehicles sold in 2030 to be electric.</p>",
+        "<p><strong>Record-Breaking Popularity:</strong> Companies like Tesla, Ford, Toyota, and GM are heavily investing in electric vehicles. Consumers are drawn to sustainability and lower emissions.</p>",
+        "<p><strong>Multiple Vehicle Options:</strong> EVs include all-electric, plug-in hybrids, and hybrid models. Demand is expected to grow to over 125 million EVs by 2030, creating space for further innovation.</p>",
+        "<h2>5. The Internet of Things (IoT)</h2>",
+        "<p>The IoT is a network of connected devices that communicate with each other. It includes phones, sensors, actuators, and more. Data from IoT can be analyzed to control and automate processes.</p>",
+        "<p><strong>Room for Innovation:</strong> Companies like Amazon, IBM, Microsoft, Intel, Cisco, and Samsung need engineers to develop and maintain IoT systems. With 5G networks, IoT will become faster and more reliable, supporting applications like augmented and virtual reality.</p>",
+        "<p><strong>Everyday Uses:</strong> IoT improves smart homes, smart cities, industrial automation, smart meters, and energy storage. It will continue to shape the future of electronics.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What does wireless power transfer allow you to do?",
+          "choices": ["a) Use more cables", "b) Charge devices without cables", "c) Increase gasoline use", "d) Travel faster"]
+        },
+        {
+          "number": "2",
+          "question": "Give two examples of wearable technology mentioned in the text.",
+          "choices": []
+        },
+        {
+          "number": "3",
+          "question": "What is the difference between a smart grid and a microgrid?",
+          "choices": []
+        },
+        {
+          "number": "4",
+          "question": "Why are electric vehicles becoming more popular?",
+          "choices": ["a) They use more gasoline", "b) They are less sustainable", "c) They are supported by governments and reduce emissions", "d) They are cheaper than bicycles"]
+        },
+        {
+          "number": "5",
+          "question": "What does IoT stand for and what does it do?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
+
+  {
+  "readingcompTitle": "Discover London",
+  "topic": "cities and culture",
+  "level": "b1",
+  "image": "/Images/london.jpg",
+  "vocabulary": [
+    "capital - The most important city of a country, where the government is located.",
+    "landmark - A famous building or place that is easy to recognize.",
+    "attraction - Something interesting for tourists to visit or see.",
+    "multicultural - Including people from many different countries and cultures.",
+    "public transport - Buses, trains, and other shared ways of traveling in a city.",
+    "the Tube - The London Underground, the city’s metro system.",
+    "historic - Something old and important in history.",
+    "modern - Something new and related to the present time.",
+    "theatre - A place where plays and musicals are performed.",
+    "neighborhood - A part of a city where people live."
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<h1>Discover London</h1>",
+        "<p>London is the capital city of the United Kingdom and one of the most famous cities in the world. It has a population of over eight million people and is known for its history, culture, and diversity. Every year, millions of tourists visit London to experience its unique atmosphere.</p>",
+        "<p>The city has many historic landmarks, such as the Tower of London, Buckingham Palace, and Big Ben. It also offers modern attractions like the London Eye, a giant wheel that gives visitors a wonderful view of the city. London is home to world-class museums and galleries, such as the British Museum and the National Gallery, which are free to visit.</p>",
+        "<p>London is a truly multicultural city. People from all over the world live there, and this can be seen in the food, music, and traditions. Visitors can enjoy dishes from almost every country and experience different cultural festivals throughout the year.</p>",
+        "<p>Getting around London is easy thanks to its public transport system. The Tube, buses, and trains connect every part of the city. However, London can also be busy and expensive, so visitors should plan carefully.</p>",
+        "<p>London is a city that combines the old and the new. It is historic but also modern, traditional but also creative. Whether you are interested in history, shopping, theatre, or nightlife, London has something for everyone.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the capital of the United Kingdom?",
+          "choices": ["a) Manchester", "b) London", "c) Edinburgh", "d) Birmingham"]
+        },
+        {
+          "number": "2",
+          "question": "Which of these is a modern attraction in London?",
+          "choices": ["a) Tower of London", "b) Big Ben", "c) London Eye", "d) Buckingham Palace"]
+        },
+        {
+          "number": "3",
+          "question": "Why is London considered multicultural?",
+          "choices": []
+        },
+        {
+          "number": "4",
+          "question": "What is the Tube?",
+          "choices": ["a) A museum", "b) A theatre", "c) The Underground metro system", "d) A shopping center"]
+        },
+        {
+          "number": "5",
+          "question": "Would you like to visit London? What would you most like to see or do there?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
+
+  {
+  "readingcompTitle": "Dua Lipa – A Modern Pop Icon",
+  "topic": "music and celebrities",
+  "level": "b1",
+  "image": "/Images/dua_lipa.jpg",
+  "vocabulary": [
+    "album - A collection of songs released together.",
+    "record deal - A contract with a music company to produce and release songs.",
+    "debut - A first public appearance or performance.",
+    "hit - A very popular song that becomes successful worldwide.",
+    "catchy - Easy to remember and pleasant to listen to.",
+    "empowering - Giving confidence and a sense of strength.",
+    "energetic - Full of energy; lively and active.",
+    "style - The special way a person dresses or presents themselves.",
+    "award - A prize given for an achievement.",
+    "platform - A way to share ideas or reach an audience, often through media."
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<h1>Dua Lipa – A Modern Pop Icon</h1>",
+        "<p>Dua Lipa is one of the most successful pop singers of the last decade. She was born in London in 1995 to Kosovar-Albanian parents. Her father was also a musician, so she started singing at a young age. After uploading her songs to YouTube, she quickly attracted attention and signed her first record deal in 2015.</p>",
+        "<p>Her debut album, <i>Dua Lipa</i>, came out in 2017 and included international hits like <i>New Rules</i>. This song made her famous around the world because of its catchy beat and empowering lyrics. Since then, she has released several more hits, such as <i>Don’t Start Now</i> and <i>Levitating</i>. Her music mixes pop, dance, and electronic sounds, which makes it perfect for radio stations and clubs.</p>",
+        "<p>As a DJ at a hit radio station, I often play her tracks because they are guaranteed to get listeners in a good mood. Her songs are energetic, modern, and always sound fresh. Listeners often call in to request them, especially when they want something to dance to.</p>",
+        "<p>Besides her music, Dua Lipa is also known for her unique style and strong personality. She has won many awards, including Grammy Awards, and she uses her platform to speak about important issues like women’s rights and equality.</p>",
+        "<p>Dua Lipa shows how talent, hard work, and confidence can take a young artist to the top of the music industry. For me, as someone who works with music every day, she is one of the most exciting artists to play on the radio.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Where was Dua Lipa born?",
+          "choices": ["a) New York", "b) London", "c) Pristina", "d) Paris"]
+        },
+        {
+          "number": "2",
+          "question": "What was the title of her debut album?",
+          "choices": ["a) New Rules", "b) Don’t Start Now", "c) Dua Lipa", "d) Future Nostalgia"]
+        },
+        {
+          "number": "3",
+          "question": "Why are her songs popular for radio stations?",
+          "choices": ["a) They are sad and slow.", "b) They are energetic and catchy.", "c) They are old classics.", "d) They are only instrumental."]
+        },
+        {
+          "number": "4",
+          "question": "What important issues does Dua Lipa speak about?",
+          "choices": []
+        },
+        {
+          "number": "5",
+          "question": "Would you like to play Dua Lipa’s songs if you were a DJ? Why or why not?",
+          "choices": []
+        }
+      ]
+    }
+  ]
+},
+
+{
   "readingcompTitle": "Bucket Lists in the U.S.",
   "topic": "travel and goals",
   "level": "b1",
   "image": "/Images/eiffel_tower.jpg",
   "vocabulary": [
-    "bucket list - kívánságlista",
-    "survey - felmérés",
-    "goal - cél",
-    "priority - elsődleges szempont",
-    "experience - élmény",
-    "resource - erőforrás"
+    "kick the bucket - An informal euphemism meaning 'to die'.",
+    "euphemistic - A mild or indirect word used to replace one that may be harsh or unpleasant.",
+    "mortality - The state of being subject to death; awareness that life is finite.",
+    "aspiration - A strong desire, hope, or goal to achieve something.",
+    "heel - The back part of the foot below the ankle.",
+    "values - Beliefs or principles that are important to a person.",
+    "symbolic - Serving as a symbol or representation of something else.",
+    "risk averse - Unwilling to take risks; preferring safety and caution.",
+    "signify - To represent or mean something.",
+    "hoofs - The plural of hoof, referring to the feet of certain animals like horses or cattle.",
+    "static - Not changing or moving; unchanging over time."
   ],
   "paragraphs": [
     {
       "text": [
-        "<h1>Bucket Lists in the U.S.</h1>",
-        "<p>Not everyone has the same bucket list. Lists can be different depending on age, money, interests, and how willing people are to take risks. But for many Americans, travel is very important.</p>",
-        "<p>Choice Mutual Insurance recently surveyed almost 2,000 Americans of different ages (18–77) and genders (male, female, non-binary). The survey wanted to understand their hopes and goals.</p>",
-        "<p>Most Americans—95%—said they still had bucket list goals they had not completed. On average, each person had 19 items on their list.</p>",
-        "<p>Travel is high on many lists. Popular travel items include visiting famous places in Europe and North America, going on a cruise or a train trip, visiting all 50 U.S. states, and visiting U.S. national parks.</p>",
-        "<p>Some items not directly about travel are still travel-related, like skydiving, buying a vacation home, or learning a new language. Other top items are about money, like becoming a millionaire or retiring early. Many people said money stopped them from completing all their goals.</p>",
-        "<p>Researchers at Stanford School of Medicine say bucket lists are important. A bucket list helps us live a life with hopes and goals. It lets us think about what matters to us and what experiences we want in our life.</p>",
-        "<p>As people get older, their interests and priorities change, and travel can be harder. Bucket lists should be updated regularly. Time and money are limited. A clear and practical bucket list helps people use them in the most meaningful way.</p>"
-      ],
+    "<h1>What is a Bucket List?</h1>",
+    "<p><b>What does \"kicked the bucket\"* mean?</b><br>\"Kicked the bucket\" is a euphemistic phrase for death.</p>",
+    "<p><b>What is a bucket list?</b><br>A bucket list is a list of the experiences or achievements that a person hopes to have or accomplish during their lifetime. A bucket list is an itemized list of goals people want to accomplish before they “kick the bucket” — or die.</p>",
+    "<p><b>*Where did the term \"kicked the bucket\" come from?</b><br>The word bucket, from French 'buquet', denotes a beam used by butchers in the 1500s to hang up slaughtered animals by their heels or hooves. In the throes of death, the animals \"kicked the bucket\". Another possible explanation is that a person who commits suicide by hanging might stand on an inverted bucket and then kick the bucket to die.</p>",
+    "<p><b>What is the value of a bucket list?</b><br>The focus of a bucket list is to live a life with hopes and aspirations. Making a bucket list allows us to reflect on our values and goals, and identify important milestones and experiences that we want to have in our lifetime.</p>",
+    "<p><b>Is a bucket list used only in the context of death?</b><br>Not at all. The bucket list has now become a way to make a list of things a person wants to accomplish before a specific event in their lives. For example, many teenagers have a \"high school bucket list\" or a \"prom night bucket list\".</p>",
+    "<p><b>What is the symbolic meaning of a bucket list?</b><br>It is a tangible recognition of our mortality. It allows us to reflect on what matters most to us, on our personal values, and to identify important life milestones and experiences that we want to have before a certain milestone in our life (e.g. high school graduation, college graduation, before retirement, before we die).</p>",
+    "<p><b>What else does a bucket list signify?</b><br>It is a sign of hope and future orientation. It also motivates us to accomplish certain things with a specific timeline.</p>",
+    "<p><b>Can I change the items on my bucket list?</b><br>A bucket list is not a static list. As we live our lives, our aspirations change. The goals and aspirations of our teenage years will be vastly different from our aspirations in our twenties and thirties. Young people often have daring deeds listed. As we get older, people become more risk averse and their bucket list focuses on goals like traveling and spending time with loved ones.</p>"
+  ],
       "questions": [
         {
           "number": "1",

@@ -8,7 +8,7 @@ import mainimage from '../../Images/wish1.jpg';
 import { FaAngleDown } from "react-icons/fa";
 import RelatedExercises from '../../Utils/relatedExercises.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/wishexercisescomp.js';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/modalsobligationexplanation.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/wishexplanation.js';
 import GrammarPageLayout from '../../Components/GrammarPageLayout';
 
 const sections = [

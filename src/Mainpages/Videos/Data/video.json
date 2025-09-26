@@ -1,5 +1,92 @@
 [
   {
+  "title": "Meeting Could Have Been An Email",
+  "videoId": "xcuP3VLFj70",  
+  "topic": "meetings",
+  "level": "B2",
+  "vocabulary": [
+  "liaison - a meeting or connection between people",
+  "vague - not clear",
+  "entail - involve",
+  "drop of a hat - immediately, without planning",
+  "cozy - comfortable and informal",
+  "top brass - people in positions of authority or leadership",
+  "box ticking - doing something only to meet formal requirements, not for real value",
+  "disdain - strong dislike or disrespect",
+  "hookup - meeting (slang)",
+  "derail - to stop or interrupt progress"
+],
+
+  "transcript": [
+  "<h1>Could You Just Put This in an Email?</h1>",
+  "<p>We broke our backs to get here and you didn't say for what. You said this was important but it seems that it is not. You were rather vague on what the small liaison would entail. But could you really not just put this in an email?</p>",
+  "<p>Have we downed tools and rushed over at the mere drop of a hat to satisfy your urge to have a cozy little chat? We’ll pull up pointless questioning, but lacking in detail.</p>",
+  "<p>chrous</p>",
+  "<p>Friends, I'm sick of staying after an early morning start with lengthy lunchtime lectures, staring gormlessly at charts. Being forced to rush my sandwich goes too far beyond the pale. Could you really not just put this in an email?</p>",
+  "<p>The sense of self-importance that these merry meetings bring won’t justify the training sessions where nobody learns a thing. We'd like to ditch the role plays and the meetings face to face in favor of sitting at our desks, cruising at our own sweet pace.</p>",
+  "<p>If this is what it takes to keep the top brass satisfied, tell them all of this box ticking leaves one feeling dead inside. We do not need a hookup to discuss the paper trail. Could you really not just put this in an email?</p>",
+  "<p>When you called us all together during a busy working week, were you surprised at the eye rolling when you stepped forward to speak. It's a sign of the disdain behind a thin and flimsy veil.</p>",
+  "<p>chrous</p>",
+  "<p>Was the presentation needed just to keep us alongside? Was anybody actually listening or just reading from the slides?</p>",
+  "<p>All the unrealistic targets were all set up to fail. Could you not just put this in an email?</p>",
+  "<p>Can't you see that we're all busy trying to arrange all the things you brought up last time that you said we had to change? Are there any explanations for the sudden summonings? Are there hidden revelations that the awkward silence brings?</p>",
+  "<p>If there are not, I propose that we this gathering derail, and for f%*k's sake please just put this in an email.</p>"
+],
+  "questions": [
+  {
+    "number": "1",
+    "question": "What is the main complaint of the speaker?",
+    "choices": [
+      "A. Meetings are too short and unplanned.",
+      "B. Meetings are pointless and could be replaced by an email.",
+      "C. Meetings are fun but tiring.",
+      "D. Emails are not professional enough."
+    ]
+  },
+  {
+    "number": "2",
+    "question": "What does the phrase 'drop of a hat' mean in the text?",
+    "choices": [
+      "A. Something expensive",
+      "B. Something immediate, without preparation",
+      "C. Something funny",
+      "D. Something boring"
+    ]
+  },
+  {
+    "number": "3",
+    "question": "Why does the speaker dislike lunchtime lectures?",
+    "choices": [
+      "A. They are too entertaining.",
+      "B. They interrupt eating and feel pointless.",
+      "C. They are too short to be useful.",
+      "D. They are only for managers."
+    ]
+  },
+  {
+    "number": "4",
+    "question": "What does 'box ticking' mean in this context?",
+    "choices": [
+      "A. Checking off important learning goals",
+      "B. Completing tasks just for appearances",
+      "C. Writing things into a box",
+      "D. Playing a team-building game"
+    ]
+  },
+  {
+    "number": "5",
+    "question": "What solution does the speaker suggest instead of meetings?",
+    "choices": [
+      "A. More role plays",
+      "B. Shorter meetings",
+      "C. Sending emails",
+      "D. Video conferences"
+    ]
+  }
+]
+
+},
+  {
   "title": "Bucketlist",
   "videoId": "FwM9q2ckK0g",  
   "topic": "Bucketlist",
@@ -137,28 +224,95 @@
   
   {
   "title": "Does money motivate you?",
-  "videoId": "Ulx5d6nhqz8",  
+  "videoId": "u6XAPnuFjJc",  
   "topic": "Money as motivator",
   "level": "B2",
   "vocabulary": [
-    "word - def"    
-  ],
+  "motivation - the reason or drive for doing something",
+  "incentive - something that encourages a person to act or work harder",
+  "cognitive - related to thinking, understanding, and mental processes",
+  "autonomy - the ability to make your own choices and control your own life",
+  "mastery - complete skill or knowledge in a subject or activity",
+  "purpose - the reason for doing something; a goal or aim",
+  "compliance - the act of following rules or instructions",
+  "engagement - active interest, involvement, or participation",
+  "contribution - something you give or add to help achieve a result",
+  "transcendent - going beyond normal human experience; extraordinary"
+],
   "transcript": [
-    "<h1>Money Motivation</h1>",
-    "<p>text</p>"
+    "<h1>Motivation and Rewards</h1>",
+    "<p>Our motivations are unbelievably interesting. I've been working on this for a few years and I find the topic still amazingly engaging and interesting, so I want to tell you about that. The science is really surprising. It's a little bit freaky! We are not as endlessly manipulable and as predictable as you would think.</p>",
+    "<p>There's a whole set of unbelievably interesting studies. I want to give you two that call into question this idea that if you reward something, you get more of the behaviour you want and if you punish something you get less of it.</p>",
+    "<p>Let's go from London to the mean streets of Cambridge, Massachusetts, in the northeast of the United States, and talk about a study at MIT - Massachusetts Institute of Technology. They took a whole group of students and gave them a set of challenges. To incentivise performance, they gave them three levels of reward. If you did pretty well, you got a small monetary reward. If you did medium well, you got a medium monetary reward. If you were one of the top performers, you got a large cash prize.</p>",
+    "<p>This is a typical motivation scheme within organisations. We reward the very top performers. We ignore the low performers. Folks in the middle, OK, you get a little bit. So what happens? They do the test. They have these incentives. Here's what they found out. As long as the task involved only mechanical skill, bonuses worked as they would be expected. The higher the pay, the better the performance. That makes sense.</p>",
+    "<p>But here's what happened. Once the task called for even rudimentary cognitive skill, a larger reward led to poorer performance. This is strange. How can that possibly be? What's interesting is that these folks who did this are economists, two at MIT, one at University of Chicago, one at Carnegie Mellon, the top tier of the economics profession. They're reaching this conclusion that seems contrary to what a lot of us learned in economics - the higher the reward, the better the performance. They're saying that once you get above rudimentary cognitive skill, it's the other way around.</p>",
+    "<p>The idea that these rewards don't work that way seems vaguely left-wing and socialist, doesn't it? For those of you who have those conspiracy theories, I want to point out the notoriously left-wing socialist group that financed the research - the Federal Reserve Bank. This is the mainstream of the mainstream coming to a conclusion that seems to defy the laws of behavioural physics.</p>",
+    "<p>This is strange, so what do they do? They say, 'This is freaky. Let's test it somewhere else. Maybe that $50, $60 prize isn't sufficiently motivating for an MIT student! Let's go to a place where $50 is more significant, relatively. We're going to go to Madurai, rural India, where $50, $60 is actually a significant sum of money.' They replicated the experiment in India. Small rewards - the equivalent of two weeks' salary. Medium performance - a month's salary. High performance - two months' salary. Those are real good incentives. You'll get a different result here.</p>",
+    "<p>What happened was that the people offered the medium reward did no better than the people offered the small reward. This time around, the people offered the top reward did worst of all. Higher incentives led to worse performance. What's interesting is that it isn't that anomalous. This has been replicated over and over again by psychologists, by sociologists and by economists. For simple, straightforward tasks, 'if you do this, then you get that', they're great! For tasks that are algorithmic, a set of rules you have to follow and get a right answer, 'if then' rewards, carrot and stick, outstanding! But when a task gets more complicated, when it requires conceptual, creative thinking, those kinds of motivators demonstrably don't work.</p>",
+    "<p>Fact - money is a motivator at work, but in a slightly strange way. If you don't pay people enough, they won't be motivated. The best use of money as a motivator is to pay people enough to take the issue of money off the table, so they're not thinking about money, they're thinking about the work. Once you do that, there are three factors that the science shows lead to better performance, not to mention personal satisfaction - autonomy, mastery and purpose.</p>",
+    "<p>Autonomy is our desire to be self-directed, to direct our own lives. In many ways, traditional notions of management run foul of that. Management is great if you want compliance. If you want engagement, which is what we want in the workforce today, as people are doing more sophisticated things, self-direction is better.</p>",
+    "<p>Let me give you some examples of almost radical forms of self-direction in the workplace that lead to good results. Let's start with Atlassian, an Australian software company. They do something really cool. Once a quarter on a Thursday, they say to their developers, 'For the next 24 hours, you can work on anything you want, the way you want, with whomever you want. All we ask is that you show the results to the company in this fun meeting - not a star chamber session, but with beer and cake and fun and things like that.' It turns out that that one day of pure, undiluted autonomy has led to a whole array of fixes for existing software, a whole array of ideas for new products that otherwise would never emerge - one day.</p>",
+    "<p>This is not the sort of thing that I would have done before I knew this research. I would have said, 'You want people to be innovative? Give them a frickin' innovation bonus. If you do something cool, I'll give you $2,500.' They're saying, 'You probably want to do something interesting. Let me get out of your way.' One day of autonomy produces things that had never emerged.</p>",
+    "<p>Let's talk about mastery - our urge to get better at stuff. We like to get better at stuff. This is why people play musical instruments on the weekend. These people are acting in ways that seem irrational economically. They play musical instruments? Why? It's not going to get them a mate or make them any money. Because it's fun. Because you get better at it and that's satisfying.</p>",
+    "<p>I imagine that if I went to my first economics professor, a woman named Mary Alice Shulman, and I went to her in 1983 and said, 'Professor Shulman, can I talk to you after class? I got this idea for a business model and I want to run it past you. Here's how it would work. You get a bunch of people around the world who do highly skilled work but they're willing to do it for free and volunteer their time - 20, sometimes 30 hours a week.' She's looking somewhat sceptically there. 'But I'm not done! Then what they create, they give it away rather than sell it. It's gonna be huge!' She would have thought I was insane. It seems to fly in the face of so many things, but you have Linux powering one out of four corporate servers in Fortune 500 companies, Apache powering more than the majority of web servers, Wikipedia.</p>",
+    "<p>What's going on? Why are people doing this? Many are technically sophisticated, highly skilled people who have jobs. They have jobs! They're working at jobs for pay, doing sophisticated technological work. And yet, during their limited discretionary time, they do equally, if not more, technically sophisticated work, not for their employer, but for someone else for free. That's a strange economic behaviour. Economists have looked into it. 'Why are you doing this?' It's overwhelmingly clear - challenge and mastery, along with making a contribution, that's it.</p>",
+    "<p>What you see more and more is the rise of the 'purpose motive'. More and more organisations want some kind of transcendent purpose. Partly because it makes coming to work better, partly because that's the way to get better talent. What we're seeing now is when the profit motive becomes unmoored from the purpose motive, bad things happen. Ethically sometimes, but also bad things, like 'not good stuff'! Like crappy products. Like lame services. Like uninspiring places to work. When the profit motive is paramount or when it becomes completely unhitched from the purpose motive, people don't do great things.</p>",
+    "<p>More and more organisations are realising this, disturbing the categories between what's profit and what's purpose. I think that actually heralds something interesting. The companies that are flourishing - profit, not-for-profit or somewhere in between - are animated by this purpose motive. Let me give you some examples. The founder of Skype says, 'Our goal is to be disruptive, but in the cause of making the world a better place.' Pretty good purpose. Here's Steve Jobs. 'I want to put a ding in the universe.' That's the kind of thing that might get you up, racing to go to work.</p>",
+    "<p>I think we are purpose maximisers, not only profit maximisers. I think the science shows that we care about mastery very deeply and that we want to be self-directed. I think that the big take-away here is that if we start treating people like people, not assuming that they're simply horses - slower, smaller, better smelling horses - if we get past the ideology of carrot and stick and look at the science, we can build organisations and work lives that make us better off. They also have the promise to make our world just a little bit better.</p>"
   ],
   "questions": [
-    {
-      "number": "1",
-      "question": "What is the main issue artists face with Spotify payments?",
-      "choices": [
-        "A. Songs are too long for Spotify’s model.",
-        "B. They don’t have enough fans.",
-        "C. The pay per stream is extremely low.",
-        "D. Record labels take all the profits."
-      ]
-    }
-  ]
+  {
+    "number": "1",
+    "question": "What did the MIT study show about rewards and performance?",
+    "choices": [
+      "A. Higher rewards always led to better performance.",
+      "B. Larger rewards sometimes led to poorer performance on cognitive tasks.",
+      "C. Rewards had no effect at all on performance.",
+      "D. Students refused to participate without rewards."
+    ]
+  },
+  {
+    "number": "2",
+    "question": "Why did researchers repeat the study in rural India?",
+    "choices": [
+      "A. To test if higher rewards were more motivating where money had more value.",
+      "B. Because students in the U.S. didn’t take it seriously.",
+      "C. To prove that Americans and Indians think the same way.",
+      "D. To study cultural differences in teamwork."
+    ]
+  },
+  {
+    "number": "3",
+    "question": "According to the talk, what three factors lead to better performance and satisfaction?",
+    "choices": [
+      "A. Money, power, and fame.",
+      "B. Competition, fear, and strict management.",
+      "C. Autonomy, mastery, and purpose.",
+      "D. Rewards, punishments, and bonuses."
+    ]
+  },
+  {
+    "number": "4",
+    "question": "What example did the speaker give of autonomy in the workplace?",
+    "choices": [
+      "A. Atlassian’s 'work on anything you want for 24 hours' day.",
+      "B. Employees receiving monthly cash prizes.",
+      "C. Mandatory innovation training sessions.",
+      "D. A strict set of company rules for all developers."
+    ]
+  },
+  {
+    "number": "5",
+    "question": "What is the speaker’s main conclusion about motivation?",
+    "choices": [
+      "A. People are best motivated only by money.",
+      "B. Carrot-and-stick methods are the most effective.",
+      "C. Treating people like people leads to better outcomes.",
+      "D. Purpose is less important than profit."
+    ]
+  }
+]
+
 }, 
 {
   "title": "Spotify and the Music Industry",
@@ -535,62 +689,63 @@
       
   ],
   "questions": [
-    {
-      "number": "1",
-      "question": "What compound in coffee is primarily responsible for boosting energy levels?",
-      "choices": [
-        "A Adenosine",
-        "B Dopamine",
-        "C Caffeine",
-        "D Antioxidants"
-      ],
-      "correctAnswer": "C Caffeine"
-    },
-    {
-      "number": "2",
-      "question": "How many 8-ounce cups of coffee per day are associated with most of the studied health benefits?",
-      "choices": [
-        "A 1-2 cups",
-        "B 3-4 cups",
-        "C 5-6 cups",
-        "D More than 6 cups"
-      ],
-      "correctAnswer": "B 3-4 cups"
-    },
-    {
-      "number": "3",
-      "question": "Which health condition is associated with a 6% lower risk per cup of coffee consumed?",
-      "choices": [
-        "A Depression",
-        "B Type 2 diabetes",
-        "C Parkinson's disease",
-        "D Heart disease"
-      ],
-      "correctAnswer": "B Type 2 diabetes"
-    },
-    {
-      "number": "4",
-      "question": "What is a potential downside of coffee consumption for heart health?",
-      "choices": [
-        "A Increased blood pressure",
-        "B Increased risk of stroke",
-        "C Decreased energy levels",
-        "D Increased sugar cravings"
-      ],
-      "correctAnswer": "A Increased blood pressure"
-    },
-    {
-      "number": "5",
-      "question": "Which group of people should limit or avoid caffeine intake according to the text?",
-      "choices": [
-        "A Adults with no health issues",
-        "B People who drink less than 3 cups per day",
-        "C Pregnant or breastfeeding individuals",
-        "D People with low blood pressure"
-      ],
-      "correctAnswer": "C Pregnant or breastfeeding individuals"
-    }
-  ]
+  {
+    "number": "1",
+    "question": "According to the report 'Tech in 2030', what will transform the workplace?",
+    "choices": [
+      "A Disruptive technologies and social movements",
+      "B Government laws and taxes",
+      "C Global tourism and migration",
+      "D Climate and weather changes"
+    ],
+    "correctAnswer": "A Disruptive technologies and social movements"
+  },
+  {
+    "number": "2",
+    "question": "By 2030, what will drive the adoption of the four-day work week?",
+    "choices": [
+      "A Government regulations",
+      "B Employee protests",
+      "C Company competition for talent",
+      "D International trade agreements"
+    ],
+    "correctAnswer": "C Company competition for talent"
+  },
+  {
+    "number": "3",
+    "question": "What is the predicted role of automation in jobs by 2030?",
+    "choices": [
+      "A Most jobs will be completely replaced by robots",
+      "B Automation will support workers and create new roles",
+      "C Automation will only affect low-skill jobs",
+      "D Only governments will control automation use"
+    ],
+    "correctAnswer": "B Automation will support workers and create new roles"
+  },
+  {
+    "number": "4",
+    "question": "Which of the following job titles could exist in the future due to automation?",
+    "choices": [
+      "A Robot Handler or AI Director",
+      "B Virtual Pilot or Space Farmer",
+      "C Cloud Architect or Drone Lawyer",
+      "D Data Farmer or Digital Painter"
+    ],
+    "correctAnswer": "A Robot Handler or AI Director"
+  },
+  {
+    "number": "5",
+    "question": "What technologies will help offices move into the metaverse?",
+    "choices": [
+      "A Solar panels and wind turbines",
+      "B Augmented reality, virtual reality, and 5G",
+      "C Trains, planes, and ships",
+      "D Traditional office furniture and lighting"
+    ],
+    "correctAnswer": "B Augmented reality, virtual reality, and 5G"
+  }
+]
+
     }, 
 
 {
@@ -717,62 +872,32 @@
       
   ],
   "questions": [
-    {
-      "number": "1",
-      "question": "What compound in coffee is primarily responsible for boosting energy levels?",
-      "choices": [
-        "A Adenosine",
-        "B Dopamine",
-        "C Caffeine",
-        "D Antioxidants"
-      ],
-      "correctAnswer": "C Caffeine"
-    },
-    {
-      "number": "2",
-      "question": "How many 8-ounce cups of coffee per day are associated with most of the studied health benefits?",
-      "choices": [
-        "A 1-2 cups",
-        "B 3-4 cups",
-        "C 5-6 cups",
-        "D More than 6 cups"
-      ],
-      "correctAnswer": "B 3-4 cups"
-    },
-    {
-      "number": "3",
-      "question": "Which health condition is associated with a 6% lower risk per cup of coffee consumed?",
-      "choices": [
-        "A Depression",
-        "B Type 2 diabetes",
-        "C Parkinson's disease",
-        "D Heart disease"
-      ],
-      "correctAnswer": "B Type 2 diabetes"
-    },
-    {
-      "number": "4",
-      "question": "What is a potential downside of coffee consumption for heart health?",
-      "choices": [
-        "A Increased blood pressure",
-        "B Increased risk of stroke",
-        "C Decreased energy levels",
-        "D Increased sugar cravings"
-      ],
-      "correctAnswer": "A Increased blood pressure"
-    },
-    {
-      "number": "5",
-      "question": "Which group of people should limit or avoid caffeine intake according to the text?",
-      "choices": [
-        "A Adults with no health issues",
-        "B People who drink less than 3 cups per day",
-        "C Pregnant or breastfeeding individuals",
-        "D People with low blood pressure"
-      ],
-      "correctAnswer": "C Pregnant or breastfeeding individuals"
-    }
-  ]
+        {
+          "number": "1",
+          "question": "Why do people often pay more for certain brands?",
+          "choices": ["a) Because they are always better quality", "b) Because brands tell stories and shape identity", "c) Because they are the only products available", "d) Because stores make them cheaper"]
+        },
+        {
+          "number": "2",
+          "question": "What effect did the Apple logo have in the study?",
+          "choices": ["a) It made people run faster", "b) It made people more creative", "c) It made people like Apple less", "d) It made people think about IBM"]
+        },
+        {
+          "number": "3",
+          "question": "How did Apple fans react in brain studies?",
+          "choices": ["a) They ignored Apple news", "b) They showed empathy like for family", "c) They showed no reaction", "d) They reacted only when Samsung had bad news"]
+        },
+        {
+          "number": "4",
+          "question": "What is an ‘anti-brand’ brand?",
+          "choices": ["a) A brand that sells no products", "b) A way of rejecting brands but still showing identity", "c) A brand that copies others", "d) A secret brand with no name"]
+        },
+        {
+          "number": "5",
+          "question": "Do you think brands influence your choices? Why or why not?",
+          "choices": []
+        }
+      ]
     },
   {
     "title": "caffeine",

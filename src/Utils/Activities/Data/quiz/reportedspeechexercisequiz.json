@@ -1,75 +1,75 @@
 {
-  "quizTitle": "Reported Speech",
+  "quizTitle": "Reported Speech – Meetings",
   "type": "quiz",
   "questions": [
     {
       "id": 1,
-      "question": "Direct: She said, 'I am tired.' → Reported: She said she ___ tired.",
+      "question": "Direct: She said, 'I am leading the meeting.' → Reported: She said she ___ leading the meeting.",
       "options": ["is", "was", "were", "be"],
       "answer": "was",
       "topic": "Reported Speech"
     },
     {
       "id": 2,
-      "question": "Direct: He said, 'I will help you.' → Reported: He said he ___ help me.",
+      "question": "Direct: He said, 'I will schedule the next meeting.' → Reported: He said he ___ schedule the next meeting.",
       "options": ["will", "would", "shall", "should"],
       "answer": "would",
       "topic": "Reported Speech"
     },
     {
       "id": 3,
-      "question": "Direct: They said, 'We have finished our homework.' → Reported: They said they ___ finished their homework.",
+      "question": "Direct: They said, 'We have prepared the agenda.' → Reported: They said they ___ prepared the agenda.",
       "options": ["have", "had", "has", "having"],
       "answer": "had",
       "topic": "Reported Speech"
     },
     {
       "id": 4,
-      "question": "Direct: She said, 'I can swim fast.' → Reported: She said she ___ swim fast.",
+      "question": "Direct: She said, 'I can attend the meeting tomorrow.' → Reported: She said she ___ attend the meeting tomorrow.",
       "options": ["can", "could", "may", "might"],
       "answer": "could",
       "topic": "Reported Speech"
     },
     {
       "id": 5,
-      "question": "Direct: He said, 'I am going to the party.' → Reported: He said he ___ going to the party.",
+      "question": "Direct: He said, 'I am sending the meeting minutes.' → Reported: He said he ___ sending the meeting minutes.",
       "options": ["is", "was", "were", "been"],
       "answer": "was",
       "topic": "Reported Speech"
     },
     {
       "id": 6,
-      "question": "Direct: She said, 'I have seen that movie.' → Reported: She said she ___ seen that movie.",
+      "question": "Direct: She said, 'I have shared the report with the team.' → Reported: She said she ___ shared the report with the team.",
       "options": ["have", "had", "has", "having"],
       "answer": "had",
       "topic": "Reported Speech"
     },
     {
       "id": 7,
-      "question": "Direct: John said, 'I am learning Spanish.' → Reported: John said he ___ learning Spanish.",
+      "question": "Direct: John said, 'I am preparing the presentation.' → Reported: John said he ___ preparing the presentation.",
       "options": ["is", "was", "were", "been"],
       "answer": "was",
       "topic": "Reported Speech"
     },
     {
       "id": 8,
-      "question": "Direct: They said, 'We will travel to Italy.' → Reported: They said they ___ travel to Italy.",
+      "question": "Direct: They said, 'We will discuss the budget tomorrow.' → Reported: They said they ___ discuss the budget tomorrow.",
       "options": ["will", "would", "shall", "should"],
       "answer": "would",
       "topic": "Reported Speech"
     },
     {
       "id": 9,
-      "question": "Direct: She said, 'I may join the meeting.' → Reported: She said she ___ join the meeting.",
+      "question": "Direct: She said, 'I may join the strategy meeting.' → Reported: She said she ___ join the strategy meeting.",
       "options": ["may", "might", "must", "should"],
       "answer": "might",
       "topic": "Reported Speech"
     },
     {
       "id": 10,
-      "question": "Direct: He said, 'I bought a new car.' → Reported: He said he ___ a new car.",
-      "options": ["buy", "bought", "had bought", "was buying"],
-      "answer": "had bought",
+      "question": "Direct: He said, 'I booked the conference room.' → Reported: He said he ___ the conference room.",
+      "options": ["book", "booked", "had booked", "was booking"],
+      "answer": "had booked",
       "topic": "Reported Speech"
     }
   ]

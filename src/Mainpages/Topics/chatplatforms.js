@@ -12,8 +12,11 @@ import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import Soenoughexercises from '../../Components/GrammarExerciseComps/soenoughexercisescomp.js';
-import SoenoughExplanation from '../../Components/GrammarExplanationComps/soenoughexplanation.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/soenoughexplanation.js';
+import GrammarExercises from '../../Components/GrammarExerciseComps/soenoughexercisescomp.js';
+import Quiz from '../Quizzes/quiz.js';
+import quizzesData from '../Quizzes/Data/caffeinequiz.json';
+import headerimg from '../../Images/chatapps.png';
 
 
 Modal.setAppElement('#root');
@@ -41,26 +44,20 @@ const Chatplatforms = () => {
         <div>
             <SEO
                 title='Exam Topics - Chat Platforms - English Exam Exercises'
-                description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - New Years Resolutions'
+                description='A group of English exam exercises centered around the topic of Chat Platforms'
+                name='English Exam Exercises - Chat Platforms'
                 type='article' 
             />
 
             <div className="agenda-container">
                 <div className="agenda-title">
                     <h1 className="mt-2">Chat Platforms</h1>
-                    <div className="anchor-menu">
-                        <ul>
-                            {menuItems.map((item) => (
-                                <li key={item.id}>
-                                    <a href={`#${item.id}`}>{item.text}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                    
                 </div>
 
-                
+                <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
 
                 <div className="agenda-languagepoint">Language Point</div>
                 
@@ -71,7 +68,7 @@ const Chatplatforms = () => {
 
 
                         <div>
-                        <SoenoughExplanation /> 
+                        <GrammarExplanation /> 
                         </div>                        
                  
                     </div>
@@ -80,7 +77,7 @@ const Chatplatforms = () => {
 
                    
                         <div className="agenda-display-grid">
-                           <Soenoughexercises />
+                           <GrammarExercises />
                         </div>
                    
                     </div>

@@ -2,139 +2,131 @@
   "quizTitle": "Present Perfect & Present Perfect Continuous",
   "type": "quiz",
   "questions": [
-
     {
       "id": 1,
-      "question": "I ___ jogging every morning for the last two weeks.",
-      "options": ["have been gone", "have gone", "was going", "have went"],
-      "answer": "have gone",
-      "topic": "lifestyle"
-    },
-    {
-      "id": 2,
-      "question": "How long ___ guitar lessons?",
-      "options": ["have you been taking", "have you took", "did you take", "are you taking"],
-      "answer": "have you been taking",
-      "topic": "hobbies"
-    },
-    {
-      "id": 3,
       "question": "She ___ three concerts this month.",
       "options": ["has gone to", "has been going to", "went to", "was going"],
-      "answer": "has attendedgone to",
+      "answer": "has gone to",
       "topic": "music"
     },
     {
-      "id": 4,
-      "question": "I ___ a new video game since yesterday evening.",
-      "options": ["have been playing", "have played", "am playing", "played"],
-      "answer": "have been playing",
-      "topic": "gaming"
-    },
-    {
-      "id": 5,
-      "question": "We ___ our favorite café every weekend for years.",
-      "options": ["have been going to", "have went to", "have visiting", "visit"],
-      "answer": "have been visiting",
-      "topic": "lifestyle"
-    },
-    {
-      "id": 6,
+      "id": 2,
       "question": "He ___ to the gym three times this week.",
       "options": ["has gone", "has been going", "did gone", "goes"],
       "answer": "has gone",
       "topic": "fitness"
     },
     {
-      "id": 7,
-      "question": "How long ___ English with a tutor?",
-      "options": ["have you been studying", "are you studying", "do you study", "do you studying"],
-      "answer": "have you been studying",
-      "topic": "education"
-    },
-    {
-      "id": 8,
-      "question": "I ___ my favorite book three times this year.",
-      "options": ["have read", "have been reading", "am reading", "read"],
+      "id": 3,
+      "question": "He ___ 4 coffees today.",
+      "options": ["has had", "has been having", "is having", "has"],
       "answer": "have read",
       "topic": "hobbies"
     },
     {
-      "id": 9,
-      "question": "They ___ for the football match since morning.",
-      "options": ["have been waiting", "have waited", "waited", "are waiting"],
-      "answer": "have been waiting",
-      "topic": "sports"
-    },
-    {
-      "id": 10,
+      "id": 4,
       "question": "Have you ever ___ sushi?",
       "options": ["eaten", "been eating", "ate", "eat"],
       "answer": "eaten",
       "topic": "food"
     },
     {
-      "id": 11,
-      "question": "I ___ a lot of emails today.",
-      "options": ["have sent", "have been sending", "sent", "am sending"],
+      "id": 5,
+      "question": "We ___ a lot of positive feedback on the new feature.",
+      "options": ["have received", "are receiving", "receive", "receiving"],
       "answer": "have sent",
       "topic": "lifestyle"
     },
     {
-      "id": 12,
-      "question": "She ___ on a new project since last Monday.",
-      "options": ["has been working", "has worked", "worked", "is working"],
-      "answer": "has been working",
-      "topic": "career"
-    },
-    {
-      "id": 13,
-      "question": "I ___ to the same album over and over for months.",
-      "options": ["have been listening", "have listened", "listened", "are listening"],
-      "answer": "have been listening",
-      "topic": "education"
-    },
-    {
-      "id": 14,
+      "id": 6,
       "question": "How long ___ his new car?",
       "options": ["has your brother been having", "has your brother had", "does your brother have", "is your brother having"],
       "answer": "has your brother had",
       "topic": "lifestyle"
     },
     {
-      "id": 15,
-      "question": "I ___ my friends a message, but they haven't replied.",
-      "options": ["have sent", "have been sending", "sent", "am sending"],
-      "answer": "have sent",
-      "topic": "social"
-    },
-    {
-      "id": 16,
-      "question": "We ___ at the new restaurant several times this month.",
-      "options": ["have eaten", "have been eating", "ate", "are eating"],
-      "answer": "have eaten",
-      "topic": "food"
-    },
-    {
-      "id": 17,
-      "question": "They ___ to several music festivals this year.",
-      "options": ["have been going", "have gone", "went", "are going"],
-      "answer": "have gone",
-      "topic": "music"
-    },
-    {
-      "id": 18,
+      "id": 19,
       "question": "I ___ a lot of coffee today.",
       "options": ["have been having", "have had", "had had", "had drink"],
       "answer": "have had",
       "topic": "lifestyle"
     },
     {
-      "id": 19,
+      "id": 8,
+      "question": "We ___ at the new restaurant several times this month.",
+      "options": ["have eaten", "have been eating", "ate", "are eating"],
+      "answer": "have eaten",
+      "topic": "food"
+    },
+    {
+      "id": 9,
+      "question": "They ___ to several music festivals this year.",
+      "options": ["have been going", "have gone", "went", "are going"],
+      "answer": "have gone",
+      "topic": "music"
+    },
+    {
+      "id": 10,
       "question": "How many meetings ___ this week?",
       "options": ["have you had", "do you having", "do you have", "did you have"],
-      "answer": "have you played",
+      "answer": "have you had",
+      "topic": "work"
+    },
+    {
+      "id": 11,
+      "question": "I ___ jogging every morning for the last two weeks.",
+      "options": ["have been going", "have gone", "was going", "have went"],
+      "answer": "have been going",
+      "topic": "lifestyle"
+    },
+    {
+      "id": 12,
+      "question": "How long ___ guitar lessons?",
+      "options": ["have you been taking", "have you took", "did you take", "are you taking"],
+      "answer": "have you been taking",
+      "topic": "hobbies"
+    },
+    {
+      "id": 13,
+      "question": "They ___ for the plumber to arrive since the morning.",
+      "options": ["have been waiting", "have waited", "are waiting", "waited"],
+      "answer": "have been waiting",
       "topic": "gaming"
+    },
+    {
+      "id": 14,
+      "question": "We ___ our favorite café every weekend for years.",
+      "options": ["have been going to", "have went to", "have visiting", "visit"],
+      "answer": "have been going to",
+      "topic": "lifestyle"
+    },
+    {
+      "id": 15,
+      "question": "How long ___ English with a tutor?",
+      "options": ["have you been studying", "are you studying", "do you study", "do you studying"],
+      "answer": "have you been studying",
+      "topic": "education"
+    },
+    {
+      "id": 16,
+      "question": "He ___ in the garden since before the sun came up.",
+      "options": ["has been working", "have worked", "worked", "are working"],
+      "answer": "has been working",
+      "topic": "sports"
+    },
+    {
+      "id": 17,
+      "question": "She ___ on a new project since last Monday.",
+      "options": ["has been working", "has worked", "worked", "is working"],
+      "answer": "has been working",
+      "topic": "career"
+    },
+    {
+      "id": 18,
+      "question": "I ___ to the same album over and over for months.",
+      "options": ["have been listening", "have listened", "listened", "are listening"],
+      "answer": "have been listening",
+      "topic": "music"
     },
     {
       "id": 20,

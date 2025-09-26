@@ -22,6 +22,7 @@ import idiomData from "../Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
 import ImageCarousel from '../../Utils/imgcarousel.js';
 import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json'
+import headerimg from '../../Images/selfcheckout.jpg';
 
 
 Modal.setAppElement('#root');
@@ -41,6 +42,10 @@ const Automation = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Automation</h1>
                 </div>
+
+                 <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div> 
 
                 <div className="agenda-languagepoint">Language Point</div>
                 

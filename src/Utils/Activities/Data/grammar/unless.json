@@ -1,5 +1,65 @@
 {
   "sentences":[
+    {
+    "text": "The system update won’t start ___ all users have logged out.",
+    "answer": "until",
+    "topic": "OneAH"
+  },
+  {
+    "text": "You can’t access the new platform ___ your password is changed.",
+    "answer": "unless",
+    "topic": "OneAH"
+  },
+  {
+    "text": "We’ll roll out the new mobile app ___ the security team approves it.",
+    "answer": "as soon as",
+    "topic": "OneAH"
+  },
+  {
+    "text": "The old email server will stay online ___ the migration is complete.",
+    "answer": "until",
+    "topic": "OneAH"
+  },
+  {
+    "text": "The project won’t succeed ___ all departments cooperate.",
+    "answer": "unless",
+    "topic": "OneAH"
+  },
+  {
+    "text": "Please inform the team ___ you notice any unusual activity in the system.",
+    "answer": "as soon as",
+    "topic": "OneAH"
+  },
+  {
+    "text": "I won’t leave this job ___ I find a much better opportunity.",
+    "answer": "unless",
+    "topic": "OneAH"
+  },
+  {
+    "text": "I won’t accept a new role ___ it offers real growth in IT leadership.",
+    "answer": "unless",
+    "topic": "OneAH"
+  },
+  {
+    "text": "I’ll celebrate with my team ___ the migration project is finished.",
+    "answer": "as soon as",
+    "topic": "OneAH"
+  },
+  {
+    "text": "I’ll feel more relaxed ___ the new system is running smoothly.",
+    "answer": "as soon as",
+    "topic": "OneAH"
+  },
+  {
+    "text": "I’m going to resign ___ management listens to our concerns.",
+    "answer": "unless",
+    "topic": "OneAH"
+  },
+  {
+    "text": "I won’t make a final decision ___ I talk it over with my family.",
+    "answer": "until",
+    "topic": "OneAH"
+  },
   {
     "text": "You can work remotely ___ your performance remains consistent.",
     "answer": "as long as",

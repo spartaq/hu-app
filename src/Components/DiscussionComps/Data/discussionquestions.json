@@ -1,5 +1,33 @@
 [
-  
+  { "text": "Do you need coffee to wake you up in the morning?", "topic": "caffeine" },
+  { "text": "Do you care if you have instant coffee?", "topic": "caffeine" },
+  { "text": "What’s the most number of cups you have drunk in one day?", "topic": "caffeine" },
+  { "text": "Do you have Starbucks in your country?", "topic": "caffeine" },
+  { "text": "What do you think of Starbucks?", "topic": "caffeine" },
+  { "text": "What do you think of the new trend of flavored coffee?", "topic": "caffeine" },
+  { "text": "Do you like the smell of coffee?", "topic": "caffeine" },
+  { "text": "What do you know about coffee production and who gets the big profits?", "topic": "caffeine" },
+  { "text": "What is the difference between drip coffee, cappuccino and espresso?", "topic": "caffeine" },
+  { "text": "Does coffee that’s grown in different parts of the world taste differently?", "topic": "caffeine" },
+  { "text": "What role does coffee (or tea) play in your life?", "topic": "caffeine" },
+  { "text": "What’s the difference between Irish coffee and Turkish coffee?", "topic": "caffeine" },
+  { "text": "Do you know what fair trade coffee is?", "topic": "caffeine" },
+  { "text": "Do you like coffee sold in cans?", "topic": "caffeine" },
+  { "text": "Do you like to buy whole-bean coffee or pre-ground coffee?", "topic": "caffeine" },
+  { "text": "Do you know the difference between arabica coffee and robusta coffee?", "topic": "caffeine" },
+  { "text": "When is the best time to drink coffee?", "topic": "caffeine" },
+  { "text": "Which coffee do you like more, hot or cold?", "topic": "caffeine" },
+  { "text": "What is your favorite coffee shop?", "topic": "caffeine" },
+  { "text": "How old were you when you started drinking coffee?", "topic": "caffeine" },
+  { "text": "Are you addicted to coffee?", "topic": "caffeine" },
+  { "text": "Is coffee bad for you?", "topic": "caffeine" },
+  { "text": "Does coffee affect your appetite?", "topic": "caffeine" },
+  { "text": "Do you think caffeine is a dangerous drug?", "topic": "caffeine" },
+  { "text": "Steve Krashen says that “drinking decaf is like kissing your own sister\" - do you agree?", "topic": "caffeine" },
+  { "text": "Are there any health benefits to drinking coffee?", "topic": "caffeine" },
+  { "text": "Would you drink less coffee if you knew it stained your teeth?", "topic": "caffeine" },
+  { "text": "What do you think happens when you overdose on coffee?", "topic": "caffeine" },
+
   
   {"text": "Do you have a bucket list? What would you put on it?", "topic": "bucketlist"},
   {"text": "Why do you think people make bucket lists?", "topic": "bucketlist"},
@@ -878,9 +906,124 @@
   {
     "text": "What's the worst team building activity you can think of?",
     "topic": "cellphones"
+  },{
+    "text": "Do you think your job will be replaced by AI?",
+    "topic": "workfuture"
   },
   {
-    "text": "Do you think your job will be replaced by AI?",
+    "text": "Would you prefer a four-day work week if it meant longer daily hours?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you believe remote work will remain the norm in 2030?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you feel comfortable having a robot as your coworker?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "How do you think automation will change the types of skills people need?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think most jobs in the future will require digital skills?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you enjoy working in the metaverse instead of a physical office?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think flexible working hours will become more common?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Should governments regulate how companies use AI in the workplace?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you believe lifelong learning will be necessary for everyone’s career?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you consider changing careers if automation threatened your current job?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think creativity will become the most valuable skill in the future of work?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you be comfortable being managed by an AI system?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think most future jobs will be freelance or full-time positions?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Should employees have the right to disconnect from work messages after hours?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think jobs will become more global and less tied to location?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you prefer working entirely online or always in person?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "How do you think technology will affect work-life balance in the future?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think companies will use virtual reality for team meetings?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Should schools prepare students more for jobs that do not exist yet?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you trust an AI to make decisions about promotions or hiring?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think automation will create more jobs than it destroys?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you prefer to work for a company or start your own business in the future?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think physical offices will disappear completely?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Should employees be trained regularly to keep up with new technologies?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think teamwork will be easier or harder with virtual tools?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you feel more productive working from home or from an office?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you believe AI will be more fair than humans in the workplace?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Do you think language barriers will disappear in international work due to AI translation?",
+    "topic": "workfuture"
+  },
+  {
+    "text": "Would you be interested in having a digital avatar represent you at work meetings?",
     "topic": "workfuture"
   },
   {

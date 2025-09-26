@@ -14,12 +14,7 @@ const PresentperfectExplanation = () => {
   <h2><FaBookOpen style={{ marginRight: '0.5rem' }} />Grammar explanation: Present Perfect</h2>
 <p>We use the present perfect to connect the past with the present. It can describe actions that started in the past and continue now, or experiences that happened at an unspecified time.</p>
 
-<h3>Affirmative | Negative | Question</h3>
-<table class="grammartable" border="1" cellpadding="5">
-  <tr><th>Affirmative</th><th>Negative</th><th>Question</th></tr>
-  <tr><td>I/You/We/They have (’ve) done</td><td>I/You/We/They have not (haven't) done</td><td>Have I/you/we/they done?</td></tr>
-  <tr><td>He/She/It has (’s) done</td><td>He/She/It has not (hasn't) done</td><td>Has he/she/it done?</td></tr>
-</table>
+
 
 <h3><FaListUl style={{ marginRight: '0.5rem' }} />Uses</h3>
 <ul>
@@ -28,7 +23,7 @@ const PresentperfectExplanation = () => {
     <em>I have known her for 10 years.</em><br/>
     <em>They have always liked that restaurant.</em><br/>
     <br/>
-    <u>Common stative verbs:</u> work, live, know, like, love, hate, prefer, believe, understand, remember, want, need, belong, have (for possession), seem.
+    <u>Common stative verbs:</u> work, live, know, have, like, love, hate, want, need.
   </li>
   
   <li><strong>To say how many times</strong>: to describe repeated actions up to now.<br/>
@@ -45,12 +40,6 @@ const PresentperfectExplanation = () => {
 <h2>Grammar explanation: Present Perfect Continuous</h2>
 <p>We use the present perfect continuous to focus on the <strong>activity</strong> or <strong>duration</strong> of something that started in the past and continues now, or has just finished with a present result.</p>
 
-<h3>Affirmative | Negative | Question</h3>
-<table class="grammartable" border="1" cellpadding="5">
-  <tr><th>Affirmative</th><th>Negative</th><th>Question</th></tr>
-  <tr><td>I/You/We/They have been working</td><td>I/You/We/They have not (haven't) been working</td><td>Have I/you/we/they been working?</td></tr>
-  <tr><td>He/She/It has been working</td><td>He/She/It has not (hasn't) been working</td><td>Has he/she/it been working?</td></tr>
-</table>
 
 <h3>Uses</h3>
 <ul>

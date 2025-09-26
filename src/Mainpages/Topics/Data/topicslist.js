@@ -52,7 +52,7 @@ module.exports = [
       "level": "B2",
       "time": "45 min",
       "description": "Explore branding strategies while practicing dependent prepositions.",
-      "image": "/Images/pastperf1.jpg"
+      "image": "/Images/Iconic_Logos.png"
     },
     {
       "id": "smartphones",
@@ -142,7 +142,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Discuss chat platforms while learning how to use 'so' and 'enough'.",
-      "image": "/Images/chatplatforms.jpg"
+      "image": "/Images/chatapps.png"
     },
     {
       "id": "automation",
@@ -202,7 +202,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Describe people using relative clauses.",
-      "image": "/Images/people.jpg"
+      "image": "/Images/neighbors1.jpg"
     },
     {
       "id": "neighbors",
@@ -222,7 +222,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Talk about food production and use the passive voice.",
-      "image": "/Images/food.jpg"
+      "image": "/Images/foodculture1.avif"
     },
     {
       "id": "tourism",
@@ -242,7 +242,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Learn how to give and receive advice using 'suggest'.",
-      "image": "/Images/advice.jpg"
+      "image": "/Images/pastcont1.jpg"
     },
     {
       "id": "ethics",
@@ -252,7 +252,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Explore ethical dilemmas and practice using infinitives.",
-      "image": "/Images/ethics.jpg"
+      "image": "/Images/eding1.jpg"
     },
     {
       "id": "gossip",
@@ -262,7 +262,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Discuss workplace gossip while practicing reported speech.",
-      "image": "/Images/gossip.jpg"
+      "image": "/Images/gerunds1.jpg"
     },
     {
       "id": "sustainability",
@@ -272,7 +272,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Explore sustainability practices while learning how to use 'unless'.",
-      "image": "/Images/sustainability.jpg"
+      "image": "/Images/techpeople1.jpg"
     },
     {
       "id": "problemsolving",
@@ -282,7 +282,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Practice problem-solving strategies and modals of deduction.",
-      "image": "/Images/problemsolving.jpg"
+      "image": "/Images/qsalesreview1.jpg"
     },
     {
       "id": "medicine",
@@ -292,7 +292,7 @@ module.exports = [
       "level": "B2",
       "time": "60 min",
       "description": "Discuss medical advancements and their ethical implications.",
-      "image": "/Images/medicine.jpg"
+      "image": "/Images/sense1.jpg"
     },
     {
         "id": "persuading",
@@ -302,7 +302,7 @@ module.exports = [
         "level": "B2",
         "time": "45 min",
         "description": "Learn persuasive techniques while practicing different word forms.",
-        "image": "/Images/persuading.jpg"
+        "image": "/Images/sense2.jpg"
       },
       {
         "id": "sports",
@@ -332,7 +332,7 @@ module.exports = [
         "level": "B2",
         "time": "60 min",
         "description": "Talk about past educational experiences and express wishes and regrets.",
-        "image": "/Images/education.jpg"
+        "image": "/Images/education1.webp"
       },
       {
         "id": "language",
