@@ -1,5 +1,83 @@
 module.exports = [
 {
+  "readingcompTitle": "Defining Fast Fashion",
+  "topic": "fashion and sustainability",
+  "level": "b1",
+  "image": "/Images/fastfashion1.jpg",
+  "vocabulary": [
+    "reflect - to show or represent",
+    "trendy - currently popular or fashionable",
+    "affordable - not too expensive",
+    "replace - to buy or get new items instead of old ones",
+    "cycle - a repeated process",
+    "constantly - all the time, without stopping"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Fast fashion is a business model that allows clothing companies to produce trendy, affordable clothes at an extremely fast rate. It is the rapid production of inexpensive clothing designed to reflect the latest trends. These clothes are often produced using low-cost materials and cheap labour, which allows brands to sell them at very affordable prices.</p>",
+        "<p>Unlike traditional fashion, which focused on high-quality, long-lasting materials, fast fashion encourages people to buy more and replace their clothes more frequently. In simple terms, fast fashion is all about speed, affordability, and trendiness. Instead of waiting for a new fashion season, companies introduce fresh styles weekly, or even daily.</p>",
+        "<p>Fast fashion companies pay close attention to the latest trends seen on social media, and also what celebrity influencers are wearing. They quickly design similar styles and produce them. Because fast fashion is designed to be cheap and trendy, the clothing is not made to last. Many fast fashion items lose their shape, fade, or tear after just a few washes.</p>",
+        "<p>This creates a cycle where customers constantly buy and replace their clothing, leading to waste and environmental issues. Several global brands have embraced fast fashion. Zara, known for releasing new clothes twice a month; H&M, which can be found in almost every major city; and Shein, an online retailer that uses algorithms and real-time data to create new designs extremely quickly.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main goal of fast fashion companies?",
+          "choices": ["a) Produce high-quality clothes slowly", "b) Produce trendy, affordable clothes quickly", "c) Focus only on luxury brands", "d) Reduce clothing sales"]
+        },
+        {
+          "number": "2",
+          "question": "How do fast fashion brands keep their clothing affordable?",
+          "choices": ["a) Using low-cost materials and cheap labour", "b) Raising prices every season", "c) Only selling online", "d) Hiring celebrity designers"]
+        },
+        {
+          "number": "3",
+          "question": "What is different about fast fashion compared to traditional fashion?",
+          "choices": ["a) Fast fashion focuses on durability", "b) Fast fashion encourages frequent purchases", "c) Traditional fashion is cheaper", "d) Traditional fashion uses algorithms"]
+        },
+        {
+          "number": "4",
+          "question": "How often do fast fashion companies introduce new styles?",
+          "choices": ["a) Once a year", "b) Once per season", "c) Weekly or even daily", "d) Every five years"]
+        },
+        {
+          "number": "5",
+          "question": "Which factor influences fast fashion trends the most?",
+          "choices": ["a) Newspaper advertisements", "b) Social media and celebrity influencers", "c) Weather forecasts", "d) Local fashion schools"]
+        },
+        {
+          "number": "6",
+          "question": "Why do many fast fashion items lose their shape or tear quickly?",
+          "choices": ["a) Because they are expensive", "b) Because they are made cheaply", "c) Because customers wash them incorrectly", "d) Because they are handmade"]
+        },
+        {
+          "number": "7",
+          "question": "What cycle does fast fashion create?",
+          "choices": ["a) Customers repair old clothes constantly", "b) Customers buy and replace clothing frequently", "c) Clothing is donated regularly", "d) Clothes last for decades"]
+        },
+        {
+          "number": "8",
+          "question": "Which of the following brands are examples of fast fashion?",
+          "choices": ["a) Zara, H&M, Shein", "b) Gucci, Prada, Chanel", "c) Levi's, Wrangler, Carhartt", "d) Patagonia, North Face, Columbia"]
+        },
+        {
+          "number": "9",
+          "question": "How does Shein produce new designs quickly?",
+          "choices": ["a) Using algorithms and real-time data", "b) By hiring more tailors", "c) By recycling old clothes", "d) By collaborating with luxury brands"]
+        },
+        {
+          "number": "10",
+          "question": "What is one negative consequence of fast fashion?",
+          "choices": ["a) It reduces clothing waste", "b) It creates environmental issues", "c) It encourages saving money", "d) It slows trend cycles"]
+        }
+      ]
+    }
+  ]
+},
+
+
+{
   "readingcompTitle": "The Future of Work",
   "topic": "work and technology",
   "level": "b1",

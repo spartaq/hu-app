@@ -1,6 +1,16 @@
 module.exports = [
   
 
+    {
+      "id": "quality",
+      "title": "Fast Fashion",
+      "subtitle": "Comparison",
+      "category": "General",
+      "level": "B2",
+      "time": "60 min",
+      "description": "Compare quality standards in various industries.",
+      "image": "/Images/fashion.webp"
+    },
   {
       "id": "bucketList",
       "title": "Bucket List",
@@ -153,16 +163,6 @@ module.exports = [
       "time": "60 min",
       "description": "Explore automation trends and practice cause-and-effect structures.",
       "image": "/Images/selfcheckout.jpg"
-    },
-    {
-      "id": "quality",
-      "title": "Quality",
-      "subtitle": "Comparison",
-      "category": "General",
-      "level": "B2",
-      "time": "60 min",
-      "description": "Compare quality standards in various industries.",
-      "image": "/Images/closeupanswer3.jpg"
     },
     {
       "id": "choice",

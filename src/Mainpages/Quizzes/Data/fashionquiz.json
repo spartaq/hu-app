@@ -1,0 +1,66 @@
+[{
+    "quiz": 1,
+    "quizTitle": "Fast Fashion Facts",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Approximately how many items of clothing does fast fashion produce each year?",
+        "options": ["50 billion", "100 billion", "150 billion", "200 billion"],
+        "answer": "100 billion"
+      },
+      {
+        "id": 2,
+        "question": "What percentage of fast fashion clothing is made from plastic-based materials like polyester or nylon?",
+        "options": ["30%", "50%", "60%", "80%"],
+        "answer": "60%"
+      },
+      {
+        "id": 3,
+        "question": "Which age group is primarily targeted by fast fashion brands?",
+        "options": ["10–17", "18–24", "25–35", "36–50"],
+        "answer": "18–24"
+      },
+      {
+        "id": 4,
+        "question": "How much water does the fashion industry approximately consume annually?",
+        "options": ["50 billion cubic meters", "70 billion cubic meters", "93 billion cubic meters", "120 billion cubic meters"],
+        "answer": "93 billion cubic meters"
+      },
+      {
+        "id": 5,
+        "question": "What is the estimated percentage of fashion brands that have implemented recycling strategies?",
+        "options": ["Less than 11%", "25%", "50%", "More than 75%"],
+        "answer": "Less than 11%"
+      },
+      {
+        "id": 6,
+        "question": "Which of these is a major environmental concern caused by fast fashion?",
+        "options": ["Textile waste", "Water pollution", "Carbon emissions", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 7,
+        "question": "Fast fashion is often linked to labor issues, including:",
+        "options": ["Low wages", "Unsafe working conditions", "Excessive working hours", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 8,
+        "question": "What fraction of clothing ends up being recycled or reused globally?",
+        "options": ["Less than 1%", "Less than 10%", "Around 25%", "Over 50%"],
+        "answer": "Less than 1%"
+      },
+      {
+        "id": 9,
+        "question": "How does fast fashion compare to aviation and shipping in terms of pollution?",
+        "options": ["Less polluting", "About the same", "More polluting", "Not significant"],
+        "answer": "More polluting"
+      },
+      {
+        "id": 10,
+        "question": "Many sustainability claims from European fashion brands are often:",
+        "options": ["Completely accurate", "Exaggerated", "Irrelevant", "Mostly true"],
+        "answer": "Exaggerated"
+      }
+    ]
+}]

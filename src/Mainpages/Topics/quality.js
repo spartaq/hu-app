@@ -12,9 +12,16 @@ import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import ComparisonExplanation from '../../Components/GrammarExplanationComps/comparisonsexplanation.js';
-import Comparisonexercises from '../../Components/GrammarExerciseComps/comparisonexercisescomp.js';
-import headerimg from '../../Images/closeupanswer3.jpg';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/comparisonsexplanation.js';
+import Quiz from '../Quizzes/quiz.js';
+import quizzesData from '../Quizzes/Data/fashionquiz.json';
+import headerimg from '../../Images/fashion.webp';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "comparison" },
+];
+
 
 
 Modal.setAppElement('#root');
@@ -26,14 +33,14 @@ const Quality = () => {
         <div>
             <SEO
                 title='Exam Topics - Quality - English Exam Exercises'
-                description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - New Years Resolutions'
+                description='A group of English exam exercises centered around the topic of Quality'
+                name='English Exam Exercises - Quality'
                 type='article' 
             />
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Quality</h1>
+                    <h1 className="mt-2">Fast Fashion</h1>
                 </div>
 
                 <div className="grammarimage">
@@ -47,25 +54,33 @@ const Quality = () => {
                     
                     <div>
                         <div>
-                        <ComparisonExplanation /> 
+                        <GrammarExplanation /> 
                         </div>                        
                  
                     </div>
 
-                    <div>                   
-                        <div className="agenda-display-grid">
-                           <Comparisonexercises />
-                        </div>
-                   
-                    </div>
+                  
+
+                    <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
+
 
                 </div>
 
-
+                <div className="agenda-quiz">Quiz</div> 
+                <div>                   
+                    <div className="agenda-display-grid">
+                        <Quiz quizzesData={quizzesData} />
+                    </div>                    
+                </div>
 
                 <div className="agenda-reading">Reading</div>
                 <div className="reading-container"> 
-                <Reading readings={readingcompData} title="Planned Obsolescence and the Quality of Goods" />
+                <Reading readings={readingcompData} title="Defining Fast Fashion" />
                 </div>
                 <div className="agenda-listening">Video</div>
                              
