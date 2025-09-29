@@ -1,6 +1,15 @@
 module.exports = [
   
-
+{
+      "id": "airtraffic",
+      "title": "Air Traffic",
+      "subtitle": "Comparison",
+      "category": "General",
+      "level": "B2",
+      "time": "60 min",
+      "description": "Compare quality standards in various industries.",
+      "image": "/Images/airdelay1.webp"
+    },
     {
       "id": "quality",
       "title": "Fast Fashion",
