@@ -21,14 +21,6 @@ const SecondcondExplanation = () => {
     <li>If it rained, we would stay at home.</li>
   </ul>
 
-  <h3>Examples</h3>
-  <ul>
-    <li>If I were taller, I would play basketball.</li>
-    <li>If we had more time, we would visit you.</li>
-    <li>If he didn't work so much, he would have more free time.</li>
-    <li>If you lived closer, we would see each other more often.</li>
-  </ul>
-
   <h3>Notes</h3>
   <ul>
     <li>The <strong>if-clause</strong> can come first or second in the sentence.</li>
@@ -36,33 +28,8 @@ const SecondcondExplanation = () => {
     <li>If the <strong>if-clause</strong> comes second, no comma is needed.</li>
     <li>We often use <strong>were</strong> instead of <strong>was</strong> for all subjects in the second conditional (especially in formal English).</li>
   </ul>
-  <p><strong>Examples:</strong></p>
-  <ul>
-    <li>If I were you, I would take the job. ✅ (more formal)</li>
-    <li>If I was you, I would take the job. ✅ (common in informal speech)</li>
-  </ul>
 </div>
-      <h3>Examples</h3>
-      <ul>
-        <li>If I were taller, I would play basketball.</li>
-        <li>If we had more time, we would visit you.</li>
-        <li>If he didn't work so much, he would have more free time.</li>
-        <li>If you lived closer, we would see each other more often.</li>
-      </ul>
-
-      <h3>Notes</h3>
-      <ul>
-        <li>The <strong>if-clause</strong> can come first or second in the sentence.</li>
-        <li>If the <strong>if-clause</strong> comes first, use a comma.</li>
-        <li>If the <strong>if-clause</strong> comes second, no comma is needed.</li>
-        <li>We often use <strong>were</strong> instead of <strong>was</strong> for all subjects in the second conditional (especially in formal English).</li>
-      </ul>
-
-      <h4>Examples:</h4>
-      <ul>
-        <li>If I were you, I would take the job. ✅ (more formal)</li>
-        <li>If I was you, I would take the job. ✅ (common in informal speech)</li>
-      </ul>
+      
     </div>
   );
 };

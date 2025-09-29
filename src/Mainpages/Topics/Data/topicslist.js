@@ -353,16 +353,6 @@ module.exports = [
         "time": "45 min",
         "description": "A lesson to assess students' understanding of various tenses.",
         "image": "/Images/introlesson.jpg"
-      },
-      {
-        "id": "airtraffic",
-        "title": "Air Traffic",
-        "subtitle": "Modals of obligation",
-        "category": "Business",
-        "level": "B2",
-        "time": "60 min",
-        "description": "Discuss the air traffic industry and aviation terminology.",
-        "image": "/Images/airtraffic.jpg"
       }
   ]
   

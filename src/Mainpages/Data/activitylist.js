@@ -130,11 +130,7 @@ module.exports = [
       "title": "First Conditional (Prompt)",
       "category": "grammar-exercises",
       "subtitle": "If I do, I will do",
-
-      "level":"B2",
-
       "level":"B1",
-
       "time": "60 min",
       "description": "Exercises to practice the first conditional with a prompt",
       "image": "/Images/firstcondprod1.jpg"
