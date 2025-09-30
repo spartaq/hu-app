@@ -15,8 +15,6 @@ import RandomQuestionGenerator from '../../Components/DiscussionComps/questionge
 import GrammarExplanation from '../../Components/GrammarExplanationComps/edingexplanation.js';
 import headerimg from '../../Images/parents1.jpg';
 import ToggleSection from '../../Utils/toggleSection.js';
-import Quiz from '../Quizzes/quiz.js';
-import quizzesData from '../Quizzes/Data/bucketlistquiz.json';
 
 const sections = [
   { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "eding" },
@@ -75,12 +73,7 @@ const Parenting = () => {
                 </div>
 
                 
- <div className="agenda-quiz">Quiz</div> 
-                <div>                   
-                    <div className="agenda-display-grid">
-                        <Quiz quizzesData={quizzesData} />
-                    </div>                    
-                </div>
+
                 
 
                 <div className="agenda-reading">Reading</div>
