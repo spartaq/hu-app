@@ -141,6 +141,7 @@ import Fokusz from './Mainpages/Hungarian/fokusz';
 import Harmonia from './Mainpages/Hungarian/harmonia';
 import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
 import BucketList from './Mainpages/Topics/bucketlist';
+import Parenting from './Mainpages/Topics/parenting';
 
 
 
@@ -341,6 +342,9 @@ const router = createBrowserRouter([
           },
           { path: 'topics/streamingservices',
             element: <StreamingServices />,
+          },
+          { path: 'topics/parenting',
+            element: <Parenting />,
           },
           { path: 'topics/bucketlist',
             element: <BucketList />,

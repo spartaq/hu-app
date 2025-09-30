@@ -42,6 +42,7 @@ const EdingExplanation = () => {
       <div className="grammar-flex-table">
         {[
           ['-ed Adjective', '-ing Adjective'],
+          ['embarrassed', 'embarrassing'],
           ['interested', 'interesting'],
           ['excited', 'exciting'],
           ['bored', 'boring'],

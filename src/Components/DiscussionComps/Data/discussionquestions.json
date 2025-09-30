@@ -1,4 +1,128 @@
+
 [
+  {
+    "text": "What do you think is the most rewarding part of being a parent?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What do you think is the most challenging part of being a parent?",
+    "topic": "parenting"
+  },
+  {
+    "text": "How can parents balance work and family life?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Do you think children should have strict rules at home? Why or why not?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What role do grandparents play in raising children?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Should children be given chores? At what age should this start?",
+    "topic": "parenting"
+  },
+  {
+    "text": "How important is discipline in parenting?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What are some good ways for parents to teach values to their children?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Should parents be friends with their children, or is it better to stay in a parent role?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What is one lesson your parents taught you that you want to pass on?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Do you think modern parenting is easier or harder than in the past?",
+    "topic": "parenting"
+  },
+  {
+    "text": "How much freedom should teenagers have in making their own decisions?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What are some common mistakes parents make?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Do you think it’s better for children to grow up in big families or small families?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What role does technology play in parenting today?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Should children be allowed to use smartphones and tablets freely?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What’s the best way for parents to encourage children to read?",
+    "topic": "parenting"
+  },
+  {
+    "text": "How should parents react when their child makes a mistake?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Do you think parents should always help with homework, or let children work alone?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What is the role of fathers in modern families?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What is the role of mothers in modern families?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Should parents always try to make their children happy, or sometimes say no?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What’s more important for a child: freedom or structure?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Do you think children should have a strict bedtime?",
+    "topic": "parenting"
+  },
+  {
+    "text": "How can parents teach children about money and saving?",
+    "topic": "parenting"
+  },
+  {
+    "text": "How do cultural differences affect parenting styles?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Should parents let their children choose their own clothes, even if they look unusual?",
+    "topic": "parenting"
+  },
+  {
+    "text": "How should parents handle children’s bad moods or tantrums?",
+    "topic": "parenting"
+  },
+  {
+    "text": "Do you think parents today are more protective than in the past?",
+    "topic": "parenting"
+  },
+  {
+    "text": "What advice would you give to someone who will become a parent soon?",
+    "topic": "parenting"
+  },
+
+
+
   { "text": "Do you need coffee to wake you up in the morning?", "topic": "caffeine" },
   { "text": "Do you care if you have instant coffee?", "topic": "caffeine" },
   { "text": "What’s the most number of cups you have drunk in one day?", "topic": "caffeine" },

@@ -1,4 +1,91 @@
 module.exports = [
+
+{
+  "readingcompTitle": "18 Hilarious Parenting Stories",
+  "topic": "family and humor",
+  "level": "b1",
+  "image": "/Images/parents1.jpg",
+  "vocabulary": [
+    "guilt trip - making someone feel guilty to get something",
+    "oblige - to agree to do something",
+    "remark - a spoken comment",
+    "diva - someone who acts dramatically",
+    "pixie dust - magical powder from fairy tales",
+    "emphatically - in a strong, clear way",
+    "chain of command - system of authority",
+    "ego - a person’s sense of self-importance",
+    "repertoire - a collection of skills or abilities",
+    "servant - a person who serves someone else"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Parenting is full of surprises, and children often say the funniest things. These short stories show how kids see the world in creative, unexpected, and hilarious ways.</p>",
+        "<p>For example, one mother tried to remind her son of her hard work giving birth to him. Instead of feeling guilty, he asked: “Really Mom, how long are you gonna ride that scooter?” Another child, when asked about the famous artist Henri Matisse, simply said: “Well, he tried his best!”</p>",
+        "<p>In church, a little girl told the preacher, “Calm down Pawpaw!” when he raised his voice. Another child misunderstood his mom’s words about hunting people—he thought hunting was only for animals. A three-year-old, asked what she would do in an emergency, said she would eat snacks from the kitchen!</p>",
+        "<p>Sometimes children make innocent mistakes. One boy jumped from the stairs to fly like Peter Pan, later whispering, “Must not have been enough pixie dust.” At a funeral, another boy noticed people throwing golf balls in the grave and shouted, “Good thing your friend wasn’t a bowler!”</p>",
+        "<p>Grandchildren and siblings can also be brutally honest. One girl promised not to tell her grandpa about a car accident—but instead told him, “Whatever you do, don’t look in the garage!” Another child explained that Jesus died on the cross simply because “his dad told him he had to.”</p>",
+        "<p>Other kids use humor to get what they want. A three-year-old claimed to be four years old just to get extra whipped cream. One daughter asked her mom how she could fly around the world if she was really the tooth fairy. A boy proudly said his new classmate spoke ‘Swedish and human.’ And another girl, when introduced to her baby sister, said, “I told you I wanted a puppy!”</p>",
+        "<p>Parents are not safe from jokes either. One little boy, after his dad ran for a bus, whispered in amazement: “Daddy, I didn’t know you could run.” Another child, asked to say something nice about dinner, simply said, “Thanks mom for trying.” And when told not to die in the basement after their dog passed away, a boy proved kids sometimes miss the point completely.</p>",
+        "<p>Finally, one grandson observed that his grandfather treated his wife like a queen. Asked what that made him, the child quickly answered, “A servant.” Parenting may not always be easy, but it is never boring with children’s funny and honest words.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What do these parenting stories mostly show?",
+          "choices": ["a) How strict parents can be", "b) How children often say funny things", "c) How teachers discipline kids", "d) How to raise children perfectly"]
+        },
+        {
+          "number": "2",
+          "question": "What did Logan’s mother remind him of when he didn’t share his dressing?",
+          "choices": ["a) That she bought the pizza", "b) That she gave birth to him", "c) That he should be polite", "d) That sharing is important"]
+        },
+        {
+          "number": "3",
+          "question": "How did the five-year-old boy describe Matisse’s art?",
+          "choices": ["a) Beautiful", "b) Confusing", "c) He tried his best", "d) Very modern"]
+        },
+        {
+          "number": "4",
+          "question": "What did a girl shout at her grandfather, the preacher?",
+          "choices": ["a) Stop!", "b) Be quiet!", "c) Calm down Pawpaw!", "d) Speak louder!"]
+        },
+        {
+          "number": "5",
+          "question": "What did one three-year-old say she would do if her mom couldn’t wake up?",
+          "choices": ["a) Call 911", "b) Run outside", "c) Eat snacks", "d) Go to a neighbor"]
+        },
+        {
+          "number": "6",
+          "question": "Why did a boy say his attempt to fly failed?",
+          "choices": ["a) He was too heavy", "b) He had no wings", "c) Not enough pixie dust", "d) The stairs were too short"]
+        },
+        {
+          "number": "7",
+          "question": "Why did a boy think it was funny that Bob was a golfer?",
+          "choices": ["a) People dropped golf balls into the grave", "b) Everyone played golf at the funeral", "c) He wanted to play golf too", "d) The preacher talked about golf"]
+        },
+        {
+          "number": "8",
+          "question": "What did a child say when asked why Jesus died on the cross?",
+          "choices": ["a) To save people", "b) Because his dad told him to", "c) Because he was tired", "d) Because people were angry"]
+        },
+        {
+          "number": "9",
+          "question": "What language did one boy say his new Swedish classmate spoke?",
+          "choices": ["a) Swedish and English", "b) Swedish and French", "c) Swedish and human", "d) Swedish and Spanish"]
+        },
+        {
+          "number": "10",
+          "question": "What did a grandson say his grandfather was, since he treated his wife like a queen?",
+          "choices": ["a) A king", "b) A servant", "c) A prince", "d) A hero"]
+        }
+      ]
+    }
+  ]
+},
+
+
 {
   "readingcompTitle": "Defining Fast Fashion",
   "topic": "fashion and sustainability",

@@ -1,4 +1,97 @@
 [
+  
+  {
+  "title": "Parental Control",
+  "videoId": "c7YiPA8Qd8s",  
+  "topic": "parenting / technology",
+  "level": "B2",
+  "vocabulary": [
+    "safe zones - designated areas where a child is considered safe",
+    "lurk - to be hidden and waiting, often with a negative meaning",
+    "counterproductive - having the opposite effect of what was intended",
+    "self-regulation - the ability to control one's own behavior and emotions",
+    "circumvent - to find a way around restrictions or rules",
+    "societal experiment - a situation where society is testing a new way of doing things",
+    "autonomous - independent, making one's own choices",
+    "restrictive - limiting, holding back",
+    "misunderstood - not properly understood by others",
+    "tension - mental or emotional strain between people or ideas"
+  ],
+
+  "transcript": [
+    "<h1>Tracking and Parental Control Apps</h1>",
+    "<p>You have a tracker? – Yeah. Do you ever want to just turn it off? I always know where he's at. I can also set up safe zones.</p>",
+    "<p>There seems to be a new danger lurking round the corner all the time. I always thought I'm not controlling, but then you find, like, 'Oh, actually, maybe I am.' It's nice to know that someone's watching me, so I'm safe.</p>",
+    "<p>It's a big societal experiment and we don't know how it'll turn out.</p>",
+    "<p>Where have you guys been? – Oh, we went to the skate park with some mates, and we're just heading home now. So do your parents know where you've been? – Yeah. My dad tracks me on Find My Phone on Apple. – Yeah, my mum knows where I'm going and where I've been.</p>",
+    "<p>There is this whole market of parental control apps. The dynamics between parents and children, especially as children grow into adolescence, has really changed.</p>",
+    "<p>20 years ago, parents let their kids out and had no way to know what was going on. They had to trust their children.</p>",
+    "<p>So, Jamie, have you been tracking Will? – Well, I have been, actually. What about you, Maggie? – Ah, yes, I do track Shalomy. – I guess they want to know where I am, and that's understandable. I don't really mind it. It's nice to know that someone's watching me, so I'm safe.</p>",
+    "<p>Young people seem to be more accepting of location tracking. But there was less acceptance of apps that constrain digital behaviour – stopping them from using apps, websites, or setting strict time limits.</p>",
+    "<p>Some young people felt misunderstood, or that parents didn’t understand the effect of parental control apps on their social lives, homework, or independence.</p>",
+    "<p>– I get like three hours per day. I feel like that's kind of little. – If he says 'don’t go on this website,' there’s always a way around. – I think they've all had double accounts. I follow one account with nice family pictures, then I find out there’s another account.</p>",
+    "<p>If young people conceal what they’re doing, they may actually be less safe than if there were no restrictions.</p>",
+    "<p>As a parent, I might see scary headlines about social media and decide to set controls. But this can prevent real conversations with my child. Restrictive parents may cause more rebellion. The result is counterproductive.</p>",
+    "<p>Adolescents want safety but also independence. Parental control apps don’t teach children how to make autonomous choices. Instead, parents should help them learn self-regulation.</p>",
+    "<p>Concerns change over time – yesterday it was gaming, today it’s social media. No rulebook will anticipate the next technology. Instead, listen to your young person, understand their relationship with tech, and build trust.</p>",
+    "<p>– Maybe as you get older, they could just chill a bit on it. I think 16 is a good age. At 14, parents should decide. But at 16 and above, you should make that decision yourself.</p>",
+    "<p>If we teach kids to make smart decisions online, and build open communication between parents and young people, they’ll be better prepared for life-long technology use.</p>"
+  ],
+
+  "questions": [
+    {
+      "number": "1",
+      "question": "What do parental control apps allow parents to do?",
+      "choices": [
+        "A. Track location and limit digital access",
+        "B. Replace school homework",
+        "C. Remove all social media permanently",
+        "D. Give children more independence"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "Why do some experts call parental tracking a 'societal experiment'?",
+      "choices": [
+        "A. Because it is fun for families",
+        "B. Because nobody knows the long-term effects",
+        "C. Because it always improves safety",
+        "D. Because it is a government project"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "How do many young people feel about location tracking?",
+      "choices": [
+        "A. They strongly reject it",
+        "B. They are mostly accepting of it",
+        "C. They don’t know it exists",
+        "D. They believe it has no effect"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "What can be a negative result of strict restrictions on digital use?",
+      "choices": [
+        "A. Young people rebel and find ways around the rules",
+        "B. Parents feel more relaxed",
+        "C. Children stop using technology",
+        "D. Teenagers do better homework"
+      ]
+    },
+    {
+      "number": "5",
+      "question": "What alternative do experts suggest instead of strict controls?",
+      "choices": [
+        "A. Ignore children’s tech use completely",
+        "B. Provide unlimited screen time",
+        "C. Build trust and teach self-regulation",
+        "D. Ban social media until age 18"
+      ]
+    }
+  ]
+},
+
   {
   "title": "Meeting Could Have Been An Email",
   "videoId": "xcuP3VLFj70",  
@@ -86,6 +179,7 @@
 ]
 
 },
+
   {
   "title": "Bucketlist",
   "videoId": "FwM9q2ckK0g",  

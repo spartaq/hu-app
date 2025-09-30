@@ -1,6 +1,15 @@
 module.exports = [
   
-
+    {
+      "id": "parenting",
+      "title": "Parenting",
+      "subtitle": "Comparison",
+      "category": "General",
+      "level": "B2",
+      "time": "60 min",
+      "description": "Compare quality standards in various industries.",
+      "image": "/Images/parents1.jpg"
+    },
     {
       "id": "quality",
       "title": "Fast Fashion",

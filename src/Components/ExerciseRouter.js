@@ -24,6 +24,7 @@ import quizTenseData from "../Utils/Activities/Data/quiz/tenseexercisequiz.json"
 import quizReportedspeechData from "../Utils/Activities/Data/quiz/reportedspeechexercisequiz.json";
 import quizComparisonData from "../Utils/Activities/Data/quiz/comparisonexercisesquiz.json";
 import quizSomeanyData from "../Utils/Activities/Data/quiz/someanyexercisequiz.json";
+import quizEdingData from "../Utils/Activities/Data/quiz/edingexercisequiz.json";
 import orderingPresentData from "../Utils/Activities/Data/ordering/wordorder_present.json";
 import orderingPastData from "../Utils/Activities/Data/ordering/wordorder_past.json";
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
@@ -135,7 +136,9 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
             case "someany":
               return quizSomeanyData;
             case "comparison":
-              return quizComparisonData;              
+              return quizComparisonData;
+            case "eding":
+              return quizEdingData;              
             case "smartphones":
               return topicExerciseSmartphones;
             default:

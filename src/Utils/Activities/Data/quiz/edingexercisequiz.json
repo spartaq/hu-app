@@ -1,0 +1,132 @@
+{
+  "quizTitle": "Participial Adjectives (-ed / -ing)",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The baby was ___ when she heard the loud barking dog.",
+      "options": ["frightened", "frightening"],
+      "answer": "frightened",
+      "topic": "Parenting"
+    },
+    {
+      "id": 2,
+      "question": "It was such a ___ story that the children couldn’t sleep afterwards.",
+      "options": ["frightened", "frightening"],
+      "answer": "frightening",
+      "topic": "Parenting"
+    },
+    {
+      "id": 3,
+      "question": "Parents often feel ___ when their teenagers ignore their advice.",
+      "options": ["confused", "confusing"],
+      "answer": "confused",
+      "topic": "Parenting"
+    },
+    {
+      "id": 4,
+      "question": "The new online school system is very ___ to many families.",
+      "options": ["confused", "confusing"],
+      "answer": "confusing",
+      "topic": "Parenting"
+    },
+    {
+      "id": 5,
+      "question": "After running after the kids all day, she felt completely ___.",
+      "options": ["tired", "tiring"],
+      "answer": "tired",
+      "topic": "Parenting"
+    },
+    {
+      "id": 6,
+      "question": "Taking care of three toddlers at once can be very ___.",
+      "options": ["tired", "tiring"],
+      "answer": "tiring",
+      "topic": "Parenting"
+    },
+    {
+      "id": 7,
+      "question": "He was ___ to see his daughter take her first steps.",
+      "options": ["excited", "exciting"],
+      "answer": "excited",
+      "topic": "Parenting"
+    },
+    {
+      "id": 8,
+      "question": "Learning to ride a bike is an ___ moment for a child.",
+      "options": ["excited", "exciting"],
+      "answer": "exciting",
+      "topic": "Parenting"
+    },
+    {
+      "id": 9,
+      "question": "The dad looked ___ when his son asked him a very strange question.",
+      "options": ["embarrassed", "embarrassing"],
+      "answer": "embarrassed",
+      "topic": "Parenting"
+    },
+    {
+      "id": 10,
+      "question": "It was an ___ situation when the toddler shouted in the library.",
+      "options": ["embarrassed", "embarrassing"],
+      "answer": "embarrassing",
+      "topic": "Parenting"
+    },
+    {
+      "id": 11,
+      "question": "The children were ___ by the clown’s silly tricks.",
+      "options": ["amused", "amusing"],
+      "answer": "amused",
+      "topic": "Parenting"
+    },
+    {
+      "id": 12,
+      "question": "Reading picture books together can be an ___ activity.",
+      "options": ["amused", "amusing"],
+      "answer": "amusing",
+      "topic": "Parenting"
+    },
+    {
+      "id": 13,
+      "question": "After finishing the chores, the mom felt ___.",
+      "options": ["relaxed", "relaxing"],
+      "answer": "relaxed",
+      "topic": "Parenting"
+    },
+    {
+      "id": 14,
+      "question": "Listening to soft music can be very ___ for children before bedtime.",
+      "options": ["relaxed", "relaxing"],
+      "answer": "relaxing",
+      "topic": "Parenting"
+    },
+    {
+      "id": 15,
+      "question": "He was ___ in hearing his son explain how dinosaurs lived.",
+      "options": ["interested", "interesting"],
+      "answer": "interested",
+      "topic": "Parenting"
+    },
+    {
+      "id": 16,
+      "question": "Children often ask very ___ questions about life and the world.",
+      "options": ["interested", "interesting"],
+      "answer": "interesting",
+      "topic": "Parenting"
+    },
+    {
+      "id": 17,
+      "question": "The kids looked ___ during the long car ride.",
+      "options": ["bored", "boring"],
+      "answer": "bored",
+      "topic": "Parenting"
+    },
+    {
+      "id": 18,
+      "question": "Folding laundry is a very ___ job for most parents.",
+      "options": ["bored", "boring"],
+      "answer": "boring",
+      "topic": "Parenting"
+    }
+  ]
+}
