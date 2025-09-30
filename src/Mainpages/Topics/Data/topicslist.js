@@ -3,7 +3,7 @@ module.exports = [
     {
       "id": "parenting",
       "title": "Parenting",
-      "subtitle": "Comparison",
+      "subtitle": "Ed vs. Ing, Bored vs. Boring",
       "category": "General",
       "level": "B2",
       "time": "60 min",
