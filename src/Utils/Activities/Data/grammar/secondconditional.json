@@ -11,11 +11,6 @@
         "topic": "atc"
     },
     {
-        "text": "If a pilot ___ (not follow) instructions correctly, it could lead to a dangerous situation.",
-        "answer": "did not follow",
-        "topic": "atc"
-    },
-    {
         "text": "If I ___ (have) to handle multiple emergencies at once, I would stay as calm as possible.",
         "answer": "had",
         "topic": "atc"
@@ -41,11 +36,6 @@
         "topic": "atc"
     },
     {
-        "text": "If pilots and controllers ___ (have) better real-time data, they would make safer decisions.",
-        "answer": "had",
-        "topic": "atc"
-    },
-    {
         "text": "If an aircraft ___ (need) to make an emergency landing, what steps would ATC take?",
         "answer": "needed",
         "topic": "atc"
@@ -63,11 +53,6 @@
     {
         "text": "If air traffic control ___ (be) fully automated, would it be safer or more dangerous?",
         "answer": "were",
-        "topic": "atc"
-    },
-    {
-        "text": "If a pilot ___ (misunderstand) an instruction, the controller would have to correct it immediately.",
-        "answer": "misunderstood",
         "topic": "atc"
     },
     {
@@ -91,8 +76,18 @@
         "topic": "atc"
     },
     {
-        "text": "If ATC ___ (not exist), how would pilots navigate busy airspace safely?",
-        "answer": "did not exist",
+        "text": "If an aircraft ___ (declare) a mayday, what immediate actions would ATC take?",
+        "answer": "declared",
+        "topic": "atc"
+    },
+    {
+        "text": "If an aircraft ___ (experience) severe turbulence, how would ATC assist the pilot?",
+        "answer": "experienced",
+        "topic": "atc"
+    },
+    {
+        "text": "If I ___ (work) a night shift in ATC, I would ensure I get enough rest beforehand.",
+        "answer": "worked",
         "topic": "atc"
     },
     {

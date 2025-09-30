@@ -19,20 +19,20 @@ import headerimg from '../../Images/airdelay1.webp';
 
 Modal.setAppElement('#root');
 
-const Airtraffic = () => {
+const Competition = () => {
 
     return (
         <div>
             <SEO
-                title='Exam Topics - Air Traffic - English Exam Exercises'
+                title='Exam Topics - Competition - English Exam Exercises'
                 description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - New Years Resolutions'
+                name='English Exam Exercises - Competition'
                 type='article' 
             />
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Air Traffic</h1>
+                    <h1 className="mt-2">Competition</h1>
                      <div className="grammarimage">
                       <img src={headerimg} alt="English Exam Exercises" />
                     </div>  
@@ -84,4 +84,4 @@ const Airtraffic = () => {
     );
 };
 
-export default Airtraffic;
+export default Competition;

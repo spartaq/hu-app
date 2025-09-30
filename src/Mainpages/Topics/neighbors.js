@@ -15,6 +15,7 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import SecondcondprodExercises from '../../Components/GrammarExerciseComps/secondcondprodexercisescomp.js';
 import SecondcondExplanation from '../../Components/GrammarExplanationComps/secondcondexplanation.js';
+import headerimg from '../../Images/neighbors1.jpg';
 
 
 Modal.setAppElement('#root');
@@ -22,21 +23,7 @@ Modal.setAppElement('#root');
 const Neighbors = () => {
     const [menuItems, setMenuItems] = useState([]);
     
-        useEffect(() => {
-            // Dynamically gather all agenda-subtitle elements
-            const subtitles = Array.from(document.querySelectorAll('.agenda-subtitle')).map((subtitle, index) => ({
-                id: `section-${index}`,
-                text: subtitle.textContent,
-            }));
-    
-            // Add IDs to the subtitles
-            subtitles.forEach((item, index) => {
-                const element = document.querySelectorAll('.agenda-subtitle')[index];
-                element.setAttribute('id', item.id);
-            });
-    
-            setMenuItems(subtitles);
-        }, []);
+        
 
     return (
         <div>
@@ -50,15 +37,9 @@ const Neighbors = () => {
             <div className="agenda-container">
                 <div className="agenda-title">
                     <h1 className="mt-2">Neighbors</h1>
-                    <div className="anchor-menu">
-                        <ul>
-                            {menuItems.map((item) => (
-                                <li key={item.id}>
-                                    <a href={`#${item.id}`}>{item.text}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                    <div className="grammarimage">
+                                    <img src={headerimg} alt="English Exam Exercises" />
+                                    </div> 
                 </div>
                
 
@@ -92,7 +73,7 @@ const Neighbors = () => {
                 
                 <div className="agenda-listening">Video</div>
                 
-                <TikTokEmbed url="https://www.tiktok.com/@bbcnews/video/7466832344540843296" />
+                <Video videos={videoData} title="Neighbors" />
 
                 
                 <div className="agenda-discussion">Discussion</div>

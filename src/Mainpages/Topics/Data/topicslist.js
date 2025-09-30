@@ -9,6 +9,15 @@ module.exports = [
       "time": "60 min",
       "description": "Compare quality standards in various industries.",
       "image": "/Images/parents1.jpg"
+    },{
+      "id": "airtraffic",
+      "title": "Air Traffic",
+      "subtitle": "Comparison",
+      "category": "General",
+      "level": "B2",
+      "time": "60 min",
+      "description": "Compare quality standards in various industries.",
+      "image": "/Images/airdelay1.webp"
     },
     {
       "id": "quality",
@@ -362,16 +371,6 @@ module.exports = [
         "time": "45 min",
         "description": "A lesson to assess students' understanding of various tenses.",
         "image": "/Images/introlesson.jpg"
-      },
-      {
-        "id": "airtraffic",
-        "title": "Air Traffic",
-        "subtitle": "Modals of obligation",
-        "category": "Business",
-        "level": "B2",
-        "time": "60 min",
-        "description": "Discuss the air traffic industry and aviation terminology.",
-        "image": "/Images/airtraffic.jpg"
       }
   ]
   

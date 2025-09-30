@@ -1,4 +1,4 @@
-[
+[ 
   
   {
   "title": "Parental Control",
@@ -92,8 +92,191 @@
   ]
 },
 
+ 
+ {
+  "title": "Air Traffic Safety",
+  "videoId": "ak9cGgHUn9s",
+  "topic": "airtraffic",
+  "level": "B2",
+  "vocabulary": [
+    "go-around - when a plane aborts landing and circles to try again",
+    "runway incursion - an incident where something enters a runway without clearance",
+    "phraseology - the specific words and phrases used in communication"
+  ],
+  "transcript": [
+    "<h1>Delta 1943 cancel takeoff clearance</h1>",
+    "<p>At the beginning of 2023, there were at least six close calls that alarmed aviation officials and travelers.</p>",
+    "<p>Air traffic controllers and pilots have to manage increased traffic since the pandemic.</p>",
+    
+    "<h2>A near collision in Austin, Texas</h2>",
+    "<p>On February 4th at Austin Bergstrom International Airport, a FedEx plane was cleared to land around 6:40 AM.</p>",
+    "<p>Visibility was poor due to weather. At the same time, a Southwest plane was cleared to depart the same runway.</p>",
+    "<p>The FedEx pilots noticed the Southwest plane still on the runway and initiated a go-around, landing safely 12 minutes later.</p>",
+    "<p>The Southwest flight had 128 people on board. Both airlines praised their crews, and the FAA and NTSB began investigating.</p>",
+    
+    "<h2>Inside Atlanta’s air traffic control tower</h2>",
+    "<p>Hartsfield-Jackson Atlanta International Airport is the busiest in the world, handling about 2100 flights a day.</p>",
+    "<p>Controllers work in shifts of two hours due to the stress and responsibility.</p>",
+    "<p>There are three main positions: local control, ground control, and clearance delivery.</p>",
+    "<p>Clearance delivery prepares flight strips, ground control manages taxiing, and local control clears takeoffs and landings.</p>",
+    
+    "<h2>How air traffic control works</h2>",
+    "<p>Controllers use flight progress strips, radar, and radio communication to track planes.</p>",
+    "<p>They train in simulators for six to eight weeks before working with live aircraft.</p>",
+    "<p>Radar helps them manage planes in poor weather and maintain safe distances of three to eight miles.</p>",
+    
+    "<h2>Communication is key</h2>",
+    "<p>Controllers and pilots must use precise standard phraseology, such as “clear for takeoff” or “go around.”</p>",
+    "<p>Pilots must read back instructions exactly to confirm understanding.</p>",
+    "<p>Mistakes can still happen, which is why controllers follow strict FAA regulations known as the 7110.65.</p>",
+    
+    "<h2>Recent safety concerns</h2>",
+    "<p>In March, the FAA held a safety summit after multiple close calls.</p>",
+    "<p>They issued safety alerts to airlines, pilots, and controllers, urging vigilance.</p>",
+    "<p>While officials don’t see imminent danger, experts worry risks may rise with increased traffic.</p>",
+    "<p>Controllers like Drew Buckman stress that there is always a plan B or plan C in case of emergencies.</p>"
+  ],
+  "questions": [
+    {
+      "number": "1",
+      "question": "Where did the near collision between FedEx and Southwest take place?",
+      "choices": [
+        "A. Atlanta",
+        "B. Dallas",
+        "C. Austin",
+        "D. Houston"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "What action did the FedEx pilots take to avoid disaster?",
+      "choices": [
+        "A. They landed immediately",
+        "B. They diverted to another airport",
+        "C. They initiated a go-around",
+        "D. They stayed in holding pattern for hours"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "Which airport is described as the busiest in the world?",
+      "choices": [
+        "A. New York JFK",
+        "B. Atlanta Hartsfield-Jackson",
+        "C. Los Angeles LAX",
+        "D. Chicago O’Hare"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "What is the purpose of the FAA regulation called 7110.65?",
+      "choices": [
+        "A. To control airline ticket prices",
+        "B. To regulate aircraft fuel usage",
+        "C. To provide rules for air traffic controllers",
+        "D. To train pilots in flight simulators"
+      ]
+    },
+    {
+      "number": "5",
+      "question": "How long do trainee controllers usually spend in simulators before working live?",
+      "choices": [
+        "A. 1–2 weeks",
+        "B. 3–4 weeks",
+        "C. 6–8 weeks",
+        "D. 10–12 weeks"
+      ]
+    }
+  ]
+},
+
+
   {
-  "title": "Meeting Could Have Been An Email",
+  "title": "Neighbors",
+  "videoId": "rzLI-aqFzDQ",
+  "topic": "neighbors",
+  "level": "B1",
+  "vocabulary": [
+    "exudes - give off like an aura",
+    "hatch - to bring a young animal out of an egg",
+    "cheer up - to make someone feel happier"
+  ],
+  "transcript": [
+    "<h1>If you could meet any famous person, who would it be?</h1>",
+    "<p>Dalai Lama — I would just want to sit with him. He exudes this calm, and I want to sit in that.</p>",
+    "<p>Frida Kahlo — She’s my favorite painter. I’m not a painter, but I love art and I identify with her paintings a lot.</p>",
+    "<h2>What cheers you up?</h2>",
+    "<p>Family — They’re always there for you, in the good and the bad, and they always make you laugh.</p>",
+    "<h2>Who do you go to for advice?</h2>",
+    "<p>My grandma — she’s always been there, and she’s wise.</p>",
+    "<h2>Describe your first job.</h2>",
+    "<p>I worked at the dog track, putting running shirts on dogs. It was pretty hard.</p>",
+    "<p>I delivered newspapers. The school bus would drop me off, and I’d fold and deliver papers before even getting home from school.</p>",
+    "<h2>If you could travel anywhere, where would you go?</h2>",
+    "<p>New Orleans — I’d love to experience the culture there.</p>",
+    "<p>Australia — It’s like a big island. I’d want to see kangaroos and maybe even become friends with one!</p>",
+    "<h2>What’s your earliest memory?</h2>",
+    "<p>When I was a child in Mexico, I ate candy all the time. All the candy! I loved it.</p>",
+    "<h2>If you could be any animal, what would you be?</h2>",
+    "<p>A penguin — I’d like to see how it feels to hatch an egg. People think it’s cold, but they keep each other warm.</p>",
+    "<h2>Closing</h2>",
+    "<p>It was fantastic meeting you. That was funny!</p>"
+  ],
+  "questions": [
+    {
+      "number": "1",
+      "question": "Which famous person did one speaker want to meet?",
+      "choices": [
+        "A. Peter Kyle",
+        "B. Frida Kahlo",
+        "C. Dalai Lama",
+        "D. Both B and C"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "What cheers one speaker up?",
+      "choices": [
+        "A. Traveling",
+        "B. Art",
+        "C. Family",
+        "D. Candy"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "What was one speaker’s first job?",
+      "choices": [
+        "A. Working in a restaurant",
+        "B. Delivering newspapers",
+        "C. Selling candy",
+        "D. Painting houses"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "Where did one speaker say they’d like to travel?",
+      "choices": [
+        "A. Australia",
+        "B. Italy",
+        "C. Mexico",
+        "D. Canada"
+      ]
+    },
+    {
+      "number": "5",
+      "question": "Which animal did a speaker want to be?",
+      "choices": [
+        "A. A kangaroo",
+        "B. A dog",
+        "C. An emperor penguin",
+        "D. A cat"
+      ]
+    }
+  ]
+},
+
+  {  "title": "Meeting Could Have Been An Email",
   "videoId": "xcuP3VLFj70",  
   "topic": "meetings",
   "level": "B2",
@@ -180,8 +363,7 @@
 
 },
 
-  {
-  "title": "Bucketlist",
+  {  "title": "Bucketlist",
   "videoId": "FwM9q2ckK0g",  
   "topic": "Bucketlist",
   "level": "B2",
