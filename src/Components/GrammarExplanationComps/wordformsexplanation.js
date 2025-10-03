@@ -14,35 +14,28 @@ const WordformsExplanation = () => {
         <div className="grammar-flex-table">
           {[
             ['Noun', 'Verb', 'Adjective', 'Adverb'],
-  ['determination', 'determine', 'determined', 'determinedly'],
-  ['improvement', 'improve', 'improved', 'improvingly'],
-  ['agility', 'agilize', 'agile', 'agilely'],
-  ['quickness', 'quicken', 'quick', 'quickly'],
-  ['experience', 'experiencing', 'experienced', 'experientially'],
-  ['decision', 'decide', 'decisive', 'decisively'],
-  ['method', 'methodize', 'methodical', 'methodically'],
-  ['bravery', 'braver', 'brave', 'bravely'],
-  ['encouragement', 'encourage', 'encourages', 'encouragingly'],
-  ['boldness', 'bold', 'bold', 'boldly'],
-  ['loudness', 'cheer', 'loud', 'loudly'],
-  ['accuracy', 'accurate', 'accurate', 'accurately'],
-  ['analysis', 'analyze', 'analytical', 'none'],
-  ['grace', 'none', 'graceful', 'gracefully'],
-  ['excellence', 'excelling', 'excellent', 'excellently'],
-  ['controversy', 'none', 'controversial', 'controversially'],
-  ['performance', 'perform', 'performed', 'none'],
-  ['cheer', 'cheer', 'cheerful', 'none'],
-  ['ability', 'none', 'able', 'ably'],
-  ['resoluteness', 'resolve', 'resolved', 'resolutely'],
-  ['understanding', 'understand', 'understandable', 'none'],
-  ['success', 'succeed', 'successful', 'successfully'],
-  ['resilience', 'none', 'resilient', 'resiliently'],
-  ['deliberation', 'deliberate', 'deliberate', 'deliberately'],
-  ['value', 'value', 'invaluable', 'invaluably'],
-  ['reaction', 'react', 'reactive', 'none'],
-  ['persistence', 'persist', 'persistent', 'none'],
-  ['discipline', 'discipline', 'disciplined', 'disciplinary'],
-  ['diligence', 'none', 'diligent', 'diligently']
+  
+  ["optimization", "optimize", "optimized", "optimizing"],
+  ["deployment", "deploy", "deployed", "deploying"],
+  ["integration", "integrate", "integrated", "integrating"],
+  ["implementation", "implement", "implemented", "implementing"],
+  ["design", "design", "designed", "designing"],
+  ["quality", "qualify", "qualified", "qualifying"],
+  ["security", "secure", "secured", "securing"],
+  ["hosting", "host", "hosted", "hosting"],
+  ["recovery", "recover", "recovered", "recovering"],
+  ["updates", "update", "updated", "updating"],
+  ["innovation", "innovate", "innovative", "innovating"],
+  ["optimization", "optimize", "optimized", "optimizing"],
+  ["failure", "fail", "failed", "failing"],
+  ["distribution", "distribute", "distributed", "distributing"],
+  ["documentation", "document", "documented", "documenting"],
+  ["configuration", "configure", "configured", "configuring"],
+  ["training", "train", "trained", "training"],
+  ["computing", "compute", "computer", "computed"],
+  ["performance", "perform", "performed", "performing"]
+
+
           ].map((row, index) => (
             <div key={index} className={`grammar-flex-row${index === 0 ? ' header' : ''}`}>
               {row.map((cell, i) => (

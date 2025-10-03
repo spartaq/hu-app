@@ -1,0 +1,146 @@
+{
+  "quizTitle": "Word Forms - Tech",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Database ___ is essential for improving query speed.",
+      "options": ["optimize", "optimization", "optimized", "optimizing"],
+      "answer": "optimization",
+      "topic": "tech"
+    },
+    {
+      "id": 2,
+      "question": "The engineers will ___ the new system tomorrow.",
+      "options": ["deploy", "deployment", "deployed", "deploying"],
+      "answer": "deploy",
+      "topic": "tech"
+    },
+    {
+      "id": 3,
+      "question": "Every API needs proper ___ to work correctly with other services.",
+      "options": ["integrate", "integration", "integrated", "integrating"],
+      "answer": "integration",
+      "topic": "tech"
+    },
+    {
+      "id": 4,
+      "question": "They are currently ___ a new feature into the software.",
+      "options": ["implement", "implementation", "implemented", "implementing"],
+      "answer": "implementing",
+      "topic": "tech"
+    },
+    {
+      "id": 5,
+      "question": "The team completed the ___ of the new database schema.",
+      "options": ["design", "designer", "designed", "designing"],
+      "answer": "design",
+      "topic": "tech"
+    },
+    {
+      "id": 6,
+      "question": "Our code review process greatly improves code ___.",
+      "options": ["quality", "qualify", "qualified", "qualifying"],
+      "answer": "quality",
+      "topic": "tech"
+    },
+    {
+      "id": 7,
+      "question": "The system must be ___ against external attacks.",
+      "options": ["secure", "security", "secured", "securing"],
+      "answer": "secured",
+      "topic": "tech"
+    },
+    {
+      "id": 8,
+      "question": "Strong ___ policies are required in cloud platforms.",
+      "options": ["secure", "security", "secured", "securing"],
+      "answer": "security",
+      "topic": "tech"
+    },
+    {
+      "id": 9,
+      "question": "The app was successfully ___ on the new server.",
+      "options": ["host", "hosting", "hosted", "hoster"],
+      "answer": "hosted",
+      "topic": "tech"
+    },
+    {
+      "id": 10,
+      "question": "We had to run a complete data ___ after the crash.",
+      "options": ["recover", "recovery", "recovered", "recovering"],
+      "answer": "recovery",
+      "topic": "tech"
+    },
+    {
+      "id": 11,
+      "question": "Regular software ___ helps prevent security risks.",
+      "options": ["update", "updated", "updating", "updates"],
+      "answer": "updates",
+      "topic": "tech"
+    },
+    {
+      "id": 12,
+      "question": "The company is investing in AI ___ for automation.",
+      "options": ["innovate", "innovation", "innovative", "innovating"],
+      "answer": "innovation",
+      "topic": "tech"
+    },
+    {
+      "id": 13,
+      "question": "We need to ___ the algorithm to handle more data.",
+      "options": ["optimize", "optimization", "optimized", "optimizing"],
+      "answer": "optimize",
+      "topic": "tech"
+    },
+    {
+      "id": 14,
+      "question": "The network ___ caused downtime for several users.",
+      "options": ["fail", "failure", "failing", "failed"],
+      "answer": "failure",
+      "topic": "tech"
+    },
+    {
+      "id": 15,
+      "question": "The application was ___ to multiple devices.",
+      "options": ["distribute", "distribution", "distributed", "distributing"],
+      "answer": "distributed",
+      "topic": "tech"
+    },
+    {
+      "id": 16,
+      "question": "Proper code ___ makes collaboration much easier.",
+      "options": ["document", "documentation", "documented", "documenting"],
+      "answer": "documentation",
+      "topic": "tech"
+    },
+    {
+      "id": 17,
+      "question": "System ___ is necessary before running the application.",
+      "options": ["configure", "configuration", "configured", "configuring"],
+      "answer": "configuration",
+      "topic": "tech"
+    },
+    {
+      "id": 18,
+      "question": "The AI model was ___ on large amounts of data.",
+      "options": ["train", "training", "trained", "trainer"],
+      "answer": "trained",
+      "topic": "tech"
+    },
+    {
+      "id": 19,
+      "question": "Cloud ___ allows users to scale resources quickly.",
+      "options": ["compute", "computing", "computer", "computed"],
+      "answer": "computing",
+      "topic": "tech"
+    },
+    {
+      "id": 20,
+      "question": "System ___ should be monitored to prevent downtime.",
+      "options": ["perform", "performance", "performed", "performing"],
+      "answer": "performance",
+      "topic": "tech"
+    }
+  ]
+}

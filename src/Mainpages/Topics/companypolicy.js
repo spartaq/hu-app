@@ -15,14 +15,14 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/companypolicyquiz.json';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/modalsobligationexplanation.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/wordformsexplanation.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/modalsobligationexercisescomp.js';
 import ImageCarousel from '../../Utils/imgcarousel.js';
 import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json';
 import ToggleSection from '../../Utils/toggleSection';
 
 const sections = [
-  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "obligation" },
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "wordforms" },
 ];
 
 
@@ -94,7 +94,7 @@ const Companypolicy = () => {
                 </div>
 
                 <div className="agenda-listening">Video</div>
-                 <Video videos={videoData} title="Spotify and the Music Industry" />
+                 <Video videos={videoData} title="The Stupidest Workplace Rules" />
                 
                 <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="companypolicy" />
