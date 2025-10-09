@@ -16,9 +16,14 @@ import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/weatherquiz.json';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/mixedconditionalsexplanation.js';
-import Grammarexercises from '../../Components/GrammarExerciseComps/mixedconditionalsexercisescomp.js';
+import Grammarexercises from '../../Components/GrammarExerciseComps/secondconditionalexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import mainimage from '../../Images/extremeweather.jpg';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "secondcond" },
+];
 
 
 
@@ -67,6 +72,16 @@ const Weather = () => {
                     </div>
 
                     <div>
+                   
+                               <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
+                    </div>
+
+                    <div>
 
                    
                         <div className="agenda-display-grid">
@@ -74,6 +89,7 @@ const Weather = () => {
                         </div>
                    
                     </div>
+
 
                 </div>
                 
