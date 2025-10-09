@@ -1,5 +1,91 @@
 [ 
   {
+  "title": "The Rise and Fall of Enron",
+  "videoId": "unknown",
+  "topic": "business / ethics",
+  "level": "B2",
+  "vocabulary": [
+    "humble - modest or simple in beginning",
+    "ambitious - having a strong desire to succeed or achieve",
+    "behemoth - something enormous and powerful",
+    "innovative - introducing new ideas or methods",
+    "deceit - the act of deceiving or lying",
+    "profitability - the ability to make a financial gain",
+    "fabricate - to invent or falsify something",
+    "fraud - wrongful or criminal deception for financial gain",
+    "bankruptcy - the legal state of being unable to pay debts",
+    "governance - the way a company is directed and controlled"
+  ],
+  "transcript": [
+    "<h1>The Rise and Fall of Enron</h1>",
+    "<p>In the heart of Texas, Enron emerged — initially a humble natural gas company. But under the leadership of its ambitious CEO Kenneth Lay, and later the notorious Jeffrey Skilling, Enron transformed.</p>",
+    "<p>It was no longer just a gas company. It became an energy trading behemoth, a star of the stock market, hailed for its innovative business model.</p>",
+    "<p>Skilling, a visionary with a sharp mind, introduced the concept of trading energy like stocks and bonds. This idea revolutionized the energy market. Enron’s profits soared, and its stock prices reached the stars.</p>",
+    "<p>The company’s success was not just in numbers. It became a symbol of innovation, even earning accolades as America’s most innovative company from Fortune magazine.</p>",
+    "<p>But beneath this glittering surface lurked a murky world of deceit. Enron’s success was built on a foundation of complex financial schemes and unethical practices.</p>",
+    "<p>The company used what were known as ‘special purpose entities’ — shadow organizations that hid its mountains of debt and inflated its profitability.</p>",
+    "<p>The leaders at Enron, driven by greed and a relentless pursuit of personal wealth, continued to deceive investors and employees. They manipulated the market, fabricated earnings reports, and even resorted to outright fraud to maintain the illusion of success.</p>",
+    "<p>The fall began when investigations unveiled the truth. In 2001, it was revealed that much of Enron’s success was an illusion — a tapestry of lies woven to deceive the public and investors.</p>",
+    "<p>As the real numbers came to light, the stock prices plummeted, and the company spiraled into bankruptcy. The collapse was not just a financial disaster — it was a moral and ethical crisis.</p>",
+    "<p>Thousands of employees lost their jobs and life savings, many having invested heavily in Enron. Investors lost billions, and the scandal left a permanent scar on the American business landscape.</p>",
+    "<p>The Enron scandal led to a significant overhaul in corporate governance and accounting standards. It was a wake-up call that led to the creation of the Sarbanes–Oxley Act, aimed at increasing transparency in corporate financial reporting and curbing corporate fraud.</p>",
+    "<p>The story of Enron serves as a cautionary tale — a reminder of the dangers of unchecked ambition and the importance of ethical leadership.</p>",
+    "<p>It shows how the pursuit of wealth, when untethered from moral and ethical principles, can lead to ruin — not just for a company, but for the broader community.</p>"
+  ],
+  "questions": [
+    {
+      "number": "1",
+      "question": "What industry did Enron originally operate in?",
+      "choices": [
+        "A. Electricity production",
+        "B. Natural gas",
+        "C. Oil drilling",
+        "D. Coal mining"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "Who were the two main leaders responsible for Enron’s transformation?",
+      "choices": [
+        "A. Kenneth Lay and Jeffrey Skilling",
+        "B. Bill Gates and Warren Buffett",
+        "C. Jeff Bezos and Elon Musk",
+        "D. Larry Page and Sergey Brin"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "What financial trick did Enron use to hide its debt?",
+      "choices": [
+        "A. False tax reports",
+        "B. Special purpose entities",
+        "C. Offshore accounts",
+        "D. Cryptocurrency trading"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "What major U.S. law was created as a response to the Enron scandal?",
+      "choices": [
+        "A. The Patriot Act",
+        "B. The Sarbanes–Oxley Act",
+        "C. The Clean Energy Act",
+        "D. The Financial Reform Act"
+      ]
+    },
+    {
+      "number": "5",
+      "question": "What is the main lesson from Enron’s collapse?",
+      "choices": [
+        "A. Companies should invest more in marketing",
+        "B. Ambition is dangerous when not guided by ethics",
+        "C. Large corporations are always corrupt",
+        "D. Energy trading should be banned"
+      ]
+    }
+  ]
+},
+  {
   "title": "The Stupidest Workplace Rules",
   "videoId": "yyS3L8UugqE",
   "topic": "workplace / management",

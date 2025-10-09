@@ -1,6 +1,25 @@
 module.exports = [
-  
-    {
+  {
+      "id": "value",
+      "title": "What Makes Something Valuable",
+      "subtitle": "unless",
+      "category": "General",
+      "level": "B2",
+      "time": "60 min",
+      "description": "Talk about value",
+      "image": "/Images/enron.jpg"
+    },  
+  {
+      "id": "corruption",
+      "title": "Corruption",
+      "subtitle": "Should have, Could have",
+      "category": "Business",
+      "level": "B2",
+      "time": "60 min",
+      "description": "Talk about corruption in business with the example of Enron.",
+      "image": "/Images/enron.jpg"
+    },  
+  {
       "id": "parenting",
       "title": "Parenting",
       "subtitle": "Ed vs. Ing, Bored vs. Boring",
@@ -9,7 +28,8 @@ module.exports = [
       "time": "60 min",
       "description": "Compare quality standards in various industries.",
       "image": "/Images/parents1.jpg"
-    },{
+    },
+    {
       "id": "airtraffic",
       "title": "Air Traffic",
       "subtitle": "Comparison",

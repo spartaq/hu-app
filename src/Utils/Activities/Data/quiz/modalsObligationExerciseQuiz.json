@@ -1,146 +1,146 @@
 {
-  "quizTitle": "Modals of Obligation: Present and Past with HAVE",
+  "quizTitle": "Modals of Obligation: Present and Past in Companies",
   "type": "quiz",
   "questions": [
     {
       "id": 1,
-      "question": "Employees ___ wear their security badge at all times in the office.",
-      "options": ["must", "could", "might", "may"],
+      "question": "Employees ___ follow the company’s safety rules at all times.",
+      "options": ["must", "may", "might", "could"],
       "answer": "must",
-      "topic": "tech-office-policy"
+      "topic": "company-obligation"
     },
     {
       "id": 2,
-      "question": "You ___ log into the system with two-factor authentication.",
+      "question": "Managers ___ approve overtime requests before employees work extra hours.",
       "options": ["must", "might", "could", "may"],
       "answer": "must",
-      "topic": "tech-office-policy"
+      "topic": "company-obligation"
     },
     {
       "id": 3,
-      "question": "Assistants ___ schedule all CEO meetings through the official calendar tool.",
-      "options": ["must", "may", "should", "could"],
+      "question": "Staff ___ submit monthly reports to finance by the deadline to avoid delays.",
+      "options": ["must", "might", "could", "may"],
       "answer": "must",
-      "topic": "tech-office-policy"
+      "topic": "company-obligation"
     },
     {
       "id": 4,
-      "question": "Staff ___ follow GDPR rules when handling client information.",
-      "options": ["must", "could", "may", "might"],
-      "answer": "must",
-      "topic": "tech-office-policy"
+      "question": "The team ___ tested the software before rollout; the crash could have been prevented.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "should have",
+      "topic": "company-obligation"
     },
     {
       "id": 5,
-      "question": "Employees ___ report any phishing emails to IT immediately.",
-      "options": ["must", "should", "might", "could"],
-      "answer": "must",
-      "topic": "tech-office-policy"
+      "question": "Someone ___ informed the team about the schedule change; that’s why no one attended the meeting.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "must have",
+      "topic": "company-obligation"
     },
     {
       "id": 6,
-      "question": "You ___ get approval before booking international business travel.",
-      "options": ["must", "may", "might", "could"],
-      "answer": "must",
-      "topic": "tech-office-policy"
+      "question": "The HR manager ___ processed leave requests yesterday; payroll ran smoothly.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "must have",
+      "topic": "company-obligation"
     },
     {
       "id": 7,
-      "question": "Interns ___ complete cybersecurity training in their first week.",
+      "question": "All employees ___ use their ID cards to access restricted areas, unless they have temporary clearance.",
       "options": ["must", "may", "might", "could"],
       "answer": "must",
-      "topic": "tech-office-policy"
+      "topic": "company-obligation"
     },
     {
       "id": 8,
-      "question": "Employees ___ use the VPN when working remotely.",
-      "options": ["must", "could", "may", "might"],
-      "answer": "must",
-      "topic": "tech-office-policy"
+      "question": "The finance team ___ spotted the missing invoice; that’s why the client wasn’t charged incorrectly.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "could have",
+      "topic": "company-obligation"
     },
     {
       "id": 9,
-      "question": "You ___ keep meeting notes confidential and store them securely.",
+      "question": "Employees ___ log out from their accounts when leaving the office, especially on shared computers.",
       "options": ["must", "might", "could", "may"],
       "answer": "must",
-      "topic": "tech-office-policy"
+      "topic": "company-obligation"
     },
     {
       "id": 10,
-      "question": "Assistants ___ update the CEO’s travel schedule daily in the system.",
-      "options": ["must", "may", "should", "could"],
-      "answer": "must",
-      "topic": "tech-office-policy"
+      "question": "Someone ___ sent the wrong file; the client received outdated information by mistake.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "might have",
+      "topic": "company-obligation"
     },
     {
       "id": 11,
-      "question": "The IT team ___ have finished the system upgrade by last night, but it was delayed.",
-      "options": ["must", "must have", "should have", "could have"],
+      "question": "The IT team ___ installed the security update, but the system still had vulnerabilities.",
+      "options": ["must have", "could have", "might have", "should have"],
       "answer": "should have",
-      "topic": "tech-office-policy"
+      "topic": "company-obligation"
     },
     {
       "id": 12,
-      "question": "You ___ have sent the report earlier; now the CEO was unprepared for the call.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "should have",
-      "topic": "tech-office-policy"
+      "question": "Employees ___ report harassment incidents immediately; delay could worsen the situation.",
+      "options": ["must", "may", "might", "could"],
+      "answer": "must",
+      "topic": "company-obligation"
     },
     {
       "id": 13,
-      "question": "The assistant ___ have booked the meeting room, but it was already occupied.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "could have",
-      "topic": "tech-office-policy"
+      "question": "The assistant ___ arranged the meeting room correctly; the double booking was an exception.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "might have",
+      "topic": "company-obligation"
     },
     {
       "id": 14,
-      "question": "The CEO’s email was missing — someone ___ have deleted it by mistake.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "must have",
-      "topic": "tech-office-policy"
+      "question": "Staff ___ confirmed all travel arrangements before departure, unless changes were last minute.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "should have",
+      "topic": "company-obligation"
     },
     {
       "id": 15,
-      "question": "The IT department ___ have backed up the files; now important data is gone.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "should have",
-      "topic": "tech-office-policy"
+      "question": "Employees ___ complete annual ethics training; new hires may have extra onboarding sessions.",
+      "options": ["must", "may", "might", "could"],
+      "answer": "must",
+      "topic": "company-obligation"
     },
     {
       "id": 16,
-      "question": "The intern ___ have checked the calendar twice before sending the invitation.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "should have",
-      "topic": "tech-office-policy"
+      "question": "Someone ___ sent the wrong email; the client received confusing instructions.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "might have",
+      "topic": "company-obligation"
     },
     {
       "id": 17,
-      "question": "The assistant ___ have printed the contracts yesterday, but she forgot.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "should have",
-      "topic": "tech-office-policy"
+      "question": "Managers ___ review all expense reports before approving payment; exceptions may exist for low-value items.",
+      "options": ["must", "may", "might", "could"],
+      "answer": "must",
+      "topic": "company-obligation"
     },
     {
       "id": 18,
-      "question": "Someone ___ have shared the wrong document; the file didn’t match the agenda.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "might have",
-      "topic": "tech-office-policy"
+      "question": "The team ___ tested the new feature thoroughly; otherwise, bugs would have appeared.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "must have",
+      "topic": "company-obligation"
     },
     {
       "id": 19,
-      "question": "The finance team ___ have noticed the mistake in the invoice before sending it.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "should have",
-      "topic": "tech-office-policy"
+      "question": "Employees ___ wear protective equipment in the warehouse, unless they are in the visitor area.",
+      "options": ["must", "may", "might", "could"],
+      "answer": "must",
+      "topic": "company-obligation"
     },
     {
       "id": 20,
-      "question": "The CEO was angry — the assistant ___ have prepared the presentation slides earlier.",
-      "options": ["must have", "should have", "could have", "might have"],
-      "answer": "should have",
-      "topic": "tech-office-policy"
+      "question": "Someone ___ deleted the wrong document; it may have been accidental.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "could have",
+      "topic": "company-obligation"
     }
   ]
 }

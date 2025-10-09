@@ -1,0 +1,98 @@
+[
+  {
+    "quiz": 2,
+    "quizTitle": "The Dark Side of Business: Shocking Scandals and Lies",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Enron traders once joked about ‘stealing from Grandma Millie’ while manipulating California’s power supply.",
+        "options": ["True", "False"],
+        "answer": "True - Recordings revealed Enron traders laughing about causing blackouts and exploiting ordinary people."
+      },
+      {
+        "id": 2,
+        "question": "Theranos promised to run hundreds of medical tests on a single drop of blood. How many tests could their machine actually perform accurately?",
+        "options": ["Almost all of them", "About half", "Only a few basic tests", "None at all"],
+        "answer": "Only a few basic tests - Most results were fake or done on standard lab machines instead of Theranos’s device."
+      },
+      {
+        "id": 3,
+        "question": "Which CEO once told staff to ‘find the gray area and live there’ — later ending up in prison for massive fraud?",
+        "options": ["Elizabeth Holmes (Theranos)", "Jeff Skilling (Enron)", "Martin Shkreli (Turing Pharmaceuticals)", "Bernie Madoff"],
+        "answer": "Jeff Skilling (Enron) - His culture of pushing limits encouraged unethical risk-taking across the company."
+      },
+      {
+        "id": 4,
+        "question": "How much investor money did Bernie Madoff’s Ponzi scheme steal?",
+        "options": ["Around $5 billion", "About $20 billion", "Roughly $65 billion", "Over $100 billion"],
+        "answer": "Roughly $65 billion - It was the largest financial fraud in U.S. history, collapsing in 2008."
+      },
+      {
+        "id": 5,
+        "question": "Which company secretly installed software in 11 million cars to cheat emissions tests?",
+        "options": ["Ford", "Volkswagen", "Toyota", "Nissan"],
+        "answer": "Volkswagen - The ‘Dieselgate’ scandal cost the company over $30 billion in fines and destroyed public trust."
+      },
+      {
+        "id": 6,
+        "question": "When Enron collapsed, how many employees lost their jobs and pensions overnight?",
+        "options": ["About 500", "Around 4,000", "More than 20,000", "Over 60,000"],
+        "answer": "More than 20,000 - Many lost their retirement savings because it was tied to Enron stock."
+      },
+      {
+        "id": 7,
+        "question": "Which luxury brand destroyed millions of dollars worth of unsold clothes to protect its 'exclusivity'?",
+        "options": ["Burberry", "Gucci", "Louis Vuitton", "Versace"],
+        "answer": "Burberry - In 2018, it burned unsold products to avoid discounting, sparking public outrage."
+      },
+      {
+        "id": 8,
+        "question": "Which cryptocurrency exchange’s founder was convicted after billions of customer funds vanished?",
+        "options": ["Binance", "FTX", "Coinbase", "Mt. Gox"],
+        "answer": "FTX - Sam Bankman-Fried’s empire collapsed in 2022 after massive fraud and misuse of investor funds."
+      },
+      {
+        "id": 9,
+        "question": "In the Wells Fargo scandal, employees created fake bank accounts to meet unrealistic sales targets. How many fake accounts were discovered?",
+        "options": ["Around 10,000", "About 100,000", "Roughly 3.5 million", "Over 10 million"],
+        "answer": "Roughly 3.5 million - The scandal revealed a toxic culture of pressure and false performance metrics."
+      },
+      {
+        "id": 10,
+        "question": "Which company’s CEO was nicknamed ‘Pharma Bro’ after hiking the price of a life-saving drug by 5,000%?",
+        "options": ["Pfizer", "Valeant", "Turing Pharmaceuticals", "Moderna"],
+        "answer": "Turing Pharmaceuticals - Martin Shkreli became a symbol of corporate greed after raising a $13.50 drug to $750 per pill."
+      },
+      {
+        "id": 11,
+        "question": "How many people were convicted after the Enron scandal?",
+        "options": ["Fewer than 5", "Around 10", "About 30", "Over 100"],
+        "answer": "About 30 - Dozens of executives and traders faced charges, though many received light sentences."
+      },
+      {
+        "id": 12,
+        "question": "Which multinational was caught paying millions in bribes to secure contracts in Brazil, leading to a political crisis?",
+        "options": ["Siemens", "Odebrecht", "Shell", "Nestlé"],
+        "answer": "Odebrecht - The scandal, known as ‘Operation Car Wash,’ exposed massive corruption across Latin America."
+      },
+      {
+        "id": 13,
+        "question": "What percentage of global GDP is estimated to be lost to corruption each year, according to the World Economic Forum?",
+        "options": ["1%", "2%", "5%", "10%"],
+        "answer": "5% - Corruption drains an estimated $2.6 trillion from the global economy annually."
+      },
+      {
+        "id": 14,
+        "question": "Which company was caught secretly selling user data to political firms like Cambridge Analytica?",
+        "options": ["Google", "Facebook", "TikTok", "Twitter"],
+        "answer": "Facebook - The 2018 scandal revealed data misuse that affected elections worldwide."
+      },
+      {
+        "id": 15,
+        "question": "When Volkswagen’s Dieselgate scandal broke, how much did their stock value drop in two days?",
+        "options": ["10%", "20%", "30%", "40%"],
+        "answer": "30% - Investors panicked as the company’s reputation and profits evaporated almost overnight."
+      }
+    ]
+  }
+]

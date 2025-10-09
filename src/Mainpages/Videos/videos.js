@@ -250,9 +250,7 @@ const Videos = () => {
           </div>
         </div>
 
-        <div className="gmenu div2">
-          <GrammarMenu /><Sidebar />
-        </div>
+     
       </div>
     </div>
   );

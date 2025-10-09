@@ -1,4 +1,142 @@
 module.exports = [
+  {
+  "readingcompTitle": "Enron and the California Blackouts",
+  "topic": "business ethics and energy markets",
+  "level": "c1",
+  "image": "/Images/enron.jpg",
+  "vocabulary": [
+    "deregulation - the removal of government controls over an industry to encourage competition",
+    "loophole - a gap or ambiguity in a rule or law that allows it to be exploited",
+    "manipulation - controlling or influencing something unfairly or dishonestly",
+    "wholesale market - a system where electricity is bought and sold in bulk before reaching consumers",
+    "withholding supply - intentionally reducing available goods or energy to drive up prices",
+    "congestion - an overload on a power grid or network",
+    "futures contract - a financial agreement to buy or sell a commodity at a set price in the future",
+    "rolling blackout - a temporary and planned power outage to prevent a total system failure",
+    "accounting fraud - falsifying financial records to hide losses or inflate profits",
+    "settlement - a legal agreement that resolves a dispute, often involving compensation"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>In the late 1990s, California changed how electricity was managed. The state introduced a deregulated market, forcing utilities to sell their power plants and buy electricity on an open market. Prices for consumers were frozen, but wholesale prices could fluctuate freely. This system aimed to increase competition, but it also created opportunities for manipulation.</p>",
+        "<p>Enron, a Texas-based energy company, became one of the most aggressive players in this new market. Its traders developed schemes with code names like <em>Death Star</em>, <em>Ricochet</em>, and <em>Fat Boy</em>. These tactics involved creating artificial shortages, rerouting electricity, or pretending to relieve grid congestion — all designed to inflate prices without producing more energy.</p>",
+        "<p>In one scheme, Enron exported electricity out of California and then imported it back at a higher price, making it appear as if the state had to buy expensive out-of-state power. In another, it overstated demand and then sold the “extra” electricity back to the grid at inflated rates. By withholding supply and exploiting market rules, Enron caused prices to skyrocket and power shortages to worsen.</p>",
+        "<p>As a result, California suffered rolling blackouts in 2000 and 2001. Utilities lost billions, and consumers faced enormous bills. Investigations later revealed that Enron and other companies had intentionally made the crisis worse for profit. Some traders were recorded laughing about shutting down power plants and “stealing from Grandma Millie.”</p>",
+        "<p>When Enron’s broader accounting frauds were uncovered, the company collapsed in 2001, wiping out investors and employees. Several executives were prosecuted, and California eventually won settlements for damages. The crisis became a symbol of how deregulation, without effective oversight, can allow corporations to exploit public systems for private gain.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Do you think deregulation was a good idea in this case, or did it make the energy market too easy to manipulate?",
+          "choices": [
+            "a) Deregulation was necessary to create competition",
+            "b) It was a good idea but poorly managed",
+            "c) It made the market too easy to manipulate",
+            "d) It didn’t really change anything"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "Who do you believe was most responsible for the blackouts?",
+          "choices": [
+            "a) Enron and other energy traders",
+            "b) The California government for weak regulations",
+            "c) The utilities for poor planning",
+            "d) All of the above shared responsibility"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "How can governments balance competition and regulation to prevent similar crises?",
+          "choices": [
+            "a) By introducing stricter oversight and transparency",
+            "b) By letting markets regulate themselves",
+            "c) By avoiding deregulation altogether",
+            "d) By allowing only a few trusted companies to trade energy"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Should traders or executives face harsher penalties when corporate behavior harms the public?",
+          "choices": [
+            "a) Yes, stronger punishment would deter unethical behavior",
+            "b) No, financial penalties are enough",
+            "c) Only if there is clear criminal intent",
+            "d) It depends on the size of the damage"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What lessons can other industries learn from the Enron scandal?",
+          "choices": [
+            "a) The importance of transparency and ethical leadership",
+            "b) That deregulation always leads to corruption",
+            "c) That markets should never be competitive",
+            "d) That companies should focus on short-term profits"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "readingcompTitle": "Air Traffic Management Flexibility",
+  "topic": "aviation and innovation",
+  "level": "c1",
+  "image": "/Images/airdelay1.webp",
+  "vocabulary": [
+    "resilience - the ability to recover quickly from difficulties",
+    "elastic cost base - expenses that can be adjusted depending on demand",
+    "scenario planning - preparing for different possible future situations",
+    "redeployment - moving staff to different roles or tasks",
+    "fragmented - divided into separate and disconnected parts",
+    "collaboration - working together with others to achieve common goals",
+    "virtual centres - digital ATC facilities not tied to one location",
+    "system-wide information management - coordinated data sharing across aviation systems",
+    "cybersecurity - protection of systems and networks from digital attacks",
+    "contingency - a plan for unexpected events or emergencies"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>The COVID-19 crisis showed how vulnerable air traffic management is to sudden shocks. ANSPs now face challenges like staff shortages, fluctuating traffic, and the need for greener operations. To adapt, they must build both resilience and flexibility into their business models.</p>",
+        "<p>Flexibility means being able to scale operations up or down depending on demand. This involves elastic staffing models, smarter contracts with suppliers, and better resource planning. Instead of firefighting when systems reach their limits, ANSPs need to plan ahead with scenario and contingency planning.</p>",
+        "<p>Airspace reform is also key. Many regions still operate with fragmented and outdated structures. Cross-border cooperation, sector merging, and projects like Borealis or iTEC show how collaboration can cut costs, improve efficiency, and support innovation.</p>",
+        "<p>Technology will play a central role: digital towers, virtual centres, AI, automation, and system-wide data sharing can enable remote operations, flexible staffing, and faster decision-making. These tools can create scalability and improve resilience, but also raise new challenges around human factors and cybersecurity.</p>",
+        "<p>The article concludes that real flexibility depends on both technology and proactive planning. By investing in adaptable systems, collaborative approaches, and flexible workforces, ANSPs can prepare for future volatility and shocks, ensuring safer and more sustainable air traffic management.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the biggest barrier to making ANSPs more flexible?",
+          "choices": ["a) People and staffing issues", "b) Technology limitations", "c) Regulations and policies", "d) Financial constraints"]
+        },
+        {
+          "number": "2",
+          "question": "How should ANSPs handle flexibility in staffing?",
+          "choices": ["a) Outsource more tasks", "b) Keep everything in-house", "c) Use a balance of outsourcing and in-house staff", "d) Avoid major changes to staffing"]
+        },
+        {
+          "number": "3",
+          "question": "Why is cross-border collaboration important for European airspace?",
+          "choices": ["a) It reduces costs and increases efficiency", "b) It improves safety and innovation", "c) It helps manage fragmented airspace", "d) All of the above"]
+        },
+        {
+          "number": "4",
+          "question": "Would you trust digital towers and virtual centres compared to traditional ones?",
+          "choices": ["a) Yes, they are just as safe", "b) Yes, but only with strong cybersecurity", "c) Maybe, depending on regulations", "d) No, traditional towers are safer"]
+        },
+        {
+          "number": "5",
+          "question": "What is the most important lesson from the COVID-19 crisis for ANSPs?",
+          "choices": ["a) Build more financial reserves", "b) Invest in flexible systems and planning", "c) Keep staff levels low during crises", "d) Avoid technological change"]
+        }
+      ]
+    }
+  ]
+},
 
 {
   "readingcompTitle": "18 Hilarious Parenting Stories",
@@ -3621,33 +3759,19 @@ module.exports = [
     "runway incursion - an incident where something is on the runway when it should not be",
     "mantra - a commonly repeated phrase or belief",
     "vigilant - keeping careful watch for potential danger or difficulties",
-    "incursion - an unwanted or unexpected entry"
+    "incursions - an unwanted or unexpected entry"
   ],
   "paragraphs": [
     {
       "text": [
-        "<h1>It Feels Like There Are More Plane Crashes and Incidents. Here’s the Truth</h1>",
-        "<p>The crash landing of Delta Air Lines flight 4819 in Toronto is some of the scariest video I’ve ever seen. While thankfully there were no fatalities, videos like that are the stuff that nightmares are made of.</p>",
-        "<p>Monday’s crash landing doesn’t feel like an isolated incident, especially after last month’s collision of an American Airlines plane and a US Army helicopter that left 67 dead. It feels like the skies are becoming more dangerous.</p>",
-        "<p>But sometimes feelings can be deceiving. A look at the statistics suggests that the skies are about as friendly as they’ve ever been.</p>",
-        "<p>Take a look at January’s preliminary data from the National Transportation Safety Board.</p>",
-        "<p>It appears that last month there was a record low number of airplane accidents nationwide, when combining private and commercial airline flights. Most of the 62 total airplane accidents were on private flights, and that total number was 18 less than the 80 recorded in January 2024.</p>",
-        "<p>In fact, if the preliminary numbers hold, January 2025 will surpass the previous record for the lowest number of total accidents, with eight fewer than the prior record low of 70 from January 2012.</p>",
-        "<p>Ten of the accidents in January 2025 were, unfortunately, fatal, and one of those fatal incidents involved a commercial airliner. Obviously, any number above zero is too many, but 10 overall is an incredibly low number, historically speaking.</p>",
-        "<p>And the number of fatal accidents nationwide last month could tie with 2022 for the safest January on record.</p>",
-        "<p>January 2025’s safety record isn’t a statistical anomaly, either. I’ve previously noted how commercial air travel in the United States has been safer than ever before. There have been fewer fatalities on scheduled commercial airliners over the last 15 years than any other 15-year stretch. And, though it’s almost become a mantra among the airline industry at this point, for each mile traveled commercial airliners are far safer than cars.</p>",
-        "<p>Indeed, the trendline is pretty much the same when combining private and commercial air travel: Last year had fewer accidents, and fewer fatal accidents – 257 – than any prior year. It’s a long-term trend, too, with fewer accidents recorded in each of the past 12 years than in any previous year dating back to at least 1982.</p>",
-        "<p>The only three years with fewer than 300 fatal accidents have all occurred in the 2020s. It’s a drastic improvement from historical records, too, as back in 1982 and 1983, there were over 600 fatal accidents.</p>",
-        "<p>Of course, what stands out about January and the crash in Toronto is that they involved commercial airliners. The vast majority of crashes are private small planes, so they don’t get much press.</p>",
-        "<p>Riding in a small private plane is significantly less safe.</p>",
-        "<p>But, as my colleague Chris Isidore noted to me, one or two horrible incidents doesn’t really say as much about the broader industry as you might believe. When you have about 9 million commercial flights operated by US airlines each year, one or two extra accidents in a given year is not statistically significant.</p>",
-        "<p>But even the near misses aren’t as frequent as you might think. I can recall two years ago that there was a freakout over near misses.</p>",
-        "<p>In 2023, 23 runway incursions (i.e. something was on the runway when it shouldn’t have been) were labeled as serious incidents. That was more than at any other point over the past decade.</p>",
-        "<p>You might have noted fewer people were talking about runway incursions in 2024. The reason was simple: the number of serious runway incursions fell to just seven in 2024. That was not only a major decline from 2023, but the fewest number of runway incursions in the previous decade.</p>",
-        "<p>Just two of the most serious type of near miss, in which a collision was narrowly avoided, occurred in 2024, which again was the lowest of the last decade.</p>",
-        "<p>So where does this leave us? No mode of transportation is going to be 100% safe. We have to remain vigilant that air travel is as safe as it can be. What has happened over the last month has been scary and, in some cases, tragic.</p>",
-        "<p>Still, when you put it all together, airplane travel is among the safest ways to get around. The numbers, no matter how you crack them, show it has only become safer in recent years.</p>"
-      ],
+  "<h1>It Feels Like There Are More Plane Crashes and Incidents. Here’s the Truth</h1>",
+  "<p>Recent crashes, like Delta flight 4819 in Toronto and the American Airlines/US Army collision, may feel alarming. But overall statistics show that air travel is safer than ever.</p>",
+  "<p>Preliminary data from January 2025 show a record low number of airplane accidents nationwide: 62 total, down from 80 in January 2024. Most involved private flights. Fatal accidents were just 10, including one commercial airliner.</p>",
+  "<p>Commercial air travel in the US has seen fewer fatalities over the past 15 years than any previous period. For each mile traveled, flying remains far safer than driving.</p>",
+  "<p>Long-term trends confirm this improvement: each of the past 12 years had fewer accidents than any previous year dating back to 1982. The 2020s have been the safest decade for fatal accidents, all under 300 annually, compared to over 600 in the early 1980s.</p>",
+  "<p>Most crashes involve small private planes, which receive less media attention. Even serious near misses are rare: 23 serious runway incursions occurred in 2023, but only seven in 2024, the lowest in a decade.</p>",
+  "<p>While no transportation is perfectly safe, air travel continues to improve in safety, and statistically, it remains one of the safest ways to travel.</p>"
+],
       "questions": [
         {
           "number": "1",

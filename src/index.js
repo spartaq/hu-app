@@ -142,6 +142,8 @@ import Harmonia from './Mainpages/Hungarian/harmonia';
 import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
 import BucketList from './Mainpages/Topics/bucketlist';
 import Parenting from './Mainpages/Topics/parenting';
+import Corruption from './Mainpages/Topics/corruption';
+import Value from './Mainpages/Topics/value';
 
 
 
@@ -348,6 +350,12 @@ const router = createBrowserRouter([
           },
           { path: 'topics/bucketlist',
             element: <BucketList />,
+          },
+          { path: 'topics/corruption',
+            element: <Corruption />,
+          },
+          { path: 'topics/value',
+            element: <Value />,
           },
           {
             path: 'grammar-exercises',
