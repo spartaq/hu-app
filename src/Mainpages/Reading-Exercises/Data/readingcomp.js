@@ -1,5 +1,90 @@
 module.exports = [
   {
+  "readingcompTitle": "The Four Forms of Value",
+  "topic": "value",
+  "level": "b2",
+  "image": "/Images/value.jpg",
+  "vocabulary": [
+    "usable value - the practical or functional usefulness of something",
+    "aesthetic value - the beauty or artistic appeal of an object",
+    "rare value - worth created by scarcity or limited supply",
+    "emotional value - personal or sentimental importance attached to something",
+    "intrinsic - belonging naturally; essential or inherent",
+    "practicality - the quality of being sensible and useful",
+    "sentimental - related to emotions or personal memories",
+    "brand - a company or product identity that influences perception",
+    "supply and demand - the relationship between how much is available and how much people want",
+    "status - a person’s social or professional standing or importance"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>What makes something valuable? Why are diamonds more valuable than the rocks in my yard? There are four main things that affect the value of something: usable value, rare value, aesthetic value, and emotional value.</p>",
+        "<p><strong>Usable value</strong> refers to how practical or functional something is. Does it fill a physical need? For example, a can opener has clear usable value because it serves a practical purpose. Engineers and inventors increase usable value by making things work better, faster, or more efficiently.</p>",
+        "<p><strong>Aesthetic value</strong> comes from an object’s beauty or design. This is what art is all about, but it can also apply to everyday things like cups, chairs, or cars. Artists and designers increase aesthetic value by improving an object’s visual appeal and style.</p>",
+        "<p><strong>Rare value</strong> is created by scarcity. If something is rare, people often perceive it as more valuable, even if it isn’t actually better. Gemstones are a classic example. Investors and economists can increase rare value by limiting supply or controlling demand.</p>",
+        "<p><strong>Emotional value</strong> comes from personal attachment. A stuffed toy from your childhood or a wedding ring might be worth little to others but priceless to you. Brands also use emotional value to make products more desirable. Marketers and advertisers do this by connecting emotions, memories, or identity to their products.</p>",
+        "<p>Most things include more than one type of value. The more areas they cover, the more valuable they become. For instance, sunsets are beautiful, but because they are common and serve no practical function, their value is limited. Diamonds, on the other hand, combine rarity, beauty, and emotional meaning. They symbolize love, wealth, and status — which gives them their high price.</p>",
+        "<p>High-end art also combines several types of value. It is rare, often beautiful, and carries emotional meaning as a symbol of creativity or prestige. To make something more valuable, you can improve it in one or more of these four areas — function, beauty, rarity, or emotion.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What are the four forms of value described in the text?",
+          "choices": [
+            "a) Functional, financial, artistic, and symbolic value",
+            "b) Usable, aesthetic, rare, and emotional value",
+            "c) Practical, spiritual, social, and economic value",
+            "d) Common, rare, artistic, and traditional value"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "How can engineers increase the usable value of a product?",
+          "choices": [
+            "a) By making it more efficient and functional",
+            "b) By making it more beautiful",
+            "c) By limiting its availability",
+            "d) By attaching emotions to it through marketing"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What is the main reason diamonds are valuable, according to the text?",
+          "choices": [
+            "a) They are functional and useful in daily life",
+            "b) They have beauty, rarity, and emotional meaning",
+            "c) They are made from expensive materials",
+            "d) They are commonly found and easy to replace"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Why does the text say sunsets have little value despite being beautiful?",
+          "choices": [
+            "a) They don’t inspire emotion in people",
+            "b) They are common and serve no practical purpose",
+            "c) They are difficult to observe clearly",
+            "d) They are often forgotten because they are ugly"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What is one way marketers can increase the emotional value of a product?",
+          "choices": [
+            "a) By improving its design and color",
+            "b) By connecting it to people’s feelings or memories",
+            "c) By limiting the number of products available",
+            "d) By reducing its price"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+  
+  {
   "readingcompTitle": "Enron and the California Blackouts",
   "topic": "business ethics and energy markets",
   "level": "c1",

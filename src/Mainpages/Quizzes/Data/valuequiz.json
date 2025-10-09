@@ -1,0 +1,68 @@
+[
+  {
+    "quiz": 1,
+    "quizTitle": "What’s It Worth? The Strange World of Value",
+    "questions": [
+      {
+        "id": 1,
+        "question": "A slice of pizza once sold for $1,000 because it had edible gold flakes and caviar on it.",
+        "options": ["True", "False"],
+        "answer": "True - It was sold in New York as a luxury ‘gourmet pizza’ covered in gold, truffles, and lobster."
+      },
+      {
+        "id": 2,
+        "question": "Which item once sold for more money than a brand-new Ferrari?",
+        "options": ["A Pokémon card", "A pair of sneakers", "A digital cat picture", "A sandwich signed by a celebrity"],
+        "answer": "A digital cat picture - The NFT ‘CryptoKitty’ once sold for over $170,000."
+      },
+      {
+        "id": 3,
+        "question": "What makes something valuable: rarity, usefulness, or what people are willing to pay?",
+        "options": ["Rarity", "Usefulness", "Whatever people will pay", "All of the above"],
+        "answer": "All of the above - Value depends on culture, context, and emotion as much as on logic."
+      },
+      {
+        "id": 4,
+        "question": "Which of these items has actually been sold on eBay?",
+        "options": ["Someone’s friendship", "A ghost in a jar", "A grilled cheese with Jesus’s face", "All of the above"],
+        "answer": "All of the above - People have paid thousands for strange, sentimental, or silly listings."
+      },
+      {
+        "id": 5,
+        "question": "A half-eaten toast once sold for $25,000 because it had the image of which celebrity?",
+        "options": ["Elvis Presley", "Madonna", "Justin Bieber", "Britney Spears"],
+        "answer": "Britney Spears - A fan sold her leftover breakfast online during her early fame years."
+      },
+      {
+        "id": 6,
+        "question": "The world’s most expensive painting, ‘Salvator Mundi’, was sold for how much?",
+        "options": ["$45 million", "$150 million", "$450 million", "$1 billion"],
+        "answer": "$450 million - The Leonardo da Vinci painting was bought in 2017 by a Saudi prince."
+      },
+      {
+        "id": 7,
+        "question": "What did a man once trade for a single paperclip, after a series of clever exchanges?",
+        "options": ["A car", "A small island", "A house", "A diamond ring"],
+        "answer": "A house - Kyle MacDonald famously traded up from a red paperclip to a house in 14 swaps."
+      },
+      {
+        "id": 8,
+        "question": "Why do people pay thousands for virtual land in the ‘metaverse’?",
+        "options": ["Because it’s fun", "Because it’s rare digital property", "Because they hope to resell it", "All of the above"],
+        "answer": "All of the above - Digital real estate became a speculative market like real-world property."
+      },
+      {
+        "id": 9,
+        "question": "A pair of sneakers worn by Michael Jordan sold for how much at auction?",
+        "options": ["$50,000", "$250,000", "$2.2 million", "$10 million"],
+        "answer": "$2.2 million - Sports memorabilia can become priceless for fans and collectors."
+      },
+      {
+        "id": 10,
+        "question": "Which of these things is probably the most valuable in the long run?",
+        "options": ["Money", "Time", "Fame", "A limited-edition NFT of a potato"],
+        "answer": "Time - You can’t buy more of it, no matter how rich you are."
+      }
+    ]
+  }
+]

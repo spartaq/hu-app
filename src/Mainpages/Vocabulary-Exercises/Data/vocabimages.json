@@ -1,4 +1,10 @@
-[{
+[
+  {
+    "src": "value.webp",
+    "caption": "",
+    "topic": "value"
+  },
+  {
     "src": "enron.jpg",
     "caption": "",
     "topic": "corruption"

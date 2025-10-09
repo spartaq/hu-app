@@ -96,7 +96,7 @@ const Corruption = () => {
                  <Video videos={videoData} title="The Rise and Fall of Enron" />
                 
                 <div className="agenda-discussion">Discussion</div>
-                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="Corruption" />
+                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="corruption" />
             </div>
         </div>
     );
