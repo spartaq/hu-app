@@ -101,527 +101,388 @@
     },  
     {
           "text": "If we ___ (live) near the sea, we would go swimming every day.",
-          "answer": "lived"
-      },
+          "answer": "lived",
+        "topic": "general"
+    },  
       {
           "text": "If I ___ (have) a million dollars, I would travel the world.",
-          "answer": "had"
-      },
+          "answer": "had",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (be) taller, he would play basketball.",
-          "answer": "were"
-      },
+          "answer": "were",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (know) how to cook, she would make dinner for us.",
-          "answer": "knew"
-      },
+          "answer": "knew",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (win) the lottery, they would buy a new house.",
-          "answer": "won"
-      },
+          "answer": "won",
+        "topic": "general"
+    },  
       {
           "text": "If you ___ (study) harder, you would pass the exam.",
-          "answer": "studied"
-      },
+          "answer": "studied",
+        "topic": "general"
+    },  
       {
           "text": "If we ___ (own) a car, we would drive to the beach.",
-          "answer": "owned"
-      },
+          "answer": "owned",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (speak) Spanish, he would move to Spain.",
-          "answer": "spoke"
-      },
+          "answer": "spoke",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (be) more patient, she would be a better teacher.",
-          "answer": "were"
-      },
+          "answer": "were",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (understand) the problem, they would find a solution.",
-          "answer": "understood"
-      },
+          "answer": "understood",
+        "topic": "general"
+    },  
       {
           "text": "If you ___ (save) more money, you would be able to buy that car.",
-          "answer": "saved"
-      },
+          "answer": "saved",
+        "topic": "general"
+    },  
       {
           "text": "If we ___ (work) together, we would finish the project on time.",
-          "answer": "worked"
-      },
+          "answer": "worked",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (run) faster, he would win the race.",
-          "answer": "ran"
-      },
+          "answer": "ran",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (sing) well, she would join the choir.",
-          "answer": "sang"
-      },
+          "answer": "sang",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (like) each other, they would get married.",
-          "answer": "liked"
-      },
+          "answer": "liked",
+        "topic": "general"
+    },  
       {
           "text": "If you ___ (exercise) regularly, you would be fit.",
-          "answer": "exercised"
-      },
+          "answer": "exercised",
+        "topic": "general"
+    },  
       {
           "text": "If we ___ (eat) healthier, we would feel better.",
-          "answer": "ate"
-      },
+          "answer": "ate",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (study) law, he would become a lawyer.",
-          "answer": "studied"
-      },
+          "answer": "studied",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (have) more time, she would read more books.",
-          "answer": "had"
-      },
+          "answer": "had",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (travel) to Japan, they would visit Tokyo.",
-          "answer": "traveled"
-      },
+          "answer": "traveled",
+        "topic": "general"
+    },  
       {
           "text": "If you ___ (know) the answer, you would tell me.",
-          "answer": "knew"
-      },
+          "answer": "knew",
+        "topic": "general"
+    },  
       {
           "text": "If we ___ (be) rich, we would help the poor.",
-          "answer": "were"
-      },
+          "answer": "were",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (play) the guitar, he would join a band.",
-          "answer": "played"
-      },
+          "answer": "played",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (be) older, she would understand.",
-          "answer": "were"
-      },
+          "answer": "were",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (care) about the environment, they would recycle more.",
-          "answer": "cared"
-      },
+          "answer": "cared",
+        "topic": "general"
+    },  
       {
           "text": "If we lived near the sea, we ___ (go) swimming every day.",
-          "answer": "would go"
-      },
+          "answer": "would go",
+        "topic": "general"
+    },  
       {
           "text": "If I had a million dollars, I ___ (travel) the world.",
-          "answer": "would travel"
-      },
+          "answer": "would travel",
+        "topic": "general"
+    },  
       {
           "text": "If he were taller, he ___ (play) basketball.",
-          "answer": "would play"
-      },
+          "answer": "would play",
+        "topic": "general"
+    },  
       {
           "text": "If she knew how to cook, she ___ (make) dinner for us.",
-          "answer": "would make"
-      },
+          "answer": "would make",
+        "topic": "general"
+    },  
       {
           "text": "If they won the lottery, they ___ (buy) a new house.",
-          "answer": "would buy"
-      },
+          "answer": "would buy",
+        "topic": "general"
+    },  
       {
           "text": "If you studied harder, you ___ (pass) the exam.",
-          "answer": "would pass"
-      },
+          "answer": "would pass",
+        "topic": "general"
+    },  
       {
           "text": "If we owned a car, we ___ (drive) to the beach.",
-          "answer": "would drive"
-      },
+          "answer": "would drive",
+        "topic": "general"
+    },  
       {
           "text": "If he spoke Spanish, he ___ (move) to Spain.",
-          "answer": "would move"
-      },
+          "answer": "would move",
+        "topic": "general"
+    },  
       {
           "text": "If she were more patient, she ___ (be) a better teacher.",
-          "answer": "would be"
-      },
+          "answer": "would be",
+        "topic": "general"
+    },  
       {
           "text": "If they understood the problem, they ___ (find) a solution.",
-          "answer": "would find"
-      },
+          "answer": "would find",
+        "topic": "general"
+    },  
       {
           "text": "If you saved more money, you ___ (buy) that car.",
-          "answer": "would buy"
-      },
+          "answer": "would buy",
+        "topic": "general"
+    },  
       {
           "text": "If we worked together, we ___ (finish) the project on time.",
-          "answer": "would finish"
-      },
+          "answer": "would finish",
+        "topic": "general"
+    },  
       {
           "text": "If he ran faster, he ___ (win) the race.",
-          "answer": "would win"
-      },
+          "answer": "would win",
+        "topic": "general"
+    },  
       {
           "text": "If she sang well, she ___ (join) the choir.",
-          "answer": "would join"
-      },
+          "answer": "would join",
+        "topic": "general"
+    },  
       {
           "text": "If they liked each other, they ___ (get) married.",
-          "answer": "would get"
-      },
+          "answer": "would get",
+        "topic": "general"
+    },  
       {
           "text": "If you exercised regularly, you ___ (be) fit.",
-          "answer": "would be"
-      },
+          "answer": "would be",
+        "topic": "general"
+    },  
       {
           "text": "If we ate healthier, we ___ (feel) better.",
-          "answer": "would feel"
-      },
+          "answer": "would feel",
+        "topic": "general"
+    },  
       {
           "text": "If he studied law, he ___ (become) a lawyer.",
-          "answer": "would become"
-      },
+          "answer": "would become",
+        "topic": "general"
+    },  
       {
           "text": "If she had more time, she ___ (read) more books.",
-          "answer": "would read"
-      },
+          "answer": "would read",
+        "topic": "general"
+    },  
       {
           "text": "If they traveled to Japan, they ___ (visit) Tokyo.",
-          "answer": "would visit"
-      },
+          "answer": "would visit",
+        "topic": "general"
+    },  
       {
           "text": "If you knew the answer, you ___ (tell) me.",
-          "answer": "would tell"
-      },
+          "answer": "would tell",
+        "topic": "general"
+    },  
       {
           "text": "If we were rich, we ___ (help) the poor.",
-          "answer": "would help"
-      },
+          "answer": "would help",
+        "topic": "general"
+    },  
       {
           "text": "If he played the guitar, he ___ (join) a band.",
-          "answer": "would join"
-      },
+          "answer": "would join",
+        "topic": "general"
+    },  
       {
           "text": "If she were older, she ___ (understand).",
-          "answer": "would understand"
-      },
+          "answer": "would understand",
+        "topic": "general"
+    },  
       {
           "text": "If they cared about the environment, they ___ (recycle) more.",
-          "answer": "would recycle"
-      },
-    {
-      "text": "If we ___ (not live) in the countryside, we wouldn't have fresh air.",
-      "answer": "didn't live"
-  },
-  {
-      "text": "If I ___ (not have) a car, I wouldn't commute to work.",
-      "answer": "didn't have"
-  },
-  {
-      "text": "If he ___ (not be) allergic to cats, he wouldn't sneeze around them.",
-      "answer": "weren't"
-  },
-  {
-      "text": "If she ___ (not know) how to swim, she wouldn't participate in the triathlon.",
-      "answer": "didn't know"
-  },
-  {
-      "text": "If they ___ (not win) the bid, they wouldn't secure the contract.",
-      "answer": "didn't win"
-  },
-  {
-      "text": "If you ___ (not study) for the test, you wouldn't understand the material.",
-      "answer": "didn't study"
-  },
-  {
-      "text": "If we ___ (not own) a dog, we wouldn't go for walks in the park.",
-      "answer": "didn't own"
-  },
-  {
-      "text": "If he ___ (not speak) French, he wouldn't travel to Paris.",
-      "answer": "didn't speak"
-  },
-  {
-      "text": "If she ___ (not be) afraid of heights, she wouldn't avoid tall buildings.",
-      "answer": "weren't"
-  },
-  {
-      "text": "If they ___ (not understand) the importance of savings, they wouldn't invest wisely.",
-      "answer": "didn't understand"
-  },
-  {
-      "text": "If you ___ (not save) your work, you wouldn't have a backup.",
-      "answer": "didn't save"
-  },
-  {
-      "text": "If we ___ (not use) public transportation, we wouldn't reduce our carbon footprint.",
-      "answer": "didn't use"
-  },
-  {
-      "text": "If he ___ (not play) the piano, he wouldn't perform at the concert.",
-      "answer": "didn't play"
-  },
-  {
-      "text": "If she ___ (not be) a vegetarian, she wouldn't avoid meat products.",
-      "answer": "weren't"
-  },
-  {
-      "text": "If they ___ (not care) about the environment, they wouldn't recycle their waste.",
-      "answer": "didn't care"
-  },
-  {
-      "text": "If you ___ (not work) overtime, you wouldn't earn extra money.",
-      "answer": "didn't work"
-  },
-  {
-      "text": "If we ___ (not live) in a noisy neighborhood, we wouldn't use earplugs at night.",
-      "answer": "didn't live"
-  },
-  {
-      "text": "If I ___ (not have) a smartphone, I wouldn't be constantly connected.",
-      "answer": "didn't have"
-  },
-  {
-      "text": "If he ___ (not be) such a perfectionist, he wouldn't spend hours on each task.",
-      "answer": "weren't"
-  },
-  {
-      "text": "If she ___ (not know) how to code, she wouldn't pursue a career in tech.",
-      "answer": "didn't know"
-  },
-  {
-      "text": "If they ___ (not win) the championship, they wouldn't celebrate so joyfully.",
-      "answer": "didn't win"
-  },
-  {
-      "text": "If you ___ (not study) art history, you wouldn't appreciate Renaissance paintings.",
-      "answer": "didn't study"
-  },
-  {
-      "text": "If we ___ (not own) a beach house, we wouldn't spend summers by the shore.",
-      "answer": "didn't own"
-  },
-  {
-      "text": "If he ___ (not speak) Mandarin, he wouldn't have so many business opportunities in China.",
-      "answer": "didn't speak"
-  },
+          "answer": "would recycle",
+        "topic": "general"
+    },     
 {
           "text": "If we ___ (live) near the sea, would we go swimming every day?",
-          "answer": "lived"
-      },
+          "answer": "lived",
+        "topic": "general"
+    },  
       {
           "text": "If I ___ (have) a million dollars, would I travel the world?",
-          "answer": "had"
-      },
+          "answer": "had",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (be) taller, would he play basketball?",
-          "answer": "were"
-      },
+          "answer": "were",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (know) how to cook, would she make dinner for us?",
-          "answer": "knew"
-      },
+          "answer": "knew",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (win) the lottery, would they buy a new house?",
-          "answer": "won"
-      },
+          "answer": "won",
+        "topic": "general"
+    },  
       {
           "text": "If you ___ (study) harder, would you pass the exam?",
-          "answer": "studied"
-      },
+          "answer": "studied",
+        "topic": "general"
+    },  
       {
           "text": "If we ___ (own) a car, would we drive to the beach?",
-          "answer": "owned"
-      },
+          "answer": "owned",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (speak) Spanish, would he move to Spain?",
-          "answer": "spoke"
-      },
+          "answer": "spoke",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (be) more patient, would she be a better teacher?",
-          "answer": "were"
-      },
+          "answer": "were",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (understand) the problem, would they find a solution?",
-          "answer": "understood"
-      },
+          "answer": "understood",
+        "topic": "general"
+    },  
       {
           "text": "If you ___ (save) more money, would you be able to buy that car?",
-          "answer": "saved"
-      },
+          "answer": "saved",
+        "topic": "general"
+    },  
       {
           "text": "If we ___ (work) together, would we finish the project on time?",
-          "answer": "worked"
-      },
+          "answer": "worked",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (run) faster, would he win the race?",
-          "answer": "ran"
-      },
+          "answer": "ran",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (sing) well, would she join the choir?",
-          "answer": "sang"
-      },
+          "answer": "sang",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (like) each other, would they get married?",
-          "answer": "liked"
-      },
+          "answer": "liked",
+        "topic": "general"
+    },  
       {
           "text": "If you ___ (exercise) regularly, would you be fit?",
-          "answer": "exercised"
-      },
+          "answer": "exercised",
+        "topic": "general"
+    },  
       {
           "text": "If we ___ (eat) healthier, would we feel better?",
-          "answer": "ate"
-      },
+          "answer": "ate",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (study) law, would he become a lawyer?",
-          "answer": "studied"
-      },
+          "answer": "studied",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (have) more time, would she read more books?",
-          "answer": "had"
-      },
+          "answer": "had",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (travel) to Japan, would they visit Tokyo?",
-          "answer": "traveled"
-      },
+          "answer": "traveled",
+        "topic": "general"
+    },  
       {
           "text": "If you ___ (know) the answer, would you tell me?",
-          "answer": "knew"
-      },
+          "answer": "knew",
+        "topic": "general"
+    },  
       {
           "text": "If we ___ (be) rich, would we help the poor?",
-          "answer": "were"
-      },
+          "answer": "were",
+        "topic": "general"
+    },  
       {
           "text": "If he ___ (play) the guitar, would he join a band?",
-          "answer": "played"
-      },
+          "answer": "played",
+        "topic": "general"
+    },  
       {
           "text": "If she ___ (be) older, would she understand?",
-          "answer": "were"
-      },
+          "answer": "were",
+        "topic": "general"
+    },  
       {
           "text": "If they ___ (care) about the environment, would they recycle more?",
-          "answer": "cared"
-      },
-      {
-        "text": "If we lived near the sea, ___ (we/go) swimming every day?",
-        "answer": "would we go"
-    },
+          "answer": "cared",
+        "topic": "general"
+    },  
     {
         "text": "If I had a million dollars, ___ (I/travel) the world?",
-        "answer": "would I travel"
-    },
+        "answer": "would I travel",
+        "topic": "general"
+    },  
     {
         "text": "If he were taller, ___ (he/play) basketball?",
-        "answer": "would he play"
-    },
-    {
-        "text": "If she knew how to cook, ___ (she/make) dinner for us?",
-        "answer": "would she make"
-    },
-    {
-        "text": "If they won the lottery, ___ (they/buy) a new house?",
-        "answer": "would they buy"
-    },
-    {
-        "text": "If you studied harder, ___ (you/pass) the exam?",
-        "answer": "would you pass"
-    },
-    {
-        "text": "If we owned a car, ___ (we/drive) to the beach?",
-        "answer": "would we drive"
-    },
-    {
-        "text": "If we lived near the sea, ___ (we go) swimming every day?",
-        "answer": "would we go"
-    },
-    {
-        "text": "If I had a million dollars, ___ (I travel) the world?",
-        "answer": "would I travel"
-    },
-    {
-        "text": "If he were taller, ___ (he play) basketball?",
-        "answer": "would he play"
-    },
-    {
-        "text": "If she knew how to cook, ___ (she make) dinner for us?",
-        "answer": "would she make"
-    },
-    {
-        "text": "If they won the lottery, ___ (they buy) a new house?",
-        "answer": "would they buy"
-    },
-    {
-        "text": "If you studied harder, ___ (you pass) the exam?",
-        "answer": "would you pass"
-    },
-    {
-        "text": "If we owned a car, ___ (we drive) to the beach?",
-        "answer": "would we drive"
-    },
-    {
-        "text": "If he spoke Spanish, ___ (he move) to Spain?",
-        "answer": "would he move"
-    },
-    {
-        "text": "If she were more patient, ___ (she be) a better teacher?",
-        "answer": "would she be"
-    },
-    {
-        "text": "If they understood the problem, ___ (they find) a solution?",
-        "answer": "would they find"
-    },
-    {
-        "text": "If you saved more money, ___ (you buy) that car?",
-        "answer": "would you buy"
-    },
-    {
-        "text": "If we worked together, ___ (we finish) the project on time?",
-        "answer": "would we finish"
-    },
-    {
-        "text": "If he ran faster, ___ (he win) the race?",
-        "answer": "would he win"
-    },
-    {
-        "text": "If she sang well, ___ (she join) the choir?",
-        "answer": "would she join"
-    },
-    {
-        "text": "If they liked each other, ___ (they get) married?",
-        "answer": "would they get"
-    },
-    {
-        "text": "If you exercised regularly, ___ (you be) fit?",
-        "answer": "would you be"
-    },
-    {
-        "text": "If we ate healthier, ___ (we feel) better?",
-        "answer": "would we feel"
-    },
-    {
-        "text": "If he studied law, ___ (he become) a lawyer?",
-        "answer": "would he become"
-    },
-    {
-        "text": "If she had more time, ___ (she read) more books?",
-        "answer": "would she read"
-    },
-    {
-        "text": "If they traveled to Japan, ___ (they visit) Tokyo?",
-        "answer": "would they visit"
-    },
-    {
-        "text": "If you knew the answer, ___ (you tell) me?",
-        "answer": "would you tell"
-    },
-    {
-        "text": "If we were rich, ___ (we help) the poor?",
-        "answer": "would we help"
-    },
-    {
-        "text": "If he played the guitar, ___ (he join) a band?",
-        "answer": "would he join"
-    },
-    {
-        "text": "If she were older, ___ (she understand)?",
-        "answer": "would she understand"
-    },
-    {
-        "text": "If they cared about the environment, ___ (they recycle) more?",
-        "answer": "would they recycle"
+        "answer": "would he play",
+        "topic": "general"
     }
 ]
 

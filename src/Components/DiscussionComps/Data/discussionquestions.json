@@ -79,6 +79,65 @@
   {
     "text": "What would you like me to know about you as a learner?",
     "topic": "introductions"
+  },{
+    "text": "What does the word 'value' mean to you personally?",
+    "topic": "value"
+  },
+  {
+    "text": "Do you think something’s value comes from how it makes us feel or from what it can do?",
+    "topic": "value"
+  },
+  {
+    "text": "Can something be valuable even if no one else appreciates it?",
+    "topic": "value"
+  },
+  {
+    "text": "What is one thing in your life that you value most, and why?",
+    "topic": "value"
+  },
+  {
+    "text": "How do your values influence the choices you make?",
+    "topic": "value"
+  },
+  {
+    "text": "Is value something that changes over time, or does it stay constant?",
+    "topic": "value"
+  },
+  {
+    "text": "Do you think people value experiences more than possessions? Why or why not?",
+    "topic": "value"
+  },
+  {
+    "text": "Can suffering or loss make us value things more deeply?",
+    "topic": "value"
+  },
+  {
+    "text": "Do you think love and kindness can be considered the highest forms of value?",
+    "topic": "value"
+  },
+  {
+    "text": "What do you think gives a human life its value?",
+    "topic": "value"
+  },
+  {
+    "text": "Can something have value even if it’s imperfect?",
+    "topic": "value"
+  },
+  {
+    "text": "How do we learn what is truly valuable in life?",
+    "topic": "value"
+  },
+  {
+    "text": "If everything were free and easy to get, would anything still have value?",
+    "topic": "value"
+  },
+  {
+    "text": "Do you think our values are chosen freely, or shaped by society?",
+    "topic": "value"
+  },
+  {
+    "text": "How can we live in a way that reflects what we truly value?",
+    "topic": "value"
   },
   {
     "text": "What do you think motivates people inside companies to commit fraud or unethical actions?",

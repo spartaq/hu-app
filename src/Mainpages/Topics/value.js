@@ -14,7 +14,7 @@ import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import Quiz from '../Quizzes/quiz.js';
-import quizzesData from '../Quizzes/Data/corruptionquiz.json';
+import quizzesData from '../Quizzes/Data/valuequiz.json';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/unlessexplanation.js';
 import ImageCarousel from '../../Utils/imgcarousel.js';
 import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json';
@@ -49,7 +49,7 @@ const Value = () => {
 
                         <div>
 
-                        <ImageCarousel data={carouselData} topic="Value" />
+                        <ImageCarousel data={carouselData} topic="value" />
                         </div>
                 
                 
@@ -89,14 +89,14 @@ const Value = () => {
 
                 <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
-                <Reading readings={readingcompData} title="Enron and the California Blackouts" />
+                <Reading readings={readingcompData} title="The Four Forms of Value" />
                 </div>
 
                 <div className="agenda-listening">Video</div>
-                 <Video videos={videoData} title="The Rise and Fall of Enron" />
+                 <Video videos={videoData} title="What Makes Something Valuable?" />
                 
                 <div className="agenda-discussion">Discussion</div>
-                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="Value" />
+                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="value" />
             </div>
         </div>
     );
