@@ -1,4 +1,15 @@
 module.exports = [
+  
+      {
+        "id": "introlesson",
+        "title": "Introduction",
+        "subtitle": "Tense Assessment",
+        "category": "Listening",
+        "level": "B1",
+        "time": "45 min",
+        "description": "A lesson to assess students' understanding of various tenses.",
+        "image": "/Images/education1.webp"
+      },
   {
       "id": "value",
       "title": "What Makes Something Valuable",
@@ -381,16 +392,6 @@ module.exports = [
         "time": "60 min",
         "description": "Talk about learning languages and review English verb tenses.",
         "image": "/Images/education.jpg"
-      },
-      {
-        "id": "introlesson",
-        "title": "Introduction",
-        "subtitle": "Tense Assessment",
-        "category": "Listening",
-        "level": "B1",
-        "time": "45 min",
-        "description": "A lesson to assess students' understanding of various tenses.",
-        "image": "/Images/introlesson.jpg"
       }
   ]
   

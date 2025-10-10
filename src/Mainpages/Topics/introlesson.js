@@ -8,13 +8,9 @@ import 'swiper/css/pagination';
 import SEO from '../../Components/SEO.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
-import Quiz from '../Quizzes/quiz.js';
-import quizzesData from '../Quizzes/Data/introlessonquiz.json';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/tenseexplanation.js';
-import Grammarexercises from '../../Components/GrammarExerciseComps/tenseexercisescomp.js';
-import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
+import GrammarExplanation from '../../Components/GrammarExplanationComps/introductionsexplanation.js';
 import ToggleSection from '../../Utils/toggleSection';
+import headerimg from '../../Images/education1.webp';
 
 const sections = [
   { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "tense" },
@@ -30,17 +26,19 @@ const Introlesson = () => {
     return (
         <div>
             <SEO
-                title='Exam Topics - Grammar Review Lesson - English Exam Exercises'
+                title='Exam Topics - Introductions - English Exam Exercises'
                 description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - Grammar Review'
+                name='English Exam Exercises - Introductions'
                 type='article' 
             />
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Grammar Review</h1>
+                    <h1 className="mt-2">Introductions</h1>
                 </div>
-
+<div className="grammarimage">
+                      <img src={headerimg} alt="English Exam Exercises" />
+                    </div>
                 <div className="agenda-languagepoint">Language Point</div>
                 
                 
@@ -57,7 +55,7 @@ const Introlesson = () => {
 
                     <div>
 
-                   
+              <div className="agenda-quiz">Practice</div>     
 <div>
                     {sections.map((section, i) => (
                     <div className="bottom-margin" key={i}>
@@ -66,34 +64,19 @@ const Introlesson = () => {
                     </div>
 
                    
-                        <div className="agenda-display-grid">
-                           <Grammarexercises />
-                        </div>
-                   
+                      
                     </div>
 
                 </div>
                 
-                <div className="agenda-subtitle">Vocabulary</div>
-                <div>                   
-                    <div className="agenda-display-grid">
-                        <VocabularyMatch data={vocabData} topic="introlesson" />
-                    </div>                    
-                </div>
                 
-                <div className="agenda-subtitle">Quiz</div> 
-                <div>                   
-                    <div className="agenda-display-grid">
-                        <Quiz quizzesData={quizzesData} />
-                    </div>                    
-                </div>
-
+             
    
                 
              
                 
                 <div className="agenda-discussion">Discussion</div>
-                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="streaming" />
+                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="introductions" />
             </div>
         </div>
     );

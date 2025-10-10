@@ -1,6 +1,85 @@
 
 [
-
+  {
+    "text": "Can you tell me a little about yourself?",
+    "topic": "introductions"
+  },
+  {
+    "text": "Where are you from originally?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What do you do for work or study?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What made you decide to learn English?",
+    "topic": "introductions"
+  },
+  {
+    "text": "Have you ever studied English with a tutor before?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What do you usually like to do in your free time?",
+    "topic": "introductions"
+  },
+  {
+    "text": "Do you enjoy meeting new people?",
+    "topic": "introductions"
+  },
+  {
+    "text": "How would your friends describe you?",
+    "topic": "introductions"
+  },
+  {
+    "text": "Do you prefer working alone or with others?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What kind of music, movies, or books do you like?",
+    "topic": "introductions"
+  },
+  {
+    "text": "Have you ever been to another country?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What’s something interesting about your hometown?",
+    "topic": "introductions"
+  },
+  {
+    "text": "How long have you been living where you are now?",
+    "topic": "introductions"
+  },
+  {
+    "text": "Do you have any goals for learning English this year?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What kind of lessons or activities do you enjoy most?",
+    "topic": "introductions"
+  },
+  {
+    "text": "How do you usually practice English outside of class?",
+    "topic": "introductions"
+  },
+  {
+    "text": "Is there a topic you’d like to focus on in your lessons?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What’s your favorite way to relax after a busy day?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What do you think makes a good teacher or tutor?",
+    "topic": "introductions"
+  },
+  {
+    "text": "What would you like me to know about you as a learner?",
+    "topic": "introductions"
+  },
   {
     "text": "What do you think motivates people inside companies to commit fraud or unethical actions?",
     "topic": "corruption"

@@ -89,27 +89,34 @@ const scrollToTop = () => {
   }, [type, data, autoStartTypes, getRawData]);
 
   const startActivity = () => {
-    const allData = getRawData();
+  const allData = getRawData();
 
-    if (type === "vocab") {
-      const shuffledPairs = shuffle([...allData]);
-      setActivityData(shuffledPairs);
-    } else if (type === "gapfill") {
-      const shuffledGapfill = shuffle([...allData]);
-      setActivityData(shuffledGapfill);
-    } else {
-      const unused = allData.filter((item) => !usedIds.includes(item.id));
-      const toUse = shuffle(unused).slice(0, 10);
-      setUsedIds((prev) => [...prev, ...toUse.map((item) => item.id)]);
-      setActivityData(toUse);
-    }
+  if (type === "vocab") {
+    const shuffledPairs = shuffle([...allData]);
+    setActivityData(shuffledPairs);
+  } else if (type === "gapfill") {
+    const shuffledGapfill = shuffle([...allData]);
+    setActivityData(shuffledGapfill);
+  } else if (type === "quiz") {
+    // ✅ KEEP ORIGINAL ORDER for quiz
+    const unused = allData.filter((item) => !usedIds.includes(item.id));
+    const toUse = unused.slice(0, 10); // no shuffle
+    setUsedIds((prev) => [...prev, ...toUse.map((item) => item.id)]);
+    setActivityData(toUse);
+  } else {
+    // Other activity types can still be shuffled
+    const unused = allData.filter((item) => !usedIds.includes(item.id));
+    const toUse = shuffle(unused).slice(0, 10);
+    setUsedIds((prev) => [...prev, ...toUse.map((item) => item.id)]);
+    setActivityData(toUse);
+  }
 
-    setActivityStarted(true);
-    setActivityEnded(false);
-    setCurrentIndex(0);
-    setScore(0);
-    scrollToTop();
-  };
+  setActivityStarted(true);
+  setActivityEnded(false);
+  setCurrentIndex(0);
+  setScore(0);
+  scrollToTop();
+};
 
   const handleRestart = () => {
     if (type !== "vocab") {
