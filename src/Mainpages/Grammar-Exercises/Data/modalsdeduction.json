@@ -1,4 +1,59 @@
 [
+  
+  {
+    "text": "Customer satisfaction scores dropped sharply after the system update.",
+    "prompt": "interface issue",
+    "answer": "It might be an interface issue. / It could have been caused by a confusing layout change.",
+    "topic": "atc"
+  },
+  {
+    "text": "One of our partner airlines stopped sending traffic data suddenly.",
+    "prompt": "API malfunction",
+    "answer": "It could be an API malfunction. / It might have been due to a failed integration.",
+    "topic": "atc"
+  },
+  {
+    "text": "The project timeline was delayed even though all milestones were marked complete.",
+    "prompt": "reporting problem",
+    "answer": "It must be a reporting problem. / There might have been an error in progress tracking.",
+    "topic": "atc"
+  },
+  {
+    "text": "A new service proposal received no feedback from any of the stakeholders.",
+    "prompt": "email not delivered",
+    "answer": "It might be that the email wasn’t delivered. / It could have gone to spam.",
+    "topic": "atc"
+  },
+  {
+    "text": "Our innovation workshop results are identical to the previous year’s output.",
+    "prompt": "lack of new data",
+    "answer": "It could be due to a lack of new data. / The team might have reused last year’s materials.",
+    "topic": "atc"
+  },
+  {
+    "text": "The cost forecast for the new system is much lower than expected.",
+    "prompt": "missing inputs",
+    "answer": "Some cost components might be missing. / It could have been miscalculated due to incomplete inputs.",
+    "topic": "atc"
+  },
+  {
+    "text": "The performance metrics for one control tower are far higher than all others.",
+    "prompt": "measurement inconsistency",
+    "answer": "There must be a measurement inconsistency. / It might have been calculated using a different formula.",
+    "topic": "atc"
+  },
+  {
+    "text": "Staff reported system slowdowns only during specific hours of the day.",
+    "prompt": "server load",
+    "answer": "It could be due to server load. / The system might be overloaded during peak operations.",
+    "topic": "atc"
+  },
+  {
+    "text": "Stakeholders are confused about project priorities despite several briefings.",
+    "prompt": "communication gap",
+    "answer": "There might be a communication gap. / The objectives could have been presented unclearly.",
+    "topic": "atc"
+  },
   {
     "text": "The CEO's calendar suddenly has overlapping meetings all week.",
     "prompt": "sync issue",

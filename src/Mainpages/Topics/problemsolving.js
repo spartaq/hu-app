@@ -76,13 +76,7 @@ const Problemsolving = () => {
                 <div className="agenda-subtitle">Vocabulary</div> 
                 
 
-                <div>
-                   
-                <div className="agenda-display-grid">
-                    <VocabularyMatch data={vocabData} topic="problemsolving" />
-                    </div>
-                    
-                    </div>
+               
                 
 
                 <div className="agenda-reading">Reading</div>
@@ -98,7 +92,7 @@ const Problemsolving = () => {
                 <Video videos={videoData} title="Tech solutions" />
                 
                 <div className="agenda-discussion">Discussion</div>
-                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="4ig" />
+                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="problemsolving" />
             </div>
         </div>
     );
