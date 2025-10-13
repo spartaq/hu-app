@@ -1,4 +1,63 @@
-[
+[ {
+    "text": "AI systems process online purchases automatically.",
+    "prompt": "online purchases",
+    "answer": "Online purchases are processed automatically by AI systems.",
+    "topic": "automation"
+  },
+  {
+    "text": "Technicians installed new self-checkout machines last week.",
+    "prompt": "new self-checkout machines",
+    "answer": "New self-checkout machines were installed last week by technicians.",
+    "topic": "automation"
+  },
+  {
+    "text": "The store manager is updating all the product prices right now.",
+    "prompt": "all the product prices",
+    "answer": "All the product prices are being updated right now by the store manager.",
+    "topic": "automation"
+  },
+  {
+    "text": "The company will launch a fully automated warehouse next month.",
+    "prompt": "a fully automated warehouse",
+    "answer": "A fully automated warehouse will be launched next month by the company.",
+    "topic": "automation"
+  },
+  {
+    "text": "Engineers designed the new payment system for faster checkout.",
+    "prompt": "the new payment system",
+    "answer": "The new payment system was designed for faster checkout by engineers.",
+    "topic": "automation"
+  },
+  {
+    "text": "Customers use mobile apps to scan and pay for products.",
+    "prompt": "mobile apps",
+    "answer": "Mobile apps are used to scan and pay for products by customers.",
+    "topic": "automation"
+  },
+  {
+    "text": "The system tracks every item that customers buy.",
+    "prompt": "every item",
+    "answer": "Every item is tracked by the system.",
+    "topic": "automation"
+  },
+  {
+    "text": "Developers are testing new checkout software this week.",
+    "prompt": "new checkout software",
+    "answer": "New checkout software is being tested this week by developers.",
+    "topic": "automation"
+  },
+  {
+    "text": "The company has introduced robots to help with deliveries.",
+    "prompt": "robots",
+    "answer": "Robots have been introduced to help with deliveries by the company.",
+    "topic": "automation"
+  },
+  {
+    "text": "Store employees clean the self-checkout stations every evening.",
+    "prompt": "the self-checkout stations",
+    "answer": "The self-checkout stations are cleaned every evening by store employees.",
+    "topic": "automation"
+  },
   {
     "text": "Tourists leave tons of trash in historical sites every summer.",
     "prompt": "Tons of trash",

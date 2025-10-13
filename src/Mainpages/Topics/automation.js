@@ -15,8 +15,8 @@ import RandomQuestionGenerator from '../../Components/DiscussionComps/questionge
 import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/automationquiz.json';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/passivebeingexplanation.js';
-import GrammarExercises from '../../Components/GrammarExerciseComps/passivebeingexercisescomp.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/passiveexplanation.js';
+import GrammarExercises from '../../Components/GrammarExerciseComps/passiveexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import idiomData from "../Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
@@ -84,7 +84,7 @@ const Automation = () => {
                 <Reading readings={readingcompData} title="Self Service Checkout Reddit" />
                 
                 <div className="agenda-listening">Video</div>
-                <Video videos={videoData} title="Self-Checkout Systems: Convenience or Cumbersome?" />
+                <Video videos={videoData} title="Cancelling Self-Checkout" />
                 
                 <div className="agenda-discussion">Discussion</div>
                 <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="automation" />

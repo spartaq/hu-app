@@ -1,5 +1,84 @@
 [ 
-
+{
+  "title": "Cancelling Self-Checkout",
+  "videoId": "yaQLz8moru8",
+  "topic": "Retail Technology",
+  "level": "B2",
+  "vocabulary": [
+    "cashier - a person who handles customer payments in a store",
+    "self-checkout - a system where customers scan and pay for items on their own",
+    "begrudgingly - unwillingly or reluctantly",
+    "cost saver - something that helps reduce expenses",
+    "crossroads - a point where an important decision must be made",
+    "scaling back - reducing or limiting something",
+    "associate - an employee or team member in a store",
+    "theft - the act of stealing",
+    "consumer behavior - the way customers act when buying goods and services",
+    "staffing - hiring and managing employees"
+  ],
+  "transcript": [
+    "<h1>Bagging Self-Checkout: Are Stores Moving Away from Automation?</h1>",
+    "<p>When you're at the grocery store or a big box retailer, there's a very good chance that you're going to be your own cashier. Self-checkout has exploded in popularity, but now there are signs that it has gone too far. WBZT's David Wade looks into why some stores are bagging self-checkout.</p>",
+    "<p>It's a retail riddle — what's convenient but also a pain? Where you pay to work? It's self-checkout. Some people love it because it's quicker, while others loathe it. One shopper says, 'I think it sucks.' Rebecca Hall admits she uses it begrudgingly, saying that most of the time an item won’t scan properly, and you end up waiting for help.</p>",
+    "<p>For stores, self-checkout was supposed to be a cost saver, and for customers, a time saver. But now, it seems retailers aren’t saving as much money, and shoppers are becoming increasingly frustrated. Target announced that it is rolling out express self-checkout lanes with a ten-item limit and opening more traditional cashier lanes. Walmart said it will focus on improving in-store experiences and giving employees more opportunities to provide personal service.</p>",
+    "<p>When visiting both stores, long lines were seen at the express self-checkout lanes, while only one or two regular lanes were open. One major reason for these changes is theft. Many shoppers scan one item and skip another, leading to large losses. In fact, 15% of consumers admit to stealing at self-checkout, and nearly half of them say they would do it again.</p>",
+    "<p>Lauren Belschbacher, a professor at Babson College and expert in retail behavior, says the rise of self-checkout wasn’t because people loved it, but because it solved problems during the pandemic — people didn’t want face-to-face interactions, and stores struggled with staffing. However, theft and long lines are now turning people away from self-scanning systems.</p>",
+    "<p>Retailers are already losing money through product returns and e-commerce investments. Joe Schmidt, Director of Operations at Market Basket, says his company has no self-checkout lanes at all. With 30,000 employees, he believes the technology would take away jobs. 'A customer even came in to tell us, please don’t ever do self-checkout,' Schmidt shared.</p>",
+    "<p>Experts agree that while new technology will make self-checkout faster and more secure, it’s not going away anytime soon. As one shopper put it, the key to a smooth experience might just be to lower your expectations.</p>"
+  ],
+  "questions": [
+    {
+      "number": "1",
+      "question": "What is the main reason some retailers are reducing self-checkout lanes?",
+      "choices": [
+        "A. Rising theft and customer frustration.",
+        "B. Self-checkout machines are becoming obsolete.",
+        "C. Customers are demanding faster shopping experiences.",
+        "D. The government is regulating automation in retail."
+      ]
+    },
+    {
+      "number": "2",
+      "question": "According to the report, why did self-checkout become popular during the pandemic?",
+      "choices": [
+        "A. It reduced face-to-face contact and solved staffing shortages.",
+        "B. It was cheaper than hiring new employees.",
+        "C. People were required to use it by health regulations.",
+        "D. It allowed people to avoid online shopping."
+      ]
+    },
+    {
+      "number": "3",
+      "question": "What percentage of customers admitted to stealing at self-checkout?",
+      "choices": [
+        "A. 15%",
+        "B. 25%",
+        "C. 35%",
+        "D. 45%"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "Why does Market Basket refuse to use self-checkout systems?",
+      "choices": [
+        "A. To preserve jobs and human interaction.",
+        "B. Because their stores are too small for the machines.",
+        "C. Because customers demanded faster automation.",
+        "D. To reduce maintenance costs."
+      ]
+    },
+    {
+      "number": "5",
+      "question": "What advice does the report end with for using self-checkout?",
+      "choices": [
+        "A. Lower your expectations to avoid frustration.",
+        "B. Avoid self-checkout altogether.",
+        "C. Use it only during off-peak hours.",
+        "D. Always ask for assistance from staff."
+      ]
+    }
+  ]
+},
 {
   "title": "What Makes Something Valuable?",
   "videoId": "63oErn-gKfU",  
@@ -1955,7 +2034,7 @@
 			  
 			  {
                   "title": "Self-Checkout Systems: Convenience or Cumbersome?",
-                  "videoId": "cc3AbbP-5cI",
+                  "videoId": "yaQLz8moru8",
                   "topic": "Automation",
                   "level": "B2",
                   "vocabulary": [
