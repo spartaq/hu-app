@@ -1,5 +1,125 @@
 [
     {
+    "text": "Who won the local election?",
+    "prompt": "Do you know...",
+    "answer": "Do you know who won the local election?",
+    "topic": "elections"
+  },
+  {
+    "text": "Is voter turnout higher than last year?",
+    "prompt": "Do you think...",
+    "answer": "Do you think voter turnout is higher than last year?",
+    "topic": "elections"
+  },
+  {
+    "text": "When will the results be announced?",
+    "prompt": "Could you tell me...",
+    "answer": "Could you tell me when the results will be announced?",
+    "topic": "elections"
+  },
+  {
+    "text": "Are international observers monitoring the vote?",
+    "prompt": "Do you know...",
+    "answer": "Do you know if international observers are monitoring the vote?",
+    "topic": "elections"
+  },
+  {
+    "text": "How many candidates are running for mayor?",
+    "prompt": "I was wondering...",
+    "answer": "I was wondering how many candidates are running for mayor.",
+    "topic": "elections"
+  },
+  {
+    "text": "Did the new election law change the voting process?",
+    "prompt": "Do you know...",
+    "answer": "Do you know if the new election law changed the voting process?",
+    "topic": "elections"
+  },
+  {
+    "text": "Why was the debate postponed?",
+    "prompt": "Could you tell me...",
+    "answer": "Could you tell me why the debate was postponed?",
+    "topic": "elections"
+  },
+  {
+    "text": "Will the prime minister run for re-election?",
+    "prompt": "Do you think...",
+    "answer": "Do you think the prime minister will run for re-election?",
+    "topic": "elections"
+  },
+  {
+    "text": "Is voting mandatory in this country?",
+    "prompt": "Do you know...",
+    "answer": "Do you know if voting is mandatory in this country?",
+    "topic": "elections"
+  },
+  {
+    "text": "Where is the nearest polling station?",
+    "prompt": "Can you tell me...",
+    "answer": "Can you tell me where the nearest polling station is?",
+    "topic": "elections"
+  },
+  {
+    "text": "Was there a debate last night?",
+    "prompt": "Do you remember...",
+    "answer": "Do you remember if there was a debate last night?",
+    "topic": "elections"
+  },
+  {
+    "text": "How long does it take to count the votes?",
+    "prompt": "I was wondering...",
+    "answer": "I was wondering how long it takes to count the votes.",
+    "topic": "elections"
+  },
+  {
+    "text": "Did young people vote in large numbers?",
+    "prompt": "Do you know...",
+    "answer": "Do you know if young people voted in large numbers?",
+    "topic": "elections"
+  },
+  {
+    "text": "When do the polls open tomorrow?",
+    "prompt": "Could you tell me...",
+    "answer": "Could you tell me when the polls open tomorrow?",
+    "topic": "elections"
+  },
+  {
+    "text": "Who is leading in the latest opinion poll?",
+    "prompt": "Do you know...",
+    "answer": "Do you know who is leading in the latest opinion poll?",
+    "topic": "elections"
+  },
+  {
+    "text": "Has the election campaign officially started?",
+    "prompt": "Do you think...",
+    "answer": "Do you think the election campaign has officially started?",
+    "topic": "elections"
+  },
+  {
+    "text": "Why did the candidate cancel the event?",
+    "prompt": "Can you tell me...",
+    "answer": "Can you tell me why the candidate canceled the event?",
+    "topic": "elections"
+  },
+  {
+    "text": "Will there be another round of voting?",
+    "prompt": "I was wondering...",
+    "answer": "I was wondering if there will be another round of voting.",
+    "topic": "elections"
+  },
+  {
+    "text": "Is the media allowed to report live from the counting center?",
+    "prompt": "Do you know...",
+    "answer": "Do you know if the media are allowed to report live from the counting center?",
+    "topic": "elections"
+  },
+  {
+    "text": "How soon will the final results be confirmed?",
+    "prompt": "Could you tell me...",
+    "answer": "Could you tell me how soon the final results will be confirmed?",
+    "topic": "elections"
+  },
+    {
         "text": "Do we have enough resources for this?",
         "prompt": "Do you think...",
         "answer": "Do you think we have enough resources for this?"

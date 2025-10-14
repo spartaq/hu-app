@@ -1,5 +1,14 @@
 module.exports = [
-  
+  {
+        "id": "elections",
+        "title": "Elections",
+        "subtitle": "Indirect Questions",
+        "category": "General",
+        "level": "B1",
+        "time": "45 min",
+        "description": "A lesson to talk about the election system",
+        "image": "/Images/voting.jpg"
+      },
       {
         "id": "introlesson",
         "title": "Introduction",

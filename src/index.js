@@ -144,6 +144,7 @@ import BucketList from './Mainpages/Topics/bucketlist';
 import Parenting from './Mainpages/Topics/parenting';
 import Corruption from './Mainpages/Topics/corruption';
 import Value from './Mainpages/Topics/value';
+import Elections from './Mainpages/Topics/elections';
 
 
 
@@ -356,6 +357,9 @@ const router = createBrowserRouter([
           },
           { path: 'topics/value',
             element: <Value />,
+          },
+          { path: 'topics/elections',
+            element: <Elections />,
           },
           {
             path: 'grammar-exercises',

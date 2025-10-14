@@ -1,5 +1,27 @@
 
 [
+  { "text": "Why do you think voting is important in a democracy?", "topic": "elections" },
+  { "text": "Should voting be mandatory for all citizens?", "topic": "elections" },
+  { "text": "What factors influence your decision when choosing a candidate?", "topic": "elections" },
+  { "text": "Do you trust opinion polls before elections? Why or why not?", "topic": "elections" },
+  { "text": "How can social media affect election results?", "topic": "elections" },
+  { "text": "What are some ways to increase voter turnout?", "topic": "elections" },
+  { "text": "Should 16-year-olds be allowed to vote?", "topic": "elections" },
+  { "text": "How can technology make voting easier or more secure?", "topic": "elections" },
+  { "text": "Do you think political debates help voters make better decisions?", "topic": "elections" },
+  { "text": "What role should the media play during election campaigns?", "topic": "elections" },
+  { "text": "Is it fair for wealthy candidates to spend large amounts on their campaigns?", "topic": "elections" },
+  { "text": "How do you feel about voting online or by phone?", "topic": "elections" },
+  { "text": "What can be done to prevent misinformation during elections?", "topic": "elections" },
+  { "text": "Do you believe your vote can make a difference? Why or why not?", "topic": "elections" },
+  { "text": "Should there be limits on how long political campaigns last?", "topic": "elections" },
+  { "text": "How do elections in your country compare with those in other countries?", "topic": "elections" },
+  { "text": "What responsibilities do elected officials have after winning?", "topic": "elections" },
+  { "text": "Should people who don’t follow politics still vote?", "topic": "elections" },
+  { "text": "How do international observers help ensure fair elections?", "topic": "elections" },
+  { "text": "What do you think the future of voting will look like?", "topic": "elections" },
+
+
   {
     "text": "Can you tell me a little about yourself?",
     "topic": "introductions"

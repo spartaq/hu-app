@@ -1,5 +1,91 @@
 module.exports = [
   {
+  "readingcompTitle": "The 'Strongman' Prime Minister Losing Power",
+  "topic": "elections",
+  "level": "b2",
+  "image": "/Images/orban.jpg",
+  "vocabulary": [
+    "illiberal democracy - a system with elections but limited freedoms",
+    "corruption - dishonest or illegal behavior, especially by officials",
+    "nepotism - giving jobs or advantages to friends or family members",
+    "opposition - people or parties who disagree with and compete against the government",
+    "poll - a survey measuring public opinion",
+    "conservative - preferring traditional values and limited change",
+    "liberal - supporting individual freedoms and social progress",
+    "economy - the system of money, trade, and jobs in a country",
+    "authoritarian - controlling power very strictly, allowing little freedom",
+    "democratic reform - changes that make a country more free and fair"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Hungarian Prime Minister Viktor Orbán has been one of Europe’s most powerful leaders for almost 20 years. He calls his system an <strong>“illiberal democracy”</strong> — a mix of democracy and strong government control. Orbán promotes conservative values and has often attacked liberal ideas.</p>",
+        "<p>Many world leaders admire him, including Donald Trump, who called him “a smart and tough man.” But now Orbán’s power at home seems to be weakening, as new opposition voices appear and public support decreases.</p>",
+        "<p>The main challenge comes from <strong>Peter Magyar</strong>, a 44-year-old former ally of Orbán. In 2024, he became famous for criticizing corruption and <strong>nepotism</strong> in Orbán’s government during a popular online interview. His new party, <strong>Tisza</strong>, now leads in most polls.</p>",
+        "<p>Many Hungarians are frustrated with poor public services — hospitals, schools, and railways — and they blame the government. Magyar promises to rebuild the country “brick by brick.”</p>",
+        "<p>Orbán has ruled Hungary for <strong>19 of the last 35 years</strong>. He often wins by focusing on what his voters fear, such as migration, “woke” culture, or pressure from the EU. He also changed the election system to make it easier for his party, <strong>Fidesz</strong>, to win large majorities in Parliament.</p>",
+        "<p>He recently tried to ban the <strong>Budapest Pride</strong> march, but over 100,000 people joined in protest, showing that resistance is growing. At the same time, Hungary’s <strong>economy</strong> is struggling, prices are rising, and wages remain low.</p>",
+        "<p>Orbán has close relations with <strong>Vladimir Putin</strong> and says this helps Hungary get cheap gas and oil. But many citizens and European leaders criticize these ties, especially during the war in Ukraine.</p>",
+        "<p>The next election will take place in <strong>April 2026</strong>. For the first time in years, Orbán’s party may lose. Both Fidesz and Tisza have around two million supporters, and undecided voters will decide the result.</p>",
+        "<p>If Peter Magyar wins, Hungary could see major <strong>democratic reforms</strong> and the end of Orbán’s long rule. The country stands at a crossroads — one path leads to more democracy, the other to more <strong>authoritarian</strong> control.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What type of political system does Viktor Orbán promote?",
+          "choices": [
+            "a) Liberal democracy",
+            "b) Illiberal democracy",
+            "c) Communism",
+            "d) Monarchy"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "Who is the new political challenger mentioned in the text?",
+          "choices": [
+            "a) Donald Trump",
+            "b) J.D. Vance",
+            "c) Peter Magyar",
+            "d) Katalin Novak"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "Why are many Hungarians unhappy with Orbán’s government?",
+          "choices": [
+            "a) Because of poor public services and corruption",
+            "b) Because Hungary joined the EU",
+            "c) Because of higher taxes on foreign companies",
+            "d) Because there are too many elections"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "What event showed that opposition to Orbán is growing?",
+          "choices": [
+            "a) The cancellation of a government meeting",
+            "b) The large Budapest Pride march despite a ban",
+            "c) The fall of oil prices",
+            "d) The new trade deal with Russia"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What could happen if Peter Magyar’s Tisza party wins the 2026 election?",
+          "choices": [
+            "a) Hungary could become more authoritarian",
+            "b) Hungary could return to communism",
+            "c) Hungary could see more democratic reforms",
+            "d) Hungary could leave the European Union"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+  {
   "readingcompTitle": "The Four Forms of Value",
   "topic": "value",
   "level": "b2",

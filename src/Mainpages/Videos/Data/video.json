@@ -1,4 +1,91 @@
-[ 
+[
+  {
+  "title": "Hungary Elections 2022",
+  "videoId": "l6Bk3OI-0E0",
+  "topic": "Politics and Governance",
+  "level": "B2",
+  "vocabulary": [
+    "parliamentary elections - a vote to choose members of a country’s parliament",
+    "referendum - a direct vote by citizens on a specific issue",
+    "constituency - an area that elects a representative to parliament",
+    "national list - a system where votes are cast for parties rather than individual candidates",
+    "threshold - the minimum percentage of votes required to win seats",
+    "invasion - when one country’s military enters another country by force",
+    "stance - a position or opinion on an issue",
+    "legitimate - recognized as valid or lawful",
+    "campaign - an organized effort to influence decision-making, especially before an election",
+    "alliance - a group of parties or countries working together for a common purpose"
+  ],
+  "transcript": [
+    "<h1>Hungary’s 2022 Parliamentary Elections and Referendum Explained</h1>",
+    "<p>[Music]</p>",
+    "<p>Hungary is holding parliamentary elections and a referendum on the 3rd of April. The 8.2 million Hungarians who can vote will decide on the 199 seats up for grabs in the Hungarian Parliament.</p>",
+    "<p>106 of the seats are decided by single-member constituencies, while the remaining 93 are decided proportionally by votes from the national lists.</p>",
+    "<p>There are almost half a million Hungarian citizens living outside the country, eligible to vote by post, but only for the national list.</p>",
+    "<p>The head of each national list is the candidate for prime minister. For the Fidesz-KDNP alliance, that’s Viktor Orbán, who is seeking a fifth term in office. For the opposition alliance, it’s Péter Márki-Zay, mayor of Hódmezővásárhely, who won Hungary’s first primaries.</p>",
+    "<p>The opposition alliance is made up of six parties — left-wing, liberal, green, and conservative — that have joined forces to create a single national list in hopes of defeating Fidesz. These parties, from across the political spectrum, have never before cooperated at this level for a national election, but say they were forced to by Hungary’s electoral system.</p>",
+    "<p>Two smaller parties — a joke party and a far-right anti-vax party — are close to the 5% threshold. If they receive fewer votes than that, they will not win any of the 93 proportional seats.</p>",
+    "<p>Following Russia’s invasion of Ukraine, the key issue of the campaign has become Hungary’s response to the war in its eastern neighbor. Orbán, who has long been President Vladimir Putin’s ally within the EU, is promoting himself as a protector of peace and accuses the opposition of wanting to drag Hungary into the conflict.</p>",
+    "<p>Ukraine’s president and several Central European politicians have criticized Orbán for not taking as strong a stance against Russia as others in the region.</p>",
+    "<p>[Music]</p>",
+    "<p>Most polls suggest that Fidesz will narrowly win the election, but there’s another battle that the party wants to win that night — the so-called Child Protection Referendum.</p>",
+    "<p>Orbán claims the referendum is necessary because of an attack from Brussels on Hungary’s law designed to protect children. Critics argue that the amendment stigmatizes members of the LGBTQI+ community.</p>",
+    "<p>Hungarian law says that at least half of those eligible to vote must cast valid ballots for the referendum to be considered legitimate.</p>"
+  ],
+  "questions": [
+    {
+      "number": "1",
+      "question": "How many seats are there in the Hungarian Parliament?",
+      "choices": [
+        "A. 106",
+        "B. 199",
+        "C. 93",
+        "D. 500"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "Who is Viktor Orbán’s main opponent in the 2022 election?",
+      "choices": [
+        "A. Ferenc Gyurcsány",
+        "B. Péter Márki-Zay",
+        "C. Gergely Karácsony",
+        "D. László Toroczkai"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "What was the main campaign issue after Russia invaded Ukraine?",
+      "choices": [
+        "A. Tax reform",
+        "B. Hungary’s response to the war",
+        "C. Education policy",
+        "D. The national budget"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "What must happen for the referendum to be considered legitimate?",
+      "choices": [
+        "A. The president must approve it.",
+        "B. At least half of eligible voters must cast valid ballots.",
+        "C. Both parties must agree on the result.",
+        "D. The EU must recognize it."
+      ]
+    },
+    {
+      "number": "5",
+      "question": "What criticism do opponents make of Hungary’s 'child protection' law?",
+      "choices": [
+        "A. It is too lenient.",
+        "B. It stigmatizes the LGBTQI+ community.",
+        "C. It was not passed democratically.",
+        "D. It increases censorship in schools."
+      ]
+    }
+  ]
+},
+ 
 {
   "title": "Cancelling Self-Checkout",
   "videoId": "yaQLz8moru8",
