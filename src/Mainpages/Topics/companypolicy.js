@@ -15,14 +15,14 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/companypolicyquiz.json';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/wordformsexplanation.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/modalsobligationexplanation.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/modalsobligationexercisescomp.js';
 import ImageCarousel from '../../Utils/imgcarousel.js';
 import carouselData from '../Vocabulary-Exercises/Data/vocabimages.json';
 import ToggleSection from '../../Utils/toggleSection';
 
 const sections = [
-  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "wordforms" },
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "obligation" },
 ];
 
 

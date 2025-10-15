@@ -1,146 +1,139 @@
 {
-  "quizTitle": "Modals of Obligation: Present and Past in Companies",
+  "quizTitle": "Modals of Permission and Ability",
   "type": "quiz",
   "questions": [
     {
       "id": 1,
-      "question": "Employees ___ follow the company’s safety rules at all times.",
-      "options": ["must", "may", "might", "could"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "Employees ___ use their access cards to enter the office after 7 p.m.",
+      "options": ["can", "musn't", "should", "have to"],
+      "answer": "have to",
+      "topic": "company-policy"
     },
     {
       "id": 2,
-      "question": "Managers ___ approve overtime requests before employees work extra hours.",
-      "options": ["must", "might", "could", "may"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "Only managers ___ approve new supplier contracts.",
+      "options": ["can", "shouldn't", "might", "should"],
+      "answer": "can",
+      "topic": "company-policy"
     },
     {
       "id": 3,
-      "question": "Staff ___ submit monthly reports to finance by the deadline to avoid delays.",
-      "options": ["must", "might", "could", "may"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "After the software update, all users ___ log in remotely.",
+      "options": ["will be able to", "might", "should", "must"],
+      "answer": "will be able to",
+      "topic": "company-policy"
     },
     {
       "id": 4,
-      "question": "The team ___ tested the software before rollout; the crash could have been prevented.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "should have",
-      "topic": "company-obligation"
+      "question": "New employees ___ request flexible working hours once their probation ends.",
+      "options": ["may", "must", "should", "have to"],
+      "answer": "may",
+      "topic": "company-policy"
     },
     {
       "id": 5,
-      "question": "Someone ___ informed the team about the schedule change; that’s why no one attended the meeting.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "must have",
-      "topic": "company-obligation"
+      "question": "Due to security changes, staff no longer ___ access the old file server.",
+      "options": ["can", "must", "should", "have to"],
+      "answer": "can",
+      "topic": "company-policy"
     },
     {
       "id": 6,
-      "question": "The HR manager ___ processed leave requests yesterday; payroll ran smoothly.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "must have",
-      "topic": "company-obligation"
+      "question": "With the new training, our team ___ handle customer complaints more effectively.",
+      "options": ["will be able to", "may", "must", "should"],
+      "answer": "will be able to",
+      "topic": "company-policy"
     },
     {
       "id": 7,
-      "question": "All employees ___ use their ID cards to access restricted areas, unless they have temporary clearance.",
-      "options": ["must", "may", "might", "could"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "You ___ ask IT support for help if you forget your password.",
+      "options": ["can", "must", "have to", "need to"],
+      "answer": "can",
+      "topic": "company-policy"
     },
     {
       "id": 8,
-      "question": "The finance team ___ spotted the missing invoice; that’s why the client wasn’t charged incorrectly.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "could have",
-      "topic": "company-obligation"
+      "question": "Before the merger, employees ___ work from home only with special permission.",
+      "options": ["could", "may", "must", "have to"],
+      "answer": "could",
+      "topic": "company-policy"
     },
     {
       "id": 9,
-      "question": "Employees ___ log out from their accounts when leaving the office, especially on shared computers.",
-      "options": ["must", "might", "could", "may"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "After additional training, she ___ manage the international accounts independently.",
+      "options": ["was able to", "may", "can't", "should"],
+      "answer": "was able to",
+      "topic": "company-policy"
     },
     {
       "id": 10,
-      "question": "Someone ___ sent the wrong file; the client received outdated information by mistake.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "might have",
-      "topic": "company-obligation"
+      "question": "Once the new system launches, clients ___ track their orders online.",
+      "options": ["will be able to", "might", "should", "must"],
+      "answer": "will be able to",
+      "topic": "company-policy"
     },
     {
       "id": 11,
-      "question": "The IT team ___ installed the security update, but the system still had vulnerabilities.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "should have",
-      "topic": "company-obligation"
+      "question": "Visitors ___ only enter the production area with an escort.",
+      "options": ["can", "must", "should", "have to"],
+      "answer": "can",
+      "topic": "company-policy"
     },
     {
       "id": 12,
-      "question": "Employees ___ report harassment incidents immediately; delay could worsen the situation.",
-      "options": ["must", "may", "might", "could"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "Last year, only senior staff ___ access confidential reports.",
+      "options": ["could", "may", "should", "have to"],
+      "answer": "could",
+      "topic": "company-policy"
     },
     {
       "id": 13,
-      "question": "The assistant ___ arranged the meeting room correctly; the double booking was an exception.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "might have",
-      "topic": "company-obligation"
-    },
-    {
-      "id": 14,
-      "question": "Staff ___ confirmed all travel arrangements before departure, unless changes were last minute.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "should have",
-      "topic": "company-obligation"
+      "question": "Now that we upgraded the servers, everyone ___ upload large files without issues.",
+      "options": ["can", "must", "might", "should"],
+      "answer": "can",
+      "topic": "company-policy"
     },
     {
       "id": 15,
-      "question": "Employees ___ complete annual ethics training; new hires may have extra onboarding sessions.",
-      "options": ["must", "may", "might", "could"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "When the new project begins, teams ___ collaborate across departments more easily.",
+      "options": ["will be able to", "might", "should", "have to"],
+      "answer": "will be able to",
+      "topic": "company-policy"
     },
     {
       "id": 16,
-      "question": "Someone ___ sent the wrong email; the client received confusing instructions.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "might have",
-      "topic": "company-obligation"
+      "question": "After several updates, our app users finally ___ reset their passwords online.",
+      "options": ["were able to", "must", "might", "should"],
+      "answer": "were able to",
+      "topic": "company-policy"
     },
     {
       "id": 17,
-      "question": "Managers ___ review all expense reports before approving payment; exceptions may exist for low-value items.",
-      "options": ["must", "may", "might", "could"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "During testing, developers ___ temporarily disable system alerts.",
+      "options": ["can", "may", "must", "should"],
+      "answer": "can",
+      "topic": "company-policy"
     },
     {
       "id": 18,
-      "question": "The team ___ tested the new feature thoroughly; otherwise, bugs would have appeared.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "must have",
-      "topic": "company-obligation"
+      "question": "Employees ___ work abroad for up to three months under the remote policy.",
+      "options": ["may", "have to", "should", "must"],
+      "answer": "may",
+      "topic": "company-policy"
     },
     {
       "id": 19,
-      "question": "Employees ___ wear protective equipment in the warehouse, unless they are in the visitor area.",
-      "options": ["must", "may", "might", "could"],
-      "answer": "must",
-      "topic": "company-obligation"
+      "question": "Before 2020, we ___ run our operations entirely from the office.",
+      "options": ["had to", "were able to", "may", "should"],
+      "answer": "were able to",
+      "topic": "company-policy"
     },
     {
       "id": 20,
-      "question": "Someone ___ deleted the wrong document; it may have been accidental.",
-      "options": ["must have", "could have", "might have", "should have"],
-      "answer": "could have",
-      "topic": "company-obligation"
+      "question": "Once the new software is fully tested, we ___ integrate it with our customer platform.",
+      "options": ["will be able to", "should", "might", "have to"],
+      "answer": "will be able to",
+      "topic": "company-policy"
     }
   ]
 }

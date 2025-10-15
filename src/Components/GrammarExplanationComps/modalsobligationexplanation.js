@@ -14,10 +14,11 @@ const ModalsobligationExplanation = () => {
 
 <div className="grammar-display-grid">
                             <div className="agendagrammar">
-                            <h1>Modals: Obligation, Permission, Ability</h1>
+                           <h1>Modals: Obligation, Permission, Ability</h1>
 
-                            <ul>
+<ul>
   <li><strong>Can =</strong> ability, permission, possibility<br></br><i>I can help. You can go.</i></li>
+  <li><strong>Be able to =</strong> ability (used in different tenses)<br></br><i>I was able to finish on time. We will be able to join.</i></li>
   <li><strong>Can't =</strong> prohibition, inability<br></br><i>You can't enter. I can't fix it.</i></li>
   <li><strong>Could =</strong> past ability, polite request, suggestion<br></br><i>I could swim. Could you help?</i></li>
   <li><strong>May/Might =</strong> formal/weaker possibility<br></br><i>It may/might rain.</i></li>
@@ -36,6 +37,7 @@ const ModalsobligationExplanation = () => {
   <li><strong>Obligatory/Required =</strong> formal necessity<br></br><i>Reports are required.</i></li>
   <li><strong>Compulsory/Necessary/Essential =</strong> importance level<br></br><i>Attendance is essential.</i></li>
 </ul>
+
 
 
 
