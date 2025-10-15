@@ -145,7 +145,7 @@ const ThirdconditionalExercises = () => {
               />
             </div>
             </div>
-            <p className="descriptionbox">Complete the sentences with the correct form of Third conditional If + will.</p>
+            <p className="descriptionbox">Complete the sentences with the correct form of Third conditional If + had + 3rd form, would + have + 3rd form.</p>
             <form className="exercises-form" onSubmit={handleSubmit}>
             <PageCounter currentPage={currentPage} totalPages={totalPages} />
               {displayedSentences.map((sentence, index) => (

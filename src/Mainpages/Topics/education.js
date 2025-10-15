@@ -15,11 +15,12 @@ import RandomQuestionGenerator from '../../Components/DiscussionComps/questionge
 import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/educationquiz.json';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/wishexplanation.js';
-import Grammarexercises from '../../Components/GrammarExerciseComps/wishexercisescomp.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/thirdcondexplanation.js';
+import Grammarexercises from '../../Components/GrammarExerciseComps/thirdconditionalexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
+import headerimg from '../../Images/education1.webp';
 
 
 
@@ -41,10 +42,12 @@ const Education = () => {
                 <div className="agenda-title">
                     <h1 className="mt-2">Education</h1>
                 </div>
-
+            <div className="grammarimage">
+                <img src={headerimg} alt="English Exam Exercises" />
+                </div>
                 
                 
-                <div className="agenda-subtitle">Quiz</div> 
+                <div className="agenda-quiz">Quiz</div> 
                 <div>                   
                     <div className="agenda-display-grid">
                         <Quiz quizzesData={quizzesData} />
