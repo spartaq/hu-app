@@ -145,6 +145,7 @@ import Parenting from './Mainpages/Topics/parenting';
 import Corruption from './Mainpages/Topics/corruption';
 import Value from './Mainpages/Topics/value';
 import Elections from './Mainpages/Topics/elections';
+import Music from './Mainpages/Topics/music';
 
 
 
@@ -360,6 +361,9 @@ const router = createBrowserRouter([
           },
           { path: 'topics/elections',
             element: <Elections />,
+          },
+          { path: 'topics/music',
+            element: <Music />,
           },
           {
             path: 'grammar-exercises',

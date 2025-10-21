@@ -1,5 +1,164 @@
 module.exports = [
   {
+  "readingcompTitle": "The 10 Biggest Music Myths: True or False?",
+  "topic": "music industry",
+  "level": "b1",
+  "image": "/Images/musicmyths.jpg",
+  "vocabulary": [
+    "myth - a false belief or idea",
+    "talent - a natural skill or ability",
+    "hit - a very successful song",
+    "amplifier (amp) - a device that makes music louder",
+    "conspiracy - a secret plan or theory",
+    "streaming - listening or watching online without downloading",
+    "algorithm - a computer process that makes automatic decisions",
+    "fan base - a group of loyal followers or supporters",
+    "dead - no longer active or successful",
+    "fake - not real or true"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>There are many myths about the music industry. Some people believe that only young, naturally talented artists can be successful, or that one hit song is enough for a lifetime. Others think that the music business is dying or that social media followers guarantee fame. Let’s look at ten popular myths and the truth behind them.</p>",
+
+        "<h3>1. Age makes or breaks a music career</h3>",
+        "<p>It doesn’t matter if you’re 14 or 91 – success depends on your fans, not your age. Stars like Grace VanderWaal started young, while India’s Lata Mangeshkar sang until her 90s. Age is not a rule for success.</p>",
+
+        "<h3>2. You have to have a natural talent</h3>",
+        "<p>Talent helps, but hard work matters more. Many artists become successful because they practice every day and learn constantly. Relying only on talent is risky – effort is what builds a real career.</p>",
+
+        "<h3>3. One hit song is enough</h3>",
+        "<p>One hit might make you famous for a short time, but it rarely creates a long career. Music trends change quickly, and artists need to plan their next steps to stay successful.</p>",
+
+        "<h3>4. Big amps mean a big sound</h3>",
+        "<p>At concerts, the large walls of amplifiers are often fake. The real sound comes from smaller amps and speakers hanging above the stage. Big walls look exciting but don’t make the sound louder.</p>",
+
+        "<h3>5. The worst band in the world</h3>",
+        "<p>Some websites list bands like Nickelback or even Pink Floyd as “the worst.” But this shows that online algorithms can’t really understand music taste. It’s all opinion – and fans will always disagree!</p>",
+
+        "<h3>6. Who played the solos?</h3>",
+        "<p>Many fans think George Harrison played the guitar solos in “While My Guitar Gently Weeps.” In fact, it was Eric Clapton, who recorded them using Harrison’s guitar. Even Beatles fans are surprised by this fact!</p>",
+
+        "<h3>7. Elvis is alive</h3>",
+        "<p>Some fans believe Elvis Presley’s death in 1977 was faked and that he still lives secretly. The truth: Elvis died of health problems at home. Stories about wax figures and air-conditioned coffins are pure fiction.</p>",
+
+        "<h3>8. The music industry is dead</h3>",
+        "<p>Album sales are lower, but the music industry is very active thanks to streaming. In fact, more people listen to more music than ever before. Even Mozart’s music became a best-seller again in 2016!</p>",
+
+        "<h3>9. Likes equal ticket sales</h3>",
+        "<p>Having thousands of social media followers doesn’t mean people will buy tickets. Real success comes from loyal fans who support artists in the long term, not just from likes online.</p>",
+
+        "<h3>10. Streaming platforms are in the music business</h3>",
+        "<p>Spotify, YouTube, and TikTok may look like music companies, but they are actually data businesses. They collect information about users to sell advertising. Artists earn very little from streams, while the platforms earn money from data.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main idea of the text?",
+          "choices": [
+            "a) Music myths are always true",
+            "b) The music industry is full of false ideas and surprises",
+            "c) Only young artists can be successful",
+            "d) Streaming has ended music careers"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "According to the text, what really matters more than talent?",
+          "choices": [
+            "a) Expensive instruments",
+            "b) Hard work and consistency",
+            "c) Being naturally gifted",
+            "d) Luck"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "Why is one hit song not enough for a long career?",
+          "choices": [
+            "a) Because fans don’t like famous songs",
+            "b) Because the music industry is too small",
+            "c) Because trends change very quickly",
+            "d) Because hits are illegal now"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "What is surprising about big amp walls at rock concerts?",
+          "choices": [
+            "a) They are often fake and only for show",
+            "b) They make the band sound terrible",
+            "c) They are dangerous for the audience",
+            "d) They belong to the lighting crew"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "Who really played the solo in 'While My Guitar Gently Weeps'?",
+          "choices": [
+            "a) Paul McCartney",
+            "b) George Harrison",
+            "c) Eric Clapton",
+            "d) John Lennon"
+          ]
+        },
+        {
+          "number": "6",
+          "question": "What do conspiracy theories about Elvis claim?",
+          "choices": [
+            "a) He lives secretly and his coffin was fake",
+            "b) He moved to another country",
+            "c) He never became famous",
+            "d) He plays concerts online"
+          ]
+        },
+        {
+          "number": "7",
+          "question": "How has streaming changed the music industry?",
+          "choices": [
+            "a) It killed live performances",
+            "b) It made music more available and popular",
+            "c) It stopped people from listening to old music",
+            "d) It reduced all artist earnings equally"
+          ]
+        },
+        {
+          "number": "8",
+          "question": "Why don’t social media likes always mean real success?",
+          "choices": [
+            "a) Because likes are more important than fans",
+            "b) Because many followers can be fake",
+            "c) Because artists don’t need fans anymore",
+            "d) Because likes increase ticket prices"
+          ]
+        },
+        {
+          "number": "9",
+          "question": "What kind of business are streaming platforms actually in?",
+          "choices": [
+            "a) Data and advertising",
+            "b) Concert promotion",
+            "c) CD production",
+            "d) Music teaching"
+          ]
+        },
+        {
+          "number": "10",
+          "question": "What does the article suggest about the music industry overall?",
+          "choices": [
+            "a) It is dead and finished",
+            "b) It is alive and full of change",
+            "c) It only works for young people",
+            "d) It depends only on luck"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+  
+  {
   "readingcompTitle": "The 'Strongman' Prime Minister Losing Power",
   "topic": "elections",
   "level": "b2",

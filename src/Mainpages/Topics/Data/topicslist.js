@@ -1,4 +1,13 @@
-module.exports = [
+module.exports = [{
+        "id": "music",
+        "title": "Is this music?",
+        "subtitle": "Indirect Questions",
+        "category": "General",
+        "level": "B1",
+        "time": "45 min",
+        "description": "A lesson to talk about music vs noise",
+        "image": "/Images/music-industry.jpg"
+      },
   {
         "id": "elections",
         "title": "Elections",

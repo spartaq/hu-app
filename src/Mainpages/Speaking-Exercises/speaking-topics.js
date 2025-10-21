@@ -48,9 +48,7 @@ function SpeakingTopics() {
       
       <div className="grammar-container">
         <div className="column-right-speaking">
-          <div className="skill-controls">
-            <div className='flashsetnum'>Topics - {`Topic ${selectedTopic + 1}`}</div>
-            <div>
+          <div className="speaking-controls">
               <button onClick={toggleMenu}>
                 ☰ More Topics
               </button>
@@ -71,10 +69,7 @@ function SpeakingTopics() {
                 <i className="fas fa-arrow-right"></i>
               </button> 
             </div>
-
-            <div>Topic: {topics[selectedTopic].topic}</div>
-            <div>Level: {topics[selectedTopic].level}</div>
-          </div>
+         
 
           <div className="exercises-container">
             <div className="topic-content">

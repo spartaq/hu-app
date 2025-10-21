@@ -1,0 +1,88 @@
+[
+  {
+    "quiz": 1,
+    "quizTitle": "Entertainment Industry: Big Money & Shocking Facts",
+    "questions": [
+      {
+        "id": 1,
+        "question": "The global entertainment market is valued at more than how many trillion US dollars? (2020-2025 estimates)",
+        "options": ["$0.5 trillion", "$1.2 trillion", "$2.3 trillion", "$5 trillion"],
+        "answer": "$2.3 trillion"
+      },
+      {
+        "id": 2,
+        "question": "About how much did producing a major Hollywood blockbuster cost-on‐average in 2023?",
+        "options": ["$30 million", "$70 million", "$150 million", "$300 million"],
+        "answer": "$150 million"
+      },
+      {
+        "id": 3,
+        "question": "One of the most famous films, Titanic (1997), cost roughly how much to make — reportedly more than the ship itself?",
+        "options": ["$60 million", "$100 million", "$200 million", "$400 million"],
+        "answer": "$200 million"
+      },
+      {
+        "id": 4,
+        "question": "In the film & TV world, the term “Hollywood accounting” refers to what practice?",
+        "options": [
+          "Studios paying huge dividends to actors",
+          "Studios using creative accounting so a profitable film appears unprofitable",
+          "Studios giving large bonuses for profits",
+          "Studios publishing transparent profit numbers"
+        ],
+        "answer": "Studios using creative accounting so a profitable film appears unprofitable"
+      },
+      {
+        "id": 5,
+        "question": "In the music industry, the global music market revenue in 2022 was approximately how much?",
+        "options": ["$10 billion", "$62 billion", "$150 billion", "$300 billion"],
+        "answer": "$62 billion"
+      },
+      {
+        "id": 6,
+        "question": "What is the estimated average cost to produce a major music festival in 2023 (before ticket-sales etc.)?",
+        "options": ["$200,000", "$1 million", "$2 million", "$10 million"],
+        "answer": "$2 million"
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is true about streaming and digital in entertainment (2023–25)?",
+        "options": [
+          "Streaming is less than 20% of entertainment revenue",
+          "Streaming now makes up the majority of music market revenue",
+          "Digital content is decreasing globally",
+          "Only theatrical box-office counts for big revenue"
+        ],
+        "answer": "Streaming now makes up the majority of music market revenue"
+      },
+      {
+        "id": 8,
+        "question": "Which region or country produces the largest number of films each year, in one of the biggest film industries globally?",
+        "options": ["United States", "China", "Japan", "India"],
+        "answer": "India"
+      },
+      {
+        "id": 9,
+        "question": "Which of these is a shocking truth for many about touring bands, even if they play many shows?",
+        "options": [
+          "They always make huge profits from every tour",
+          "Many smaller bands still run at a loss despite heavy touring costs",
+          "Touring is cheap for musicians nowadays",
+          "Ticket-sales always fully cover production costs"
+        ],
+        "answer": "Many smaller bands still run at a loss despite heavy touring costs"
+      },
+      {
+        "id": 10,
+        "question": "Why are many series and films now so expensive to produce per episode or film?",
+        "options": [
+          "Because of increased budgets for CGI, star salaries & marketing",
+          "Because fewer people watch them",
+          "Because production companies pay less for content",
+          "Because filming is faster than ever"
+        ],
+        "answer": "Because of increased budgets for CGI, star salaries & marketing"
+      }
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "quizTitle": "Adverbs Modifying Adjectives — The Creative Industry",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The new album is ___ impressive — the production quality is top-notch.",
+      "options": ["highly", "somewhat", "barely", "kind of"],
+      "answer": "highly",
+      "topic": "music"
+    },
+    {
+      "id": 2,
+      "question": "Her new song is ___ popular on streaming platforms — it’s in the top ten globally.",
+      "options": ["pretty", "somewhat", "slightly", "barely"],
+      "answer": "pretty",
+      "topic": "music"
+    },
+    {
+      "id": 3,
+      "question": "The dancer was ___ exhausted after performing five nights in a row.",
+      "options": ["utterly", "fairly", "rather", "a bit"],
+      "answer": "utterly",
+      "topic": "dance"
+    },
+    {
+      "id": 4,
+      "question": "Critics said the documentary was ___ informative and beautifully shot.",
+      "options": ["quite", "completely", "vehemently", "barely"],
+      "answer": "quite",
+      "topic": "film"
+    },
+    {
+      "id": 5,
+      "question": "The artist’s new exhibition is ___ unusual — it mixes sound, light, and scent.",
+      "options": ["rather", "extremely", "slightly", "completely"],
+      "answer": "rather",
+      "topic": "art"
+    },
+    {
+      "id": 6,
+      "question": "The concert was ___ fantastic — the band played all their greatest hits.",
+      "options": ["absolutely", "somewhat", "fairly", "kind of"],
+      "answer": "absolutely",
+      "topic": "performance"
+    },
+    {
+      "id": 7,
+      "question": "The stage design was ___ perfect — every detail matched the director’s vision.",
+      "options": ["absolutely", "pretty", "somewhat", "kind of"],
+      "answer": "absolutely",
+      "topic": "theatre"
+    },
+    {
+      "id": 9,
+      "question": "The audience was ___ surprised when the band suddenly changed style mid-concert.",
+      "options": ["completely", "slightly", "somewhat", "highly"],
+      "answer": "completely",
+      "topic": "music"
+    },
+    {
+      "id": 10,
+      "question": "Her voice sounded ___ different after years of touring.",
+      "options": ["completely", "utterly", "absolutely", "highly"],
+      "answer": "completely",
+      "topic": "performance"
+    }
+  ]
+}

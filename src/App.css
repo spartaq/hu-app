@@ -663,6 +663,13 @@ header, footer {
   background-color: antiquewhite;
 }
 
+.speaking-controls {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+
 .leftmargin {
   left:25px;
   position:relative;
