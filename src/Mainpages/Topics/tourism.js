@@ -20,8 +20,12 @@ import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/tourismquiz.json';
 import SuggestExplanation from '../../Components/GrammarExplanationComps/suggestexplanation.js'
 import SuggestExercises from '../../Components/GrammarExerciseComps/suggestexercisescomp.js'
+import ToggleSection from '../../Utils/toggleSection';
 import headerimg from '../../Images/budapest-tourism-crowd.jpg';
 
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "suggest" },
+];
 
 Modal.setAppElement('#root');
 
@@ -78,14 +82,17 @@ const Tourism = () => {
                  
                     </div>
 
-                    <div>
-
+                                       <div>
                    
-                        <div className="agenda-display-grid">
-                           <SuggestExercises />
-                        </div>
-                   
+                               <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
                     </div>
+
+               
 
                 </div>
                 

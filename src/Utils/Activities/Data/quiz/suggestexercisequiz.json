@@ -1,0 +1,62 @@
+{
+  "quizTitle": "Suggest, Recommend, Promise, Offer — Tourism and Travel",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The mayor ___ that visitors explore smaller villages instead of the crowded city center.",
+      "options": ["suggested", "recommended", "promised", "offered"],
+      "answer": "suggested",
+      "topic": "tourism"
+    },
+    {
+      "id": 2,
+      "question": "The travel blogger ___ a few eco-friendly hotels near the national park.",
+      "options": ["suggested", "recommended", "promised", "offered"],
+      "answer": "recommended",
+      "topic": "tourism"
+    },
+    {
+      "id": 3,
+      "question": "The local guide ___ to show us around for free if we bought tickets to the museum.",
+      "options": ["suggested", "recommended", "promised", "offered"],
+      "answer": "offered",
+      "topic": "tourism"
+    },
+    {
+      "id": 4,
+      "question": "The government ___ to reduce the number of tourist buses entering the old town.",
+      "options": ["suggested", "recommended", "promised", "offered"],
+      "answer": "promised",
+      "topic": "tourism"
+    },
+    {
+      "id": 5,
+      "question": "Our teacher ___ that we visit fewer places but spend more time in each city.",
+      "options": ["suggested", "recommended", "promised", "offered"],
+      "answer": "suggested",
+      "topic": "tourism"
+    },
+    {
+      "id": 6,
+      "question": "The hotel staff ___ several restaurants that use only local ingredients.",
+      "options": ["suggested", "recommended", "promised", "offered"],
+      "answer": "recommended",
+      "topic": "tourism"
+    },
+    {
+      "id": 7,
+      "question": "The tour operator ___ to refund everyone if the trip had to be cancelled.",
+      "options": ["suggested", "recommended", "promised", "offered"],
+      "answer": "promised",
+      "topic": "tourism"
+    },
+    {
+      "id": 8,
+      "question": "The local community ___ free walking tours to encourage responsible travel.",
+      "options": ["suggested", "recommended", "promised", "offered"],
+      "answer": "offered",
+      "topic": "tourism"
+    }
+  ]
+}
