@@ -53,6 +53,7 @@ import PastHabits from './Mainpages/Grammar-Exercises/past-habits';
 import MixedCondProd from './Mainpages/Grammar-Exercises/mixed-cond-prod';
 import AdjAdv from './Mainpages/Grammar-Exercises/adjadv';
 import Infinitives from './Mainpages/Grammar-Exercises/infinitives';
+import Punctuation from './Mainpages/Grammar-Exercises/punctuation';
 import ReadingExercises from './Mainpages/Reading-Exercises/reading-exercises';
 import ParagraphHeadings from './Mainpages/Reading-Exercises/paragraph-headings';
 import ReadingComprehension from './Mainpages/Reading-Exercises/reading-comprehension';
@@ -122,6 +123,7 @@ import Money from './Mainpages/Topics/money';
 import Cellphones from './Mainpages/Topics/smartphones';
 import Language from './Mainpages/Topics/language';
 import Companypolicy from './Mainpages/Topics/companypolicy';
+import Writing from './Mainpages/Topics/writing';
 import JelenIdoDef from './Mainpages/Hungarian/jelenidodef';
 import JelenIdoIndef from './Mainpages/Hungarian/jelenidoIndef';
 import MultIdo from './Mainpages/Hungarian/multido';
@@ -344,26 +346,37 @@ const router = createBrowserRouter([
             path: 'topics/sidejobs',
             element: <Sidejobs />,
           },
-          { path: 'topics/streamingservices',
+          { 
+            path: 'topics/streamingservices',
             element: <StreamingServices />,
           },
-          { path: 'topics/parenting',
+          { 
+            path: 'topics/parenting',
             element: <Parenting />,
           },
-          { path: 'topics/bucketlist',
+          { 
+            path: 'topics/bucketlist',
             element: <BucketList />,
           },
-          { path: 'topics/corruption',
+          { 
+            path: 'topics/corruption',
             element: <Corruption />,
           },
-          { path: 'topics/value',
+          { 
+            path: 'topics/value',
             element: <Value />,
           },
-          { path: 'topics/elections',
+          { 
+            path: 'topics/elections',
             element: <Elections />,
           },
-          { path: 'topics/music',
+          { 
+            path: 'topics/music',
             element: <Music />,
+          },
+          { 
+            path: 'topics/writing',
+            element: <Writing />,
           },
           {
             path: 'grammar-exercises',
@@ -529,10 +542,16 @@ const router = createBrowserRouter([
             path: 'grammar-exercises/linking-words',
             element: <LinkingWords />,
           },
-          { path: 'hungarian',
+          {
+            path: 'grammar-exercises/punctuation',
+            element: <Punctuation />,
+          },
+          { 
+            path: 'hungarian',
             element: <HungarianExercises />,
           },
-          { path: 'hungarian/jelenidodef',
+          { 
+            path: 'hungarian/jelenidodef',
             element: <JelenIdoDef />,
           },
           {

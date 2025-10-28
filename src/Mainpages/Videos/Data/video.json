@@ -1,4 +1,91 @@
-[{
+[
+  {
+  "title": "Writing and AI: Opportunities and Challenges",
+  "videoId": "TkqsHH0oQXw",
+  "topic": "technology / education / AI",
+  "level": "B2",
+  "vocabulary": [
+    "multimodal - using multiple modes or methods, e.g., text, images, audio",
+    "collaboration - working together with others",
+    "concise - expressing much in few words",
+    "synthesize - combine information into a coherent whole",
+    "apprehensive - worried or fearful about the future",
+    "circumvent - to go around or avoid something",
+    "outbound - leaving the server or network",
+    "cascade - a chain reaction of related events",
+    "immutable - cannot be changed",
+    "permissions - rules defining access to files or folders"
+  ],
+  "transcript": [
+    "<h1>Writing and AI: Opportunities and Challenges</h1>",
+    "<p>And Technology I have to say the future is on us right now; it's not something that's going to happen 20 years from now. We're seeing a rapid change in the last 20 or 30 years in terms of how we write.</p>",
+    "<p>That started with having digital tools to write, moving to multimodal writing, and now you see people all the time with phones, talking into them and writing.</p>",
+    "<p>In the last couple of months we've heard a whole lot about ChatGPT, and these tools are going to change over time the face of what writing looks like.</p>",
+    "<p>We're going to see more writing that involves humans and machines collaborating. Machines are not smart in the sense that they think like we do, but there'll be tools to help us improve what we write.</p>",
+    "<p>One question that's very popular right now is: what happens with writing and AI as we move forward in the future? There are reasons to be worried but also reasons to be excited.</p>",
+    "<p>The worry is that instead of writing, students might have a machine write for them, producing their text. This can cause the power of writing as a learning tool to be lost, because students don't make decisions about what's important in the text, or how to synthesize information or put it in their own words.</p>",
+    "<p>On the other hand, we can generate sentences using AI and then refine them ourselves. ChatGPT actually gives pretty good feedback right now.</p>",
+    "<p>We will find useful ways of thinking about this, helping students write better, making writing clearer, more concise, and accurate.</p>",
+    "<p>This will take work on our part to ensure it happens responsibly. Technological advances including AI can be hopeful but also apprehensive.</p>",
+    "<p>Apprehensive in the sense that tools could be used in ways not in students' best interests. For example, if AI helps circumvent writing on a topic, that may not help learning.</p>",
+    "<p>But AI tools can also help students become better writers or serve as a partner in the writing process.</p>",
+    "<p>As we move forward, this is the reality — AI is out of the bag, and we need to find ways to use it in a fruitful and responsible manner.</p>"
+  ],
+  "questions": [
+    {
+      "number": "1",
+      "question": "What is one potential risk of using AI for writing in education?",
+      "choices": [
+        "A. Students lose the learning benefits of writing",
+        "B. AI makes writing slower",
+        "C. Students spend too much time reading",
+        "D. Teachers cannot grade papers"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "How can AI tools help students?",
+      "choices": [
+        "A. By serving as a partner in the writing process",
+        "B. By replacing teachers entirely",
+        "C. By memorizing all textbooks",
+        "D. By writing essays without review"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "What does 'multimodal writing' refer to?",
+      "choices": [
+        "A. Writing using multiple modes, like text, images, and audio",
+        "B. Writing only with a keyboard",
+        "C. Writing essays in multiple languages",
+        "D. Writing without grammar rules"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "Why is responsible use of AI important?",
+      "choices": [
+        "A. To ensure it improves learning and doesn't circumvent skill development",
+        "B. To make the internet faster",
+        "C. To replace teachers",
+        "D. To reduce electricity usage"
+      ]
+    },
+    {
+      "number": "5",
+      "question": "What is one positive effect of using AI in writing?",
+      "choices": [
+        "A. Students can make their writing clearer and more concise",
+        "B. It prevents students from writing entirely",
+        "C. It removes the need to read",
+        "D. It eliminates the need for punctuation"
+      ]
+    }
+  ]
+},
+
+  {
   "title": "John Cage: Redefining Music",
   "videoId": "UsY-WfoKy80",
   "topic": "music / art / innovation",

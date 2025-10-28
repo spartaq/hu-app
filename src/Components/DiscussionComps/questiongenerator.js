@@ -1,28 +1,38 @@
 import React, { useState, useEffect } from "react";
 
 const RandomQuestionGenerator = ({ discussionquestions, topic }) => {
+  const [unusedQuestions, setUnusedQuestions] = useState([]);
+  const [allFilteredQuestions, setAllFilteredQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(
     "Click the button to get a question!"
   );
 
   useEffect(() => {
-    // Optional: You could filter questions based on the topic on initial load if desired
+    // Filter questions by topic on initial load
     const filtered = topic
-      ? discussionquestions.filter((question) => question.topic === topic)
+      ? discussionquestions.filter((q) => q.topic === topic)
       : discussionquestions;
-    
-    // Ensure the current question is picked from the filtered list if needed
-    if (filtered.length > 0) {
-      setCurrentQuestion(filtered[Math.floor(Math.random() * filtered.length)].text);
-    }
+
+    setUnusedQuestions(filtered);
+    setAllFilteredQuestions(filtered);
   }, [discussionquestions, topic]);
 
   const getRandomQuestion = () => {
-    const filtered = topic
-      ? discussionquestions.filter((question) => question.topic === topic)
-      : discussionquestions;
-    const randomIndex = Math.floor(Math.random() * filtered.length);
-    setCurrentQuestion(filtered[randomIndex].text);
+    let questions = [...unusedQuestions];
+
+    // Reset if all questions were used
+    if (questions.length === 0) {
+      questions = [...allFilteredQuestions];
+    }
+
+    const randomIndex = Math.floor(Math.random() * questions.length);
+    const question = questions[randomIndex];
+
+    // Remove the used question from the array
+    questions.splice(randomIndex, 1);
+    setUnusedQuestions(questions);
+
+    setCurrentQuestion(question.text);
   };
 
   return (

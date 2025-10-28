@@ -111,6 +111,7 @@ const Grammarexercises = () => {
 									  <li><Link to="/grammar-exercises/passive"><span className="label label-b2">B2</span> Passive</Link></li>
 									  <li><Link to="/grammar-exercises/passivebeing"><span className="label label-b2">B2</span> Passive being</Link></li>
 									  <li><Link to="/grammar-exercises/sense-verbs"><span className="label label-b2">B2</span> Sense Verbs</Link></li>
+									  <li><Link to="/grammar-exercises/punctuation"><span className="label label-b2">B2</span> Punctuation</Link></li>
 									  <li><Link to="/grammar-exercises/ed-ing"><span className="label label-b2">B2</span> Ed or Ing</Link></li>
 									  <li><Link to="/grammar-exercises/modals-obligation"><span className="label label-c1">C1</span> Modals Obligation</Link></li>
 									  <li><Link to="/grammar-exercises/modals-deduction"><span className="label label-c1">C1</span> Modals Deduction</Link></li>
@@ -124,9 +125,6 @@ const Grammarexercises = () => {
 									  <li><Link to="/grammar-exercises/causeeffect"><span className="label label-c1">C1</span> Cause and Effect</Link></li>
 									  <li><Link to="/grammar-exercises/relativeclauses"><span className="label label-c1">C1</span> Relative Clauses</Link></li>
 									  <li><Link to="/grammar-exercises/comparison"><span className="label label-c1">C1</span> Comparison</Link></li>
-
-									  <li><Link to="/grammar-exercises/jelenido"><span className="label label-c1">C1</span> Jelen Ido (Simple Present)</Link></li>
-=======
 									  <li><Link to="/grammar-exercises/wish"><span className="label label-c1">C1</span> Wishes and Regrets</Link></li>
 									  <li><Link to="/grammar-exercises/word-forms"><span className="label label-c1">C1</span> Word Forms</Link></li>
 									  <li><Link to="/grammar-exercises/linking-words"><span className="label label-c1">C1</span> Linking Words</Link></li>

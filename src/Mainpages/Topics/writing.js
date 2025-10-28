@@ -12,24 +12,19 @@ import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
-import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
-import GapFillExercise from '../../Utils/gapfill.js';
-import jsonData from '../Vocabulary-Exercises/Data/tourismgapfill.json';
 import Quiz from '../Quizzes/quiz.js';
-import quizzesData from '../Quizzes/Data/tourismquiz.json';
-import SuggestExplanation from '../../Components/GrammarExplanationComps/suggestexplanation.js'
-import SuggestExercises from '../../Components/GrammarExerciseComps/suggestexercisescomp.js'
+import quizzesData from '../Quizzes/Data/writingquiz.json';
+import SuggestExplanation from '../../Components/GrammarExplanationComps/punctuationexplanation.js'
 import ToggleSection from '../../Utils/toggleSection';
 import headerimg from '../../Images/budapest-tourism-crowd.jpg';
 
 const sections = [
-  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "suggest" },
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "punctuation" },
 ];
 
 Modal.setAppElement('#root');
 
-const Tourism = () => {
+const Writing = () => {
     const [menuItems, setMenuItems] = useState([]);
 
     useEffect(() => {
@@ -51,15 +46,15 @@ const Tourism = () => {
     return (
         <div>
             <SEO
-                title='Exam Topics - Tourism - English Exam Exercises'
+                title='Exam Topics - Writing - English Exam Exercises'
                 description='A group of English exam exercises centered around the topic of the new year'
-                name='English Exam Exercises - Tourism'
+                name='English Exam Exercises - Writing'
                 type='article' 
             />
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Tourism</h1>                    
+                    <h1 className="mt-2">Writing</h1>                    
                 </div>
 
 
@@ -108,25 +103,23 @@ const Tourism = () => {
 
                 
 
-                
-
                 <div className="agenda-reading">Reading</div>
-                <div className="reading-container">
-                <div className="agenda-display-grid">
-                    <GapFillExercise jsonData={jsonData} />
-                    </div>
-                </div>
+				
+				<Reading readings={readingcompData} title="The Uncertain Future of Handwriting" />
+
+                
+                
                 
                 <div className="agenda-listening">Video</div>
                              
 
-                <Video videos={videoData} title="Tourism's Impact on Cities" />
+                <Video videos={videoData} title="Writing and AI: Opportunities and Challenges" />
                 
                 <div className="agenda-discussion">Discussion</div>
-                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="tourism" />
+                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="writing" />
             </div>
         </div>
     );
 };
 
-export default Tourism;
+export default Writing;

@@ -1,146 +1,146 @@
 {
-  "quizTitle": "Word Forms - Tech",
+  "quizTitle": "Word Forms - Workplace",
   "type": "quiz",
   "questions": [
     {
       "id": 1,
-      "question": "Database ___ is essential for improving query speed.",
-      "options": ["optimize", "optimization", "optimized", "optimizing"],
-      "answer": "optimization",
-      "topic": "tech"
+      "question": "Effective team ___ is essential for completing projects on time.",
+      "options": ["manage", "management", "managed", "managing"],
+      "answer": "management",
+      "topic": "workplace"
     },
     {
       "id": 2,
-      "question": "The engineers will ___ the new system tomorrow.",
-      "options": ["deploy", "deployment", "deployed", "deploying"],
-      "answer": "deploy",
-      "topic": "tech"
+      "question": "The manager will ___ the new schedule tomorrow.",
+      "options": ["implement", "implementation", "implemented", "implementing"],
+      "answer": "implement",
+      "topic": "workplace"
     },
     {
       "id": 3,
-      "question": "Every API needs proper ___ to work correctly with other services.",
-      "options": ["integrate", "integration", "integrated", "integrating"],
-      "answer": "integration",
-      "topic": "tech"
+      "question": "Proper ___ between departments prevents miscommunication.",
+      "options": ["communicate", "communication", "communicated", "communicating"],
+      "answer": "communication",
+      "topic": "workplace"
     },
     {
       "id": 4,
-      "question": "They are currently ___ a new feature into the software.",
-      "options": ["implement", "implementation", "implemented", "implementing"],
-      "answer": "implementing",
-      "topic": "tech"
+      "question": "They are currently ___ a new policy to improve safety.",
+      "options": ["introduce", "introduction", "introduced", "introducing"],
+      "answer": "introducing",
+      "topic": "workplace"
     },
     {
       "id": 5,
-      "question": "The team completed the ___ of the new database schema.",
-      "options": ["design", "designer", "designed", "designing"],
-      "answer": "design",
-      "topic": "tech"
+      "question": "The team completed the ___ of the quarterly report.",
+      "options": ["review", "reviewed", "reviewing", "reviewer"],
+      "answer": "review",
+      "topic": "workplace"
     },
     {
       "id": 6,
-      "question": "Our code review process greatly improves code ___.",
-      "options": ["quality", "qualify", "qualified", "qualifying"],
-      "answer": "quality",
-      "topic": "tech"
+      "question": "Regular performance ___ helps improve employee skills.",
+      "options": ["assess", "assessment", "assessed", "assessing"],
+      "answer": "assessment",
+      "topic": "workplace"
     },
     {
       "id": 7,
-      "question": "The system must be ___ against external attacks.",
+      "question": "All company data must be ___ to prevent leaks.",
       "options": ["secure", "security", "secured", "securing"],
       "answer": "secured",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 8,
-      "question": "Strong ___ policies are required in cloud platforms.",
+      "question": "Strong ___ policies help maintain a safe workplace.",
       "options": ["secure", "security", "secured", "securing"],
       "answer": "security",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 9,
-      "question": "The app was successfully ___ on the new server.",
-      "options": ["host", "hosting", "hosted", "hoster"],
-      "answer": "hosted",
-      "topic": "tech"
+      "question": "The new office was successfully ___ last month.",
+      "options": ["open", "opening", "opened", "opener"],
+      "answer": "opened",
+      "topic": "workplace"
     },
     {
       "id": 10,
-      "question": "We had to run a complete data ___ after the crash.",
-      "options": ["recover", "recovery", "recovered", "recovering"],
-      "answer": "recovery",
-      "topic": "tech"
+      "question": "After the incident, a complete risk ___ was conducted.",
+      "options": ["assess", "assessment", "assessed", "assessing"],
+      "answer": "assessment",
+      "topic": "workplace"
     },
     {
       "id": 11,
-      "question": "Regular software ___ helps prevent security risks.",
+      "question": "Regular software ___ ensures smooth operations.",
       "options": ["update", "updated", "updating", "updates"],
       "answer": "updates",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 12,
-      "question": "The company is investing in AI ___ for automation.",
+      "question": "The company is investing in process ___ for efficiency.",
       "options": ["innovate", "innovation", "innovative", "innovating"],
       "answer": "innovation",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 13,
-      "question": "We need to ___ the algorithm to handle more data.",
+      "question": "We need to ___ the workflow to handle more projects.",
       "options": ["optimize", "optimization", "optimized", "optimizing"],
       "answer": "optimize",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 14,
-      "question": "The network ___ caused downtime for several users.",
+      "question": "A network ___ caused delays in internal communications.",
       "options": ["fail", "failure", "failing", "failed"],
       "answer": "failure",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 15,
-      "question": "The application was ___ to multiple devices.",
+      "question": "The company ___ resources evenly across all departments.",
       "options": ["distribute", "distribution", "distributed", "distributing"],
       "answer": "distributed",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 16,
-      "question": "Proper code ___ makes collaboration much easier.",
+      "question": "Clear project ___ helps new employees understand tasks.",
       "options": ["document", "documentation", "documented", "documenting"],
       "answer": "documentation",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 17,
-      "question": "System ___ is necessary before running the application.",
+      "question": "System ___ must be checked before launching a new service.",
       "options": ["configure", "configuration", "configured", "configuring"],
       "answer": "configuration",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 18,
-      "question": "The AI model was ___ on large amounts of data.",
+      "question": "Staff were ___ on new compliance rules last week.",
       "options": ["train", "training", "trained", "trainer"],
       "answer": "trained",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 19,
-      "question": "Cloud ___ allows users to scale resources quickly.",
+      "question": "Cloud ___ allows departments to access resources from anywhere.",
       "options": ["compute", "computing", "computer", "computed"],
       "answer": "computing",
-      "topic": "tech"
+      "topic": "workplace"
     },
     {
       "id": 20,
-      "question": "System ___ should be monitored to prevent downtime.",
+      "question": "Employee ___ is regularly monitored to maintain productivity.",
       "options": ["perform", "performance", "performed", "performing"],
       "answer": "performance",
-      "topic": "tech"
+      "topic": "workplace"
     }
   ]
 }

@@ -1,4 +1,15 @@
-module.exports = [{
+module.exports = [
+  {
+        "id": "writing",
+        "title": "The future of Writing",
+        "subtitle": "Punctuation",
+        "category": "General",
+        "level": "B1",
+        "time": "45 min",
+        "description": "A lesson to talk about the future of writing",
+        "image": "/Images/quiz1.jpg"
+      },
+  {
         "id": "music",
         "title": "Is this music?",
         "subtitle": "Indirect Questions",
@@ -36,7 +47,7 @@ module.exports = [{
       "level": "B2",
       "time": "60 min",
       "description": "Talk about value",
-      "image": "/Images/enron.jpg"
+      "image": "/Images/value.webp"
     },  
   {
       "id": "corruption",

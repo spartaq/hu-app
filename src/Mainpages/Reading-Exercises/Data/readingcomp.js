@@ -1,4 +1,86 @@
 module.exports = [
+  
+  {
+  "readingcompTitle": "The Uncertain Future of Handwriting",
+  "topic": "education / technology",
+  "level": "B2",
+  "image": "/Images/handwriting.jpg",
+  "vocabulary": [
+    "handwriting - writing done with a pen or pencil",
+    "cursive - joined-up, flowing handwriting",
+    "automaticity - performing a task without conscious thought",
+    "decline - decrease or reduction",
+    "cognitive - related to thinking or learning",
+    "voice recognition software (VRS) - technology that converts spoken words to text",
+    "digital - using computers or electronic devices",
+    "motor skills - coordination of muscles to perform tasks",
+    "aesthetes - people who appreciate beauty or art",
+    "manuscript - a handwritten document"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Computers and tablets are changing how we write. Typing dominates today, and children often interact with screens from birth. Handwriting, once essential, is now declining, with some countries reducing cursive lessons in schools in favor of typing skills.</p>",
+        "<p>Anne Trubek, author on the history of handwriting, argues that handwriting teaches automaticity, freeing mental bandwidth to think about ideas while writing. She believes keyboards provide faster automaticity for students, allowing them more time to focus on word choice and sentence structure.</p>",
+        "<p>Critics worry handwriting’s decline may result in a loss of history and personal touch. Trubek counters that historic manuscripts are often unreadable and that care can be shown in other ways. Similarly, Finland emphasizes typing for modern life, and research shows handwriting develops motor skills, visual recognition, and memory retention.</p>",
+        "<p>Voice recognition software, such as Siri or Google Docs’ voice typing, may supplement writing, but handwriting remains valuable for a personal, tactile experience. Experts suggest cursive could survive as an art form or hobby, even if daily usage diminishes. Handwriting continues to offer cognitive, artistic, and personal benefits in a digital age.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Why is handwriting declining in schools?",
+          "choices": [
+            "a) Typing is prioritized for modern life",
+            "b) Students refuse to learn cursive",
+            "c) Computers prevent writing",
+            "d) Handwriting is illegal"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "What does 'automaticity' in handwriting mean?",
+          "choices": [
+            "a) Doing a task without conscious thought",
+            "b) Writing as quickly as possible",
+            "c) Learning typing before writing",
+            "d) Copying text from books"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What are cognitive benefits of handwriting?",
+          "choices": [
+            "a) Improving motor skills, memory, and thinking",
+            "b) Typing faster on a keyboard",
+            "c) Listening skills",
+            "d) Only artistic ability"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "How might voice recognition software affect writing?",
+          "choices": [
+            "a) It may supplement but not replace handwriting",
+            "b) It eliminates the need for typing",
+            "c) It makes handwriting obsolete immediately",
+            "d) It worsens reading skills"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "Why might cursive survive in the future?",
+          "choices": [
+            "a) As an art form or hobby",
+            "b) Because it is required in schools",
+            "c) To replace keyboards",
+            "d) Due to legal mandates"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
   {
   "readingcompTitle": "The 10 Biggest Music Myths: True or False?",
   "topic": "music industry",

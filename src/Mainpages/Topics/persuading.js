@@ -10,16 +10,18 @@ import Video from '../../Components/VideoComps/videocomponent.js';
 import videoData from '../Videos/Data/video.json';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
 import GapFillExercise from '../../Utils/gapfill.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/disagreementquiz.json';
 import ImageCarousel from '../../Utils/imgcarousel.js';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/wordformsexplanation.js';
 import Grammarexercises from '../../Components/GrammarExerciseComps/wordformsexercisescomp.js';
-import vocabData from "../../Components/VocabularyListComps/Data/vocabularylist.json";
 import jsonData from '../Vocabulary-Exercises/Data/persuadinggapfill.json';
+import ToggleSection from '../../Utils/toggleSection';
 
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "wordforms" },
+];
 
 
 Modal.setAppElement('#root');
@@ -62,25 +64,20 @@ const Persuading = () => {
                  
                     </div>
 
-                    <div>
+                                            <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
 
-                   
-                        <div className="agenda-display-grid">
-                           <Grammarexercises />
-                        </div>
-                   
-                    </div>
+                    
 
                 </div>
                 
-                <div className="agenda-subtitle">Vocabulary</div>
-                <div>                   
-                    <div className="agenda-display-grid">
-                        <VocabularyMatch data={vocabData} topic="persuading" />
-                    </div>                    
-                </div>
+              
                 
-                <div className="agenda-subtitle">Quiz</div> 
+                <div className="agenda-quiz">Quiz</div> 
                 <div>                   
                     <div className="agenda-display-grid">
                         <Quiz quizzesData={quizzesData} />
