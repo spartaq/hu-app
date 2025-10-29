@@ -153,10 +153,19 @@ const scrollToTop = () => {
       <div className="exercisesection__activity-box">
         {type === "quiz" && (
           <QuizActivity
+            key={currentIndex} // Add key to force re-mount on question change
             question={current}
-            onAnswer={(isCorrect) => {
-              if (isCorrect) setScore((s) => s + 1);
-              handleNext();
+            data={data}
+            onAnswer={(result) => {
+              console.log("QuizActivity onAnswer called with:", result);
+              if (result.correct) {
+                console.log("Incrementing score");
+                setScore((s) => s + 1);
+              }
+              if (result.next) {
+                console.log("Moving to next question");
+                handleNext();
+              }
             }}
           />
         )}

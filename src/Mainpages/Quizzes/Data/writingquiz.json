@@ -1,106 +1,67 @@
 [
   {
     "quiz": 1,
-    "quizTitle": "The Future of Work",
+    "quizTitle": "Fun Writing Facts",
     "questions": [
       {
         "id": 1,
-        "question": "Which technology is expected to have the biggest impact on automating jobs in the next decade?",
-        "options": [
-          "Artificial Intelligence (AI)",
-          "Blockchain",
-          "3D Printing",
-          "Virtual Reality"
-        ],
-        "answer": "Artificial Intelligence (AI)"
+        "question": "On average, how many words per day does a person write by hand?",
+        "options": ["50", "100", "250", "500"],
+        "answer": "100 - Most people write roughly 100 words by hand daily in notes, forms, or messages."
       },
       {
         "id": 2,
-        "question": "By 2030, what percentage of the workforce is predicted to work remotely at least part of the time?",
-        "options": [
-          "15%",
-          "30%",
-          "50%",
-          "70%"
-        ],
-        "answer": "50%"
+        "question": "True or False: Typing is generally faster than handwriting for most people.",
+        "options": ["True", "False"],
+        "answer": "True - Average typing speed is around 40 words per minute, while handwriting averages 20 words per minute."
       },
       {
         "id": 3,
-        "question": "Which type of skill will be most in demand as automation increases?",
-        "options": [
-          "Routine manual labor",
-          "Creative and problem-solving skills",
-          "Basic data entry",
-          "Typing speed"
-        ],
-        "answer": "Creative and problem-solving skills"
+        "question": "Which country first introduced cursive handwriting in schools?",
+        "options": ["USA", "France", "Italy", "Germany"],
+        "answer": "France - Cursive was standardized in French schools in the 17th century."
       },
       {
         "id": 4,
-        "question": "What trend is leading companies to hire workers from anywhere in the world?",
-        "options": [
-          "Universal Basic Income",
-          "The Gig Economy",
-          "Remote collaboration tools",
-          "Shorter workweeks"
-        ],
-        "answer": "Remote collaboration tools"
+        "question": "Approximately what percentage of handwritten letters are never opened by the recipient?",
+        "options": ["10%", "25%", "50%", "70%"],
+        "answer": "25% - Studies suggest about one in four handwritten letters are overlooked."
       },
       {
         "id": 5,
-        "question": "What is the concept of a 'gig economy'?",
-        "options": [
-          "People working for one company their whole lives",
-          "Short-term, flexible jobs often coordinated through digital platforms",
-          "Mandatory government work programs",
-          "Companies offering unlimited vacation time"
-        ],
-        "answer": "Short-term, flexible jobs often coordinated through digital platforms"
+        "question": "True or False: Handwriting activates different brain areas than typing.",
+        "options": ["True", "False"],
+        "answer": "True - Handwriting engages fine motor skills and memory-related brain regions more than typing."
       },
       {
         "id": 6,
-        "question": "Which industry is predicted to see the greatest job growth due to an aging population?",
-        "options": [
-          "Healthcare",
-          "Agriculture",
-          "Retail",
-          "Construction"
-        ],
-        "answer": "Healthcare"
+        "question": "Which age group is most likely to prefer handwriting over typing?",
+        "options": ["Children", "Teenagers", "Adults 20-40", "Seniors 60+"],
+        "answer": "Children - Many studies show young learners benefit from writing by hand for learning letters and words."
       },
       {
         "id": 7,
-        "question": "What is 'upskilling' in the workplace?",
-        "options": [
-          "Moving to a higher office floor",
-          "Learning new skills to stay relevant as technology changes",
-          "Earning more money for the same job",
-          "Hiring only senior employees"
-        ],
-        "answer": "Learning new skills to stay relevant as technology changes"
+        "question": "True or False: People with messy handwriting tend to have higher IQs.",
+        "options": ["True", "False"],
+        "answer": "False - Messy handwriting does not correlate with intelligence; legibility is unrelated to IQ."
       },
       {
         "id": 8,
-        "question": "Which country has already experimented with a 4-day workweek to improve productivity and wellbeing?",
-        "options": [
-          "Japan",
-          "Iceland",
-          "United States",
-          "Brazil"
-        ],
-        "answer": "Iceland"
+        "question": "How many letters are in the longest known handwritten manuscript?",
+        "options": ["500,000", "1,000,000", "2,000,000", "3,000,000"],
+        "answer": "3,000,000 - The longest handwritten manuscripts, like religious texts, can reach millions of letters."
       },
       {
         "id": 9,
-        "question": "What is one potential risk of increased workplace automation?",
-        "options": [
-          "Employees will have too much vacation time",
-          "Mass job displacement in certain industries",
-          "Workplaces will become too quiet",
-          "Meetings will no longer exist"
-        ],
-        "answer": "Mass job displacement in certain industries"
+        "question": "True or False: Learning cursive can improve fine motor skills in children.",
+        "options": ["True", "False"],
+        "answer": "True - Studies show cursive improves coordination, dexterity, and brain activation."
+      },
+      {
+        "id": 10,
+        "question": "Which of these modern tools helps most people practice handwriting today?",
+        "options": ["Tablets with stylus", "Typewriters", "Voice recognition", "Chalkboards"],
+        "answer": "Tablets with stylus - Digital styluses allow handwriting practice in classrooms and at home."
       }
     ]
   }
