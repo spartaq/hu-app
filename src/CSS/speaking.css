@@ -48,8 +48,8 @@
   
   .mobile-menu-speaking {
     display: none;
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 10%;
     left: 20%;
     width: 100%;
     max-width: 800px;

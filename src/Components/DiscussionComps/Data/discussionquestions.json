@@ -3954,7 +3954,40 @@
   {
     "text": "If you could change one thing about meetings at your workplace, what would it be?",
     "topic": "meetings"
-  }
+  },
+  
+  { "text": "How do you imagine air travel will change in the next 20 years?", "topic": "futureATM" },
+  { "text": "What new technologies could make flying safer and more efficient?", "topic": "futureATM" },
+  { "text": "How might AI and automation impact jobs in air traffic control?", "topic": "futureATM" },
+  { "text": "Do you think remote towers and virtual ATC systems will replace traditional control towers in the future? Why or why not?", "topic": "futureATM" },
+  { "text": "How could the Internet of Things and connected devices change the way airports operate?", "topic": "futureATM" },
+  { "text": "What challenges do you foresee for managing increasingly busy skies in the future?", "topic": "futureATM" },
+  { "text": "If you could design the airport of the future, what features would it have?", "topic": "futureATM" },
+  { "text": "Do you think humans will always be necessary in air traffic control, or could AI take over completely?", "topic": "futureATM" },
+  { "text": "What environmental changes might affect air travel in the next 50 years?", "topic": "futureATM" },
+  { "text": "Could drones become a normal part of commercial air traffic? How would that change ATM?", "topic": "futureATM" },
+  { "text": "How might personal flying vehicles or flying taxis affect urban planning?", "topic": "futureATM" },
+  { "text": "Do you think long-haul flights will become faster with new technologies? Why or why not?", "topic": "futureATM" },
+  { "text": "How could AI help prevent accidents or human error in air traffic control?", "topic": "futureATM" },
+  { "text": "If airports could operate fully autonomously, what would be the benefits and drawbacks?", "topic": "futureATM" },
+  { "text": "How might virtual reality be used for pilot or controller training in the future?", "topic": "futureATM" },
+  { "text": "What ethical questions might arise if AI makes decisions in air traffic management?", "topic": "futureATM" },
+  { "text": "Could space travel become a routine part of air traffic management in the future?", "topic": "futureATM" },
+  { "text": "If passenger planes became electric, how would that change airport operations?", "topic": "futureATM" },
+  { "text": "How might global connectivity change the way people travel and how flights are managed?", "topic": "futureATM" },
+  { "text": "Do you think autonomous planes will require less air traffic control? Why or why not?", "topic": "futureATM" },
+  { "text": "How could predictive analytics improve efficiency and reduce delays in air traffic?", "topic": "futureATM" },
+  { "text": "If all flight data were shared in real-time globally, how might that change air travel safety?", "topic": "futureATM" },
+  { "text": "Could future air travel be fully personalized to passengers’ needs? How?", "topic": "futureATM" },
+  { "text": "What role might robotics play in airport and air traffic management in the next decades?", "topic": "futureATM" },
+  { "text": "If virtual or augmented reality replaced traditional flight simulators, how would training change?", "topic": "futureATM" },
+  { "text": "How might climate change affect flight paths, schedules, or ATM systems?", "topic": "futureATM" },
+  { "text": "Could entirely new flight corridors or airspaces be created to handle future air traffic? How?", "topic": "futureATM" },
+  { "text": "If passenger numbers doubled over the next 30 years, what changes would be necessary in ATM?", "topic": "futureATM" },
+  { "text": "How might AI assist with emergency responses or natural disasters affecting air travel?", "topic": "futureATM" },
+  { "text": "Do you think flying will become more affordable or exclusive in the future? Why?", "topic": "futureATM" }
+
+
 
 
   
