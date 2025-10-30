@@ -148,6 +148,7 @@ import Corruption from './Mainpages/Topics/corruption';
 import Value from './Mainpages/Topics/value';
 import Elections from './Mainpages/Topics/elections';
 import Music from './Mainpages/Topics/music';
+import AirtrafficFuture from './Mainpages/Topics/airtrafficfuture';
 
 
 
@@ -337,6 +338,10 @@ const router = createBrowserRouter([
           {
             path: 'topics/airtraffic',
             element: <Airtraffic />,
+          },
+          {
+            path: 'topics/airtrafficfuture',
+            element: <AirtrafficFuture />,
           },
           {
             path: 'topics/companypolicy',

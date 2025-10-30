@@ -1,5 +1,93 @@
 module.exports = [
-  
+  {
+  "readingcompTitle": "Top 10 Innovations in Air Traffic Control",
+  "topic": "aviation technology and air traffic management",
+  "level": "c1",
+  "image": "/Images/air_traffic_control.jpg",
+  "vocabulary": [
+    "evolving - developing gradually, especially from a simple to a more complex form",
+    "orchestrate - to arrange or direct elements to produce a desired effect, like a conductor with music",
+    "choreograph - to plan and organize carefully, often used metaphorically for complex coordination",
+    "surveillance - close observation, especially of people or objects in order to gather information",
+    "automation - the use of technology to perform tasks with minimal human intervention",
+    "optimize - to make as effective, perfect, or useful as possible",
+    "predictive - relating to the ability to foresee or estimate future events based on data",
+    "integration - the process of combining parts to make a unified whole",
+    "simulation - imitation of a real-world process or system over time, often for training or testing",
+    "connectivity - the state or quality of being connected, especially in networks or systems"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>As the skies get busier, air traffic control (ATC) is evolving with cutting-edge technology to ensure smoother, safer flights. Controllers are now like DJs, mixing data and systems to orchestrate the skies efficiently.</p>",
+        "<p>1. <strong>NextGen Air Traffic Control Systems</strong>: The FAA’s NextGen system introduces satellite-based tracking and automated routing, transforming air traffic management from maps to GPS-level precision.</p>",
+        "<p>2. <strong>Automatic Dependent Surveillance-Broadcast (ADS-B)</strong>: ADS-B broadcasts real-time aircraft data, giving controllers and pilots a clear view of each flight’s position, even in remote areas.</p>",
+        "<p>3. <strong>Integrated Flight Management Systems (FMS)</strong>: FMS optimizes flight plans and makes real-time adjustments, acting like a flight planner that never sleeps.</p>",
+        "<p>4. <strong>Data Link Communications</strong>: Digital communication technologies, such as CPDLC, reduce radio errors and ensure clear information exchange between pilots and controllers.</p>",
+        "<p>5. <strong>Surface Management Systems</strong>: These systems choreograph airport ground operations using radar and GPS, keeping aircraft moving smoothly on runways and taxiways.</p>",
+        "<p>6. <strong>Enhanced Traffic Flow Management Systems (TFMS)</strong>: TFMS uses real-time data and predictive analytics to prevent air traffic delays, acting like a traffic cop for the skies.</p>",
+        "<p>7. <strong>Artificial Intelligence (AI) and Machine Learning</strong>: AI assists in predicting traffic patterns, optimizing routes, and handling routine tasks with high accuracy.</p>",
+        "<p>8. <strong>Remote Towers</strong>: Remote towers allow controllers to manage smaller airports from afar using cameras and sensors, providing a bird’s-eye view of operations.</p>",
+        "<p>9. <strong>Virtual ATC Systems</strong>: These systems provide realistic simulations for training, replicating complex traffic scenarios for controllers.</p>",
+        "<p>10. <strong>Internet of Things (IoT) Integration</strong>: IoT connects devices and sensors to optimize air traffic and airport operations in real-time.</p>",
+        "<p>As aviation advances, these innovations are shaping safer, more efficient, and connected skies. NextGen, ADS-B, AI, and IoT are transforming air traffic control behind the scenes, ensuring smoother journeys for all travelers.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Which technology broadcasts real-time aircraft data for controllers and pilots?",
+          "choices": [
+            "a) NextGen",
+            "b) ADS-B",
+            "c) FMS",
+            "d) IoT"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "What is the main purpose of Surface Management Systems?",
+          "choices": [
+            "a) Predicting traffic patterns",
+            "b) Managing airport ground operations efficiently",
+            "c) Training air traffic controllers",
+            "d) Digital communication with pilots"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "How does AI assist in air traffic control?",
+          "choices": [
+            "a) By physically guiding aircraft on the runway",
+            "b) Predicting traffic patterns and optimizing routes",
+            "c) Replacing human controllers entirely",
+            "d) Broadcasting flight data"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "Which system allows controllers to manage remote airports without being physically present?",
+          "choices": [
+            "a) TFMS",
+            "b) Remote Towers",
+            "c) Virtual ATC Systems",
+            "d) FMS"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "Why is IoT important in modern air traffic control?",
+          "choices": [
+            "a) It provides real-time data from connected devices to improve efficiency",
+            "b) It replaces radar systems",
+            "c) It trains air traffic controllers",
+            "d) It broadcasts aircraft positions manually"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
   {
   "readingcompTitle": "The Uncertain Future of Handwriting",
   "topic": "education / technology",
