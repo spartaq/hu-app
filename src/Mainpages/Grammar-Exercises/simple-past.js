@@ -8,7 +8,7 @@ import mainimage from '../../Images/simplepast1.jpg';
 import { FaAngleDown } from "react-icons/fa";
 import RelatedExercises from '../../Utils/relatedExercises.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/simplepastexercisescomp.js';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/modalsobligationexplanation.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/simplepastexplanation';
 import GrammarPageLayout from '../../Components/GrammarPageLayout';
 
 const sections = [
