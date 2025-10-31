@@ -1,0 +1,146 @@
+{
+  "quizTitle": "Modals of Deduction (Present & Past)",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The meeting room is empty — they ___ finished already.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "must have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 2,
+      "question": "It’s too early — the manager ___ arrived yet.",
+      "options": ["must have", "might have", "can't have", "can't have"],
+      "answer": "can't have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 3,
+      "question": "The lights are off — they ___ gone home.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "must have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 4,
+      "question": "She looks tired — she ___ been working all night.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "must have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 5,
+      "question": "This report is full of mistakes — he ___ checked it carefully.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "can't have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 6,
+      "question": "He ___ be the new intern — I saw him with HR this morning.",
+      "options": ["must", "might", "can't", "should"],
+      "answer": "must",
+      "topic": "present-deduction"
+    },
+    {
+      "id": 7,
+      "question": "They ___ be in a meeting — their phones are off.",
+      "options": ["must", "might", "can't", "should"],
+      "answer": "must",
+      "topic": "present-deduction"
+    },
+    {
+      "id": 8,
+      "question": "You ___ be serious — that plan will never work.",
+      "options": ["must", "might", "can't", "should"],
+      "answer": "can't",
+      "topic": "present-deduction"
+    },
+    {
+      "id": 9,
+      "question": "He’s not answering — he ___ be driving.",
+      "options": ["must", "might", "can't", "should"],
+      "answer": "might",
+      "topic": "present-deduction"
+    },
+    {
+      "id": 10,
+      "question": "She ___ be at home; I just saw her in the office.",
+      "options": ["must", "might", "can't", "should"],
+      "answer": "can't",
+      "topic": "present-deduction"
+    },
+    {
+      "id": 11,
+      "question": "They ___ forgotten about the call — it’s already 3 p.m.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "might have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 12,
+      "question": "She ___ sent the email; check your inbox again.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "must have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 13,
+      "question": "He ___ received our message — he hasn’t replied yet.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "can't have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 14,
+      "question": "The delivery is already here — they ___ left the warehouse early.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "must have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 15,
+      "question": "You ___ seen him yesterday — he was abroad all week.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "can't have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 16,
+      "question": "That explanation ___ be true — it fits all the facts.",
+      "options": ["must", "might", "can't", "should"],
+      "answer": "must",
+      "topic": "present-deduction"
+    },
+    {
+      "id": 17,
+      "question": "She ___ have left early; her jacket is still here.",
+      "options": ["must", "might", "can't", "should"],
+      "answer": "can't",
+      "topic": "present-deduction"
+    },
+    {
+      "id": 18,
+      "question": "They ___ be on vacation — their out-of-office replies are active.",
+      "options": ["must", "might", "can't", "should"],
+      "answer": "must",
+      "topic": "present-deduction"
+    },
+    {
+      "id": 19,
+      "question": "He ___ misunderstood the instructions; the results are wrong.",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "must have",
+      "topic": "past-deduction"
+    },
+    {
+      "id": 20,
+      "question": "That ___ been easy — finishing the project in one day!",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answer": "can't have",
+      "topic": "past-deduction"
+    }
+  ]
+}
