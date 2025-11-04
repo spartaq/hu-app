@@ -1,7 +1,126 @@
 
 [
   
-
+{
+    "text": "How do you usually give suggestions at work? Directly or indirectly?",
+    "topic": "exa"
+  },
+  {
+    "text": "When your boss asks for your opinion, how do you decide what to say?",
+    "topic": "exa"
+  },
+  {
+    "text": "What’s the best way to give advice to someone in a higher position than you?",
+    "topic": "exa"
+  },
+  {
+    "text": "Can you think of a time when your suggestion made a real difference at work?",
+    "topic": "exa"
+  },
+  {
+    "text": "How do you react when your advice or recommendation is ignored?",
+    "topic": "exa"
+  },
+  {
+    "text": "What’s the most useful piece of advice you’ve received in your career?",
+    "topic": "exa"
+  },
+  {
+    "text": "When do you think it’s better to keep your opinion to yourself?",
+    "topic": "exa"
+  },
+  {
+    "text": "Do you think people at your company are open to feedback?",
+    "topic": "exa"
+  },
+  {
+    "text": "How do you recommend improvements without sounding critical?",
+    "topic": "exa"
+  },
+  {
+    "text": "Have you ever had to advise your boss about something sensitive?",
+    "topic": "exa"
+  },
+  {
+    "text": "What’s the difference between giving advice and offering help?",
+    "topic": "exa"
+  },
+  {
+    "text": "When someone gives you advice you don’t agree with, how do you respond?",
+    "topic": "exa"
+  },
+  {
+    "text": "What’s the best way to make a suggestion sound persuasive?",
+    "topic": "exa"
+  },
+  {
+    "text": "Do you think AI assistants will eventually replace human executive assistants?",
+    "topic": "exa"
+  },
+  {
+    "text": "If a colleague asks for your advice but never takes it, how do you handle that?",
+    "topic": "exa"
+  },
+  {
+    "text": "What would you suggest if two team members were having a conflict?",
+    "topic": "exa"
+  },
+  {
+    "text": "How do you handle situations when your boss is under extreme stress?",
+    "topic": "exa"
+  },
+  {
+    "text": "What advice would you give to someone who struggles to say no at work?",
+    "topic": "exa"
+  },
+  {
+    "text": "If a coworker keeps making the same mistake, how would you deal with it?",
+    "topic": "exa"
+  },
+  {
+    "text": "How do you stay calm and professional during a crisis or urgent situation?",
+    "topic": "exa"
+  },
+  {
+    "text": "What would you advise someone to do if they feel undervalued at work?",
+    "topic": "exa"
+  },
+  {
+    "text": "How do you handle giving bad news to your boss or a colleague?",
+    "topic": "exa"
+  },
+  {
+    "text": "If your boss asks you to do something you think is a bad idea, what would you say?",
+    "topic": "exa"
+  },
+  {
+    "text": "What advice would you give to someone starting a new job in a tech company?",
+    "topic": "exa"
+  },
+  {
+    "text": "How do you separate your personal opinions from professional advice?",
+    "topic": "exa"
+  },
+  {
+    "text": "What advice would you give to a friend who’s feeling burnt out?",
+    "topic": "exa"
+  },
+  {
+    "text": "How do you usually react when someone gives you personal advice?",
+    "topic": "exa"
+  },
+  {
+    "text": "What’s a piece of life advice you wish you had received earlier?",
+    "topic": "exa"
+  },
+  {
+    "text": "What would you suggest to someone trying to balance work and family life?",
+    "topic": "exa"
+  },
+  {
+    "text": "How do you advise yourself to handle stress or frustration on busy days?",
+    "topic": "exa"
+  },
   { "text": "Why do you think handwriting has declined in many schools?", "topic": "writing" },
   { "text": "How has technology, like computers and tablets, changed the way we communicate?", "topic": "writing" },
   { "text": "Do you think AI tools will improve or weaken our writing skills? Why?", "topic": "writing" },
