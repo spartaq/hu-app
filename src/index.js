@@ -149,6 +149,7 @@ import Value from './Mainpages/Topics/value';
 import Elections from './Mainpages/Topics/elections';
 import Music from './Mainpages/Topics/music';
 import AirtrafficFuture from './Mainpages/Topics/airtrafficfuture';
+import Gambling from './Mainpages/Topics/gambling';
 
 
 
@@ -382,6 +383,10 @@ const router = createBrowserRouter([
           { 
             path: 'topics/writing',
             element: <Writing />,
+          },
+          { 
+            path: 'topics/gambling',
+            element: <Gambling />,
           },
           {
             path: 'grammar-exercises',

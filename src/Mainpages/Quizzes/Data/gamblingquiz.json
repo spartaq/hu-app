@@ -1,0 +1,98 @@
+[
+  {
+    "quiz": 1,
+    "quizTitle": "Gambling Facts and Statistics",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What percentage of adults worldwide gamble at least once a year?",
+        "options": ["15%", "25%", "60%", "75%"],
+        "answer": "60% - Around 60% of adults globally participate in some form of gambling annually, from lotteries to casinos."
+      },
+      {
+        "id": 2,
+        "question": "True or False: Online gambling is now larger than all physical casinos combined.",
+        "options": ["True", "False"],
+        "answer": "False - Online gambling is rapidly growing but still slightly smaller than the total physical casino market."
+      },
+      {
+        "id": 3,
+        "question": "Which country spends the most money per person on gambling?",
+        "options": ["USA", "Australia", "China", "UK"],
+        "answer": "Australia - Australians lose more per capita to gambling than any other nation, averaging over $1,000 per adult per year."
+      },
+      {
+        "id": 4,
+        "question": "Approximately what percentage of gamblers develop a gambling problem?",
+        "options": ["1-2%", "5-6%", "10-12%", "15-20%"],
+        "answer": "1-2% - Studies show about 1–2% of gamblers develop serious gambling addiction symptoms."
+      },
+      {
+        "id": 5,
+        "question": "True or False: Slot machines are designed to make players feel like they’re winning even when they’re losing.",
+        "options": ["True", "False"],
+        "answer": "True - Many slot machines use 'near-miss' effects and sounds to simulate frequent wins."
+      },
+      {
+        "id": 6,
+        "question": "How much money does the global gambling industry generate each year (as of 2024)?",
+        "options": ["$50 billion", "$150 billion", "$300 billion", "$500 billion"],
+        "answer": "$300 billion - The worldwide gambling market is estimated at roughly $300 billion annually."
+      },
+      {
+        "id": 7,
+        "question": "Which age group is statistically the most likely to gamble?",
+        "options": ["Teens (13–19)", "Young Adults (20–35)", "Middle-aged (36–55)", "Seniors (56+)"],
+        "answer": "Young Adults (20–35) - Young adults are the most active gamblers, especially in online platforms and sports betting."
+      },
+      {
+        "id": 8,
+        "question": "True or False: Most gamblers win money over time if they play skill-based games like poker.",
+        "options": ["True", "False"],
+        "answer": "False - Even in skill-based games, the majority of players lose money over time due to the house edge and skill differences."
+      },
+      {
+        "id": 9,
+        "question": "What’s the most popular form of gambling worldwide?",
+        "options": ["Lotteries", "Sports betting", "Casino games", "Online poker"],
+        "answer": "Lotteries - Lotteries are the most common form of gambling, played by over 60% of adults in many countries."
+      },
+      {
+        "id": 10,
+        "question": "True or False: Problem gambling rates increase significantly when gambling is easily accessible online.",
+        "options": ["True", "False"],
+        "answer": "True - Studies show accessibility and constant availability increase problem gambling rates."
+      },
+      {
+        "id": 11,
+        "question": "What percentage of casino revenue typically comes from problem gamblers?",
+        "options": ["5%", "15%", "25%", "40%"],
+        "answer": "25% - Roughly a quarter of casino revenue comes from people who gamble more than they can afford."
+      },
+      {
+        "id": 12,
+        "question": "Which gambling activity has the lowest odds of winning for players?",
+        "options": ["Roulette", "Slot machines", "Blackjack", "Lottery"],
+        "answer": "Lottery - The odds of winning major lottery jackpots can be as low as 1 in 300 million."
+      },
+      {
+        "id": 13,
+        "question": "True or False: The brain releases dopamine during both wins and near-misses.",
+        "options": ["True", "False"],
+        "answer": "True - Neuroscience shows that near-misses trigger the same dopamine response as actual wins, reinforcing play."
+      },
+      {
+        "id": 14,
+        "question": "In what year did online gambling first become available to the public?",
+        "options": ["1990", "1994", "2000", "2005"],
+        "answer": "1994 - The first online casino was launched in 1994 after Antigua and Barbuda passed the Free Trade & Processing Act."
+      },
+      {
+        "id": 15,
+        "question": "True or False: More people gamble on their phones than on computers today.",
+        "options": ["True", "False"],
+        "answer": "True - Mobile gambling has overtaken desktop play due to convenience and app-based platforms."
+      }
+    ]
+  }
+]

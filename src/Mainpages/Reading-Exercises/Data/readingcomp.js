@@ -1,4 +1,85 @@
 module.exports = [
+{
+  "readingcompTitle": "Luck, Loss, and the Rise of Online Gambling",
+  "topic": "gambling",
+  "level": "b2",
+  "image": "/Images/gambling.webp",
+  "vocabulary": [
+    "wager - to bet money on an event or game",
+    "anonymity - being unknown or unidentifiable",
+    "addiction - the inability to stop doing something harmful",
+    "odds - the chances of winning or losing a bet",
+    "dopamine - a brain chemical linked to pleasure and reward",
+    "fallacy - a mistaken belief or idea",
+    "stigma - negative feelings or shame about something",
+    "regulation - government control or rule",
+    "bias - a tendency to think in a particular way",
+    "interface - the design or layout of a website or app"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Gambling has changed dramatically in recent years. What once happened in casinos and betting shops now takes place on smartphones and computers. People can now wager on sports, politics, or even the weather. The Covid-19 lockdown accelerated this move online, giving players easy access and anonymity. In 2024, Europe’s regulated gambling market was worth about €137 billion, with online gambling making up around 40% of it.</p>",
+        "<p>Online gambling’s popularity is partly due to its convenience and constant availability. Studies show that moving even 10% of gambling online can increase the risk of addiction. Many sites use psychological tricks to keep users playing—celebrating ‘near misses’, offering free bets, or making deposits easy but withdrawals difficult. These features stimulate dopamine in the brain and make players feel they are in control when they are not.</p>",
+        "<p>Advertisements, especially in sports, have helped normalize gambling and reduce its stigma. But experts warn that this growing accessibility can lead to financial and mental health problems, especially among young people. Setting limits, taking breaks, and stronger regulations can help ensure that gambling stays entertainment—not a dangerous habit.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main reason gambling has become more popular recently?",
+          "choices": [
+            "a) More casinos have opened",
+            "b) Online access has made gambling easier and more private",
+            "c) People have more free time",
+            "d) Governments encourage gambling"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "What happened to gambling during the Covid-19 lockdown?",
+          "choices": [
+            "a) It decreased because casinos closed",
+            "b) It stopped completely",
+            "c) It moved mostly online",
+            "d) It became illegal in Europe"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What psychological effect makes people continue betting after losing?",
+          "choices": [
+            "a) Fear of missing out",
+            "b) Sunk cost fallacy",
+            "c) Hyperbolic discounting",
+            "d) Optimism bias"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "How do gambling companies make users feel more in control?",
+          "choices": [
+            "a) By showing real odds",
+            "b) By using designs that celebrate near-misses or wins",
+            "c) By limiting how often users can play",
+            "d) By offering fewer games"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "According to the text, how can gambling be made safer?",
+          "choices": [
+            "a) By banning all ads",
+            "b) By letting users set limits and using better regulation",
+            "c) By giving more free bets",
+            "d) By increasing prizes"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+
   {
   "readingcompTitle": "Top 10 Innovations in Air Traffic Control",
   "topic": "aviation technology and air traffic management",

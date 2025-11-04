@@ -30,6 +30,7 @@ import quizUnlessData from "../Utils/Activities/Data/quiz/unlessexercisequiz.jso
 import quizAdjadvData from "../Utils/Activities/Data/quiz/adjadvexercisequiz.json";
 import quizSuggestData from "../Utils/Activities/Data/quiz/suggestexercisequiz.json";
 import quizSoenoughData from "../Utils/Activities/Data/quiz/soenoughexercisequiz.json";
+import quizLinkingwordsData from "../Utils/Activities/Data/quiz/linkingwordsexercisequiz.json";
 import quizPunctuationData from "../Utils/Activities/Data/quiz/punctuationexercisequiz.json";
 import orderingPresentData from "../Utils/Activities/Data/ordering/wordorder_present.json";
 import orderingPastData from "../Utils/Activities/Data/ordering/wordorder_past.json";
@@ -157,6 +158,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return quizSoenoughData;
             case "punctuation":
               return quizPunctuationData;
+            case "linkingwords":
+              return quizLinkingwordsData;
             case "smartphones":
               return topicExerciseSmartphones;
             default:
