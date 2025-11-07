@@ -12,9 +12,7 @@ import GrammarExplanation from '../../Components/GrammarExplanationComps/modalsd
 import GrammarPageLayout from '../../Components/GrammarPageLayout';
 
 const sections = [
-  { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "simple-past" },
-  { label: "Exercises", description: "Do this exercise to practice grammar.", type: "quiz", subtype: "simplepast" },
-  { label: "Reading", description: "Do this exercise to practice reading and learn new vocabulary.", type: "reading", subtype: "simplepast" },
+  { label: "Exercises", description: "Do this exercise to practice grammar.", type: "quiz", subtype: "deduction" },
 ];
 
 const ModalsDeduction = () => (
