@@ -11,9 +11,6 @@ import Grammarexercises from '../../Components/GrammarExerciseComps/suggestexerc
 import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js'
 
-import CategoryMatch from '../../Utils/Activities/VocabMatch.js';
-import GapMatch from '../../Utils/Activities/VocabMatch.js';
-import categoryData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import gapfillData from '../Vocabulary-Exercises/Data/gapfill.json';
 import Video from '../../Components/VideoComps/videocomponent.js';
 import videoData from '../Videos/Data/video.json';
@@ -22,8 +19,12 @@ import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/advicequiz.json';
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
+import headerimg from '../../Images/secondcond1.webp';
+import ToggleSection from '../../Utils/toggleSection';
 
-const gossipGapfill = gapfillData.find(item => item.topic === "gossip" && item.type === "gap-fill");
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "suggest" },
+];
 
 Modal.setAppElement('#root');
 
@@ -40,7 +41,10 @@ const Advice = () => {
 
             <div className="agenda-container">
                 <div className="agenda-title">
-                    <h1 className="mt-2">Advice</h1>
+                    <h1 className="mt-2">Advice</h1><
+                        div className="grammarimage">
+                      <img src={headerimg} alt="English Exam Exercises" />
+                    </div>  
                 </div>
 
                 <div className="agenda-languagepoint">Language Point</div>
@@ -52,47 +56,31 @@ const Advice = () => {
                         <div>
                         <GrammarExplanation />
                         </div>
+
+                        <div>
                    
+                               <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
+                    </div>                   
                         <div className="agenda-display-grid">
                            <Grammarexercises />
                         </div>
-                   
-                    
-
-                </div>
+                </div>                
                 
-                <div className="agenda-vocabulary">Vocabulary</div>              
-                   
-                <div className="agenda-display-grid">
-                    
-                    <CategoryMatch
-                    data={categoryData}
-                    topic="sports"
-                    type="categorization"
-                    />
-<hr></hr>
-                    <GapMatch 
-                    data={gapfillData}
-                    topic="gossip" 
-                    type="gap-fill"
-                    text={gossipGapfill?.text}
-                    />
-
-                
-
-                    
-                    </div>
-                    
-                    <div>Quiz
+                   <div className="agenda-quiz">Quiz</div>  
+                    <div>
                     <Quiz quizzesData={quizzesData} /> 
-                    </div>
-                    
+                    </div>                    
                 
 
                 <div className="agenda-reading">Reading</div> 
                 <div className="reading-container">
                 <div className="agenda-display-grid">
-                <Reading readings={readingcompData} title="Plane Crashes: Perception vs. Reality" />
+                <Reading readings={readingcompData} title="" />
                     </div>
                 </div>
                 
@@ -102,7 +90,7 @@ const Advice = () => {
                 <Video videos={videoData} title="The Secret to Great Feedback" />
                 
                 <div className="agenda-discussion">Discussion</div>
-                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="advice" />
+                <RandomQuestionGenerator discussionquestions={discussionquestionsData} topic="exa" />
             </div>
         </div>
     );

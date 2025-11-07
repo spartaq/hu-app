@@ -1,4 +1,14 @@
 module.exports = [
+    {
+        "id": "gambling",
+        "title": "Gambling",
+        "subtitle": "Future",
+        "category": "General",
+        "level": "B1",
+        "time": "45 min",
+        "description": "A lesson to talk about the future of ATM",
+        "image": "/Images/gambling.webp"
+      },
   {
         "id": "airtrafficfuture",
         "title": "The Future of Air Traffic Management",
@@ -7,7 +17,7 @@ module.exports = [
         "level": "B1",
         "time": "45 min",
         "description": "A lesson to talk about the future of ATM",
-        "image": "/Images/quiz1.jpg"
+        "image": "/Images/airdelay1.webp"
       },
   {
         "id": "writing",
