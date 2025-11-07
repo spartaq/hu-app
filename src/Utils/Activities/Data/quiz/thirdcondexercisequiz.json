@@ -1,0 +1,76 @@
+{
+  "quizTitle": "Third Conditional – Meetings and Missed Opportunities",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "If we ___ (prepare) the agenda earlier, the meeting ___ (be) more productive.",
+      "options": ["had prepared / would have been", "prepared / would be", "prepare / will be", "had prepare / would have been"],
+      "answer": "had prepared / would have been",
+      "topic": "meetings"
+    },
+    {
+      "id": 2,
+      "question": "If the manager ___ (send) the invitation on time, everyone ___ (attend).",
+      "options": ["had sent / would have attended", "sent / would attend", "sends / will attend", "had send / would have attended"],
+      "answer": "had sent / would have attended",
+      "topic": "meetings"
+    },
+    {
+      "id": 3,
+      "question": "We ___ (finish) the project earlier if the meeting ___ (start) on time.",
+      "options": ["would have finished / had started", "had finished / would have started", "would finish / started", "finish / start"],
+      "answer": "would have finished / had started",
+      "topic": "meetings"
+    },
+    {
+      "id": 4,
+      "question": "If Sarah ___ (not interrupt) so often, we ___ (reach) a decision faster.",
+      "options": ["had not interrupted / would have reached", "didn't interrupt / would reach", "not interrupted / would reach", "hadn't interrupt / would have reached"],
+      "answer": "had not interrupted / would have reached",
+      "topic": "meetings"
+    },
+    {
+      "id": 5,
+      "question": "The meeting ___ (be) more effective if everyone ___ (read) the report in advance.",
+      "options": ["would have been / had read", "had been / would have read", "was / read", "would be / read"],
+      "answer": "would have been / had read",
+      "topic": "meetings"
+    },
+    {
+      "id": 6,
+      "question": "If we ___ (book) a larger room, the team ___ (feel) more comfortable.",
+      "options": ["had booked / would have felt", "booked / would feel", "book / will feel", "had book / would have felt"],
+      "answer": "had booked / would have felt",
+      "topic": "meetings"
+    },
+    {
+      "id": 7,
+      "question": "If Tom ___ (check) the projector, the presentation ___ (not fail).",
+      "options": ["had checked / would not have failed", "checked / would not fail", "has checked / will not fail", "had check / would not have failed"],
+      "answer": "had checked / would not have failed",
+      "topic": "meetings"
+    },
+    {
+      "id": 8,
+      "question": "We ___ (avoid) confusion if the chairperson ___ (clarify) the action points.",
+      "options": ["would have avoided / had clarified", "avoided / clarified", "would avoid / clarifies", "had avoided / would have clarified"],
+      "answer": "would have avoided / had clarified",
+      "topic": "meetings"
+    },
+    {
+      "id": 9,
+      "question": "If the meeting ___ (end) earlier, we ___ (have) time for lunch together.",
+      "options": ["had ended / would have had", "ended / would have", "end / will have", "had end / would have had"],
+      "answer": "had ended / would have had",
+      "topic": "meetings"
+    },
+    {
+      "id": 10,
+      "question": "If I ___ (know) it was so important, I ___ (join) the meeting myself.",
+      "options": ["had known / would have joined", "knew / would join", "know / will join", "had know / would have joined"],
+      "answer": "had known / would have joined",
+      "topic": "meetings"
+    }
+  ]
+}
