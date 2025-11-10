@@ -2,11 +2,11 @@ module.exports = [
     {
         "id": "gambling",
         "title": "Gambling",
-        "subtitle": "Future",
+        "subtitle": "Linking Words",
         "category": "General",
         "level": "B1",
         "time": "45 min",
-        "description": "A lesson to talk about the future of ATM",
+        "description": "A lesson to talk about gambling",
         "image": "/Images/gambling.webp"
       },
   {

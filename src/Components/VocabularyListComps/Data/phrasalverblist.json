@@ -1,4 +1,55 @@
 [
+
+  {
+    "word": "bet",
+    "definition": "to risk money on the outcome of an event or game",
+    "topic": "gambling"
+  },
+  {
+    "word": "wager",
+    "definition": "a formal or larger-scale term for a bet; the money or item risked on an uncertain outcome",
+    "topic": "gambling"
+  },
+  {
+    "word": "odds",
+    "definition": "the probability or likelihood of a particular outcome occurring",
+    "topic": "gambling"
+  },
+  {
+    "word": "stake",
+    "definition": "the amount of money risked in a bet or game",
+    "topic": "gambling"
+  },
+  {
+    "word": "payout",
+    "definition": "the amount of money won or paid out after a bet or game",
+    "topic": "gambling"
+  },
+  {
+    "word": "dealer",
+    "definition": "the person responsible for distributing cards or managing bets in a gambling game",
+    "topic": "gambling"
+  },
+  {
+    "word": "bluff",
+    "definition": "to deceive opponents into thinking you have a stronger hand or position than you actually do",
+    "topic": "gambling"
+  },
+  {
+    "word": "double down",
+    "definition": "in blackjack, to double your bet after seeing your initial cards; also means to commit strongly to a decision",
+    "topic": "gambling"
+  },
+  {
+    "word": "bust",
+    "definition": "in card games, to exceed the limit and automatically lose the hand",
+    "topic": "gambling"
+  },
+  {
+    "word": "lucky streak",
+    "definition": "a period during which someone has a series of wins or good fortune",
+    "topic": "gambling"
+  },
   {
     "word": "build up",
     "definition": "to gradually create or develop something, such as a strong brand reputation",

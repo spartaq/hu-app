@@ -1,0 +1,76 @@
+{
+  "quizTitle": "Third Conditional – Coffee",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "If I ___ more coffee this morning, I wouldn’t have fallen asleep in the meeting.",
+      "options": ["drink", "drank", "had drunk", "have drunk"],
+      "answer": "had drunk",
+      "topic": "coffee"
+    },
+    {
+      "id": 2,
+      "question": "If we ___ better coffee beans, the espresso would have tasted amazing.",
+      "options": ["buy", "bought", "had bought", "have bought"],
+      "answer": "had bought",
+      "topic": "coffee"
+    },
+    {
+      "id": 3,
+      "question": "If she ___ the machine on, we could have had fresh coffee ready by now.",
+      "options": ["leave", "left", "had left", "was leaving"],
+      "answer": "had left",
+      "topic": "coffee"
+    },
+    {
+      "id": 4,
+      "question": "If they ___ about the discount, they would have ordered more coffee.",
+      "options": ["know", "knew", "had known", "have known"],
+      "answer": "had known",
+      "topic": "coffee"
+    },
+    {
+      "id": 5,
+      "question": "If the café ___ earlier, we wouldn’t have had to get coffee from the machine.",
+      "options": ["open", "opened", "had opened", "was opening"],
+      "answer": "had opened",
+      "topic": "coffee"
+    },
+    {
+      "id": 6,
+      "question": "If I ___ sugar in my coffee, it wouldn’t have tasted so bitter.",
+      "options": ["put", "puts", "had put", "have put"],
+      "answer": "had put",
+      "topic": "coffee"
+    },
+    {
+      "id": 7,
+      "question": "If we ___ that meeting at the coffee shop, everyone would have been more relaxed.",
+      "options": ["hold", "held", "had held", "have held"],
+      "answer": "had held",
+      "topic": "coffee"
+    },
+    {
+      "id": 8,
+      "question": "If he ___ the coffee too long, it wouldn’t have turned cold.",
+      "options": ["not forget", "didn’t forget", "hadn’t forgotten", "wasn’t forgetting"],
+      "answer": "hadn’t forgotten",
+      "topic": "coffee"
+    },
+    {
+      "id": 9,
+      "question": "If I ___ a cup before leaving, I wouldn’t have been so tired on the train.",
+      "options": ["make", "made", "had made", "was making"],
+      "answer": "had made",
+      "topic": "coffee"
+    },
+    {
+      "id": 10,
+      "question": "If the barista ___ your order correctly, you wouldn’t have received a decaf.",
+      "options": ["take", "took", "had taken", "was taking"],
+      "answer": "had taken",
+      "topic": "coffee"
+    }
+  ]
+}

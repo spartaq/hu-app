@@ -14,6 +14,8 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/linkingwordsexercisescomp.js';
 import GrammarExplanation from '../../Components/GrammarExplanationComps/linkingwordsexplanation.js';
+import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
+import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/gamblingquiz.json';
 import headerimg from '../../Images/gambling.webp';
@@ -70,17 +72,15 @@ const Gambling = () => {
            </div>
                     </div>
 
-                    <div>
+                    
 
-                   
-                        <div className="agenda-display-grid">
-                           <GrammarExercises />
-                        </div>
-                   
-                    </div>
+                </div>
 
-                    linkingwords
-
+                 <div className="agenda-vocabulary">Vocabulary</div>
+                <div>                   
+                    <div className="agenda-display-grid">
+                        <PhrasalverbsList data={idiomData} topic="gambling" />
+                    </div>                    
                 </div>
 
                 <div className="agenda-quiz">Quiz</div> 
