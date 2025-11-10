@@ -15,17 +15,17 @@ import RandomQuestionGenerator from '../../Components/DiscussionComps/questionge
 import VocabularyMatch from '../../Utils/vocabmatchcolumn.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/meetingsquiz.json';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/reportedspeechexplanation.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/thirdcondexplanation.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/modalsdeductionexercisescomp.js';
 import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import idiomData from "../../Mainpages/Vocabulary-Exercises/Data/idioms.json";
 import PhrasalverbsList from '../../Components/VocabularyListComps/phrasalverblist.js';
 import ToggleSection from '../../Utils/toggleSection';
-import headerimg from '../../Images/meetings.jpg';
+import headerimg from '../../Images/atm-businessdev.jpg';
 
 
 const sections = [
-  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "reportedspeech" },
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "thirdcond" },
 ];
 
 
@@ -53,12 +53,7 @@ const Meetings = () => {
                 </div> 
                 
                 
-                <div className="agenda-subtitle">Quiz</div> 
-                <div>                   
-                    <div className="agenda-display-grid">
-                        <Quiz quizzesData={quizzesData} />
-                    </div>                    
-                </div>
+                
 
                 <div className="agenda-languagepoint">Language Point</div>
                 
@@ -91,6 +86,13 @@ const Meetings = () => {
                 <div>                   
                     <div className="agenda-display-grid">
                         <PhrasalverbsList data={idiomData} topic="meetings" />
+                    </div>                    
+                </div>
+
+                <div className="agenda-quiz">Quiz</div> 
+                <div>                   
+                    <div className="agenda-display-grid">
+                        <Quiz quizzesData={quizzesData} />
                     </div>                    
                 </div>
 
