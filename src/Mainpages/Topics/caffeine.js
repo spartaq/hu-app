@@ -11,13 +11,18 @@ import Video from '../../Components/VideoComps/videocomponent.js';
 import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import '../../CSS/lesson-agenda.css';
-import GrammarExplanation from '../../Components/GrammarExplanationComps/indspeechexplanation.js';
+import GrammarExplanation from '../../Components/GrammarExplanationComps/thirdcondexplanation.js';
 import GrammarExercises from '../../Components/GrammarExerciseComps/indspeechexercisecomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/caffeinequiz.json';
 import headerimg from '../../Images/caffeine1.webp';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "thirdcond" },
+];
 
 Modal.setAppElement('#root');
 
@@ -59,13 +64,16 @@ const Caffeine = () => {
                     </div>
 
                     <div>
-
                    
-                        <div className="agenda-display-grid">
-                           <GrammarExercises />
-                        </div>
-                   
+                               <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
                     </div>
+
+                    
 
                 </div>
 

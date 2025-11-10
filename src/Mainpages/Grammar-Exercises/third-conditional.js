@@ -5,6 +5,7 @@ import GrammarExplanation from '../../Components/GrammarExplanationComps/thirdco
 import mainimage from '../../Images/thirdcond1.jpg';
 
 const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "thirdcond" },
   { label: "Grammar", description: "Do this exercise to practice grammar.", type: "grammar", subtype: "third-conditional" },
 ];
 
