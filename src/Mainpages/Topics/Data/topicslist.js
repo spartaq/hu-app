@@ -42,7 +42,7 @@ module.exports = [
   {
         "id": "elections",
         "title": "Elections",
-        "subtitle": "Indirect Questions",
+        "subtitle": "Reported Speech",
         "category": "General",
         "level": "B1",
         "time": "45 min",
@@ -62,7 +62,7 @@ module.exports = [
   {
       "id": "value",
       "title": "What Makes Something Valuable",
-      "subtitle": "unless",
+      "subtitle": "Unless",
       "category": "General",
       "level": "B2",
       "time": "60 min",

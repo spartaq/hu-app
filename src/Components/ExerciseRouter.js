@@ -20,6 +20,7 @@ import quizObligationData from "../Utils/Activities/Data/quiz/modalsObligationEx
 import quizSecondcondData from "../Utils/Activities/Data/quiz/secondcondexercisequiz.json";
 import quizHabitsData from "../Utils/Activities/Data/quiz/habitsexercisequiz.json";
 import quizGerundsData from "../Utils/Activities/Data/quiz/gerundsexercisequiz.json";
+import quizInfinitivesData from "../Utils/Activities/Data/quiz/infinitivesexercisequiz.json";
 import quizTenseData from "../Utils/Activities/Data/quiz/tenseexercisequiz.json";
 import quizReportedspeechData from "../Utils/Activities/Data/quiz/reportedspeechexercisequiz.json";
 import quizComparisonData from "../Utils/Activities/Data/quiz/comparisonexercisesquiz.json";
@@ -138,6 +139,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return quizHabitsData;
             case "gerunds":
               return quizGerundsData;
+            case "infinitives":
+              return quizInfinitivesData;
             case "tense":
               return quizTenseData;
             case "reportedspeech":

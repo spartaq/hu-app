@@ -1,0 +1,146 @@
+{
+  "quizTitle": "Infinitives with Verbs",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "She agreed ___ early so they could catch the first train.",
+      "options": ["leaving", "to leave", "leave", "left"],
+      "answer": "to leave",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 2,
+      "question": "We decided ___ the meeting until everyone could attend.",
+      "options": ["postpone", "to postpone", "postponing", "postponed"],
+      "answer": "to postpone",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 3,
+      "question": "He chose ___ in a smaller city to have a better work-life balance.",
+      "options": ["live", "to live", "living", "lived"],
+      "answer": "to live",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 4,
+      "question": "I expect ___ a reply from the company by next week.",
+      "options": ["receive", "to receive", "receiving", "received"],
+      "answer": "to receive",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 5,
+      "question": "We hope ___ enough money to travel abroad next summer.",
+      "options": ["save", "to save", "saving", "saved"],
+      "answer": "to save",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 6,
+      "question": "They intend ___ a new product by the end of the year.",
+      "options": ["launch", "to launch", "launching", "launched"],
+      "answer": "to launch",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 7,
+      "question": "She managed ___ the project before the deadline.",
+      "options": ["complete", "to complete", "completing", "completed"],
+      "answer": "to complete",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 8,
+      "question": "He offered ___ me with the report after work.",
+      "options": ["help", "helping", "to help", "helped"],
+      "answer": "to help",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 9,
+      "question": "I failed ___ the document on time because of a system error.",
+      "options": ["send", "to send", "sending", "sent"],
+      "answer": "to send",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 10,
+      "question": "They promised ___ the presentation slides later today.",
+      "options": ["share", "to share", "sharing", "shared"],
+      "answer": "to share",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 11,
+      "question": "She refused ___ about the mistake during the interview.",
+      "options": ["talk", "to talk", "talking", "talked"],
+      "answer": "to talk",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 12,
+      "question": "We arranged ___ at the office before the event started.",
+      "options": ["meet", "to meet", "meeting", "met"],
+      "answer": "to meet",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 13,
+      "question": "He attempted ___ the password several times but failed.",
+      "options": ["enter", "to enter", "entering", "entered"],
+      "answer": "to enter",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 14,
+      "question": "She learned ___ the new software in just a few hours.",
+      "options": ["use", "to use", "using", "used"],
+      "answer": "to use",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 15,
+      "question": "I would like ___ dinner at that new restaurant tonight.",
+      "options": ["have", "to have", "having", "had"],
+      "answer": "to have",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 16,
+      "question": "They tend ___ too optimistic about their project deadlines.",
+      "options": ["be", "to be", "being", "been"],
+      "answer": "to be",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 17,
+      "question": "He tried ___ the machine, but it still didn’t work.",
+      "options": ["fix", "to fix", "fixing", "fixed"],
+      "answer": "to fix",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 18,
+      "question": "We plan ___ our vacation for early July this year.",
+      "options": ["take", "to take", "taking", "took"],
+      "answer": "to take",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 19,
+      "question": "I forgot ___ the lights off before leaving the office.",
+      "options": ["turn", "to turn", "turning", "turned"],
+      "answer": "to turn",
+      "topic": "Infinitives"
+    },
+    {
+      "id": 20,
+      "question": "She loves ___ early and enjoying a quiet morning coffee.",
+      "options": ["wake", "to wake", "waking", "woke"],
+      "answer": "to wake",
+      "topic": "Infinitives"
+    }
+  ]
+}

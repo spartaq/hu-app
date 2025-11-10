@@ -1,4 +1,91 @@
 module.exports = [
+
+  {
+  "readingcompTitle": "The Moral Choices of Self-Driving Cars",
+  "topic": "ethics",
+  "level": "b2",
+  "image": "/Images/selfdriving.webp",
+  "vocabulary": [
+    "swerve - to turn suddenly to avoid something",
+    "prioritize - to give more importance to something",
+    "sacrificing - giving up something valuable for another purpose",
+    "instinctive - based on feeling rather than careful thought",
+    "policymakers - people who make rules or laws for society",
+    "penalized - punished unfairly or given a disadvantage",
+    "dilemma - a difficult choice between two options",
+    "targeting system - a system that selects or identifies something or someone",
+    "random - not planned, decided by chance",
+    "navigate - to move through or find a path in a difficult situation"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Imagine a time in the near future when you are driving on the highway in a self-driving car. You are surrounded by other cars when suddenly, a large, heavy object falls from a truck in front of you. Your car cannot stop in time, so it must make a decision: go straight and hit the object, <b>swerve</b> left into an SUV, or swerve right into a motorcycle.</p>",
+        "<p>Should the car <b>prioritize</b> your safety by hitting the motorcycle? Should it avoid swerving, even if that means crashing into the object and <b>sacrificing</b> your life? Or should it hit the SUV, which is designed to protect passengers well? What is the right choice?</p>",
+        "<p>If a person were driving, their reaction would be natural and <b>instinctive</b>. But if a programmer tells the car how to react in this situation, it seems like a planned decision rather than an accident.</p>",
+        "<p>Self-driving cars are expected to reduce accidents by removing human mistakes. They may also help with traffic, reduce pollution, and make driving less stressful. However, accidents will still happen. When they do, the outcome may have already been decided by programmers or <b>policymakers</b>.</p>",
+        "<p>For example, imagine the same situation, but now there are two motorcyclists: one wearing a helmet and one without. Which one should the car hit? If it crashes into the one with a helmet because they are more likely to survive, is that fair? It seems like the responsible rider is being <b>penalized</b>. But if the car avoids the helmeted rider and crashes into the one without a helmet, it is no longer just minimizing harm—it is making a moral <b>dilemma</b>.</p>",
+        "<p>In both examples, the car’s programming acts like a <b>targeting system</b>. It chooses who will suffer, even though the victims did nothing wrong.</p>",
+        "<p>New technology creates many difficult ethical questions.</p>",
+        "<p>For instance, if you had to buy a car, would you choose one that always tries to save the most lives, or one that always protects you first? What if the car could analyze people inside the vehicles and make decisions based on their lives? Would that be fair? Or would a <b>random</b> decision be better? And who should make these rules—programmers, companies, or governments?</p>",
+        "<p>Real life may not play out exactly like these examples, but that is not the point. These thought experiments help us understand ethical problems, just as science experiments help us understand the physical world. Thinking about these issues now will help us <b>navigate</b> the future of technology and make better decisions along the way.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main problem described in the text?",
+          "choices": [
+            "a) How to design faster cars",
+            "b) How self-driving cars should make moral decisions in dangerous situations",
+            "c) How to reduce traffic jams",
+            "d) How to stop people from speeding"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "Why is a human driver's reaction different from a self-driving car's reaction?",
+          "choices": [
+            "a) Humans follow strict rules programmed in advance",
+            "b) Humans act instinctively, while cars act based on programming",
+            "c) Humans always make better choices than machines",
+            "d) Cars can’t detect moving objects"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "Who might decide how a car reacts in an unavoidable accident?",
+          "choices": [
+            "a) Policymakers and programmers",
+            "b) The passengers",
+            "c) The victims",
+            "d) The car company’s customers"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "In the helmet example, what ethical issue does the author raise?",
+          "choices": [
+            "a) Whether technology can detect helmets accurately",
+            "b) Whether responsible behavior should lead to punishment",
+            "c) Whether motorcyclists should wear helmets",
+            "d) Whether the car can predict survival rates"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What is the main purpose of this text?",
+          "choices": [
+            "a) To explain how self-driving cars work mechanically",
+            "b) To encourage people to buy self-driving cars",
+            "c) To make readers think about the ethical decisions technology may have to make",
+            "d) To argue that self-driving cars should be banned"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
 {
   "readingcompTitle": "Luck, Loss, and the Rise of Online Gambling",
   "topic": "gambling",

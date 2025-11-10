@@ -12,13 +12,18 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import vocabData from "../../Components/VocabularyListComps/Data/phrasalverblist.json";
 import VocabularyMatch from '../../Utils/Activities/VocabMatch.js';
-import GapFillExercise from '../../Utils/gapfill.js';
-import jsonData from '../Vocabulary-Exercises/Data/ethicsgapfill.json';
+import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
+import Reading from '../../Components/ReadingComps/readingcomponent.js';
 import Quiz from '../Quizzes/quiz.js';
 import quizzesData from '../Quizzes/Data/ethicsquiz.json';
 import InfinitiveExplanation from '../../Components/GrammarExplanationComps/infinitiveexplanation.js';
 import Infinitiveexercises from '../../Components/GrammarExerciseComps/infinitiveexercisescomp.js';
 import headerimg from '../../Images/eding1.jpg';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "infinitives" },
+];
 
 
 
@@ -78,6 +83,15 @@ const Ethics = () => {
 
                     <div>
 
+<div>
+                   
+                               <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
+                    </div>
                    
                         <div className="agenda-display-grid">
                            <Infinitiveexercises />
@@ -87,24 +101,17 @@ const Ethics = () => {
 
                 </div>
                 
-                <div className="agenda-subtitle">Vocabulary</div> 
+                <div className="agenda-quiz">Quiz</div> 
                 
 
-                <div>
-                   
-                <div className="agenda-display-grid">
-                    <VocabularyMatch data={vocabData} topic="ethics" />
-                    </div>
-                    <Quiz quizzesData={quizzesData} /> 
-                    
+                <div>               
+                    <Quiz quizzesData={quizzesData} />                     
                     </div>
                 
 
                 <div className="agenda-reading">Reading</div>
                 <div className="reading-container">
-                <div className="agenda-display-grid">
-                    <GapFillExercise jsonData={jsonData} />
-                    </div>
+                <Reading readings={readingcompData} title="The Moral Choices of Self-Driving Cars" />
                 </div>
                 
                 <div className="agenda-listening">Video</div>
