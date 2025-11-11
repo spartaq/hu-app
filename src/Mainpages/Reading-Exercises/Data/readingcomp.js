@@ -1,4 +1,131 @@
 module.exports = [
+{
+  "readingcompTitle": "Popular Myths About Sleep, Debunked",
+  "topic": "sleep",
+  "level": "b2",
+  "image": "/Images/sleepmyths.jpg",
+  "vocabulary": [
+    "myth - a false belief or idea",
+    "circadian rhythm - the body’s natural 24-hour cycle of sleep and wakefulness",
+    "melatonin - a hormone that helps control sleep",
+    "deprivation - lack or shortage of something needed",
+    "diligent - showing care and effort",
+    "endorphins - chemicals in the body that make you feel good",
+    "adrenaline - a hormone that increases energy and alertness",
+    "insomnia - difficulty falling or staying asleep",
+    "immune system - the body’s defense against illness",
+    "recovery - returning to a normal state after difficulty"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Sleep is essential for our health — it helps our brains function, supports the heart, and strengthens the immune system. Yet, many people don’t get enough of it, partly because of common myths. Sleep scientist Rebecca Robbins from Harvard Medical School has studied these misconceptions and explained the truth behind them. Here are six of the most common sleep myths, debunked by science.</p>",
+
+        "<h3>1. It doesn’t matter what time of day you sleep</h3>",
+        "<p>This is false. Our bodies follow a natural clock called the circadian rhythm, which is influenced by sunlight. Morning light tells our brains to stop producing melatonin, helping us wake up, while darkness signals it’s time to sleep. People who work night shifts often struggle because their rhythms are disrupted. To reduce the impact, experts recommend avoiding sunlight after a night shift and using blackout curtains for better rest.</p>",
+
+        "<h3>2. One night of poor sleep will have lasting effects</h3>",
+        "<p>Missing one night’s sleep isn’t the end of the world. It can cause short-term effects like tiredness and difficulty concentrating, but the body recovers after a few nights of normal rest. The key is to return to your usual sleep schedule as soon as possible instead of stressing about it.</p>",
+
+        "<h3>3. Falling asleep instantly means you’re a good sleeper</h3>",
+        "<p>Actually, the opposite may be true. It normally takes about 15 to 20 minutes to fall asleep. If you fall asleep the moment your head hits the pillow, it might mean you’re severely sleep-deprived. Just like someone who eats too fast after starving, falling asleep too quickly can signal an unhealthy pattern.</p>",
+
+        "<h3>4. You can survive on less than five hours of sleep</h3>",
+        "<p>Some people claim they function perfectly on just a few hours, but science disagrees. Adults generally need seven to nine hours each night for good physical and mental health. Chronic sleep deprivation increases the risk of obesity, diabetes, high blood pressure, and even heart disease. People who sleep less also make more mistakes at work and feel less focused during the day.</p>",
+
+        "<h3>5. Watching TV helps you relax before bed</h3>",
+        "<p>While watching your favorite show might feel relaxing, it can actually harm your sleep. Bright screens reduce melatonin production, making it harder to fall asleep. Emotional or stressful content can raise cortisol levels and make you more alert. If you enjoy a light comedy before bed, that’s fine — but it’s better to keep screens out of the bedroom and maintain a cool, dark environment.</p>",
+
+        "<h3>6. Exercising before bed will stop you from sleeping</h3>",
+        "<p>For years, people were told to avoid exercise at night, but research now shows that evening workouts can be perfectly fine. Exercise helps reduce stress, which is a major cause of insomnia. It also promotes deeper sleep. Unless you’re doing an intense workout right before bed, physical activity in the evening is not harmful — in fact, it may even help you sleep better.</p>",
+
+        "<p>In short, healthy sleep isn’t about following myths or strict rules. It’s about finding a balanced routine that fits your life. Aim for seven to nine hours, stay consistent with your schedule, and avoid screens and stress before bedtime — your body and mind will thank you.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "What is the main purpose of the text?",
+          "choices": [
+            "a) To describe why people dislike sleeping",
+            "b) To explain and correct common false beliefs about sleep",
+            "c) To show why people should avoid exercise at night",
+            "d) To promote sleep medication"
+          ]
+        },
+        {
+          "number": "2",
+          "question": "According to the text, what controls our natural sleep cycle?",
+          "choices": [
+            "a) The amount of food we eat",
+            "b) The circadian rhythm influenced by sunlight",
+            "c) Our work schedule",
+            "d) The temperature in our bedroom"
+          ]
+        },
+        {
+          "number": "3",
+          "question": "What should night shift workers do to protect their sleep?",
+          "choices": [
+            "a) Sleep in bright rooms",
+            "b) Get sunlight right after work",
+            "c) Use blackout curtains and avoid sunlight after shifts",
+            "d) Take caffeine before sleeping"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "What does falling asleep too quickly usually indicate?",
+          "choices": [
+            "a) Good sleep hygiene",
+            "b) A well-rested body",
+            "c) Chronic sleep deprivation",
+            "d) A healthy bedtime routine"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "How much sleep do most adults need per night?",
+          "choices": [
+            "a) About five hours",
+            "b) Between seven and nine hours",
+            "c) More than ten hours",
+            "d) It depends on the person’s diet"
+          ]
+        },
+        {
+          "number": "6",
+          "question": "What effect can watching TV before bed have?",
+          "choices": [
+            "a) It increases melatonin levels",
+            "b) It relaxes the brain for deeper sleep",
+            "c) It decreases melatonin and raises stress hormones",
+            "d) It improves focus and memory"
+          ]
+        },
+        {
+          "number": "7",
+          "question": "What do recent studies suggest about exercising in the evening?",
+          "choices": [
+            "a) It always causes poor sleep",
+            "b) It can help reduce stress and improve sleep quality",
+            "c) It should be avoided completely",
+            "d) It makes people too tired to fall asleep"
+          ]
+        },
+        {
+          "number": "8",
+          "question": "What is the overall message of the article?",
+          "choices": [
+            "a) Sleep myths can harm our health, but science offers better solutions",
+            "b) Sleeping less helps improve productivity",
+            "c) People should stop exercising and watching TV",
+            "d) Sleep problems cannot be solved without medication"
+          ]
+        }
+      ]
+    }
+  ]
+},
 
   {
   "readingcompTitle": "The Moral Choices of Self-Driving Cars",

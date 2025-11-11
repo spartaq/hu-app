@@ -1,4 +1,111 @@
-[
+[{
+  "title": "The Power of Naps",
+  "videoId": "NJ_f9onTTQE",
+  "topic": "sleep",
+  "level": "B2",
+  "vocabulary": [
+    "groggy - just woke up and not fully aware",
+    "yawn - open your mouth when sleepy",
+    "fatigue - tiredness",
+    "rejuvenate - renew or refresh",
+    "stimuli - something that gives you a feeling or reaction",
+    "tranquil - calm and relaxed",
+    "consolidation - bringing together or strengthening memories",
+    "cognitive - related to thinking or the brain",
+    "inertia - tendency to keep going without stopping",
+    "dexterity - ability to move skillfully",
+    "urge - strong feeling or desire",
+    "dismiss - to ignore or not care about",
+    "alertness - awakeness or mental sharpness"
+  ],
+
+  "transcript": [
+    "<h1>The Power of Naps</h1>",
+    "<p>Feeling groggy, tired, or unmotivated in the afternoon? Many of us turn to coffee, soda, or energy drinks to push through the day, yawning and fighting fatigue.</p>",
+    "<p>However, the solution might be something we've been avoiding all along — sleep.</p>",
+    "<p>A power nap can be one of the most effective ways to rejuvenate your brain. There are four main stages in the sleep cycle. The first two stages are light sleep, the third is deep sleep, and the final stage is known as rapid eye movement (REM), where most dreams occur.</p>",
+    "<p>The benefits of napping depend on how long you sleep. A 30-minute nap allows you to enter the first two stages of sleep. In stage 1, you may experience slow eye movement, and if woken, it may feel like you didn’t even sleep.</p>",
+    "<p>By stage 2, your brain starts to block out non-dangerous stimuli, helping you relax and enter a tranquil sleep. This stage also begins memory consolidation, where information learned is processed.</p>",
+    "<p>Waking during these stages can boost productivity, cognitive function, memory, creativity, and make you feel less tired.</p>",
+    "<p>However, if you nap for more than 30 minutes, you enter stage 3, leading to 'sleep inertia' when you wake up. This results in decreased motor dexterity, grogginess, and the strong urge to go back to sleep.</p>",
+    "<p>Many people dismiss naps as unhelpful, but they may just be napping too long.</p>",
+    "<p>In Japan, nap salons have opened, offering brief lunchtime naps to help workers increase alertness and productivity.</p>",
+    "<p>So, maybe it’s time to embrace the power of naps — just tell your boss, 'Science said so.'</p>"
+  ],
+
+  "questions": [
+    {
+      "number": "1",
+      "question": "What common solution do people use to fight afternoon tiredness?",
+      "choices": [
+        "A. Taking a walk",
+        "B. Drinking coffee or energy drinks",
+        "C. Listening to music",
+        "D. Going to bed early"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "How many main stages are there in the sleep cycle?",
+      "choices": [
+        "A. Two",
+        "B. Three",
+        "C. Four",
+        "D. Five"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "What happens during stage 2 of sleep?",
+      "choices": [
+        "A. You start dreaming",
+        "B. The brain blocks out non-dangerous stimuli",
+        "C. You enter deep sleep",
+        "D. Your body stops moving"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "Why can longer naps make you feel worse when you wake up?",
+      "choices": [
+        "A. Because you dream too much",
+        "B. Because you enter deep sleep and experience sleep inertia",
+        "C. Because your brain doesn’t rest enough",
+        "D. Because your body temperature drops too low"
+      ]
+    },
+    {
+      "number": "5",
+      "question": "What are some benefits of waking during light sleep stages?",
+      "choices": [
+        "A. Improved productivity and memory",
+        "B. Stronger dreams",
+        "C. Slower reaction times",
+        "D. Longer sleep cycles"
+      ]
+    },
+    {
+      "number": "6",
+      "question": "What country has introduced nap salons for workers?",
+      "choices": [
+        "A. South Korea",
+        "B. Japan",
+        "C. China",
+        "D. Germany"
+      ]
+    },
+    {
+      "number": "7",
+      "question": "What does the term 'sleep inertia' refer to?",
+      "choices": [
+        "A. The energy boost after a nap",
+        "B. A state of grogginess after waking from deep sleep",
+        "C. The inability to fall asleep quickly",
+        "D. The process of entering REM sleep"
+      ]
+    }
+  ]
+},
   {
   "title": "The Psychology of Sports Gambling",
   "videoId": "YYpy0cM-GSE",

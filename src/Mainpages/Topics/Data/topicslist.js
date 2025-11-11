@@ -1,4 +1,13 @@
-module.exports = [
+module.exports = [{
+        "id": "sleep",
+        "title": "Sleep",
+        "subtitle": "#",
+        "category": "General",
+        "level": "B1",
+        "time": "45 min",
+        "description": "A lesson to talk about sleeping",
+        "image": "/Images/sleep.webp"
+      },
     {
         "id": "gambling",
         "title": "Gambling",
