@@ -14,7 +14,14 @@ import discussionquestionsData from "../../Components/DiscussionComps/Data/discu
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
 import Soenoughexercises from '../../Components/GrammarExerciseComps/soenoughexercisescomp.js';
 import SoenoughExplanation from '../../Components/GrammarExplanationComps/soenoughexplanation.js';
+import Quiz from '../Quizzes/quiz.js';
+import quizzesData from '../Quizzes/Data/petquiz.json';
 import headerimg from '../../Images/dogscatssmart.jpg';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "sosuch" },
+];
 
 
 Modal.setAppElement('#root');
@@ -61,21 +68,23 @@ const Pets = () => {
                 className="languagepoint-container">
                     
                     <div>
-
-
                         <div>
                         <SoenoughExplanation /> 
-                        </div>                        
-                 
+                        </div> 
                     </div>
 
-                    <div>
+                <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
 
-                   
-                        <div className="agenda-display-grid">
-                           <Soenoughexercises />
-                        </div>
-                   
+                    <div className="agenda-quiz">Quiz</div> 
+                
+
+                <div>               
+                    <Quiz quizzesData={quizzesData} />                     
                     </div>
 
                 </div>
