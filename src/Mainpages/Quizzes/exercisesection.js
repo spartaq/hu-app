@@ -1,13 +1,12 @@
-
 import React, { useState, useEffect, useCallback, useMemo, useRef } from "react";
 
 import { Stepper, Step, StepLabel } from "@mui/material";
 import { styled } from "@mui/material/styles";
+
+import DialogueActivity from "../../Utils/Activities/DialogueActivity";
 import QuizActivity from "../../Utils/Activities/QuizActivity";
 import SentenceOrdering from "../../Utils/Activities/SentenceOrdering";
 import VocabMatch from "../../Utils/Activities/VocabMatch";
-
-
 import GapFillActivity from "../../Utils/Activities/GapFillExercise";
 import GrammarExerciseComp from "../../Utils/Activities/GrammarExerciseComp.js";
 import ReadingActivity from "../../Utils/Activities/ReadingActivity.js";
@@ -18,13 +17,22 @@ import "../../CSS/exercisesection.css";
 
 
 const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
-  const topRef = useRef(null); // <-- anchor reference
+  const topRef = useRef(null);
 
+  // state
   const [activityStarted, setActivityStarted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [activityEnded, setActivityEnded] = useState(false);
-  const [activityData, setActivityData] = useState(Array.isArray(data) ? data : [data]);
+
+  const [activityData, setActivityData] = useState(
+    type === "dialogue"
+      ? data
+      : Array.isArray(data)
+      ? data
+      : [data]
+  );
+
   const [usedIds, setUsedIds] = useState([]);
 
   const autoStartTypes = useMemo(
@@ -32,96 +40,91 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
     []
   );
 
-const scrollToTop = () => {
-  const target = scrollTargetRef?.current;
-  console.log("scrollToTop called");
-  console.log("Target ref:", target);
-
-  if (target) {
-    const rect = target.getBoundingClientRect();
-    const offset = 60;
-    const top = rect.top + window.scrollY - offset;
-    console.log("Target rect:", rect);
-    console.log("Scroll top position:", top);
-
-    window.scrollTo({ top, behavior: 'smooth' });
-  } else {
-    console.log("No scrollTargetRef found, using topRef");
-    topRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }
-};
-
-
-  const getTitle = () => {
-    if (type === "quiz") return data?.quizTitle ?? "Quiz";
-    if (type === "ordering") return data?.title ?? "Sentence Ordering";
-    if (type === "vocab") return data?.quizTitle ?? "Vocabulary Match";
-    if (type === "gapfill") return data?.title ?? "Gap Fill";
-    if (type === "grammar") return data?.title ?? "Grammar Exercise";
-    if (type === "reading") return data?.title ?? "Reading Comprehension";
-    if (type === "video") return data?.title ?? "Videos";
-    return "Activity";
+  const scrollToTop = () => {
+    const target = scrollTargetRef?.current;
+    if (target) {
+      const rect = target.getBoundingClientRect();
+      const offset = 60;
+      const top = rect.top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: "smooth" });
+    } else {
+      topRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
+  // ---- Extract data depending on activity type ----
   const getRawData = useCallback(() => {
-    if (type === "quiz") return Array.isArray(data?.questions) ? data.questions : [];
+    if (type === "dialogue") return data;
+    if (type === "quiz") return data?.questions ?? [];
     if (type === "ordering") return Array.isArray(data) ? data : [];
-    if (type === "vocab") return Array.isArray(data?.pairs) ? data.pairs : [];
-    if (type === "gapfill") return Array.isArray(data?.text) ? [data] : [];
-    if (type === "grammar") return Array.isArray(data?.sentences) ? data.sentences : [];
+    if (type === "vocab") return data?.pairs ?? [];
+    if (type === "gapfill") return [data];
+    if (type === "grammar") return data?.sentences ?? [];
     if (type === "reading") return Array.isArray(data) ? data : [];
-    if (type === "video") return Array.isArray(data) ? data : [];
+    if (type === "video") return Array.isArray(data) ? data : [data];
     return [];
   }, [type, data]);
 
-  const isSingleVideo = type === "video" && id !== undefined;
-
+  // ---- Auto start for some types ----
   useEffect(() => {
-    if (type === "video") {
-      const normalizedData = Array.isArray(data) ? data : [data];
-      setActivityData(normalizedData);
+    if (type === "dialogue") {
+      setActivityData(data);        // dialogue is ALWAYS a single object
       setActivityStarted(true);
-    } else if (autoStartTypes.includes(type)) {
+      return;
+    }
+
+    if (type === "video") {
+      const normalized = Array.isArray(data) ? data : [data];
+      setActivityData(normalized);
+      setActivityStarted(true);
+      return;
+    }
+
+    if (autoStartTypes.includes(type)) {
       const raw = getRawData();
       setActivityData(raw);
       setActivityStarted(true);
     }
   }, [type, data, autoStartTypes, getRawData]);
 
+  // ---- Start button ----
   const startActivity = () => {
-  const allData = getRawData();
-
-  if (type === "vocab") {
-    const shuffledPairs = shuffle([...allData]);
-    setActivityData(shuffledPairs);
-  } else if (type === "gapfill") {
-    const shuffledGapfill = shuffle([...allData]);
-    setActivityData(shuffledGapfill);
-  } else if (type === "quiz") {
-    // ✅ KEEP ORIGINAL ORDER for quiz
-    const unused = allData.filter((item) => !usedIds.includes(item.id));
-    const toUse = unused.slice(0, 10); // no shuffle
-    setUsedIds((prev) => [...prev, ...toUse.map((item) => item.id)]);
-    setActivityData(toUse);
-  } else {
-    // Other activity types can still be shuffled
-    const unused = allData.filter((item) => !usedIds.includes(item.id));
-    const toUse = shuffle(unused).slice(0, 10);
-    setUsedIds((prev) => [...prev, ...toUse.map((item) => item.id)]);
-    setActivityData(toUse);
-  }
-
-  setActivityStarted(true);
-  setActivityEnded(false);
-  setCurrentIndex(0);
-  setScore(0);
-  scrollToTop();
-};
-
-  const handleRestart = () => {
-    if (type !== "vocab") {
-      setUsedIds([]);
+    if (type === "dialogue") {
+      setActivityData(data); // not array
+      setActivityStarted(true);
+      setActivityEnded(false);
+      scrollToTop();
+      return;
     }
+
+    const allData = getRawData();
+
+    if (type === "vocab") {
+      setActivityData(shuffle([...allData]));
+    } else if (type === "gapfill") {
+      setActivityData(shuffle([...allData]));
+    } else if (type === "quiz") {
+      const unused = allData.filter((item) => !usedIds.includes(item.id));
+      const toUse = unused.slice(0, 10);
+      setUsedIds((p) => [...p, ...toUse.map((q) => q.id)]);
+      setActivityData(toUse);
+    } else {
+      const unused = allData.filter((item) => !usedIds.includes(item.id));
+      const toUse = shuffle(unused).slice(0, 10);
+      setUsedIds((p) => [...p, ...toUse.map((x) => x.id)]);
+      setActivityData(toUse);
+    }
+
+    setActivityStarted(true);
+    setActivityEnded(false);
+    setCurrentIndex(0);
+    setScore(0);
+    scrollToTop();
+  };
+
+  // ---- Navigation ----
+  const handleRestart = () => {
+    if (type !== "vocab") setUsedIds([]);
     setActivityStarted(false);
     setActivityEnded(false);
     setScore(0);
@@ -135,17 +138,29 @@ const scrollToTop = () => {
     } else {
       setActivityEnded(true);
       scrollToTop();
-      
     }
   };
 
   const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1);
-    }
+    if (currentIndex > 0) setCurrentIndex((prev) => prev - 1);
   };
 
+  // ---- RENDER: Select proper activity component ----
   const ActivityComponent = () => {
+    // --- Dialogue (SINGLE OBJECT) ---
+    if (type === "dialogue") {
+      if (!activityData || !Array.isArray(activityData.lines)) {
+        return <p>No dialogue data</p>;
+      }
+
+      return (
+        <div className="exercisesection__activity-box">
+          <DialogueActivity data={activityData} lines={activityData.lines} />
+        </div>
+      );
+    }
+
+    // --- All other activities use arrays ---
     const current = activityData[currentIndex];
     if (!current) return <p>No data</p>;
 
@@ -153,31 +168,37 @@ const scrollToTop = () => {
       <div className="exercisesection__activity-box">
         {type === "quiz" && (
           <QuizActivity
-            key={currentIndex} // Add key to force re-mount on question change
+            key={currentIndex}
             question={current}
             data={data}
             onAnswer={(result) => {
-              console.log("QuizActivity onAnswer called with:", result);
-              if (result.correct) {
-                console.log("Incrementing score");
-                setScore((s) => s + 1);
-              }
-              if (result.next) {
-                console.log("Moving to next question");
-                handleNext();
-              }
+              if (result.correct) setScore((s) => s + 1);
+              if (result.next) handleNext();
             }}
           />
         )}
+
         {type === "ordering" && (
-          <SentenceOrdering data={current} onCorrect={() => setScore((s) => s + 1)} />
+          <SentenceOrdering
+            data={current}
+            onCorrect={() => setScore((s) => s + 1)}
+          />
         )}
+
         {type === "vocab" && (
-          <VocabMatch data={data} onCorrect={() => setScore((s) => s + 1)} />
+          <VocabMatch
+            data={data}
+            onCorrect={() => setScore((s) => s + 1)}
+          />
         )}
+
         {type === "gapfill" && (
-          <GapFillActivity data={current} onComplete={() => setScore((s) => s + 1)} />
+          <GapFillActivity
+            data={current}
+            onComplete={() => setScore((s) => s + 1)}
+          />
         )}
+
         {type === "grammar" && (
           <GrammarExerciseComp
             data={getRawData()}
@@ -185,33 +206,36 @@ const scrollToTop = () => {
             description={data?.description}
           />
         )}
-        {type === "reading" && activityData && (
+
+        {type === "reading" && (
           <ReadingActivity
-            data={activityData[currentIndex]}
-            title={activityData[currentIndex].readingcompTitle}
+            data={current}
+            title={current.readingcompTitle}
           />
         )}
-        {type === "video" && activityData[currentIndex] && (
-          <Videos
-            data={activityData[currentIndex]}
-            title={activityData[currentIndex].title}
-          />
 
+        {type === "video" && (
+          <Videos
+            data={current}
+            title={current.title}
+          />
         )}
       </div>
     );
   };
 
- 
+
+  // ---- RENDER MAIN WRAPPER ----
+  const hideNav = type === "dialogue"; // dialogue has no next/prev
 
   return (
     <div className="exercisesection">
-      <div ref={topRef} /> {/* Scroll anchor point */}
+      <div ref={topRef} />
 
-      {!activityStarted && !autoStartTypes.includes(type) ? (
+      {!activityStarted && !autoStartTypes.includes(type) && type !== "dialogue" ? (
         <div className="exercisesection__start">
           <div className="exercisesection__quiz-card">
-            <span className="exercisesection__title">{getTitle()}</span>
+            <span className="exercisesection__title">{data?.title ?? "Activity"}</span>
             <button onClick={startActivity} className="exercisesection__start-button">
               Start
             </button>
@@ -220,28 +244,7 @@ const scrollToTop = () => {
       ) : activityEnded ? (
         <div className="exercisesection__score-card">
           <h2>Activity Completed!</h2>
-          <p>
-            Your score: {score} / {activityData.length}
-          </p>
-          {type === "quiz" && (
-            <div className="correct-answers">
-              <h3>Correct Answers:</h3>
-              <ul>
-                {activityData.map((q, i) => (
-                  <li key={q.id || i}>
-                    <p>
-                      <strong>{i + 1}.</strong> {q.question.replace(/_+/, q.answer)}
-                      {q.translate && (
-                        <span style={{ color: "#666", marginLeft: "1rem" }}>
-                          ({q.translate})
-                        </span>
-                      )}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+          <p>Your score: {score} / {activityData.length}</p>
           <div className="newexerciseblock">
             <button onClick={handleRestart} className="exercisesection__restart-button">
               Restart
@@ -253,52 +256,38 @@ const scrollToTop = () => {
         </div>
       ) : (
         <>
-          {isSingleVideo ? (
-            <Videos data={data} title={data.title} />
-          ) : (
-            <>
-              <ActivityComponent />
+          <ActivityComponent />
 
-             
+          {!hideNav && activityStarted && !activityEnded && activityData.length > 0 && (
+            <div className="exercisesection__nav button-row">
+              <div className="button-group">
+                <button onClick={handleRestart} className="exercisesection__nav-button">
+                  Reset
+                </button>
+              </div>
 
-              {activityStarted && !activityEnded && activityData.length > 0 && (
-                <div className="exercisesection__nav button-row">
-                  <div className="button-group">
-                    <button
-                      onClick={handleRestart}
-                      className="exercisesection__nav-button"
-                    >
-                      Reset
-                    </button>
+              <div className="button-group">
+                <button
+                  onClick={handlePrev}
+                  disabled={currentIndex === 0}
+                  className="exercisesection__nav-button exercisesection__nav-button--prev"
+                >
+                  Previous
+                </button>
 
-                  </div>
-
-                  <div className="button-group">
-                    <button
-                      onClick={handlePrev}
-                      disabled={currentIndex === 0}
-                      className="exercisesection__nav-button exercisesection__nav-button--prev"
-                    >
-                      Previous
-                    </button>
-
-                    <button
-                      onClick={handleNext}
-                      className="exercisesection__nav-button exercisesection__nav-button--next"
-                    >
-                      {currentIndex + 1 === activityData.length ? "Finish" : "Next"}
-                    </button>
-                  </div>
-                </div>
-              )}
-            </>
+                <button
+                  onClick={handleNext}
+                  className="exercisesection__nav-button exercisesection__nav-button--next"
+                >
+                  {currentIndex + 1 === activityData.length ? "Finish" : "Next"}
+                </button>
+              </div>
+            </div>
           )}
         </>
       )}
-
     </div>
   );
 };
-
 
 export default ExerciseSection;

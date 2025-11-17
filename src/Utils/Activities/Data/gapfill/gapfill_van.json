@@ -1,0 +1,41 @@
+{
+  "type": "gapfill",
+  "title": "A 'van' használata – Hiányos szöveg",
+  "topic": "van – present & negative",
+  "words": [
+    "van",
+    "vannak",
+    "nincs",
+    "nincsenek",
+    "van",
+    "van",
+    "vannak",
+    "volt",
+    "voltak",
+    "nincs"
+  ],
+  "text": [
+    "A házunk mellett ___ egy kis bolt.",
+    "A boltban mindig ___ friss péksütemények.",
+    "Ma sajnos ___ tej, ezért át kell mennem a szupermarketbe.",
+    "A környéken sok gyerek ___, ezért gyakran hangos az utca.",
+    "A munkahelyemen három új kolléga ___.",
+    "Tegnap este nem ___ időm főzni.",
+    "A múlt héten nagyon jó programok ___ a városban.",
+    "Ma ___ kedvem sportolni, inkább pihenek.",
+    "A táskámban ___ kulcs, biztosan otthon hagytam.",
+    "A szomszéd utcában két új kávézó ___, mindkettő nagyon hangulatos."
+  ],
+  "answers": [
+    "van",
+    "vannak",
+    "nincs",
+    "vannak",
+    "vannak",
+    "volt",
+    "voltak",
+    "nincs",
+    "nincs",
+    "vannak"
+  ]
+}

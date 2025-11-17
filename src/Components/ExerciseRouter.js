@@ -13,6 +13,7 @@ import HuHasonlitasQuizData from "../Utils/Activities/Data/quiz/hasonlitasexerci
 import HuFokuszQuizData from "../Utils/Activities/Data/quiz/fokuszexercisequiz.json";
 import HuHarmoniaQuizData from "../Utils/Activities/Data/quiz/harmoniaexercisequiz.json";
 import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoindef.json";
+import HuDialogueVanData from "../Utils/Activities/Data/dialogues/testDialogue.json";
 import quizPresentPerfectData from "../Utils/Activities/Data/quiz/presentperfectexercisequiz.json";
 import quizSimplePresentData from "../Utils/Activities/Data/quiz/simplepresentexercisequiz.json";
 import quizSimplePastData from "../Utils/Activities/Data/quiz/simplepastexercisequiz.json";
@@ -41,12 +42,14 @@ import orderingPresentData from "../Utils/Activities/Data/ordering/wordorder_pre
 import orderingPastData from "../Utils/Activities/Data/ordering/wordorder_past.json";
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
 import orderingjelenIdoIndef from "../Utils/Activities/Data/ordering/wordorder_jelenidoindef.json";
+import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
 import vocabVerbsData from "../Utils/Activities/Data/vocab/vocab_verbs.json";
 import vocabBusinessData from "../Utils/Data/vocab/vocab_business.json";
 import vocabTravelData from "../Utils/Data/vocab/vocab_travel.json";
 import vocabMultData from "../Utils/Data/vocab/vocab_mult.json";
 import gapfillBusinessData from "../Utils/Activities/Data/gapfill/gapfill_business.json";
 import gapfillJelenidoindefData from "../Utils/Activities/Data/gapfill/gapfill_jelenidoindef.json";
+import gapfillVanData from "../Utils/Activities/Data/gapfill/gapfill_van.json";
 import grammarToBePresentData from "../Utils/Activities/Data/grammar/tobepresent.json";
 import grammarToBePastData from "../Utils/Activities/Data/grammar/tobepast.json";
 import grammarSimplePresentData from "../Utils/Activities/Data/grammar/simplepresent.json";
@@ -101,6 +104,15 @@ import topicExerciseSmartphones from "../Utils/Activities/Data/quiz/smartphoneEx
 const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
     const getDataByType = (type, subtype) => {
       switch (type) {
+
+        case "dialogue":
+          switch (subtype) {
+            case "testDialogue":
+              return HuDialogueVanData;
+              default:
+                return HuDialogueVanData;
+              }
+
         case "quiz":
           switch (subtype) { 
             case "jelenidodef":
@@ -196,6 +208,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return orderingFokuszData;
             case "jelenidoindef":
               return orderingjelenIdoIndef;
+            case "van":
+              return orderingVanData;
             default:
               return orderingPresentData;
           }
@@ -218,6 +232,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
                 return gapfillBusinessData;
               case "jelenidoindef":
                 return gapfillJelenidoindefData;
+              case "van":
+                return gapfillVanData; 
               default:
                 return gapfillBusinessData;
           }
@@ -308,6 +324,7 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
              default:
               return grammarToBePresentData;
             }
+
             case "reading":
               switch (subtype) {
                 case "parents-football-match":
@@ -323,6 +340,7 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
                   default:
                 return readingParentsFootballMatch;   
                 }
+
                 case "video":
               switch (subtype) {
                 case "phones":
@@ -332,8 +350,7 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
                   default:
                 return videoPhones;   
                 }
-              default:
-                return null;
+        
       }
     };
   

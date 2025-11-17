@@ -1,0 +1,141 @@
+.dialogue-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  position: relative;
+}
+
+.dialogue-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+/* Shift content up when subtitle bar is active */
+.subtitle-offset {
+  margin-bottom: 55px;
+}
+
+/* LEFT ALIGNMENT */
+.dialogue-line.left {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+/* RIGHT ALIGNMENT */
+.dialogue-line.right {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 12px;
+}
+
+.bubble {
+  background: #f0f0f0;
+  padding: 10px 14px;
+  border-radius: 10px;
+  max-width: 80%;
+  line-height: 1.4;
+}
+
+/* SUBTITLE BAR */
+.subtitle-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20,20,20,0.85);
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.4;
+  backdrop-filter: blur(3px);
+}
+
+/* CONTROLS */
+.dialogue-controls {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  z-index: 2;
+}
+
+button {
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  background: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #eee;
+}
+
+/* ANIMATIONS */
+.fade-slide {
+  animation: fadeSlideIn 0.3s ease forwards;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dialogue-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.dialogue-overlay-button {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+}
