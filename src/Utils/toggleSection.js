@@ -9,14 +9,16 @@ import {
   FaSortAlphaDown,
   FaRegNewspaper,
   FaVideo,
-  FaClock
+  FaClock,
+  FaSpeakap
 } from "react-icons/fa";
 
 import ExerciseRouter from '../Components/ExerciseRouter';
 
 // Internal color themes per type
 const defaultColors = {
-  vocab:    { bg: '#FCE38A', text: '#333' },
+  dialogue: { bg: 'purple', text: '#000' },
+  vocab:    { bg: '#FCE38A', text: '#000' },
   quiz:     { bg: 'rgb(167 210 113)', text: '#000' },
   grammar:  { bg: '#D7BDE2', text: '#000' },
   gapfill:  { bg: '#AED6F1', text: '#000' },
@@ -26,7 +28,9 @@ const defaultColors = {
 };
 
 const toggleColors = {
-  vocab:    { bglt: '#FFF4C2', text: '#333' },
+  
+  dialogue: { bglt: '#d691e4ff', text: '#000' },
+  vocab:    { bglt: '#FFF4C2', text: '#000' },
   quiz:     { bglt: 'rgb(214 224 202)', text: '#000' },
   grammar:  { bglt: '#EFE3F1', text: '#000' },
   gapfill:  { bglt: '#D6EBF9', text: '#000' },
@@ -37,6 +41,7 @@ const toggleColors = {
 
 // Internal icon map by type
 const iconMap = {
+  dialogue: FaSpeakap,
   vocab: FaBookOpen,
   quiz: FaClock,
   grammar: FaPenFancy,
@@ -120,7 +125,7 @@ const ToggleSection = forwardRef(({
 
       <div
         className="exercise-content-wrapper"
-        style={{ padding: '0 20px', overflow: 'hidden', borderRadius: '6px' }}
+        style={{ padding: '0 0px', overflow: 'hidden', borderRadius: '6px' }}
       >
         <AnimatePresence initial={false}>
           {visible && (
@@ -139,7 +144,7 @@ const ToggleSection = forwardRef(({
               <div
                 ref={contentRef}
                 className={containerClass}
-                style={{ padding: '1rem', backgroundColor: bglt }}
+                style={{ padding: '0', backgroundColor: bglt }}
               >
                 <ExerciseRouter 
                 type={type} 
