@@ -13,9 +13,15 @@ import videoData from '../Videos/Data/video.json';
 import readingcompData from '../Reading-Exercises/Data/readingcomp.js';
 import discussionquestionsData from "../../Components/DiscussionComps/Data/discussionquestions.json";
 import RandomQuestionGenerator from '../../Components/DiscussionComps/questiongenerator.js';
-import SecondcondprodExercises from '../../Components/GrammarExerciseComps/secondcondprodexercisescomp.js';
-import SecondcondExplanation from '../../Components/GrammarExplanationComps/secondcondexplanation.js';
+import PassiveExercises from '../../Components/GrammarExerciseComps/passiveexercisescomp.js';
+import PassiveExplanation from '../../Components/GrammarExplanationComps/passiveexplanation.js';
 import headerimg from '../../Images/neighbors1.jpg';
+import ToggleSection from '../../Utils/toggleSection';
+
+const sections = [
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "passive" },
+  { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "grammar", subtype: "passive" },
+];
 
 
 Modal.setAppElement('#root');
@@ -50,19 +56,22 @@ const Neighbors = () => {
 
 
                         <div>
-                        <SecondcondExplanation /> 
+                        <PassiveExplanation /> 
                         </div>                        
                  
                     </div>
 
                     <div>
-
                    
-                        <div className="agenda-display-grid">
-                           <SecondcondprodExercises />
-                        </div>
-                   
+                               <div>
+        {sections.map((section, i) => (
+          <div className="bottom-margin" key={i}>
+          <ToggleSection  {...section} /> </div>
+        ))}      
+           </div>
                     </div>
+
+                    
 
                 </div>
 
@@ -73,7 +82,7 @@ const Neighbors = () => {
                 
                 <div className="agenda-listening">Video</div>
                 
-                <Video videos={videoData} title="Neighbors" />
+                <Video videos={videoData} title="The Case of the Blocked Windows – A Neighbor Dispute" />
 
                 
                 <div className="agenda-discussion">Discussion</div>

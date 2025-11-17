@@ -1,5 +1,111 @@
 [ 
-  {
+  
+{
+  "title": "The Case of the Blocked Windows – A Neighbor Dispute",
+  "videoId": "p8fOJdmSbdU",
+  "topic": "neighbors",
+  "level": "B2",
+
+  "vocabulary": [
+    "substantial – large and solid",
+    "villa – a big, usually old or elegant house",
+    "obscure – to block from view",
+    "snag – a problem or difficulty",
+    "property – land or buildings owned by someone",
+    "ancient lights – an old English law protecting a property’s right to light",
+    "telegraph pole – a tall pole supporting cables or wires",
+    "restrict – to limit or prevent something",
+    "adamant – refusing to change one’s mind",
+    "trespass – to enter someone’s property without permission"
+  ],
+
+  "transcript": [
+    "<h1>The Case of the Blocked Windows</h1>",
+    "<p>Melrose is a substantial Victorian villa in the village of Bacton-on-Sea on the East Coast. It was bought three years ago by Mr. Max Jenkins, who has spent a lot of money improving it. Considering the £3,500 he paid for it, one might think he got a bargain — but there is one big snag: he cannot look out of his window.</p>",
+    "<p>The sea view Mr. Jenkins should enjoy is completely obscured by wooden boards placed only three feet from his window. More boards are fixed high on telegraph poles, blocking the light and the view from upstairs as well.</p>",
+    "<p>Why doesn’t he just remove them? Because they are not on his property. The boards stand on land belonging to his next-door neighbor. She has the legal right to place them there — and she doesn’t even live in the house. It remains empty for most of the year.</p>",
+    "<p>The boards belong to Miss Day, who lives twenty miles away in Norwich, where she enjoys unrestricted views from her own windows. When asked how he bought the house without noticing the boards, Mr. Jenkins explained that he assumed they were simply windbreaks to keep the strong east winds off the windows.</p>",
+    "<p>He tried to remove them once, using a cold chisel and hammer, but a local man warned him to stop, telling him the situation was governed by the law of ancient lights. Unsure of what to do, Mr. Jenkins contacted the owner. Miss Day told him he could not touch the boards because her father had installed them in 1915 and they would remain there.</p>",
+    "<p>Mr. Jenkins then approached the local council, but after weeks of waiting, they said they could do very little. He asked his solicitor, but even he was unsure. Finally, in desperation, Mr. Jenkins contacted Ralph Howe, the local Conservative MP. The MP visited Miss Day but returned saying she was ‘absolutely adamant’ that the boards must not come down in her lifetime.</p>",
+    "<p>A reporter later visited Miss Day at her home in Norwich to ask why she insisted on keeping the boards up. She declined to comment and refused to explain her reasoning.</p>",
+    "<p>Mr. Jenkins says he does not want to go to court because of the expense. He feels stuck — either he must accept the boards or hope someone finds a new legal solution. He admits he sometimes feels tempted to remove them secretly, but doing so would mean trespassing and possibly being fined or ordered to replace them.</p>",
+    "<p>Everyone who visits his home asks why there are boards over his windows. Mr. Jenkins is tired of telling the same story again and again and says that removing them would make him a very happy man.</p>"
+  ],
+
+  "questions": [
+    {
+      "number": "1",
+      "question": "What is the main problem Mr. Jenkins faces?",
+      "choices": [
+        "A. His house is too expensive to maintain",
+        "B. Noise from his neighbor's property",
+        "C. Boards placed on his neighbor’s land block his view",
+        "D. The house is not legally his"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "Why can’t Mr. Jenkins remove the boards?",
+      "choices": [
+        "A. They are too heavy",
+        "B. They are not on his property",
+        "C. The local council warned him not to",
+        "D. They protect his windows from wind"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "Who originally installed the boards?",
+      "choices": [
+        "A. Mr. Jenkins",
+        "B. The local council",
+        "C. Miss Day’s father in 1915",
+        "D. A previous tenant of the house"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "Why did Mr. Jenkins consult the MP?",
+      "choices": [
+        "A. To request financial support",
+        "B. Because neither the council nor his solicitor could help",
+        "C. To get permission to remove the boards",
+        "D. To sell the house more quickly"
+      ]
+    },
+    {
+      "number": "5",
+      "question": "How did Miss Day respond when asked about removing the boards?",
+      "choices": [
+        "A. She agreed immediately",
+        "B. She said she needed time to think",
+        "C. She refused to comment and insisted the boards stay",
+        "D. She blamed the neighbors"
+      ]
+    },
+    {
+      "number": "6",
+      "question": "What risk would Mr. Jenkins face if he removed the boards himself?",
+      "choices": [
+        "A. He could damage his house",
+        "B. He could be taken to court for trespassing",
+        "C. He might hurt himself during the work",
+        "D. He could lose his property rights"
+      ]
+    },
+    {
+      "number": "7",
+      "question": "Why is the situation especially frustrating for Mr. Jenkins?",
+      "choices": [
+        "A. Many visitors ask him about the boards",
+        "B. He believes Miss Day lives too far away",
+        "C. The council has taken legal action against him",
+        "D. The boards keep falling down"
+      ]
+    }
+  ]
+},
+{
   "title": "The Power of Naps",
   "videoId": "NJ_f9onTTQE",
   "topic": "sleep",

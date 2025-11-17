@@ -36,6 +36,7 @@ import quizPunctuationData from "../Utils/Activities/Data/quiz/punctuationexerci
 import quizDeductionData from "../Utils/Activities/Data/quiz/modalsDeductionExercisequiz.json";
 import quizThirdcondData from "../Utils/Activities/Data/quiz/thirdcondexercisequiz.json";
 import quizSosuchData from "../Utils/Activities/Data/quiz/sosuchexercisequiz.json";
+import quizPassiveData from "../Utils/Activities/Data/quiz/passiveexercisequiz.json";
 import orderingPresentData from "../Utils/Activities/Data/ordering/wordorder_present.json";
 import orderingPastData from "../Utils/Activities/Data/ordering/wordorder_past.json";
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
@@ -174,6 +175,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return quizThirdcondData;
             case "sosuch":
               return quizSosuchData;
+            case "passive":
+              return quizPassiveData;
             case "smartphones":
               return topicExerciseSmartphones;
             default:

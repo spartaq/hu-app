@@ -1,5 +1,65 @@
 {
   "sentences":[
+    {
+    "text": "The neighbors invite everyone to a street barbecue every August.",
+    "prompt": "Everyone",
+    "answer": "Everyone is invited to a street barbecue every August.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "People plant flowers around the shared garden every spring.",
+    "prompt": "Flowers",
+    "answer": "Flowers are planted around the shared garden every spring.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "Someone cleans the stairwell twice a week.",
+    "prompt": "The stairwell",
+    "answer": "The stairwell is cleaned twice a week.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "The residents organize a neighborhood meeting once a month.",
+    "prompt": "A neighborhood meeting",
+    "answer": "A neighborhood meeting is organized once a month.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "People often hear loud arguments from the apartment next door.",
+    "prompt": "Loud arguments",
+    "answer": "Loud arguments are often heard from the apartment next door.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "Someone left a welcome note on the new family's door.",
+    "prompt": "A welcome note",
+    "answer": "A welcome note was left on the new family's door.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "They are repairing the broken fence this week.",
+    "prompt": "The broken fence",
+    "answer": "The broken fence is being repaired this week.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "People use the shared parking spots without permission.",
+    "prompt": "The shared parking spots",
+    "answer": "The shared parking spots are used without permission.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "Someone stole a bike from the basement last night.",
+    "prompt": "A bike",
+    "answer": "A bike was stolen from the basement last night.",
+    "topic": "neighbors"
+  },
+  {
+    "text": "They will paint the building next month.",
+    "prompt": "The building",
+    "answer": "The building will be painted next month.",
+    "topic": "neighbors"
+  },
   {
     "text": "Tourists leave tons of trash in historical sites every summer.",
     "prompt": "Tons of trash",
