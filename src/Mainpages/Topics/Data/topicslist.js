@@ -1,7 +1,7 @@
 module.exports = [{
         "id": "sleep",
         "title": "Sleep",
-        "subtitle": "#",
+        "subtitle": "Infinitives",
         "category": "General",
         "level": "B1",
         "time": "45 min",
@@ -30,7 +30,7 @@ module.exports = [{
       },
   {
         "id": "writing",
-        "title": "The future of Writing",
+        "title": "The Future of Writing",
         "subtitle": "Punctuation",
         "category": "General",
         "level": "B1",
@@ -40,7 +40,7 @@ module.exports = [{
       },
   {
         "id": "music",
-        "title": "Is this music?",
+        "title": "Is This Music?",
         "subtitle": "Indirect Questions",
         "category": "General",
         "level": "B1",
@@ -101,7 +101,7 @@ module.exports = [{
     {
       "id": "airtraffic",
       "title": "Air Traffic",
-      "subtitle": "Comparison",
+      "subtitle": "2nd Conditional",
       "category": "General",
       "level": "B2",
       "time": "60 min",
@@ -309,7 +309,7 @@ module.exports = [{
       "level": "B2",
       "time": "60 min",
       "description": "Describe people using relative clauses.",
-      "image": "/Images/neighbors1.jpg"
+      "image": "/Images/talkingchildren1.jpg"
     },
     {
       "id": "neighbors",
@@ -429,7 +429,7 @@ module.exports = [{
         "level": "B2",
         "time": "60 min",
         "description": "Explore extreme weather events while using mixed conditionals.",
-        "image": "/Images/weather.jpg"
+        "image": "/Images/extremeweather.jpg"
       },
       {
         "id": "education",
@@ -449,7 +449,7 @@ module.exports = [{
         "level": "C1",
         "time": "60 min",
         "description": "Talk about learning languages and review English verb tenses.",
-        "image": "/Images/education.jpg"
+        "image": "/Images/education1.webp"
       }
   ]
   

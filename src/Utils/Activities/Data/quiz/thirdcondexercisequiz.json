@@ -2,76 +2,7 @@
   "quizTitle": "Third Conditional – Mixed Topics",
   "type": "quiz",
   "questions": [
-    {
-      "id": 1,
-      "question": "If I ___ more coffee this morning, I ___ asleep in the meeting.",
-      "options": ["had drunk / wouldn’t have fallen", "drank / wouldn’t fall", "drink / won’t fall", "had drunk / won’t have fallen"],
-      "answer": "had drunk / wouldn’t have fallen",
-      "topic": "coffee"
-    },
-    {
-      "id": 2,
-      "question": "If we ___ better coffee beans, the espresso ___ amazing.",
-      "options": ["had bought / would have tasted", "bought / would taste", "buy / will taste", "had bought / will have tasted"],
-      "answer": "had bought / would have tasted",
-      "topic": "coffee"
-    },
-    {
-      "id": 3,
-      "question": "If she ___ the machine on, we ___ fresh coffee ready by now.",
-      "options": ["had left / would have had", "left / would have", "had leave / would had", "was leaving / would have had"],
-      "answer": "had left / would have had",
-      "topic": "coffee"
-    },
-    {
-      "id": 4,
-      "question": "If they ___ about the discount, they ___ more coffee.",
-      "options": ["had known / would have ordered", "knew / would order", "known / will order", "had knew / would had ordered"],
-      "answer": "had known / would have ordered",
-      "topic": "coffee"
-    },
-    {
-      "id": 5,
-      "question": "If the café ___ earlier, we ___ to get coffee from the machine.",
-      "options": ["had opened / wouldn’t have had", "opened / wouldn’t have", "open / won’t have had", "had open / wouldn’t had"],
-      "answer": "had opened / wouldn’t have had",
-      "topic": "coffee"
-    },
-    {
-      "id": 6,
-      "question": "If I ___ sugar in my coffee, it ___ so bitter.",
-      "options": ["had put / wouldn’t have tasted", "put / wouldn’t taste", "puts / won’t taste", "had put / won’t have tasted"],
-      "answer": "had put / wouldn’t have tasted",
-      "topic": "coffee"
-    },
-    {
-      "id": 7,
-      "question": "If we ___ that meeting at the coffee shop, everyone ___ more relaxed.",
-      "options": ["had held / would have been", "held / would be", "had hold / would had been", "were holding / would have been"],
-      "answer": "had held / would have been",
-      "topic": "coffee"
-    },
-    {
-      "id": 8,
-      "question": "If he ___ the coffee too long, it ___ cold.",
-      "options": ["hadn’t forgotten / wouldn’t have turned", "didn’t forget / wouldn’t turn", "hadn’t forgot / wouldn’t have turn", "wasn’t forgetting / wouldn’t turned"],
-      "answer": "hadn’t forgotten / wouldn’t have turned",
-      "topic": "coffee"
-    },
-    {
-      "id": 9,
-      "question": "If I ___ a cup before leaving, I ___ so tired on the train.",
-      "options": ["had made / wouldn’t have been", "made / wouldn’t be", "had make / wouldn’t had been", "make / won’t be"],
-      "answer": "had made / wouldn’t have been",
-      "topic": "coffee"
-    },
-    {
-      "id": 10,
-      "question": "If the barista ___ your order correctly, you ___ a decaf.",
-      "options": ["had taken / wouldn’t have received", "took / wouldn’t receive", "had take / wouldn’t had received", "takes / won’t receive"],
-      "answer": "had taken / wouldn’t have received",
-      "topic": "coffee"
-    },
+    
     {
       "id": 11,
       "question": "If we ___ the meeting earlier, we ___ home before the storm.",
@@ -141,6 +72,76 @@
       "options": ["had called / would have come", "called / would come", "had call / would had come", "call / will come"],
       "answer": "had called / would have come",
       "topic": "communication"
+    },
+    {
+      "id": 1,
+      "question": "If I ___ more coffee this morning, I ___ asleep in the meeting.",
+      "options": ["had drunk / wouldn’t have fallen", "drank / wouldn’t fall", "drink / won’t fall", "had drunk / won’t have fallen"],
+      "answer": "had drunk / wouldn’t have fallen",
+      "topic": "coffee"
+    },
+    {
+      "id": 2,
+      "question": "If we ___ better coffee beans, the espresso ___ amazing.",
+      "options": ["had bought / would have tasted", "bought / would taste", "buy / will taste", "had bought / will have tasted"],
+      "answer": "had bought / would have tasted",
+      "topic": "coffee"
+    },
+    {
+      "id": 3,
+      "question": "If she ___ the machine on, we ___ fresh coffee ready by now.",
+      "options": ["had left / would have had", "left / would have", "had leave / would had", "was leaving / would have had"],
+      "answer": "had left / would have had",
+      "topic": "coffee"
+    },
+    {
+      "id": 4,
+      "question": "If they ___ about the discount, they ___ more coffee.",
+      "options": ["had known / would have ordered", "knew / would order", "known / will order", "had knew / would had ordered"],
+      "answer": "had known / would have ordered",
+      "topic": "coffee"
+    },
+    {
+      "id": 5,
+      "question": "If the café ___ earlier, we ___ to get coffee from the machine.",
+      "options": ["had opened / wouldn’t have had", "opened / wouldn’t have", "open / won’t have had", "had open / wouldn’t had"],
+      "answer": "had opened / wouldn’t have had",
+      "topic": "coffee"
+    },
+    {
+      "id": 6,
+      "question": "If I ___ sugar in my coffee, it ___ so bitter.",
+      "options": ["had put / wouldn’t have tasted", "put / wouldn’t taste", "puts / won’t taste", "had put / won’t have tasted"],
+      "answer": "had put / wouldn’t have tasted",
+      "topic": "coffee"
+    },
+    {
+      "id": 7,
+      "question": "If we ___ that meeting at the coffee shop, everyone ___ more relaxed.",
+      "options": ["had held / would have been", "held / would be", "had hold / would had been", "were holding / would have been"],
+      "answer": "had held / would have been",
+      "topic": "coffee"
+    },
+    {
+      "id": 8,
+      "question": "If he ___ the coffee too long, it ___ cold.",
+      "options": ["hadn’t forgotten / wouldn’t have turned", "didn’t forget / wouldn’t turn", "hadn’t forgot / wouldn’t have turn", "wasn’t forgetting / wouldn’t turned"],
+      "answer": "hadn’t forgotten / wouldn’t have turned",
+      "topic": "coffee"
+    },
+    {
+      "id": 9,
+      "question": "If I ___ a cup before leaving, I ___ so tired on the train.",
+      "options": ["had made / wouldn’t have been", "made / wouldn’t be", "had make / wouldn’t had been", "make / won’t be"],
+      "answer": "had made / wouldn’t have been",
+      "topic": "coffee"
+    },
+    {
+      "id": 10,
+      "question": "If the barista ___ your order correctly, you ___ a decaf.",
+      "options": ["had taken / wouldn’t have received", "took / wouldn’t receive", "had take / wouldn’t had received", "takes / won’t receive"],
+      "answer": "had taken / wouldn’t have received",
+      "topic": "coffee"
     }
   ]
 }
