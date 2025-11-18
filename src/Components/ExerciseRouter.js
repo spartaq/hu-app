@@ -14,6 +14,7 @@ import HuFokuszQuizData from "../Utils/Activities/Data/quiz/fokuszexercisequiz.j
 import HuHarmoniaQuizData from "../Utils/Activities/Data/quiz/harmoniaexercisequiz.json";
 import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoindef.json";
 import HuDialogueVanData from "../Utils/Activities/Data/dialogues/testDialogue.json";
+
 import quizPresentPerfectData from "../Utils/Activities/Data/quiz/presentperfectexercisequiz.json";
 import quizSimplePresentData from "../Utils/Activities/Data/quiz/simplepresentexercisequiz.json";
 import quizSimplePastData from "../Utils/Activities/Data/quiz/simplepastexercisequiz.json";
@@ -38,18 +39,23 @@ import quizDeductionData from "../Utils/Activities/Data/quiz/modalsDeductionExer
 import quizThirdcondData from "../Utils/Activities/Data/quiz/thirdcondexercisequiz.json";
 import quizSosuchData from "../Utils/Activities/Data/quiz/sosuchexercisequiz.json";
 import quizPassiveData from "../Utils/Activities/Data/quiz/passiveexercisequiz.json";
+import quizSenseData from "../Utils/Activities/Data/quiz/senseexercisequiz.json";
+
 import orderingPresentData from "../Utils/Activities/Data/ordering/wordorder_present.json";
 import orderingPastData from "../Utils/Activities/Data/ordering/wordorder_past.json";
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
 import orderingjelenIdoIndef from "../Utils/Activities/Data/ordering/wordorder_jelenidoindef.json";
 import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
+
 import vocabVerbsData from "../Utils/Activities/Data/vocab/vocab_verbs.json";
 import vocabBusinessData from "../Utils/Data/vocab/vocab_business.json";
 import vocabTravelData from "../Utils/Data/vocab/vocab_travel.json";
 import vocabMultData from "../Utils/Data/vocab/vocab_mult.json";
+
 import gapfillBusinessData from "../Utils/Activities/Data/gapfill/gapfill_business.json";
 import gapfillJelenidoindefData from "../Utils/Activities/Data/gapfill/gapfill_jelenidoindef.json";
 import gapfillVanData from "../Utils/Activities/Data/gapfill/gapfill_van.json";
+
 import grammarToBePresentData from "../Utils/Activities/Data/grammar/tobepresent.json";
 import grammarToBePastData from "../Utils/Activities/Data/grammar/tobepast.json";
 import grammarSimplePresentData from "../Utils/Activities/Data/grammar/simplepresent.json";
@@ -89,11 +95,13 @@ import grammarWordFormsData from "../Utils/Activities/Data/grammar/wordforms.jso
 import grammarLinkingWordsData from "../Utils/Activities/Data/grammar/linkingwords.json";
 import grammarDependentPrepositionsData from "../Utils/Activities/Data/grammar/dependentpreps.json";
 import grammarCollocationsData from "../Utils/Activities/Data/grammar/collocations1.json";
+
 import readingParentsFootballMatch from "../Utils/Activities/Data/reading/readingParentsFootball.js";
 import readingStreamingFatigue from "../Utils/Activities/Data/reading/readingStreamingFatigue.js";
 import readingANevemBob from "../Utils/Activities/Data/reading/readingANevemBob.js";
 import readingEssityAccount from "../Utils/Activities/Data/reading/readingEssityAccount.js";
 import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimplePresent.js";
+
 import videoPhones from "../Utils/Activities/Data/videos/phones.js";
 import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
 
@@ -189,6 +197,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return quizSosuchData;
             case "passive":
               return quizPassiveData;
+            case "sense":
+              return quizSenseData;
             case "smartphones":
               return topicExerciseSmartphones;
             default:

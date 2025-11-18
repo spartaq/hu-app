@@ -1,5 +1,121 @@
 [ 
-  
+  {
+  "title": "How Tipping Culture Took Over the U.S.",
+  "videoId": "zqHKMovMWaQ",
+  "topic": "tipping",
+  "level": "B2",
+
+  "vocabulary": [
+    "customary - something that is traditional or usual",
+    "gratuity - an extra amount of money given for service",
+    "partitioning - dividing a price into separate components",
+    "inflation - a general increase in prices",
+    "service worker - someone employed in jobs like food service or hospitality",
+    "minimum wage - the lowest legal hourly pay rate",
+    "survey - a method of collecting opinions from people",
+    "hypothetical - imagined for the purpose of discussion",
+    "norms - accepted standards of behavior",
+    "establishment - a business or organization"
+  ],
+
+  "transcript": [
+    "<h1>How Tipping Culture Took Over the U.S.</h1>",
+    "<p>I'm purchasing an office chair online and they're asking me if I want to leave a tip, 25 2018% tip for what? Tipping culture has gone way too far.</p>",
+    "<p>Nowadays, you're asked for a tip nearly everywhere. Are we tipping at drivers? 15 20% on a sweatshirt purchase. If you're frustrated, you're not alone. A survey by Bankrate found that a third of people are annoyed by those pre entered tip screens and think tipping culture has gotten out of control.</p>",
+    "<p>Businesses in cities have tried to move away from tipping, but I don't see any kind of a future where tipping completely goes away. That's Mike Lynn, a Cornell psychologist who studies consumer behavior. I've done more research on tipping than anybody else and he'll help us explain why the US became so dependent on tipping, why it seems to be everywhere now and why we're probably not getting rid of it.</p>",
+
+    "<h2>Why tipping is ingrained in the U.S.</h2>",
+    "<p>Tipping really became popular after the civil war. When formerly enslaved black Americans went into service positions like waiters and railroad porters and the railroad industry deliberately paid them low wages on account of their ability to work for tips.</p>",
+    "<p>And arguably it was this influx of service workers who were receiving low wages that contributed to the growth of tipping by the early 19 hundreds. As minimum wages were being established, tipped workers were initially excluded until 1966. When tipped workers were given their own minimum wage, it was raised to $2.13 in 1991 where it stayed ever since.</p>",
+
+    "<h2>Why people tip now</h2>",
+    "<p>Consumers in this country are aware that servers make a substandard minimum wage and that contributes to their willingness and desire to tip them. Some states require employers to pay just that tipped minimum wage to workers where some states like California and Minnesota require them to pay workers the full minimum wage and then tips are added on to that.</p>",
+    "<p>And those minimum wages affect how people tip. I was able to get data from credit card payment system providers on charge sales and charge tips in restaurants across states. And what I find is the smaller the wages servers are paid the higher the percentage tip. In other words, he found that people know their tips are how workers get paid, so they tip more when they know workers are being paid less. In that same Bankrate survey, 41% of people said businesses should pay their employees better rather than relying so much on tips.</p>",
+
+    "<h2>Moving away from tipping</h2>",
+    "<p>But in practice, people don't like that. I've done the research where I give people hypothetical menus, one where they have regular prices. And at the bottom, it says a customary tip of 15 to 20% is appreciated. One where they say tipping is not allowed, you can't tip but their menu prices are 15% higher. He then asked people how expensive they thought the restaurant was.</p>",
+    "<p>People overwhelmingly thought the menu with the 15% higher prices was more expensive than a menu where they would tip 15% or more anyway. Other menus that stated an 18 or 15% gratuity would be automatically added were also viewed as more expensive. We're not rational, we're cognitive misers. We don't like to add all of the factors together and make logical rational comparisons. We do quick and dirty heuristics.</p>",
+    "<p>It's called price partitioning. You see it with hotel listings or concert tickets with all kinds of fees tacked on at the end. Partitioning prices often makes things seem less expensive than if you were to build all of the cost and be upfront in one big price, which is one of the reasons you're seeing tipping just about everywhere now.</p>",
+
+    "<h2>Why tipping is seen everywhere</h2>",
+    "<p>Post COVID, we've experienced inflation and full employment and service establishments have to compete for employees which means paying them more, but paying them more requires them to raise prices and customers are already facing inflation. And so what's a business to do? And I think that tipping is a way to address that problem, a good faith effort on the part of businesses to say I need to pay my employees more, but I don't want to raise my prices too much on you guys.</p>",
+    "<p>So, are people really tipping 20% for self-service or counter service? According to that Bankrate study, the vast majority of people are still always tipping servers or wait staff at a sit down restaurant. From what we've learned from Dr. Lynn’s studies, probably in part because they know those workers depend on tips. But when getting coffee, not as many; when picking up take out, even fewer.</p>",
+    "<p>So just because someone's asking for a tip doesn't mean it's customary, doesn't mean everyone else is giving. The new technology kind of hides from us what the actual behavioral norms are. Tipping was seen as un-American even in the 18 hundreds, in the 19 hundreds. Polls showed Americans wanting to get rid of tipping. Today, two thirds of Americans have a negative view of tipping, but it's so ingrained into American price models and policies that tipping is probably here to stay. But where and how much you tip is still up to you.</p>"
+  ],
+
+  "questions": [
+    {
+      "number": "1",
+      "question": "Why do many Americans feel tipping culture has gone too far?",
+      "choices": [
+        "A. Tips are now illegal in many states",
+        "B. Tip screens appear in places where tipping was never expected",
+        "C. Workers no longer want tips",
+        "D. Businesses no longer allow tipping"
+      ]
+    },
+    {
+      "number": "2",
+      "question": "Why did tipping grow after the Civil War?",
+      "choices": [
+        "A. Restaurants needed to raise prices",
+        "B. Employers used tips to avoid paying fair wages to Black service workers",
+        "C. Tipping was legally required",
+        "D. Passengers demanded better service"
+      ]
+    },
+    {
+      "number": "3",
+      "question": "What is the current federal tipped minimum wage in the U.S.?",
+      "choices": [
+        "A. $15.00",
+        "B. $7.25",
+        "C. $2.13",
+        "D. $10.50"
+      ]
+    },
+    {
+      "number": "4",
+      "question": "According to research, when do customers tip more?",
+      "choices": [
+        "A. When the server earns a higher hourly wage",
+        "B. When no tip screen is shown",
+        "C. When the server earns a very low hourly wage",
+        "D. When the restaurant is expensive"
+      ]
+    },
+    {
+      "number": "5",
+      "question": "What is price partitioning?",
+      "choices": [
+        "A. Combining all costs into one large price",
+        "B. Separating costs so the total seems cheaper",
+        "C. Refusing to show any prices",
+        "D. Increasing prices during holidays"
+      ]
+    },
+    {
+      "number": "6",
+      "question": "Why do businesses rely on tipping instead of raising prices?",
+      "choices": [
+        "A. Customers usually prefer lower menu prices with optional tips",
+        "B. Workers refuse higher salaries",
+        "C. Tipping is required by law",
+        "D. It reduces service quality"
+      ]
+    },
+    {
+      "number": "7",
+      "question": "What do polls show about Americans' feelings toward tipping?",
+      "choices": [
+        "A. Most Americans strongly support tipping",
+        "B. Americans have disliked tipping for more than a century",
+        "C. Tipping has recently become popular",
+        "D. Americans want tipping to expand to more industries"
+      ]
+    }
+  ]
+},
 {
   "title": "The Case of the Blocked Windows – A Neighbor Dispute",
   "videoId": "p8fOJdmSbdU",

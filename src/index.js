@@ -151,6 +151,7 @@ import Music from './Mainpages/Topics/music';
 import AirtrafficFuture from './Mainpages/Topics/airtrafficfuture';
 import Gambling from './Mainpages/Topics/gambling';
 import Sleep from './Mainpages/Topics/sleep';
+import Tipping from './Mainpages/Topics/tipping';
 
 
 
@@ -392,6 +393,10 @@ const router = createBrowserRouter([
           { 
             path: 'topics/sleep',
             element: <Sleep />,
+          },
+          { 
+            path: 'topics/tipping',
+            element: <Tipping />,
           },
           {
             path: 'grammar-exercises',

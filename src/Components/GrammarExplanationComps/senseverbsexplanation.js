@@ -46,22 +46,35 @@ const SenseverbsExplanation = () => {
         <h3><FaLightbulb /> Common Sense Verbs and Structures</h3>
 
         <div className="grammar-flex-table">
-          {[
-            ['Verb', 'Structure', 'Example'],
-            ['look', 'look + adj', 'You look tired.'],
-            ['feel', 'feel + adj', 'I feel sick.'],
-            ['sound', 'sound + adj', 'That sounds interesting.'],
-            ['taste', 'taste + adj', 'This tastes amazing.'],
-            ['smell', 'smell + like + noun', 'It smells like perfume.'],
-            ['seem', 'seem + adj', 'She seems worried.'],
-          ].map(([verb, structure, example], index) => (
-            <div key={index} className={`grammar-flex-row${index === 0 ? ' header' : ''}`}>
-              <div className="grammar-cell">{verb}</div>
-              <div className="grammar-cell">{structure}</div>
-              <div className="grammar-cell">{example}</div>
-            </div>
-          ))}
-        </div>
+  {[
+    ['Verb', 'Structure', 'Example'],
+    ['look', 'look + adj', 'You look tired.'],
+    ['look', 'look + like + noun', 'You look like a teacher.'],
+    ['look', 'look + as if + clause', 'She looks as if she’s going to cry.'],
+    ['feel', 'feel + adj', 'I feel sick.'],
+    ['feel', 'feel + like + noun', 'I feel like a zombie.'],
+    ['feel', 'feel + as if + clause', 'I feel as if I haven’t slept in days.'],
+    ['sound', 'sound + adj', 'That sounds interesting.'],
+    ['sound', 'sound + like + noun', 'He sounds like his dad.'],
+    ['sound', 'sound + as if + clause', 'It sounds as if they are arguing.'],
+    ['taste', 'taste + adj', 'This tastes amazing.'],
+    ['taste', 'taste + like + noun', 'It tastes like chocolate.'],
+    ['taste', 'taste + as if + clause', 'It tastes as if it was made yesterday.'],
+    ['smell', 'smell + adj', 'It smells strange.'],
+    ['smell', 'smell + like + noun', 'It smells like garlic.'],
+    ['smell', 'smell + as if + clause', 'It smells as if something is burning.'],
+    ['seem', 'seem + adj', 'She seems worried.'],
+    ['seem', 'seem + like + noun', 'He seems like a good person.'],
+    ['seem', 'seem + as if + clause', 'They seem as if they have lost interest.'],
+  ].map(([verb, structure, example], index) => (
+    <div key={index} className={`grammar-flex-row${index === 0 ? ' header' : ''}`}>
+      <div className="grammar-cell">{verb}</div>
+      <div className="grammar-cell">{structure}</div>
+      <div className="grammar-cell">{example}</div>
+    </div>
+  ))}
+</div>
+
 
         <p>
           <em>Note: These verbs are often stative and usually not used in continuous forms. For example, say <strong>"It smells good"</strong>, not <del>"It is smelling good"</del>.</em>

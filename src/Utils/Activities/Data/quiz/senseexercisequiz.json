@@ -1,0 +1,111 @@
+{
+  "quizTitle": "Sense Verbs - Tipping (Extended)",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 16,
+      "question": "The tip jar ___ full of crumpled bills and coins.",
+      "options": ["looks", "looks like", "looks as if", "feels"],
+      "answer": "looks like",
+      "topic": "tipping"
+    },
+    {
+      "id": 17,
+      "question": "The menu ___ as if the prices already include a tip.",
+      "options": ["looks", "looks like", "looks as if", "seems"],
+      "answer": "looks as if",
+      "topic": "tipping"
+    },
+    {
+      "id": 18,
+      "question": "The service at this café ___ slow, so we might leave a smaller tip.",
+      "options": ["seems", "sounds", "feels", "looks"],
+      "answer": "seems",
+      "topic": "tipping"
+    },
+    {
+      "id": 19,
+      "question": "The tip screen ___ confusing, with too many percentages to choose from.",
+      "options": ["looks", "looks like", "looks as if", "feels"],
+      "answer": "looks",
+      "topic": "tipping"
+    },
+    {
+      "id": 20,
+      "question": "The aroma of fresh pastries ___ inviting, encouraging customers to tip generously.",
+      "options": ["smells", "tastes", "sounds", "feels"],
+      "answer": "smells",
+      "topic": "tipping"
+    },
+    {
+      "id": 21,
+      "question": "The waiter ___ exhausted after the long lunch rush.",
+      "options": ["looks", "feels", "seems", "sounds"],
+      "answer": "looks",
+      "topic": "tipping"
+    },
+    {
+      "id": 22,
+      "question": "The suggestion to leave a 20% tip ___ fair given the attentive service.",
+      "options": ["seems", "looks", "feels", "sounds"],
+      "answer": "seems",
+      "topic": "tipping"
+    },
+    {
+      "id": 23,
+      "question": "The tip jar on the counter ___ as if it hasn’t been emptied in weeks.",
+      "options": ["looks", "looks like", "looks as if", "seems"],
+      "answer": "looks as if",
+      "topic": "tipping"
+    },
+    {
+      "id": 24,
+      "question": "The online tipping interface ___ intuitive and easy to use.",
+      "options": ["feels", "looks", "seems", "sounds"],
+      "answer": "feels",
+      "topic": "tipping"
+    },
+    {
+      "id": 25,
+      "question": "The music in the restaurant ___ cheerful, encouraging a positive mood for tipping.",
+      "options": ["sounds", "feels", "looks", "seems"],
+      "answer": "sounds",
+      "topic": "tipping"
+    },
+    {
+      "id": 26,
+      "question": "The dessert we tried ___ delicious and worth leaving an extra tip.",
+      "options": ["tastes", "smells", "looks", "seems"],
+      "answer": "tastes",
+      "topic": "tipping"
+    },
+    {
+      "id": 27,
+      "question": "The tip screen ___ like a small challenge to choose the right amount.",
+      "options": ["looks", "looks like", "looks as if", "seems"],
+      "answer": "looks like",
+      "topic": "tipping"
+    },
+    {
+      "id": 28,
+      "question": "The manager ___ frustrated when customers complain about tipping policies.",
+      "options": ["looks", "seems", "feels", "sounds"],
+      "answer": "seems",
+      "topic": "tipping"
+    },
+    {
+      "id": 29,
+      "question": "The coffee ___ bitter, so some customers leave a smaller tip.",
+      "options": ["tastes", "smells", "feels", "sounds"],
+      "answer": "tastes",
+      "topic": "tipping"
+    },
+    {
+      "id": 30,
+      "question": "The tip jar ___ like it has been heavily used all day.",
+      "options": ["looks", "looks like", "looks as if", "seems"],
+      "answer": "looks as if",
+      "topic": "tipping"
+    }
+  ]
+}

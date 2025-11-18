@@ -1,4 +1,76 @@
 module.exports = [
+
+  {
+  "readingcompTitle": "Tipping Culture: How It Started & Who It Hurts",
+  "topic": "society",
+  "level": "b1-b2",
+  "image": "/Images/tipping.jpg",
+  "vocabulary": [
+    "loophole - a way to avoid a rule or responsibility",
+    "pressure - a feeling of being forced to do something",
+    "wages - money workers earn",
+    "service industry - jobs like restaurants, hotels, cafés, salons",
+    "racism - unfair treatment of people based on race",
+    "exploitation - treating someone unfairly for profit",
+    "minimum wage - the lowest legal pay",
+    "service charge - extra fee added by a business",
+    "tipflation - rising expectations for tipping"
+  ],
+  "paragraphs": [
+    {
+      "text": [
+        "<p>Tipping feels normal today, but it didn’t start in the U.S. It began in Europe as a way for rich people to show off their wealth. It wasn’t about fairness or good service — it was a status symbol. When wealthy Americans brought the habit home in the late 1800s, most people hated it. Newspapers called it un-American and unfair because workers should be paid by employers, not by customers.</p>",
+
+        "<p>Businesses eventually realized tipping could save them money. Instead of paying proper wages, they paid workers very little and let customers cover the rest. This system became even more harmful after the Civil War. Many Black workers in hotels, railroads, and restaurants were given jobs with no real pay and were told to live on tips alone. This racist practice helped create today’s tipped minimum wage, which can still be as low as $2.13 an hour.</p>",
+
+        "<p>By the 1900s, tipping was normal in restaurants and hotels because it kept prices low and profits high. For workers, it meant unstable income and the pressure to always smile and please customers. Today tipping culture is even stronger: tip screens appear everywhere, expectations keep rising, and many people feel guilty saying no. Meanwhile, employers avoid raising wages by depending on tips instead.</p>",
+
+        "<p>In many countries, workers earn a real salary and tipping is optional. But in the U.S., millions of workers still rely on tips to survive. Some restaurants have tried no-tipping systems or automatic service charges so staff can earn steady pay, but these ideas often face backlash.</p>",
+
+        "<p>The real solution is better wage laws. Tipping can be a nice gesture, but it shouldn’t be the only thing keeping workers afloat. The problem isn’t generous customers — it’s employers who still depend on an outdated system built on inequality.</p>"
+      ],
+      "questions": [
+        {
+          "number": "1",
+          "question": "Where did tipping originally come from?",
+          "choices": ["a) The U.S.", "b) Medieval Europe", "c) South America", "d) Asia"]
+        },
+        {
+          "number": "2",
+          "question": "Why did U.S. businesses support tipping?",
+          "choices": ["a) It made work easier", "b) It allowed them to pay lower wages", "c) Customers demanded it", "d) It improved service"]
+        },
+        {
+          "number": "3",
+          "question": "How did racism influence tipping culture?",
+          "choices": [
+            "a) Black workers earned more",
+            "b) Black workers were paid nothing and relied on tips",
+            "c) It ended tipping",
+            "d) It created higher minimum wages"
+          ]
+        },
+        {
+          "number": "4",
+          "question": "What is a modern problem with tipping?",
+          "choices": [
+            "a) It is banned in cafés",
+            "b) Customers must tip online only",
+            "c) Tip expectations keep increasing",
+            "d) Only hotels use tips now"
+          ]
+        },
+        {
+          "number": "5",
+          "question": "What does the text say is the real solution?",
+          "choices": ["a) More tip screens", "b) Higher menu prices", "c) Better wage laws", "d) Bigger restaurants"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
 {
   "readingcompTitle": "Popular Myths About Sleep, Debunked",
   "topic": "sleep",

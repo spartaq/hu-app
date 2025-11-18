@@ -1,4 +1,16 @@
-module.exports = [{
+module.exports = [
+  {
+        "id": "tipping",
+        "title": "Tipping",
+        "subtitle": "Obligation",
+        "category": "General",
+        "level": "B1",
+        "time": "45 min",
+        "description": "A lesson to talk about tipping",
+        "image": "/Images/tipping.jpg"
+      },
+  
+  {
         "id": "sleep",
         "title": "Sleep",
         "subtitle": "Infinitives",

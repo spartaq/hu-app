@@ -144,7 +144,7 @@ const SenseverbsExercises = () => {
               />
             </div>
             </div>
-            <p className="descriptionbox">Complete the sentences with the correct form of "to be".</p>
+            <p className="descriptionbox">Complete the sentences with the correct form of the sense verb.</p>
             <form className="exercises-form" onSubmit={handleSubmit}>
             <PageCounter currentPage={currentPage} totalPages={totalPages} />
               {displayedSentences.map((sentence, index) => (

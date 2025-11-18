@@ -1,4 +1,105 @@
 [
+          
+          {
+            "text": "The waiter ___ happy when we left a big tip.",
+            "answer": "looked",
+            "topic": "tipping"
+          },
+          {
+            "text": "This soup ___ delicious, especially with the extra tip included.",
+            "answer": "tastes",
+            "topic": "tipping"
+          },
+          {
+            "text": "The restaurant ___ a high-end place with all those automatic tip screens.",
+            "answer": "looks like",
+            "topic": "tipping"
+          },
+          {
+            "text": "He ___ he didn’t expect any tips today.",
+            "answer": "looked as if",
+            "topic": "tipping"
+          },
+          {
+            "text": "The kitchen ___ a bit smoky after preparing all the tip-incentive specials.",
+            "answer": "smelled",
+            "topic": "tipping"
+          },
+          {
+            "text": "The barista’s voice ___ cheerful when we added an extra tip.",
+            "answer": "sounded",
+            "topic": "tipping"
+          },
+          {
+            "text": "She ___ she might get a bigger tip if she smiled more.",
+            "answer": "looked as if",
+            "topic": "tipping"
+          },
+          {
+            "text": "The coffee ___ bitter, even though we tipped generously.",
+            "answer": "tasted",
+            "topic": "tipping"
+          },
+          {
+            "text": "They ___ grateful for every single tip.",
+            "answer": "seemed",
+            "topic": "tipping"
+          },
+          {
+            "text": "The new tip-screen interface ___ confusing at first.",
+            "answer": "looks",
+            "topic": "tipping"
+          },
+          {
+            "text": "The cash register area ___ it had been cleaned after the last tip rush.",
+            "answer": "smelled as if",
+            "topic": "tipping"
+          },
+          {
+            "text": "The waiter ___ tired after a long shift with low base pay.",
+            "answer": "looked",
+            "topic": "tipping"
+          },
+          {
+            "text": "This tip jar ___ empty, despite the large crowd.",
+            "answer": "looks",
+            "topic": "tipping"
+          },
+          {
+            "text": "The server ___ she had expected more from the generous customers.",
+            "answer": "looked as if",
+            "topic": "tipping"
+          },
+          {
+            "text": "The food ___ it had been cooked quickly to keep up with tips.",
+            "answer": "tasted as if",
+            "topic": "tipping"
+          },
+          {
+            "text": "The tip receipt ___ a small thank-you note.",
+            "answer": "looks like",
+            "topic": "tipping"
+          },
+          {
+            "text": "The restaurant ___ lively during happy hour, with lots of tipping activity.",
+            "answer": "felt",
+            "topic": "tipping"
+          },
+          {
+            "text": "The delivery driver ___ he had been on the road all day.",
+            "answer": "looked as if",
+            "topic": "tipping"
+          },
+          {
+            "text": "The aroma of fresh pastries ___ amazing, encouraging bigger tips.",
+            "answer": "smelled",
+            "topic": "tipping"
+          },
+          {
+            "text": "The sound of coins in the tip jar ___ satisfying to the staff.",
+            "answer": "sounded",
+            "topic": "tipping"
+          },
           {
             "text": "The new radar interface ___ a bit confusing at first.",
             "answer": "looks",

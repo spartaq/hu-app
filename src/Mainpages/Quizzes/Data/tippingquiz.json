@@ -1,0 +1,73 @@
+[
+  {
+    "quiz": 1,
+    "quizTitle": "Tipping Culture Quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Where did tipping originally become popular before arriving in the U.S.?",
+        "options": ["Europe", "Asia", "South America", "Australia"],
+        "answer": "Europe"
+      },
+      {
+        "id": 2,
+        "question": "Which group was often paid extremely low wages after the Civil War and expected to live on tips?",
+        "options": ["Factory workers", "Formerly enslaved Black Americans", "Teachers", "Farmers"],
+        "answer": "Formerly enslaved Black Americans"
+      },
+      {
+        "id": 3,
+        "question": "What is the current U.S. federal tipped minimum wage that hasn't changed since 1991?",
+        "options": ["$7.25", "$5.50", "$2.13", "$4.25"],
+        "answer": "$2.13"
+      },
+      {
+        "id": 4,
+        "question": "In states where servers receive lower minimum wages, customers tend to:",
+        "options": ["Tip less", "Tip the same amount", "Tip more", "Stop tipping completely"],
+        "answer": "Tip more"
+      },
+      {
+        "id": 5,
+        "question": "What percentage of people think businesses should pay employees better instead of relying on tips?",
+        "options": ["10%", "25%", "41%", "60%"],
+        "answer": "41%"
+      },
+      {
+        "id": 6,
+        "question": "When menu prices are raised by 15% and tipping is removed, most customers believe the restaurant is:",
+        "options": ["Cheaper", "More expensive", "Exactly the same price", "More fair"],
+        "answer": "More expensive"
+      },
+      {
+        "id": 7,
+        "question": "What is the psychological tendency where people judge prices without adding all costs together?",
+        "options": ["Price anchoring", "Price partitioning", "Price bias", "Cost mapping"],
+        "answer": "Price partitioning"
+      },
+      {
+        "id": 8,
+        "question": "One reason businesses rely on tipping more now is because:",
+        "options": [
+          "People tip too little",
+          "Businesses want to raise wages without raising prices too much",
+          "It is required by law",
+          "It makes service slower"
+        ],
+        "answer": "Businesses want to raise wages without raising prices too much"
+      },
+      {
+        "id": 9,
+        "question": "According to surveys, most people still consistently tip:",
+        "options": ["Baristas", "Delivery drivers", "Servers at sit-down restaurants", "Cashiers"],
+        "answer": "Servers at sit-down restaurants"
+      },
+      {
+        "id": 10,
+        "question": "What proportion of Americans currently views tipping negatively?",
+        "options": ["One-third", "Half", "Two-thirds", "Nearly everyone"],
+        "answer": "Two-thirds"
+      }
+    ]
+  }
+]
