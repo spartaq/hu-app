@@ -555,109 +555,7 @@ header, footer {
 
 
 
-/*================================ Grammar box on exercise pages ============================================*/
 
-
-.grammardoexercise {
-  width: 100%;
-  margin-top: 70px;
-}
-
-
-
-
-.grammartable {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.grammartable th, .grammartable td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: left;
-}
-
-.grammartable th {
-  background-color: #f2f2f2;
-}
-
-
-.grammar-display-grid {
-  display: flex;
-  flex-direction: column;
-
-  /*border: 2px solid #ccc;*/ 
-  padding: 0px;
-  width: 100%;
-  margin-bottom: 35px;
-  /*background-color: whitesmoke;*/
-
-  border: 2px solid #ccc; 
-  padding: 10px;
-  width: 100%;
-  margin: 0px 0px;
-  background-color: white;
-
-}
-
-/*.grammar-display-grid h5 {
-  margin-bottom: 50px!important;
-  margin-top: 50px!important;
-}
-
-.grammar-display-row {
-  display: flex;
-  justify-content: space-between; 
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ddd; 
-  padding-bottom: 10px;
-  position: relative;
-}
-
-.grammar-display-item {
-  width: 23%; 
-  font-size: 16px;
-  text-align: center;
-  padding: 5px;
-  border: 1px solid #ddd; 
-  background-color: #f9f9f9;
-  position: relative;
-}
-
-.grammar-display-item:first-child {
-  text-align: center; 
-}
-
-.grammar-display-item:last-child {
-  text-align: center; 
-}*/
-
-
-
-
-@media (max-width: 950px) {
-.grammar-display-grid {
-  width: 100%;
-}
-
-.grammar-display-item {
-  font-size: 14px;
-}
-.grammartable {
-  border-collapse: collapse;
-
-  width: 94vw;
-  /*display:flex;
-
-  /*width: 94vw;
-  display:flex;
-
-  row-gap: 5px;
-  flex-direction: column;
-  align-items: center;*/
-
-}
-}
 
 .skill-controls {
   background-color: antiquewhite;
@@ -1849,14 +1747,15 @@ input[type="range"] {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  gap: 20px; /* spacing between items */
   width: 100%;
+  justify-content: space-between; /* optional */
 }
 
 .topics-list li {
-  width: calc(33.333% - 20px); /* 3 items per row with spacing */
+  flex: 1 1 calc((100% / 3) - 13.333px); /* 3 per row, gap accounted */
   box-sizing: border-box;
+  min-width: 80px; /* optional: prevent items from getting too narrow */
 }
 
 .topics-box {
@@ -1902,10 +1801,7 @@ input[type="range"] {
 
 .topics-image {
   width: 100%;
-
   height: 200px;
-
-
   overflow: hidden;
   border-radius: 0px;
 }
@@ -2005,13 +1901,82 @@ input[type="range"] {
     height: auto;
   }
 
-  .topics-list {
+  .topics-title {
+  font-size: 0.75rem;
+}
+.topics-subtitle {
+  font-size: 0.65rem;
+}
+.topics-details {
+  padding-left: 5px;
+  padding-top: 0px;
+}
+
+  /*.topics-list {
     display: block;
-  }
+  }*/
 
   .topics-list li {
     width: auto;
     box-sizing: border-box;
+  }
+  .topics-level-time {
+  font-size: 0.8rem;
+  color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px black;
+  padding-bottom: 10px;
+}
+}
+
+.topics-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* spacing between cards */
+  width: 100%;
+}
+
+.topics-list li {
+  flex: 1 1 calc((100% / 3) - 10.66px); /* 3 per row minus gap */
+  min-width: 100px; /* prevent cards from collapsing on tiny screens */
+  background-color: #f5f5f5; /* light pastel default, can override per type */
+  border-radius: 12px;
+  padding: 18px 12px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.topics-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.topics-list li h4 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.topics-list li p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* Optional: small screen tweak */
+@media (max-width: 500px) {
+  .topics-list li {
+    flex: 1 1 calc((100% / 3) - 10px);
+    min-width: 90px;
+    padding: 12px 8px;
   }
 }
 

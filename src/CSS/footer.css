@@ -2,7 +2,7 @@
 
 .footer {
   position: relative;
-  background-color: rgb(1, 143, 136);
+  background-color: orangered;
   color: #fff; /* text color */
   display: flex;
   flex-wrap: wrap;

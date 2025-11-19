@@ -1,0 +1,35 @@
+.exercise-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  text-align: left;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.exercise-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.exercise-card-grid {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+/* 2 cards per row on mobile */
+.exercise-card-grid > * {
+  flex: 0 0 calc(50% - 6px);
+}
+
+
+/* 3 per row on tablets/desktops */
+@media (min-width: 900px) {
+  .exercise-card-grid > * {
+    flex: 0 0 calc(33.333% - 8px);
+  }
+}

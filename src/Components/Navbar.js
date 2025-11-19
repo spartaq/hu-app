@@ -25,7 +25,7 @@ const AMenu = () => {
             className="d-inline-block align-top"
             alt="English Exam Exercises logo"
           />
-          <Navbar.Brand as={Link} to="/">English Exam Exercises</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">Hungarian Exercises</Navbar.Brand>
         </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleToggle}>
           <span>
@@ -45,23 +45,13 @@ const AMenu = () => {
           
           <Nav className="me-auto">
           <Nav.Link as={Link} to="/" onClick={handleCollapse}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/grammar-exercises" onClick={handleCollapse}>Grammar</Nav.Link>
             <Nav.Link as={Link} to="/hungarian" onClick={handleCollapse}>Hungarian</Nav.Link>
-            <Nav.Link as={Link} to="/vocabulary-exercises" onClick={handleCollapse}>Vocabulary</Nav.Link>
             <Nav.Link as={Link} to="/reading-exercises" onClick={handleCollapse}>Reading</Nav.Link>
-            <Nav.Link as={Link} to="/speaking-exercises" onClick={handleCollapse}>Speaking</Nav.Link>
             <Nav.Link as={Link} to="/videos/videos" onClick={handleCollapse}>Videos</Nav.Link>
             <Nav.Link as={Link} to="/flashcards" onClick={handleCollapse}>Flashcards</Nav.Link>
             <Nav.Link as={Link} to="/quizzes/vocabulary-quizzes" onClick={handleCollapse}>Quizzes</Nav.Link>
             <Nav.Link as={Link} to="/Topics/topics" onClick={handleCollapse}>Topics</Nav.Link>
-
-            <NavDropdown title="Resources" id="collapsible-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/level-test/level-test" onClick={handleCollapse}>Level Test</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/about-exams" onClick={handleCollapse}>About the Exams</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/teachers" onClick={handleCollapse}>For Teachers</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/tutor" onClick={handleCollapse}>One-on-One Tutoring</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/lesson-plans" onClick={handleCollapse}>Lesson Plans</NavDropdown.Item>
-            </NavDropdown>     
+            <Nav.Link as={Link} to="/level-test/level-test" onClick={handleCollapse}>Level Test</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
