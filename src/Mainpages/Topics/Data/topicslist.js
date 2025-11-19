@@ -2,7 +2,7 @@ module.exports = [
   {
         "id": "tipping",
         "title": "Tipping",
-        "subtitle": "Obligation",
+        "subtitle": "Sense Verbs",
         "category": "General",
         "level": "B1",
         "time": "45 min",
