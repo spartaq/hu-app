@@ -53,9 +53,9 @@
       },
       {
         "id": 9,
-        "question": "According to surveys, most people still consistently tip:",
-        "options": ["Baristas", "Delivery drivers", "Servers at sit-down restaurants", "Cashiers"],
-        "answer": "Servers at sit-down restaurants"
+        "question": "What percentage of restaurant patrons feel guilty when they don't leave a tip?",
+        "options": ["40%", "55%", "70%", "85%"],
+        "answer": "70%"
       },
       {
         "id": 10,
