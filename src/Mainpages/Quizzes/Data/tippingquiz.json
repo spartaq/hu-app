@@ -5,15 +5,15 @@
     "questions": [
       {
         "id": 1,
-        "question": "Where did tipping originally become popular before arriving in the U.S.?",
-        "options": ["Europe", "Asia", "South America", "Australia"],
-        "answer": "Europe"
+        "question": "What percentage of Americans consider tipping to be an important part of dining out?",
+        "options": ["50%", "70%", "85%", "95%"],
+        "answer": "85%"
       },
       {
         "id": 2,
-        "question": "Which group was often paid extremely low wages after the Civil War and expected to live on tips?",
-        "options": ["Factory workers", "Formerly enslaved Black Americans", "Teachers", "Farmers"],
-        "answer": "Formerly enslaved Black Americans"
+        "question": "In a survey, what percentage of people admitted to not tipping at all in the past year?",
+        "options": ["5%", "10%", "15%", "20%"],
+        "answer": "10%"
       },
       {
         "id": 3,
@@ -23,9 +23,9 @@
       },
       {
         "id": 4,
-        "question": "In states where servers receive lower minimum wages, customers tend to:",
-        "options": ["Tip less", "Tip the same amount", "Tip more", "Stop tipping completely"],
-        "answer": "Tip more"
+        "question": "What percentage of restaurant workers rely on tips for the majority of their income?",
+        "options": ["60%", "75%", "85%", "95%"],
+        "answer": "75%"
       },
       {
         "id": 5,
@@ -41,20 +41,15 @@
       },
       {
         "id": 7,
-        "question": "What is the psychological tendency where people judge prices without adding all costs together?",
-        "options": ["Price anchoring", "Price partitioning", "Price bias", "Cost mapping"],
-        "answer": "Price partitioning"
+        "question": "What percentage of people believe tipping should be optional rather than expected?",
+        "options": ["20%", "35%", "50%", "65%"],
+        "answer": "50%"
       },
       {
         "id": 8,
-        "question": "One reason businesses rely on tipping more now is because:",
-        "options": [
-          "People tip too little",
-          "Businesses want to raise wages without raising prices too much",
-          "It is required by law",
-          "It makes service slower"
-        ],
-        "answer": "Businesses want to raise wages without raising prices too much"
+        "question": "In a survey, what percentage of people said they tip less when service is included in the bill?",
+        "options": ["30%", "45%", "60%", "75%"],
+        "answer": "60%"
       },
       {
         "id": 9,
@@ -64,9 +59,9 @@
       },
       {
         "id": 10,
-        "question": "What proportion of Americans currently views tipping negatively?",
-        "options": ["One-third", "Half", "Two-thirds", "Nearly everyone"],
-        "answer": "Two-thirds"
+        "question": "What percentage of people think tipping should be abolished altogether?",
+        "options": ["5%", "15%", "25%", "35%"],
+        "answer": "15%"
       }
     ]
   }

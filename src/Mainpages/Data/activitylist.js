@@ -494,18 +494,7 @@ module.exports = [
         "time": "60 min",
         "description": "Van/Neki van - There is/have (possession)",
         "image": "/Images/jelenido1.jpg"
-      },        
-      {
-
-        "id": "hungarianexercisetemplate",
-        "title": "Hungarian Template",
-      "category": "hungarian",
-      "subtitle": "test",
-      "level": "HU",
-        "time": "60 min",
-        "description": "Template.",
-        "image": "/Images/jelenido1.jpg"
-      },                 
+      },             
 {
         "id": "jovoido",
         "title": "Jövő Idő (Future)",
