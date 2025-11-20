@@ -365,31 +365,3 @@ body {
   }
 }
 
-.modal-body {
-  padding: 20px;
-}
-
-.modal-footer {
-  padding: 20px;
-  border-top: 1px solid #eee;
-  display: flex;
-  justify-content: flex-end;
-  background: #fafafa;
-}
-
-.modal-footer button {
-  padding: 12px 20px;
-  border-radius: 8px;
-  border: none;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  background: #6c4cff; /* purple */
-  color: white;
-}
-
-.modal-footer button:hover {
-  background: #593bd1;
-}
-
- 

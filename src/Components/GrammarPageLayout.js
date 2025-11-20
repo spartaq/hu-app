@@ -89,41 +89,11 @@ const openNextSection = () => {
             Continue
           </button>
 
-          {/* Exercise Cards */}
-          <div className="exercise-card-grid">
-            {sections.map((section, i) => {
-                let bgColor;
-                switch(section.type) {
-                  case 'dialogue': bgColor = '#d691e4'; break;
-                  case 'vocab': bgColor = '#FFF4C2'; break;
-                  case 'quiz': bgColor = '#A7D271'; break;
-                  case 'grammar': bgColor = '#D7BDE2'; break;
-                  case 'ordering': bgColor = '#D7BDE2'; break;
-                  case 'reading': bgColor = '#FFF4C2'; break;
-                  case 'video': bgColor = '#A7D271'; break;
-                  default: bgColor = '#eee';
-                }
-
-                return (
-                  <ExerciseCard
-                    key={i}
-                    title={section.label}
-                    onClick={() => handleOpen(section, i)}
-                    bgColor={bgColor}    // pass as prop
-                  />
-                );
-              })}
-          </div>
+          
           
         </div>
 
-          <div className="top-margin">
-            <RelatedExercises
-              currentCategory={relatedCategory}
-              currentLevel={relatedLevel}
-              currentTitle={title}
-            />
-          </div>
+          
         </div>
       </div>
 
