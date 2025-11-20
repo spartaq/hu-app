@@ -236,17 +236,7 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
             default:
               return vocabBusinessData;
           }
-          case "gapfill":
-            switch (subtype) {
-              case "business":
-                return gapfillBusinessData;
-              case "jelenidoindef":
-                return gapfillJelenidoindefData;
-              case "van":
-                return gapfillVanData; 
-              default:
-                return gapfillBusinessData;
-          }
+         
           case "grammar":
             switch (subtype) {
               case "to-be-present":

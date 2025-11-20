@@ -64,7 +64,7 @@ const ActivityFilter = ({ setFilters = () => {} }) => {
   };
 
   return (
-    <div className="home-container">
+    <div className="activity-container">
       <div className="topics-container">
         <div className="grammar-display-grid">
           <div className="filter-container">

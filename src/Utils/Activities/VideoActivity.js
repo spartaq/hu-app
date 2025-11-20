@@ -18,14 +18,15 @@ const Videos = ({ data: videoData }) => {
 
   useEffect(() => {
     if (videoData && showTranscript) {
-      const transcriptText = videoData.transcript.join(" ");
+      const transcriptText = Array.isArray(videoData.transcript) ? videoData.transcript.join(" ") : "";
       const vocabulary = videoData.vocabulary;
-      if (vocabulary && vocabulary.length > 0) {
-        const tooltipped = addTooltipsToText(transcriptText, vocabulary);
-        setTooltippedTranscript(tooltipped);
-      } else {
-        setTooltippedTranscript(transcriptText);
-      }
+      if (Array.isArray(videoData.vocabulary) && videoData.vocabulary.length > 0) {
+      const tooltipped = addTooltipsToText(transcriptText, videoData.vocabulary);
+      setTooltippedTranscript(tooltipped);
+    } else {
+      setTooltippedTranscript(transcriptText);
+    }
+
     }
   }, [videoData, showTranscript]);
 
@@ -109,7 +110,7 @@ const Videos = ({ data: videoData }) => {
                 <div className="vocabulary-text">
                   <ul>
                     {videoData.vocabulary.map((item, idx) => {
-                      const [word, translation] = item.split(" - ");
+                      const [word, translation] = item.includes(" - ") ? item.split(" - ") : [item, ""];
                       return <li key={idx}><strong>{word}</strong> - {translation}</li>;
                     })}
                   </ul>
@@ -120,7 +121,7 @@ const Videos = ({ data: videoData }) => {
 
           <form onSubmit={handleSubmit}>
             <Carousel interval={null} wrap={false} controls indicators={false}>
-              {videoData.questions.map((q, i) => (
+              {(videoData.questions || []).map((q, i) => (
                 <Carousel.Item key={i}>
                   <div className="question-container">
                     <div className="question">{q.number}. {q.question}</div>

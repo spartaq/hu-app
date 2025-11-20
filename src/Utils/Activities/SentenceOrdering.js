@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 
 const SentenceOrdering = ({ data }) => {
-  const sentenceItem = Array.isArray(data) ? data[0] : data || { sentence: "", quizTitle: "" };
-  const correctWords = sentenceItem.sentence.split(" ").map((word, idx) => ({ word, id: idx }));
+ const sentenceItem = (Array.isArray(data) && data.length > 0 ? data[0] : data) || { sentence: "", quizTitle: "" };
+const sentenceText = sentenceItem.sentence || "";
+const correctWords = sentenceText.split(" ").map((word, idx) => ({ word, id: idx }));
+
 
   const [shuffledWords, setShuffledWords] = useState(() => shuffle([...correctWords]));
   const [placedWords, setPlacedWords] = useState(Array(correctWords.length).fill(null));

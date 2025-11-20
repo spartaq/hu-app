@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import * as serviceWorkerRegistration from './serviceWorker';
 import { HelmetProvider } from "react-helmet-async";
 import {
   RouterProvider,
@@ -30,8 +31,7 @@ import Hasonlitas from './Mainpages/Hungarian/hasonlitas';
 import Fokusz from './Mainpages/Hungarian/fokusz';
 import Harmonia from './Mainpages/Hungarian/harmonia';
 import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
-
-import * as serviceWorkerRegistration from './serviceWorker';
+import ActivityFilter from './Utils/activityFilter';
 
 
 
@@ -122,6 +122,10 @@ const router = createBrowserRouter([
           {
             path: 'flashcards/verbshun',
             element: <VerbsHun />,
+          },
+          {
+            path: 'hungarian/activities',
+            element: <ActivityFilter />,
           },
         ],
       },

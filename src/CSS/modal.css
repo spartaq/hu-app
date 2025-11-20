@@ -1,31 +1,162 @@
+/* -------------------------------
+   FULL-SCREEN MODAL OVERLAY
+--------------------------------*/
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.8); /* darker overlay if you like */
+  background: rgba(0,0,0,0.65);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 20px 10px;
   z-index: 9999;
-}
-
-.modal-content {
-  background: #fff;
-  width: 100%;
-  height: 100%;
-  padding: 20px 30px;
   overflow-y: auto;
-  position: relative;
-  border-radius: 0;  /* remove corner rounding for full screen */
 }
 
+
+/* -------------------------------
+   MAIN MODAL CONTAINER
+--------------------------------*/
+.modal-content {
+  background: purple;
+  width: 100%;
+  max-width: 900px;
+  min-height: 85vh;
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+  animation: fadeSlideIn 0.25s ease-out;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Animation */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* -------------------------------
+   HEADER BAR (Purple)
+--------------------------------*/
+.modal-header {
+  background: #5e2ced;        /* purple brand color */
+  color: white;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* -------------------------------
+   CLOSE BUTTON
+--------------------------------*/
 .modal-close {
-  position: absolute;
-  top: 12px;
-  right: 14px;
   background: none;
   border: none;
-  font-size: 28px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
   cursor: pointer;
-  z-index: 10000;
+  margin-left: 12px;
+}
+.modal-close:hover {
+  opacity: 0.8;
 }
 
+
+/* -------------------------------
+   INNER SCROLLABLE BODY
+--------------------------------*/
+.modal-body {
+  padding: 24px;
+  overflow-y: auto;
+  flex: 1;
+  background: #faf8ff;  /* subtle purple tint */
+}
+
+/* Nice scrollbar */
+.modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.modal-body::-webkit-scrollbar-thumb {
+  background: #c7b4ff;
+  border-radius: 6px;
+}
+
+
+/* -------------------------------
+   BUTTONS (Orange = Primary)
+--------------------------------*/
+.modal-button,
+.lesson-button {
+  display: inline-block;
+  background: #ff8b2c;     /* orange brand */
+  color: white;
+  padding: 14px 30px;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.modal-button:hover,
+.lesson-button:hover {
+  background: #ff7a00;
+  transform: translateY(-2px);
+}
+
+.modal-button:active,
+.lesson-button:active {
+  transform: scale(0.98);
+}
+
+
+/* Secondary muted button */
+.lesson-button-secondary {
+  background: #e5dcff;
+  color: #4b2ce6;
+}
+
+/* -------------------------------
+   INNER CONTENT CARDS
+--------------------------------*/
+.lesson-card {
+  background: white;
+  padding: 18px 20px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(80,0,140,0.08);
+  border-left: 4px solid #5e2ced; /* purple stripe */
+}
+
+.lesson-card h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  color: #4b2ce6;
+}
+
+.lesson-card p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #333;
+}

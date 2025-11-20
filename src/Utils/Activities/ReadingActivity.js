@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Carousel } from 'react-bootstrap';
 import '../../CSS/skills.css';
 import { addTooltipsToText } from '../tooltipUtils.js';
-import VocabularyMatch from '../vocabmatchcolumn.js';
-import vocabData from "../../Components/VocabularyListComps/Data/vocabcolumn.json";
 import { FaAngleDown } from 'react-icons/fa';
 
 const ReadingActivity = ({ data }) => {
