@@ -188,7 +188,7 @@ a {
   flex: 1;
   overflow: visible; 
   padding: 0px;
-  background-color: purple;
+  background-color: #fdfdfd;
 }
 
 header, footer {
@@ -2393,7 +2393,7 @@ button.incorrect {
 
 :root {
   /* Colors */
-  --color-primary: #6C63FF;      /* purple */
+  --color-primary: rebeccapurple;      /* purple */
   --color-primary-light: #ECEAFF;
   --color-accent: #FF8A00;       /* orange */
   --color-bg: #F8F9FC;

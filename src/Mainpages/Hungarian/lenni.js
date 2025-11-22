@@ -16,15 +16,11 @@ const sections = [
 
 const Lenni = () => (
   <GrammarPageLayout
-    level="HU1"
-    title="Lenni (To Be)"
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}
     seoTitle="Hungarian Grammar Exercises - Lenni (To Be)"
     seoDescription="A big list of Hungarian grammar exercises to practice"
-    relatedCategory="hungarian"
-    relatedLevel="HU1"
   />
 );
 

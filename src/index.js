@@ -32,6 +32,7 @@ import Fokusz from './Mainpages/Hungarian/fokusz';
 import Harmonia from './Mainpages/Hungarian/harmonia';
 import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
 import ActivityFilter from './Utils/activityFilter';
+import LessonList from './Mainpages/lesson-list';
 
 
 
@@ -126,6 +127,10 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/activities',
             element: <ActivityFilter />,
+          },
+          {
+            path: 'hungarian/lesson-list',
+            element: <LessonList />,
           },
         ],
       },

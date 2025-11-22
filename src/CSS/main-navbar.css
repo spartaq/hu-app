@@ -29,13 +29,13 @@
     width: 100%;
     text-align: left;
     color:white;
-    background-color: #008080;
+    background-color: #ff6a33;
   }
 
   .navbar-toggler:hover {
     width: 100%;
     text-align: left;
-    color:#008080;
+    color:#ff6a33;
     background-color: white;
   }
   
@@ -52,7 +52,7 @@
   }
 
   .nav-link:hover {
-    color: lightgreen;
+    color: lightsalmon;
   }
   
   .mobile-menu-title {
@@ -96,7 +96,7 @@
     }
 
     .navbar-nav .nav-link:hover {
-        color: lightgreen!important;
+        color: lightsalmon!important;
       }
   
     .navbar-nav .dropdown-menu {
@@ -126,7 +126,7 @@
   
     .navbar-collapse {
         width: 100%;
-        background-color: #008080;
+        background-color: #ff6a33;
         overflow: hidden; /* Hide overflow for smooth transitions */
         max-height: 0; /* Start with height 0 */
         opacity: 0; /* Hidden initially */
@@ -155,13 +155,13 @@
       width: 100%;
       text-align: left;
       color:white;
-      background-color: #008080;
+      background-color: #ff6a33;
     }
   
     .navbar-toggler:hover {
       width: 100%;
       text-align: left;
-      color:#008080;
+      color:lightsalmon;
       background-color: white;
     }
   
@@ -184,7 +184,7 @@
       }
 
       .nav-link:hover {
-        background-color: lightseagreen;
+        background-color: lightsalmon;
       }
       
   
@@ -202,17 +202,17 @@
       /*color: white;*/
     }
     .dropdown-menu {
-      background-color: #008080;
+      background-color: #ff6a33;
     }
     .dropdown-item {
       font-size: 14px;
-      background-color: #008080;
+      background-color: #ff6a33;
       color: white;
     }
 
     .dropdown-item:hover {
       font-size: 14px;
-      background-color: lightseagreen;
+      background-color: #ff6a33;
       color: white;
     }
   }

@@ -1,0 +1,83 @@
+.lessonlist-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lessonlist-title {
+  font-size: 1.9rem;
+  margin-bottom: 18px;
+  color: rebeccapurple; /* purple accent */
+}
+
+/* scrollable list */
+.lessonlist-scroll {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+/* single lesson row */
+.lessonlist-item {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  background: #faf7ff;
+  border: 1px solid #d8cdfa;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #222;
+  transition: 0.2s ease;
+}
+
+.lessonlist-item:hover {
+  background: #f3ebff;
+  border-color: #b9a6ff;
+}
+
+/* thumbnail */
+.lessonlist-thumb {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+/* title + subtitle */
+.lessonlist-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: rebeccapurple;
+}
+
+.lessonlist-sub {
+  margin: 4px 0 6px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* metadata */
+.lessonlist-meta {
+  display: flex;
+  gap: 14px;
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.lessonlist-meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* arrow */
+.lessonlist-arrow {
+  margin-left: auto;
+  font-size: 1.6rem;
+  color: #ff9c27; /* orange accent */
+  font-weight: bold;
+}

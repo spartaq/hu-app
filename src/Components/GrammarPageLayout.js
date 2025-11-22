@@ -5,7 +5,6 @@ import SEO from '../Components/SEO';
 import "../CSS/grammarPage.css";
 
 const GrammarPageLayout = ({
-  level,
   title,
   image,
   ExplanationComponent,
@@ -64,11 +63,6 @@ const openNextSection = () => {
       <div className="grammar-container">
         <div className="grammar-exercise-wrapper">
 
-          <div className="grammartitle">
-            <span className={`label label-${level.toLowerCase()}`}>{level}</span>
-            <h3 className="mt-2">{title}</h3>
-          </div>
-
           <div className="grammarimage">
             <img src={image} alt={title} />
           </div>
@@ -82,7 +76,7 @@ const openNextSection = () => {
             className="start-lesson-btn"
             onClick={() => handleOpen(sections[0], 0)}
           >
-            Continue
+            Start
           </button>
 
           

@@ -44,7 +44,7 @@ const Home = ({ setFilters = () => {} }) => {
       </div>
 
       {/* LESSON LIST */}
-      <Link to="hungarian/activities" className="w-100">
+      <Link to="hungarian/lesson-list" className="w-100">
         <button className="secondary-btn w-100">View All Lessons</button>
       </Link>
 
