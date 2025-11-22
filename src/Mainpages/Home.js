@@ -1,65 +1,66 @@
 import { useEffect } from "react";
-import { useLocation } from 'react-router-dom';
-import headerimg from '../Images/hungarian-home.jpg';
-import ActivityFilter from "../Utils/activityFilter.js";
-import { Link } from "react-router-dom";
-import ExerciseCard from '../Components/exerciseCard';
+import { useLocation, Link } from "react-router-dom";
+import headerimg from "../Images/hungarian-home.jpg";
+import { FaBook, FaListUl, FaHeadphones, FaComments, FaBookReader, FaPuzzlePiece, FaClipboardList } from "react-icons/fa";
+import "../CSS/Home.css";
 
 const Home = ({ setFilters = () => {} }) => {
-
   const location = useLocation();
 
   useEffect(() => {
     if (location.hash) {
       const element = document.querySelector(location.hash);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
+      if (element) element.scrollIntoView({ behavior: "smooth" });
     }
   }, [location]);
 
-  return (
-    <div className="home-container">
+  const actions = [
+    { label: "Vocabulary", icon: <FaBook /> },
+    { label: "Grammar", icon: <FaListUl /> },
+    { label: "Listening", icon: <FaHeadphones /> },
+    { label: "Dialogues", icon: <FaComments /> },
+    { label: "Readings", icon: <FaBookReader /> },
+    { label: "Quizzes", icon: <FaClipboardList /> },
+    { label: "Games", icon: <FaPuzzlePiece /> }
+  ];
 
-      {/* HEADER */}
-      <div className="home-header">
-        <img src={headerimg} alt="Hungarian" className="home-header-img" />
-        <div className="home-header-text">
-          <h1>Learn Hungarian</h1>
-          <p className="home-subtitle">Build your skills step by step</p>
+  return (
+    <div className="home-wrapper">
+
+      {/* SMALL HEADER */}
+      <div className="home-banner">
+        <img src={headerimg} alt="Hungarian" className="home-banner-img" />
+        <div className="home-banner-text">
+          <h1 className="banner-title">Welcome Back!</h1>
+          <p className="banner-sub">Continue your Hungarian progress</p>
         </div>
       </div>
 
-      {/* RESUME BUTTON */}
-      <button className="home-resume-btn">
-        Continue Lesson – Verb Basics (A1)
-      </button>
+      {/* RESUME CARD */}
+      <div className="resume-card">
+        <h3>Resume Your Lesson</h3>
+        <p className="resume-sub">Verb Basics (A1) • 42% complete</p>
+        <button className="primary-btn w-100">Continue</button>
+      </div>
 
-      
-<Link to="hungarian/activities" className="home-resume-btn-link">
-  <button className="home-resume-btn">
-    Lesson List
-  </button>
-</Link>
-
+      {/* LESSON LIST */}
+      <Link to="hungarian/activities" className="w-100">
+        <button className="secondary-btn w-100">View All Lessons</button>
+      </Link>
 
       {/* QUICK ACTIONS */}
-      <div className="home-section">
+      <section className="home-section">
         <h2>Quick Activities</h2>
 
-        <div className="home-actions-grid">
-          <div className="action-card">Vocabulary</div>
-          <div className="action-card">Grammar</div>
-          <div className="action-card">Listening</div>
-          <div className="action-card">Dialogues</div>
-          <div className="action-card">Readings</div>
-          <div className="action-card">Quizzes</div>
-          <div className="action-card">Games</div>
-
+        <div className="home-grid">
+          {actions.map((item) => (
+            <div key={item.label} className="home-card">
+              <div className="home-card-icon">{item.icon}</div>
+              <span>{item.label}</span>
+            </div>
+          ))}
         </div>
-      </div>
-
-      
+      </section>
 
     </div>
   );

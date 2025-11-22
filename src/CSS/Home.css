@@ -1,0 +1,126 @@
+/* WRAPPER */
+.home-wrapper {
+  padding: var(--space-lg);
+  background: var(--color-bg);
+  min-height: 100vh;
+  font-family: var(--font-main);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* SMALL BANNER */
+.home-banner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.home-banner-img {
+  width: 140px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-soft);
+}
+
+.banner-title {
+  font-size: var(--font-size-h2);
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.banner-sub {
+  color: var(--color-text-light);
+  margin-top: 4px;
+}
+
+/* RESUME CARD */
+.resume-card {
+  background: var(--color-surface);
+  padding: var(--space-lg);
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-soft);
+  margin-bottom: var(--space-lg);
+}
+
+.resume-card h3 {
+  margin: 0 0 4px 0;
+  font-size: var(--font-size-h3);
+  color: var(--color-primary);
+}
+
+.resume-sub {
+  margin: 0 0 12px 0;
+  color: var(--color-text-light);
+}
+
+/* BUTTONS */
+.primary-btn,
+.secondary-btn {
+  padding: var(--space-sm) var(--space-md);
+  font-weight: 600;
+  border-radius: var(--radius-medium);
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.primary-btn {
+  background: var(--color-primary);
+  color: white;
+}
+
+.primary-btn:hover {
+  background: var(--color-accent);
+}
+
+.secondary-btn {
+  background: var(--color-surface);
+  color: var(--color-text);
+  box-shadow: var(--shadow-soft);
+  margin-bottom: var(--space-xl);
+}
+
+.secondary-btn:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+/* QUICK ACTIONS */
+.home-section h2 {
+  font-size: var(--font-size-h3);
+  margin-bottom: var(--space-md);
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-lg);
+}
+
+.home-card {
+  background: var(--color-surface);
+  padding: var(--space-md);
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-medium);
+}
+
+.home-card-icon {
+  font-size: 1.8rem;
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  padding: 14px;
+  border-radius: 50%;
+}

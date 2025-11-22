@@ -1,39 +1,34 @@
 import React, { useState, useEffect } from 'react';
-import { Carousel } from 'react-bootstrap';
-import { useLocation } from 'react-router-dom';
-import SEO from '../../Components/SEO';
-import YouTubeVideos from '../../Components/YouTubeVideos';
 import { addTooltipsToText } from '../tooltipUtils';
+import YouTubeVideos from '../../Components/YouTubeVideos';
+import { FaAngleDown } from 'react-icons/fa';
+import "../../CSS/VideoActivity.css";
 
-const Videos = ({ data: videoData }) => {
+const VideoActivity = ({ data }) => {
   const [answers, setAnswers] = useState([]);
   const [showResults, setShowResults] = useState(false);
-  const [tooltippedTranscript, setTooltippedTranscript] = useState("");
   const [showTranscript, setShowTranscript] = useState(false);
   const [showVocab, setShowVocab] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [title, setTitle] = useState("");
-
- 
+  const [tooltippedTranscript, setTooltippedTranscript] = useState("");
 
   useEffect(() => {
-    if (videoData && showTranscript) {
-      const transcriptText = Array.isArray(videoData.transcript) ? videoData.transcript.join(" ") : "";
-      const vocabulary = videoData.vocabulary;
-      if (Array.isArray(videoData.vocabulary) && videoData.vocabulary.length > 0) {
-      const tooltipped = addTooltipsToText(transcriptText, videoData.vocabulary);
-      setTooltippedTranscript(tooltipped);
-    } else {
-      setTooltippedTranscript(transcriptText);
-    }
+    if (data?.questions?.length) setAnswers(Array(data.questions.length).fill(''));
+  }, [data]);
 
+  useEffect(() => {
+    if (data?.transcript && showTranscript) {
+      const transcriptText = Array.isArray(data.transcript) ? data.transcript.join(' ') : data.transcript;
+      const processed = data.vocabulary?.length
+        ? addTooltipsToText(transcriptText, data.vocabulary)
+        : transcriptText;
+      setTooltippedTranscript(processed);
     }
-  }, [videoData, showTranscript]);
+  }, [data, showTranscript]);
 
-  const handleAnswerChange = (questionIndex, choice) => {
-    const updatedAnswers = [...answers];
-    updatedAnswers[questionIndex] = choice;
-    setAnswers(updatedAnswers);
+  const handleAnswerChange = (qIdx, choice) => {
+    const updated = [...answers];
+    updated[qIdx] = choice;
+    setAnswers(updated);
     setShowResults(false);
   };
 
@@ -42,123 +37,84 @@ const Videos = ({ data: videoData }) => {
     setShowResults(true);
   };
 
-  const isCorrect = (questionIndex) => {
-    return answers[questionIndex] === videoData.questions[questionIndex].correctAnswer;
-  };
-
-  const getResultIcon = (questionIndex, choiceIndex) => {
-    if (!showResults) return null;
-    const selected = answers[questionIndex];
-    const choice = videoData.questions[questionIndex].choices[choiceIndex];
-    const correct = videoData.questions[questionIndex].correctAnswer;
-    if (selected === choice && selected === correct) return <span style={{ color: 'green' }}>&#10003;</span>;
-    if (selected === choice && selected !== correct) return <span style={{ color: 'red' }}>&#10005;</span>;
-    return null;
-  };
-
-  const toggleTranscript = () => setShowTranscript(prev => !prev);
-  const toggleVocab = () => setShowVocab(prev => !prev);
-  const toggleMenu = () => setIsMenuOpen(prev => !prev);
-
-  if (!videoData) return <div>Loading video...</div>;
+  const isCorrect = (qIdx) => answers[qIdx] === data.questions[qIdx].correctAnswer;
 
   return (
-    <div>
-      <SEO
-        title='Video Comprehension Exercises - English Exam Exercises'
-        description='A collection of videos to practice listening comprehension'
-        name='English Exam Exercises'
-        type='article'
-      />
-
-      <div className="introtext">
-        <div className="grammartitle">
-          <span className="label label-a1">A1</span>
-          <h3 className="mt-2">{videoData.title}</h3>
-        </div>
-
-        <div className="exercises-container">
-          <div className="skills-controls">
-            <button className="checkbtn" onClick={toggleMenu}>☰ Video List</button>
-            <button className="checkbtn" onClick={toggleTranscript}>Transcript</button>
-            <button className="checkbtn" onClick={toggleVocab}>Vocabulary</button>
-          </div>
-
-          <div className="videointerface">
-            <div className="videotitle">
-              <h1>{videoData.title}</h1>
-              <span>Topic: {videoData.topic}</span>
-              <span>Level: {videoData.level}</span>
-            </div>
-
-            <div className="video-container">
-              <YouTubeVideos videoId={videoData.videoId} />
-            </div>
-          </div>
-
-          {showTranscript && (
-            <div className="overlay" onClick={() => setShowTranscript(false)}>
-              <div className="transcript-overlay" onClick={(e) => e.stopPropagation()}>
-                <div className="transcript-text" dangerouslySetInnerHTML={{ __html: tooltippedTranscript }} />
-              </div>
-            </div>
-          )}
-
-          {showVocab && (
-            <div className="overlay" onClick={() => setShowVocab(false)}>
-              <div className="transcript-overlay" onClick={(e) => e.stopPropagation()}>
-                <div className="vocabulary-text">
-                  <ul>
-                    {videoData.vocabulary.map((item, idx) => {
-                      const [word, translation] = item.includes(" - ") ? item.split(" - ") : [item, ""];
-                      return <li key={idx}><strong>{word}</strong> - {translation}</li>;
-                    })}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          )}
-
-          <form onSubmit={handleSubmit}>
-            <Carousel interval={null} wrap={false} controls indicators={false}>
-              {(videoData.questions || []).map((q, i) => (
-                <Carousel.Item key={i}>
-                  <div className="question-container">
-                    <div className="question">{q.number}. {q.question}</div>
-                    <div className="choices-container">
-                      {q.choices.map((choice, j) => (
-                        <label key={j}>
-                          <input
-                            type="radio"
-                            value={choice}
-                            checked={answers[i] === choice}
-                            onChange={() => handleAnswerChange(i, choice)}
-                          />
-                          {choice} {getResultIcon(i, j)}
-                        </label>
-                      ))}
-                    </div>
-                  </div>
-                  <button type="submit" className="checkbtn">Check Answer</button>
-                </Carousel.Item>
-              ))}
-            </Carousel>
-          </form>
-
-          {/* Optional Video Menu */}
-          <div className={`mobile-menu-speaking ${isMenuOpen ? 'open' : ''}`}>
-            <div className="set-buttons">
-              <button className="close-button" onClick={toggleMenu}>✕</button>
-              {/* You could dynamically list links here if you track a full video list */}
-              <a className="flashbtn" href="/videos?title=video1">Video 1</a>
-              <a className="flashbtn" href="/videos?title=video2">Video 2</a>
-              {/* etc. */}
-            </div>
-          </div>
-        </div>
+    <div className="video-activity-card">
+      <h2 className="video-title">{data?.title || 'Video Activity'}</h2>
+      <div className="video-meta">
+        <span>Topic: {data?.topic}</span>
+        <span>Level: {data?.level}</span>
       </div>
+
+      {/* Video Player */}
+      <div className="video-player">
+        <YouTubeVideos videoId={data.videoId} />
+      </div>
+
+      {/* Controls */}
+      <div className="video-controls">
+        <button className="checkbtn" onClick={() => setShowTranscript(prev => !prev)}>
+          Transcript <FaAngleDown className={`toggle-icon ${showTranscript ? 'open' : ''}`} />
+        </button>
+        <button className="checkbtn" onClick={() => setShowVocab(prev => !prev)}>
+          Vocabulary <FaAngleDown className={`toggle-icon ${showVocab ? 'open' : ''}`} />
+        </button>
+      </div>
+
+      {/* Transcript */}
+      {showTranscript && (
+        <div className="overlay" onClick={() => setShowTranscript(false)}>
+          <div className="overlay-content" onClick={e => e.stopPropagation()}>
+            <div className="transcript-text" dangerouslySetInnerHTML={{ __html: tooltippedTranscript }} />
+          </div>
+        </div>
+      )}
+
+      {/* Vocabulary */}
+      {showVocab && (
+        <div className="overlay" onClick={() => setShowVocab(false)}>
+          <div className="overlay-content" onClick={e => e.stopPropagation()}>
+            <ul className="vocab-list">
+              {data.vocabulary?.map((item, idx) => {
+                const [word, translation] = item.includes(' - ') ? item.split(' - ') : [item, ''];
+                return <li key={idx}><strong>{word}</strong> - {translation}</li>;
+              })}
+            </ul>
+          </div>
+        </div>
+      )}
+
+      {/* Questions */}
+      <form className="video-questions-form" onSubmit={handleSubmit}>
+        {data.questions?.map((q, qIdx) => (
+          <div key={qIdx} className="question-block">
+            <div className="question-text">{q.number}. {q.question}</div>
+            <div className="choices-container">
+              {q.choices.map((choice, cIdx) => (
+                <label
+                  key={cIdx}
+                  className={`choice-label ${showResults ? (isCorrect(qIdx) && answers[qIdx] === choice ? 'correct' : answers[qIdx] === choice ? 'incorrect' : '') : ''}`}
+                >
+                  <input
+                    type="radio"
+                    name={`question-${qIdx}`}
+                    value={choice}
+                    checked={answers[qIdx] === choice}
+                    onChange={() => handleAnswerChange(qIdx, choice)}
+                  />
+                  {choice}
+                  {showResults && answers[qIdx] === choice && isCorrect(qIdx) && <span className="result-icon">✔️</span>}
+                  {showResults && answers[qIdx] === choice && !isCorrect(qIdx) && <span className="result-icon">❌</span>}
+                </label>
+              ))}
+            </div>
+          </div>
+        ))}
+        <button type="submit" className="checkbtn">Check Answers</button>
+      </form>
     </div>
   );
 };
 
-export default Videos;
+export default VideoActivity;

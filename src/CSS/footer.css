@@ -2,7 +2,7 @@
 
 .footer {
   position: relative;
-  background-color: purple;
+  background-color: rebeccapurple;
   color: #fff; /* text color */
   display: flex;
   flex-wrap: wrap;

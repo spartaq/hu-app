@@ -1,0 +1,122 @@
+/* === QUIZ CARD CONTAINER === */
+.quizactivity__card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 2rem;
+  max-width: 650px;
+  margin: 1.5rem auto;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === TITLES === */
+.quizactivity__card h2:first-child {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #6a4bc3; /* soft purple accent */
+}
+
+.quizactivity__question {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 1rem 0 1.5rem;
+  color: #222;
+}
+
+/* === OPTIONS GRID === */
+.quizactivity__options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* === OPTION BUTTON === */
+.quizactivity__option-button {
+  padding: 1rem;
+  background: #faf7ff; /* pastel lilac */
+  border: 2px solid transparent;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.quizactivity__option-button:hover:not(:disabled) {
+  background: #f3ebff; /* slightly stronger */
+  border-color: #c8b3ff;
+  transform: translateY(-1px);
+}
+
+.quizactivity__option-button:disabled {
+  opacity: 0.8;
+  cursor: default;
+}
+
+/* CORRECT STATE */
+.quizactivity__option-button.correct {
+  background: #e7fce9;
+  border-color: #52b067;
+  color: #1b6b24;
+}
+
+/* INCORRECT STATE */
+.quizactivity__option-button.incorrect {
+  background: #ffecec;
+  border-color: #ff6b6b;
+  color: #b30000;
+}
+
+/* === FEEDBACK BOX === */
+.quizactivity__feedback {
+  margin-top: 1.5rem;
+  padding: 1rem 1.2rem;
+  background: #fff7e9; /* soft orange background */
+  border-left: 4px solid #ff9f3f;
+  border-radius: 8px;
+  animation: fadeIn 0.2s ease;
+}
+
+.quizactivity__feedback p {
+  margin: 0.3rem 0;
+  font-size: 1.05rem;
+}
+
+/* NEXT BUTTON */
+.quizactivity__feedback button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  background: #ff8b3d; /* orange */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.quizactivity__feedback button:hover {
+  background: #ff7a1e;
+  transform: translateY(-1px);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 480px) {
+  .quizactivity__card {
+    padding: 1.4rem;
+  }
+
+  .quizactivity__question {
+    font-size: 1.25rem;
+  }
+}

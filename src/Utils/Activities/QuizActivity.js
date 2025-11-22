@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../CSS/exercisesection.css";
+import "../../CSS/QuizActivity.css";
 
 const QuizActivity = ({ question, data, onAnswer }) => {
   const quizTitle = data?.quizTitle || "Quiz";
@@ -45,13 +45,13 @@ const QuizActivity = ({ question, data, onAnswer }) => {
   };
 
   return (
-    <div className="exercisesection__card">
+    <div className="quizactivity__card">
       <h2>{quizTitle}</h2>
-      <h2 className="exercisesection__question">{question.question}</h2>
+      <h2 className="quizactivity__question">{question.question}</h2>
 
-      <div className="exercisesection__options">
+      <div className="quizactivity__options">
         {shuffledOptions.map((option, index) => {
-          let buttonClass = "exercisesection__option-button";
+          let buttonClass = "quizactivity__option-button";
 
           if (selectedAnswer) {
             if (option === selectedAnswer) {
@@ -76,7 +76,7 @@ const QuizActivity = ({ question, data, onAnswer }) => {
       </div>
 
       {selectedAnswer && (
-        <div className="exercisesection__feedback">
+        <div className="quizactivity__feedback">
           <p>
             {selectedAnswer.trim() === correctAnswer
               ? "✅ Correct!"

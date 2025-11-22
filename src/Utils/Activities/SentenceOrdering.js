@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
+import "../../CSS/WordOrderActivity.css";
 
 const SentenceOrdering = ({ data }) => {
- const sentenceItem = (Array.isArray(data) && data.length > 0 ? data[0] : data) || { sentence: "", quizTitle: "" };
-const sentenceText = sentenceItem.sentence || "";
-const correctWords = sentenceText.split(" ").map((word, idx) => ({ word, id: idx }));
-
+  const sentenceItem = (Array.isArray(data) && data.length > 0 ? data[0] : data) || { sentence: "", quizTitle: "" };
+  const sentenceText = sentenceItem.sentence || "";
+  const correctWords = useMemo(() => sentenceText.split(" ").map((word, idx) => ({ word, id: idx })), [sentenceText]);
 
   const [shuffledWords, setShuffledWords] = useState(() => shuffle([...correctWords]));
   const [placedWords, setPlacedWords] = useState(Array(correctWords.length).fill(null));
@@ -19,27 +19,30 @@ const correctWords = sentenceText.split(" ").map((word, idx) => ({ word, id: idx
     return copy;
   }
 
-  const isCorrectPlacement = (wordObj, idx) => wordObj.id === idx;
+  const handlePlaceWord = (wordObj) => {
+    const nextBlankIdx = placedWords.findIndex(p => p === null);
+    if (nextBlankIdx === -1) return;
 
-  const resetSentenceOrdering = () => {
+    const newPlaced = [...placedWords];
+    newPlaced[nextBlankIdx] = wordObj;
+    setPlacedWords(newPlaced);
+
+    if (newPlaced.every((word, idx) => word?.id === idx)) {
+      setCompleted(true);
+    }
+  };
+
+  const handleReset = () => {
     setShuffledWords(shuffle([...correctWords]));
     setPlacedWords(Array(correctWords.length).fill(null));
     setCompleted(false);
   };
 
-  const checkCompletion = () => {
-    if (placedWords.every((word, idx) => word?.id === idx)) {
-      setCompleted(true);
-    }
-  };
-
-  if (!sentenceItem.sentence) {
-    return <p>Error: Invalid sentence data</p>;
-  }
+  if (!sentenceText) return <p>Error: Invalid sentence data</p>;
 
   return (
-    <div className="sentence-ordering-block">
-      <h2>{sentenceItem.quizTitle}</h2>
+    <div className="wordorder-card">
+      <h2 className="wordorder-title">{sentenceItem.quizTitle}</h2>
 
       <div className="word-bank">
         {shuffledWords
@@ -47,15 +50,7 @@ const correctWords = sentenceText.split(" ").map((word, idx) => ({ word, id: idx
           .map(wordObj => (
             <button
               key={wordObj.id}
-              onClick={() => {
-                const nextBlankIdx = placedWords.findIndex(p => p === null);
-                if (nextBlankIdx === -1 || !isCorrectPlacement(wordObj, nextBlankIdx)) return;
-
-                const newPlaced = [...placedWords];
-                newPlaced[nextBlankIdx] = wordObj;
-                setPlacedWords(newPlaced);
-                checkCompletion();
-              }}
+              onClick={() => handlePlaceWord(wordObj)}
               className="word-bank-button"
               disabled={completed}
             >
@@ -64,25 +59,20 @@ const correctWords = sentenceText.split(" ").map((word, idx) => ({ word, id: idx
           ))}
       </div>
 
-      <div className="ordered-sentence simulated-input">
+      <div className="ordered-sentence">
         {correctWords.map((_, idx) => {
           const placedWord = placedWords[idx];
           return (
-            <span
-              key={idx}
-              className={`word-span ${placedWord ? "filled" : "blank"}`}
-            >
-              {placedWord?.word || "_____"}
+            <span key={idx} className={`word-slot ${placedWord ? "filled" : "blank"}`}>
+              {placedWord?.word || "_____" }
             </span>
           );
         })}
       </div>
 
-      {completed && <p className="completion-message">Correct! 🎉</p>}
+      {completed && <p className="completion-message">✅ Correct! 🎉</p>}
 
-      <button onClick={resetSentenceOrdering} className="reset-button">
-        Reset
-      </button>
+      <button onClick={handleReset} className="reset-button">Reset</button>
     </div>
   );
 };

@@ -1,0 +1,98 @@
+.wordorder-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  animation: fadeIn 0.25s ease;
+}
+
+.wordorder-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #6a4bc3;
+  margin-bottom: 1rem;
+}
+
+/* Word Bank */
+.word-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.word-bank-button {
+  padding: 0.5rem 0.9rem;
+  background: #ff9f3f;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.word-bank-button:hover {
+  background: #ff7a1e;
+  transform: translateY(-1px);
+}
+
+/* Ordered Sentence */
+.ordered-sentence {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.word-slot {
+  min-width: 60px;
+  text-align: center;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  border: 2px dashed #ccc;
+  font-weight: 500;
+}
+
+.word-slot.filled {
+  border-style: solid;
+  border-color: #6a4bc3;
+  background: #f4efff;
+}
+
+/* Completion Message */
+.completion-message {
+  color: #4caf50;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Reset Button */
+.reset-button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #ece6ff;
+  transition: 0.2s ease;
+}
+
+.reset-button:hover {
+  background: #d9ceff;
+}
+
+@media (max-width: 600px) {
+  .ordered-sentence {
+    justify-content: flex-start;
+  }
+  .word-bank {
+    justify-content: flex-start;
+  }
+}

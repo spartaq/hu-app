@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useMemo } from "react";
+import "../../CSS/VocabActivity.css";
 import shuffle from "../shuffle.js";
 
 const ITEMS_PER_PAGE = 5;
@@ -69,66 +70,83 @@ const VocabMatch = ({ data }) => {
   const totalPages = Math.ceil(pairs.length / ITEMS_PER_PAGE);
 
 
-  return (
-    <div className="vocab-match-container">
-      <h2>{quizTitle}</h2>
+ return (
+  <div className="vocabmatch__card">
+    <h2 className="vocabmatch__title">{quizTitle}</h2>
 
-      <div className="vocab-columns" style={{ display: "flex", gap: "40px", justifyContent: "center" }}>
-        <div>
-          <h4>Terms</h4>
+    {/* TWO COLUMN MATCH AREA */}
+    <div className="vocabmatch__columns">
+      
+      {/* TERMS */}
+      <div className="vocabmatch__column">
+        <h3>Terms</h3>
+        <div className="vocabmatch__list">
           {unmatchedTerms.map((p) => (
             <button
               key={p.term}
               onClick={() => handleTermClick(p.term)}
-              className={selectedTerm === p.term ? 'selected' : ''}
-              style={{ display: 'block', margin: '5px' }}
+              className={`vocabmatch__item ${
+                selectedTerm === p.term ? "selected" : ""
+              }`}
             >
               {p.term}
             </button>
           ))}
         </div>
-        <div>
-          <h4>Definitions</h4>
+      </div>
+
+      {/* DEFINITIONS */}
+      <div className="vocabmatch__column">
+        <h3>Definitions</h3>
+        <div className="vocabmatch__list">
           {unmatchedDefs.map((def, i) => (
             <button
               key={i}
               onClick={() => handleDefClick(def)}
-              style={{ display: 'block', margin: '5px' }}
+              className="vocabmatch__item"
             >
               {def}
             </button>
           ))}
         </div>
       </div>
-        
-      <h4>Matched Pairs:</h4>
-
-      <div style={{ marginTop: "20px", display: "flex", justifyContent: "center", gap: "10px" }}>
-        <button disabled={page === 0} onClick={() => setPage((p) => p - 1)}>⬅️ Previous</button>
-        <span>Page {page + 1} / {totalPages}</span>
-        <button disabled={page >= totalPages - 1} onClick={() => setPage((p) => p + 1)}>Next ➡️</button>
-      </div>
-
-      <h4 style={{ marginTop: "20px" }}>Matched Pairs:</h4>
-
-      <ul>
-        {Object.entries(matches).map(([term, def]) => (
-          <li key={term}>
-            <strong>{term}</strong> → {def}
-          </li>
-        ))}
-      </ul>
-
-      {completed && <p className="completion-message">✅ All matched correctly!</p>}
-
-
-      <button onClick={resetMatch} style={{ marginTop: "20px" }}>
-        Reset
-      </button>
-
-
     </div>
-  );
+
+    {/* PAGINATION */}
+    <div className="vocabmatch__pagination">
+      <button disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
+        ⬅️ Prev
+      </button>
+      <span>Page {page + 1} / {totalPages}</span>
+      <button
+        disabled={page >= totalPages - 1}
+        onClick={() => setPage((p) => p + 1)}
+      >
+        Next ➡️
+      </button>
+    </div>
+
+    {/* MATCHED PAIRS */}
+    <h3 className="vocabmatch__subtitle">Matched Pairs</h3>
+    <ul className="vocabmatch__matched-list">
+      {Object.entries(matches).map(([term, def]) => (
+        <li key={term} className="vocabmatch__matched-item">
+          <strong>{term}</strong> <span>→</span> {def}
+        </li>
+      ))}
+    </ul>
+
+    {completed && (
+      <p className="vocabmatch__complete">🎉 All matched correctly!</p>
+    )}
+
+    {/* RESET */}
+    <button className="vocabmatch__reset" onClick={resetMatch}>
+      Reset Activity
+    </button>
+  </div>
+);
+
 };
 
 export default VocabMatch;

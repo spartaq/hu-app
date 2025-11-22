@@ -19,7 +19,7 @@
    MAIN MODAL CONTAINER
 --------------------------------*/
 .modal-content {
-  background: purple;
+  background: rebeccapurple;
   width: 100%;
   max-width: 900px;
   min-height: 100vh;
@@ -50,7 +50,7 @@
    HEADER BAR (Purple)
 --------------------------------*/
 .modal-header {
-  background: #5e2ced;        /* purple brand color */
+  background: rebeccapurple;        /* purple brand color */
   color: white;
   padding: 20px 24px;
   display: flex;
@@ -136,7 +136,7 @@
 /* Secondary muted button */
 .lesson-button-secondary {
   background: #e5dcff;
-  color: #4b2ce6;
+  color: rebeccapurple;
 }
 
 /* -------------------------------
@@ -148,13 +148,13 @@
   border-radius: 14px;
   margin-bottom: 20px;
   box-shadow: 0 3px 10px rgba(80,0,140,0.08);
-  border-left: 4px solid #5e2ced; /* purple stripe */
+  border-left: 4px solid rebeccapurple; /* purple stripe */
 }
 
 .lesson-card h4 {
   margin: 0 0 10px 0;
   font-size: 1.2rem;
-  color: #4b2ce6;
+  color: rebeccapurple;
 }
 
 .lesson-card p {
@@ -182,12 +182,12 @@
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  background: #6c4cff; /* purple */
+  background: rebeccapurple; /* purple */
   color: white;
 }
 
 .modal-footer button:hover {
-  background: #593bd1;
+  background: rebeccapurple;
 }
 
  
