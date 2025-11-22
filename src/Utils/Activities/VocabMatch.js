@@ -7,7 +7,7 @@ const ITEMS_PER_PAGE = 5;
 const VocabMatch = ({ data }) => {
   const quizTitle = data?.quizTitle || "Vocabulary Match";
 
-  const pairs = useMemo(() => data?.pairs || [], [data]);
+  const pairs = useMemo(() => shuffle(data?.pairs || []), [data]);
   const [selectedTerm, setSelectedTerm] = useState(null);
   const [matches, setMatches] = useState({});
   const [completed, setCompleted] = useState(false);
@@ -24,7 +24,16 @@ const VocabMatch = ({ data }) => {
 
   const handleTermClick = (term) => {
     setSelectedTerm(term === selectedTerm ? null : term);
+  };
 
+  const handleDefClick = (def) => {
+    if (selectedTerm) {
+      const correctPair = currentPairs.find(p => p.definition === def);
+      if (correctPair && correctPair.term === selectedTerm) {
+        setMatches(prev => ({...prev, [selectedTerm]: def}));
+      }
+      setSelectedTerm(null);
+    }
   };
 
 
@@ -65,7 +74,32 @@ const VocabMatch = ({ data }) => {
       <h2>{quizTitle}</h2>
 
       <div className="vocab-columns" style={{ display: "flex", gap: "40px", justifyContent: "center" }}>
-</div>
+        <div>
+          <h4>Terms</h4>
+          {unmatchedTerms.map((p) => (
+            <button
+              key={p.term}
+              onClick={() => handleTermClick(p.term)}
+              className={selectedTerm === p.term ? 'selected' : ''}
+              style={{ display: 'block', margin: '5px' }}
+            >
+              {p.term}
+            </button>
+          ))}
+        </div>
+        <div>
+          <h4>Definitions</h4>
+          {unmatchedDefs.map((def, i) => (
+            <button
+              key={i}
+              onClick={() => handleDefClick(def)}
+              style={{ display: 'block', margin: '5px' }}
+            >
+              {def}
+            </button>
+          ))}
+        </div>
+      </div>
         
       <h4>Matched Pairs:</h4>
 

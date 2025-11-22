@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../Components/modal';
-import ExerciseCard from '../Components/exerciseCard';
 import ToggleSection from '../Utils/toggleSection';
 import SEO from '../Components/SEO';
-import RelatedExercises from '../Utils/relatedExercises';
 import "../CSS/grammarPage.css";
 
 const GrammarPageLayout = ({
@@ -13,9 +11,7 @@ const GrammarPageLayout = ({
   ExplanationComponent,
   sections,
   seoTitle,
-  seoDescription,
-  relatedCategory,
-  relatedLevel
+  seoDescription
 }) => {
 
   const [open, setOpen] = useState(false);

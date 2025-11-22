@@ -8,28 +8,25 @@ import SEO from "./Components/SEO";
 import ScrollToTop from "./Components/ScrollToTop";
 
 const App = () => {
-   
-
     return (
         <HelmetProvider>
-            
-                
-            <div className="app-container">
+            <div className="app-container app-safe-area"> {/* ← added */}
                 <SEO
                     title='English Exam Exercises'
                     description='A collection of English exercises for exam practice'
                     name='English Exam Exercises'
                     keywords='English, Exercises, Practice, Exams, English Practice, English Prctice Online, English Exam Practice'
-                    type='article' />
-                
-                <Navbar/>
-         
-            <div className="content">
-                <ScrollToTop />
-                <Outlet />
-            </div>
-          
-                <Footer/>
+                    type='article'
+                />
+
+                <Navbar />
+
+                <div className="content">
+                    <ScrollToTop />
+                    <Outlet />
+                </div>
+
+                <Footer />
             </div>
         </HelmetProvider>
     );

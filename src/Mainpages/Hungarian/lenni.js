@@ -4,10 +4,11 @@ import GrammarExplanation from './HungarianExplanations/lenniexplanation';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
+  { label: "Explanation", description: "Do this exercise to practice listening.", type: "explanation", subtype: "van" },
   { label: "Dialogue", description: "Do this exercise to practice listening.", type: "dialogue", subtype: "testDialogue" },
-  { label: "Vocab", description: "Do this exercise to practice vocab.", type: "vocab", subtype: "verbs" },
+  { label: "Vocab", description: "Do this exercise to practice vocab.", type: "vocab", subtype: "mult" },
   { label: "Exercises", description: "Do this exercise to practice your grammar.", type: "quiz", subtype: "van" },
-  { label: "Grammar", description: "Do this exercise to practice word order.", type: "grammar", subtype: "hasonlitas" },
+  { label: "Grammar", description: "Do this exercise to practice word order.", type: "grammar", subtype: "jelenidoindef" },
   { label: "Word Order", description: "Do this exercise to practice word order.", type: "ordering", subtype: "van" },
   { label: "Reading", description: "Do this exercise to practice reading and learn new vocabulary.", type: "reading", subtype: "nevem-bob" },
   { label: "Video", description: "Do this exercise to practice reading and learn new vocabulary.", type: "video", subtype: "videos" },
