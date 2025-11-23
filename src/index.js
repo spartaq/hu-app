@@ -23,7 +23,7 @@ import Vanneki from './Mainpages/Hungarian/vanneki';
 import HuVerbConjugation from './Mainpages/Hungarian/verbconjugationtable';
 import HuDefIndefExplanation from './Mainpages/Hungarian/defIndefExplanation';
 import Nekivan from './Mainpages/Hungarian/nekivan';
-import Van from './Mainpages/Hungarian/van';
+import Readings from './Mainpages/Reading-Exercises/reading-exercises';
 import Birtoklas from './Mainpages/Hungarian/birtoklas';
 import Nevmas from './Mainpages/Hungarian/nevmas';
 import Nevuto from './Mainpages/Hungarian/nevuto';
@@ -77,10 +77,6 @@ const router = createBrowserRouter([
             element: <HungarianTemplate />,
           },
           {
-            path: 'grammar-exercises/van',
-            element: <Van />,
-          },
-          {
             path: 'hungarian/nekivan',
             element: <Nekivan />,
           },
@@ -121,16 +117,20 @@ const router = createBrowserRouter([
             element: <HuDefIndefExplanation />,
           },
           {
-            path: 'flashcards/verbshun',
-            element: <VerbsHun />,
-          },
-          {
             path: 'hungarian/activities',
             element: <ActivityFilter />,
           },
           {
             path: 'hungarian/lesson-list',
             element: <LessonList />,
+          },
+          {
+            path: 'reading-exercises/reading-exercises',
+            element: <Readings />,
+          },
+          {
+            path: 'flashcards/verbshun',
+            element: <VerbsHun />,
           },
         ],
       },

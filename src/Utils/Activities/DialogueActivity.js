@@ -1,6 +1,6 @@
 import React from "react";
 import DialoguePlayer from "./DialoguePlayer";
-import dialogueData from "./Data/dialogues/testDialogue.json";
+import dialogueData from "./Data/dialogues/lenniDialogue.json";
 
 export default function DialogueActivity() {
   const processedLines = dialogueData.lines.map((line) => ({

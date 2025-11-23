@@ -4,8 +4,8 @@ import GrammarExplanation from './HungarianExplanations/lenniintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "van" },
-  { label: "Dialogue", type: "dialogue", subtype: "testDialogue" },
+  { label: "Explanation", type: "explanation", subtype: "lenni" },
+  { label: "Dialogue", type: "dialogue", subtype: "lenni" },
   { label: "Vocab", type: "vocab", subtype: "mult" },
   { label: "Exercises", type: "quiz", subtype: "lenni" },
   { label: "Grammar", type: "grammar", subtype: "jelenidoindef" },
