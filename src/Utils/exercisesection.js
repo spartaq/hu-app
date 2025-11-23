@@ -169,14 +169,20 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
       <div className="exercisesection__activity-box">
         {type === "quiz" && (
           <QuizActivity
-            key={currentIndex}
-            question={current}
-            data={data}
-            onAnswer={(result) => {
-              if (result.correct) setScore((s) => s + 1);
-              if (result.next) handleNext();
-            }}
-          />
+    question={current}
+    data={data}
+    onAnswer={(result) => {
+      // result = { correct: boolean, next: true, selected: ... }
+      // Only update score / advance when result.next === true (user clicked Next).
+      if (result && result.next) {
+        if (result.correct) {
+          setScore((s) => s + 1);
+        }
+        handleNext();
+      }
+    }}
+  />
+
         )}
 
         {type === "ordering" && (

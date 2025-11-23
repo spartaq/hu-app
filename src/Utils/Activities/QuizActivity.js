@@ -1,15 +1,15 @@
+// src/Utils/Activities/QuizActivity.js
 import React, { useState, useEffect } from "react";
 import "../../CSS/QuizActivity.css";
 
 const QuizActivity = ({ question, data, onAnswer }) => {
   const quizTitle = data?.quizTitle || "Quiz";
   const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [explanation, setExplanation] = useState("");
   const [shuffledOptions, setShuffledOptions] = useState([]);
 
   const correctAnswer = question?.answer?.split(" - ")[0]?.trim() || "";
 
-  // Fisher–Yates shuffle function
+  // Fisher–Yates shuffle
   const shuffleArray = (array) => {
     const newArray = [...array];
     for (let i = newArray.length - 1; i > 0; i--) {
@@ -19,33 +19,39 @@ const QuizActivity = ({ question, data, onAnswer }) => {
     return newArray;
   };
 
-  // Shuffle options whenever a new question loads
+  // Reset when question changes
   useEffect(() => {
     if (question?.options) {
-      const shuffled = shuffleArray(question.options);
-      setShuffledOptions(shuffled);
+      setShuffledOptions(shuffleArray(question.options));
       setSelectedAnswer(null);
-      setExplanation("");
     }
   }, [question]);
 
   if (!question) return <p>Loading...</p>;
 
-  const handleAnswerClick = (option) => {
-    setSelectedAnswer(option);
-
-    const isCorrect = option.trim() === correctAnswer;
-    const result = { correct: isCorrect, next: false, selected: option };
-
-    if (onAnswer) onAnswer(result);
-
-    setTimeout(() => {
-      if (onAnswer) onAnswer({ ...result, next: true });
-    }, 1000);
+  // Fill correct answer into the sentence for final display
+  const buildCorrectSentence = () => {
+    return question.question.replace("______", correctAnswer);
   };
 
+  const handleAnswerClick = (option) => {
+    setSelectedAnswer(option);
+  };
+
+  const handleNext = () => {
+    const isCorrect = (selectedAnswer || "").trim() === correctAnswer;
+
+    if (typeof onAnswer === "function") {
+      onAnswer({ correct: isCorrect, next: true, selected: selectedAnswer });
+    }
+
+    setSelectedAnswer(null);
+  };
+
+  const isCorrect = selectedAnswer?.trim() === correctAnswer;
+
   return (
-    <div className="quizactivity__card">
+    <div className="quizactivity__card activity-card">
       <h2>{quizTitle}</h2>
       <h2 className="quizactivity__question">{question.question}</h2>
 
@@ -55,10 +61,10 @@ const QuizActivity = ({ question, data, onAnswer }) => {
 
           if (selectedAnswer) {
             if (option === selectedAnswer) {
-              buttonClass +=
-                selectedAnswer.trim() === correctAnswer
-                  ? " correct"
-                  : " incorrect";
+              buttonClass += isCorrect ? " correct" : " incorrect";
+            }
+            if (option === correctAnswer && selectedAnswer !== correctAnswer) {
+              buttonClass += " correct";
             }
           }
 
@@ -77,22 +83,22 @@ const QuizActivity = ({ question, data, onAnswer }) => {
 
       {selectedAnswer && (
         <div className="quizactivity__feedback">
-          <p>
-            {selectedAnswer.trim() === correctAnswer
-              ? "✅ Correct!"
-              : "❌ Incorrect."}
-          </p>
-          {explanation && <p>{explanation}</p>}
-          <button
-            onClick={() => {
-              setSelectedAnswer(null);
-              setExplanation("");
-              if (typeof onAnswer === "function") {
-                onAnswer({ next: true });
-              }
-            }}
-          >
-            Next Question
+
+          {/* Normal correct/incorrect message */}
+          <p>{isCorrect ? "✅ Correct!" : "❌ Incorrect."}</p>
+
+          {/* NEW: Show full correct sentence + translation ONLY when correct */}
+          {isCorrect && (
+            <div className="quizactivity__solution">
+              <p><strong>Correct sentence:</strong> {buildCorrectSentence()}</p>
+              {question.translate && (
+                <p><strong>Translation:</strong> {question.translate}</p>
+              )}
+            </div>
+          )}
+
+          <button className="quizactivity__next-btn control-btn" onClick={handleNext}>
+            Next Question →
           </button>
         </div>
       )}

@@ -16,12 +16,12 @@ export default function Footer() {
         <span>Home</span>
       </NavLink>
 
-      <NavLink to="/lessons" className="footer-item">
+      <NavLink to="hungarian/lesson-list" className="footer-item">
         <FaBook className="footer-icon" />
         <span>Lessons</span>
       </NavLink>
 
-      <NavLink to="/activities" className="footer-item">
+      <NavLink to="hungarian/activities" className="footer-item">
         <FaListAlt className="footer-icon" />
         <span>Practice</span>
       </NavLink>

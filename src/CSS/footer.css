@@ -17,7 +17,7 @@
   flex: 1;
   text-align: center;
   text-decoration: none;
-  color: #777;
+  color: #ff7a1e;
   font-size: 12px;
   display: flex;
   flex-direction: column;
@@ -26,13 +26,17 @@
   padding: 10px 0;
 }
 
+.footer-item:hover {
+  color: #a54f12;
+}
+
 .footer-item .footer-icon {
   font-size: 20px;
 }
 
 /* Active tab */
 .footer-item.active {
-  color: #ff7a1e; 
+  color: #ffae75; 
   font-weight: 600;
 }
 

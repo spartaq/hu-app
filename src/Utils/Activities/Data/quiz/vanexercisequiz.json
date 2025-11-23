@@ -11,10 +11,10 @@
         },
         {
           "id": 2,
-          "question": "Minden reggel _______ egy kávét.",
+          "question": "_______ tej a hűtőben.",
           "options": ["van", "vagy", "vagytok", "vagyok"],
-          "answer": "vagyok",
-          "translate": "I wake up at 7 am"
+          "answer": "van",
+          "translate": "There's milk in the fridge"
         },
         {
           "id": 3,

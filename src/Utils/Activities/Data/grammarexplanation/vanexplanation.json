@@ -1,53 +1,42 @@
 {
   "type": "explanation",
-  "title": "A ‘van’ használata",
+  "title": "The Verb “van” – Quick Guide",
   "sections": [
     {
-      "heading": "Introduction",
+      "heading": "What is “van”?",
       "paragraphs": [
-        "In Hungarian, the concept of “to be” is expressed using a special verb: van. This does not follow regular verb patterns and must be learned on its own."
+        "Hungarian uses the verb “van” to express the idea of “to be” when talking about existence, location, or identity. It is irregular and must be learned separately."
       ]
     },
     {
-      "heading": "Van = to be (existence, identity, location)",
+      "heading": "Conjugation – Present Tense",
       "paragraphs": [
-        "The verb van is used to say where someone or something is, or to describe someone's identity or state. It changes form depending on the subject."
-      ]
-    },
-    {
-      "heading": "Verb 'to be' (lenni) — Affirmative, Negative, Question",
+        "Here are the basic forms of “van” in affirmative, negative, and question forms."
+      ],
       "table": {
-        "headers": ["Affirmative", "Negative", "Question"],
+        "headers": ["Person", "Affirmative", "Negative", "Question"],
         "rows": [
-          ["(Én) vagyok tanár. (I am a teacher.)", "(Én) nem vagyok fáradt. (I am not tired.)", "Vagyok tanár? (Am I a teacher?)"],
-          ["(Te) vagy otthon. (You are at home.)", "(Te) nem vagy itt. (You are not here.)", "Vagy otthon? (Are you at home?)"],
-          ["(Ő) van a boltban. (He/She is in the shop.)", "(Ő) nincs otthon. (He/She is not at home.)", "Van a boltban? (Is he/she in the shop?)"],
-          ["(Mi) vagyunk itt. (We are here.)", "(Mi) nem vagyunk ott. (We are not there.)", ""],
-          ["(Ti) vagytok diákok. (You all are students.)", "(Ti) nem vagytok tanárok. (You all are not teachers.)", "Vagytok itt? (Are you all here?)"],
-          ["(Ők) vannak az iskolában. (They are at school.)", "(Ők) nincsenek a házban. (They are not in the house.)", "Vannak az iskolában? (Are they in the school?)"]
+          ["Én (I)", "vagyok", "nem vagyok", "vagyok?"],
+          ["Te (you)", "vagy", "nem vagy", "vagy?"],
+          ["Ő (he/she)", "van", "nincs", "van?"],
+          ["Mi (we)", "vagyunk", "nem vagyunk", "vagyunk?"],
+          ["Ti (you all)", "vagytok", "nem vagytok", "vagytok?"],
+          ["Ők (they)", "vannak", "nincsenek", "vannak?"]
         ]
       }
     },
     {
-      "heading": "Important points",
+      "heading": "Key Points",
       "list": [
-        "Van is irregular and essential for basic communication.",
-        "The word nincs means 'there is not' and replaces both van and nem.",
+        "The verb “van” is irregular and behaves differently from other Hungarian verbs.",
+        "The negative form uses “nincs / nincsenek” instead of “nem van / nem vannak”.",
         [
-          "In the third person, both singular and plural, van and vannak disappear in simple descriptive sentences:",
+          "In simple descriptive sentences, “van” and “vannak” disappear in the 3rd person:",
           [
-            "Ő tanár. (He/She is a teacher.) — no van",
-            "Ők diákok. (They are students.) — no vannak"
+            "Ő tanár. (He/She is a teacher.)",
+            "Ők diákok. (They are students.)"
           ]
         ]
-      ]
-    },
-    {
-      "heading": "Examples",
-      "list": [
-        "Ő Budapesten van. (He/She is in Budapest.)",
-        "Mi nem vagyunk fáradtak. (We are not tired.)",
-        "Ti vagytok az új diákok? (Are you the new students?)"
       ]
     }
   ]

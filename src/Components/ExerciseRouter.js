@@ -6,6 +6,7 @@ import HuExplanationVanData from "../Utils/Activities/Data/grammarexplanation/va
 import HuJelenIdoDefQuizData from "../Utils/Activities/Data/quiz/jelenidodefexercisequiz.json";
 import HuJelenIdoIndefQuizData from "../Utils/Activities/Data/quiz/jelenidoindefexercisequiz.json";
 import HuMultIdoQuizData from "../Utils/Activities/Data/quiz/multidoexercisequiz.json";
+import HuLenniQuizData from "../Utils/Activities/Data/quiz/lenniexercisequiz.json";
 import HuVanQuizData from "../Utils/Activities/Data/quiz/vanexercisequiz.json";
 import HuNekivanQuizData from "../Utils/Activities/Data/quiz/nekivanexercisequiz.json";
 import HuJovoQuizData from "../Utils/Activities/Data/quiz/jovoidoexercisequiz.json";
@@ -65,6 +66,8 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
               return HuJelenIdoIndefQuizData;
             case "multido":
               return HuMultIdoQuizData;
+            case "lenni":
+              return HuLenniQuizData;
             case "van":
               return HuVanQuizData;
             case "nekivan":
