@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./Components/Navbar";
+import Header from "./Components/Header"
 import Footer from "./Components/Footer";
 import { HelmetProvider } from "react-helmet-async";
 import SEO from "./Components/SEO";
@@ -10,7 +10,8 @@ import ScrollToTop from "./Components/ScrollToTop";
 const App = () => {
     return (
         <HelmetProvider>
-            <div className="app-container app-safe-area"> {/* ← added */}
+            <div className="app-frame">  {/* full-screen app layout */}
+
                 <SEO
                     title='English Exam Exercises'
                     description='A collection of English exercises for exam practice'
@@ -19,14 +20,22 @@ const App = () => {
                     type='article'
                 />
 
-                <Navbar />
+                {/* FIXED HEADER */}
+                <header className="app-header">
+                    <Header />
+                </header>
 
-                <div className="content">
+                {/* SCROLLING CONTENT */}
+                <main className="app-content">
                     <ScrollToTop />
                     <Outlet />
-                </div>
+                </main>
 
-                <Footer />
+                {/* FIXED FOOTER */}
+                <footer className="app-footer">
+                    <Footer />
+                </footer>
+
             </div>
         </HelmetProvider>
     );

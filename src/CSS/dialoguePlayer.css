@@ -1,17 +1,18 @@
 .dialogue-card {
   width: 100%;
-  margin: 1.5rem auto;
+  /*margin: 1.5rem auto;*/
   background: #fff;
   border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   font-family: sans-serif;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 500px;
+  height: 55vh;
   overflow: hidden;
   padding-bottom: 40px;
-  
+  padding-top: 40px;  
 }
 
 .dialogue-container {
@@ -32,6 +33,19 @@
   opacity: 1;
 }
 
+/* Active bubble highlight */
+.dialogue-line.active .bubble {
+  border-color: #7b25ff; /* your purple */
+  box-shadow: 0 0 10px rgba(123, 37, 255, 0.4);
+}
+
+/* Optional stronger highlight for avatars (if you want to animate avatar too) */
+.dialogue-line.active .avatar {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(123, 37, 255, 0.35);
+  transition: 0.25s ease;
+}
+
 .dialogue-line.left { flex-direction: row; }
 .dialogue-line.right { flex-direction: row-reverse; text-align: right; }
 
@@ -43,14 +57,19 @@
   border: 2px solid #6a4bc3;
 }
 
+
+
+/* Base bubble look (keep yours if already defined) */
 .bubble {
-  background: #f4efff;
-  padding: 8px 14px;
-  border-radius: 12px;
-  max-width: 75%;
-  line-height: 1.4;
-  border: 1px solid #d0c4f7;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 10px 14px;
+  border: 2px solid transparent;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
+
+
+
 
 /* Overlay */
 .dialogue-overlay {
@@ -87,7 +106,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #6a4bc3;
+  background: rebeccapurple;
   color: #fff;
   text-align: center;
   padding: 10px;

@@ -1,33 +1,36 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import background from '../Images/logo512-new.png';
-import '../CSS/header.css';
-import HorizontalDropdownMenu from './HorizontalMenu';
+import React from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { FaChevronLeft, FaUserCircle } from "react-icons/fa";
+import "../CSS/header.css";
 
-const Header = () => {
+export default function Header() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const showBack =
+    location.pathname !== "/" &&
+    !location.pathname.startsWith("/lessons") &&
+    !location.pathname.startsWith("/activities");
+
   return (
-   
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
-      <Container>
-      <img
-              src={background}
-              width="60"
-              height="60"
-              className="d-inline-block align-top"
-              alt="English Exam Exercises logo"
-            />
-        <Navbar.Brand href="/">English Exam Exercises</Navbar.Brand>
-       
-        <HorizontalDropdownMenu/>
-      </Container>
- 
-    </Navbar>
+    <header className="app-header">
+      <div className="header-left">
+        {showBack && (
+          <button className="header-icon-btn" onClick={() => navigate(-1)}>
+            <FaChevronLeft className="header-icon" />
+          </button>
+        )}
+      </div>
 
+      <div className="header-title">
+        VoyaLingo
+      </div>
 
+      <div className="header-right">
+        <button className="header-icon-btn">
+          <FaUserCircle className="header-icon" />
+        </button>
+      </div>
+    </header>
   );
 }
-
-export default Header;

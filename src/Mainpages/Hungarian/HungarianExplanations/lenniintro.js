@@ -2,10 +2,10 @@ import React from 'react';
 import '../../../CSS/grammarPage.css';
 import { FaBookOpen, } from 'react-icons/fa';
 
-const LenniExplanation = () => {
+const LenniIntro = () => {
   return (
-    <div>
-      <div className="grammar-explanation">
+    <div className="grammar-explanation">
+      <div>
 
         <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Lenni - To Be</h2>
         <p>
@@ -17,4 +17,4 @@ const LenniExplanation = () => {
   );
 };
 
-export default LenniExplanation;
+export default LenniIntro;
