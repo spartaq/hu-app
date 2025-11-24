@@ -38,6 +38,7 @@ import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoin
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
 import orderingjelenIdoIndef from "../Utils/Activities/Data/ordering/wordorder_jelenidoindef.json";
 import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
+import orderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
 // VOCABMATCH
 import vocabVerbsData from "../Utils/Activities/Data/vocab/vocab_verbs.json";
 import vocabTravelData from "../Utils/Activities/Data/vocab/vocab_travel.json";
@@ -102,6 +103,7 @@ const DATA_MAP = {
     fokusz: orderingFokuszData,
     jelenidoindef: orderingjelenIdoIndef,
     van: orderingVanData,
+    lenni: orderingLenniData
   },
 
   vocab: {

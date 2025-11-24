@@ -1,6 +1,7 @@
 // src/Utils/Activities/QuizActivity.js
 import React, { useState, useEffect } from "react";
 import "../../CSS/QuizActivity.css";
+import quizimg from "../../Images/neighbors1.jpg";
 
 const QuizActivity = ({ question, data, onAnswer }) => {
   const quizTitle = data?.quizTitle || "Quiz";
@@ -52,7 +53,9 @@ const QuizActivity = ({ question, data, onAnswer }) => {
 
   return (
     <div className="quizactivity__card activity-card">
-      <h2>{quizTitle}</h2>
+      <h2>Complete the sentence</h2>
+      <img src={quizimg} alt="Hungarian" className="quiz-img" />
+       
       <h2 className="quizactivity__question">{question.question}</h2>
 
       <div className="quizactivity__options">

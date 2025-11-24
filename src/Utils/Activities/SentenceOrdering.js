@@ -4,11 +4,14 @@ import "../../CSS/WordOrderActivity.css";
 const SentenceOrdering = ({ data }) => {
   const sentenceItem = (Array.isArray(data) && data.length > 0 ? data[0] : data) || { sentence: "", quizTitle: "" };
   const sentenceText = sentenceItem.sentence || "";
+  const translationText = sentenceItem.translation || "";
+  
   const correctWords = useMemo(() => sentenceText.split(" ").map((word, idx) => ({ word, id: idx })), [sentenceText]);
 
   const [shuffledWords, setShuffledWords] = useState(() => shuffle([...correctWords]));
   const [placedWords, setPlacedWords] = useState(Array(correctWords.length).fill(null));
   const [completed, setCompleted] = useState(false);
+  const [showTranslation, setShowTranslation] = useState(false);
 
   function shuffle(array) {
     const copy = [...array];
@@ -64,7 +67,7 @@ const SentenceOrdering = ({ data }) => {
           const placedWord = placedWords[idx];
           return (
             <span key={idx} className={`word-slot ${placedWord ? "filled" : "blank"}`}>
-              {placedWord?.word || "_____" }
+              {placedWord?.word || "_____"}
             </span>
           );
         })}
@@ -73,6 +76,19 @@ const SentenceOrdering = ({ data }) => {
       {completed && <p className="completion-message">✅ Correct! 🎉</p>}
 
       <button onClick={handleReset} className="reset-button">Reset</button>
+
+      {/* 🔽 Translation Toggle Button */}
+      <button
+        onClick={() => setShowTranslation(prev => !prev)}
+        className="translation-toggle-button"
+      >
+        {showTranslation ? "Hide Translation" : "Show Translation"}
+      </button>
+
+      {/* 🔽 Show translation when toggled */}
+      {showTranslation && translationText && (
+        <p className="translation-text">💬 {translationText}</p>
+      )}
     </div>
   );
 };

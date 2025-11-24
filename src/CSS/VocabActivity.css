@@ -10,7 +10,7 @@
 }
 
 .vocabmatch__title {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #6a4bc3;
   margin-bottom: 1.5rem;
@@ -19,6 +19,7 @@
 /* COLUMNS */
 .vocabmatch__columns {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   justify-content: space-between;
 }
@@ -32,7 +33,7 @@
 /* LISTS */
 .vocabmatch__list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.5rem;
 }
 

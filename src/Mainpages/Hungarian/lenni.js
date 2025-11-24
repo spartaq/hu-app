@@ -9,7 +9,7 @@ const sections = [
   { label: "Vocab", type: "vocab", subtype: "mult" },
   { label: "Exercises", type: "quiz", subtype: "lenni" },
   { label: "Grammar", type: "grammar", subtype: "jelenidoindef" },
-  { label: "Word Order", type: "ordering", subtype: "van" },
+  { label: "Word Order", type: "ordering", subtype: "lenni" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
 ];
