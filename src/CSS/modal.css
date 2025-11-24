@@ -87,7 +87,7 @@
    INNER SCROLLABLE BODY
 --------------------------------*/
 .modal-body {
-  padding: 24px;
+  /*padding: 24px;*/
   overflow-y: auto;
   flex: 1;
   background: #faf8ff;  /* subtle purple tint */
@@ -161,10 +161,6 @@
   margin: 0;
   font-size: 1.05rem;
   color: #333;
-}
-
-.modal-body {
-  padding: 20px;
 }
 
 .modal-footer {
