@@ -16,7 +16,9 @@ import HuExplanationNevutoData from "../Utils/Activities/Data/grammarexplanation
 import HuExplanationHasonlitasData from "../Utils/Activities/Data/grammarexplanation/hasonlitasexplanation.json";
 import HuExplanationFokuszData from "../Utils/Activities/Data/grammarexplanation/fokuszexplanation.json";
 import HuExplanationHarmoniaData from "../Utils/Activities/Data/grammarexplanation/harmoniaexplanation.json";
-
+// DIALOGUE
+import HuDialogueLenniData from "../Utils/Activities/Data/dialogues/lenniDialogue.json";
+// EXERCISEQUIZ
 import HuJelenIdoDefQuizData from "../Utils/Activities/Data/quiz/jelenidodefexercisequiz.json";
 import HuJelenIdoIndefQuizData from "../Utils/Activities/Data/quiz/jelenidoindefexercisequiz.json";
 import HuMultIdoQuizData from "../Utils/Activities/Data/quiz/multidoexercisequiz.json";
@@ -30,25 +32,23 @@ import HuNevutoQuizData from "../Utils/Activities/Data/quiz/nevutoexercisequiz.j
 import HuHasonlitasQuizData from "../Utils/Activities/Data/quiz/hasonlitasexercisequiz.json";
 import HuFokuszQuizData from "../Utils/Activities/Data/quiz/fokuszexercisequiz.json";
 import HuHarmoniaQuizData from "../Utils/Activities/Data/quiz/harmoniaexercisequiz.json";
-
+// GRAMMAR
 import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoindef.json";
-
-import HuDialogueLenniData from "../Utils/Activities/Data/dialogues/lenniDialogue.json";
-
+// WORDORDER
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
 import orderingjelenIdoIndef from "../Utils/Activities/Data/ordering/wordorder_jelenidoindef.json";
 import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
-
+// VOCABMATCH
 import vocabVerbsData from "../Utils/Activities/Data/vocab/vocab_verbs.json";
 import vocabTravelData from "../Utils/Activities/Data/vocab/vocab_travel.json";
 import vocabMultData from "../Utils/Activities/Data/vocab/vocab_mult.json";
-
+// READING
 import readingParentsFootballMatch from "../Utils/Activities/Data/reading/readingParentsFootball.js";
 import readingStreamingFatigue from "../Utils/Activities/Data/reading/readingStreamingFatigue.js";
 import readingANevemBob from "../Utils/Activities/Data/reading/readingANevemBob.js";
 import readingEssityAccount from "../Utils/Activities/Data/reading/readingEssityAccount.js";
 import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimplePresent.js";
-
+// VIDEO
 import videoPhones from "../Utils/Activities/Data/videos/phones.js";
 import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
 
