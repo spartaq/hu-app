@@ -66,7 +66,7 @@ const DATA_MAP = {
     lenni: HuExplanationLenniData,
     jelenidodef: HuExplanationJelenIdoDefData,
     jelenidoindef: HuExplanationJelenIdoIndefData,
-    multido: HuExplanationMultIdoData,
+    mult: HuExplanationMultIdoData,
     van: HuExplanationVanData,
     nekivan: HuExplanationNekivanData,
     jovo: HuExplanationJovoData,

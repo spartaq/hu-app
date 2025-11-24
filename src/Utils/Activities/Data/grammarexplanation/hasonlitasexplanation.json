@@ -1,42 +1,50 @@
 {
   "type": "explanation",
-  "title": "The Verb “lenni” – Quick Guide",
+  "title": "Comparatives and Superlatives – Quick Guide",
   "sections": [
     {
-      "heading": "What is “van”?",
+      "heading": "What are comparatives and superlatives?",
       "paragraphs": [
-        "Hungarian uses the verb “van” to express the idea of “to be” when talking about existence, location, or identity. It is irregular and must be learned separately."
+        "In Hungarian, comparison is formed by modifying the adjective. Just like in English, you can compare two things (comparative) or say something is the most (superlative)."
       ]
     },
     {
-      "heading": "Conjugation – Present Tense",
+      "heading": "Comparative and superlative in Hungarian",
       "paragraphs": [
-        "Here are the basic forms of “van” in affirmative, negative, and question forms."
-      ],
+        "The comparative is formed by adding -bb to the adjective.",
+        "To form the superlative, use the prefix a leg- + the comparative form."
+      ]
+    },
+    {
+      "heading": "English–Hungarian comparison examples",
       "table": {
-        "headers": ["Person", "Affirmative", "Negative", "Question"],
+        "headers": ["Adjective / English", "Hungarian Form", "Example"],
         "rows": [
-          ["Én (I)", "vagyok", "nem vagyok", "vagyok?"],
-          ["Te (you)", "vagy", "nem vagy", "vagy?"],
-          ["Ő (he/she)", "van", "nincs", "van?"],
-          ["Mi (we)", "vagyunk", "nem vagyunk", "vagyunk?"],
-          ["Ti (you all)", "vagytok", "nem vagytok", "vagytok?"],
-          ["Ők (they)", "vannak", "nincsenek", "vannak?"]
+          ["magas", "magasabb / a legmagasabb", "tall, taller, the tallest"],
+          ["taller", "magasabb", "Ő magasabb, mint én. – He is taller than me."],
+          ["the tallest", "a legmagasabb", "Ő a legmagasabb a csoportban. – He is the tallest in the group."],
+          ["cold", "hideg", "A víz hideg. – The water is cold."],
+          ["colder", "hidegebb", "Ma hidegebb van, mint tegnap. – Today is colder than yesterday."],
+          ["the coldest", "a leghidegebb", "Ez a leghidegebb nap. – This is the coldest day."]
         ]
       }
     },
     {
-      "heading": "Key Points",
+      "heading": "Important points",
       "list": [
-        "The verb “van” is irregular and behaves differently from other Hungarian verbs.",
-        "The negative form uses “nincs / nincsenek” instead of “nem van / nem vannak”.",
-        [
-          "In simple descriptive sentences, “van” and “vannak” disappear in the 3rd person:",
-          [
-            "Ő tanár. (He/She is a teacher.)",
-            "Ők diákok. (They are students.)"
-          ]
-        ]
+        "The basic rule: adjective + bb → comparative.",
+        "Use mint (than) to compare two things: nagyobb, mint...",
+        "For superlatives, use the article a (or az) and the prefix leg-.",
+        "Some adjectives change slightly before adding -bb (e.g., szép → szebb)."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "list": [
+        "Ez a ház nagyobb, mint a másik. – This house is bigger than the other.",
+        "Ő a legokosabb diák. – He/She is the smartest student.",
+        "A leves melegebb, mint a tea. – The soup is warmer than the tea.",
+        "Ez a legjobb film. – This is the best movie."
       ]
     }
   ]

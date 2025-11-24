@@ -1,42 +1,48 @@
 {
   "type": "explanation",
-  "title": "The Verb “lenni” – Quick Guide",
+  "title": "Hungarian Word Order and Focus",
   "sections": [
     {
-      "heading": "What is “van”?",
+      "heading": "What is focus in Hungarian?",
       "paragraphs": [
-        "Hungarian uses the verb “van” to express the idea of “to be” when talking about existence, location, or identity. It is irregular and must be learned separately."
+        "Hungarian word order is flexible but not random. The position of words changes what is emphasized in the sentence. This emphasized part is called focus.",
+        "The most important (new or highlighted) information appears immediately before the verb."
       ]
     },
     {
-      "heading": "Conjugation – Present Tense",
+      "heading": "Word Order and Focus in Hungarian",
       "paragraphs": [
-        "Here are the basic forms of “van” in affirmative, negative, and question forms."
-      ],
+        "Unlike English, Hungarian does not always follow the Subject–Verb–Object pattern.",
+        "The word that stands directly before the verb is usually the focus — the answer to the question: 'What is new or important here?'"
+      ]
+    },
+    {
+      "heading": "Examples",
       "table": {
-        "headers": ["Person", "Affirmative", "Negative", "Question"],
+        "headers": ["English Meaning", "Hungarian Sentence", "Focus"],
         "rows": [
-          ["Én (I)", "vagyok", "nem vagyok", "vagyok?"],
-          ["Te (you)", "vagy", "nem vagy", "vagy?"],
-          ["Ő (he/she)", "van", "nincs", "van?"],
-          ["Mi (we)", "vagyunk", "nem vagyunk", "vagyunk?"],
-          ["Ti (you all)", "vagytok", "nem vagytok", "vagytok?"],
-          ["Ők (they)", "vannak", "nincsenek", "vannak?"]
+          ["I bought a book.", "Vettem egy könyvet.", "“egy könyvet” is new info (what I bought)"],
+          ["A book is what I bought.", "Egy könyvet vettem.", "Focus on “book” (not a pen, etc.)"],
+          ["Yesterday I bought a book.", "Tegnap vettem egy könyvet.", "Focus on “yesterday” (when)"],
+          ["I bought the book in the store.", "A boltban vettem meg a könyvet.", "Focus on “boltban” (where)"],
+          ["I bought the book, not borrowed it.", "Megvettem a könyvet, nem kölcsönöztem.", "Focus on “megvettem” (bought)"]
         ]
       }
     },
     {
-      "heading": "Key Points",
+      "heading": "Important Notes",
       "list": [
-        "The verb “van” is irregular and behaves differently from other Hungarian verbs.",
-        "The negative form uses “nincs / nincsenek” instead of “nem van / nem vannak”.",
-        [
-          "In simple descriptive sentences, “van” and “vannak” disappear in the 3rd person:",
-          [
-            "Ő tanár. (He/She is a teacher.)",
-            "Ők diákok. (They are students.)"
-          ]
-        ]
+        "The verb typically remains in second position in neutral sentences, but in focused sentences, the focus word moves directly before the verb.",
+        "The end of the sentence often contains known or less important information.",
+        "Word order highlights what is new, contrasted, or emphasized — not just grammatical functions."
+      ]
+    },
+    {
+      "heading": "More Examples",
+      "list": [
+        "Én ettem meg a csokit. – I ate the chocolate (not you).",
+        "A csokit ettem meg. – I ate the chocolate (not the cake).",
+        "Tegnap ettem csokit. – I ate chocolate yesterday."
       ]
     }
   ]

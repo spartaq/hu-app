@@ -17,11 +17,10 @@ import JelenIdoDef from './Mainpages/Hungarian/jelenidodef';
 import Lenni from './Mainpages/Hungarian/lenni';
 import JelenIdoIndef from './Mainpages/Hungarian/jelenidoIndef';
 import MultIdo from './Mainpages/Hungarian/multido';
+import Van from './Mainpages/Hungarian/van';
 import JovoIdo from './Mainpages/Hungarian/jovoido';
 import HungarianTemplate from './Mainpages/Hungarian/hungarianexercisetemplate';
-import Vanneki from './Mainpages/Hungarian/vanneki';
 import HuVerbConjugation from './Mainpages/Hungarian/verbconjugationtable';
-import HuDefIndefExplanation from './Mainpages/Hungarian/defIndefExplanation';
 import Nekivan from './Mainpages/Hungarian/nekivan';
 import Readings from './Mainpages/Reading-Exercises/reading-exercises';
 import Birtoklas from './Mainpages/Hungarian/birtoklas';
@@ -69,8 +68,9 @@ const router = createBrowserRouter([
             path: 'hungarian/multido',
             element: <MultIdo />,
           },
-          { path: 'hungarian/vanneki',
-            element: <Vanneki />,
+          {
+            path: 'hungarian/van',
+            element: <Van />,
           },
           {
             path: 'hungarian/hungarianexercisetemplate',
@@ -111,10 +111,6 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/verbconjugationtable',
             element: <HuVerbConjugation />,
-          },
-          {
-            path: 'hungarian/defindefexplanation',
-            element: <HuDefIndefExplanation />,
           },
           {
             path: 'hungarian/activities',

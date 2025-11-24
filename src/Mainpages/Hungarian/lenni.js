@@ -1,6 +1,6 @@
 import React from 'react';
 import GrammarPageLayout from '../../Components/GrammarPageLayout';
-import GrammarExplanation from './HungarianExplanations/lenniintro';
+import GrammarExplanation from './HungarianIntros/lenniintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [

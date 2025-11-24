@@ -1,42 +1,43 @@
 {
   "type": "explanation",
-  "title": "The Verb “lenni” – Quick Guide",
+  "title": "Hungarian Subject Pronouns – Quick Guide",
   "sections": [
     {
-      "heading": "What is “van”?",
+      "heading": "What are Hungarian Subject Pronouns?",
       "paragraphs": [
-        "Hungarian uses the verb “van” to express the idea of “to be” when talking about existence, location, or identity. It is irregular and must be learned separately."
+        "In Hungarian, subject pronouns (I, you, he/she, etc.) exist just like in English, but they are often left out because the verb ending already shows who the subject is.",
+        "Hungarian is therefore a “pro-drop” language, meaning you can omit the subject if it is clear from context."
       ]
     },
     {
-      "heading": "Conjugation – Present Tense",
-      "paragraphs": [
-        "Here are the basic forms of “van” in affirmative, negative, and question forms."
-      ],
+      "heading": "Hungarian Subject Pronouns with Examples",
       "table": {
-        "headers": ["Person", "Affirmative", "Negative", "Question"],
+        "headers": ["Person", "Pronoun", "Example"],
         "rows": [
-          ["Én (I)", "vagyok", "nem vagyok", "vagyok?"],
-          ["Te (you)", "vagy", "nem vagy", "vagy?"],
-          ["Ő (he/she)", "van", "nincs", "van?"],
-          ["Mi (we)", "vagyunk", "nem vagyunk", "vagyunk?"],
-          ["Ti (you all)", "vagytok", "nem vagytok", "vagytok?"],
-          ["Ők (they)", "vannak", "nincsenek", "vannak?"]
+          ["I", "(Én)", "tanulok. – I study."],
+          ["You (singular)", "(Te)", "eszel. – You eat."],
+          ["He / She / It", "(Ő)", "alszik. – He/She sleeps."],
+          ["We", "(Mi)", "futunk. – We run."],
+          ["You (plural)", "(Ti)", "írtok. – You all write."],
+          ["They", "(Ők)", "olvasnak. – They read."]
         ]
       }
     },
     {
-      "heading": "Key Points",
+      "heading": "Important Notes",
       "list": [
-        "The verb “van” is irregular and behaves differently from other Hungarian verbs.",
-        "The negative form uses “nincs / nincsenek” instead of “nem van / nem vannak”.",
-        [
-          "In simple descriptive sentences, “van” and “vannak” disappear in the 3rd person:",
-          [
-            "Ő tanár. (He/She is a teacher.)",
-            "Ők diákok. (They are students.)"
-          ]
-        ]
+        "Hungarian is a “pro-drop” language — subject pronouns can be left out.",
+        "The verb ending already shows the subject, so “tanulok” means “I study” even without “én”.",
+        "Pronouns are used mainly for emphasis or clarity."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "list": [
+        "Én főzök. – I am the one who is cooking (emphasis).",
+        "Ők mennek moziba. – They are going to the cinema.",
+        "Beszélsz magyarul? – Do you speak Hungarian?",
+        "Tanulunk minden nap. – We study every day."
       ]
     }
   ]

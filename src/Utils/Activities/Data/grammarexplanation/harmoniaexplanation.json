@@ -1,42 +1,56 @@
 {
   "type": "explanation",
-  "title": "The Verb “lenni” – Quick Guide",
+  "title": "Vowel Harmony – Quick Guide",
   "sections": [
     {
-      "heading": "What is “van”?",
+      "heading": "What is vowel harmony?",
       "paragraphs": [
-        "Hungarian uses the verb “van” to express the idea of “to be” when talking about existence, location, or identity. It is irregular and must be learned separately."
+        "Vowel harmony is a key feature of Hungarian. It means that suffixes (such as endings or postpositions) change depending on the vowels in the word.",
+        "Hungarian vowels are divided into three groups: front, back, and mixed."
       ]
     },
     {
-      "heading": "Conjugation – Present Tense",
-      "paragraphs": [
-        "Here are the basic forms of “van” in affirmative, negative, and question forms."
-      ],
+      "heading": "Vowel types",
       "table": {
-        "headers": ["Person", "Affirmative", "Negative", "Question"],
+        "headers": ["Vowel Type", "Vowels", "Example Word"],
         "rows": [
-          ["Én (I)", "vagyok", "nem vagyok", "vagyok?"],
-          ["Te (you)", "vagy", "nem vagy", "vagy?"],
-          ["Ő (he/she)", "van", "nincs", "van?"],
-          ["Mi (we)", "vagyunk", "nem vagyunk", "vagyunk?"],
-          ["Ti (you all)", "vagytok", "nem vagytok", "vagytok?"],
-          ["Ők (they)", "vannak", "nincsenek", "vannak?"]
+          ["Back vowels", "a, á, o, ó, u, ú", "autó, kutya, ház"],
+          ["Front vowels", "e, é, i, í, ö, ő, ü, ű", "ebéd, könyv, tükör"],
+          ["Mixed", "Both front and back vowels", "telefon, kabát"]
         ]
       }
     },
     {
-      "heading": "Key Points",
-      "list": [
-        "The verb “van” is irregular and behaves differently from other Hungarian verbs.",
-        "The negative form uses “nincs / nincsenek” instead of “nem van / nem vannak”.",
-        [
-          "In simple descriptive sentences, “van” and “vannak” disappear in the 3rd person:",
-          [
-            "Ő tanár. (He/She is a teacher.)",
-            "Ők diákok. (They are students.)"
-          ]
+      "heading": "Suffix harmony examples",
+      "paragraphs": [
+        "Most Hungarian suffixes have a back-vowel and a front-vowel version. You choose the one that matches the word’s vowel type."
+      ],
+      "table": {
+        "headers": ["Word", "Suffix Meaning", "Correct Form", "Why?"],
+        "rows": [
+          ["ház", "in (ban/ben)", "házban", "Back vowel → use -ban"],
+          ["könyv", "in (ban/ben)", "könyvben", "Front vowel → use -ben"],
+          ["autó", "with (val/vel)", "autóval", "Back vowel → use -val"],
+          ["tükör", "with (val/vel)", "tükörrel", "Front vowel → use -vel"],
+          ["telefon", "in", "telefonban", "Mixed → back vowel dominates → -ban"]
         ]
+      }
+    },
+    {
+      "heading": "Important points",
+      "list": [
+        "Suffixes must match the vowel type of the word they follow.",
+        "If a word has both front and back vowels (mixed), the last vowel usually decides.",
+        "Some foreign words or exceptions break this rule — these must be learned separately."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "list": [
+        "A házban lakom. – I live in the house.",
+        "A boltban vásárolok. – I shop in the store.",
+        "A könyvben sok kép van. – There are many pictures in the book.",
+        "A tükörrel nézem magam. – I look at myself with the mirror."
       ]
     }
   ]

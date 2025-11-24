@@ -1,42 +1,101 @@
 {
   "type": "explanation",
-  "title": "The Verb “lenni” – Quick Guide",
+  "title": "Hungarian Possessive Forms – Quick Guide",
   "sections": [
     {
-      "heading": "What is “van”?",
+      "heading": "How possession works in Hungarian",
       "paragraphs": [
-        "Hungarian uses the verb “van” to express the idea of “to be” when talking about existence, location, or identity. It is irregular and must be learned separately."
+        "In Hungarian, there is no separate word for “my,” “your,” or “his/her.” Instead, the noun receives a special ending that shows who it belongs to."
       ]
     },
     {
-      "heading": "Conjugation – Present Tense",
+      "heading": "1. Singular Possessive (1 thing)",
       "paragraphs": [
-        "Here are the basic forms of “van” in affirmative, negative, and question forms."
-      ],
+        "To show possession of a single item, Hungarian adds specific endings directly to the noun."
+      ]
+    },
+    {
+      "heading": "Possessive endings (example: könyv = book)",
       "table": {
-        "headers": ["Person", "Affirmative", "Negative", "Question"],
+        "headers": ["Person", "Ending", "Example"],
         "rows": [
-          ["Én (I)", "vagyok", "nem vagyok", "vagyok?"],
-          ["Te (you)", "vagy", "nem vagy", "vagy?"],
-          ["Ő (he/she)", "van", "nincs", "van?"],
-          ["Mi (we)", "vagyunk", "nem vagyunk", "vagyunk?"],
-          ["Ti (you all)", "vagytok", "nem vagytok", "vagytok?"],
-          ["Ők (they)", "vannak", "nincsenek", "vannak?"]
+          ["(Én) my", "-em / -om", "Könyvem van. (I have a book.)"],
+          ["(Te) your", "-ed / -od", "Könyved van. (You have a book.)"],
+          ["(Ő) his/her", "-e / -a", "Könyve van. (He/She has a book.)"],
+          ["(Mi) our", "-ünk / -nk", "Könyvünk van. (We have a book.)"],
+          ["(Ti) your (plural)", "-etek / -tok", "Könyvetek van. (You all have a book.)"],
+          ["(Ők) their", "-ük / -uk", "Könyvük van. (They have a book.)"]
+        ]
+      },
+      "paragraphs": [
+        "Which ending? Use -a/-e if the last vowel is front (e, é, i, í, ö, ő, ü, ű). Use -om/-em if it is back (a, á, o, ó, u, ú)."
+      ]
+    },
+    {
+      "heading": "2. Plural Possessive (more than one thing)",
+      "paragraphs": [
+        "For plural objects, Hungarian adds -k to the noun and then applies the same possessive endings."
+      ]
+    },
+    {
+      "heading": "Possession with plural objects (example: könyvek = books)",
+      "table": {
+        "headers": ["Person", "Example"],
+        "rows": [
+          ["(Én) my", "Könyveim vannak. (I have books.)"],
+          ["(Te) your", "Könyveid vannak. (You have books.)"],
+          ["(Ő) his/her", "Könyvei vannak. (He/She has books.)"],
+          ["(Mi) our", "Könyveink vannak. (We have books.)"],
+          ["(Ti) your (plural)", "Könyveitek vannak. (You all have books.)"],
+          ["(Ők) their", "Könyveik vannak. (They have books.)"]
         ]
       }
     },
     {
-      "heading": "Key Points",
+      "heading": "3. The “of” structure (nak/nek)",
+      "paragraphs": [
+        "To say “the girl’s book,” Hungarian places the possessor first, adds -nak/-nek, and uses the possessive ending."
+      ],
       "list": [
-        "The verb “van” is irregular and behaves differently from other Hungarian verbs.",
-        "The negative form uses “nincs / nincsenek” instead of “nem van / nem vannak”.",
+        "A lánynak könyve van. (The girl has a book.)",
+        "A tanárnak autója van. (The teacher has a car.)"
+      ]
+    },
+    {
+      "heading": "Negatives and questions",
+      "list": [
         [
-          "In simple descriptive sentences, “van” and “vannak” disappear in the 3rd person:",
+          "Negatives:",
           [
-            "Ő tanár. (He/She is a teacher.)",
-            "Ők diákok. (They are students.)"
+            "Use 'nincs'.",
+            "Nekem nincs könyvem. (I don’t have a book.)"
+          ]
+        ],
+        [
+          "Questions:",
+          [
+            "Add a question mark or raise your voice.",
+            "Van könyved? (Do you have a book?)"
           ]
         ]
+      ]
+    },
+    {
+      "heading": "Quick tips",
+      "list": [
+        "Possession = noun + ending",
+        "könyvem = my book",
+        "autód = your car",
+        "háza = his/her house"
+      ]
+    },
+    {
+      "heading": "More examples",
+      "list": [
+        "Ez a tollam. (This is my pen.)",
+        "Hol van a telefonod? (Where is your phone?)",
+        "A fiúnak kutyája van. (The boy has a dog.)",
+        "Nincs szobánk. (We don’t have a room.)"
       ]
     }
   ]

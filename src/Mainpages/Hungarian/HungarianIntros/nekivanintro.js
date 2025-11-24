@@ -1,0 +1,20 @@
+import React from 'react';
+import '../../../CSS/grammarPage.css';
+import { FaBookOpen, } from 'react-icons/fa';
+
+const NekivanIntro = () => {
+  return (
+    <div className="grammar-explanation">
+      <div>
+
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Neki van - to have</h2>
+        <p>
+          Learn how to use <strong>neki van - to have”</strong>.
+        </p>
+
+      </div>
+    </div>
+  );
+};
+
+export default NekivanIntro;

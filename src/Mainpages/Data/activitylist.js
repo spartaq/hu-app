@@ -40,11 +40,6 @@ module.exports = [
         "image": "/Images/jelenido1.jpg"
       },    
       {
-        "id": "vanneki",
-        "title": "Van/Neki van (There is,There are/have)",
-      "category": "hungarian",
-      "subtitle": "van, nekem van",
-      "level": "HU1",
         "id": "van",
         "title": "Van (There is, There are)",
       "category": "hungarian",
