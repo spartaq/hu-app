@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { addTooltipsToText } from '../tooltipUtils.js';
 import { FaAngleDown } from 'react-icons/fa';
 import '../../CSS/ReadingActivity.css';
 
-const ReadingActivity = ({ data }) => {
+const ReadingActivity = () => {
+  const location = useLocation();
+  const data = location.state?.data;
   const [answers, setAnswers] = useState([]);
   const [showResults, setShowResults] = useState(false);
   const [showVocab, setShowVocab] = useState(false);
@@ -33,17 +36,14 @@ const ReadingActivity = ({ data }) => {
     <div className="reading-activity-card">
       <h2 className="reading-title">{data?.readingcompTitle || 'Reading Exercise'}</h2>
 
-      {/* Reading Text */}
-      <div className="reading-text">
-        {data?.paragraphs?.map((p, idx) => (
-          <p
-            key={idx}
-            dangerouslySetInnerHTML={{
-              __html: addTooltipsToText(p.text, data.vocabulary),
-            }}
-          />
-        ))}
-      </div>
+{/* Reading Text */}
+<div className="reading-text">
+  {data?.paragraphs?.[0]?.text
+    ?.split("\n")
+    .map((line, index) => (
+      <p key={index}>{line}</p>
+    ))}
+</div>
 
       {/* Questions */}
       <form className="reading-questions-form" onSubmit={handleSubmit}>
@@ -82,7 +82,7 @@ const ReadingActivity = ({ data }) => {
           {data?.vocabulary?.length ? (
             <ul>
               {data.vocabulary.map((item, idx) => (
-                <li key={idx} dangerouslySetInnerHTML={{ __html: item }} />
+                <li key={idx}>{item.hun} - {item.eng}</li>
               ))}
             </ul>
           ) : (

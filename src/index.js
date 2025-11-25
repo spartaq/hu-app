@@ -32,6 +32,7 @@ import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
 import ActivityFilter from './Utils/activityFilter';
 import LessonList from './Mainpages/lesson-list';
 import Readingexercises from './Mainpages/Reading-Exercises/reading-exercises';
+import ReadingActivityPage from './Utils/Activities/ReadingActivity';
 
 
 
@@ -128,8 +129,8 @@ const router = createBrowserRouter([
             element: <Readingexercises />,
           },
           {
-            path: 'hungarian/utils/activities/data/reading/:id',
-            element: <Readingexercises />,
+            path: "hungarian/activity/reading/:id",
+            element: <ReadingActivityPage />,
           },
           {
             path: 'flashcards/verbshun',
