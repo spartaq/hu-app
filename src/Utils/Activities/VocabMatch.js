@@ -6,12 +6,13 @@ import shuffle from "../shuffle.js";
 
 const ITEMS_PER_PAGE = 5;
 
-const VocabMatch = () => {
+const VocabMatch = ({ data: propData, onCorrect }) => {
   const location = useLocation();
-  const data = location.state?.data;
-  const quizTitle = data?.quizTitle || "Vocabulary Match";
+  const data = propData || location.state?.data;
+  const isArray = Array.isArray(data);
+  const quizTitle = isArray ? "Vocabulary Match" : data?.quizTitle || "Vocabulary Match";
 
-  const pairs = useMemo(() => shuffle(data?.pairs || []), [data]);
+  const pairs = useMemo(() => shuffle(isArray ? data : data?.pairs || []), [data]);
   const [selectedTerm, setSelectedTerm] = useState(null);
   const [matches, setMatches] = useState({});
   const [completed, setCompleted] = useState(false);
@@ -35,6 +36,7 @@ const VocabMatch = () => {
       const correctPair = currentPairs.find(p => p.definition === def);
       if (correctPair && correctPair.term === selectedTerm) {
         setMatches(prev => ({...prev, [selectedTerm]: def}));
+        onCorrect && onCorrect();
       }
       setSelectedTerm(null);
     }

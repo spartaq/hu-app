@@ -13,6 +13,7 @@ import shuffle from "./shuffle.js";
 import "../CSS/exercisesection.css";
 
 const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
+  console.log("ExerciseSection props:", { type, data, id, subtype });
   const topRef = useRef(null);
 
   const [activityStarted, setActivityStarted] = useState(false);
@@ -44,9 +45,9 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
     if (type === "dialogue") raw = data;
     else if (type === "quiz") raw = data?.questions ?? [];
     else if (type === "ordering") raw = Array.isArray(data) ? data : [];
-    else if (type === "vocab") raw = data?.pairs ?? [];
+    else if (type === "vocab") raw = Array.isArray(data) ? data : data?.pairs ?? [];
     else if (type === "grammar") raw = data?.sentences ?? [];
-    else if (type === "reading") raw = Array.isArray(data) ? data : [];
+    else if (type === "reading") raw = Array.isArray(data) ? data : data?.paragraphs ?? [];
     else if (type === "video") raw = Array.isArray(data) ? data : [data];
     else if (type === "explanation") raw = data;
     else raw = [];
@@ -55,7 +56,8 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
   }, [type, data]);
 
   useEffect(() => {
-   if (type === "dialogue" || type === "explanation") {
+    console.log("useEffect triggered, type:", type, "data:", data);
+    if (type === "dialogue" || type === "explanation") {
       setActivityData(data);
       setActivityStarted(true);
       return;
@@ -70,16 +72,19 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
 
     if (autoStartTypes.includes(type)) {
       const raw = getRawData();
+      console.log("Auto-start raw data:", raw);
       setActivityData(raw);
       setActivityStarted(true);
     }
 
     if (type === "quiz") {
+      console.log("Quiz initial data:", data?.questions);
       setActivityData(data?.questions ?? []);
     }
   }, [type, data, autoStartTypes, getRawData]);
 
   const startActivity = () => {
+    console.log("startActivity called with type:", type, "data:", data);
     if (type === "dialogue") {
       setActivityData(data);
       setActivityStarted(true);
@@ -93,6 +98,7 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
 
     if (type === "vocab") {
       setActivityData(allData);
+      console.log("Vocab activityData set:", allData);
     } else if (type === "quiz") {
       const unused = allData.filter((item) => !usedIds.includes(item.id));
       const toUse = unused.slice(0, 10);
@@ -104,6 +110,7 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
       const toUse = shuffle(unused).slice(0, 10);
       setUsedIds((p) => [...p, ...toUse.map((x) => x.id)]);
       setActivityData(toUse);
+      console.log("Other activityData set:", toUse);
     }
 
     setActivityStarted(true);
@@ -114,6 +121,7 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
   };
 
   const handleRestart = () => {
+    console.log("handleRestart called");
     if (type !== "vocab") setUsedIds([]);
     setActivityStarted(false);
     setActivityEnded(false);
@@ -136,8 +144,10 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
   };
 
   const ActivityComponent = () => {
+    console.log("ActivityComponent render, type:", type, "activityData:", activityData);
     if (type === "dialogue") {
       if (!activityData || !Array.isArray(activityData.lines)) {
+        console.log("No dialogue data found");
         return <p>No dialogue data</p>;
       }
       return (
@@ -147,15 +157,16 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
       );
     }
 
-     if (type === "explanation") {
-    return (
-      <div className="exercisesection__activity-box">
-        <ExplanationActivity data={activityData} />
-      </div>
-    );
-  }
+    if (type === "explanation") {
+      return (
+        <div className="exercisesection__activity-box">
+          <ExplanationActivity data={activityData} />
+        </div>
+      );
+    }
 
     if (!activityData || (Array.isArray(activityData) && activityData.length === 0)) {
+      console.log("No activityData available for type:", type);
       return <p>No data available</p>;
     }
 
@@ -169,20 +180,17 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
       <div className="exercisesection__activity-box">
         {type === "quiz" && (
           <QuizActivity
-    question={current}
-    data={data}
-    onAnswer={(result) => {
-      // result = { correct: boolean, next: true, selected: ... }
-      // Only update score / advance when result.next === true (user clicked Next).
-      if (result && result.next) {
-        if (result.correct) {
-          setScore((s) => s + 1);
-        }
-        handleNext();
-      }
-    }}
-  />
-
+            question={current}
+            data={data}
+            onAnswer={(result) => {
+              if (result && result.next) {
+                if (result.correct) {
+                  setScore((s) => s + 1);
+                }
+                handleNext();
+              }
+            }}
+          />
         )}
 
         {type === "ordering" && (
@@ -192,12 +200,13 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
           />
         )}
 
-        {type === "vocab" && (
-          <VocabMatch
-            data={data}
-            onCorrect={() => setScore((s) => s + 1)}
-          />
-        )}
+      {type === "vocab" && (
+        <VocabMatch
+          data={data?.pairs ?? activityData} // use modal pairs if subtype undefined
+          onCorrect={() => setScore((s) => s + 1)}
+        />
+      )}
+
 
         {type === "grammar" && (
           <GrammarExerciseComp
@@ -208,22 +217,22 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
         )}
 
         {type === "reading" && (
-          <ReadingActivity data={current} title={current.readingcompTitle} />
+          <ReadingActivity
+            data={{ ...data, paragraphs: activityData }}
+            title={data?.readingcompTitle}
+          />
         )}
 
-        {type === "video" && <Videos data={current} title={current.title} />
-        }
-
-
+        {type === "video" && <Videos data={current} title={current.title} />}
       </div>
     );
   };
 
-  const hideNav = 
-  type === "dialogue" || 
-  type === "vocab" || 
-  type === "grammar"||
-  type === "explanation";
+  const hideNav =
+    type === "dialogue" ||
+    type === "vocab" ||
+    type === "grammar" ||
+    type === "explanation";
 
   return (
     <div className="exercisesection">

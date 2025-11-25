@@ -4,9 +4,9 @@ import { addTooltipsToText } from '../tooltipUtils.js';
 import { FaAngleDown } from 'react-icons/fa';
 import '../../CSS/ReadingActivity.css';
 
-const ReadingActivity = () => {
+const ReadingActivity = ({ data: propData }) => {
   const location = useLocation();
-  const data = location.state?.data;
+  const data = propData || location.state?.data;
   const [answers, setAnswers] = useState([]);
   const [showResults, setShowResults] = useState(false);
   const [showVocab, setShowVocab] = useState(false);
