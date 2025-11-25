@@ -1,0 +1,68 @@
+{
+  "type": "explanation",
+  "title": "Neki van – Expressing “To Have” in Hungarian",
+  "sections": [
+    {
+      "heading": "How Hungarian expresses “to have”",
+      "paragraphs": [
+        "In Hungarian, the concept of “to have” is expressed using the structure “neki van.”",
+        "This does not follow regular verb patterns and must be learned separately."
+      ]
+    },
+    {
+      "heading": "Neki van = to have",
+      "paragraphs": [
+        "Hungarian does not have a direct verb meaning “to have.”",
+        "Instead, it uses a structure that means something like “To him/her there is...” combined with the verb “van” and a possessive ending."
+      ]
+    },
+    {
+      "heading": "Possession with van",
+      "paragraphs": [
+        "Here are the main patterns of possession in affirmative, negative, and question forms."
+      ],
+      "table": {
+        "headers": ["Affirmative", "Negative", "Question"],
+        "rows": [
+          [
+            "Nekem van autóm. (I have a car.)",
+            "Nekem nincs autóm. (I don’t have a car.)",
+            "Van autód? (Do you have a car?)"
+          ],
+          [
+            "Neked van könyved. (You have a book.)",
+            "Neked nincs könyved. (You don’t have a book.)",
+            "Van könyve? (Does he/she have a book?)"
+          ],
+          [
+            "Neki van macskája. (He/She has a cat.)",
+            "Neki nincs macskája. (He/She doesn’t have a cat.)",
+            "Van macskájuk? (Do they have a cat?)"
+          ],
+          [
+            "Nekünk van házunk. (We have a house.)",
+            "Nekünk nincs házunk. (We don’t have a house.)",
+            "Van házunk? (Do we have a house?)"
+          ],
+          [
+            "Nektek van tollatok. (You all have a pen.)",
+            "Nektek nincs tollatok. (You all don’t have a pen.)",
+            "Van tollatok? (Do you all have a pen?)"
+          ],
+          [
+            "Nekik van kertjük. (They have a garden.)",
+            "Nekik nincs kertjük. (They don’t have a garden.)",
+            "Van kertjük? (Do they have a garden?)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Examples",
+      "list": [
+        "Neked van testvéred? (Do you have a sibling?)",
+        "Nekik nincs autójuk. (They don’t have a car.)"
+      ]
+    }
+  ]
+}

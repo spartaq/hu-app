@@ -1,0 +1,51 @@
+{
+  "type": "explanation",
+  "title": "Comparatives and Superlatives – Quick Guide",
+  "sections": [
+    {
+      "heading": "What are comparatives and superlatives?",
+      "paragraphs": [
+        "In Hungarian, comparison is formed by modifying the adjective. Just like in English, you can compare two things (comparative) or say something is the most (superlative)."
+      ]
+    },
+    {
+      "heading": "Comparative and superlative in Hungarian",
+      "paragraphs": [
+        "The comparative is formed by adding -bb to the adjective.",
+        "To form the superlative, use the prefix a leg- + the comparative form."
+      ]
+    },
+    {
+      "heading": "English–Hungarian comparison examples",
+      "table": {
+        "headers": ["Adjective / English", "Hungarian Form", "Example"],
+        "rows": [
+          ["magas", "magasabb / a legmagasabb", "tall, taller, the tallest"],
+          ["taller", "magasabb", "Ő magasabb, mint én. – He is taller than me."],
+          ["the tallest", "a legmagasabb", "Ő a legmagasabb a csoportban. – He is the tallest in the group."],
+          ["cold", "hideg", "A víz hideg. – The water is cold."],
+          ["colder", "hidegebb", "Ma hidegebb van, mint tegnap. – Today is colder than yesterday."],
+          ["the coldest", "a leghidegebb", "Ez a leghidegebb nap. – This is the coldest day."]
+        ]
+      }
+    },
+    {
+      "heading": "Important points",
+      "list": [
+        "The basic rule: adjective + bb → comparative.",
+        "Use mint (than) to compare two things: nagyobb, mint...",
+        "For superlatives, use the article a (or az) and the prefix leg-.",
+        "Some adjectives change slightly before adding -bb (e.g., szép → szebb)."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "list": [
+        "Ez a ház nagyobb, mint a másik. – This house is bigger than the other.",
+        "Ő a legokosabb diák. – He/She is the smartest student.",
+        "A leves melegebb, mint a tea. – The soup is warmer than the tea.",
+        "Ez a legjobb film. – This is the best movie."
+      ]
+    }
+  ]
+}

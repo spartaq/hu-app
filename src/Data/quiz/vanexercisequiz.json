@@ -1,0 +1,77 @@
+      {
+        "quizTitle": "Van",
+        "type": "quiz",
+        "questions": [
+        {
+          "id": 1,
+          "question": "______ egy bolt a sarkon.",
+          "options": ["Vagy", "Van", "Varsz", "Vagyok"],
+          "answer": "Van",
+          "translate": "There's a shop on the corner"
+        },
+        {
+          "id": 2,
+          "question": "_______ tej a hűtőben.",
+          "options": ["van", "vagy", "vagytok", "vagyok"],
+          "answer": "van",
+          "translate": "There's milk in the fridge"
+        },
+        {
+          "id": 3,
+          "question": "A könyvesboltban _______ sok érdekes könyv.",
+          "options": ["van", "vagyok", "vagytok", "vagy"],
+          "answer": "van",
+          "translate": "There are many interesting books in the bookstore."
+        },
+        {
+          "id": 4,
+          "question": "A városban _______ egy új mozi.",
+          "options": ["van", "vagyok", "vagytok", "vagy"],
+          "answer": "van",
+          "translate": "There is a new cinema in the city."
+        },
+        {
+          "id": 5,
+          "question": "A tanárnő _______ a teremben.",
+          "options": ["van", "vagyok", "vagytok", "vagy"],
+          "answer": "van",
+          "translate": "The teacher is in the classroom."
+        },
+        {
+          "id": 6,
+          "question": "A barátomnak _______ egy új autója.",
+          "options": ["van", "vagyok", "vagytok", "vagy"],
+          "answer": "van",
+          "translate": "My friend has a new car."
+        },
+        {
+          "id": 7,
+          "question": "A könyvtárban _______ sok régi könyv.",
+          "options": ["van", "vagyok", "vagytok", "vagy"],
+          "answer": "van",
+          "translate": "There are many old books in the library."
+        },
+        {
+          "id": 8,
+          "question": "A parkban _______ sok fa és virág.",
+          "options": ["van", "vagyok", "vagytok", "vagy"],
+          "answer": "van",
+          "translate": "There are many trees and flowers in the park."
+        },
+        {
+          "id": 9,
+          "question": "A boltban _______ sok különböző termék.",
+          "options": ["van", "vagyok", "vagytok", "vagy"],
+          "answer": "van",
+          "translate": "There are many different products in the store."
+        },
+        {
+          "id": 10,
+          "question": "A városban _______ egy híres múzeum.",
+          "options": ["van", "vagyok", "vagytok", "vagy"],
+          "answer": "van",
+          "translate": "There is a famous museum in the city."
+        }
+      ]
+    }
+

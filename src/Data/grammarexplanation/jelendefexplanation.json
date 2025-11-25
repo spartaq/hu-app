@@ -1,0 +1,88 @@
+{
+  "type": "explanation",
+  "title": "Present Tense – Definite Conjugation (Jelen Idő)",
+  "sections": [
+    {
+      "heading": "What is the Hungarian present tense?",
+      "paragraphs": [
+        "In Hungarian, the present tense (jelen idő) is used for actions happening now, habits, and general facts. Verbs change their endings depending on the subject and whether the object is definite or indefinite.",
+        "*The Hungarian present can correspond to the English simple present, present continuous, present perfect, and even future tense depending on the context.*"
+      ]
+    },
+    {
+      "heading": "Indefinite vs. Definite Conjugation",
+      "paragraphs": [
+        "Hungarian has two types of conjugation: indefinite and definite."
+      ],
+      "list": [
+        "Indefinite conjugation — used when the object is general or not mentioned. (Example: Minden nap olvasok. — I read every day.)",
+        "Definite conjugation — used when the object is specific. (Example: Olvasom a könyvet. — I read the book.)"
+      ],
+      "paragraphs2": [
+        "This explanation focuses on the definite form. The indefinite form is shown elsewhere.",
+        "A detailed comparison of definite and indefinite conjugation is available on the dedicated explanation page.",
+        "Use the verb conjugator tool to check new verb forms."
+      ]
+    },
+    {
+      "heading": "Affirmative – Definite (tanul = to study)",
+      "table": {
+        "headers": ["Person", "Conjugation", "English"],
+        "rows": [
+          ["(Én)", "tanulom", "I study it"],
+          ["(Te)", "tanulod", "You study it"],
+          ["(Ő)", "tanulja", "He/She studies it"],
+          ["(Mi)", "tanuljuk", "We study it"],
+          ["(Ti)", "tanuljátok", "You all study it"],
+          ["(Ők)", "tanulják", "They study it"]
+        ]
+      }
+    },
+    {
+      "heading": "Negative – Definite",
+      "table": {
+        "headers": ["Person", "Conjugation", "English"],
+        "rows": [
+          ["(Én)", "nem tanulom", "I do not study it"],
+          ["(Te)", "nem tanulod", "You do not study it"],
+          ["(Ő)", "nem tanulja", "He/She does not study it"],
+          ["(Mi)", "nem tanuljuk", "We do not study it"],
+          ["(Ti)", "nem tanuljátok", "You all do not study it"],
+          ["(Ők)", "nem tanulják", "They do not study it"]
+        ]
+      }
+    },
+    {
+      "heading": "Questions – Definite",
+      "table": {
+        "headers": ["Person", "Conjugation", "English"],
+        "rows": [
+          ["(Én)", "tanulom?", "Do I study it?"],
+          ["(Te)", "tanulod?", "Do you study it?"],
+          ["(Ő)", "tanulja?", "Does he/she study it?"],
+          ["(Mi)", "tanuljuk?", "Do we study it?"],
+          ["(Ti)", "tanuljátok?", "Do you all study it?"],
+          ["(Ők)", "tanulják?", "Do they study it?"]
+        ]
+      }
+    },
+    {
+      "heading": "Examples",
+      "list": [
+        "Én tanulok. – I study (general).",
+        "Én tanulom a leckét. – I study the lesson (specific object).",
+        "Mi tanulunk minden nap. – We study every day.",
+        "Mi tanuljuk az új szavakat. – We study the new words."
+      ]
+    },
+    {
+      "heading": "Important Points",
+      "list": [
+        "Indefinite: used when the object is not mentioned or is general.",
+        "Definite: used when the object is specific (e.g., a könyvet, az új leckét).",
+        "Negatives are formed by adding 'nem' before the verb.",
+        "Questions are made with intonation or a question mark — no auxiliary verb like 'do/does' is needed."
+      ]
+    }
+  ]
+}

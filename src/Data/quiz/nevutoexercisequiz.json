@@ -1,0 +1,28 @@
+      {
+        "quizTitle": "Névutó",
+        "type": "quiz",
+        "questions": [
+        {
+          "id": 1,
+          "question": "Az en autom.",
+          "options": ["Vagy", "Van", "Varsz", "Vagyok"],
+          "answer": "Van",
+          "translate": "There's a shop on the corner"
+        },
+        {
+          "id": 2,
+          "question": "Minden reggel _______ egy kávét.",
+          "options": ["van", "vagy", "vagytok", "vagyok"],
+          "answer": "vagyok",
+          "translate": "I wake up at 7 am"
+        },
+        {
+          "id": 3,
+          "question": "Mielőtt lefekszem, mindig _______ a fogamat.",
+          "options": ["mosom", "mosod", "mostam", "mossa"],
+          "answer": "mosom",
+          "translate": "I wake up at 7 am"
+        }
+      ]
+    }
+

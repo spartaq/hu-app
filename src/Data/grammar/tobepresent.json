@@ -1,0 +1,166 @@
+{
+  "sentences": [
+  {
+    "text": "You ___ responsible for managing key accounts.",
+    "answer": "are",
+    "topic": "Responsibilities"
+  },
+  {
+    "text": "She ___ the account manager for this territory.",
+    "answer": "is",
+    "topic": "Roles"
+  },
+  {
+    "text": "The clients ___ satisfied with the current service.",
+    "answer": "are",
+    "topic": "Clients"
+  },
+  {
+    "text": "This ___ the latest product in our portfolio.",
+    "answer": "is",
+    "topic": "Products"
+  },
+  {
+    "text": "We ___ preparing for the quarterly review.",
+    "answer": "are",
+    "topic": "Meetings"
+  },
+  {
+    "text": "I ___ available for a call right now.",
+    "answer": "am",
+    "topic": "Communication"
+  },
+  {
+    "text": "The sales report ___ accurate.",
+    "answer": "is",
+    "topic": "Reports"
+  },
+  {
+    "text": "The clients ___ happy with the pricing changes.",
+    "answer": "are",
+    "topic": "Clients"
+  },
+  {
+    "text": "She ___ the person responsible for marketing.",
+    "answer": "is",
+    "topic": "Roles"
+  },
+  {
+    "text": "The results of the campaign ___ promising.",
+    "answer": "are",
+    "topic": "Campaigns"
+  },
+
+
+
+  {
+    "text": "She ___ (not) in the office today.",
+    "answer": "is",
+    "topic": "Workplace"
+  },
+  {
+    "text": "They ___ (not) happy with the service.",
+    "answer": "are",
+    "topic": "Customer Service"
+  },
+  {
+    "text": "The computer ___ (not) working.",
+    "answer": "is",
+    "topic": "Technology"
+  },
+  {
+    "text": "You ___ (not) late for the meeting.",
+    "answer": "are",
+    "topic": "Meetings"
+  },
+  {
+    "text": "The report ___ (not) ready yet.",
+    "answer": "is",
+    "topic": "Reporting"
+  },
+
+
+
+  {
+    "text": "He ___ (not) the new manager.",
+    "answer": "is",
+    "topic": "Roles"
+  },
+  {
+    "text": "This app ___ (not) free to use.",
+    "answer": "is",
+    "topic": "Technology"
+  },
+  {
+    "text": "We ___ (not) busy right now.",
+    "answer": "are",
+    "topic": "Workload"
+  },
+  {
+    "text": "She ___ (not) in charge of the team.",
+    "answer": "is",
+    "topic": "Leadership"
+  },
+  {
+    "text": "The email ___ (not) correct.",
+    "answer": "is",
+    "topic": "Communication"
+  },
+
+
+
+  {
+    "text": "___ you in the office today?",
+    "answer": "Are",
+    "topic": "Workplace"
+  },
+  {
+    "text": "___ she the new assistant?",
+    "answer": "Is",
+    "topic": "Roles"
+  },
+  {
+    "text": "___ they happy with the job?",
+    "answer": "Are",
+    "topic": "Job Satisfaction"
+  },
+  {
+    "text": "___ the document ready?",
+    "answer": "Is",
+    "topic": "Reporting"
+  },
+  {
+    "text": "___ he late for the meeting?",
+    "answer": "Is",
+    "topic": "Meetings"
+  },
+
+
+
+  {
+    "text": "___ we on time for the call?",
+    "answer": "Are",
+    "topic": "Scheduling"
+  },
+  {
+    "text": "___ this software easy to use?",
+    "answer": "Is",
+    "topic": "Technology"
+  },
+  {
+    "text": "___ the team busy today?",
+    "answer": "Is",
+    "topic": "Workload"
+  },
+  {
+    "text": "___ you responsible for this task?",
+    "answer": "Are",
+    "topic": "Responsibilities"
+  },
+  {
+    "text": "___ the client happy with the offer?",
+    "answer": "Is",
+    "topic": "Customer Relations"
+  }
+]
+}

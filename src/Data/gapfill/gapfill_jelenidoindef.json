@@ -1,0 +1,47 @@
+{
+  "type": "gapfill",
+  "title": "Napi rutin – Hiányos szöveg",
+  "topic": "daily routine",
+  "words": [
+    "nevem",
+    "iskolába",
+    "harminc",
+    "közel",
+    "hatodik",
+    "második",
+    "énekel",
+    "alszik",
+    "irodába",
+    "kávét",
+    "számítógépet",
+    "e-maileket"
+  ],
+  "text": [
+    "A ___ Bob.",
+    "Minden nap elviszem a gyerekeimet ___.",
+    "A lányom egy olyan iskolába jár, ami messze van a házunktól.",
+    "___ perc, mire odaérünk.",
+    "Aztán elviszem a fiamat az iskolájába. Az ___ van a munkahelyemhez.",
+    "A lányom ___ osztályos, a fiam ___ba jár.",
+    "Mindketten jó tanulók.",
+    "A lányom általában a kedvenc dalait ___.",
+    "A fiam általában ___.",
+    "8:30-kor érek be az ___.",
+    "Köszönök a kollégáimnak, aztán veszek egy nagy csésze forró ___.",
+    "Bekapcsolom a ___, és elolvasom az ___."
+  ],
+  "answers": [
+    "nevem",
+    "iskolába",
+    "harminc",
+    "közel",
+    "hatodik",
+    "második",
+    "énekel",
+    "alszik",
+    "irodába",
+    "kávét",
+    "számítógépet",
+    "e-maileket"
+  ]
+}

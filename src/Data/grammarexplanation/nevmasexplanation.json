@@ -1,0 +1,44 @@
+{
+  "type": "explanation",
+  "title": "Hungarian Subject Pronouns – Quick Guide",
+  "sections": [
+    {
+      "heading": "What are Hungarian Subject Pronouns?",
+      "paragraphs": [
+        "In Hungarian, subject pronouns (I, you, he/she, etc.) exist just like in English, but they are often left out because the verb ending already shows who the subject is.",
+        "Hungarian is therefore a “pro-drop” language, meaning you can omit the subject if it is clear from context."
+      ]
+    },
+    {
+      "heading": "Hungarian Subject Pronouns with Examples",
+      "table": {
+        "headers": ["Person", "Pronoun", "Example"],
+        "rows": [
+          ["I", "(Én)", "tanulok. – I study."],
+          ["You (singular)", "(Te)", "eszel. – You eat."],
+          ["He / She / It", "(Ő)", "alszik. – He/She sleeps."],
+          ["We", "(Mi)", "futunk. – We run."],
+          ["You (plural)", "(Ti)", "írtok. – You all write."],
+          ["They", "(Ők)", "olvasnak. – They read."]
+        ]
+      }
+    },
+    {
+      "heading": "Important Notes",
+      "list": [
+        "Hungarian is a “pro-drop” language — subject pronouns can be left out.",
+        "The verb ending already shows the subject, so “tanulok” means “I study” even without “én”.",
+        "Pronouns are used mainly for emphasis or clarity."
+      ]
+    },
+    {
+      "heading": "Examples",
+      "list": [
+        "Én főzök. – I am the one who is cooking (emphasis).",
+        "Ők mennek moziba. – They are going to the cinema.",
+        "Beszélsz magyarul? – Do you speak Hungarian?",
+        "Tanulunk minden nap. – We study every day."
+      ]
+    }
+  ]
+}

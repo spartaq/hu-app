@@ -1,0 +1,43 @@
+{
+  "type": "explanation",
+  "title": "The Verb “lenni” – Quick Guide",
+  "sections": [
+    {
+      "heading": "What is “lenni”?",
+      "paragraphs": [
+        "Hungarian uses the verb “lenni” to express the idea of “to be” when talking about existence, location, or identity. It is irregular and must be learned separately."
+      ]
+    },
+    {
+      "heading": "Conjugation – Present Tense",
+      "paragraphs": [
+        "Here are the basic forms of “van” in affirmative, negative, and question forms."
+      ],
+      "table": {
+        "headers": ["Person", "Affirmative", "Negative", "Question"],
+        "rows": [
+          ["Én (I)", "vagyok", "nem vagyok", "vagyok?"],
+          ["Te (you)", "vagy", "nem vagy", "vagy?"],
+          ["Ő (he/she)", "van", "nincs", "van?"],
+          ["Mi (we)", "vagyunk", "nem vagyunk", "vagyunk?"],
+          ["Ti (you all)", "vagytok", "nem vagytok", "vagytok?"],
+          ["Ők (they)", "vannak", "nincsenek", "vannak?"]
+        ]
+      }
+    },
+    {
+      "heading": "Key Points",
+      "list": [
+        "The verb “van” is irregular and behaves differently from other Hungarian verbs.",
+        "The negative form uses “nincs / nincsenek” instead of “nem van / nem vannak”.",
+        [
+          "In simple descriptive sentences, “van” and “vannak” disappear in the 3rd person:",
+          [
+            "Ő tanár. (He/She is a teacher.)",
+            "Ők diákok. (They are students.)"
+          ]
+        ]
+      ]
+    }
+  ]
+}

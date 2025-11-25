@@ -1,88 +1,64 @@
 import { Link } from "react-router-dom";
-import SEO from "../../Components/SEO";
-import Breadcrumb from "../../Components/Breadcrumb";
-import reading from "../../Images/reading1-1280x470.jpg";
-import ReadingMenu from "../../Components/Menus/ReadingMenu";
-import readingcomp from "./Data/readingcomp";
 
-const Readingexercises = () => {
-    
+import readingParentsFootballMatch from "../../Utils/Activities/Data/reading/readingParentsFootball.js";
+import readingStreamingFatigue from "../../Utils/Activities/Data/reading/readingStreamingFatigue.js";
+import readingANevemBob from "../../Utils/Activities/Data/reading/readingANevemBob.js";
+import readingEssityAccount from "../../Utils/Activities/Data/reading/readingEssityAccount.js";
+import readingSimplePresent from "../../Utils/Activities/Data/reading/readingSimplePresent.js";
 
+const READINGS = [
+  {
+    id: "parents-football-match",
+    title: "Parents Football Match",
+    description: "A fun, beginner-friendly story.",
+    data: readingParentsFootballMatch
+  },
+  {
+    id: "streaming-fatigue",
+    title: "Streaming Fatigue",
+    description: "A reading on the rise of streaming exhaustion.",
+    data: readingStreamingFatigue
+  },
+  {
+    id: "nevem-bob",
+    title: "A Nevém Bob",
+    description: "A simple reading focused on introductions.",
+    data: readingANevemBob
+  },
+  {
+    id: "essityaccount",
+    title: "Essity Account",
+    description: "A workplace reading task.",
+    data: readingEssityAccount
+  },
+  {
+    id: "simplepresent",
+    title: "Simple Present",
+    description: "A short reading practicing present tense.",
+    data: readingSimplePresent
+  }
+];
 
-    return (
-        <div>
-            <SEO
-                title="Reading Exercises - English Exam Exercises"
-                description="Reading practice exercises for every type of exam reading section"
-                name="Reading English Exam Exercises"
-                type="article"
-            />
-			
-			<Breadcrumb />
-			
-			<div className="home-container">
-                
-				<div className="homebodytext">
-                    
-					<img src={reading} alt="English Exam Exercises" />
-                    <div className="introtext">
-                        <h3 className="mt-2">Reading Exercises</h3></div>
+export default function ReadingExercises() {
+  return (
+    <div className="reading-list-page">
 
-                    <div className="page-description">Here is a collection of vocabulary exercises to do. The exercises are divided by categories which correspond to exam levels. Each category here has 10 exercises, but there are more once you go to the page. Keep checking back as I am always adding new exercises.	
-						
-						<div className="courses_container">
-                            <div className="courses_box">
-                                
-								<div className="blog-card">
-                                    <div className="description">
-                                        <h1>Reading Comprehension</h1>
-                                        <h2>Getting the basics down</h2>
-                                        <p>Vocabulary exercises, flashcards, and quizzes to help you improve and have greater success on exams.
-                                        </p>
-                                        <ul>
-                                            {readingcomp.map((item, index) => (
-                                                <li key={index}>
-                                                    <Link
-                                                        to={`/reading-exercises/reading-comprehension?readingcompTitle=${item.readingcompTitle}`}
-                                                    >
-                                                        <span className={`label label-${item.level}`}>{item.level}</span> {item.readingcompTitle}
-                                                    </Link>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </div>
-								
-								
-								<div className="blog-card">
-                                    <div className="description">
-                                        <h1>Paragraph Headings</h1>
-                                        <h2>Having an adequate vocabulary brings greater success.</h2>
-                                        <p>These kinds of tasks are found on TOEFL, EuroExam, and Cambridge.</p>
-                                        <ul>
-                                            <li>
-                                                <Link to="/reading-exercises/paragraph-headings">
-                                                    <span className="label label-a2">B2</span> Paragraph Headings
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <h1>Reading Exercises</h1>
 
-                <div className="gmenu">
-                    <ReadingMenu />
-                </div>
+      <div className="reading-list">
+        {READINGS.map((item) => (
+          <Link
+            to={`/hungarian/activity/reading/${item.id}`}
+            state={{ data: item.data }}
+            key={item.id}
+            className="reading-card"
+          >
+            <div className="reading-card-title">{item.title}</div>
+            <p className="reading-card-desc">{item.description}</p>
+          </Link>
+        ))}
+      </div>
 
-                <div>
-                    
-                </div>
-            </div>
-        </div>
-    );
-};
-
-export default Readingexercises;
+    </div>
+  );
+}

@@ -15,14 +15,15 @@ const Home = ({ setFilters = () => {} }) => {
   }, [location]);
 
   const actions = [
-    { label: "Vocabulary", icon: <FaBook /> },
-    { label: "Grammar", icon: <FaListUl /> },
-    { label: "Listening", icon: <FaHeadphones /> },
-    { label: "Dialogues", icon: <FaComments /> },
-    { label: "Readings", icon: <FaBookReader /> },
-    { label: "Quizzes", icon: <FaClipboardList /> },
-    { label: "Games", icon: <FaPuzzlePiece /> }
-  ];
+  { label: "Vocabulary", icon: <FaBook />, link: "/hungarian/vocab-list" },
+  { label: "Grammar", icon: <FaListUl />, link: "/hungarian/grammar-list" },
+  { label: "Listening", icon: <FaHeadphones />, link: "/hungarian/listening-list" },
+  { label: "Dialogues", icon: <FaComments />, link: "/hungarian/dialogue-list" },
+  { label: "Readings", icon: <FaBookReader />, link: "/hungarian/reading-exercises" },
+  { label: "Quizzes", icon: <FaClipboardList />, link: "/hungarian/quiz-list" },
+  { label: "Games", icon: <FaPuzzlePiece />, link: "/hungarian/games" }
+];
+
 
   return (
     <div className="home-wrapper">
@@ -54,10 +55,10 @@ const Home = ({ setFilters = () => {} }) => {
 
         <div className="home-grid">
           {actions.map((item) => (
-            <div key={item.label} className="home-card">
+            <Link to={item.link} key={item.label} className="home-card">
               <div className="home-card-icon">{item.icon}</div>
               <span>{item.label}</span>
-            </div>
+            </Link>
           ))}
         </div>
       </section>

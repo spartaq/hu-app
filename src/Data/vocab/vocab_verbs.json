@@ -1,0 +1,31 @@
+{
+  "quizTitle": "Common Hungarian Verbs",
+  "type": "vocab",
+  "topic": "verbs",
+  "pairs": [
+    { "term": "megy", "definition": "go" },
+    { "term": "jön", "definition": "come" },
+    { "term": "eszik", "definition": "eat" },
+    { "term": "iszik", "definition": "drink" },
+    { "term": "ír", "definition": "write" },
+    { "term": "olvas", "definition": "read" },
+    { "term": "beszél", "definition": "speak" },
+    { "term": "hallgat", "definition": "listen" },
+    { "term": "lát", "definition": "see" },
+    { "term": "tesz", "definition": "put, do" },
+    { "term": "vesz", "definition": "buy, take" },
+    { "term": "dolgozik", "definition": "work" },
+    { "term": "alszik", "definition": "sleep" },
+    { "term": "áll", "definition": "stand" },
+    { "term": "ül", "definition": "sit" },
+    { "term": "kér", "definition": "ask, request" },
+    { "term": "ad", "definition": "give" },
+    { "term": "számol", "definition": "count" },
+    { "term": "tanul", "definition": "learn, study" },
+    { "term": "játszik", "definition": "play" }
+  ]
+}
+
+
+  
+  

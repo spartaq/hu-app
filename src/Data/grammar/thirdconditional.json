@@ -1,0 +1,245 @@
+{
+  "sentences":[
+    {
+      "text": "If the team ___ (implement) the update last week, the system would have performed better.",
+      "answer": "had implemented"
+    },
+    {
+      "text": "If they ___ (review) the code thoroughly, they would have avoided the bug in production.",
+      "answer": "had reviewed"
+    },
+    {
+      "text": "If I ___ (attend) the client call, I would have provided a project status update.",
+      "answer": "had attended"
+    },
+    {
+      "text": "If she ___ (finish) the presentation earlier, we would have had time for feedback.",
+      "answer": "had finished"
+    },
+    {
+      "text": "If you ___ (inform) the IT department, they would have fixed the network issue.",
+      "answer": "had informed"
+    },
+    {
+      "text": "If the developers had addressed the feedback, the app ___ (launch) on time.",
+      "answer": "would have launched"
+    },
+    {
+      "text": "If the product manager had communicated better, the team ___ (understand) the priorities.",
+      "answer": "would have understood"
+    },
+    {
+      "text": "If the designers ___ (submit) the new UI last week, we would have tested it already.",
+      "answer": "had submitted"
+    },
+    {
+      "text": "If I had known about the deadline change, I ___ (inform) the team earlier.",
+      "answer": "would have informed"
+    },
+    {
+      "text": "If the engineers had tested the feature, it ___ (work) as expected in production.",
+      "answer": "would have worked"
+    },
+    {
+      "text": "If the data had been analyzed sooner, we ___ (make) a more informed decision.",
+      "answer": "would have made"
+    },
+    {
+      "text": "If the QA team ___ (complete) the testing, the software would have gone live last week.",
+      "answer": "had completed"
+    },
+    {
+      "text": "If we had allocated more resources, the project ___ (be) completed by now.",
+      "answer": "would have been"
+    },
+    {
+      "text": "If I ___ (schedule) the meeting earlier, we could have finalized the feature list.",
+      "answer": "had scheduled"
+    },
+    {
+      "text": "If they had integrated the API, the system ___ (function) more smoothly.",
+      "answer": "would have functioned"
+    },
+    {
+      "text": "If she ___ (take) the lead on the project, the team would have delivered on time.",
+      "answer": "had taken"
+    },
+    {
+      "text": "If the clients ___ (provide) their requirements sooner, we would have started the development earlier.",
+      "answer": "had provided"
+    },
+    {
+      "text": "If we had hired more developers, the app ___ (be) ready for the launch.",
+      "answer": "would have been"
+    },
+    {
+      "text": "If I ___ (know) the feature was critical, I would have prioritized it.",
+      "answer": "had known"
+    },
+    {
+      "text": "If the sales team ___ (meet) the quota, the bonus would have been distributed.",
+      "answer": "had met"
+    },
+    {
+      "text": "If you ___ (not deploy) the code without testing, we wouldn't have faced downtime.",
+      "answer": "hadn't deployed"
+    },
+    {
+      "text": "If they ___ (not skip) the security review, we would have avoided the vulnerability.",
+      "answer": "hadn't skipped"
+    },
+    {
+      "text": "If we had addressed the client’s concerns, they ___ (not cancel) the contract.",
+      "answer": "wouldn't have canceled"
+    },
+    {
+      "text": "If she ___ (not miss) the deadline, we would have launched the product last quarter.",
+      "answer": "hadn't missed"
+    },
+    {
+      "text": "If the product team had updated the specs, we ___ (not delay) the release.",
+      "answer": "wouldn't have delayed"
+    },
+    {
+      "text": "If I ___ (not forget) to send the email, we would have been in the loop.",
+      "answer": "hadn't forgotten"
+    },
+    {
+      "text": "If the team had communicated more effectively, the client ___ (not lose) confidence in us.",
+      "answer": "wouldn't have lost"
+    },
+    {
+      "text": "If we ___ (not overlook) the testing phase, the app would have performed well.",
+      "answer": "hadn't overlooked"
+    },
+    {
+      "text": "If the engineers had followed the guidelines, the system ___ (not crash) during the demo.",
+      "answer": "wouldn't have crashed"
+    },
+    {
+      "text": "If you ___ (not skip) the retrospective, we would have addressed those issues.",
+      "answer": "hadn't skipped"
+    },
+    {
+      "text": "If the documentation had been clearer, the developers ___ (not get) confused.",
+      "answer": "wouldn't have gotten"
+    },
+    {
+      "text": "If I ___ (not forget) to back up the database, we wouldn’t have lost the data.",
+      "answer": "hadn't forgotten"
+    },
+    {
+      "text": "If they ___ (not change) the requirements last minute, we would have met the deadline.",
+      "answer": "hadn't changed"
+    },
+    {
+      "text": "If we had used a stronger password policy, we ___ (not suffer) from the breach.",
+      "answer": "wouldn't have suffered"
+    },
+    {
+      "text": "If she ___ (not overlook) the client's feedback, the feature would have been better aligned.",
+      "answer": "hadn't overlooked"
+    },
+    {
+      "text": "If the team ___ (not skip) the meeting, they would have heard the new priorities.",
+      "answer": "hadn't skipped"
+    },
+    {
+      "text": "If we had enough time, we ___ (not rush) the release.",
+      "answer": "wouldn't have rushed"
+    },
+    {
+      "text": "If they ___ (not forget) to run tests, the bugs wouldn't have gone unnoticed.",
+      "answer": "hadn't forgotten"
+    },
+    {
+      "text": "If you ___ (not change) the deployment plan, the rollout would have been smoother.",
+      "answer": "hadn't changed"
+    },
+    {
+      "text": "If the designers ___ (not miss) the deadline, we wouldn't have delayed the launch.",
+      "answer": "hadn't missed"
+    },
+    {
+      "text": "What ___ (you do) if you had noticed the bug before deployment?",
+      "answer": "would you have done"
+    },
+    {
+      "text": "Where ___ (the team go) if they had won the tech award?",
+      "answer": "would the team have gone"
+    },
+    {
+      "text": "Why ___ (you not inform) the client if you had known about the change?",
+      "answer": "would you not have informed"
+    },
+    {
+      "text": "When ___ (they test) the feature if they had more time?",
+      "answer": "would they have tested"
+    },
+    {
+      "text": "How ___ (the system perform) if the code had been optimized?",
+      "answer": "would the system have performed"
+    },
+    {
+      "text": "Why ___ (we not deliver) the project if we had all the resources?",
+      "answer": "would we not have delivered"
+    },
+    {
+      "text": "What ___ (happen) if we had skipped the user acceptance testing?",
+      "answer": "would have happened"
+    },
+    {
+      "text": "Where ___ (the company be) if it had expanded globally last year?",
+      "answer": "would the company have been"
+    },
+    {
+      "text": "When ___ (you finish) the task if you had not been interrupted?",
+      "answer": "would you have finished"
+    },
+    {
+      "text": "How ___ (they resolve) the issue if the bug hadn't been caught early?",
+      "answer": "would they have resolved"
+    },
+    {
+      "text": "What ___ (the client say) if we had delivered the project on time?",
+      "answer": "would the client have said"
+    },
+    {
+      "text": "Where ___ (the product launch) if we had secured more funding?",
+      "answer": "would the product have launched"
+    },
+    {
+      "text": "Why ___ (you not ask) for clarification if you had misunderstood the instructions?",
+      "answer": "would you not have asked"
+    },
+    {
+      "text": "How ___ (the project change) if the stakeholders had been more involved?",
+      "answer": "would the project have changed"
+    },
+    {
+      "text": "When ___ (they inform) the team if they had known about the delay earlier?",
+      "answer": "would they have informed"
+    },
+    {
+      "text": "What ___ (you improve) if you had more time for the presentation?",
+      "answer": "would you have improved"
+    },
+    {
+      "text": "Why ___ (the engineers not fix) the issue if they had discovered it sooner?",
+      "answer": "would the engineers not have fixed"
+    },
+    {
+      "text": "Where ___ (you allocate) more resources if the budget had been higher?",
+      "answer": "would you have allocated"
+    },
+    {
+      "text": "What ___ (you do) differently if the client's requirements had been clearer?",
+      "answer": "would you have done"
+    },
+    {
+      "text": "When ___ (we schedule) the next sprint if we had known about the delay?",
+      "answer": "would we have scheduled"
+    }
+  ]
+}
+

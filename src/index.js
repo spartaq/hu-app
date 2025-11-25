@@ -22,7 +22,6 @@ import JovoIdo from './Mainpages/Hungarian/jovoido';
 import HungarianTemplate from './Mainpages/Hungarian/hungarianexercisetemplate';
 import HuVerbConjugation from './Mainpages/Hungarian/verbconjugationtable';
 import Nekivan from './Mainpages/Hungarian/nekivan';
-import Readings from './Mainpages/Reading-Exercises/reading-exercises';
 import Birtoklas from './Mainpages/Hungarian/birtoklas';
 import Nevmas from './Mainpages/Hungarian/nevmas';
 import Nevuto from './Mainpages/Hungarian/nevuto';
@@ -32,6 +31,10 @@ import Harmonia from './Mainpages/Hungarian/harmonia';
 import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
 import ActivityFilter from './Utils/activityFilter';
 import LessonList from './Mainpages/lesson-list';
+import Readingexercises from './Mainpages/Reading-Exercises/reading-exercises';
+
+
+
 
 
 
@@ -121,8 +124,12 @@ const router = createBrowserRouter([
             element: <LessonList />,
           },
           {
-            path: 'reading-exercises/reading-exercises',
-            element: <Readings />,
+            path: 'hungarian/reading-exercises',
+            element: <Readingexercises />,
+          },
+          {
+            path: 'hungarian/utils/activities/data/reading/:id',
+            element: <Readingexercises />,
           },
           {
             path: 'flashcards/verbshun',
