@@ -1,0 +1,19 @@
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.vocab-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  background: #fefefe;
+  transition: box-shadow 0.2s;
+}
+
+.vocab-card:hover {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}

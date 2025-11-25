@@ -1,11 +1,14 @@
 
 import React, { useState, useEffect, useMemo } from "react";
+import { useLocation } from 'react-router-dom';
 import "../../CSS/VocabActivity.css";
 import shuffle from "../shuffle.js";
 
 const ITEMS_PER_PAGE = 5;
 
-const VocabMatch = ({ data }) => {
+const VocabMatch = () => {
+  const location = useLocation();
+  const data = location.state?.data;
   const quizTitle = data?.quizTitle || "Vocabulary Match";
 
   const pairs = useMemo(() => shuffle(data?.pairs || []), [data]);

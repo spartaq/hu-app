@@ -15,12 +15,12 @@ const Home = ({ setFilters = () => {} }) => {
   }, [location]);
 
   const actions = [
-  { label: "Vocabulary", icon: <FaBook />, link: "/hungarian/vocab-list" },
+  { label: "Vocabulary", icon: <FaBook />, link: "/hungarian/vocabularyHub" },
   { label: "Grammar", icon: <FaListUl />, link: "/hungarian/grammar-list" },
   { label: "Listening", icon: <FaHeadphones />, link: "/hungarian/listening-list" },
   { label: "Dialogues", icon: <FaComments />, link: "/hungarian/dialogue-list" },
-  { label: "Readings", icon: <FaBookReader />, link: "/hungarian/reading-exercises" },
-  { label: "Quizzes", icon: <FaClipboardList />, link: "/hungarian/quiz-list" },
+  { label: "Readings", icon: <FaBookReader />, link: "/hungarian/readingHub" },
+  { label: "Quizzes", icon: <FaClipboardList />, link: "/hungarian/quizHub" },
   { label: "Games", icon: <FaPuzzlePiece />, link: "/hungarian/games" }
 ];
 

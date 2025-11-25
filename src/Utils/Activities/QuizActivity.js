@@ -1,9 +1,12 @@
 // src/Utils/Activities/QuizActivity.js
 import React, { useState, useEffect } from "react";
+import { useLocation } from 'react-router-dom';
 import "../../CSS/QuizActivity.css";
 import quizimg from "../../Images/neighbors1.jpg";
 
-const QuizActivity = ({ question, data, onAnswer }) => {
+const QuizActivity = ({ question, onAnswer }) => {
+  const location = useLocation();
+  const data = location.state?.data;
   const quizTitle = data?.quizTitle || "Quiz";
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [shuffledOptions, setShuffledOptions] = useState([]);

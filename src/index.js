@@ -31,8 +31,12 @@ import Harmonia from './Mainpages/Hungarian/harmonia';
 import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
 import ActivityFilter from './Utils/activityFilter';
 import LessonList from './Mainpages/lesson-list';
-import Readingexercises from './Mainpages/Reading-Exercises/reading-exercises';
+import ReadingHub from './Mainpages/Reading/readingHub';
 import ReadingActivityPage from './Utils/Activities/ReadingActivity';
+import VocabularyHub from './Mainpages/Vocabulary/vocabularyHub';
+import VocabularyActivityPage from './Utils/Activities/VocabMatch';
+import QuizHub from './Mainpages/Quizzes/quizHub';
+import QuizActivityPage from './Utils/Activities/QuizActivityPage';
 
 
 
@@ -125,12 +129,28 @@ const router = createBrowserRouter([
             element: <LessonList />,
           },
           {
-            path: 'hungarian/reading-exercises',
-            element: <Readingexercises />,
+            path: 'hungarian/readingHub',
+            element: <ReadingHub />,
           },
           {
             path: "hungarian/activity/reading/:id",
             element: <ReadingActivityPage />,
+          },
+          {
+            path: "hungarian/vocabularyHub",
+            element: <VocabularyHub />
+          },
+          {  
+            path: "hungarian/activity/vocab/:id",
+            element: <VocabularyActivityPage />
+          },
+          {
+            path: 'hungarian/quizHub',
+            element: <QuizHub />
+          },
+          {
+            path: 'hungarian/activity/quiz/:id',
+            element: <QuizActivityPage />
           },
           {
             path: 'flashcards/verbshun',
