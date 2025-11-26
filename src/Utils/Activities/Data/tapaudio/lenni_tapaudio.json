@@ -1,0 +1,17 @@
+[
+  {
+    "id": "lenni1",
+    "title": "Tap What You Hear - Greetings",
+    "audiosrc": "/audio/hello.mp3",
+    "correctSequence": ["Szia", "Anna", "vagyok"],
+    "translation": "Hi, I'm Anna"
+  },
+  {
+    "id": "lenni2",
+    "title": "Tap What You Hear - Greetings",
+    "audiosrc": "/audio/hello.mp3",
+    "correctSequence": ["Örülök", "hogy", "találkoztunk"],
+    "translation": "Nice to meet you"
+  }
+]
+

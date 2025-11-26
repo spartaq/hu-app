@@ -8,6 +8,7 @@ import GrammarExerciseComp from "./Activities/GrammarExerciseComp.js";
 import ReadingActivity from "./Activities/ReadingActivity.js";
 import Videos from "./Activities/VideoActivity.js";
 import ExplanationActivity from "./Activities/GrammarExplanationActivity.js";
+import TapAudioActivity from "./Activities/TapAudioActivity";
 
 import "../CSS/exercisesection.css";
 
@@ -175,6 +176,13 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
             }}
           />
         )}
+             {type === "tapaudio" && (
+            <TapAudioActivity
+              data={data}
+              onComplete={(success) => console.log("Completed:", success)}
+            />
+            )}
+
 
         {type === "ordering" && (
           <SentenceOrdering
@@ -184,11 +192,11 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
         )}
 
        {type === "vocab" && (
-  <VocabMatchModal
-    pairs={Array.isArray(activityData) ? activityData : data?.pairs}
-    title={data?.quizTitle}
-  />
-)}
+          <VocabMatchModal
+            pairs={Array.isArray(activityData) ? activityData : data?.pairs}
+            title={data?.quizTitle}
+          />
+        )}
 
         {type === "grammar" && (
           <GrammarExerciseComp

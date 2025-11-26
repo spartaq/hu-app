@@ -1,0 +1,141 @@
+/* Main Card */
+.tapaudio__card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  animation: fadeIn 0.25s ease;
+}
+
+/* Title */
+.tapaudio__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #6a4bc3;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Audio Controls */
+.tapaudio__audio {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.tapaudio__play-button {
+  padding: 0.6rem 1.1rem;
+  background: #ff9f3f;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.tapaudio__play-button:hover {
+  background: #ff7a1e;
+  transform: translateY(-1px);
+}
+
+/* Selected Sequence */
+.tapaudio__selected {
+  margin-bottom: 1.2rem;
+}
+
+.tapaudio__selected h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.tapaudio__selected-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tapaudio__word {
+  background: #f4efff;
+  border: 2px solid #6a4bc3;
+  padding: 0.45rem 0.75rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Word Options Grid */
+.tapaudio__options h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.tapaudio__words-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.tapaudio__option {
+  padding: 0.6rem 1rem;
+  background: #ece6ff;
+  color: #6a4bc3;
+  border: 2px solid #c5b7ff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.tapaudio__option:hover {
+  background: #d9ceff;
+  transform: translateY(-1px);
+}
+
+/* Feedback / Reset area */
+.tapaudio__feedback {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.tapaudio__success {
+  color: #4caf50;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.tapaudio__reset,
+.tapaudio__replay {
+  margin: 0.4rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #ece6ff;
+  color: #6a4bc3;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.tapaudio__reset:hover,
+.tapaudio__replay:hover {
+  background: #d9ceff;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .tapaudio__words-grid,
+  .tapaudio__selected-words {
+    justify-content: flex-start;
+  }
+}
+
+/* Fade-in animation (reuse from Word Order) */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

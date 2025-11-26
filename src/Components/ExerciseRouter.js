@@ -32,6 +32,8 @@ import HuNevutoQuizData from "../Utils/Activities/Data/quiz/nevutoexercisequiz.j
 import HuHasonlitasQuizData from "../Utils/Activities/Data/quiz/hasonlitasexercisequiz.json";
 import HuFokuszQuizData from "../Utils/Activities/Data/quiz/fokuszexercisequiz.json";
 import HuHarmoniaQuizData from "../Utils/Activities/Data/quiz/harmoniaexercisequiz.json";
+// TAPAUDIO
+import HuTapAudioLenniData from "../Utils/Activities/Data/tapaudio/lenni_tapaudio.json";
 // GRAMMAR
 import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoindef.json";
 // WORDORDER
@@ -92,6 +94,10 @@ const DATA_MAP = {
 
   dialogue: {
     lenni: HuDialogueLenniData,
+  },
+
+  tapaudio: {
+    lenni: HuTapAudioLenniData,
   },
 
   quiz: {

@@ -5,6 +5,7 @@ import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "explanation", subtype: "lenni" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "lenni" },
   { label: "Dialogue", type: "dialogue", subtype: "lenni" },
   { label: "Vocab", type: "vocab", subtype: "lenni" },
   { label: "Exercises", type: "quiz", subtype: "lenni" },
