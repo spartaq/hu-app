@@ -1,4 +1,4 @@
-import ExerciseSection from "../Utils/exercisesection.js";
+import ExerciseSection from "../Utils/modalRender.js";
 
 /* ---------------------- IMPORTS ---------------------- */
 

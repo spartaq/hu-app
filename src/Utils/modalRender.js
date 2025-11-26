@@ -3,12 +3,11 @@ import React, { useState, useEffect, useCallback, useMemo, useRef } from "react"
 import DialogueActivity from "./Activities/DialogueActivity.js";
 import QuizActivity from "./Activities/QuizActivity.js";
 import SentenceOrdering from "./Activities/SentenceOrdering.js";
-import VocabMatch from "./Activities/VocabMatch.js";
+import VocabMatchModal from "./Activities/VocabMatchModal.js";
 import GrammarExerciseComp from "./Activities/GrammarExerciseComp.js";
 import ReadingActivity from "./Activities/ReadingActivity.js";
 import Videos from "./Activities/VideoActivity.js";
 import ExplanationActivity from "./Activities/GrammarExplanationActivity.js";
-import shuffle from "./shuffle.js";
 
 import "../CSS/exercisesection.css";
 
@@ -21,7 +20,6 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
   const [score, setScore] = useState(0);
   const [activityEnded, setActivityEnded] = useState(false);
   const [activityData, setActivityData] = useState(null);
-  const [usedIds, setUsedIds] = useState([]);
 
   const autoStartTypes = useMemo(
     () => ["ordering", "vocab", "grammar", "reading", "video", "explanation"],
@@ -57,6 +55,7 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
 
   useEffect(() => {
     console.log("useEffect triggered, type:", type, "data:", data);
+
     if (type === "dialogue" || type === "explanation") {
       setActivityData(data);
       setActivityStarted(true);
@@ -78,7 +77,6 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
     }
 
     if (type === "quiz") {
-      console.log("Quiz initial data:", data?.questions);
       setActivityData(data?.questions ?? []);
     }
   }, [type, data, autoStartTypes, getRawData]);
@@ -100,17 +98,12 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
       setActivityData(allData);
       console.log("Vocab activityData set:", allData);
     } else if (type === "quiz") {
-      const unused = allData.filter((item) => !usedIds.includes(item.id));
-      const toUse = unused.slice(0, 10);
-      setUsedIds((p) => [...p, ...toUse.map((q) => q.id)]);
+      const toUse = allData.slice(0, 10);
       setActivityData(toUse);
       console.log("Quiz toUse data:", toUse);
     } else {
-      const unused = allData.filter((item) => !usedIds.includes(item.id));
-      const toUse = shuffle(unused).slice(0, 10);
-      setUsedIds((p) => [...p, ...toUse.map((x) => x.id)]);
-      setActivityData(toUse);
-      console.log("Other activityData set:", toUse);
+      setActivityData(allData);
+      console.log("Other activityData set:", allData);
     }
 
     setActivityStarted(true);
@@ -122,7 +115,6 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
 
   const handleRestart = () => {
     console.log("handleRestart called");
-    if (type !== "vocab") setUsedIds([]);
     setActivityStarted(false);
     setActivityEnded(false);
     setScore(0);
@@ -131,23 +123,23 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
   };
 
   const handleNext = () => {
-    if (currentIndex + 1 < activityData.length) {
+    if (type !== "vocab" && currentIndex + 1 < activityData.length) {
       setCurrentIndex((prev) => prev + 1);
-    } else {
+    } else if (type !== "vocab") {
       setActivityEnded(true);
       scrollToTop();
     }
   };
 
   const handlePrev = () => {
-    if (currentIndex > 0) setCurrentIndex((prev) => prev - 1);
+    if (type !== "vocab" && currentIndex > 0) setCurrentIndex((prev) => prev - 1);
   };
 
   const ActivityComponent = () => {
     console.log("ActivityComponent render, type:", type, "activityData:", activityData);
+
     if (type === "dialogue") {
       if (!activityData || !Array.isArray(activityData.lines)) {
-        console.log("No dialogue data found");
         return <p>No dialogue data</p>;
       }
       return (
@@ -166,27 +158,18 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
     }
 
     if (!activityData || (Array.isArray(activityData) && activityData.length === 0)) {
-      console.log("No activityData available for type:", type);
       return <p>No data available</p>;
     }
-
-    const current = activityData[currentIndex];
-    console.log("Current item:", type, current);
-    console.log("Activity data length:", activityData.length);
-
-    if (!current) return <p>No data</p>;
 
     return (
       <div className="exercisesection__activity-box">
         {type === "quiz" && (
           <QuizActivity
-            question={current}
+            question={activityData[currentIndex]}
             data={data}
             onAnswer={(result) => {
               if (result && result.next) {
-                if (result.correct) {
-                  setScore((s) => s + 1);
-                }
+                if (result.correct) setScore((s) => s + 1);
                 handleNext();
               }
             }}
@@ -195,18 +178,17 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
 
         {type === "ordering" && (
           <SentenceOrdering
-            data={current}
+            data={activityData[currentIndex]}
             onCorrect={() => setScore((s) => s + 1)}
           />
         )}
 
-      {type === "vocab" && (
-        <VocabMatch
-          data={data?.pairs ?? activityData} // use modal pairs if subtype undefined
-          onCorrect={() => setScore((s) => s + 1)}
-        />
-      )}
-
+       {type === "vocab" && (
+  <VocabMatchModal
+    pairs={Array.isArray(activityData) ? activityData : data?.pairs}
+    title={data?.quizTitle}
+  />
+)}
 
         {type === "grammar" && (
           <GrammarExerciseComp
@@ -223,16 +205,12 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
           />
         )}
 
-        {type === "video" && <Videos data={current} title={current.title} />}
+        {type === "video" && <Videos data={activityData[currentIndex]} title={activityData[currentIndex]?.title} />}
       </div>
     );
   };
 
-  const hideNav =
-    type === "dialogue" ||
-    type === "vocab" ||
-    type === "grammar" ||
-    type === "explanation";
+  const hideNav = ["dialogue", "vocab", "grammar", "explanation"].includes(type);
 
   return (
     <div className="exercisesection">
@@ -251,7 +229,7 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
         <div className="exercisesection__score-card">
           <h2>Activity Completed!</h2>
           <p>
-            Your score: {score} / {activityData.length}
+            Your score: {score} / {Array.isArray(activityData) ? activityData.length : 0}
           </p>
           <div className="newexerciseblock">
             <button onClick={handleRestart} className="exercisesection__restart-button">
