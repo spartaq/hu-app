@@ -5,10 +5,10 @@ import GrammarExplanation from './HungarianIntros/jelendefintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "jelenidodef" },
-  { label: "Dialogue", type: "dialogue", subtype: "birtoklas" },
-  { label: "Vocab", type: "vocab", subtype: "mult" },
-  { label: "Exercises", type: "quiz", subtype: "birtoklas" },
+  { label: "Explanation", type: "explanation", subtype: "jelendef" },
+  { label: "Dialogue", type: "dialogue", subtype: "jelendef" },
+  { label: "Vocab", type: "vocab", subtype: "jelendef" },
+  { label: "Exercises", type: "quiz", subtype: "jelendef" },
   { label: "Grammar", type: "grammar", subtype: "jelenidodef" },
   { label: "Word Order", type: "ordering", subtype: "van" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },

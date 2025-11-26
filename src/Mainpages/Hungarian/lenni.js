@@ -6,12 +6,12 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "explanation", subtype: "lenni" },
   { label: "Dialogue", type: "dialogue", subtype: "lenni" },
-  { label: "Vocab", type: "vocab", subtype: "mult" },
+  { label: "Vocab", type: "vocab", subtype: "lenni" },
   { label: "Exercises", type: "quiz", subtype: "lenni" },
   { label: "Grammar", type: "grammar", subtype: "jelenidoindef" },
   { label: "Word Order", type: "ordering", subtype: "lenni" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
-  { label: "Video", type: "video", subtype: "videos" },
+  { label: "Video", type: "video", subtype: "spotify" },
 ];
 
 const Lenni = () => (

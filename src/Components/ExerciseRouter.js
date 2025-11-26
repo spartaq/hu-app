@@ -36,13 +36,24 @@ import HuHarmoniaQuizData from "../Utils/Activities/Data/quiz/harmoniaexercisequ
 import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoindef.json";
 // WORDORDER
 import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
-import orderingjelenIdoIndef from "../Utils/Activities/Data/ordering/wordorder_jelenidoindef.json";
+import orderingjelenIndef from "../Utils/Activities/Data/ordering/wordorder_jelenindef.json";
 import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
 import orderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
 // VOCABMATCH
-import vocabVerbsData from "../Utils/Activities/Data/vocab/vocab_verbs.json";
-import vocabTravelData from "../Utils/Activities/Data/vocab/vocab_travel.json";
-import vocabMultData from "../Utils/Activities/Data/vocab/vocab_mult.json";
+import vocabLenniData from "../Utils/Activities/Data/vocab/vocab_lenni.json";
+import vocabJelenidoDefData from "../Utils/Activities/Data/vocab/vocab_jelendef.json";
+import vocabJelenidoIndefData from "../Utils/Activities/Data/vocab/vocab_jelenindef.json";
+import vocabMultidoData from "../Utils/Activities/Data/vocab/vocab_mult.json";
+import vocabVanData from "../Utils/Activities/Data/vocab/vocab_van.json";
+import vocabNekivanData from "../Utils/Activities/Data/vocab/vocab_nekivan.json";
+import vocabJovoData from "../Utils/Activities/Data/vocab/vocab_jovo.json";
+import vocabBirtoklasData from "../Utils/Activities/Data/vocab/vocab_birtoklas.json";
+import vocabNevmasData from "../Utils/Activities/Data/vocab/vocab_nevmas.json";
+import vocabNevutoData from "../Utils/Activities/Data/vocab/vocab_nevuto.json";
+import vocabHasonlitasData from "../Utils/Activities/Data/vocab/vocab_hasonlitas.json";
+import vocabFokuszData from "../Utils/Activities/Data/vocab/vocab_fokusz.json";
+import vocabHarmoniaData from "../Utils/Activities/Data/vocab/vocab_harmonia.json";
+
 // READING
 import readingParentsFootballMatch from "../Utils/Activities/Data/reading/readingParentsFootball.js";
 import readingStreamingFatigue from "../Utils/Activities/Data/reading/readingStreamingFatigue.js";
@@ -101,16 +112,26 @@ const DATA_MAP = {
 
   ordering: {
     fokusz: orderingFokuszData,
-    jelenidoindef: orderingjelenIdoIndef,
+    jelenidoindef: orderingjelenIndef,
     van: orderingVanData,
     lenni: orderingLenniData
   },
 
-  vocab: {
-    verbs: vocabVerbsData,
-    travel: vocabTravelData,
-    mult: vocabMultData,
-  },
+ vocab: {
+  lenni: vocabLenniData,
+  jelenDef: vocabJelenidoDefData,
+  jelenIndef: vocabJelenidoIndefData,
+  mult: vocabMultidoData,
+  van: vocabVanData,
+  nekivan: vocabNekivanData,
+  jovo: vocabJovoData,
+  birtoklas: vocabBirtoklasData,
+  nevmas: vocabNevmasData,
+  nevuto: vocabNevutoData,
+  hasonlitas: vocabHasonlitasData,
+  fokusz: vocabFokuszData,
+  harmonia: vocabHarmoniaData,
+},
 
   grammar: {
     jelenidoindef: HuGrammarJelenIndefData,

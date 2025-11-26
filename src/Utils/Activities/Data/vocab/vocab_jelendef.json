@@ -1,0 +1,11 @@
+{
+  "quizTitle": "Jelen Idő Határozott – Present Definite",
+  "type": "vocab",
+  "topic": "jelendef",
+  "pairs": [
+    { "term": "olvasom", "definition": "I read (definite)" },
+    { "term": "nézed", "definition": "you watch (definite)" },
+    { "term": "eszi", "definition": "he/she eats (definite)" },
+    { "term": "sütjük", "definition": "we bake (definite)" }
+  ]
+}

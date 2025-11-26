@@ -1,0 +1,17 @@
+{
+  "quizTitle": "Birtoklás – Possession",
+  "type": "vocab",
+  "topic": "birtoklas",
+  "pairs": [
+    { "term": "könyvem", "definition": "my book" },
+    { "term": "tollad", "definition": "your pen" },
+    { "term": "háza", "definition": "his/her house" },
+    { "term": "autónk", "definition": "our car" },
+    { "term": "kulcsotokat", "definition": "your (plural) keys" },
+    { "term": "macskáik", "definition": "their cats" },
+    { "term": "fiú", "definition": "the boy" },
+    { "term": "kabátja", "definition": "his/her coat" },
+    { "term": "miénk", "definition": "ours" },
+    { "term": "székem", "definition": "my chair" }
+  ]
+}

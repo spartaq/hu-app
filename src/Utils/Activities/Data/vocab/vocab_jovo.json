@@ -1,0 +1,11 @@
+{
+  "quizTitle": "Jövő Idő – Future Tense",
+  "type": "vocab",
+  "topic": "jovo",
+  "pairs": [
+    { "term": "fogok menni", "definition": "I will go" },
+    { "term": "fogsz enni", "definition": "you will eat" },
+    { "term": "fogunk látni", "definition": "we will see" },
+    { "term": "fognak aludni", "definition": "they will sleep" }
+  ]
+}

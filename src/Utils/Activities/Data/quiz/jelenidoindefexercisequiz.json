@@ -1,182 +1,146 @@
-      {
+{
   "quizTitle": "Jelen Idő Indefinite",
   "type": "quiz",
   "questions": [
     {
       "id": 1,
       "question": "Reggel 7-kor ______.",
-      "options": ["felkelek", "felkelsz", "felkel", "felkeltem"],
+      "options": ["felkelek", "felkelsz", "felkel", "felkelek", "felkelek", "felkelek"],
       "answer": "felkelek",
       "translate": "I wake up at 7 am."
     },
     {
       "id": 2,
       "question": "Minden reggel _______ egy kávét.",
-      "options": ["iszol", "iszik", "ittam", "iszom"],
+      "options": ["iszom", "iszik", "iszom", "iszod"],
       "answer": "iszom",
       "translate": "I drink a coffee every morning."
     },
     {
       "id": 3,
       "question": "Munkanapokon gyorsan _______.",
-      "options": ["reggelizik", "reggelizem", "reggelizsz", "reggeliztem"],
+      "options": ["reggelizem", "reggelizik", "reggelizem", "reggelizi"],
       "answer": "reggelizem",
       "translate": "I eat breakfast quickly on workdays."
     },
     {
       "id": 4,
       "question": "7:30-kor _______ a buszra.",
-      "options": ["felszállsz", "felszállok", "felszáll", "felszálltam"],
+      "options": ["felszállok", "felszállsz", "felszállja", "felszállom"],
       "answer": "felszállok",
       "translate": "I get on the bus at 7:30."
     },
     {
       "id": 5,
       "question": "A munkahelyemre mindig időben _______.",
-      "options": ["érkezel", "érkezem", "érkezik", "érkeztél"],
+      "options": ["érkezem", "érkezel", "érkezik", "érkezem", "érkezed"],
       "answer": "érkezem",
       "translate": "I always arrive on time at work."
     },
     {
       "id": 6,
       "question": "Délben az irodában _______.",
-      "options": ["ebédel", "ebédeltem", "ebédelek", "ebédelsz"],
+      "options": ["ebédelek", "ebédel", "ebédelem", "ebédeled"],
       "answer": "ebédelek",
       "translate": "I have lunch in the office at noon."
     },
     {
       "id": 7,
       "question": "Munka után általában _______ egy kicsit.",
-      "options": ["sétálok", "sétál", "sétáltam", "sétálsz"],
+      "options": ["sétálok", "sétálja", "sétálok", "sétálod"],
       "answer": "sétálok",
       "translate": "I usually take a walk after work."
     },
     {
       "id": 8,
       "question": "Este otthon _______ egy könyvet.",
-      "options": ["olvasol", "olvasok", "olvassz", "olvastam"],
+      "options": ["olvasok", "olvasom", "olvasol", "olvassa"],
       "answer": "olvasok",
       "translate": "I read a book at home in the evening."
     },
     {
       "id": 9,
       "question": "Néha este _______ egy filmet.",
-      "options": ["nézek", "néztem", "nézel", "néz"],
+      "options": ["nézek", "nézem", "nézel", "nézi"],
       "answer": "nézek",
       "translate": "I sometimes watch a movie in the evening."
     },
     {
       "id": 10,
       "question": "Éjfél előtt általában _______.",
-      "options": ["lefekszem", "lefeküdt", "lefekszik", "lefeküdtem"],
+      "options": ["lefekszem", "lefekszik", "lefekszem", "lefekszi"],
       "answer": "lefekszem",
       "translate": "I usually go to bed before midnight."
     },
     {
       "id": 11,
       "question": "Hétvégén általában későn _______.",
-      "options": ["kelek", "kelsz", "kel", "keltem"],
+      "options": ["kelek", "kel", "kelem", "keled"],
       "answer": "kelek",
       "translate": "I usually get up late on weekends."
     },
     {
       "id": 12,
       "question": "Reggeli után mindig _______ egy teát.",
-      "options": ["iszom", "iszol", "ittam", "iszik"],
+      "options": ["iszom", "iszod", "issza", "iszom"],
       "answer": "iszom",
       "translate": "I always drink tea after breakfast."
     },
     {
       "id": 13,
       "question": "A barátaimmal gyakran _______ kávézni.",
-      "options": ["megyek", "mész", "mentem", "megy"],
+      "options": ["megyek", "megy", "megyem", "megyed"],
       "answer": "megyek",
       "translate": "I often go for coffee with my friends."
     },
     {
       "id": 14,
       "question": "A piacon friss zöldséget _______.",
-      "options": ["veszek", "vesz", "veszel", "vettem"],
+      "options": ["veszek", "veszi", "veszed", "veszek"],
       "answer": "veszek",
       "translate": "I buy fresh vegetables at the market."
     },
     {
       "id": 15,
       "question": "Szombatonként sokat _______ a házban.",
-      "options": ["takarítok", "takarít", "takarítasz", "takarítottam"],
+      "options": ["takarítok", "takarítja", "takarítod", "takarítok"],
       "answer": "takarítok",
       "translate": "I clean a lot at home on Saturdays."
     },
     {
       "id": 16,
       "question": "Délután otthon _______.",
-      "options": ["dolgozok", "dolgozol", "dolgozik", "dolgoztam"],
+      "options": ["dolgozok", "dolgozom", "dolgozza", "dolgozod"],
       "answer": "dolgozok",
       "translate": "I work at home in the afternoon."
     },
     {
       "id": 17,
       "question": "Este gyakran _______ zenét.",
-      "options": ["hallgatok", "hallgat", "hallgatsz", "hallgattam"],
-      "answer": "hallgatok - I often listen to music in the evening",
+      "options": ["hallgatok", "hallgatom", "hallgatod", "hallgat"],
+      "answer": "hallgatok",
       "translate": "I often listen to music in the evening."
     },
     {
       "id": 18,
       "question": "Vacsora után néha _______ a barátaimmal.",
-      "options": ["telefonálok", "telefonál", "telefonálsz", "telefonáltam"],
-      "answer": "telefonálok - I sometimes call my friends after dinner",
+      "options": ["telefonálok", "telefonálja", "telefonálod", "telefonálsz"],
+      "answer": "telefonálok",
       "translate": "I sometimes call my friends after dinner."
     },
     {
       "id": 19,
       "question": "Hétköznap este ritkán _______ ki.",
-      "options": ["megyek", "mész", "megy", "mentem"],
+      "options": ["megyek", "megyem", "megyed", "megy"],
       "answer": "megyek",
       "translate": "I rarely go out on weekday evenings."
     },
     {
       "id": 20,
       "question": "Mielőtt lefekszem, mindig _______ a fogamat.",
-      "options": ["mosom", "mosod", "mostam", "mossa"],
+      "options": ["mosom", "mosok", "mossa", "mosod"],
       "answer": "mosom",
       "translate": "I always brush my teeth before bed."
-    },
-    {
-      "id": 21,
-      "question": "Minden hétvégén általában későn _______.",
-      "options": ["kelek", "kelsz", "kel", "keltem"],
-      "answer": "kelek",
-      "translate": "I get up late on the weekend."
-    },
-    {
-      "id": 22,
-      "question": "Reggeli után mindig _______ egy teát.",
-      "options": ["iszom", "iszol", "ittam", "iszik"],
-      "answer": "iszom",
-      "translate": "I always drink tea after breakfast."
-    },
-    {
-      "id": 23,
-      "question": "A barátaimmal gyakran _______ kávézni.",
-      "options": ["megyek", "mész", "mentem", "megy"],
-      "answer": "megyek",
-      "translate": "I often go for coffee with my friends."
-    },
-    {
-      "id": 24,
-      "question": "A piacon friss zöldséget _______.",
-      "options": ["veszek", "vesz", "veszel", "vettem"],
-      "answer": "veszek",
-      "translate": "I buy fresh vegetables at the market."
-    },
-    {
-      "id": 25,
-      "question": "Szombatonként sokat _______ a házban.",
-      "options": ["takarítok", "takarít", "takarítasz", "takarítottam"],
-      "answer": "takarítok",
-      "translate": "I clean a lot at home on Saturdays."
     }
   ]
 }
-

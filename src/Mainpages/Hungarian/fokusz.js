@@ -5,9 +5,9 @@ import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "explanation", subtype: "fokusz" },
-  { label: "Dialogue", type: "dialogue", subtype: "birtoklas" },
-  { label: "Vocab", type: "vocab", subtype: "mult" },
-  { label: "Exercises", type: "quiz", subtype: "birtoklas" },
+  { label: "Dialogue", type: "dialogue", subtype: "fokusz" },
+  { label: "Vocab", type: "vocab", subtype: "fokusz" },
+  { label: "Exercises", type: "quiz", subtype: "fokusz" },
   { label: "Grammar", type: "grammar", subtype: "jelenidoindef" },
   { label: "Word Order", type: "ordering", subtype: "van" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },

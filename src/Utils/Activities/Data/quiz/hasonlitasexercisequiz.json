@@ -1,76 +1,76 @@
 {
-  "quizTitle": "Fokozás és Hasonlítás",
+  "quizTitle": "Fokozás – A1 Szint",
   "type": "quiz",
   "questions": [
     {
       "id": 1,
-      "question": "Ez az autó ___, mint a másik. (gyors)",
-      "options": ["gyorsabb", "gyors", "leggyorsabb", "gyorsan"],
-      "answer": "gyorsabb - This car is faster than the other",
-      "translate": "This car is faster than the other"
+      "question": "Ez a könyv ___, mint a másik. (nagy)",
+      "options": ["nagyobb", "nagy", "legnagyobb"],
+      "answer": "nagyobb",
+      "translate": "This book is bigger than the other"
     },
     {
       "id": 2,
-      "question": "Péter a ___ tanuló az osztályban. (jó)",
-      "options": ["legjobb", "jobb", "jól", "jóbb"],
-      "answer": "legjobb - Peter is the best student in the class",
-      "translate": "Peter is the best student in the class"
+      "question": "A kis kutya ___, mint a nagy kutya. (kicsi)",
+      "options": ["kisebb", "kicsi", "legkisebb"],
+      "answer": "kisebb",
+      "translate": "The small dog is smaller than the big dog"
     },
     {
       "id": 3,
-      "question": "Anna ___, mint Kata. (magas)",
-      "options": ["magasabb", "magas", "legmagasabb", "magasabban"],
-      "answer": "magasabb - Anna is taller than Kata",
-      "translate": "Anna is taller than Kata"
+      "question": "Ez a telefon ___, mint az enyém. (drága)",
+      "options": ["drágább", "drága", "legdrágább"],
+      "answer": "drágább",
+      "translate": "This phone is more expensive than mine"
     },
     {
       "id": 4,
-      "question": "Ez a feladat ___ volt, mint gondoltam. (könnyű)",
-      "options": ["könnyebb", "legkönnyebb", "könnyű", "könnyűbb"],
-      "answer": "könnyebb - This task was easier than I thought",
-      "translate": "This task was easier than I thought"
+      "question": "A víz ___, mint a cola. (olcsó)",
+      "options": ["olcsóbb", "olcsó", "legolcsóbb"],
+      "answer": "olcsóbb",
+      "translate": "Water is cheaper than cola"
     },
     {
       "id": 5,
-      "question": "A tegnapi film volt a ___, amit valaha láttam. (rossz)",
-      "options": ["legrosszabb", "rosszabb", "rossz", "rosszan"],
-      "answer": "legrosszabb - Yesterday's movie was the worst I've ever seen",
-      "translate": "Yesterday's movie was the worst I've ever seen"
+      "question": "Péter a ___ tanuló az osztályban. (jó)",
+      "options": ["legjobb", "jobb", "jó"],
+      "answer": "legjobb",
+      "translate": "Peter is the best student in the class"
     },
     {
       "id": 6,
-      "question": "A víz ___, mint a levegő. (nehez)",
-      "options": ["nehezebb", "legnehezebb", "nehezen", "nehéz"],
-      "answer": "nehezebb - Water is heavier than air",
-      "translate": "Water is heavier than air"
+      "question": "Ez a szék ___, mint az asztal. (könnyű)",
+      "options": ["könnyebb", "könnyű", "legkönnyebb"],
+      "answer": "könnyebb",
+      "translate": "This chair is lighter than the table"
     },
     {
       "id": 7,
-      "question": "Ez a ház ___, mint a másik. (szép)",
-      "options": ["szebb", "szép", "legszebb", "szépen"],
-      "answer": "szebb - This house is more beautiful than the other",
-      "translate": "This house is more beautiful than the other"
+      "question": "A piros ruha ___, mint a kék. (szép)",
+      "options": ["szebb", "szép", "legszebb"],
+      "answer": "szebb",
+      "translate": "The red dress is nicer than the blue one"
     },
     {
       "id": 8,
-      "question": "Ő a ___ futó a csapatban. (gyors)",
-      "options": ["leggyorsabb", "gyorsabb", "gyors", "gyorsan"],
-      "answer": "leggyorsabb - He/She is the fastest runner in the team",
-      "translate": "He/She is the fastest runner in the team"
+      "question": "Ez az autó a ___ az utcában. (gyors)",
+      "options": ["leggyorsabb", "gyorsabb", "gyors"],
+      "answer": "leggyorsabb",
+      "translate": "This car is the fastest on the street"
     },
     {
       "id": 9,
-      "question": "A matekóra ___ volt, mint az irodalom. (unalmas)",
-      "options": ["unalmasabb", "legunalmasabb", "unalmas", "unalmasan"],
-      "answer": "unalmasabb - The math class was more boring than literature",
-      "translate": "The math class was more boring than literature"
+      "question": "A busz ___, mint a metró. (lassú)",
+      "options": ["lassabb", "lassú", "leglassabb"],
+      "answer": "lassabb",
+      "translate": "The bus is slower than the metro"
     },
     {
       "id": 10,
-      "question": "Ő ___ tanul, mint a testvére. (szorgalmasan)",
-      "options": ["szorgalmasabban", "szorgalmas", "legszorgalmasabb", "szorgalmasan"],
-      "answer": "szorgalmasabban - He/She studies more diligently than his/her sibling",
-      "translate": "He/She studies more diligently than his/her sibling"
+      "question": "Ez a film ___, mint a tegnapi. (rossz)",
+      "options": ["rosszabb", "rossz", "legrosszabb"],
+      "answer": "rosszabb",
+      "translate": "This movie is worse than yesterday’s"
     }
   ]
 }

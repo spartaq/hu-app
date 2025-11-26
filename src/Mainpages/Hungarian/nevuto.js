@@ -6,7 +6,7 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "explanation", subtype: "nevuto" },
   { label: "Dialogue", type: "dialogue", subtype: "nevuto" },
-  { label: "Vocab", type: "vocab", subtype: "mult" },
+  { label: "Vocab", type: "vocab", subtype: "nevuto" },
   { label: "Exercises", type: "quiz", subtype: "nevuto" },
   { label: "Grammar", type: "grammar", subtype: "jelenidoindef" },
   { label: "Word Order", type: "ordering", subtype: "van" },
