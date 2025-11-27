@@ -1,0 +1,82 @@
+.audiowordmatch__container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+.audiowordmatch__title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.audiowordmatch__toggle {
+  display: block;
+  margin: 0 auto 15px auto;
+  padding: 6px 10px;
+  background: #e8e8ff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.audiowordmatch__columns {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.audiowordmatch__column {
+  flex: 1;
+}
+
+.audiowordmatch__audio-card,
+.audiowordmatch__text-card {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #fafafa;
+  transition: 0.2s;
+}
+
+.audiowordmatch__audio-card:hover,
+.audiowordmatch__text-card:hover {
+  background: #f0f0ff;
+}
+
+.selected {
+  border-color: #3d73ff !important;
+  background: #e5ecff !important;
+}
+
+.matched {
+  background: #d1ffd6 !important;
+  border-color: #22aa44 !important;
+  opacity: 0.6;
+  cursor: default !important;
+}
+
+.wrong {
+  background: #ffd4d4 !important;
+  border-color: #d33 !important;
+}
+
+.audiowordmatch__translation {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.audiowordmatch__success {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #22aa44;
+}

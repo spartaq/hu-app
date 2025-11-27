@@ -34,6 +34,10 @@ import HuFokuszQuizData from "../Utils/Activities/Data/quiz/fokuszexercisequiz.j
 import HuHarmoniaQuizData from "../Utils/Activities/Data/quiz/harmoniaexercisequiz.json";
 // TAPAUDIO
 import HuTapAudioLenniData from "../Utils/Activities/Data/tapaudio/lenni_tapaudio.json";
+// IMAGEMATCH
+import HuImageMatchLenniData from "../Utils/Activities/Data/imagematch/lenni_imagematch.json";
+// AUDIOWORDMATCH
+import HuAudioWordMatchLenniData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_lenni.json";
 // GRAMMAR
 import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoindef.json";
 // WORDORDER
@@ -99,6 +103,14 @@ const DATA_MAP = {
   tapaudio: {
     lenni: HuTapAudioLenniData,
   },
+
+  imagematch: {
+    lenni: HuImageMatchLenniData,
+  },  
+
+  audiowordmatch: {
+    lenni: HuAudioWordMatchLenniData,
+  },  
 
   quiz: {
     jelenidodef: HuJelenIdoDefQuizData,

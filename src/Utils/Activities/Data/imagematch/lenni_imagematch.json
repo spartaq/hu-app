@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "quizTitle": "Vocabulary - Animals",
+    "audio": "/audio/cat.mp3",
+    "prompt": "macska",
+    "options": [
+      {
+        "id": "a",
+        "image": "/images/mavir.jpg",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "image": "/images/mavir.jpg",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "image": "/images/mavir.jpg",
+        "isCorrect": false
+      }
+    ],
+    "translation": "cat"
+  },
+  {
+    "id": 1,
+    "quizTitle": "Vocabulary - Nationalities",
+    "audio": "/audio/cat.mp3",
+    "prompt": "macska",
+    "options": [
+      {
+        "id": "a",
+        "image": "/images/mavir.jpg",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "image": "/images/mavir.jpg",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "image": "/images/mavir.jpg",
+        "isCorrect": false
+      }
+    ],
+    "translation": "cat"
+  }
+]

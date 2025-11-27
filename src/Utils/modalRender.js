@@ -9,10 +9,12 @@ import ReadingActivity from "./Activities/ReadingActivity.js";
 import Videos from "./Activities/VideoActivity.js";
 import ExplanationActivity from "./Activities/GrammarExplanationActivity.js";
 import TapAudioActivity from "./Activities/TapAudioActivity";
+import ImageMatchActivity from "./Activities/ImageMatchActivity.js";
+import AudioWordMatchActivity from "./Activities/AudioWordMatchActivity.js";
 
-import "../CSS/exercisesection.css";
+import "../CSS/modalflow.css";
 
-const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
+const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype, quizData }) => {
   console.log("ExerciseSection props:", { type, data, id, subtype });
   const topRef = useRef(null);
 
@@ -23,7 +25,7 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
   const [activityData, setActivityData] = useState(null);
 
   const autoStartTypes = useMemo(
-    () => ["ordering", "vocab", "grammar", "reading", "video", "explanation"],
+    () => ["ordering", "vocab", "grammar", "reading", "video", "explanation", "imagematch", "audiowordmatch"],
     []
   );
 
@@ -49,6 +51,8 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
     else if (type === "reading") raw = Array.isArray(data) ? data : data?.paragraphs ?? [];
     else if (type === "video") raw = Array.isArray(data) ? data : [data];
     else if (type === "explanation") raw = data;
+    else if (type === "imagematch") raw = data;
+    else if (type === "audiowordmatch") raw = data;
     else raw = [];
     console.log("getRawData", type, raw);
     return raw;
@@ -182,6 +186,24 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype }) => {
               onComplete={(success) => console.log("Completed:", success)}
             />
             )}
+
+            {type === "imagematch" && (
+            <ImageMatchActivity
+               data={activityData[currentIndex] || activityData}
+              onComplete={() => {}}
+              showTranslationToggle={true}
+            />
+            )}
+
+           {type === "audiowordmatch" && (
+            <AudioWordMatchActivity
+              data={data}
+              onComplete={(success) => console.log("Audio match complete:", success)}
+              showTranslationToggle={true}
+            />
+          )}
+
+
 
 
         {type === "ordering" && (
