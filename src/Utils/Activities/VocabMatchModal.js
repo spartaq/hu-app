@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import "../../CSS/VocabActivity.css";
+import "../../CSS/VocabmatchActivity.css";
 
 export default function VocabMatchModal({ pairs = [], title = "Vocabulary Match" }) {
   // normalize input — always a flat array of objects

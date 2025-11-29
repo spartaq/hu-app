@@ -25,7 +25,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
   const [activityData, setActivityData] = useState(null);
 
   const autoStartTypes = useMemo(
-    () => ["ordering", "vocab", "grammar", "reading", "video", "explanation", "imagematch", "audiowordmatch"],
+    () => ["ordering", "vocabmatch", "grammar", "reading", "video", "explanation", "imagematch", "audiowordmatch"],
     []
   );
 
@@ -46,7 +46,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     if (type === "dialogue") raw = data;
     else if (type === "quiz") raw = data?.questions ?? [];
     else if (type === "ordering") raw = Array.isArray(data) ? data : [];
-    else if (type === "vocab") raw = Array.isArray(data) ? data : data?.pairs ?? [];
+    else if (type === "vocabmatch") raw = Array.isArray(data) ? data : data?.pairs ?? [];
     else if (type === "grammar") raw = data?.sentences ?? [];
     else if (type === "reading") raw = Array.isArray(data) ? data : data?.paragraphs ?? [];
     else if (type === "video") raw = Array.isArray(data) ? data : [data];
@@ -99,9 +99,9 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     const allData = getRawData();
     console.log("startActivity allData:", type, allData);
 
-    if (type === "vocab") {
+    if (type === "vocabmatch") {
       setActivityData(allData);
-      console.log("Vocab activityData set:", allData);
+      console.log("Vocabmatch activityData set:", allData);
     } else if (type === "quiz") {
       const toUse = allData.slice(0, 10);
       setActivityData(toUse);
@@ -128,16 +128,16 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
   };
 
   const handleNext = () => {
-    if (type !== "vocab" && currentIndex + 1 < activityData.length) {
+    if (type !== "vocabmatch" && currentIndex + 1 < activityData.length) {
       setCurrentIndex((prev) => prev + 1);
-    } else if (type !== "vocab") {
+    } else if (type !== "vocabmatch") {
       setActivityEnded(true);
       scrollToTop();
     }
   };
 
   const handlePrev = () => {
-    if (type !== "vocab" && currentIndex > 0) setCurrentIndex((prev) => prev - 1);
+    if (type !== "vocabmatch" && currentIndex > 0) setCurrentIndex((prev) => prev - 1);
   };
 
   const ActivityComponent = () => {
@@ -213,7 +213,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
           />
         )}
 
-       {type === "vocab" && (
+       {type === "vocabmatch" && (
           <VocabMatchModal
             pairs={Array.isArray(activityData) ? activityData : data?.pairs}
             title={data?.quizTitle}
@@ -240,7 +240,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     );
   };
 
-  const hideNav = ["dialogue", "vocab", "grammar", "explanation"].includes(type);
+  const hideNav = ["dialogue", "vocabmatch", "grammar", "explanation"].includes(type);
 
   return (
     <div className="exercisesection">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
-import "../../CSS/VocabActivity.css";
+import "../../CSS/VocabmatchActivity.css";
 
 const VocabMatch = ({ data: propData, onCorrect, onComplete }) => {
   const location = useLocation();

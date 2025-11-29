@@ -1,6 +1,6 @@
 {
   "quizTitle": "Lenni – To Be",
-  "type": "vocab",
+  "type": "vocabmatch",
   "topic": "lenni",
   "pairs": [
     { "term": "vagyok", "definition": "I am" },

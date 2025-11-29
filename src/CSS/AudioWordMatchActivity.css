@@ -2,7 +2,7 @@
   background: #ffffff;
   padding: 20px;
   border-radius: 14px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   max-width: 800px;
   margin: auto;
 }
@@ -10,22 +10,27 @@
 .audiowordmatch__title {
   text-align: center;
   margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6a4bc3; /* vocabmatch color */
 }
 
 .audiowordmatch__toggle {
   display: block;
   margin: 0 auto 15px auto;
   padding: 6px 10px;
-  background: #e8e8ff;
-  border: 1px solid #aaa;
+  background: #faf7ff; /* vocabmatch pastel lilac */
+  border: 1px solid #c8b3ff;
   border-radius: 8px;
   cursor: pointer;
+  transition: 0.2s ease;
 }
 
 .audiowordmatch__columns {
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .audiowordmatch__column {
@@ -38,25 +43,28 @@
   padding: 12px;
   margin-bottom: 10px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid transparent;
   cursor: pointer;
-  background: #fafafa;
+  background: #faf7ff; /* vocabmatch pastel lilac */
   transition: 0.2s;
+  font-size: 1rem;
 }
 
 .audiowordmatch__audio-card:hover,
 .audiowordmatch__text-card:hover {
-  background: #f0f0ff;
+  background: #f3ebff;
+  border-color: #c8b3ff;
+  transform: translateY(-1px);
 }
 
 .selected {
-  border-color: #3d73ff !important;
-  background: #e5ecff !important;
+  border-color: #ff9f3f !important;
+  background: #fff0d7 !important;
 }
 
 .matched {
-  background: #d1ffd6 !important;
-  border-color: #22aa44 !important;
+  background: #eefbf0 !important;
+  border-color: #4caf50 !important;
   opacity: 0.6;
   cursor: default !important;
 }

@@ -5,8 +5,10 @@ export default function ImageMatchActivity({ data, onComplete }) {
   const {
     quizTitle,
     prompt,
+    promptImage,
     translation,
     audio,
+    mode = "word-to-image", // default
     options = []
   } = data || {};
 
@@ -55,19 +57,39 @@ export default function ImageMatchActivity({ data, onComplete }) {
         </button>
       )}
 
-      <div className="im-grid">
-        {options.map((opt) => (
-          <div
-            key={opt.id}
-            className={`im-option 
-              ${selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""}
-            `}
-            onClick={() => handleSelect(opt)}
-          >
-            <img src={opt.image} alt="" className="im-image" />
+      {mode === "word-to-image" ? (
+        <div className="im-grid">
+          {options.map((opt) => (
+            <div
+              key={opt.id}
+              className={`im-option 
+                ${selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""}`}
+              onClick={() => handleSelect(opt)}
+            >
+              <img src={opt.image} alt="" className="im-image" />
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div>
+          {/* Show one main image at top */}
+          <img src={promptImage} alt="" className="im-image-top" />
+
+          {/* Text options below */}
+          <div className="im-text-grid">
+            {options.map((opt) => (
+              <div
+                key={opt.id}
+                className={`im-text-option
+                  ${selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""}`}
+                onClick={() => handleSelect(opt)}
+              >
+                {opt.word}
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      )}
 
     </div>
   );

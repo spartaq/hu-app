@@ -1,4 +1,4 @@
-import ModalRender from "../Utils/modalRender.js";
+import ModalRender from "./ModalRender.js"
 
 /* ---------------------- IMPORTS ---------------------- */
 
@@ -46,19 +46,19 @@ import orderingjelenIndef from "../Utils/Activities/Data/ordering/wordorder_jele
 import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
 import orderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
 // VOCABMATCH
-import vocabLenniData from "../Utils/Activities/Data/vocabmatch/vocabmatch_lenni.json";
-import vocabJelenidoDefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelendef.json";
-import vocabJelenidoIndefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelenindef.json";
-import vocabMultidoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_mult.json";
-import vocabVanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_van.json";
-import vocabNekivanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nekivan.json";
-import vocabJovoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jovo.json";
-import vocabBirtoklasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_birtoklas.json";
-import vocabNevmasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevmas.json";
-import vocabNevutoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevuto.json";
-import vocabHasonlitasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_hasonlitas.json";
-import vocabFokuszData from "../Utils/Activities/Data/vocabmatch/vocabmatch_fokusz.json";
-import vocabHarmoniaData from "../Utils/Activities/Data/vocabmatch/vocabmatch_harmonia.json";
+import vocabmatchLenniData from "../Utils/Activities/Data/vocabmatch/vocabmatch_lenni.json";
+import vocabmatchJelenidoDefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelendef.json";
+import vocabmatchJelenidoIndefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelenindef.json";
+import vocabmatchMultidoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_mult.json";
+import vocabmatchVanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_van.json";
+import vocabmatchNekivanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nekivan.json";
+import vocabmatchJovoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jovo.json";
+import vocabmatchBirtoklasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_birtoklas.json";
+import vocabmatchNevmasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevmas.json";
+import vocabmatchNevutoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevuto.json";
+import vocabmatchHasonlitasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_hasonlitas.json";
+import vocabmatchFokuszData from "../Utils/Activities/Data/vocabmatch/vocabmatch_fokusz.json";
+import vocabmatchHarmoniaData from "../Utils/Activities/Data/vocabmatch/vocabmatch_harmonia.json";
 
 // READING
 import readingParentsFootballMatch from "../Utils/Activities/Data/reading/readingParentsFootball.js";
@@ -135,20 +135,20 @@ const DATA_MAP = {
     lenni: orderingLenniData
   },
 
- vocab: {
-  lenni: vocabLenniData,
-  jelenDef: vocabJelenidoDefData,
-  jelenIndef: vocabJelenidoIndefData,
-  mult: vocabMultidoData,
-  van: vocabVanData,
-  nekivan: vocabNekivanData,
-  jovo: vocabJovoData,
-  birtoklas: vocabBirtoklasData,
-  nevmas: vocabNevmasData,
-  nevuto: vocabNevutoData,
-  hasonlitas: vocabHasonlitasData,
-  fokusz: vocabFokuszData,
-  harmonia: vocabHarmoniaData,
+ vocabmatch: {
+  lenni: vocabmatchLenniData,
+  jelenDef: vocabmatchJelenidoDefData,
+  jelenIndef: vocabmatchJelenidoIndefData,
+  mult: vocabmatchMultidoData,
+  van: vocabmatchVanData,
+  nekivan: vocabmatchNekivanData,
+  jovo: vocabmatchJovoData,
+  birtoklas: vocabmatchBirtoklasData,
+  nevmas: vocabmatchNevmasData,
+  nevuto: vocabmatchNevutoData,
+  hasonlitas: vocabmatchHasonlitasData,
+  fokusz: vocabmatchFokuszData,
+  harmonia: vocabmatchHarmoniaData,
 },
 
   grammar: {
@@ -185,7 +185,7 @@ const ModalRouter = ({ type, subtype, scrollTargetRef }) => {
   if (
     (type === "quiz" && (!data || !Array.isArray(data.questions))) ||
     (type === "ordering" && (!data || !Array.isArray(data))) ||
-    (type === "vocab" && (!data || !Array.isArray(data.pairs))) ||
+    (type === "vocabmatch" && (!data || !Array.isArray(data.pairs))) ||
     (type === "grammar" && (!data || !Array.isArray(data.sentences))) ||
     (type === "reading" && !data) ||
     (type === "video" && !data) ||

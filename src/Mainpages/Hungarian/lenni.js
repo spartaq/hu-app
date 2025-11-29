@@ -1,15 +1,15 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/lenniintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Grammar Explanation", type: "explanation", subtype: "lenni" },
   { label: "Dialogue", type: "dialogue", subtype: "lenni" },
-  { label: "Image Match", type: "imagematch", subtype: "lenni" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "lenni" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "lenni" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "lenni" },
-  { label: "Vocabulary Match", type: "vocab", subtype: "lenni" },
+  { label: "Vocabulary Match", type: "vocabmatch", subtype: "lenni" },
   { label: "Exercises", type: "quiz", subtype: "lenni" },
   { label: "Word Order", type: "ordering", subtype: "lenni" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
@@ -17,7 +17,7 @@ const sections = [
 ];
 
 const Lenni = () => (
-  <GrammarPageLayout
+  <ModalLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}
