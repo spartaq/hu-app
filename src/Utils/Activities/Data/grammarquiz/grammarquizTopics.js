@@ -1,4 +1,4 @@
-import lenniExerciseQuiz from "./lenniexercisequiz.json";
+import lenniExerciseQuiz from "./grammarquiz_lenni.json";
 
 export const QUIZZES = [
   {

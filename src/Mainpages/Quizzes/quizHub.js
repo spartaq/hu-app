@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { QUIZZES } from "../../Utils/Activities/Data/quiz/quizTopics";
+import { QUIZZES } from "../../Utils/Activities/Data/grammarquiz/grammarquizTopics";
 import "../../CSS/QuizHub.css";
 
 export default function QuizHub() {

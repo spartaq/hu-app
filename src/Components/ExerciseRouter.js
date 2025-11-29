@@ -3,39 +3,39 @@ import ExerciseSection from "../Utils/modalRender.js";
 /* ---------------------- IMPORTS ---------------------- */
 
 // EXPLANATION
-import HuExplanationLenniData from "../Utils/Activities/Data/grammarexplanation/lenniexplanation.json";
-import HuExplanationJelenIdoDefData from "../Utils/Activities/Data/grammarexplanation/jelendefexplanation.json";
-import HuExplanationJelenIdoIndefData from "../Utils/Activities/Data/grammarexplanation/jelenindefexplanation.json";
-import HuExplanationMultIdoData from "../Utils/Activities/Data/grammarexplanation/multexplanation.json";
-import HuExplanationVanData from "../Utils/Activities/Data/grammarexplanation/vanexplanation.json";
-import HuExplanationNekivanData from "../Utils/Activities/Data/grammarexplanation/nekivanexplanation.json";
-import HuExplanationJovoData from "../Utils/Activities/Data/grammarexplanation/jovoexplanation.json";
-import HuExplanationBirtoklasData from "../Utils/Activities/Data/grammarexplanation/birtoklasexplanation.json";
-import HuExplanationNevmasData from "../Utils/Activities/Data/grammarexplanation/nevmasexplanation.json";
-import HuExplanationNevutoData from "../Utils/Activities/Data/grammarexplanation/nevutoexplanation.json";
-import HuExplanationHasonlitasData from "../Utils/Activities/Data/grammarexplanation/hasonlitasexplanation.json";
-import HuExplanationFokuszData from "../Utils/Activities/Data/grammarexplanation/fokuszexplanation.json";
-import HuExplanationHarmoniaData from "../Utils/Activities/Data/grammarexplanation/harmoniaexplanation.json";
+import HuExplanationLenniData from "../Utils/Activities/Data/grammarexplanation/explanation_lenni.json";
+import HuExplanationJelenDefData from "../Utils/Activities/Data/grammarexplanation/explanation_jelendef.json";
+import HuExplanationJelenIndefData from "../Utils/Activities/Data/grammarexplanation/explanation_jelenindef.json";
+import HuExplanationMultData from "../Utils/Activities/Data/grammarexplanation/explanation_mult.json";
+import HuExplanationVanData from "../Utils/Activities/Data/grammarexplanation/explanation_van.json";
+import HuExplanationNekivanData from "../Utils/Activities/Data/grammarexplanation/explanation_nekivan.json";
+import HuExplanationJovoData from "../Utils/Activities/Data/grammarexplanation/explanation_jovo.json";
+import HuExplanationBirtoklasData from "../Utils/Activities/Data/grammarexplanation/explanation_birtoklas.json";
+import HuExplanationNevmasData from "../Utils/Activities/Data/grammarexplanation/explanation_nevmas.json";
+import HuExplanationNevutoData from "../Utils/Activities/Data/grammarexplanation/explanation_nevuto.json";
+import HuExplanationHasonlitasData from "../Utils/Activities/Data/grammarexplanation/explanation_hasonlitas.json";
+import HuExplanationFokuszData from "../Utils/Activities/Data/grammarexplanation/explanation_fokusz.json";
+import HuExplanationHarmoniaData from "../Utils/Activities/Data/grammarexplanation/explanation_harmonia.json";
 // DIALOGUE
-import HuDialogueLenniData from "../Utils/Activities/Data/dialogues/lenniDialogue.json";
+import HuDialogueLenniData from "../Utils/Activities/Data/dialogues/dialogue_lenni.json";
 // EXERCISEQUIZ
-import HuJelenIdoDefQuizData from "../Utils/Activities/Data/quiz/jelenidodefexercisequiz.json";
-import HuJelenIdoIndefQuizData from "../Utils/Activities/Data/quiz/jelenidoindefexercisequiz.json";
-import HuMultIdoQuizData from "../Utils/Activities/Data/quiz/multidoexercisequiz.json";
-import HuLenniQuizData from "../Utils/Activities/Data/quiz/lenniexercisequiz.json";
-import HuVanQuizData from "../Utils/Activities/Data/quiz/vanexercisequiz.json";
-import HuNekivanQuizData from "../Utils/Activities/Data/quiz/nekivanexercisequiz.json";
-import HuJovoQuizData from "../Utils/Activities/Data/quiz/jovoidoexercisequiz.json";
-import HuBirtoklasQuizData from "../Utils/Activities/Data/quiz/birtoklasexercisequiz.json";
-import HuNevmasQuizData from "../Utils/Activities/Data/quiz/nevmasexercisequiz.json";
-import HuNevutoQuizData from "../Utils/Activities/Data/quiz/nevutoexercisequiz.json";
-import HuHasonlitasQuizData from "../Utils/Activities/Data/quiz/hasonlitasexercisequiz.json";
-import HuFokuszQuizData from "../Utils/Activities/Data/quiz/fokuszexercisequiz.json";
-import HuHarmoniaQuizData from "../Utils/Activities/Data/quiz/harmoniaexercisequiz.json";
+import HuJelenDefQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelendef.json";
+import HuJelenIndefQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelenindef.json";
+import HuMultQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_mult.json";
+import HuLenniQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_lenni.json";
+import HuVanQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_van.json";
+import HuNekivanQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nekivan.json";
+import HuJovoQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jovo.json";
+import HuBirtoklasQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_birtoklas.json";
+import HuNevmasQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nevmas.json";
+import HuNevutoQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nevuto.json";
+import HuHasonlitasQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_hasonlitas.json";
+import HuFokuszQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_fokusz.json";
+import HuHarmoniaQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_harmonia.json";
 // TAPAUDIO
-import HuTapAudioLenniData from "../Utils/Activities/Data/tapaudio/lenni_tapaudio.json";
+import HuTapAudioLenniData from "../Utils/Activities/Data/tapaudio/tapaudio_lenni.json";
 // IMAGEMATCH
-import HuImageMatchLenniData from "../Utils/Activities/Data/imagematch/lenni_imagematch.json";
+import HuImageMatchLenniData from "../Utils/Activities/Data/imagematch/imagematch_lenni.json";
 // AUDIOWORDMATCH
 import HuAudioWordMatchLenniData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_lenni.json";
 // GRAMMAR
@@ -46,19 +46,19 @@ import orderingjelenIndef from "../Utils/Activities/Data/ordering/wordorder_jele
 import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
 import orderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
 // VOCABMATCH
-import vocabLenniData from "../Utils/Activities/Data/vocab/vocab_lenni.json";
-import vocabJelenidoDefData from "../Utils/Activities/Data/vocab/vocab_jelendef.json";
-import vocabJelenidoIndefData from "../Utils/Activities/Data/vocab/vocab_jelenindef.json";
-import vocabMultidoData from "../Utils/Activities/Data/vocab/vocab_mult.json";
-import vocabVanData from "../Utils/Activities/Data/vocab/vocab_van.json";
-import vocabNekivanData from "../Utils/Activities/Data/vocab/vocab_nekivan.json";
-import vocabJovoData from "../Utils/Activities/Data/vocab/vocab_jovo.json";
-import vocabBirtoklasData from "../Utils/Activities/Data/vocab/vocab_birtoklas.json";
-import vocabNevmasData from "../Utils/Activities/Data/vocab/vocab_nevmas.json";
-import vocabNevutoData from "../Utils/Activities/Data/vocab/vocab_nevuto.json";
-import vocabHasonlitasData from "../Utils/Activities/Data/vocab/vocab_hasonlitas.json";
-import vocabFokuszData from "../Utils/Activities/Data/vocab/vocab_fokusz.json";
-import vocabHarmoniaData from "../Utils/Activities/Data/vocab/vocab_harmonia.json";
+import vocabLenniData from "../Utils/Activities/Data/vocabmatch/vocabmatch_lenni.json";
+import vocabJelenidoDefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelendef.json";
+import vocabJelenidoIndefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelenindef.json";
+import vocabMultidoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_mult.json";
+import vocabVanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_van.json";
+import vocabNekivanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nekivan.json";
+import vocabJovoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jovo.json";
+import vocabBirtoklasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_birtoklas.json";
+import vocabNevmasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevmas.json";
+import vocabNevutoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevuto.json";
+import vocabHasonlitasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_hasonlitas.json";
+import vocabFokuszData from "../Utils/Activities/Data/vocabmatch/vocabmatch_fokusz.json";
+import vocabHarmoniaData from "../Utils/Activities/Data/vocabmatch/vocabmatch_harmonia.json";
 
 // READING
 import readingParentsFootballMatch from "../Utils/Activities/Data/reading/readingParentsFootball.js";
@@ -82,9 +82,9 @@ import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
 const DATA_MAP = {
   explanation: {
     lenni: HuExplanationLenniData,
-    jelenidodef: HuExplanationJelenIdoDefData,
-    jelenidoindef: HuExplanationJelenIdoIndefData,
-    mult: HuExplanationMultIdoData,
+    jelenidodef: HuExplanationJelenDefData,
+    jelenidoindef: HuExplanationJelenIndefData,
+    mult: HuExplanationMultData,
     van: HuExplanationVanData,
     nekivan: HuExplanationNekivanData,
     jovo: HuExplanationJovoData,
@@ -113,9 +113,9 @@ const DATA_MAP = {
   },  
 
   quiz: {
-    jelenidodef: HuJelenIdoDefQuizData,
-    jelenidoindef: HuJelenIdoIndefQuizData,
-    multido: HuMultIdoQuizData,
+    jelenidodef: HuJelenDefQuizData,
+    jelenidoindef: HuJelenIndefQuizData,
+    multido: HuMultQuizData,
     lenni: HuLenniQuizData,
     van: HuVanQuizData,
     nekivan: HuNekivanQuizData,

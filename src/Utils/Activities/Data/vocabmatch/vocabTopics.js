@@ -1,19 +1,19 @@
 // src/Utils/Activities/Data/vocab/vocabTopics.js
-import vocabMultData from "./vocab_mult.json";
-import vocabLenniData from "./vocab_lenni.json";
-import vocabJelenDefData from "./vocab_jelendef.json";
-import vocabJelenIndefData from "./vocab_jelenindef.json";
-import vocabVanData from "./vocab_van.json";
-import vocabNekivanData from "./vocab_nekivan.json";
-import vocabJovoData from "./vocab_jovo.json";
-import vocabBirtoklasData from "./vocab_birtoklas.json";
-import vocabNevmasData from "./vocab_nevmas.json";
-import vocabNevutoData from "./vocab_nevuto.json";
-import vocabHasonlitasData from "./vocab_hasonlitas.json";
-import vocabFokuszData from "./vocab_fokusz.json";
-import vocabHarmoniaData from "./vocab_harmonia.json";
+import vocabMultData from "./vocabmatch_mult.json";
+import vocabLenniData from "./vocabmatch_lenni.json";
+import vocabJelenDefData from "./vocabmatch_jelendef.json";
+import vocabJelenIndefData from "./vocabmatch_jelenindef.json";
+import vocabVanData from "./vocabmatch_van.json";
+import vocabNekivanData from "./vocabmatch_nekivan.json";
+import vocabJovoData from "./vocabmatch_jovo.json";
+import vocabBirtoklasData from "./vocabmatch_birtoklas.json";
+import vocabNevmasData from "./vocabmatch_nevmas.json";
+import vocabNevutoData from "./vocabmatch_nevuto.json";
+import vocabHasonlitasData from "./vocabmatch_hasonlitas.json";
+import vocabFokuszData from "./vocabmatch_fokusz.json";
+import vocabHarmoniaData from "./vocabmatch_harmonia.json";
 
-export const VOCAB_TOPICS = [
+export const vocabmatch_TOPICS = [
   {
     id: "mult",
     title: "Miscellaneous Vocabulary",
