@@ -16,8 +16,10 @@ import HuExplanationNevutoData from "../Utils/Activities/Data/grammarexplanation
 import HuExplanationHasonlitasData from "../Utils/Activities/Data/grammarexplanation/explanation_hasonlitas.json";
 import HuExplanationFokuszData from "../Utils/Activities/Data/grammarexplanation/explanation_fokusz.json";
 import HuExplanationHarmoniaData from "../Utils/Activities/Data/grammarexplanation/explanation_harmonia.json";
+import HuExplanationBasicPhrasesData from "../Utils/Activities/Data/grammarexplanation/explanation_basicphrases.json";
 // DIALOGUE
 import HuDialogueLenniData from "../Utils/Activities/Data/dialogues/dialogue_lenni.json";
+import HuDialogueBasicphrasesData from "../Utils/Activities/Data/dialogues/dialogue_basicphrases.json";
 // EXERCISEQUIZ
 import HuJelenDefQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelendef.json";
 import HuJelenIndefQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelenindef.json";
@@ -38,6 +40,7 @@ import HuTapAudioLenniData from "../Utils/Activities/Data/tapaudio/tapaudio_lenn
 import HuImageMatchLenniData from "../Utils/Activities/Data/imagematch/imagematch_lenni.json";
 // AUDIOWORDMATCH
 import HuAudioWordMatchLenniData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_lenni.json";
+import HuAudioWordMatchBasicphrasesData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_basicphrases.json";
 // GRAMMAR
 import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoindef.json";
 // WORDORDER
@@ -45,6 +48,9 @@ import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_foku
 import orderingjelenIndef from "../Utils/Activities/Data/ordering/wordorder_jelenindef.json";
 import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
 import orderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
+import orderingBasicphrasesData from "../Utils/Activities/Data/ordering/wordorder_basicphrases.json";
+
+
 // VOCABMATCH
 import vocabmatchLenniData from "../Utils/Activities/Data/vocabmatch/vocabmatch_lenni.json";
 import vocabmatchJelenidoDefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelendef.json";
@@ -59,6 +65,7 @@ import vocabmatchNevutoData from "../Utils/Activities/Data/vocabmatch/vocabmatch
 import vocabmatchHasonlitasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_hasonlitas.json";
 import vocabmatchFokuszData from "../Utils/Activities/Data/vocabmatch/vocabmatch_fokusz.json";
 import vocabmatchHarmoniaData from "../Utils/Activities/Data/vocabmatch/vocabmatch_harmonia.json";
+import vocabmatchBasicphrasesData from "../Utils/Activities/Data/vocabmatch/vocabmatch_basicphrases.json";
 
 // READING
 import readingParentsFootballMatch from "../Utils/Activities/Data/reading/readingParentsFootball.js";
@@ -94,10 +101,12 @@ const DATA_MAP = {
     hasonlitas: HuExplanationHasonlitasData,
     fokusz: HuExplanationFokuszData,
     harmonia: HuExplanationHarmoniaData,
+    basicphrases: HuExplanationBasicPhrasesData
   },
 
   dialogue: {
     lenni: HuDialogueLenniData,
+    basicphrases: HuDialogueBasicphrasesData,
   },
 
   tapaudio: {
@@ -110,6 +119,7 @@ const DATA_MAP = {
 
   audiowordmatch: {
     lenni: HuAudioWordMatchLenniData,
+    basicphrases: HuAudioWordMatchBasicphrasesData,
   },  
 
   quiz: {
@@ -132,7 +142,8 @@ const DATA_MAP = {
     fokusz: orderingFokuszData,
     jelenidoindef: orderingjelenIndef,
     van: orderingVanData,
-    lenni: orderingLenniData
+    lenni: orderingLenniData,
+    basicphrases: orderingBasicphrasesData,
   },
 
  vocabmatch: {
@@ -149,6 +160,7 @@ const DATA_MAP = {
   hasonlitas: vocabmatchHasonlitasData,
   fokusz: vocabmatchFokuszData,
   harmonia: vocabmatchHarmoniaData,
+  basicphrases: vocabmatchBasicphrasesData,
 },
 
   grammar: {

@@ -1,14 +1,14 @@
 import React from "react";
-import ExerciseRouter from "../Components/ModalRouter";
+import ModalRouter from "./ModalRouter";
 
-export default function ExerciseContent({ type, subtype, description }) {
+export default function ModalContent({ type, subtype, description }) {
   return (
     <div className="exercise-modal-content">
       {description && (
         <p className="exercise-description">{description}</p>
       )}
 
-      <ExerciseRouter type={type} subtype={subtype} />
+      <ModalRouter type={type} subtype={subtype} />
     </div>
   );
 }

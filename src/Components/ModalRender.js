@@ -1,16 +1,16 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef } from "react";
 
-import DialogueActivity from "./Activities/DialogueActivity.js";
-import QuizActivity from "./Activities/QuizActivity.js";
-import SentenceOrdering from "./Activities/SentenceOrdering.js";
-import VocabMatchModal from "./Activities/VocabMatchModal.js";
-import GrammarExerciseComp from "./Activities/GrammarExerciseComp.js";
-import ReadingActivity from "./Activities/ReadingActivity.js";
-import Videos from "./Activities/VideoActivity.js";
-import ExplanationActivity from "./Activities/GrammarExplanationActivity.js";
-import TapAudioActivity from "./Activities/TapAudioActivity";
-import ImageMatchActivity from "./Activities/ImageMatchActivity.js";
-import AudioWordMatchActivity from "./Activities/AudioWordMatchActivity.js";
+import DialogueActivity from "../Utils/Activities/DialogueActivity.js";
+import QuizActivity from "../Utils/Activities/QuizActivity.js";
+import SentenceOrdering from "../Utils/Activities/SentenceOrdering.js";
+import VocabMatchModal from "../Utils/Activities/VocabMatchModal.js";
+import GrammarExerciseComp from "../Utils/Activities/GrammarExerciseComp.js";
+import ReadingActivity from "../Utils/Activities/ReadingActivity.js";
+import Videos from "../Utils/Activities/VideoActivity.js";
+import ExplanationActivity from "../Utils/Activities/GrammarExplanationActivity.js";
+import TapAudioActivity from "../Utils/Activities/TapAudioActivity";
+import ImageMatchActivity from "../Utils/Activities/ImageMatchActivity.js";
+import AudioWordMatchActivity from "../Utils/Activities/AudioWordMatchActivity.js";
 
 import "../CSS/modalflow.css";
 

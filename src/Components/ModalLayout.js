@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from './modal';
-import ToggleSection from '../Utils/toggleSection';
+import ToggleSection from './ModalSection';
 import SEO from './SEO';
 import "../CSS/grammarPage.css";
 

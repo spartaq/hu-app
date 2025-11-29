@@ -7,7 +7,7 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "explanation", subtype: "jelendef" },
   { label: "Dialogue", type: "dialogue", subtype: "jelendef" },
-  { label: "Vocab", type: "vocab", subtype: "jelendef" },
+  { label: "Vocab", type: "vocabmatch", subtype: "jelendef" },
   { label: "Exercises", type: "quiz", subtype: "jelendef" },
   { label: "Grammar", type: "grammar", subtype: "jelenidodef" },
   { label: "Word Order", type: "ordering", subtype: "van" },

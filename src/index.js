@@ -37,6 +37,7 @@ import VocabularyHub from './Mainpages/Vocabulary/vocabularyHub';
 import VocabularyActivityPage from './Utils/Activities/VocabMatch';
 import QuizHub from './Mainpages/Quizzes/quizHub';
 import QuizActivityPage from './Utils/Activities/QuizActivityPage';
+import BasicPhrases from './Mainpages/Hungarian/basicphrases';
 
 
 
@@ -115,6 +116,10 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/harmonia',
             element: <Harmonia />,
+          },
+          {
+            path: 'hungarian/basicphrases',
+            element: <BasicPhrases />,
           },
           {
             path: 'hungarian/verbconjugationtable',

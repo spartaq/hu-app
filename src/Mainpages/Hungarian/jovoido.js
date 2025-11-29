@@ -6,7 +6,7 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "explanation", subtype: "jovo" },
   { label: "Dialogue", type: "dialogue", subtype: "jovo" },
-  { label: "Vocab", type: "vocab", subtype: "jovo" },
+  { label: "Vocab", type: "vocabmatch", subtype: "jovo" },
   { label: "Exercises", type: "quiz", subtype: "jovo" },
   { label: "Grammar", type: "grammar", subtype: "jovo" },
   { label: "Word Order", type: "ordering", subtype: "jovo" },

@@ -7,9 +7,8 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "explanation", subtype: "mult" },
   { label: "Dialogue", type: "dialogue", subtype: "mult" },
-  { label: "Vocab", type: "vocab", subtype: "mult" },
+  { label: "Vocab", type: "vocabmatch", subtype: "mult" },
   { label: "Exercises", type: "quiz", subtype: "mult" },
-  { label: "Grammar", type: "grammar", subtype: "jelenidoindef" },
   { label: "Word Order", type: "ordering", subtype: "van" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },

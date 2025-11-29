@@ -1,0 +1,62 @@
+[
+  {
+    "id": "aw1",
+    "audio": "/audio/audiotest.mp3",
+    "text": "Helló",
+    "translation": "Hello"
+  },
+  {
+    "id": "aw2",
+    "audio": "/audio/good_morning.mp3",
+    "text": "Jó reggelt",
+    "translation": "Good morning"
+  },
+  {
+    "id": "aw3",
+    "audio": "/audio/good_evening.mp3",
+    "text": "Jó estét",
+    "translation": "Good evening"
+  },
+  {
+    "id": "aw4",
+    "audio": "/audio/good_day.mp3",
+    "text": "Szép napot",
+    "translation": "Good day"
+  },
+  {
+    "id": "aw5",
+    "audio": "/audio/thank_you.mp3",
+    "text": "Köszönöm",
+    "translation": "Thank you"
+  },
+  {
+    "id": "aw6",
+    "audio": "/audio/you_are_welcome.mp3",
+    "text": "Nincs mit",
+    "translation": "You're welcome"
+  },
+  {
+    "id": "aw7",
+    "audio": "/audio/excuse_me.mp3",
+    "text": "Elnézést",
+    "translation": "Excuse me"
+  },
+  {
+    "id": "aw8",
+    "audio": "/audio/sorry.mp3",
+    "text": "Bocsánat",
+    "translation": "Sorry"
+  },
+  {
+    "id": "aw9",
+    "audio": "/audio/good_night.mp3",
+    "text": "Jó éjszakát",
+    "translation": "Good night"
+  },
+  {
+    "id": "aw10",
+    "audio": "/audio/see_you.mp3",
+    "text": "Viszontlátásra",
+    "translation": "Goodbye / See you again"
+  }
+]

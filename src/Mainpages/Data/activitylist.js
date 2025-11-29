@@ -1,5 +1,15 @@
 module.exports = [
     {
+        "id": "basicphrases",
+        "title": "Basic Phrases",
+      "category": "hungarian",
+      "subtitle": "Hello, Good day, Good evening",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "Basic Phrases",
+        "image": "/Images/jelenido1.jpg"
+      },
+    {
         "id": "lenni",
         "title": "Lenni (To Be)",
       "category": "hungarian",
