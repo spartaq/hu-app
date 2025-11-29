@@ -1,4 +1,4 @@
-import ExerciseSection from "../Utils/modalRender.js";
+import ModalRender from "../Utils/modalRender.js";
 
 /* ---------------------- IMPORTS ---------------------- */
 
@@ -171,7 +171,7 @@ const DATA_MAP = {
 
 /* --------------------------------------------------------- */
 
-const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
+const ModalRouter = ({ type, subtype, scrollTargetRef }) => {
   const typeGroup = DATA_MAP[type];
 
   if (!typeGroup) {
@@ -181,7 +181,7 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
   // pick subtype or fallback to the first entry in the group
   const data = typeGroup[subtype] ?? Object.values(typeGroup)[0];
 
-  // Validate shape before rendering ExerciseSection
+  // Validate shape before rendering ModalRender
   if (
     (type === "quiz" && (!data || !Array.isArray(data.questions))) ||
     (type === "ordering" && (!data || !Array.isArray(data))) ||
@@ -195,7 +195,7 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
   }
 
   return (
-    <ExerciseSection
+    <ModalRender
       type={type}
       data={data}
       id={subtype}
@@ -204,4 +204,4 @@ const ExerciseRouter = ({ type, subtype, scrollTargetRef }) => {
   );
 };
 
-export default ExerciseRouter;
+export default ModalRouter;

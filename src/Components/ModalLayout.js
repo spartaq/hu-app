@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Modal from '../Components/modal';
+import Modal from './modal';
 import ToggleSection from '../Utils/toggleSection';
-import SEO from '../Components/SEO';
+import SEO from './SEO';
 import "../CSS/grammarPage.css";
 
-const GrammarPageLayout = ({
+const ModalLayout = ({
   title,
   image,
   ExplanationComponent,
@@ -106,5 +106,5 @@ const openNextSection = () => {
   );
 };
 
-export default GrammarPageLayout;
+export default ModalLayout;
 

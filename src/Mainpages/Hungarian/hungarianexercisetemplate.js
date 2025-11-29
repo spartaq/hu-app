@@ -1,5 +1,5 @@
 import React from 'react';
-import ExerciseRouter from '../../Components/ExerciseRouter';
+import ExerciseRouter from '../../Components/ModalRouter';
 
 const HungarianTemplate = () => {
     return (

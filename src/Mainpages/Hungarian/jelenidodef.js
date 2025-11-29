@@ -1,6 +1,6 @@
 
 import React from 'react';
-import GrammarPageLayout from '../../Components/GrammarPageLayout';
+import GrammarPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/jelendefintro';
 import mainimage from '../../Images/jelenido1.jpg';
 

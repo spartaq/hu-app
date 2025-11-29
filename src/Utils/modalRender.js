@@ -14,7 +14,7 @@ import AudioWordMatchActivity from "./Activities/AudioWordMatchActivity.js";
 
 import "../CSS/modalflow.css";
 
-const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype, quizData }) => {
+const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => {
   console.log("ExerciseSection props:", { type, data, id, subtype });
   const topRef = useRef(null);
 
@@ -306,4 +306,4 @@ const ExerciseSection = ({ type, data, id, scrollTargetRef, subtype, quizData })
   );
 };
 
-export default ExerciseSection;
+export default ModalRender;

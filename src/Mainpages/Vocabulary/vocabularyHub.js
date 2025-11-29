@@ -1,6 +1,6 @@
 // src/Mainpages/Vocabulary/VocabularyHub.js
 import { Link } from "react-router-dom";
-import { vocabmatch_TOPICS } from "../../Utils/Activities/Data/vocab/vocabTopics";
+import { vocabmatch_TOPICS } from "../../Utils/Activities/Data/vocabmatch/vocabmatchTopics";
 import "../../CSS/VocabularyHub.css";
 
 export default function VocabularyHub() {
