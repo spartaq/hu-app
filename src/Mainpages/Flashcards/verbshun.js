@@ -3,7 +3,6 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import '../../CSS/flashcards.css';
 import verbshun from './Data/verbshun.json';
 import SEO from '../../Components/SEO';
-import Sidebar from '../../Components/Sidebar';
 import FlashcardMenu from '../../Components/Menus/FlashcardMenu';
 import CrossArrows from '../../Images/cross-arrows.svg';
 
@@ -267,11 +266,7 @@ function VerbsHun() {
       <div className="gmenu"> <FlashcardMenu /> 
       </div>
 
-      <div> 
-
-            <Sidebar />
-      </div>
-
+  
       </div>
     </div>
   );

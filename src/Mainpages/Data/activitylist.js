@@ -18,7 +18,27 @@ module.exports = [
         "time": "60 min",
         "description": "Lenni (To Be)",
         "image": "/Images/jelenido1.jpg"
-      },
+      },    
+      {
+        "id": "nekivan",
+        "title": "Neki van (have)",
+      "category": "hungarian",
+      "subtitle": "nekem van, neki van",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "Van/Neki van - There is/have (possession)",
+        "image": "/Images/jelenido1.jpg"
+      },    
+      {
+        "id": "van",
+        "title": "Van (There is, There are)",
+      "category": "hungarian",
+      "subtitle": "vagyok, vagy, van",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "Van/Neki van - There is/have (possession)",
+        "image": "/Images/jelenido1.jpg"
+      },             
       {
         "id": "jelenidodef",
         "title": "Jelen Idő - Határozott (Simple Present - Definite conjugation)",
@@ -48,27 +68,7 @@ module.exports = [
         "time": "60 min",
         "description": "Mult Idő - Simple past tense.",
         "image": "/Images/jelenido1.jpg"
-      },    
-      {
-        "id": "van",
-        "title": "Van (There is, There are)",
-      "category": "hungarian",
-      "subtitle": "vagyok, vagy, van",
-      "level": "HU1",
-        "time": "60 min",
-        "description": "Van/Neki van - There is/have (possession)",
-        "image": "/Images/jelenido1.jpg"
-      },    
-      {
-        "id": "nekivan",
-        "title": "Neki van (have)",
-      "category": "hungarian",
-      "subtitle": "nekem van, neki van",
-      "level": "HU1",
-        "time": "60 min",
-        "description": "Van/Neki van - There is/have (possession)",
-        "image": "/Images/jelenido1.jpg"
-      },             
+      },
     {
         "id": "jovoido",
         "title": "Jövő Idő (Future)",

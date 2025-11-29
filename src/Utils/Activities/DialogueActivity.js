@@ -1,19 +1,25 @@
 import React from "react";
 import DialoguePlayer from "./DialoguePlayer";
-import dialogueData from "./Data/dialogues/dialogue_lenni.json";
 
-export default function DialogueActivity() {
-  const processedLines = dialogueData.lines.map((line) => ({
+const DialogueActivity = ({ data }) => {
+  if (!data || !Array.isArray(data.lines)) {
+    return <div>Error: Dialogue data format invalid.</div>;
+  }
+
+  // Optional: avatars if included in your JSON
+  const processed = data.lines.map((line) => ({
     ...line,
-    avatar: line.speaker === "Anna" ? "/img/anna.png" : "/img/balint.png",
+    avatar: line.avatar || "/img/default-avatar.png",
     position: line.speaker === "Anna" ? "left" : "right",
   }));
 
   return (
     <DialoguePlayer
-      lines={processedLines}
-      audioSrc="/audio/Ujszomszedok.mp3"
+      lines={processed}
+      audioSrc={data.audio}
       subtitleMode={true}
     />
   );
-}
+};
+
+export default DialogueActivity;

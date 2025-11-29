@@ -1,28 +1,186 @@
 [
   {
     "id": 1,
-    "quizTitle": "Vocabulary - Animals",
-    "audio": "/audio/cat.mp3",
-    "prompt": "macska",
+    "quizTitle": "Lenni Practice – Nationalities",
+    "audio": "/audio/german.mp3",
+    "prompt": "német",
     "options": [
-      { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/argue1.jpg", "word": "dog", "isCorrect": false }
+      { "id": "a", "image": "/images/german-sc.jpg", "word": "német", "isCorrect": true },
+      { "id": "b", "image": "/images/french.jpg", "word": "francia", "isCorrect": false }
     ],
-    "translation": "cat",
+    "translation": "German",
+    "van": "",
     "mode": "word-to-image"
   },
   {
     "id": 2,
-    "quizTitle": "Vocabulary - Animals",
-    "promptImage": "/images/wish1.jpg",
+    "quizTitle": "Lenni Practice – Nationalities",
+    "promptImage": "/images/french.jpg",
     "options": [
-      { "id": "a", "word": "cat", "isCorrect": true },
-      { "id": "b", "word": "dog", "isCorrect": false },
-      { "id": "c", "word": "mouse", "isCorrect": false }
+      { "id": "a", "word": "francia", "isCorrect": true },
+      { "id": "b", "word": "olasz", "isCorrect": false },
+      { "id": "c", "word": "német", "isCorrect": false }
     ],
-    "translation": "cat",
+    "translation": "French",
+    "van": "",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 3,
+    "quizTitle": "Lenni Practice – Nationalities",
+    "audio": "/audio/italian.mp3",
+    "prompt": "olasz",
+    "options": [
+      { "id": "a", "image": "/images/italian.jpg", "word": "olasz", "isCorrect": true },
+      { "id": "b", "image": "/images/english.webp", "word": "angol", "isCorrect": false }
+    ],
+    "translation": "Italian",
+    "van": "",
+    "mode": "word-to-image"
+  },
+  {
+    "id": 4,
+    "quizTitle": "Lenni Practice – Nationalities",
+    "promptImage": "/images/english.webp",
+    "options": [
+      { "id": "a", "word": "angol", "isCorrect": true },
+      { "id": "b", "word": "amerikai", "isCorrect": false },
+      { "id": "c", "word": "német", "isCorrect": false }
+    ],
+    "translation": "English",
+    "van": "",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 5,
+    "quizTitle": "Lenni Practice – Nationalities",
+    "audio": "/audio/american.mp3",
+    "prompt": "amerikai",
+    "options": [
+      { "id": "a", "image": "/images/american.jpg", "word": "amerikai", "isCorrect": true },
+      { "id": "b", "image": "/images/french.jpg", "word": "francia", "isCorrect": false }
+    ],
+    "translation": "American",
+    "van": "",
+    "mode": "word-to-image"
+  },
+
+  {
+    "id": 6,
+    "quizTitle": "Lenni Practice – States",
+    "audio": "/audio/hungry.mp3",
+    "prompt": "éhes",
+    "options": [
+      { "id": "a", "image": "/images/hungry.jpg", "word": "éhes", "isCorrect": true },
+      { "id": "b", "image": "/images/thirsty.webp", "word": "szomjas", "isCorrect": false }
+    ],
+    "translation": "hungry",
+    "van": "",
+    "mode": "word-to-image"
+  },
+  {
+    "id": 7,
+    "quizTitle": "Lenni Practice – States",
+    "promptImage": "/images/tired.jpg",
+    "options": [
+      { "id": "a", "word": "fáradt", "isCorrect": true },
+      { "id": "b", "word": "éhes", "isCorrect": false },
+      { "id": "c", "word": "fázik", "isCorrect": false }
+    ],
+    "translation": "tired",
+    "van": "",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 8,
+    "quizTitle": "Lenni Practice – States",
+    "audio": "/audio/thirsty.mp3",
+    "prompt": "szomjas",
+    "options": [
+      { "id": "a", "image": "/images/thirsty.webp", "word": "szomjas", "isCorrect": true },
+      { "id": "b", "image": "/images/hungry.jpg", "word": "éhes", "isCorrect": false }
+    ],
+    "translation": "thirsty",
+    "van": "",
+    "mode": "word-to-image"
+  },
+  {
+    "id": 9,
+    "quizTitle": "Lenni Practice – States",
+    "audio": "/audio/cold.mp3",
+    "prompt": "fázik",
+    "options": [
+      { "id": "a", "image": "/images/cold.jpg", "word": "fázik", "isCorrect": true },
+      { "id": "b", "image": "/images/hot.jpg", "word": "melege van", "isCorrect": false }
+    ],
+    "translation": "cold",
+    "van": "",
+    "mode": "word-to-image"
+  },
+  {
+    "id": 10,
+    "quizTitle": "Lenni Practice – States",
+    "promptImage": "/images/hot.jpg",
+    "options": [
+      { "id": "a", "word": "melege van", "isCorrect": true },
+      { "id": "b", "word": "fázik", "isCorrect": false },
+      { "id": "c", "word": "fáradt", "isCorrect": false }
+    ],
+    "translation": "hot",
+    "van": "",
+    "mode": "image-to-word"
+  },
+
+  {
+    "id": 11,
+    "quizTitle": "Lenni Practice – Professions",
+    "audio": "/audio/doctor.mp3",
+    "prompt": "orvos",
+    "options": [
+      { "id": "a", "image": "/images/doctor.jpg", "word": "orvos", "isCorrect": true },
+      { "id": "b", "image": "/images/teacher.jpg", "word": "tanár", "isCorrect": false }
+    ],
+    "translation": "doctor",
+    "van": "",
+    "mode": "word-to-image"
+  },
+  {
+    "id": 12,
+    "quizTitle": "Lenni Practice – Professions",
+    "promptImage": "/images/teacher.jpg",
+    "options": [
+      { "id": "a", "word": "tanár", "isCorrect": true },
+      { "id": "b", "word": "orvos", "isCorrect": false },
+      { "id": "c", "word": "mérnök", "isCorrect": false }
+    ],
+    "translation": "teacher",
+    "van": "",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 13,
+    "quizTitle": "Lenni Practice – Professions",
+    "audio": "/audio/szomszéd.mp3",
+    "prompt": "szomszéd",
+    "options": [
+      { "id": "a", "image": "/images/engneighborineer.jpg", "word": "szomszéd", "isCorrect": true },
+      { "id": "b", "image": "/images/hungarian.jpg", "word": "diák", "isCorrect": false }
+    ],
+    "translation": "engineer",
+    "van": "",
+    "mode": "word-to-image"
+  },
+  {
+    "id": 14,
+    "quizTitle": "Lenni Practice – Professions",
+    "promptImage": "/images/hungarian.jpg",
+    "options": [
+      { "id": "a", "word": "diák", "isCorrect": true },
+      { "id": "b", "word": "tanár", "isCorrect": false },
+      { "id": "c", "word": "mérnök", "isCorrect": false }
+    ],
+    "translation": "student",
+    "van": "",
     "mode": "image-to-word"
   }
 ]
-
-

@@ -28,14 +28,13 @@ import Nevuto from './Mainpages/Hungarian/nevuto';
 import Hasonlitas from './Mainpages/Hungarian/hasonlitas';
 import Fokusz from './Mainpages/Hungarian/fokusz';
 import Harmonia from './Mainpages/Hungarian/harmonia';
-import HungarianExercises from './Mainpages/Hungarian/hungarian-exercises';
 import ActivityFilter from './Utils/activityFilter';
 import LessonList from './Mainpages/lesson-list';
-import ReadingHub from './Mainpages/Reading/readingHub';
+import ReadingHub from './Mainpages/ReadingHub/readingHub';
 import ReadingActivityPage from './Utils/Activities/ReadingActivity';
-import VocabularyHub from './Mainpages/Vocabulary/vocabularyHub';
+import VocabularyHub from './Mainpages/VocabularyMatchHub/vocabularymatchHub';
 import VocabularyActivityPage from './Utils/Activities/VocabMatch';
-import QuizHub from './Mainpages/Quizzes/quizHub';
+import GrammarQuizHub from './Mainpages/GrammarQuizHub/grammarquizHub';
 import QuizActivityPage from './Utils/Activities/QuizActivityPage';
 import BasicPhrases from './Mainpages/Hungarian/basicphrases';
 
@@ -56,10 +55,6 @@ const router = createBrowserRouter([
           {
             index: true, 
             element: <Home />,
-          },
-          { 
-            path: 'hungarian',
-            element: <HungarianExercises />,
           },
           { 
             path: 'hungarian/lenni',
@@ -150,8 +145,8 @@ const router = createBrowserRouter([
             element: <VocabularyActivityPage />
           },
           {
-            path: 'hungarian/quizHub',
-            element: <QuizHub />
+            path: 'hungarian/grammarquizHub',
+            element: <GrammarQuizHub />
           },
           {
             path: 'hungarian/activity/quiz/:id',
