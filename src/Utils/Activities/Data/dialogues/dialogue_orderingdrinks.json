@@ -1,0 +1,24 @@
+  {
+  "title": "#",
+  "audio": "#",
+  "avatarMap": {
+    "Anna": "/avatars/anna.png",
+    "Béla": "/avatars/bela.png"
+  },
+  "lines": [
+    {
+      "speaker": "Anna",
+      "text": "Jó reggelt!",
+      "translation": "Good morning!",
+      "start": 26156,
+      "end": 26968
+    },
+    {
+      "speaker": "Béla",
+      "text": "Jó reggelt kívánok! Hogy vagy?",
+      "translation": "Good morning! How are you?",
+      "start": 27000,
+      "end": 29000
+    }
+  ]
+}

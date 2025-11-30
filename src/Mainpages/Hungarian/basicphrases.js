@@ -9,7 +9,7 @@ const sections = [
   { label: "Vocab", type: "vocabmatch", subtype: "basicphrases" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "basicphrases" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "basicphrases" },
-  { label: "Exercises", type: "quiz", subtype: "basicphrases" },
+  { label: "Exercises", type: "grammarquiz", subtype: "basicphrases" },
   { label: "Word Order", type: "ordering", subtype: "basicphrases" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },

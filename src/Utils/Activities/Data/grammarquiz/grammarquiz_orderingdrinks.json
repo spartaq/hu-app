@@ -1,0 +1,20 @@
+{
+  "quizTitle": "#",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Köszönöm",
+      "options": ["nincs mit", "jó estét", "kívánok", "szépen"],
+      "answer": "nincs mit",
+      "translate": "You're welcome"
+    },
+    {
+      "id": 10,
+      "question": "Kérem",
+      "options": ["szívesen", "köszönöm", "jó napot", "szia"],
+      "answer": "szívesen",
+      "translate": "You're welcome / With pleasure"
+    }
+  ]
+}

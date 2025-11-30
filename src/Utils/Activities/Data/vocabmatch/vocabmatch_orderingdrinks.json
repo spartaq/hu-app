@@ -1,0 +1,8 @@
+{
+  "quizTitle": "Ordering Drinks",
+  "type": "vocabmatch",
+  "topic": "orderingdrinks",
+  "pairs": [{ "term": "Bocsánat", "definition": "Sorry" },
+    { "term": "Jó éjszakát", "definition": "Good night" },
+    { "term": "Viszontlátásra", "definition": "Goodbye / See you again" }]
+}

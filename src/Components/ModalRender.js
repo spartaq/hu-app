@@ -64,14 +64,12 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     switch (type) {
       case "dialogue":
         return data;
-      case "quiz":
+      case "grammarquiz":
         return data?.questions ?? [];
       case "ordering":
         return Array.isArray(data) ? data : [];
       case "vocabmatch":
         return Array.isArray(data) ? data : data?.pairs ?? [];
-      case "grammar":
-        return data?.sentences ?? [];
       case "reading":
         return Array.isArray(data) ? data : data?.paragraphs ?? [];
       case "video":
@@ -112,7 +110,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
       setActivityStarted(true);
     }
 
-    if (type === "quiz") {
+    if (type === "grammarquiz") {
       setActivityData(data?.questions ?? []);
     }
   }, [type, data, autoStartTypes, getRawData]);
@@ -205,7 +203,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
 
     return (
       <div className="exercisesection__activity-box">
-        {type === "quiz" && (
+        {type === "grammarquiz" && (
           <QuizActivity
             question={activityData[currentIndex]}
             data={data}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "syllable-greetings-1",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 1",
+    "sentence": "He lló",
+    "translation": "Hello"
+  },
+  {
+    "id": "syllable-greetings-10",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 10",
+    "sentence": "Vi szont lá tás ra",
+    "translation": "Goodbye / See you again"
+  }
+]

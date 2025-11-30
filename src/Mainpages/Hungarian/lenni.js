@@ -10,7 +10,8 @@ const sections = [
   { label: "Audio Match", type: "audiowordmatch", subtype: "lenni" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "lenni" },
   { label: "Vocabulary Match", type: "vocabmatch", subtype: "lenni" },
-  { label: "Exercises", type: "quiz", subtype: "lenni" },
+  
+{ label: "Exercises", type: "grammarquiz", subtype: "lenni" },
   { label: "Word Order", type: "ordering", subtype: "lenni" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "spotify" },

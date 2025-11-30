@@ -7,7 +7,8 @@ const sections = [
   { label: "Explanation", type: "explanation", subtype: "nevmas" },
   { label: "Dialogue", type: "dialogue", subtype: "nevmas" },
   { label: "Vocab", type: "vocabmatch", subtype: "nevmas" },
-  { label: "Exercises", type: "quiz", subtype: "nevmas" },
+  
+{ label: "Exercises", type: "grammarquiz", subtype: "nevmas" },
   { label: "Word Order", type: "ordering", subtype: "van" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },

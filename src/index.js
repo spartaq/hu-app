@@ -37,6 +37,7 @@ import VocabularyActivityPage from './Utils/Activities/VocabMatch';
 import GrammarQuizHub from './Mainpages/GrammarQuizHub/grammarquizHub';
 import QuizActivityPage from './Utils/Activities/QuizActivityPage';
 import BasicPhrases from './Mainpages/Hungarian/basicphrases';
+import OrderingDrinks from './Mainpages/Hungarian/orderingdrinks';
 
 
 
@@ -111,6 +112,10 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/harmonia',
             element: <Harmonia />,
+          },
+          {
+            path: 'hungarian/orderingdrinks',
+            element: <OrderingDrinks />,
           },
           {
             path: 'hungarian/basicphrases',

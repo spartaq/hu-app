@@ -1,0 +1,16 @@
+[
+  {
+    "id": "basicphrases1",
+    "title": "Tap What You Hear - Greetings",
+    "audiosrc": "/audio/basicphrases/hello.mp3",
+    "correctSequence": ["Szia"],
+    "translation": "Hi / Hello"
+  },
+  {
+    "id": "basicphrases15",
+    "title": "Tap What You Hear - Everyday",
+    "audiosrc": "/audio/basicphrases/can_you_help.mp3",
+    "correctSequence": ["Tudsz", "segíteni"],
+    "translation": "Can you help?"
+  }
+]

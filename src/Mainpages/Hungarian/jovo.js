@@ -7,8 +7,8 @@ const sections = [
   { label: "Explanation", type: "explanation", subtype: "jovo" },
   { label: "Dialogue", type: "dialogue", subtype: "jovo" },
   { label: "Vocab", type: "vocabmatch", subtype: "jovo" },
-  { label: "Exercises", type: "quiz", subtype: "jovo" },
-  { label: "Grammar", type: "grammar", subtype: "jovo" },
+  
+{ label: "Exercises", type: "grammarquiz", subtype: "jovo" },
   { label: "Word Order", type: "ordering", subtype: "jovo" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },

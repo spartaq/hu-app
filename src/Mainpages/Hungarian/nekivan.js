@@ -10,7 +10,8 @@ const sections = [
   { label: "Audio Match", type: "audiowordmatch", subtype: "nekivan" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "nekivan" },
   { label: "Vocab", type: "vocabmatch", subtype: "nekivan" },
-  { label: "Exercises", type: "quiz", subtype: "nekivan" },
+  
+{ label: "Exercises", type: "grammarquiz", subtype: "nekivan" },
   { label: "Word Order", type: "ordering", subtype: "nekivan" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },

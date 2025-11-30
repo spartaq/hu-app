@@ -2,7 +2,10 @@ import ModalRender from "./ModalRender.js"
 
 /* ---------------------- IMPORTS ---------------------- */
 
-// EXPLANATION
+
+
+// **EXPLANATION
+import HuExplanationOrderingdrinksData from "../Utils/Activities/Data/grammarexplanation/explanation_orderingdrinks.json";
 import HuExplanationLenniData from "../Utils/Activities/Data/grammarexplanation/explanation_lenni.json";
 import HuExplanationJelenDefData from "../Utils/Activities/Data/grammarexplanation/explanation_jelendef.json";
 import HuExplanationJelenIndefData from "../Utils/Activities/Data/grammarexplanation/explanation_jelenindef.json";
@@ -17,7 +20,8 @@ import HuExplanationHasonlitasData from "../Utils/Activities/Data/grammarexplana
 import HuExplanationFokuszData from "../Utils/Activities/Data/grammarexplanation/explanation_fokusz.json";
 import HuExplanationHarmoniaData from "../Utils/Activities/Data/grammarexplanation/explanation_harmonia.json";
 import HuExplanationBasicPhrasesData from "../Utils/Activities/Data/grammarexplanation/explanation_basicphrases.json";
-// DIALOGUE
+// **DIALOGUE
+import HuDialogueOrderingdrinksData from "../Utils/Activities/Data/dialogues/dialogue_orderingdrinks.json";
 import HuDialogueLenniData from "../Utils/Activities/Data/dialogues/dialogue_lenni.json";
 import HuDialogueJelenDefData from "../Utils/Activities/Data/dialogues/dialogue_jelendef.json";
 import HuDialogueJelenIndefData from "../Utils/Activities/Data/dialogues/dialogue_jelenindef.json";
@@ -33,22 +37,24 @@ import HuDialogueFokuszData from "../Utils/Activities/Data/dialogues/dialogue_fo
 import HuDialogueHarmoniaData from "../Utils/Activities/Data/dialogues/dialogue_harmonia.json";
 import HuDialogueBasicPhrasesData from "../Utils/Activities/Data/dialogues/dialogue_basicphrases.json";
 
-// EXERCISEQUIZ
-import HuJelenDefQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelendef.json";
-import HuJelenIndefQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelenindef.json";
-import HuMultQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_mult.json";
-import HuLenniQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_lenni.json";
-import HuVanQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_van.json";
-import HuNekivanQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nekivan.json";
-import HuJovoQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jovo.json";
-import HuBirtoklasQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_birtoklas.json";
-import HuNevmasQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nevmas.json";
-import HuNevutoQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nevuto.json";
-import HuHasonlitasQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_hasonlitas.json";
-import HuFokuszQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_fokusz.json";
-import HuHarmoniaQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_harmonia.json";
-import HuBasicphrasesQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_basicphrases.json";
-// TAPAUDIO
+// **GRAMMARQUIZ
+import HuOrderingdrinksGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_orderingdrinks.json";
+import HuJelenDefGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelendef.json";
+import HuJelenIndefGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelenindef.json";
+import HuMultGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_mult.json";
+import HuLenniGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_lenni.json";
+import HuVanGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_van.json";
+import HuNekivanGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nekivan.json";
+import HuJovoGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jovo.json";
+import HuBirtoklasGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_birtoklas.json";
+import HuNevmasGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nevmas.json";
+import HuNevutoGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_nevuto.json";
+import HuHasonlitasGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_hasonlitas.json";
+import HuFokuszGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_fokusz.json";
+import HuHarmoniaGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_harmonia.json";
+import HuBasicphrasesGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_basicphrases.json";
+// **TAPAUDIO
+import HuTapAudioOrderingdrinksData from "../Utils/Activities/Data/tapaudio/tapaudio_orderingdrinks.json";
 import HuTapAudioLenniData from "../Utils/Activities/Data/tapaudio/tapaudio_lenni.json";
 import HuTapAudioJelenDefData from "../Utils/Activities/Data/tapaudio/tapaudio_jelendef.json";
 import HuTapAudioJelenIndefData from "../Utils/Activities/Data/tapaudio/tapaudio_jelenindef.json";
@@ -65,7 +71,8 @@ import HuTapAudioHarmoniaData from "../Utils/Activities/Data/tapaudio/tapaudio_h
 import HuTapAudioBasicPhrasesData from "../Utils/Activities/Data/tapaudio/tapaudio_basicphrases.json";
 
 
-// IMAGEMATCH
+// **IMAGEMATCH
+import HuImageMatchOrderingdrinksData from "../Utils/Activities/Data/imagematch/imagematch_orderingdrinks.json";
 import HuImageMatchLenniData from "../Utils/Activities/Data/imagematch/imagematch_lenni.json";
 import HuImageMatchJelenDefData from "../Utils/Activities/Data/imagematch/imagematch_jelendef.json";
 import HuImageMatchJelenIndefData from "../Utils/Activities/Data/imagematch/imagematch_jelenindef.json";
@@ -81,7 +88,8 @@ import HuImageMatchFokuszData from "../Utils/Activities/Data/imagematch/imagemat
 import HuImageMatchHarmoniaData from "../Utils/Activities/Data/imagematch/imagematch_harmonia.json";
 import HuImageMatchBasicPhrasesData from "../Utils/Activities/Data/imagematch/imagematch_basicphrases.json";
 
-// AUDIOWORDMATCH
+// **AUDIOWORDMATCH
+import HuAudioWordMatchOrderingdrinksData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_orderingdrinks.json";
 import HuAudioWordMatchLenniData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_lenni.json";
 import HuAudioWordMatchJelenDefData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_jelendef.json";
 import HuAudioWordMatchJelenIndefData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_jelenindef.json";
@@ -97,41 +105,40 @@ import HuAudioWordMatchFokuszData from "../Utils/Activities/Data/audiowordmatch/
 import HuAudioWordMatchHarmoniaData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_harmonia.json";
 import HuAudioWordMatchBasicPhrasesData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_basicphrases.json";
 
-// GRAMMAR
-import HuGrammarJelenIndefData from "../Utils/Activities/Data/grammar/jelenidoindef.json";
-// WORDORDER
-import orderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
-import orderingJelenDefData from "../Utils/Activities/Data/ordering/wordorder_jelendef.json";
-import orderingJelenIndefData from "../Utils/Activities/Data/ordering/wordorder_jelenindef.json";
-import orderingMultData from "../Utils/Activities/Data/ordering/wordorder_mult.json";
-import orderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
-import orderingNekivanData from "../Utils/Activities/Data/ordering/wordorder_nekivan.json";
-import orderingJovoData from "../Utils/Activities/Data/ordering/wordorder_jovo.json";
-import orderingBirtoklasData from "../Utils/Activities/Data/ordering/wordorder_birtoklas.json";
-import orderingNevmasData from "../Utils/Activities/Data/ordering/wordorder_nevmas.json";
-import orderingNevutoData from "../Utils/Activities/Data/ordering/wordorder_nevuto.json";
-import orderingHasonlitasData from "../Utils/Activities/Data/ordering/wordorder_hasonlitas.json";
-import orderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
-import orderingHarmoniaData from "../Utils/Activities/Data/ordering/wordorder_harmonia.json";
-import orderingBasicPhrasesData from "../Utils/Activities/Data/ordering/wordorder_basicphrases.json";
+// **WORDORDER
+import HuOrderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
+import HuOrderingJelenDefData from "../Utils/Activities/Data/ordering/wordorder_jelendef.json";
+import HuOrderingJelenIndefData from "../Utils/Activities/Data/ordering/wordorder_jelenindef.json";
+import HuOrderingMultData from "../Utils/Activities/Data/ordering/wordorder_mult.json";
+import HuOrderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
+import HuOrderingNekivanData from "../Utils/Activities/Data/ordering/wordorder_nekivan.json";
+import HuOrderingJovoData from "../Utils/Activities/Data/ordering/wordorder_jovo.json";
+import HuOrderingBirtoklasData from "../Utils/Activities/Data/ordering/wordorder_birtoklas.json";
+import HuOrderingNevmasData from "../Utils/Activities/Data/ordering/wordorder_nevmas.json";
+import HuOrderingNevutoData from "../Utils/Activities/Data/ordering/wordorder_nevuto.json";
+import HuOrderingHasonlitasData from "../Utils/Activities/Data/ordering/wordorder_hasonlitas.json";
+import HuOrderingFokuszData from "../Utils/Activities/Data/ordering/wordorder_fokusz.json";
+import HuOrderingHarmoniaData from "../Utils/Activities/Data/ordering/wordorder_harmonia.json";
+import HuOrderingBasicPhrasesData from "../Utils/Activities/Data/ordering/wordorder_basicphrases.json";
+import HuOrderingOrderingdrinksData from "../Utils/Activities/Data/ordering/wordorder_orderingdrinks.json";
 
 
-
-// VOCABMATCH
-import vocabmatchLenniData from "../Utils/Activities/Data/vocabmatch/vocabmatch_lenni.json";
-import vocabmatchJelenidoDefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelendef.json";
-import vocabmatchJelenidoIndefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelenindef.json";
-import vocabmatchMultidoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_mult.json";
-import vocabmatchVanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_van.json";
-import vocabmatchNekivanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nekivan.json";
-import vocabmatchJovoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jovo.json";
-import vocabmatchBirtoklasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_birtoklas.json";
-import vocabmatchNevmasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevmas.json";
-import vocabmatchNevutoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevuto.json";
-import vocabmatchHasonlitasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_hasonlitas.json";
-import vocabmatchFokuszData from "../Utils/Activities/Data/vocabmatch/vocabmatch_fokusz.json";
-import vocabmatchHarmoniaData from "../Utils/Activities/Data/vocabmatch/vocabmatch_harmonia.json";
-import vocabmatchBasicphrasesData from "../Utils/Activities/Data/vocabmatch/vocabmatch_basicphrases.json";
+// **VOCABMATCH
+import HuVocabmatchOrderingdrinksData from "../Utils/Activities/Data/vocabmatch/vocabmatch_orderingdrinks.json";
+import HuVocabmatchLenniData from "../Utils/Activities/Data/vocabmatch/vocabmatch_lenni.json";
+import HuVocabmatchJelenidoDefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelendef.json";
+import HuVocabmatchJelenidoIndefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelenindef.json";
+import HuVocabmatchMultidoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_mult.json";
+import HuVocabmatchVanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_van.json";
+import HuVocabmatchNekivanData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nekivan.json";
+import HuVocabmatchJovoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jovo.json";
+import HuVocabmatchBirtoklasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_birtoklas.json";
+import HuVocabmatchNevmasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevmas.json";
+import HuVocabmatchNevutoData from "../Utils/Activities/Data/vocabmatch/vocabmatch_nevuto.json";
+import HuVocabmatchHasonlitasData from "../Utils/Activities/Data/vocabmatch/vocabmatch_hasonlitas.json";
+import HuVocabmatchFokuszData from "../Utils/Activities/Data/vocabmatch/vocabmatch_fokusz.json";
+import HuVocabmatchHarmoniaData from "../Utils/Activities/Data/vocabmatch/vocabmatch_harmonia.json";
+import HuVocabmatchBasicphrasesData from "../Utils/Activities/Data/vocabmatch/vocabmatch_basicphrases.json";
 
 // READING
 import readingParentsFootballMatch from "../Utils/Activities/Data/reading/readingParentsFootball.js";
@@ -142,21 +149,22 @@ import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimple
 // VIDEO
 import videoPhones from "../Utils/Activities/Data/videos/phones.js";
 import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
-// LESSONCOMPLETE
-import lessoncompleteLenniData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_lenni.json";
-import lessoncompleteJelendefData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jelendef.json";
-import lessoncompleteJelenindefData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jelenindef.json";
-import lessoncompleteMultData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_mult.json";
-import lessoncompleteVanData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_van.json";
-import lessoncompleteNekivanData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nekivan.json";
-import lessoncompleteJovoData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jovo.json";
-import lessoncompleteBirtoklasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_birtoklas.json";
-import lessoncompleteNevmasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nevmas.json";
-import lessoncompleteNevutoData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nevuto.json";
-import lessoncompleteHasonlitasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_hasonlitas.json";
-import lessoncompleteFokuszData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_fokusz.json";
-import lessoncompleteHarmoniaData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_harmonia.json";
-import lessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_basicphrases.json";
+// **LESSONCOMPLETE
+import HuLessoncompleteOrderingdrinksData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_orderingdrinks.json";
+import HuLessoncompleteLenniData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_lenni.json";
+import HuLessoncompleteJelendefData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jelendef.json";
+import HuLessoncompleteJelenindefData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jelenindef.json";
+import HuLessoncompleteMultData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_mult.json";
+import HuLessoncompleteVanData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_van.json";
+import HuLessoncompleteNekivanData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nekivan.json";
+import HuLessoncompleteJovoData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jovo.json";
+import HuLessoncompleteBirtoklasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_birtoklas.json";
+import HuLessoncompleteNevmasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nevmas.json";
+import HuLessoncompleteNevutoData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nevuto.json";
+import HuLessoncompleteHasonlitasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_hasonlitas.json";
+import HuLessoncompleteFokuszData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_fokusz.json";
+import HuLessoncompleteHarmoniaData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_harmonia.json";
+import HuLessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_basicphrases.json";
 
 /* --------------------------------------------------------- */
 /* ----------------------- LOOK HERE ------------------------ */
@@ -169,6 +177,7 @@ import lessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncompl
 
 const DATA_MAP = {
   explanation: {
+    orderingdrinks: HuExplanationOrderingdrinksData,
     lenni: HuExplanationLenniData,
     jelenidodef: HuExplanationJelenDefData,
     jelenidoindef: HuExplanationJelenIndefData,
@@ -186,6 +195,7 @@ const DATA_MAP = {
   },
 
   dialogue: {
+    orderingdrinks: HuDialogueOrderingdrinksData,
     lenni: HuDialogueLenniData,
     jelenDef: HuDialogueJelenDefData,
     jelenIndef: HuDialogueJelenIndefData,
@@ -203,6 +213,7 @@ const DATA_MAP = {
   },
 
   tapaudio: {
+    orderingdrinks: HuTapAudioOrderingdrinksData,
     lenni: HuTapAudioLenniData,
     jelenDef: HuTapAudioJelenDefData,
     jelenIndef: HuTapAudioJelenIndefData,
@@ -220,6 +231,7 @@ const DATA_MAP = {
   },
 
   imagematch: {
+    orderingdrinks: HuImageMatchOrderingdrinksData,
     lenni: HuImageMatchLenniData,
     jelenDef: HuImageMatchJelenDefData,
     jelenIndef: HuImageMatchJelenIndefData,
@@ -237,6 +249,7 @@ const DATA_MAP = {
   },  
 
   audiowordmatch: {
+    orderingdrinks: HuAudioWordMatchOrderingdrinksData,
     lenni: HuAudioWordMatchLenniData,
     jelenDef: HuAudioWordMatchJelenDefData,
     jelenIndef: HuAudioWordMatchJelenIndefData,
@@ -253,60 +266,61 @@ const DATA_MAP = {
     basicphrases: HuAudioWordMatchBasicPhrasesData
   },  
 
-  quiz: {
-    jelenidodef: HuJelenDefQuizData,
-    jelenidoindef: HuJelenIndefQuizData,
-    multido: HuMultQuizData,
-    lenni: HuLenniQuizData,
-    van: HuVanQuizData,
-    nekivan: HuNekivanQuizData,
-    jovo: HuJovoQuizData,
-    birtoklas: HuBirtoklasQuizData,
-    nevmas: HuNevmasQuizData,
-    nevuto: HuNevutoQuizData,
-    hasonlitas: HuHasonlitasQuizData,
-    fokusz: HuFokuszQuizData,
-    harmonia: HuHarmoniaQuizData,
-    basicphrases: HuBasicphrasesQuizData
+  grammarquiz: {
+    jelenidodef: HuJelenDefGrammarQuizData,
+    jelenidoindef: HuJelenIndefGrammarQuizData,
+    multido: HuMultGrammarQuizData,
+    lenni: HuLenniGrammarQuizData,
+    van: HuVanGrammarQuizData,
+    nekivan: HuNekivanGrammarQuizData,
+    jovo: HuJovoGrammarQuizData,
+    birtoklas: HuBirtoklasGrammarQuizData,
+    nevmas: HuNevmasGrammarQuizData,
+    nevuto: HuNevutoGrammarQuizData,
+    hasonlitas: HuHasonlitasGrammarQuizData,
+    fokusz: HuFokuszGrammarQuizData,
+    harmonia: HuHarmoniaGrammarQuizData,
+    basicphrases: HuBasicphrasesGrammarQuizData,
+    orderingdrinks: HuOrderingdrinksGrammarQuizData
   },
 
   ordering: {
-   lenni: orderingLenniData,
-    jelenDef: orderingJelenDefData,
-    jelenIndef: orderingJelenIndefData,
-    mult: orderingMultData,
-    van: orderingVanData,
-    nekivan: orderingNekivanData,
-    jovo: orderingJovoData,
-    birtoklas: orderingBirtoklasData,
-    nevmas: orderingNevmasData,
-    nevuto: orderingNevutoData,
-    hasonlitas: orderingHasonlitasData,
-    fokusz: orderingFokuszData,
-    harmonia: orderingHarmoniaData,
-    basicphrases: orderingBasicPhrasesData
+    orderingdrinks: HuOrderingOrderingdrinksData,
+   lenni: HuOrderingLenniData,
+    jelenDef: HuOrderingJelenDefData,
+    jelenIndef: HuOrderingJelenIndefData,
+    mult: HuOrderingMultData,
+    van: HuOrderingVanData,
+    nekivan: HuOrderingNekivanData,
+    jovo: HuOrderingJovoData,
+    birtoklas: HuOrderingBirtoklasData,
+    nevmas: HuOrderingNevmasData,
+    nevuto: HuOrderingNevutoData,
+    hasonlitas: HuOrderingHasonlitasData,
+    fokusz: HuOrderingFokuszData,
+    harmonia: HuOrderingHarmoniaData,
+    basicphrases: HuOrderingBasicPhrasesData
   },
 
  vocabmatch: {
-  lenni: vocabmatchLenniData,
-  jelenDef: vocabmatchJelenidoDefData,
-  jelenIndef: vocabmatchJelenidoIndefData,
-  mult: vocabmatchMultidoData,
-  van: vocabmatchVanData,
-  nekivan: vocabmatchNekivanData,
-  jovo: vocabmatchJovoData,
-  birtoklas: vocabmatchBirtoklasData,
-  nevmas: vocabmatchNevmasData,
-  nevuto: vocabmatchNevutoData,
-  hasonlitas: vocabmatchHasonlitasData,
-  fokusz: vocabmatchFokuszData,
-  harmonia: vocabmatchHarmoniaData,
-  basicphrases: vocabmatchBasicphrasesData
+    orderingdrinks: HuVocabmatchOrderingdrinksData,
+  lenni: HuVocabmatchLenniData,
+  jelenDef: HuVocabmatchJelenidoDefData,
+  jelenIndef: HuVocabmatchJelenidoIndefData,
+  mult: HuVocabmatchMultidoData,
+  van: HuVocabmatchVanData,
+  nekivan: HuVocabmatchNekivanData,
+  jovo: HuVocabmatchJovoData,
+  birtoklas: HuVocabmatchBirtoklasData,
+  nevmas: HuVocabmatchNevmasData,
+  nevuto: HuVocabmatchNevutoData,
+  hasonlitas: HuVocabmatchHasonlitasData,
+  fokusz: HuVocabmatchFokuszData,
+  harmonia: HuVocabmatchHarmoniaData,
+  basicphrases: HuVocabmatchBasicphrasesData
 },
 
-  grammar: {
-    jelenidoindef: HuGrammarJelenIndefData,
-  },
+  
 
   reading: {
     "parents-football-match": readingParentsFootballMatch,
@@ -322,20 +336,21 @@ const DATA_MAP = {
   },
 
   lessoncomplete: {
-  basicphrases: lessoncompleteBasicphrasesData,
-  lenni: lessoncompleteLenniData,
-  jelendef: lessoncompleteJelendefData,
-  jelenindef: lessoncompleteJelenindefData,
-  mult: lessoncompleteMultData,
-  van: lessoncompleteVanData,
-  nekivan: lessoncompleteNekivanData,
-  jovo: lessoncompleteJovoData,
-  birtoklas: lessoncompleteBirtoklasData,
-  nevmas: lessoncompleteNevmasData,
-  nevuto: lessoncompleteNevutoData,
-  hasonlitas: lessoncompleteHasonlitasData,
-  fokusz: lessoncompleteFokuszData,
-  harmonia: lessoncompleteHarmoniaData,
+    orderingdrinks: HuLessoncompleteOrderingdrinksData,
+  basicphrases: HuLessoncompleteBasicphrasesData,
+  lenni: HuLessoncompleteLenniData,
+  jelendef: HuLessoncompleteJelendefData,
+  jelenindef: HuLessoncompleteJelenindefData,
+  mult: HuLessoncompleteMultData,
+  van: HuLessoncompleteVanData,
+  nekivan: HuLessoncompleteNekivanData,
+  jovo: HuLessoncompleteJovoData,
+  birtoklas: HuLessoncompleteBirtoklasData,
+  nevmas: HuLessoncompleteNevmasData,
+  nevuto: HuLessoncompleteNevutoData,
+  hasonlitas: HuLessoncompleteHasonlitasData,
+  fokusz: HuLessoncompleteFokuszData,
+  harmonia: HuLessoncompleteHarmoniaData,
 },
 
 };

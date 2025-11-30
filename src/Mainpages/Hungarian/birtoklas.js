@@ -7,7 +7,8 @@ const sections = [
   { label: "Explanation", type: "explanation", subtype: "birtoklas" },
   { label: "Dialogue", type: "dialogue", subtype: "birtoklas" },
   { label: "Vocab", type: "vocabmatch", subtype: "birtoklas" },
-  { label: "Exercises", type: "quiz", subtype: "birtoklas" },
+  
+{ label: "Exercises", type: "grammarquiz", subtype: "birtoklas" },
   { label: "Word Order", type: "ordering", subtype: "birtoklas" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },

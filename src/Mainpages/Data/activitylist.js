@@ -9,6 +9,16 @@ module.exports = [
         "description": "Basic Phrases",
         "image": "/Images/jelenido1.jpg"
       },
+       {
+        "id": "orderingdrinks",
+        "title": "Ordering Drinks",
+      "category": "hungarian",
+      "subtitle": "Kérek, Szeretnék - I'd like",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "Ordering Food and Drinks",
+        "image": "/Images/jelenido1.jpg"
+      },
     {
         "id": "lenni",
         "title": "Lenni (To Be)",
@@ -40,7 +50,7 @@ module.exports = [
         "image": "/Images/jelenido1.jpg"
       },             
       {
-        "id": "jelenidodef",
+        "id": "jelendef",
         "title": "Jelen Idő - Határozott (Simple Present - Definite conjugation)",
       "category": "hungarian",
       "subtitle": "megyek, lakom",
@@ -50,7 +60,7 @@ module.exports = [
         "image": "/Images/jelenido1.jpg"
       },    
       {
-        "id": "jelenidoindef",
+        "id": "jelenindef",
         "title": "Jelen Idő - Általános (Simple Present - General conjugation)",
       "category": "hungarian",
       "subtitle": "megyek, lakom",
@@ -60,7 +70,7 @@ module.exports = [
         "image": "/Images/jelenido1.jpg"
       },    
       {
-        "id": "multido",
+        "id": "mult",
         "title": "Mult Idő (Simple Past)",
       "category": "hungarian",
       "subtitle": "mentem, laktam",
@@ -70,7 +80,7 @@ module.exports = [
         "image": "/Images/jelenido1.jpg"
       },
     {
-        "id": "jovoido",
+        "id": "jovo",
         "title": "Jövő Idő (Future)",
       "category": "hungarian",
       "subtitle": "fog + ige",

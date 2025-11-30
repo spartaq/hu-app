@@ -10,7 +10,8 @@ const sections = [
   { label: "Audio Match", type: "audiowordmatch", subtype: "van" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "van" },
   { label: "Vocabulary Match", type: "vocabmatch", subtype: "van" },
-  { label: "Exercises", type: "quiz", subtype: "van" },
+  
+{ label: "Exercises", type: "grammarquiz", subtype: "van" },
   { label: "Word Order", type: "ordering", subtype: "van" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
