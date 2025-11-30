@@ -1,66 +1,53 @@
 {
-  "title": "Office Conversation",
-  "audio": "/audio/neighbors.mp3",
+  "title": "Do You Have a Pet?",
+  "audio": "checkpoint5Audio",
+  "image": "https://dopxmmxpozrikuasapno.supabase.co/storage/v1/object/public/lesson-assets/images/dogCat.webp",
   "avatarMap": {
     "Anna": "/avatars/anna.png",
-    "Bálint": "/avatars/balint.png"
+    "Péter": "/avatars/peter.png"
   },
   "lines": [
     {
-    "speaker": "Anna",
-    "text": "Szia! Anna vagyok, új vagyok a házban.",
-    "translation": "Hi! I’m Anna, I’m new to the building.",
-    "start": 0,
-    "end": 3836
-  },
-  {
-    "speaker": "Bálint",
-    "text": "Szia, Anna! Én Bálint vagyok. Te vagy az új szomszéd?",
-    "translation": "Hi, Anna! I’m Bálint. Are you the new neighbor?",
-    "start": 3837,
-    "end": 7000
-  },
-  {
-    "speaker": "Anna",
-    "text": "Tegnap óta itt vagyok. Te vagy a szomszédom?",
-    "translation": "I’ve been here since yesterday. Are you my neighbor?",
-    "start": 7000,
-    "end": 10500
-  },
-  {
-    "speaker": "Bálint",
-    "text": "Igen, itt lakom, tehát igen, a szomszédod vagyok. A második emeleten vagyok.",
-    "translation": "Yes, I live here, so yes, I’m your neighbor. I’m on the second floor.",
-    "start": 10500,
-    "end": 15332
-  },
-  {
-    "speaker": "Anna",
-    "text": "Ó, én is a második emeleten vagyok, a folyosó végén.",
-    "translation": "Oh, I’m on the second floor too, at the end of the hall.",
-    "start": 15376,
-    "end": 19000
-  },
-  {
-    "speaker": "Bálint",
-    "text": "Akkor tényleg igazi szomszédok vagyunk!",
-    "translation": "Then we really are neighbors!",
-    "start": 19348,
-    "end": 21761
-  },
-  {
-    "speaker": "Anna",
-    "text": "Örülök, hogy találkoztunk!",
-    "translation": "Nice to meet you!",
-    "start": 21806,
-    "end": 23469
-  },
-  {
-    "speaker": "Bálint",
-    "text": "Én is. És ha bármi kell, itt vagyok.",
-    "translation": "Me too. And if you need anything, I’m here.",
-    "start": 23600,
-    "end": 27000
-  }
+      "speaker": "Anna",
+      "text": "Nekem van egy új kutyám. Nagyon aranyos!",
+      "translation": "I have a new dog. He’s very cute!",
+      "start": 0,
+      "end": 2500
+    },
+    {
+      "speaker": "Péter",
+      "text": "Tényleg? Milyen?",
+      "translation": "Really? What’s he like?",
+      "start": 2501,
+      "end": 4000
+    },
+    {
+      "speaker": "Anna",
+      "text": "Kicsi és játékos. Neked van kutyád?",
+      "translation": "Small and playful. Do you have a dog?",
+      "start": 4001,
+      "end": 6500
+    },
+    {
+      "speaker": "Péter",
+      "text": "Nincs kutyám, de van egy macskám.",
+      "translation": "I don’t have a dog, but I have a cat.",
+      "start": 6501,
+      "end": 8500
+    },
+    {
+      "speaker": "Anna",
+      "text": "Milyen macskád van?",
+      "translation": "What kind of cat do you have?",
+      "start": 8501,
+      "end": 10000
+    },
+    {
+      "speaker": "Péter",
+      "text": "Anyamacskám van, kiscicái vannak most!",
+      "translation": "I have a mother cat, she has kittens now!",
+      "start": 10001,
+      "end": 12500
+    }
   ]
 }
