@@ -14,6 +14,7 @@ const sections = [
   { label: "Word Order", type: "ordering", subtype: "nekivan" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
+  { label: "Lesson Complete", type: "lessoncomplete", subtype: "nekivan" },
 ];
 
 const Nekivan = () => (

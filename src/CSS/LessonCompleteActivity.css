@@ -1,0 +1,77 @@
+.lesson-complete-container {
+  text-align: center;
+  padding: 30px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lesson-complete-title {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.lesson-complete-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.85;
+}
+
+.lesson-complete-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.next-lesson-btn,
+.activity-hub-btn {
+  padding: 12px 20px;
+  background: #4285f4;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.activity-hub-btn {
+  background: #34a853;
+}
+
+.next-lesson-btn:hover {
+  background: #2f6bd9;
+}
+
+.activity-hub-btn:hover {
+  background: #2c8e47;
+}
+
+/* ------------------------------------------------
+   OPTIONAL: Simple confetti animation
+-------------------------------------------------- */
+.confetti {
+  pointer-events: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle, #ff6b6b 6px, transparent 7px),
+    radial-gradient(circle, #feca57 6px, transparent 7px),
+    radial-gradient(circle, #48dbfb 6px, transparent 7px),
+    radial-gradient(circle, #1dd1a1 6px, transparent 7px);
+  background-size: 20px 20px;
+  animation: fall 6s linear infinite;
+  opacity: 0.3;
+}
+
+@keyframes fall {
+  0% { background-position: 0 0, 0 0, 0 0, 0 0; }
+  100% { background-position: 0 800px, 50px 900px, -50px 850px, 25px 950px; }
+}

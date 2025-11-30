@@ -11,11 +11,11 @@ import ExplanationActivity from "../Utils/Activities/GrammarExplanationActivity.
 import TapAudioActivity from "../Utils/Activities/TapAudioActivity";
 import ImageMatchActivity from "../Utils/Activities/ImageMatchActivity.js";
 import AudioWordMatchActivity from "../Utils/Activities/AudioWordMatchActivity.js";
+import LessonCompleteActivity from "../Utils/Activities/LessonCompleteActivity.js";
 
 import "../CSS/modalflow.css";
 
 const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => {
-  console.log("ExerciseSection props:", { type, data, id, subtype });
   const topRef = useRef(null);
 
   const [activityStarted, setActivityStarted] = useState(false);
@@ -24,11 +24,27 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
   const [activityEnded, setActivityEnded] = useState(false);
   const [activityData, setActivityData] = useState(null);
 
+  // Types that auto-start (no "Start" button)
   const autoStartTypes = useMemo(
-    () => ["ordering", "vocabmatch", "grammar", "reading", "video", "explanation", "imagematch", "audiowordmatch"],
+    () => [
+      "ordering",
+      "vocabmatch",
+      "grammar",
+      "reading",
+      "video",
+      "explanation",
+      "imagematch",
+      "audiowordmatch",
+      "lessoncomplete"
+    ],
     []
   );
 
+  const hideNav = ["dialogue", "vocabmatch", "grammar", "explanation", "lessoncomplete"].includes(type);
+
+  /** -------------------------
+   * Scroll helper
+   ------------------------- */
   const scrollToTop = () => {
     const target = scrollTargetRef?.current;
     if (target) {
@@ -41,26 +57,42 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     }
   };
 
+  /** -------------------------
+   * Normalize data depending on activity type
+   ------------------------- */
   const getRawData = useCallback(() => {
-    let raw;
-    if (type === "dialogue") raw = data;
-    else if (type === "quiz") raw = data?.questions ?? [];
-    else if (type === "ordering") raw = Array.isArray(data) ? data : [];
-    else if (type === "vocabmatch") raw = Array.isArray(data) ? data : data?.pairs ?? [];
-    else if (type === "grammar") raw = data?.sentences ?? [];
-    else if (type === "reading") raw = Array.isArray(data) ? data : data?.paragraphs ?? [];
-    else if (type === "video") raw = Array.isArray(data) ? data : [data];
-    else if (type === "explanation") raw = data;
-    else if (type === "imagematch") raw = data;
-    else if (type === "audiowordmatch") raw = data;
-    else raw = [];
-    console.log("getRawData", type, raw);
-    return raw;
+    switch (type) {
+      case "dialogue":
+        return data;
+      case "quiz":
+        return data?.questions ?? [];
+      case "ordering":
+        return Array.isArray(data) ? data : [];
+      case "vocabmatch":
+        return Array.isArray(data) ? data : data?.pairs ?? [];
+      case "grammar":
+        return data?.sentences ?? [];
+      case "reading":
+        return Array.isArray(data) ? data : data?.paragraphs ?? [];
+      case "video":
+        return Array.isArray(data) ? data : [data];
+      case "explanation":
+        return data;
+      case "imagematch":
+        return data;
+      case "audiowordmatch":
+        return data;
+      case "lessoncomplete":
+        return data;
+      default:
+        return [];
+    }
   }, [type, data]);
 
+  /** -------------------------
+   * Auto-start behavior
+   ------------------------- */
   useEffect(() => {
-    console.log("useEffect triggered, type:", type, "data:", data);
-
     if (type === "dialogue" || type === "explanation") {
       setActivityData(data);
       setActivityStarted(true);
@@ -76,7 +108,6 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
 
     if (autoStartTypes.includes(type)) {
       const raw = getRawData();
-      console.log("Auto-start raw data:", raw);
       setActivityData(raw);
       setActivityStarted(true);
     }
@@ -86,31 +117,12 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     }
   }, [type, data, autoStartTypes, getRawData]);
 
+  /** -------------------------
+   * Start button handler
+   ------------------------- */
   const startActivity = () => {
-    console.log("startActivity called with type:", type, "data:", data);
-    if (type === "dialogue") {
-      setActivityData(data);
-      setActivityStarted(true);
-      setActivityEnded(false);
-      scrollToTop();
-      return;
-    }
-
-    const allData = getRawData();
-    console.log("startActivity allData:", type, allData);
-
-    if (type === "vocabmatch") {
-      setActivityData(allData);
-      console.log("Vocabmatch activityData set:", allData);
-    } else if (type === "quiz") {
-      const toUse = allData.slice(0, 10);
-      setActivityData(toUse);
-      console.log("Quiz toUse data:", toUse);
-    } else {
-      setActivityData(allData);
-      console.log("Other activityData set:", allData);
-    }
-
+    const raw = getRawData();
+    setActivityData(raw);
     setActivityStarted(true);
     setActivityEnded(false);
     setCurrentIndex(0);
@@ -118,8 +130,10 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     scrollToTop();
   };
 
+  /** -------------------------
+   * Restart the activity
+   ------------------------- */
   const handleRestart = () => {
-    console.log("handleRestart called");
     setActivityStarted(false);
     setActivityEnded(false);
     setScore(0);
@@ -127,22 +141,45 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     scrollToTop();
   };
 
+  /** -------------------------
+   * Go forward in multi-step flows
+   ------------------------- */
   const handleNext = () => {
-    if (type !== "vocabmatch" && currentIndex + 1 < activityData.length) {
+    // LessonComplete should not trigger score screen
+    if (type === "lessoncomplete") {
+      return;
+    }
+
+    // Non-vocabmatch multi-item activities
+    if (
+      type !== "vocabmatch" &&
+      Array.isArray(activityData) &&
+      currentIndex + 1 < activityData.length
+    ) {
       setCurrentIndex((prev) => prev + 1);
-    } else if (type !== "vocabmatch") {
+      return;
+    }
+
+    // End of activity → show score screen
+    if (type !== "vocabmatch") {
       setActivityEnded(true);
       scrollToTop();
     }
   };
 
+  /** -------------------------
+   * Go backwards
+   ------------------------- */
   const handlePrev = () => {
-    if (type !== "vocabmatch" && currentIndex > 0) setCurrentIndex((prev) => prev - 1);
+    if (type !== "vocabmatch" && currentIndex > 0) {
+      setCurrentIndex((prev) => prev - 1);
+    }
   };
 
+  /** -------------------------
+   * Render activity
+   ------------------------- */
   const ActivityComponent = () => {
-    console.log("ActivityComponent render, type:", type, "activityData:", activityData);
-
     if (type === "dialogue") {
       if (!activityData || !Array.isArray(activityData.lines)) {
         return <p>No dialogue data</p>;
@@ -180,31 +217,26 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
             }}
           />
         )}
-             {type === "tapaudio" && (
-            <TapAudioActivity
-              data={data}
-              onComplete={(success) => console.log("Completed:", success)}
-            />
-            )}
 
-            {type === "imagematch" && (
-            <ImageMatchActivity
-               data={activityData[currentIndex] || activityData}
-              onComplete={() => {}}
-              showTranslationToggle={true}
-            />
-            )}
+        {type === "tapaudio" && (
+          <TapAudioActivity data={data} onComplete={() => {}} />
+        )}
 
-           {type === "audiowordmatch" && (
-            <AudioWordMatchActivity
-              data={data}
-              onComplete={(success) => console.log("Audio match complete:", success)}
-              showTranslationToggle={true}
-            />
-          )}
+        {type === "imagematch" && (
+          <ImageMatchActivity
+            data={activityData[currentIndex] || activityData}
+            showTranslationToggle={true}
+            onComplete={() => {}}
+          />
+        )}
 
-
-
+        {type === "audiowordmatch" && (
+          <AudioWordMatchActivity
+            data={data}
+            showTranslationToggle={true}
+            onComplete={() => {}}
+          />
+        )}
 
         {type === "ordering" && (
           <SentenceOrdering
@@ -213,7 +245,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
           />
         )}
 
-       {type === "vocabmatch" && (
+        {type === "vocabmatch" && (
           <VocabMatchModal
             pairs={Array.isArray(activityData) ? activityData : data?.pairs}
             title={data?.quizTitle}
@@ -235,18 +267,33 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
           />
         )}
 
-        {type === "video" && <Videos data={activityData[currentIndex]} title={activityData[currentIndex]?.title} />}
+        {type === "video" && (
+          <Videos
+            data={activityData[currentIndex]}
+            title={activityData[currentIndex]?.title}
+          />
+        )}
+
+        {type === "lessoncomplete" && (
+          <LessonCompleteActivity
+            data={data}
+          />
+        )}
       </div>
     );
   };
 
-  const hideNav = ["dialogue", "vocabmatch", "grammar", "explanation"].includes(type);
-
+  /** -------------------------
+   * MAIN RENDER
+   ------------------------- */
   return (
     <div className="exercisesection">
       <div ref={topRef} />
 
-      {!activityStarted && !autoStartTypes.includes(type) && type !== "dialogue" ? (
+      {/* START SCREEN (only for types that do not auto-start) */}
+      {!activityStarted &&
+      !autoStartTypes.includes(type) &&
+      type !== "dialogue" ? (
         <div className="exercisesection__start">
           <div className="exercisesection__quiz-card">
             <span className="exercisesection__title">{data?.title ?? "Activity"}</span>
@@ -255,11 +302,13 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
             </button>
           </div>
         </div>
-      ) : activityEnded ? (
+      ) : activityEnded && type !== "lessoncomplete" ? (
+        /** SCORE SCREEN (NOT for lessoncomplete!) */
         <div className="exercisesection__score-card">
           <h2>Activity Completed!</h2>
           <p>
-            Your score: {score} / {Array.isArray(activityData) ? activityData.length : 0}
+            Your score: {score} /{" "}
+            {Array.isArray(activityData) ? activityData.length : 0}
           </p>
           <div className="newexerciseblock">
             <button onClick={handleRestart} className="exercisesection__restart-button">
@@ -274,32 +323,37 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
         <>
           <ActivityComponent />
 
-          {!hideNav && activityStarted && !activityEnded && activityData.length > 0 && (
-            <div className="exercisesection__nav button-row">
-              <div className="button-group">
-                <button onClick={handleRestart} className="exercisesection__nav-button">
-                  Reset
-                </button>
-              </div>
+          {/* NAVIGATION (hidden for certain activity types) */}
+          {!hideNav &&
+            activityStarted &&
+            !activityEnded &&
+            Array.isArray(activityData) &&
+            activityData.length > 0 && (
+              <div className="exercisesection__nav button-row">
+                <div className="button-group">
+                  <button onClick={handleRestart} className="exercisesection__nav-button">
+                    Reset
+                  </button>
+                </div>
 
-              <div className="button-group">
-                <button
-                  onClick={handlePrev}
-                  disabled={currentIndex === 0}
-                  className="exercisesection__nav-button exercisesection__nav-button--prev"
-                >
-                  Previous
-                </button>
+                <div className="button-group">
+                  <button
+                    onClick={handlePrev}
+                    disabled={currentIndex === 0}
+                    className="exercisesection__nav-button exercisesection__nav-button--prev"
+                  >
+                    Previous
+                  </button>
 
-                <button
-                  onClick={handleNext}
-                  className="exercisesection__nav-button exercisesection__nav-button--next"
-                >
-                  {currentIndex + 1 === activityData.length ? "Finish" : "Next"}
-                </button>
+                  <button
+                    onClick={handleNext}
+                    className="exercisesection__nav-button exercisesection__nav-button--next"
+                  >
+                    {currentIndex + 1 === activityData.length ? "Finish" : "Next"}
+                  </button>
+                </div>
               </div>
-            </div>
-          )}
+            )}
         </>
       )}
     </div>

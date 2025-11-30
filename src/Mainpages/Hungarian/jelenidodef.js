@@ -13,6 +13,7 @@ const sections = [
   { label: "Word Order", type: "ordering", subtype: "van" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
+  { label: "Lesson Complete", type: "lessoncomplete", subtype: "jelendef" },
 ];
 
 const Jelenidodef = () => (

@@ -9,7 +9,6 @@
       { "id": "b", "image": "/images/french.jpg", "word": "francia", "isCorrect": false }
     ],
     "translation": "German",
-    "van": "",
     "mode": "word-to-image"
   },
   {
@@ -21,8 +20,6 @@
       { "id": "b", "word": "olasz", "isCorrect": false },
       { "id": "c", "word": "német", "isCorrect": false }
     ],
-    "translation": "French",
-    "van": "",
     "mode": "image-to-word"
   },
   {
@@ -35,7 +32,6 @@
       { "id": "b", "image": "/images/english.webp", "word": "angol", "isCorrect": false }
     ],
     "translation": "Italian",
-    "van": "",
     "mode": "word-to-image"
   },
   {
@@ -48,7 +44,6 @@
       { "id": "c", "word": "német", "isCorrect": false }
     ],
     "translation": "English",
-    "van": "",
     "mode": "image-to-word"
   },
   {
@@ -61,7 +56,6 @@
       { "id": "b", "image": "/images/french.jpg", "word": "francia", "isCorrect": false }
     ],
     "translation": "American",
-    "van": "",
     "mode": "word-to-image"
   },
 
@@ -75,7 +69,6 @@
       { "id": "b", "image": "/images/thirsty.webp", "word": "szomjas", "isCorrect": false }
     ],
     "translation": "hungry",
-    "van": "",
     "mode": "word-to-image"
   },
   {

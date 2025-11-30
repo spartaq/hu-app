@@ -142,6 +142,8 @@ import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimple
 // VIDEO
 import videoPhones from "../Utils/Activities/Data/videos/phones.js";
 import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
+// LESSONCOMPLETE
+import lessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_basicphrases.json";
 
 /* --------------------------------------------------------- */
 /* ----------------------- LOOK HERE ------------------------ */
@@ -305,6 +307,10 @@ const DATA_MAP = {
     phones: videoPhones,
     spotify: videoSpotify,
   },
+
+  lessoncomplete: {
+  basicphrases: lessoncompleteBasicphrasesData
+},
 };
 
 /* --------------------------------------------------------- */
@@ -327,7 +333,8 @@ const ModalRouter = ({ type, subtype, scrollTargetRef }) => {
     (type === "grammar" && (!data || !Array.isArray(data.sentences))) ||
     (type === "reading" && !data) ||
     (type === "video" && !data) ||
-    (type === "dialogue" && !data)
+    (type === "dialogue" && !data) ||
+    (type === "lessoncomplete" && !data)
   ) {
     return <div>Error: Invalid data format for {type} → {subtype}</div>;
   }
