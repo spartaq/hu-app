@@ -143,6 +143,19 @@ import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimple
 import videoPhones from "../Utils/Activities/Data/videos/phones.js";
 import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
 // LESSONCOMPLETE
+import lessoncompleteLenniData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_lenni.json";
+import lessoncompleteJelendefData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jelendef.json";
+import lessoncompleteJelenindefData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jelenindef.json";
+import lessoncompleteMultData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_mult.json";
+import lessoncompleteVanData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_van.json";
+import lessoncompleteNekivanData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nekivan.json";
+import lessoncompleteJovoData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jovo.json";
+import lessoncompleteBirtoklasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_birtoklas.json";
+import lessoncompleteNevmasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nevmas.json";
+import lessoncompleteNevutoData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_nevuto.json";
+import lessoncompleteHasonlitasData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_hasonlitas.json";
+import lessoncompleteFokuszData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_fokusz.json";
+import lessoncompleteHarmoniaData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_harmonia.json";
 import lessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_basicphrases.json";
 
 /* --------------------------------------------------------- */
@@ -309,8 +322,22 @@ const DATA_MAP = {
   },
 
   lessoncomplete: {
-  basicphrases: lessoncompleteBasicphrasesData
+  basicphrases: lessoncompleteBasicphrasesData,
+  lenni: lessoncompleteLenniData,
+  jelendef: lessoncompleteJelendefData,
+  jelenindef: lessoncompleteJelenindefData,
+  mult: lessoncompleteMultData,
+  van: lessoncompleteVanData,
+  nekivan: lessoncompleteNekivanData,
+  jovo: lessoncompleteJovoData,
+  birtoklas: lessoncompleteBirtoklasData,
+  nevmas: lessoncompleteNevmasData,
+  nevuto: lessoncompleteNevutoData,
+  hasonlitas: lessoncompleteHasonlitasData,
+  fokusz: lessoncompleteFokuszData,
+  harmonia: lessoncompleteHarmoniaData,
 },
+
 };
 
 /* --------------------------------------------------------- */

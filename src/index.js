@@ -13,12 +13,12 @@ import App from './App';
 import MainFrame from './Mainpages/MainFrame';
 import Home from './Mainpages/Home';
 import VerbsHun from './Mainpages/Flashcards/verbshun';
-import JelenIdoDef from './Mainpages/Hungarian/jelenidodef';
+import JelenDef from './Mainpages/Hungarian/jelendef';
 import Lenni from './Mainpages/Hungarian/lenni';
-import JelenIdoIndef from './Mainpages/Hungarian/jelenidoIndef';
-import MultIdo from './Mainpages/Hungarian/multido';
+import JelenIndef from './Mainpages/Hungarian/jelenindef';
+import Mult from './Mainpages/Hungarian/mult';
 import Van from './Mainpages/Hungarian/van';
-import JovoIdo from './Mainpages/Hungarian/jovoido';
+import Jovo from './Mainpages/Hungarian/jovo';
 import HungarianTemplate from './Mainpages/Hungarian/hungarianexercisetemplate';
 import HuVerbConjugation from './Mainpages/Hungarian/verbconjugationtable';
 import Nekivan from './Mainpages/Hungarian/nekivan';
@@ -61,16 +61,16 @@ const router = createBrowserRouter([
             element: <Lenni />,
           },
           { 
-            path: 'hungarian/jelenidodef',
-            element: <JelenIdoDef />,
+            path: 'hungarian/jelendef',
+            element: <JelenDef />,
           },
           {
-            path: 'hungarian/jelenidoindef',
-            element: <JelenIdoIndef />,
+            path: 'hungarian/jelenindef',
+            element: <JelenIndef />,
           },
           {
-            path: 'hungarian/multido',
-            element: <MultIdo />,
+            path: 'hungarian/mult',
+            element: <Mult />,
           },
           {
             path: 'hungarian/van',
@@ -85,8 +85,8 @@ const router = createBrowserRouter([
             element: <Nekivan />,
           },
           {
-            path: 'hungarian/jovoido',
-            element: <JovoIdo />,
+            path: 'hungarian/jovo',
+            element: <Jovo />,
           },
           {
             path: 'hungarian/birtoklas',
