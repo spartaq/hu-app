@@ -7,7 +7,7 @@ const NumbersIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Numbers</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Számok (Numbers)</h2>
         <p>
           Learn some Numbers.
         </p>

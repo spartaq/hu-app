@@ -7,7 +7,7 @@ const BirtoklasIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Possession</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Birtoklas (Possessive)</h2>
         <p>
           Learn how to use <strong>“mine, yours”</strong>.
         </p>

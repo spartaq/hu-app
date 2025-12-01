@@ -2,7 +2,7 @@ module.exports = [
   
     {
         "id": "basicphrases",
-        "title": "Basic Phrases",
+        "title": "Alapvető Kifejezések (Basic Phrases)",
       "category": "hungarian",
       "subtitle": "Hello, Good day, Good evening",
       "level": "HU1",
@@ -12,7 +12,7 @@ module.exports = [
       },
        {
         "id": "orderingdrinks",
-        "title": "Ordering Drinks",
+        "title": "Rendelés (Ordering Food and Drinks)",
       "category": "hungarian",
       "subtitle": "Kérek, Szeretnék - I'd like",
       "level": "HU1",
@@ -22,7 +22,7 @@ module.exports = [
       },
       {
         "id": "numbers",
-        "title": "Numbers",
+        "title": "Számok (Numbers)",
       "category": "hungarian",
       "subtitle": "numbers, dates, money",
       "level": "HU1",
@@ -42,27 +42,27 @@ module.exports = [
       },    
       {
         "id": "nekivan",
-        "title": "Neki van (have)",
+        "title": "Neki Van (To Have)",
       "category": "hungarian",
       "subtitle": "nekem van, neki van",
       "level": "HU1",
         "time": "60 min",
-        "description": "Van/Neki van - There is/have (possession)",
+        "description": "Neki van - He/she has",
         "image": "/Images/jelenido1.jpg"
       },    
       {
         "id": "van",
         "title": "Van (There is, There are)",
       "category": "hungarian",
-      "subtitle": "vagyok, vagy, van",
+      "subtitle": "ott van",
       "level": "HU1",
         "time": "60 min",
-        "description": "Van/Neki van - There is/have (possession)",
+        "description": "Van - How to use van",
         "image": "/Images/jelenido1.jpg"
       },    
       {
         "id": "irregularverbs",
-        "title": "Irregular Verbs",
+        "title": "Rendhagyó Igék (Irregular Verbs)",
       "category": "hungarian",
       "subtitle": "lenni, tenni",
       "level": "HU1",
@@ -92,7 +92,7 @@ module.exports = [
       },
       {
         "id": "basicadjectives",
-        "title": "Basic Adjectives",
+        "title": "Alapvető Melléknevek (Basic Adjectives)",
       "category": "hungarian",
       "subtitle": "colors, size, shape",
       "level": "HU1",
@@ -102,7 +102,7 @@ module.exports = [
       },
       {
         "id": "basicquestions",
-        "title": "Basic Questions",
+        "title": "Alapvető Kerdesek (Basic Questions)",
       "category": "hungarian",
       "subtitle": "Ki, Mi, Hol - Who, What, Where",
       "level": "HU1",

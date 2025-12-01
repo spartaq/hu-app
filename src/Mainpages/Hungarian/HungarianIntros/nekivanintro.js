@@ -7,7 +7,7 @@ const NekivanIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Neki van - to have</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Neki van (To Have)</h2>
         <p>
           Learn how to use <strong>neki van - to have”</strong>.
         </p>

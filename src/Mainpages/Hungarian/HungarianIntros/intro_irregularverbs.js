@@ -6,7 +6,7 @@ const irregularverbsIntro = () => {
   return (
     <div className="grammar-explanation">
       <div>
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Irregular Verbs</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Rendhagyó igék (Irregular Verbs)</h2>
         <p>
           Learn to use irregularverbs.
         </p>

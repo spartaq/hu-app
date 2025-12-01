@@ -7,7 +7,7 @@ const FokuszIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Fokusz - Word Order</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Fokusz (Word Order)</h2>
         <p>
           Learn how to use <strong>word order</strong>.
         </p>

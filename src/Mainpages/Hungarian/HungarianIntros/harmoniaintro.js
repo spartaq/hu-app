@@ -7,7 +7,7 @@ const HarmoniaIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Vowel harmony</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Harmonia (Vowel harmony)</h2>
         <p>
           Learn how to use <strong>vowel harmony</strong>.
         </p>

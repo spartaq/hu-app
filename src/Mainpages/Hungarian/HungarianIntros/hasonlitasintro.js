@@ -7,7 +7,7 @@ const HasonlitasIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Comparison</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Hasonlitas (Comparison)</h2>
         <p>
           Learn how to use <strong>Comparison</strong>.
         </p>

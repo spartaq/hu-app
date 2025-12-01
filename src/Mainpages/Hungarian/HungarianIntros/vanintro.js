@@ -7,7 +7,7 @@ const VanIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Van  - There Is</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Van (There Is)</h2>
         <p>
           Learn how to use <strong>van - there is”</strong>.
         </p>

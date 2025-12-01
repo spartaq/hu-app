@@ -7,7 +7,7 @@ const LenniIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Lenni - To Be</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Lenni (To Be)</h2>
         <p>
           Learn how to use <strong>“vagyok - to be”</strong>.
         </p>

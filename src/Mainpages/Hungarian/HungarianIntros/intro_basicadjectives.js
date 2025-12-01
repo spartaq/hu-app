@@ -6,7 +6,7 @@ const BasicAdjectivesIntro = () => {
   return (
     <div className="grammar-explanation">
       <div>
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Basic Adjectives</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Alapvető Melléknevek (Basic Adjectives)</h2>
         <p>
           Learn to use basic adjectives.
         </p>

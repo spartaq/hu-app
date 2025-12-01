@@ -7,9 +7,9 @@ const JelendefIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Present Def</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Jelen Idő - Határozott (Simple Present - Definite Conjugation)</h2>
         <p>
-          Learn how to use <strong>present def</strong>.
+          Learn how to use <strong>present definite verb form</strong>.
         </p>
 
       </div>

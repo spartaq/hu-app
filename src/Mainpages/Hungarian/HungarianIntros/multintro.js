@@ -7,7 +7,7 @@ const MultIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Past</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Mult Idő (Simple Past)</h2>
         <p>
           Learn how to use <strong>past</strong>.
         </p>

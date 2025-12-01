@@ -7,7 +7,7 @@ const NevutoIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Nevuto</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Nevutó (Postpositions)</h2>
         <p>
           Learn how to use <strong>Nevuto</strong>.
         </p>

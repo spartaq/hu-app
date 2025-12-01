@@ -1,7 +1,7 @@
 
 import React from 'react';
 import GrammarPageLayout from '../../Components/ModalLayout';
-import GrammarExplanation from './HungarianIntros/jelenidoindefintro';
+import GrammarExplanation from './HungarianIntros/jelenindefintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [

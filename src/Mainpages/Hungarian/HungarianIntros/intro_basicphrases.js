@@ -7,7 +7,7 @@ const BasicPhrasesIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Basic Phrases</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} />Alapvető Kifejezések (Basic Phrases)</h2>
         <p>
           Learn some basic phrases.
         </p>

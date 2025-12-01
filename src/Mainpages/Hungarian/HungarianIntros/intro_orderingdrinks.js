@@ -7,7 +7,7 @@ const OrderingDrinksIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Ordering Drinks</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Rendelés (Ordering Food and Drinks)</h2>
         <p>
           Learn the language for ordering at restartuants and cafes.
         </p>

@@ -7,7 +7,7 @@ const JovoIntro = () => {
     <div className="grammar-explanation">
       <div>
 
-        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Future</h2>
+        <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Jővő (Future)</h2>
         <p>
           Learn how to use <strong>future</strong>.
         </p>
