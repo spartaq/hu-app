@@ -2,19 +2,19 @@
   {
     "id": "aw1",
     "audio": "/audio/audiotest.mp3",
-    "text": "Helló",
-    "translation": "Hello"
+    "text": "En",
+    "translation": "I/me"
   },
   {
     "id": "aw2",
     "audio": "/audio/good_morning.mp3",
-    "text": "Jó reggelt",
-    "translation": "Good morning"
+    "text": "Te",
+    "translation": "You"
   },
   {
     "id": "aw3",
     "audio": "/audio/good_evening.mp3",
-    "text": "Jó estét",
-    "translation": "Good evening"
+    "text": "Ők",
+    "translation": "They"
   }
 ]

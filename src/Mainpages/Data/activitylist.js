@@ -169,6 +169,16 @@ module.exports = [
         "time": "60 min",
         "description": "Összehasonlítás (Comparison)",
         "image": "/Images/jelenido1.jpg"
+      },         
+      {
+        "id": "harmonia",
+        "title": "Magánhangzó Harmónia (Vowel Harmony)",
+      "category": "hungarian",
+      "subtitle": "A házban, a kertben",
+      "level": "HU2",
+        "time": "60 min",
+        "description": "Magánhangzó Harmónia (Vowel Harmony)",
+        "image": "/Images/jelenido1.jpg"
       },            
       {
         "id": "fokusz",
@@ -179,16 +189,6 @@ module.exports = [
         "time": "60 min",
         "description": "Fokusz (Word Order)",
         "image": "/Images/jelenido1.jpg"
-      },             
-      {
-        "id": "harmonia",
-        "title": "Magánhangzó Harmónia (Vowel Harmony)",
-      "category": "hungarian",
-      "subtitle": "A házban, a kertben",
-      "level": "HU2",
-        "time": "60 min",
-        "description": "Magánhangzó Harmónia (Vowel Harmony)",
-        "image": "/Images/jelenido1.jpg"
-      }
+      }    
   ]
   

@@ -4,7 +4,7 @@
     "type": "ordering",
     "topic": "jelenindef",
     "quizTitle": "Put the sentence in order",
-    "sentence": ["Reggel", "futok"],
+    "sentence": "Reggel futok.",
     "translation": "I run in the morning."
   },
   {
@@ -12,7 +12,7 @@
     "type": "ordering",
     "topic": "jelenindef",
     "quizTitle": "Put the sentence in order",
-    "sentence": ["Este", "olvasok"],
+    "sentence": "Este olvasok.",
     "translation": "I read in the evening."
   }
 ]

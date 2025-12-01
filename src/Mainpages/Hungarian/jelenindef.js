@@ -8,9 +8,10 @@ const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "jelenindef" },
   { label: "Dialogue", type: "dialogue", subtype: "jelenindef" },
   { label: "Vocab", type: "vocabmatch", subtype: "jelenindef" },
-  
-{ label: "Exercises", type: "grammarquiz", subtype: "jelenindef" },
-  { label: "Word Order", type: "ordering", subtype: "van" },
+  { label: "Audio Match", type: "audiowordmatch", subtype: "jelenindef" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "jelenindef" },  
+  { label: "Exercises", type: "grammarquiz", subtype: "jelenindef" },
+  { label: "Word Order", type: "ordering", subtype: "jelenindef" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
   { label: "Lesson Complete", type: "lessoncomplete", subtype: "jelenindef" },

@@ -1,107 +1,23 @@
 [
   {
-    "id": "basicphrases1",
+    "id": "nevmas1",
+    "title": "Tap What You Hear - Pronouns",
+    "audiosrc": "/audio/nevmas/en.mp3",
+    "correctSequence": ["Én"],
+    "translation": "I / Me"
+  },
+  {
+    "id": "nevmas2",
     "title": "Tap What You Hear - Greetings",
-    "audiosrc": "/audio/basicphrases/hello.mp3",
-    "correctSequence": ["Szia"],
-    "translation": "Hi / Hello"
+    "audiosrc": "/audio/nevmas/te.mp3",
+    "correctSequence": ["Te"],
+    "translation": "You"
   },
   {
-    "id": "basicphrases2",
+    "id": "nevmas3",
     "title": "Tap What You Hear - Greetings",
-    "audiosrc": "/audio/basicphrases/hi.mp3",
-    "correctSequence": ["Helló"],
-    "translation": "Hello"
-  },
-  {
-    "id": "basicphrases3",
-    "title": "Tap What You Hear - Greetings",
-    "audiosrc": "/audio/basicphrases/good_morning.mp3",
-    "correctSequence": ["Jó", "reggelt"],
-    "translation": "Good morning"
-  },
-  {
-    "id": "basicphrases4",
-    "title": "Tap What You Hear - Greetings",
-    "audiosrc": "/audio/basicphrases/good_day.mp3",
-    "correctSequence": ["Jó", "napot"],
-    "translation": "Good afternoon"
-  },
-  {
-    "id": "basicphrases5",
-    "title": "Tap What You Hear - Greetings",
-    "audiosrc": "/audio/basicphrases/good_evening.mp3",
-    "correctSequence": ["Jó", "estét"],
-    "translation": "Good evening"
-  },
-  {
-    "id": "basicphrases6",
-    "title": "Tap What You Hear - Politeness",
-    "audiosrc": "/audio/basicphrases/please.mp3",
-    "correctSequence": ["Kérem"],
-    "translation": "Please"
-  },
-  {
-    "id": "basicphrases7",
-    "title": "Tap What You Hear - Politeness",
-    "audiosrc": "/audio/basicphrases/thank_you.mp3",
-    "correctSequence": ["Köszönöm"],
-    "translation": "Thank you"
-  },
-  {
-    "id": "basicphrases8",
-    "title": "Tap What You Hear - Politeness",
-    "audiosrc": "/audio/basicphrases/excuse_me.mp3",
-    "correctSequence": ["Elnézést"],
-    "translation": "Excuse me"
-  },
-  {
-    "id": "basicphrases9",
-    "title": "Tap What You Hear - Politeness",
-    "audiosrc": "/audio/basicphrases/sorry.mp3",
-    "correctSequence": ["Sajnálom"],
-    "translation": "Sorry"
-  },
-  {
-    "id": "basicphrases10",
-    "title": "Tap What You Hear - Small Talk",
-    "audiosrc": "/audio/basicphrases/how_are_you.mp3",
-    "correctSequence": ["Hogy", "vagy"],
-    "translation": "How are you?"
-  },
-  {
-    "id": "basicphrases11",
-    "title": "Tap What You Hear - Small Talk",
-    "audiosrc": "/audio/basicphrases/iam_fine.mp3",
-    "correctSequence": ["Jól", "vagyok"],
-    "translation": "I'm fine"
-  },
-  {
-    "id": "basicphrases12",
-    "title": "Tap What You Hear - Introductions",
-    "audiosrc": "/audio/basicphrases/my_name_is.mp3",
-    "correctSequence": ["A", "nevem"],
-    "translation": "My name is…"
-  },
-  {
-    "id": "basicphrases13",
-    "title": "Tap What You Hear - Introductions",
-    "audiosrc": "/audio/basicphrases/nice_to_meet.mp3",
-    "correctSequence": ["Örülök", "hogy", "megismertelek"],
-    "translation": "Nice to meet you"
-  },
-  {
-    "id": "basicphrases14",
-    "title": "Tap What You Hear - Everyday",
-    "audiosrc": "/audio/basicphrases/where_is_toilet.mp3",
-    "correctSequence": ["Hol", "van", "a", "mosdó"],
-    "translation": "Where is the bathroom?"
-  },
-  {
-    "id": "basicphrases15",
-    "title": "Tap What You Hear - Everyday",
-    "audiosrc": "/audio/basicphrases/can_you_help.mp3",
-    "correctSequence": ["Tudsz", "segíteni"],
-    "translation": "Can you help?"
+    "audiosrc": "/audio/nevmas/ti.mp3",
+    "correctSequence": ["Ti"],
+    "translation": "You all"
   }
 ]

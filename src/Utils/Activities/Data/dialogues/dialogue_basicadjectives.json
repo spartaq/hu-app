@@ -1,17 +1,38 @@
 {
-  "title": "#",
-  "audio": "#",
+  "title": "Describing People",
+  "audio": "/audio/basicadjectives/dialogue.mp3",
   "avatarMap": {
-    "Speaker1": "/avatars/default1.png",
-    "Speaker2": "/avatars/default2.png"
+    "Anna": "/avatars/anna.png",
+    "Béla": "/avatars/bela.png"
   },
   "lines": [
     {
-      "speaker": "Speaker1",
-      "text": "#",
-      "translation": "#",
+      "speaker": "Anna",
+      "text": "Szia, Béla! Milyen a új diák?",
+      "translation": "Hi Béla! What is the new student like?",
       "start": 0,
-      "end": 0
+      "end": 2000
+    },
+    {
+      "speaker": "Béla",
+      "text": "Ő magas és nagyon okos.",
+      "translation": "He is tall and very smart.",
+      "start": 2000,
+      "end": 4000
+    },
+    {
+      "speaker": "Anna",
+      "text": "És barátságos?",
+      "translation": "And is he friendly?",
+      "start": 4000,
+      "end": 5500
+    },
+    {
+      "speaker": "Béla",
+      "text": "Igen, nagyon kedves és mindig boldog.",
+      "translation": "Yes, he is very kind and always happy.",
+      "start": 5500,
+      "end": 7500
     }
   ]
 }

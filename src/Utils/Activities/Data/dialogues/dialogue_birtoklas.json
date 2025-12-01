@@ -1,66 +1,45 @@
 {
-  "title": "Office Conversation",
-  "audio": "/audio/neighbors.mp3",
+  "title": "A családom – My Family",
+  "audio": "/audio/birtoklas/dialogue.mp3",
   "avatarMap": {
     "Anna": "/avatars/anna.png",
-    "Bálint": "/avatars/balint.png"
+    "Béla": "/avatars/bela.png"
   },
   "lines": [
     {
-    "speaker": "Anna",
-    "text": "Szia! Anna vagyok, új vagyok a házban.",
-    "translation": "Hi! I’m Anna, I’m new to the building.",
-    "start": 0,
-    "end": 3836
-  },
-  {
-    "speaker": "Bálint",
-    "text": "Szia, Anna! Én Bálint vagyok. Te vagy az új szomszéd?",
-    "translation": "Hi, Anna! I’m Bálint. Are you the new neighbor?",
-    "start": 3837,
-    "end": 7000
-  },
-  {
-    "speaker": "Anna",
-    "text": "Tegnap óta itt vagyok. Te vagy a szomszédom?",
-    "translation": "I’ve been here since yesterday. Are you my neighbor?",
-    "start": 7000,
-    "end": 10500
-  },
-  {
-    "speaker": "Bálint",
-    "text": "Igen, itt lakom, tehát igen, a szomszédod vagyok. A második emeleten vagyok.",
-    "translation": "Yes, I live here, so yes, I’m your neighbor. I’m on the second floor.",
-    "start": 10500,
-    "end": 15332
-  },
-  {
-    "speaker": "Anna",
-    "text": "Ó, én is a második emeleten vagyok, a folyosó végén.",
-    "translation": "Oh, I’m on the second floor too, at the end of the hall.",
-    "start": 15376,
-    "end": 19000
-  },
-  {
-    "speaker": "Bálint",
-    "text": "Akkor tényleg igazi szomszédok vagyunk!",
-    "translation": "Then we really are neighbors!",
-    "start": 19348,
-    "end": 21761
-  },
-  {
-    "speaker": "Anna",
-    "text": "Örülök, hogy találkoztunk!",
-    "translation": "Nice to meet you!",
-    "start": 21806,
-    "end": 23469
-  },
-  {
-    "speaker": "Bálint",
-    "text": "Én is. És ha bármi kell, itt vagyok.",
-    "translation": "Me too. And if you need anything, I’m here.",
-    "start": 23600,
-    "end": 27000
-  }
+      "speaker": "Anna",
+      "text": "Ő az anyám.",
+      "translation": "This is my mother.",
+      "start": 0,
+      "end": 2000
+    },
+    {
+      "speaker": "Béla",
+      "text": "És ő az apád?",
+      "translation": "And is that your father?",
+      "start": 2000,
+      "end": 4000
+    },
+    {
+      "speaker": "Anna",
+      "text": "Igen, ő az apám. A bátyám is itt van.",
+      "translation": "Yes, he is my father. My older brother is here too.",
+      "start": 4000,
+      "end": 7000
+    },
+    {
+      "speaker": "Béla",
+      "text": "Az öcsém új kabátja nagyon tetszik.",
+      "translation": "I like my younger brother’s new coat.",
+      "start": 7000,
+      "end": 10000
+    },
+    {
+      "speaker": "Anna",
+      "text": "A nővérem cipője fekete.",
+      "translation": "My sister's shoes are black.",
+      "start": 10000,
+      "end": 13000
+    }
   ]
 }

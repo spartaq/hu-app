@@ -1,24 +1,14 @@
 [
   {
     "id": 1,
-    "quizTitle": "#",
-    "audio": "/audio/example.mp3",
-    "prompt": "#",
+    "quizTitle": "Match the Adjective",
+    "audio": "/audio/basicadjectives/img1.mp3",
+    "prompt": "Which picture shows 'piros'?",
     "options": [
-      {
-        "id": "a",
-        "image": "/images/example1.jpg",
-        "word": "#",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "image": "/images/example2.jpg",
-        "word": "#",
-        "isCorrect": false
-      }
+      { "id": "a", "image": "/images/red.jpg", "word": "piros", "isCorrect": true },
+      { "id": "b", "image": "/images/blue.jpg", "word": "kék", "isCorrect": false }
     ],
-    "translation": "#",
+    "translation": "red",
     "mode": "word-to-image"
   }
 ]

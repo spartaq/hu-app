@@ -1,28 +1,38 @@
 [
   {
     "id": 1,
-    "quizTitle": "Vocabulary - Animals",
-    "audio": "/audio/cat.mp3",
-    "prompt": "macska",
+    "quizTitle": "Match the Picture",
+    "audio": "/audio/birtoklas/match1.mp3",
+    "prompt": "Válaszd ki: anyám",
     "options": [
-      { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/argue1.jpg", "word": "dog", "isCorrect": false }
+      { "id": "a", "image": "/images/mother.jpg", "word": "anyám", "isCorrect": true },
+      { "id": "b", "image": "/images/father.jpg", "word": "apám", "isCorrect": false }
     ],
-    "translation": "cat",
+    "translation": "Choose: my mother",
     "mode": "word-to-image"
   },
   {
     "id": 2,
-    "quizTitle": "Vocabulary - Animals",
-    "promptImage": "/images/wish1.jpg",
+    "quizTitle": "Match the Picture",
+    "audio": "/audio/birtoklas/match2.mp3",
+    "prompt": "Válaszd ki: testvérem",
     "options": [
-      { "id": "a", "word": "cat", "isCorrect": true },
-      { "id": "b", "word": "dog", "isCorrect": false },
-      { "id": "c", "word": "mouse", "isCorrect": false }
+      { "id": "a", "image": "/images/sibling.jpg", "word": "testvérem", "isCorrect": true },
+      { "id": "b", "image": "/images/baby.jpg", "word": "babám", "isCorrect": false }
     ],
-    "translation": "cat",
-    "mode": "image-to-word"
+    "translation": "Choose: my sibling",
+    "mode": "word-to-image"
+  },
+  {
+    "id": 3,
+    "quizTitle": "Match the Picture",
+    "audio": "/audio/birtoklas/match3.mp3",
+    "prompt": "Válaszd ki: cipőm",
+    "options": [
+      { "id": "a", "image": "/images/shoes.jpg", "word": "cipőm", "isCorrect": true },
+      { "id": "b", "image": "/images/coat.jpg", "word": "kabátom", "isCorrect": false }
+    ],
+    "translation": "Choose: my shoes",
+    "mode": "word-to-image"
   }
 ]
-
-

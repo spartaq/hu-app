@@ -135,8 +135,8 @@ import HuOrderingIrregularverbsData from "../Utils/Activities/Data/ordering/word
 import HuOrderingBasicadjectivesData from "../Utils/Activities/Data/ordering/wordorder_basicadjectives.json";
 import HuOrderingNumbersData from "../Utils/Activities/Data/ordering/wordorder_numbers.json";
 import HuOrderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
-import HuOrderingJelenDefData from "../Utils/Activities/Data/ordering/wordorder_jelendef.json";
-import HuOrderingJelenIndefData from "../Utils/Activities/Data/ordering/wordorder_jelenindef.json";
+import HuOrderingJelendefData from "../Utils/Activities/Data/ordering/wordorder_jelendef.json";
+import HuOrderingJelenindefData from "../Utils/Activities/Data/ordering/wordorder_jelenindef.json";
 import HuOrderingMultData from "../Utils/Activities/Data/ordering/wordorder_mult.json";
 import HuOrderingVanData from "../Utils/Activities/Data/ordering/wordorder_van.json";
 import HuOrderingNekivanData from "../Utils/Activities/Data/ordering/wordorder_nekivan.json";
@@ -219,8 +219,8 @@ const DATA_MAP = {
     basicadjectives: HuExplanationBasicadjectivesData,
     orderingdrinks: HuExplanationOrderingdrinksData,
     lenni: HuExplanationLenniData,
-    jelenidodef: HuExplanationJelenDefData,
-    jelenidoindef: HuExplanationJelenIndefData,
+    jelendef: HuExplanationJelenDefData,
+    jelenindef: HuExplanationJelenIndefData,
     mult: HuExplanationMultData,
     van: HuExplanationVanData,
     nekivan: HuExplanationNekivanData,
@@ -241,8 +241,8 @@ const DATA_MAP = {
     numbers: HuDialogueNumbersData,
     orderingdrinks: HuDialogueOrderingdrinksData,
     lenni: HuDialogueLenniData,
-    jelenDef: HuDialogueJelenDefData,
-    jelenIndef: HuDialogueJelenIndefData,
+    jelendef: HuDialogueJelenDefData,
+    jelenindef: HuDialogueJelenIndefData,
     mult: HuDialogueMultData,
     van: HuDialogueVanData,
     nekivan: HuDialogueNekivanData,
@@ -263,8 +263,8 @@ const DATA_MAP = {
     numbers: HuTapAudioNumbersData,
     orderingdrinks: HuTapAudioOrderingdrinksData,
     lenni: HuTapAudioLenniData,
-    jelenDef: HuTapAudioJelenDefData,
-    jelenIndef: HuTapAudioJelenIndefData,
+    jelendef: HuTapAudioJelenDefData,
+    jelenindef: HuTapAudioJelenIndefData,
     mult: HuTapAudioMultData,
     van: HuTapAudioVanData,
     nekivan: HuTapAudioNekivanData,
@@ -285,8 +285,8 @@ const DATA_MAP = {
     numbers: HuImageMatchNumbersData,
     orderingdrinks: HuImageMatchOrderingdrinksData,
     lenni: HuImageMatchLenniData,
-    jelenDef: HuImageMatchJelenDefData,
-    jelenIndef: HuImageMatchJelenIndefData,
+    jelendef: HuImageMatchJelenDefData,
+    jelenindef: HuImageMatchJelenIndefData,
     mult: HuImageMatchMultData,
     van: HuImageMatchVanData,
     nekivan: HuImageMatchNekivanData,
@@ -307,8 +307,8 @@ const DATA_MAP = {
     numbers: HuAudioWordMatchNumbersData,
     orderingdrinks: HuAudioWordMatchOrderingdrinksData,
     lenni: HuAudioWordMatchLenniData,
-    jelenDef: HuAudioWordMatchJelenDefData,
-    jelenIndef: HuAudioWordMatchJelenIndefData,
+    jelendef: HuAudioWordMatchJelenDefData,
+    jelenindef: HuAudioWordMatchJelenIndefData,
     mult: HuAudioWordMatchMultData,
     van: HuAudioWordMatchVanData,
     nekivan: HuAudioWordMatchNekivanData,
@@ -327,8 +327,8 @@ const DATA_MAP = {
     irregularverbs: HuGrammarquizIrregularverbsData,
     basicadjectives: HuGrammarquizBasicadjectivesData,
     numbers: HuGrammarquizNumbersData,
-    jelenidodef: HuJelenDefGrammarQuizData,
-    jelenidoindef: HuJelenIndefGrammarQuizData,
+    jelendef: HuJelenDefGrammarQuizData,
+    jelenindef: HuJelenIndefGrammarQuizData,
     multido: HuMultGrammarQuizData,
     lenni: HuLenniGrammarQuizData,
     van: HuVanGrammarQuizData,
@@ -351,8 +351,8 @@ const DATA_MAP = {
     numbers: HuOrderingNumbersData,
     orderingdrinks: HuOrderingOrderingdrinksData,
    lenni: HuOrderingLenniData,
-    jelenDef: HuOrderingJelenDefData,
-    jelenIndef: HuOrderingJelenIndefData,
+    jelendef: HuOrderingJelendefData,
+    jelenindef: HuOrderingJelenindefData,
     mult: HuOrderingMultData,
     van: HuOrderingVanData,
     nekivan: HuOrderingNekivanData,
@@ -373,8 +373,8 @@ const DATA_MAP = {
     numbers: HuVocabmatchNumbersData,
     orderingdrinks: HuVocabmatchOrderingdrinksData,
   lenni: HuVocabmatchLenniData,
-  jelenDef: HuVocabmatchJelenidoDefData,
-  jelenIndef: HuVocabmatchJelenidoIndefData,
+  jelendef: HuVocabmatchJelenidoDefData,
+  jelenindef: HuVocabmatchJelenidoIndefData,
   mult: HuVocabmatchMultidoData,
   van: HuVocabmatchVanData,
   nekivan: HuVocabmatchNekivanData,

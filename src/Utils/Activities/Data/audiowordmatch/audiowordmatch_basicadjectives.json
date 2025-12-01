@@ -1,8 +1,6 @@
 [
-  {
-    "id": "aw1",
-    "audio": "/audio/example.mp3",
-    "text": "#",
-    "translation": "#"
-  }
+  { "id": "aw1", "audio": "/audio/basicadjectives/aw1.mp3", "text": "nagy", "translation": "big" },
+  { "id": "aw2", "audio": "/audio/basicadjectives/aw2.mp3", "text": "hideg", "translation": "cold" },
+  { "id": "aw3", "audio": "/audio/basicadjectives/aw3.mp3", "text": "rózsaszín", "translation": "pink" },
+  { "id": "aw4", "audio": "/audio/basicadjectives/aw4.mp3", "text": "magas", "translation": "tall" }
 ]

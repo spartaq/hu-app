@@ -1,20 +1,5 @@
 [
-  {
-    "id": "aw1",
-    "audio": "/audio/audiotest.mp3",
-    "text": "Helló",
-    "translation": "Hello"
-  },
-  {
-    "id": "aw2",
-    "audio": "/audio/good_morning.mp3",
-    "text": "Jó reggelt",
-    "translation": "Good morning"
-  },
-  {
-    "id": "aw3",
-    "audio": "/audio/good_evening.mp3",
-    "text": "Jó estét",
-    "translation": "Good evening"
-  }
+  { "id": "aw1", "audio": "/audio/birtoklas/anya.mp3", "text": "anyám", "translation": "my mother" },
+  { "id": "aw2", "audio": "/audio/birtoklas/apa.mp3", "text": "apám", "translation": "my father" },
+  { "id": "aw3", "audio": "/audio/birtoklas/kabat.mp3", "text": "kabátom", "translation": "my coat" }
 ]

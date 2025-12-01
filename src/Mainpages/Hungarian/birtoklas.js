@@ -6,9 +6,10 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "birtoklas" },
   { label: "Dialogue", type: "dialogue", subtype: "birtoklas" },
-  { label: "Vocab", type: "vocabmatch", subtype: "birtoklas" },
-  
-{ label: "Exercises", type: "grammarquiz", subtype: "birtoklas" },
+  { label: "Vocab", type: "vocabmatch", subtype: "birtoklas" },  
+  { label: "Audio Match", type: "audiowordmatch", subtype: "birtoklas" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "birtoklas" },
+  { label: "Exercises", type: "grammarquiz", subtype: "birtoklas" },
   { label: "Word Order", type: "ordering", subtype: "birtoklas" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
