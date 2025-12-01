@@ -1,41 +1,37 @@
 {
   "type": "explanation",
-  "title": "The Verb “van” – Expressing Existence (There is / There are)",
+  "title": "Van – There is / There are",
   "sections": [
     {
-      "heading": "What is “van” in existence?",
+      "heading": "Using 'van' in Hungarian",
       "paragraphs": [
-        "Hungarian uses the verb “van” to indicate that something exists or is present — equivalent to 'there is' or 'there are' in English.",
-        "It does not refer to the identity of the subject, only to existence or presence in a location."
+        "'Van' is used to say 'there is' or 'there are' in Hungarian.",
+        "It is used to describe the existence or presence of something.",
+        "For example, 'Van egy könyv az asztalon.' means 'There is a book on the table.'"
+      ],
+      "list": [
+        "Van egy könyv. – There is a book.",
+        "Van két kutya a kertben. – There are two dogs in the garden.",
+        "Nincs pénz a tárcában. – There is no money in the wallet."
       ]
     },
     {
-      "heading": "Conjugation – Present Tense for Existence",
+      "heading": "Common Vocabulary Around the House",
       "paragraphs": [
-        "Here are the basic forms of 'van' and 'vannak' used to say 'there is' or 'there are' in affirmative, negative, and question forms."
+        "Use 'van' to describe items in different rooms or locations.",
+        "Combine with nouns from around the house to form simple sentences."
       ],
-      "table": {
-        "headers": ["Person / Subject", "Affirmative (There is/are)", "Negative", "Question"],
-        "rows": [
-          ["Singular / 3rd person", "Van egy könyv az asztalon. – There is a book on the table.", "Nincs könyv az asztalon. – There isn’t a book on the table.", "Van könyv az asztalon? – Is there a book on the table?"],
-          ["Plural / 3rd person", "Vannak könyvek az asztalon. – There are books on the table.", "Nincsenek könyvek az asztalon. – There aren’t any books on the table.", "Vannak könyvek az asztalon? – Are there any books on the table?"]
-        ]
-      }
-    },
-    {
-      "heading": "Key Points",
       "list": [
-        "When using 'van' to express existence, it always appears in the 3rd person.",
-        "The singular form is 'van' and the plural form is 'vannak'.",
-        "The negative forms are 'nincs' (singular) and 'nincsenek' (plural).",
-        "Questions are formed by intonation or a question mark — no auxiliary 'is/are' is needed.",
-        [
-          "Examples:",
-          [
-            "Van egy macska az udvaron. – There is a cat in the yard.",
-            "Nincsenek diákok az osztályban. – There are no students in the classroom."
-          ]
-        ]
+        "konyha – kitchen",
+        "nappali – living room",
+        "hálószoba – bedroom",
+        "fürdőszoba – bathroom",
+        "szekrény – cupboard",
+        "hűtő – fridge",
+        "sütő – oven",
+        "mosogatógép – dishwasher",
+        "asztal – table",
+        "szék – chair"
       ]
     }
   ]

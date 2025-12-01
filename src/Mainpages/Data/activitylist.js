@@ -1,14 +1,5 @@
 module.exports = [
-  {
-        "id": "numbers",
-        "title": "Numbers",
-      "category": "hungarian",
-      "subtitle": "numbers, dates, money",
-      "level": "HU1",
-        "time": "60 min",
-        "description": "Numbers",
-        "image": "/Images/500-forints.jpg"
-      },
+  
     {
         "id": "basicphrases",
         "title": "Basic Phrases",
@@ -28,6 +19,16 @@ module.exports = [
         "time": "60 min",
         "description": "Ordering Food and Drinks",
         "image": "/Images/jelenido1.jpg"
+      },
+      {
+        "id": "numbers",
+        "title": "Numbers",
+      "category": "hungarian",
+      "subtitle": "numbers, dates, money",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "Numbers",
+        "image": "/Images/500-forints.jpg"
       },
     {
         "id": "lenni",
@@ -58,7 +59,17 @@ module.exports = [
         "time": "60 min",
         "description": "Van/Neki van - There is/have (possession)",
         "image": "/Images/jelenido1.jpg"
-      },             
+      },    
+      {
+        "id": "irregularverbs",
+        "title": "Irregular Verbs",
+      "category": "hungarian",
+      "subtitle": "lenni, tenni",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "Irregular Verbs",
+        "image": "/Images/jelenido1.jpg"
+      },                 
       {
         "id": "jelendef",
         "title": "Jelen Idő - Határozott (Simple Present - Definite conjugation)",
@@ -79,7 +90,7 @@ module.exports = [
         "description": "Jelen Idő - Simple present tense.",
         "image": "/Images/jelenido1.jpg"
       },
-  {
+      {
         "id": "basicadjectives",
         "title": "Basic Adjectives",
       "category": "hungarian",
@@ -88,27 +99,17 @@ module.exports = [
         "time": "60 min",
         "description": "Basic Adjectives",
         "image": "/Images/villamos.jpg"
-      },    
-      {
-        "id": "mult",
-        "title": "Mult Idő (Simple Past)",
-      "category": "hungarian",
-      "subtitle": "mentem, laktam",
-      "level": "HU1",
-        "time": "60 min",
-        "description": "Mult Idő - Simple past tense.",
-        "image": "/Images/jelenido1.jpg"
       },
-    {
-        "id": "jovo",
-        "title": "Jövő Idő (Future)",
+      {
+        "id": "basicquestions",
+        "title": "Basic Questions",
       "category": "hungarian",
-      "subtitle": "fog + ige",
+      "subtitle": "Ki, Mi, Hol - Who, What, Where",
       "level": "HU1",
         "time": "60 min",
-        "description": "Fog (future)",
-        "image": "/Images/jelenido1.jpg"
-      },        
+        "description": "Basic Questions",
+        "image": "/Images/apples.jpg"
+      },
       {
         "id": "birtoklas",
         "title": "Birtoklas (Possessive)",
@@ -138,7 +139,27 @@ module.exports = [
         "time": "60 min",
         "description": "Névutó (Prepositions)",
         "image": "/Images/jelenido1.jpg"
-      },           
+      },    
+      {
+        "id": "mult",
+        "title": "Mult Idő (Simple Past)",
+      "category": "hungarian",
+      "subtitle": "mentem, laktam",
+      "level": "HU2",
+        "time": "60 min",
+        "description": "Mult Idő - Simple past tense.",
+        "image": "/Images/jelenido1.jpg"
+      },
+      {
+        "id": "jovo",
+        "title": "Jövő Idő (Future)",
+      "category": "hungarian",
+      "subtitle": "fog + ige",
+      "level": "HU2",
+        "time": "60 min",
+        "description": "Fog (future)",
+        "image": "/Images/jelenido1.jpg"
+      },                   
       {
         "id": "hasonlitas",
         "title": "Összehasonlítás (Comparison)",

@@ -1,28 +1,14 @@
 [
   {
     "id": 1,
-    "quizTitle": "Vocabulary - Animals",
-    "audio": "/audio/cat.mp3",
-    "prompt": "macska",
+    "quizTitle": "Match the action",
+    "audio": "/audio/jelenindef/match1.mp3",
+    "prompt": "Which picture matches the word 'fut'?",
     "options": [
-      { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/argue1.jpg", "word": "dog", "isCorrect": false }
+      { "id": "a", "image": "/images/run.jpg", "word": "fut", "isCorrect": true },
+      { "id": "b", "image": "/images/sleep.jpg", "word": "alszik", "isCorrect": false }
     ],
-    "translation": "cat",
+    "translation": "fut – run",
     "mode": "word-to-image"
-  },
-  {
-    "id": 2,
-    "quizTitle": "Vocabulary - Animals",
-    "promptImage": "/images/wish1.jpg",
-    "options": [
-      { "id": "a", "word": "cat", "isCorrect": true },
-      { "id": "b", "word": "dog", "isCorrect": false },
-      { "id": "c", "word": "mouse", "isCorrect": false }
-    ],
-    "translation": "cat",
-    "mode": "image-to-word"
   }
 ]
-
-

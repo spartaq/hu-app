@@ -5,7 +5,7 @@ import GrammarExplanation from './HungarianIntros/jelendefintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "jelendef" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "jelendef" },
   { label: "Dialogue", type: "dialogue", subtype: "jelendef" },
   { label: "Vocab", type: "vocabmatch", subtype: "jelendef" },
   

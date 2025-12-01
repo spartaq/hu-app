@@ -1,28 +1,26 @@
 [
   {
     "id": 1,
-    "quizTitle": "Vocabulary - Animals",
-    "audio": "/audio/cat.mp3",
-    "prompt": "macska",
+    "quizTitle": "Match Words to Images",
+    "audio": "/audio/van/ház.mp3",
+    "prompt": "ház",
     "options": [
-      { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/argue1.jpg", "word": "dog", "isCorrect": false }
+      { "id": "a", "image": "/images/house1.jpg", "word": "house", "isCorrect": true },
+      { "id": "b", "image": "/images/room1.jpg", "word": "room", "isCorrect": false }
     ],
-    "translation": "cat",
+    "translation": "house",
     "mode": "word-to-image"
   },
   {
     "id": 2,
-    "quizTitle": "Vocabulary - Animals",
-    "promptImage": "/images/wish1.jpg",
+    "quizTitle": "Match Words to Images",
+    "audio": "/audio/van/macská.mp3",
+    "prompt": "macska",
     "options": [
-      { "id": "a", "word": "cat", "isCorrect": true },
-      { "id": "b", "word": "dog", "isCorrect": false },
-      { "id": "c", "word": "mouse", "isCorrect": false }
+      { "id": "a", "image": "/images/cat1.jpg", "word": "cat", "isCorrect": true },
+      { "id": "b", "image": "/images/dog1.jpg", "word": "dog", "isCorrect": false }
     ],
     "translation": "cat",
-    "mode": "image-to-word"
+    "mode": "word-to-image"
   }
 ]
-
-

@@ -1,59 +1,18 @@
-
 [
   {
-    "id": "hungarian-ordering-1",
+    "id": "jelenindef-1",
     "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order - Sentence 1",
-    "sentence": "A boltban vettem kenyeret."
+    "topic": "jelenindef",
+    "quizTitle": "Put the sentence in order",
+    "sentence": ["Reggel", "futok"],
+    "translation": "I run in the morning."
   },
   {
-    "id": "hungarian-ordering-2",
+    "id": "jelenindef-2",
     "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order - Sentence 2",
-    "sentence": "Ma reggel kávét ittam."
-  },
-  {
-    "id": "hungarian-ordering-3",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order - Sentence 3",
-    "sentence": "Az orvos háromkor érkezik."
-  },
-  {
-    "id": "hungarian-ordering-4",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order - Sentence 4",
-    "sentence": "Péter a parkban sétál a kutyájával."
-  },
-  {
-    "id": "hungarian-ordering-5",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order - Sentence 5",
-    "sentence": "Holnap moziba megyünk a barátaimmal."
-  },
-  {
-    "id": "hungarian-ordering-6",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order - Sentence 6",
-    "sentence": "A tanár lassan magyarázza az új témát."
-  },
-  {
-    "id": "hungarian-ordering-7",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order - Sentence 7",
-    "sentence": "Mi minden nap biciklivel megyünk iskolába."
-  },
-  {
-    "id": "hungarian-ordering-8",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order - Sentence 8",
-    "sentence": "Kati tegnap délután telefonált nekem."
+    "topic": "jelenindef",
+    "quizTitle": "Put the sentence in order",
+    "sentence": ["Este", "olvasok"],
+    "translation": "I read in the evening."
   }
 ]

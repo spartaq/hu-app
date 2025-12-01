@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/intro_numbers';
 import mainimage from '../../Images/500-forints.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "numbers" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "numbers" },
   { label: "Dialogue", type: "dialogue", subtype: "numbers" },
   { label: "Vocab", type: "vocabmatch", subtype: "numbers" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "numbers" },

@@ -5,7 +5,7 @@ import GrammarExplanation from './HungarianIntros/multintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "mult" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "mult" },
   { label: "Dialogue", type: "dialogue", subtype: "mult" },
   { label: "Vocab", type: "vocabmatch", subtype: "mult" },
   

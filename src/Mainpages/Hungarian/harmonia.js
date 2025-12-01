@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/harmoniaintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "harmonia" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "harmonia" },
   { label: "Dialogue", type: "dialogue", subtype: "harmonia" },
   { label: "Vocab", type: "vocabmatch", subtype: "harmonia" },
   

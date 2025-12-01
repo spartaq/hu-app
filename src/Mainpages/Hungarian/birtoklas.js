@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/birtoklasintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "birtoklas" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "birtoklas" },
   { label: "Dialogue", type: "dialogue", subtype: "birtoklas" },
   { label: "Vocab", type: "vocabmatch", subtype: "birtoklas" },
   

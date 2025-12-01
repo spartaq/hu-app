@@ -40,10 +40,8 @@ import BasicPhrases from './Mainpages/Hungarian/basicphrases';
 import OrderingDrinks from './Mainpages/Hungarian/orderingdrinks';
 import Numbers from './Mainpages/Hungarian/numbers';
 import BasicAdjectives from './Mainpages/Hungarian/basicadjectives';
-
-
-
-
+import IrregularVerbs from './Mainpages/Hungarian/irregularverbs';
+import BasicQuestions from './Mainpages/Hungarian/basicquestions';
 
 
 const router = createBrowserRouter([
@@ -130,6 +128,14 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/basicadjectives',
             element: <BasicAdjectives />,
+          },
+          {
+            path: 'hungarian/irregularverbs',
+            element: <IrregularVerbs />,
+          },
+          {
+            path: 'hungarian/basicquestions',
+            element: <BasicQuestions />,
           },
           {
             path: 'hungarian/verbconjugationtable',

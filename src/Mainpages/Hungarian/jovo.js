@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/jovointro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "jovo" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "jovo" },
   { label: "Dialogue", type: "dialogue", subtype: "jovo" },
   { label: "Vocab", type: "vocabmatch", subtype: "jovo" },
   

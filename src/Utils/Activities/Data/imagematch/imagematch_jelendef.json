@@ -1,28 +1,26 @@
 [
-  {
-    "id": 1,
-    "quizTitle": "Vocabulary - Animals",
-    "audio": "/audio/cat.mp3",
-    "prompt": "macska",
-    "options": [
-      { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/argue1.jpg", "word": "dog", "isCorrect": false }
-    ],
-    "translation": "cat",
-    "mode": "word-to-image"
-  },
-  {
-    "id": 2,
-    "quizTitle": "Vocabulary - Animals",
-    "promptImage": "/images/wish1.jpg",
-    "options": [
-      { "id": "a", "word": "cat", "isCorrect": true },
-      { "id": "b", "word": "dog", "isCorrect": false },
-      { "id": "c", "word": "mouse", "isCorrect": false }
-    ],
-    "translation": "cat",
-    "mode": "image-to-word"
-  }
+{
+"id": 1,
+"quizTitle": "Match the Word to the Image",
+"audio": "/audio/jelendef/match1.mp3",
+"prompt": "Choose the correct picture",
+"options": [
+{ "id": "a", "image": "/images/ujsag.jpg", "word": "újság", "isCorrect": true },
+{ "id": "b", "image": "/images/kulcs.jpg", "word": "kulcs", "isCorrect": false }
+],
+"translation": "newspaper",
+"mode": "word-to-image"
+},
+{
+"id": 2,
+"quizTitle": "Match the Word to the Image",
+"audio": "/audio/jelendef/match2.mp3",
+"prompt": "Choose the correct picture",
+"options": [
+{ "id": "a", "image": "/images/film.jpg", "word": "film", "isCorrect": true },
+{ "id": "b", "image": "/images/email.jpg", "word": "email", "isCorrect": false }
+],
+"translation": "film",
+"mode": "word-to-image"
+}
 ]
-
-

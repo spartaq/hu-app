@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/hasonlitasintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "hasonlitas" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "hasonlitas" },
   { label: "Dialogue", type: "dialogue", subtype: "hasonlitas" },
   { label: "Vocab", type: "vocabmatch", subtype: "hasonlitas" },
   

@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/intro_orderingdrinks';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "orderingdrinks" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "orderingdrinks" },
   { label: "Dialogue", type: "dialogue", subtype: "orderingdrinks" },
   { label: "Vocab", type: "vocabmatch", subtype: "orderingdrinks" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "orderingdrinks" },

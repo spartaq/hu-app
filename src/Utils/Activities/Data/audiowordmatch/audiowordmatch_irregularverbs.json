@@ -1,0 +1,7 @@
+[
+  { "id": "aw1", "audio": "/audio/irregular/lesz.mp3", "text": "lesz", "translation": "will be" },
+  { "id": "aw2", "audio": "/audio/irregular/tesz.mp3", "text": "tesz", "translation": "does/makes" },
+  { "id": "aw3", "audio": "/audio/irregular/vesz.mp3", "text": "vesz", "translation": "takes/buys" },
+  { "id": "aw4", "audio": "/audio/irregular/eszik.mp3", "text": "eszik", "translation": "eats" },
+  { "id": "aw5", "audio": "/audio/irregular/játsszik.mp3", "text": "játszik", "translation": "plays" }
+]

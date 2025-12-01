@@ -1,0 +1,20 @@
+[
+  {
+    "id": "aw1",
+    "audio": "/audio/questions/ki.mp3",
+    "text": "ki",
+    "translation": "who"
+  },
+  {
+    "id": "aw2",
+    "audio": "/audio/questions/mikor.mp3",
+    "text": "mikor",
+    "translation": "when"
+  },
+  {
+    "id": "aw3",
+    "audio": "/audio/questions/hol.mp3",
+    "text": "hol",
+    "translation": "where"
+  }
+]

@@ -1,20 +1,6 @@
 [
-  {
-    "id": "aw1",
-    "audio": "/audio/audiotest.mp3",
-    "text": "Helló",
-    "translation": "Hello"
-  },
-  {
-    "id": "aw2",
-    "audio": "/audio/good_morning.mp3",
-    "text": "Jó reggelt",
-    "translation": "Good morning"
-  },
-  {
-    "id": "aw3",
-    "audio": "/audio/good_evening.mp3",
-    "text": "Jó estét",
-    "translation": "Good evening"
-  }
+{ "id": "aw1", "audio": "/audio/jelendef/aw1.mp3", "text": "olvasom", "translation": "I read it" },
+{ "id": "aw2", "audio": "/audio/jelendef/aw2.mp3", "text": "írom", "translation": "I write it" },
+{ "id": "aw3", "audio": "/audio/jelendef/aw3.mp3", "text": "hallom", "translation": "I hear it" },
+{ "id": "aw4", "audio": "/audio/jelendef/aw4.mp3", "text": "látom", "translation": "I see it" }
 ]

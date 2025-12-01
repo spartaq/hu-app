@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/nevmasintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "nevmas" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "nevmas" },
   { label: "Dialogue", type: "dialogue", subtype: "nevmas" },
   { label: "Vocab", type: "vocabmatch", subtype: "nevmas" },
   

@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/nevutointro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "nevuto" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "nevuto" },
   { label: "Dialogue", type: "dialogue", subtype: "nevuto" },
   { label: "Vocab", type: "vocabmatch", subtype: "nevuto" },
   

@@ -1,0 +1,4 @@
+[
+  { "id": "irregular-1", "title": "Tap What You Hear", "audiosrc": "/audio/irregular/tesz.mp3", "correctSequence": ["tesz"], "translation": "does/makes" },
+  { "id": "irregular-2", "title": "Tap What You Hear", "audiosrc": "/audio/irregular/visz.mp3", "correctSequence": ["visz"], "translation": "carries/takes" }
+]

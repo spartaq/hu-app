@@ -1,11 +1,4 @@
 [
-  {
-    "id": "numbers-1",
-    "title": "Tap What You Hear",
-    "audiosrc": "/audio/example.mp3",
-    "correctSequence": [
-      "#"
-    ],
-    "translation": "#"
-  }
+  { "id": "numbers-1", "title": "Tap What You Hear", "audiosrc": "/audio/numbers/egy.mp3", "correctSequence": ["egy"], "translation": "one" },
+  { "id": "numbers-2", "title": "Tap What You Hear", "audiosrc": "/audio/numbers/kettő.mp3", "correctSequence": ["kettő"], "translation": "two" }
 ]

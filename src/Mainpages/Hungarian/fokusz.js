@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/fokuszintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "fokusz" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "fokusz" },
   { label: "Dialogue", type: "dialogue", subtype: "fokusz" },
   { label: "Vocab", type: "vocabmatch", subtype: "fokusz" },
   

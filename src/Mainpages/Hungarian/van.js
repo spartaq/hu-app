@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/vanintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "van" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "van" },
   { label: "Dialogue", type: "dialogue", subtype: "van" },
   { label: "Image Match - vocabulary", type: "imagematch", subtype: "van" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "van" },

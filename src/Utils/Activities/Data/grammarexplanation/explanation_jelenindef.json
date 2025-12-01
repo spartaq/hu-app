@@ -1,87 +1,36 @@
 {
   "type": "explanation",
-  "title": "Hungarian Present Tense – Indefinite Conjugation",
+  "title": "Indefinite Conjugation – Daily Routine",
   "sections": [
     {
-      "heading": "Overview of the Present Tense",
+      "heading": "Indefinite Conjugation Basics",
       "paragraphs": [
-        "In Hungarian, the present tense (jelen idő) is used to talk about actions happening now, habits, and general facts. Verbs change their endings depending on the subject and whether the object is definite or indefinite.",
-        "*The Hungarian present tense can correspond to the English simple present, present continuous, present perfect, and even future tense.*"
-      ]
-    },
-    {
-      "heading": "Indefinite vs. Definite Conjugation",
-      "paragraphs": [
-        "Hungarian verbs have two conjugation types: indefinite and definite.",
-        "Indefinite conjugation is used when the object is unknown, general, or not mentioned.",
-        "Definite conjugation is used when the object is specific and known."
+        "In Hungarian, indefinite conjugation is used when the object is unknown, general, or not specifically defined.",
+        "Many routine verbs that describe daily actions use indefinite conjugation when there is no definite object.",
+        "Example: \"Olvasok\" means \"I read\" (something, in general)."
       ],
       "list": [
-        "Indefinite example: Minden nap olvasok. (I read every day.)",
-        "Definite example: Olvasom a könyvet. (I read the book.)"
+        "olvasok – I read",
+        "futok – I run",
+        "tanulok – I study",
+        "dolgozom – I work",
+        "alszom – I sleep",
+        "beszélek – I speak"
       ]
     },
     {
-      "heading": "Affirmative | Indefinite (tanul = to study)",
-      "table": {
-        "headers": ["Person", "Conjugation", "English"],
-        "rows": [
-          ["Én (I)", "tanulok", "I study"],
-          ["Te (you)", "tanulsz", "You study"],
-          ["Ő (he/she)", "tanul", "He/She studies"],
-          ["Mi (we)", "tanulunk", "We study"],
-          ["Ti (you all)", "tanultok", "You all study"],
-          ["Ők (they)", "tanulnak", "They study"]
-        ]
-      }
-    },
-    {
-      "heading": "Negative | Indefinite",
-      "table": {
-        "headers": ["Person", "Conjugation", "English"],
-        "rows": [
-          ["Én (I)", "nem tanulok", "I do not study"],
-          ["Te (you)", "nem tanulsz", "You do not study"],
-          ["Ő (he/she)", "nem tanul", "He/She does not study"],
-          ["Mi (we)", "nem tanulunk", "We do not study"],
-          ["Ti (you all)", "nem tanultok", "You all do not study"],
-          ["Ők (they)", "nem tanulnak", "They do not study"]
-        ]
-      }
-    },
-    {
-      "heading": "Questions | Indefinite",
+      "heading": "Daily Routine Examples",
       "paragraphs": [
-        "Questions are formed simply by using rising intonation or adding a question mark—no extra auxiliary verb is needed."
+        "Here are simple sentences using indefinite conjugation:",
+        "\"Reggel futok.\" – \"I run in the morning.\"",
+        "\"Este olvasok.\" – \"I read in the evening.\"",
+        "\"Délelőtt tanulok.\" – \"I study in the late morning.\""
       ],
-      "table": {
-        "headers": ["Person", "Conjugation", "English"],
-        "rows": [
-          ["Én (I)", "tanulok?", "Do I study?"],
-          ["Te (you)", "tanulsz?", "Do you study?"],
-          ["Ő (he/she)", "tanul?", "Does he/she study?"],
-          ["Mi (we)", "tanulunk?", "Do we study?"],
-          ["Ti (you all)", "tanultok?", "Do you all study?"],
-          ["Ők (they)", "tanulnak?", "Do they study?"]
-        ]
-      }
-    },
-    {
-      "heading": "Examples",
       "list": [
-        "Én tanulok. – I study (general).",
-        "Én tanulom a leckét. – I study the lesson (specific object).",
-        "Mi tanulunk minden nap. – We study every day.",
-        "Mi tanuljuk az új szavakat. – We study the new words."
-      ]
-    },
-    {
-      "heading": "Important Points",
-      "list": [
-        "Indefinite is used when the object is absent, unspecified, or general.",
-        "Definite is used when the object is specific or known (e.g., a könyvet, az új leckét).",
-        "Negatives are formed by adding *nem* before the verb.",
-        "Questions rely on intonation or a question mark—Hungarian does not use English-style auxiliaries like “do/does”."
+        "reggel – morning",
+        "délután – afternoon",
+        "este – evening",
+        "éjjel – at night"
       ]
     }
   ]

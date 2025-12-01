@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/nekivanintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "explanation", subtype: "nekivan" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "nekivan" },
   { label: "Dialogue", type: "dialogue", subtype: "nekivan" },
   { label: "Image Match - vocabulary", type: "imagematch", subtype: "nekivan" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "nekivan" },
