@@ -138,20 +138,13 @@ a {
   background: #faf7ff; 
 }
 
-/*.app-frame {
-  max-width: 480px;
-  margin: 0 auto;
-  height: 100vh;
-  border-left: 1px solid rgba(0,0,0,0.05);
-  border-right: 1px solid rgba(0,0,0,0.05);
-}*/
 
 
 
 /* SCROLLABLE MIDDLE */
 .app-content {
   flex: 1;
-  overflow-y: auto;
+  overflow-y: hidden;
   padding: 0px;
   padding-bottom: 90px; /* avoids overlapping with footer */
 }
