@@ -1,4 +1,14 @@
 module.exports = [
+  {
+        "id": "numbers",
+        "title": "Numbers",
+      "category": "hungarian",
+      "subtitle": "numbers, dates, money",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "Numbers",
+        "image": "/Images/500-forints.jpg"
+      },
     {
         "id": "basicphrases",
         "title": "Basic Phrases",
@@ -68,6 +78,16 @@ module.exports = [
         "time": "60 min",
         "description": "Jelen Idő - Simple present tense.",
         "image": "/Images/jelenido1.jpg"
+      },
+  {
+        "id": "basicadjectives",
+        "title": "Basic Adjectives",
+      "category": "hungarian",
+      "subtitle": "colors, size, shape",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "Basic Adjectives",
+        "image": "/Images/villamos.jpg"
       },    
       {
         "id": "mult",

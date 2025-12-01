@@ -4,7 +4,8 @@ import ModalRender from "./ModalRender.js"
 
 
 
-// **EXPLANATION
+// **GRAMMAREXPLANATION
+import HuExplanationBasicadjectivesData from "../Utils/Activities/Data/grammarexplanation/explanation_basicadjectives.json";
 import HuExplanationOrderingdrinksData from "../Utils/Activities/Data/grammarexplanation/explanation_orderingdrinks.json";
 import HuExplanationLenniData from "../Utils/Activities/Data/grammarexplanation/explanation_lenni.json";
 import HuExplanationJelenDefData from "../Utils/Activities/Data/grammarexplanation/explanation_jelendef.json";
@@ -21,6 +22,8 @@ import HuExplanationFokuszData from "../Utils/Activities/Data/grammarexplanation
 import HuExplanationHarmoniaData from "../Utils/Activities/Data/grammarexplanation/explanation_harmonia.json";
 import HuExplanationBasicPhrasesData from "../Utils/Activities/Data/grammarexplanation/explanation_basicphrases.json";
 // **DIALOGUE
+import HuDialogueBasicadjectivesData from "../Utils/Activities/Data/dialogues/dialogue_basicadjectives.json";
+import HuDialogueNumbersData from "../Utils/Activities/Data/dialogues/dialogue_numbers.json";
 import HuDialogueOrderingdrinksData from "../Utils/Activities/Data/dialogues/dialogue_orderingdrinks.json";
 import HuDialogueLenniData from "../Utils/Activities/Data/dialogues/dialogue_lenni.json";
 import HuDialogueJelenDefData from "../Utils/Activities/Data/dialogues/dialogue_jelendef.json";
@@ -38,6 +41,8 @@ import HuDialogueHarmoniaData from "../Utils/Activities/Data/dialogues/dialogue_
 import HuDialogueBasicPhrasesData from "../Utils/Activities/Data/dialogues/dialogue_basicphrases.json";
 
 // **GRAMMARQUIZ
+import HuGrammarquizBasicadjectivesData from "../Utils/Activities/Data/grammarquiz/grammarquiz_basicadjectives.json";
+import HuGrammarquizNumbersData from "../Utils/Activities/Data/grammarquiz/grammarquiz_numbers.json";
 import HuOrderingdrinksGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_orderingdrinks.json";
 import HuJelenDefGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelendef.json";
 import HuJelenIndefGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_jelenindef.json";
@@ -54,6 +59,8 @@ import HuFokuszGrammarQuizData from "../Utils/Activities/Data/grammarquiz/gramma
 import HuHarmoniaGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_harmonia.json";
 import HuBasicphrasesGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_basicphrases.json";
 // **TAPAUDIO
+import HuTapAudioBasicadjectivesData from "../Utils/Activities/Data/tapaudio/tapaudio_basicadjectives.json";
+import HuTapAudioNumbersData from "../Utils/Activities/Data/tapaudio/tapaudio_numbers.json";
 import HuTapAudioOrderingdrinksData from "../Utils/Activities/Data/tapaudio/tapaudio_orderingdrinks.json";
 import HuTapAudioLenniData from "../Utils/Activities/Data/tapaudio/tapaudio_lenni.json";
 import HuTapAudioJelenDefData from "../Utils/Activities/Data/tapaudio/tapaudio_jelendef.json";
@@ -72,6 +79,8 @@ import HuTapAudioBasicPhrasesData from "../Utils/Activities/Data/tapaudio/tapaud
 
 
 // **IMAGEMATCH
+import HuImageMatchBasicadjectivesData from "../Utils/Activities/Data/imagematch/imagematch_basicadjectives.json";
+import HuImageMatchNumbersData from "../Utils/Activities/Data/imagematch/imagematch_numbers.json";
 import HuImageMatchOrderingdrinksData from "../Utils/Activities/Data/imagematch/imagematch_orderingdrinks.json";
 import HuImageMatchLenniData from "../Utils/Activities/Data/imagematch/imagematch_lenni.json";
 import HuImageMatchJelenDefData from "../Utils/Activities/Data/imagematch/imagematch_jelendef.json";
@@ -89,6 +98,8 @@ import HuImageMatchHarmoniaData from "../Utils/Activities/Data/imagematch/imagem
 import HuImageMatchBasicPhrasesData from "../Utils/Activities/Data/imagematch/imagematch_basicphrases.json";
 
 // **AUDIOWORDMATCH
+import HuAudioWordMatchBasicadjectivesData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_basicadjectives.json";
+import HuAudioWordMatchNumbersData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_numbers.json";
 import HuAudioWordMatchOrderingdrinksData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_orderingdrinks.json";
 import HuAudioWordMatchLenniData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_lenni.json";
 import HuAudioWordMatchJelenDefData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_jelendef.json";
@@ -105,7 +116,9 @@ import HuAudioWordMatchFokuszData from "../Utils/Activities/Data/audiowordmatch/
 import HuAudioWordMatchHarmoniaData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_harmonia.json";
 import HuAudioWordMatchBasicPhrasesData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_basicphrases.json";
 
-// **WORDORDER
+// **ORDERING
+import HuOrderingBasicadjectivesData from "../Utils/Activities/Data/ordering/wordorder_basicadjectives.json";
+import HuOrderingNumbersData from "../Utils/Activities/Data/ordering/wordorder_numbers.json";
 import HuOrderingLenniData from "../Utils/Activities/Data/ordering/wordorder_lenni.json";
 import HuOrderingJelenDefData from "../Utils/Activities/Data/ordering/wordorder_jelendef.json";
 import HuOrderingJelenIndefData from "../Utils/Activities/Data/ordering/wordorder_jelenindef.json";
@@ -124,6 +137,8 @@ import HuOrderingOrderingdrinksData from "../Utils/Activities/Data/ordering/word
 
 
 // **VOCABMATCH
+import HuVocabmatchBasicadjectivesData from "../Utils/Activities/Data/vocabmatch/vocabmatch_basicadjectives.json";
+import HuVocabmatchNumbersData from "../Utils/Activities/Data/vocabmatch/vocabmatch_numbers.json";
 import HuVocabmatchOrderingdrinksData from "../Utils/Activities/Data/vocabmatch/vocabmatch_orderingdrinks.json";
 import HuVocabmatchLenniData from "../Utils/Activities/Data/vocabmatch/vocabmatch_lenni.json";
 import HuVocabmatchJelenidoDefData from "../Utils/Activities/Data/vocabmatch/vocabmatch_jelendef.json";
@@ -150,6 +165,8 @@ import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimple
 import videoPhones from "../Utils/Activities/Data/videos/phones.js";
 import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
 // **LESSONCOMPLETE
+import HuLessoncompleteBasicadjectivesData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_basicadjectives.json";
+import HuLessoncompleteNumbersData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_numbers.json";
 import HuLessoncompleteOrderingdrinksData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_orderingdrinks.json";
 import HuLessoncompleteLenniData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_lenni.json";
 import HuLessoncompleteJelendefData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_jelendef.json";
@@ -176,7 +193,8 @@ import HuLessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncom
 */
 
 const DATA_MAP = {
-  explanation: {
+  grammarexplanation: {
+    basicadjectives: HuExplanationBasicadjectivesData,
     orderingdrinks: HuExplanationOrderingdrinksData,
     lenni: HuExplanationLenniData,
     jelenidodef: HuExplanationJelenDefData,
@@ -195,6 +213,8 @@ const DATA_MAP = {
   },
 
   dialogue: {
+    basicadjectives: HuDialogueBasicadjectivesData,
+    numbers: HuDialogueNumbersData,
     orderingdrinks: HuDialogueOrderingdrinksData,
     lenni: HuDialogueLenniData,
     jelenDef: HuDialogueJelenDefData,
@@ -213,6 +233,8 @@ const DATA_MAP = {
   },
 
   tapaudio: {
+    basicadjectives: HuTapAudioBasicadjectivesData,
+    numbers: HuTapAudioNumbersData,
     orderingdrinks: HuTapAudioOrderingdrinksData,
     lenni: HuTapAudioLenniData,
     jelenDef: HuTapAudioJelenDefData,
@@ -231,6 +253,8 @@ const DATA_MAP = {
   },
 
   imagematch: {
+    basicadjectives: HuImageMatchBasicadjectivesData,
+    numbers: HuImageMatchNumbersData,
     orderingdrinks: HuImageMatchOrderingdrinksData,
     lenni: HuImageMatchLenniData,
     jelenDef: HuImageMatchJelenDefData,
@@ -249,6 +273,8 @@ const DATA_MAP = {
   },  
 
   audiowordmatch: {
+    basicadjectives: HuAudioWordMatchBasicadjectivesData,
+    numbers: HuAudioWordMatchNumbersData,
     orderingdrinks: HuAudioWordMatchOrderingdrinksData,
     lenni: HuAudioWordMatchLenniData,
     jelenDef: HuAudioWordMatchJelenDefData,
@@ -267,6 +293,8 @@ const DATA_MAP = {
   },  
 
   grammarquiz: {
+    basicadjectives: HuGrammarquizBasicadjectivesData,
+    numbers: HuGrammarquizNumbersData,
     jelenidodef: HuJelenDefGrammarQuizData,
     jelenidoindef: HuJelenIndefGrammarQuizData,
     multido: HuMultGrammarQuizData,
@@ -285,6 +313,8 @@ const DATA_MAP = {
   },
 
   ordering: {
+    basicadjectives: HuOrderingBasicadjectivesData,
+    numbers: HuOrderingNumbersData,
     orderingdrinks: HuOrderingOrderingdrinksData,
    lenni: HuOrderingLenniData,
     jelenDef: HuOrderingJelenDefData,
@@ -303,6 +333,8 @@ const DATA_MAP = {
   },
 
  vocabmatch: {
+    basicadjectives: HuVocabmatchBasicadjectivesData,
+    numbers: HuVocabmatchNumbersData,
     orderingdrinks: HuVocabmatchOrderingdrinksData,
   lenni: HuVocabmatchLenniData,
   jelenDef: HuVocabmatchJelenidoDefData,
@@ -336,6 +368,8 @@ const DATA_MAP = {
   },
 
   lessoncomplete: {
+    basicadjectives: HuLessoncompleteBasicadjectivesData,
+    numbers: HuLessoncompleteNumbersData,
     orderingdrinks: HuLessoncompleteOrderingdrinksData,
   basicphrases: HuLessoncompleteBasicphrasesData,
   lenni: HuLessoncompleteLenniData,

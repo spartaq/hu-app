@@ -38,6 +38,8 @@ import GrammarQuizHub from './Mainpages/GrammarQuizHub/grammarquizHub';
 import QuizActivityPage from './Utils/Activities/QuizActivityPage';
 import BasicPhrases from './Mainpages/Hungarian/basicphrases';
 import OrderingDrinks from './Mainpages/Hungarian/orderingdrinks';
+import Numbers from './Mainpages/Hungarian/numbers';
+import BasicAdjectives from './Mainpages/Hungarian/basicadjectives';
 
 
 
@@ -120,6 +122,14 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/basicphrases',
             element: <BasicPhrases />,
+          },
+          {
+            path: 'hungarian/numbers',
+            element: <Numbers />,
+          },
+          {
+            path: 'hungarian/basicadjectives',
+            element: <BasicAdjectives />,
           },
           {
             path: 'hungarian/verbconjugationtable',

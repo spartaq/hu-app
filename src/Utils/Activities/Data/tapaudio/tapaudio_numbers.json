@@ -1,0 +1,11 @@
+[
+  {
+    "id": "numbers-1",
+    "title": "Tap What You Hear",
+    "audiosrc": "/audio/example.mp3",
+    "correctSequence": [
+      "#"
+    ],
+    "translation": "#"
+  }
+]

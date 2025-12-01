@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "quizTitle": "#",
+    "audio": "/audio/example.mp3",
+    "prompt": "#",
+    "options": [
+      {
+        "id": "a",
+        "image": "/images/example1.jpg",
+        "word": "#",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "image": "/images/example2.jpg",
+        "word": "#",
+        "isCorrect": false
+      }
+    ],
+    "translation": "#",
+    "mode": "word-to-image"
+  }
+]

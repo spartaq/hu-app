@@ -4,7 +4,7 @@ import GrammarExplanation from './HungarianIntros/lenniintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Grammar Explanation", type: "explanation", subtype: "lenni" },
+  { label: "Grammar Explanation", type: "grammarexplanation", subtype: "lenni" },
   { label: "Dialogue", type: "dialogue", subtype: "lenni" },
   { label: "Image Match - vocabulary", type: "imagematch", subtype: "lenni" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "lenni" },

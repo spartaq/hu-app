@@ -6,9 +6,9 @@ const ROUTER_PATH = path.join(__dirname, "../components/ModalRouter.js");
 
 // All categories that need import + DATA_MAP insertion
 const CATEGORIES = [
-  { key: "grammarexplanation",      prefix: "HuExplanation",     folder: "explanation",      file: "explanation_" },
+  { key: "grammarexplanation",      prefix: "HuExplanation",     folder: "grammarexplanation",      file: "explanation_" },
   { key: "dialogue",         prefix: "HuDialogue",        folder: "dialogues",        file: "dialogue_" },
-  { key: "grammarquiz",      prefix: "Hu",               folder: "grammarquiz",      file: "grammarquiz_" },
+  { key: "grammarquiz",      prefix: "HuGrammarquiz",     folder: "grammarquiz",      file: "grammarquiz_" },
   { key: "tapaudio",         prefix: "HuTapAudio",        folder: "tapaudio",         file: "tapaudio_" },
   { key: "imagematch",       prefix: "HuImageMatch",      folder: "imagematch",       file: "imagematch_" },
   { key: "audiowordmatch",   prefix: "HuAudioWordMatch",  folder: "audiowordmatch",   file: "audiowordmatch_" },

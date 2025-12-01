@@ -4,7 +4,6 @@ import DialogueActivity from "../Utils/Activities/DialogueActivity.js";
 import QuizActivity from "../Utils/Activities/QuizActivity.js";
 import SentenceOrdering from "../Utils/Activities/SentenceOrdering.js";
 import VocabMatchModal from "../Utils/Activities/VocabMatchModal.js";
-import GrammarExerciseComp from "../Utils/Activities/GrammarExerciseComp.js";
 import ReadingActivity from "../Utils/Activities/ReadingActivity.js";
 import Videos from "../Utils/Activities/VideoActivity.js";
 import ExplanationActivity from "../Utils/Activities/GrammarExplanationActivity.js";
@@ -29,10 +28,9 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     () => [
       "ordering",
       "vocabmatch",
-      "grammar",
       "reading",
       "video",
-      "explanation",
+      "grammarexplanation",
       "imagematch",
       "audiowordmatch",
       "lessoncomplete"
@@ -40,7 +38,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     []
   );
 
-  const hideNav = ["dialogue", "vocabmatch", "grammar", "explanation", "lessoncomplete"].includes(type);
+  const hideNav = ["dialogue", "vocabmatch", "grammarexplanation", "lessoncomplete"].includes(type);
 
   /** -------------------------
    * Scroll helper
@@ -74,7 +72,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
         return Array.isArray(data) ? data : data?.paragraphs ?? [];
       case "video":
         return Array.isArray(data) ? data : [data];
-      case "explanation":
+      case "grammarexplanation":
         return data;
       case "imagematch":
         return data;
@@ -189,7 +187,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
       );
     }
 
-    if (type === "explanation") {
+    if (type === "grammarexplanation") {
       return (
         <div className="exercisesection__activity-box">
           <ExplanationActivity data={activityData} />
@@ -247,14 +245,6 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
           <VocabMatchModal
             pairs={Array.isArray(activityData) ? activityData : data?.pairs}
             title={data?.quizTitle}
-          />
-        )}
-
-        {type === "grammar" && (
-          <GrammarExerciseComp
-            data={getRawData()}
-            title={data?.title}
-            description={data?.description}
           />
         )}
 
