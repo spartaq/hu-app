@@ -8,20 +8,29 @@ export default function ImageMatchActivity({ data, onComplete }) {
     promptImage,
     translation,
     audio,
-    mode = "word-to-image", // default
+    mode = "word-to-image",
     options = []
   } = data || {};
 
   const [selected, setSelected] = useState(null);
   const [showTranslation, setShowTranslation] = useState(false);
+  const [completed, setCompleted] = useState(false);
 
   const handleSelect = (opt) => {
     if (selected) return;
-    setSelected(opt);
 
-    setTimeout(() => {
-      onComplete && onComplete(opt.isCorrect);
-    }, 800);
+    setSelected(opt);
+    setCompleted(true);
+  };
+
+  const handleNext = () => {
+    if (onComplete) {
+      onComplete(selected?.isCorrect);
+    }
+    // reset selection for next exercise if component stays mounted
+    setSelected(null);
+    setCompleted(false);
+    setShowTranslation(false);
   };
 
   const playAudio = () => {
@@ -46,7 +55,7 @@ export default function ImageMatchActivity({ data, onComplete }) {
           {showTranslation ? "Hide translation" : "Show translation"}
         </button>
 
-        {showTranslation && (
+        {showTranslation && translation && (
           <span className="im-translation">({translation})</span>
         )}
       </div>
@@ -72,10 +81,7 @@ export default function ImageMatchActivity({ data, onComplete }) {
         </div>
       ) : (
         <div>
-          {/* Show one main image at top */}
           <img src={promptImage} alt="" className="im-image-top" />
-
-          {/* Text options below */}
           <div className="im-text-grid">
             {options.map((opt) => (
               <div
@@ -88,6 +94,25 @@ export default function ImageMatchActivity({ data, onComplete }) {
               </div>
             ))}
           </div>
+        </div>
+      )}
+
+      {/* 🔥 Feedback / Continue block */}
+      {completed && (
+        <div className="im-feedback">
+          <p>{selected?.isCorrect ? "✅ Correct!" : "❌ Incorrect."}</p>
+
+          {/* Show solution + translation if correct */}
+          {selected?.isCorrect && (
+            <div className="im-solution">
+              <p><strong>Correct answer:</strong> {options.find(o => o.isCorrect)?.word}</p>
+              {translation && <p><strong>Translation:</strong> {translation}</p>}
+            </div>
+          )}
+
+          <button className="im-next-btn" onClick={handleNext}>
+            Continue →
+          </button>
         </div>
       )}
 

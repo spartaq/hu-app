@@ -1,17 +1,46 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from "react";
 import "../../CSS/WordOrderActivity.css";
 
-const SentenceOrdering = ({ data }) => {
-  const sentenceItem = (Array.isArray(data) && data.length > 0 ? data[0] : data) || { sentence: "", quizTitle: "" };
-  const sentenceText = sentenceItem.sentence || "";
-  const translationText = sentenceItem.translation || "";
-  
-  const correctWords = useMemo(() => sentenceText.split(" ").map((word, idx) => ({ word, id: idx })), [sentenceText]);
+const SentenceOrdering = ({ data, onComplete }) => {
+  console.log("🔵 COMPONENT RENDER, incoming data:", data);
+const item = data;
+  // Normalize incoming data
 
-  const [shuffledWords, setShuffledWords] = useState(() => shuffle([...correctWords]));
-  const [placedWords, setPlacedWords] = useState(Array(correctWords.length).fill(null));
   const [completed, setCompleted] = useState(false);
+  const [shuffledWords, setShuffledWords] = useState([]);
+  const [placedWords, setPlacedWords] = useState([]);
   const [showTranslation, setShowTranslation] = useState(false);
+
+
+
+  // Get current exercise
+  const sentence = item?.sentence || "";
+  const translation = item?.translation || "";
+  const title = item?.quizTitle || "";
+
+  console.log("🟣 current item:", item);
+
+  // Split original words with position ids
+  const correctWords = useMemo(() => {
+    const result = sentence.split(" ").map((word, idx) => ({ word, id: idx }));
+    console.log("🟢 correctWords:", result);
+    return result;
+  }, [sentence]);
+
+  // Shuffle when exercise changes
+  useEffect(() => {
+    console.log("🟡 useEffect triggered for sentence:", sentence);
+
+    if (!sentence) return;
+
+    const shuffled = shuffle([...correctWords]);
+    console.log("🟡 shuffledWords:", shuffled);
+
+    setShuffledWords(shuffled);
+    setPlacedWords(Array(correctWords.length).fill(null));
+    setCompleted(false);
+    setShowTranslation(false);
+  }, [sentence]);
 
   function shuffle(array) {
     const copy = [...array];
@@ -23,34 +52,64 @@ const SentenceOrdering = ({ data }) => {
   }
 
   const handlePlaceWord = (wordObj) => {
-    const nextBlankIdx = placedWords.findIndex(p => p === null);
+    console.log("🟩 placeWord:", wordObj);
+
+    if (completed) {
+      console.log("⚠️ ignored: already completed");
+      return;
+    }
+
+    const nextBlankIdx = placedWords.findIndex((p) => p === null);
+    console.log("🟩 next blank index:", nextBlankIdx);
+
     if (nextBlankIdx === -1) return;
 
-    const newPlaced = [...placedWords];
-    newPlaced[nextBlankIdx] = wordObj;
-    setPlacedWords(newPlaced);
+    const updated = [...placedWords];
+    updated[nextBlankIdx] = wordObj;
 
-    if (newPlaced.every((word, idx) => word?.id === idx)) {
+    console.log("🟩 updated placedWords:", updated);
+
+    setPlacedWords(updated);
+
+    // Check completion
+    const isCorrect = updated.every((w, idx) => w?.id === idx);
+    console.log("🟩 is correct sentence:", isCorrect);
+
+    if (isCorrect) {
+      console.log("🎉 sentence completed correctly");
       setCompleted(true);
+      setShowTranslation(true);
     }
   };
 
-  const handleReset = () => {
-    setShuffledWords(shuffle([...correctWords]));
-    setPlacedWords(Array(correctWords.length).fill(null));
-    setCompleted(false);
+  const handleNext = () => {
+  console.log("➡️ Continue clicked!");
+
+  if (onComplete) {
+    onComplete();   // tell parent we're done
+  }
+};
+
+  const handleSkip = () => {
+    console.log("⏭️ Skip clicked");
+    handleNext();
   };
 
-  if (!sentenceText) return <p>Error: Invalid sentence data</p>;
+
+  if (!sentence) {
+    console.log("❌ Error: no sentence found");
+    return <p>Error: Invalid sentence data</p>;
+  }
 
   return (
     <div className="wordorder-card">
-      <h2 className="wordorder-title">{sentenceItem.quizTitle}</h2>
+      <h2 className="wordorder-title">{title}</h2>
 
+      {/* Word bank */}
       <div className="word-bank">
         {shuffledWords
-          .filter(wordObj => !placedWords.some(p => p?.id === wordObj.id))
-          .map(wordObj => (
+          .filter((w) => !placedWords.some((p) => p?.id === w.id))
+          .map((wordObj) => (
             <button
               key={wordObj.id}
               onClick={() => handlePlaceWord(wordObj)}
@@ -62,32 +121,39 @@ const SentenceOrdering = ({ data }) => {
           ))}
       </div>
 
+      {/* Sentence slots */}
       <div className="ordered-sentence">
         {correctWords.map((_, idx) => {
           const placedWord = placedWords[idx];
           return (
-            <span key={idx} className={`word-slot ${placedWord ? "filled" : "blank"}`}>
-              {placedWord?.word || "_____"}
+            <span
+              key={idx}
+              className={`word-slot ${placedWord ? "filled" : "blank"}`}
+            >
+              {placedWord?.word || "____"}
             </span>
           );
         })}
       </div>
 
-      {completed && <p className="completion-message">✅ Correct! 🎉</p>}
+      {/* Completion UI */}
+      {completed && (
+        <>
+          <p className="completion-message">✅ Correct! 🎉</p>
+          {translation && (
+            <p className="translation-text">💬 {translation}</p>
+          )}
+          <button onClick={handleNext} className="next-button">
+            Continue
+          </button>
+        </>
+      )}
 
-      <button onClick={handleReset} className="reset-button">Reset</button>
-
-      {/* 🔽 Translation Toggle Button */}
-      <button
-        onClick={() => setShowTranslation(prev => !prev)}
-        className="translation-toggle-button"
-      >
-        {showTranslation ? "Hide Translation" : "Show Translation"}
-      </button>
-
-      {/* 🔽 Show translation when toggled */}
-      {showTranslation && translationText && (
-        <p className="translation-text">💬 {translationText}</p>
+      {/* Optional skip */}
+      {!completed && (
+        <button onClick={handleSkip} className="skip-button">
+          Skip
+        </button>
       )}
     </div>
   );

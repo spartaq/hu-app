@@ -23,7 +23,6 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
   const [activityEnded, setActivityEnded] = useState(false);
   const [activityData, setActivityData] = useState(null);
 
-  // Types that auto-start (no "Start" button)
   const autoStartTypes = useMemo(
     () => [
       "ordering",
@@ -38,8 +37,6 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
     ],
     []
   );
-
-  const hideNav = ["dialogue", "vocabmatch", "grammarexplanation", "lessoncomplete"].includes(type);
 
   /** -------------------------
    * Scroll helper
@@ -130,52 +127,6 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
   };
 
   /** -------------------------
-   * Restart the activity
-   ------------------------- */
-  const handleRestart = () => {
-    setActivityStarted(false);
-    setActivityEnded(false);
-    setScore(0);
-    setCurrentIndex(0);
-    scrollToTop();
-  };
-
-  /** -------------------------
-   * Go forward in multi-step flows
-   ------------------------- */
-  const handleNext = () => {
-    // LessonComplete should not trigger score screen
-    if (type === "lessoncomplete") {
-      return;
-    }
-
-    // Non-vocabmatch multi-item activities
-    if (
-      type !== "vocabmatch" &&
-      Array.isArray(activityData) &&
-      currentIndex + 1 < activityData.length
-    ) {
-      setCurrentIndex((prev) => prev + 1);
-      return;
-    }
-
-    // End of activity → show score screen
-    if (type !== "vocabmatch") {
-      setActivityEnded(true);
-      scrollToTop();
-    }
-  };
-
-  /** -------------------------
-   * Go backwards
-   ------------------------- */
-  const handlePrev = () => {
-    if (type !== "vocabmatch" && currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1);
-    }
-  };
-
-  /** -------------------------
    * Render activity
    ------------------------- */
   const ActivityComponent = () => {
@@ -204,28 +155,39 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
 
     return (
       <div className="exercisesection__activity-box">
-        {type === "grammarquiz" && (
-          <QuizActivity
-            question={activityData[currentIndex]}
-            data={data}
-            onAnswer={(result) => {
-              if (result && result.next) {
-                if (result.correct) setScore((s) => s + 1);
-                handleNext();
-              }
-            }}
-          />
-        )}
+       {type === "grammarquiz" && (
+  <QuizActivity
+    question={activityData[currentIndex]}
+    data={data}
+    onAnswer={(result) => {
+      console.log("Quiz answered:", result);
+      if (result.next && currentIndex < activityData.length - 1) {
+        setCurrentIndex((prev) => prev + 1);
+      } else if (currentIndex >= activityData.length - 1) {
+        setActivityEnded(true);
+      }
+    }}
+  />
+)}
 
         {type === "tapaudio" && (
-          <TapAudioActivity data={activityData[currentIndex] || activityData} onComplete={() => {}} />
+          <TapAudioActivity 
+          data={activityData[currentIndex] || activityData}          
+            onComplete={() => {
+      // move to next activity
+      setCurrentIndex(prev => prev + 1);
+    }}
+    />
         )}
 
         {type === "imagematch" && (
           <ImageMatchActivity
             data={activityData[currentIndex] || activityData}
             showTranslationToggle={true}
-            onComplete={() => {}}
+            onComplete={() => {
+      // move to next activity
+      setCurrentIndex(prev => prev + 1);
+    }}
           />
         )}
 
@@ -233,16 +195,18 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
           <AudioWordMatchActivity
             data={data}
             showTranslationToggle={true}
-            onComplete={() => {}}
           />
         )}
 
-        {type === "ordering" && (
-          <SentenceOrdering
-            data={activityData[currentIndex]}
-            onCorrect={() => setScore((s) => s + 1)}
-          />
-        )}
+       {type === "ordering" && (
+  <SentenceOrdering
+    data={activityData[currentIndex]}
+    onComplete={() => {
+      // move to next activity
+      setCurrentIndex(prev => prev + 1);
+    }}
+  />
+)}
 
         {type === "vocabmatch" && (
           <VocabMatchModal
@@ -301,51 +265,9 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
             Your score: {score} /{" "}
             {Array.isArray(activityData) ? activityData.length : 0}
           </p>
-          <div className="newexerciseblock">
-            <button onClick={handleRestart} className="exercisesection__restart-button">
-              Restart
-            </button>
-            <button onClick={startActivity} className="exercisesection__restart-button">
-              New Set
-            </button>
-          </div>
         </div>
       ) : (
-        <>
-          <ActivityComponent />
-
-          {/* NAVIGATION (hidden for certain activity types) */}
-          {!hideNav &&
-            activityStarted &&
-            !activityEnded &&
-            Array.isArray(activityData) &&
-            activityData.length > 0 && (
-              <div className="exercisesection__nav button-row">
-                <div className="button-group">
-                  <button onClick={handleRestart} className="exercisesection__nav-button">
-                    Reset
-                  </button>
-                </div>
-
-                <div className="button-group">
-                  <button
-                    onClick={handlePrev}
-                    disabled={currentIndex === 0}
-                    className="exercisesection__nav-button exercisesection__nav-button--prev"
-                  >
-                    Previous
-                  </button>
-
-                  <button
-                    onClick={handleNext}
-                    className="exercisesection__nav-button exercisesection__nav-button--next"
-                  >
-                    {currentIndex + 1 === activityData.length ? "Finish" : "Next"}
-                  </button>
-                </div>
-              </div>
-            )}
-        </>
+        <ActivityComponent />
       )}
     </div>
   );

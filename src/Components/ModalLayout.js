@@ -12,49 +12,54 @@ const ModalLayout = ({
   seoTitle,
   seoDescription
 }) => {
-
   const [open, setOpen] = useState(false);
   const [selectedSection, setSelectedSection] = useState(null);
-const [selectedIndex, setSelectedIndex] = useState(null);
-const [currentIndex, setCurrentIndex] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(null);
 
- const handleOpen = (section, index) => {
-  setCurrentIndex(index);
-  setSelectedSection(section);
-  setSelectedIndex(index);
-  setOpen(true);
-};
+  const handleOpen = (section, index) => {
+    setCurrentIndex(index);
+    setSelectedSection(section);
+    setSelectedIndex(index);
+    setOpen(true);
+  };
 
-const handleContinue = () => {
-  const nextIndex = currentIndex + 1;
+  const handleContinue = () => {
+    const nextIndex = currentIndex + 1;
 
-  if (nextIndex < sections.length) {
-    setCurrentIndex(nextIndex);
-    setSelectedSection(sections[nextIndex]);
-  } else {
-    setOpen(false); // end of lesson
-  }
-};
+    if (nextIndex < sections.length) {
+      setCurrentIndex(nextIndex);
+      setSelectedSection(sections[nextIndex]);
+    } else {
+      setOpen(false); // end of lesson
+    }
+  };
+
+  const handlePrevious = () => {
+    const prevIndex = currentIndex - 1;
+    if (prevIndex >= 0) {
+      setCurrentIndex(prevIndex);
+      setSelectedSection(sections[prevIndex]);
+    }
+  };
 
   const handleClose = () => {
-  setOpen(false);
-  setSelectedSection(null);
-  setSelectedIndex(null);
-};
+    setOpen(false);
+    setSelectedSection(null);
+    setSelectedIndex(null);
+  };
 
-const openNextSection = () => {
-  if (selectedIndex === null) return;
+  const openNextSection = () => {
+    if (selectedIndex === null) return;
 
-  const nextIndex = selectedIndex + 1;
+    const nextIndex = selectedIndex + 1;
 
-  if (nextIndex < sections.length) {
-    // open next exercise
-    handleOpen(sections[nextIndex], nextIndex);
-  } else {
-    // optional: show completion screen
-    setSelectedSection({ type: "completed" });
-  }
-};
+    if (nextIndex < sections.length) {
+      handleOpen(sections[nextIndex], nextIndex);
+    } else {
+      setSelectedSection({ type: "completed" });
+    }
+  };
 
   return (
     <div>
@@ -67,23 +72,18 @@ const openNextSection = () => {
             <img src={image} alt={title} />
           </div>
 
-        <div className="content-grid">
-          <div className="grammar-explanation-grid">
-            <ExplanationComponent />
+          <div className="content-grid">
+            <div className="grammar-explanation-grid">
+              <ExplanationComponent />
+            </div>
+
+            <button
+              className="start-lesson-btn"
+              onClick={() => handleOpen(sections[0], 0)}
+            >
+              Start
+            </button>
           </div>
-
-          <button
-            className="start-lesson-btn"
-            onClick={() => handleOpen(sections[0], 0)}
-          >
-            Start
-          </button>
-
-          
-          
-        </div>
-
-          
         </div>
       </div>
 
@@ -93,9 +93,14 @@ const openNextSection = () => {
         onClose={handleClose}
         title={selectedSection?.label}
         footer={
-          <button onClick={handleContinue}>
-            Continue
-          </button>
+          <div style={{ display: 'flex', gap: '10px' }}>
+            <button onClick={handlePrevious} disabled={currentIndex === 0}>
+              Previous
+            </button>
+            <button onClick={handleContinue}>
+              Continue
+            </button>
+          </div>
         }
       >
         {selectedSection && (
@@ -107,4 +112,3 @@ const openNextSection = () => {
 };
 
 export default ModalLayout;
-

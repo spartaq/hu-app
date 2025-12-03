@@ -65,30 +65,60 @@
   border-color: #6a4bc3;
   background: #f4efff;
 }
-
-/* Completion Message */
-.completion-message {
-  color: #4caf50;
-  font-weight: 600;
-  text-align: center;
-  margin: 1rem 0;
-}
-
-/* Reset Button */
-.reset-button {
+/* Primary Action Button (Continue) */
+.next-button {
   display: block;
-  margin: 0 auto;
-  padding: 0.6rem 1rem;
-  border-radius: 8px;
+  margin: 1.2rem auto 0;
+  padding: 0.7rem 1.4rem;
+  border-radius: 12px;
+  background: #6a4bc3;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
   border: none;
   cursor: pointer;
-  background: #ece6ff;
   transition: 0.2s ease;
+  text-align: center;
 }
 
-.reset-button:hover {
-  background: #d9ceff;
+.next-button:hover {
+  background: #583aa8;
+  transform: translateY(-1px);
 }
+
+.next-button:active {
+  transform: scale(0.96);
+}
+
+
+/* Secondary Action Button (Skip) */
+.skip-button {
+  display: block;
+  margin: 1rem auto 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  background: #ece6ff;
+  color: #6a4bc3;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-align: center;
+}
+
+.skip-button:hover {
+  background: #d9ceff;
+  transform: translateY(-1px);
+}
+
+.skip-button:active {
+  transform: scale(0.96);
+}
+
+
+
+
 
 @media (max-width: 600px) {
   .ordered-sentence {

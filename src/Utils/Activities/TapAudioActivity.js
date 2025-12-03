@@ -13,44 +13,48 @@ const TapAudioActivity = ({ data, onComplete }) => {
   const audioRef = useRef(null);
   const [selectedWords, setSelectedWords] = useState([]);
   const [completed, setCompleted] = useState(false);
-  const [showTranslation, setShowTranslation] = useState(false);
+  const [isCorrect, setIsCorrect] = useState(false);
+  const [showFeedback, setShowFeedback] = useState(false);
 
   // Shuffle options each time the exercise changes
-  const shuffledWords = useMemo(() => {
-    return shuffle([...options]);
-  }, [currentIndex, options]);
+  const shuffledWords = useMemo(() => shuffle([...options]), [currentIndex, options]);
 
   const remainingWords = shuffledWords.filter((w) => !selectedWords.includes(w));
 
   const handleWordClick = (word) => {
     if (completed) return;
     if (selectedWords.length >= correctSequence.length) return;
+
     setSelectedWords((prev) => [...prev, word]);
+  };
+
+  useEffect(() => {
+    if (selectedWords.length === correctSequence.length) {
+      const correct = selectedWords.every((w, i) => w === correctSequence[i]);
+      setIsCorrect(correct);
+      setCompleted(true);
+      setShowFeedback(true);
+    }
+  }, [selectedWords, correctSequence]);
+
+  const handleNext = () => {
+    if (onComplete) onComplete(isCorrect);
+
+    if (currentIndex < exercises.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+      resetActivity();
+    } else {
+      // Optionally notify parent activity that all exercises are finished
+      console.log("🎉 All TapAudio exercises completed");
+    }
   };
 
   const resetActivity = () => {
     setSelectedWords([]);
     setCompleted(false);
-    setShowTranslation(false);
+    setIsCorrect(false);
+    setShowFeedback(false);
   };
-
-  useEffect(() => {
-    if (selectedWords.length === correctSequence.length) {
-      const isCorrect = selectedWords.every((w, i) => w === correctSequence[i]);
-      setCompleted(isCorrect);
-
-      if (isCorrect) {
-        if (currentIndex === exercises.length - 1) {
-          if (onComplete) onComplete(true);
-        } else {
-          setTimeout(() => {
-            setCurrentIndex((prev) => prev + 1);
-            resetActivity();
-          }, 1000);
-        }
-      }
-    }
-  }, [selectedWords, correctSequence, currentIndex, exercises.length, onComplete]);
 
   const playAudio = () => {
     if (audioRef.current) {
@@ -65,8 +69,6 @@ const TapAudioActivity = ({ data, onComplete }) => {
         {title} ({currentIndex + 1}/{exercises.length})
       </h2>
 
-      
-
       <div className="tapaudio__audio">
         <audio ref={audioRef} src={audio} preload="auto" />
         <button onClick={playAudio} className="tapaudio__play-button">
@@ -78,9 +80,7 @@ const TapAudioActivity = ({ data, onComplete }) => {
         <h3>Your Sequence:</h3>
         <div className="tapaudio__selected-words">
           {selectedWords.map((w, i) => (
-            <span key={i} className="tapaudio__word">
-              {w}
-            </span>
+            <span key={i} className="tapaudio__word">{w}</span>
           ))}
         </div>
       </div>
@@ -93,6 +93,7 @@ const TapAudioActivity = ({ data, onComplete }) => {
               key={i}
               className="tapaudio__option"
               onClick={() => handleWordClick(word)}
+              disabled={completed}
             >
               {word}
             </button>
@@ -100,28 +101,34 @@ const TapAudioActivity = ({ data, onComplete }) => {
         </div>
       </div>
 
-      {/* Feedback and controls */}
-<div className="tapaudio__feedback">
-  {completed && (
-    <div>
-      <p className="tapaudio__success">🎉 Correct! Good job.</p>
-      <p className="tapaudio__full-sentence">
-        ✅ Sentence: {correctSequence.join(" ")}
-      </p>
-      <p className="tapaudio__translation">
-        💬 Translation: {translation}
-      </p>
-    </div>
-  )}
+      {/* 🔥 Feedback / Continue block */}
+      {showFeedback && (
+        <div className="tapaudio__feedback">
+          <p className={isCorrect ? "tapaudio__success" : "tapaudio__error"}>
+            {isCorrect ? "🎉 Correct! Good job." : "❌ Incorrect."}
+          </p>
+          <p className="tapaudio__full-sentence">
+            ✅ Sentence: {correctSequence.join(" ")}
+          </p>
+          {translation && (
+            <p className="tapaudio__translation">💬 Translation: {translation}</p>
+          )}
 
-  <button onClick={resetActivity} className="tapaudio__reset">
-    🔄 Reset
-  </button>
-  <button onClick={playAudio} className="tapaudio__replay">
-    🔊 Replay Audio
-  </button>
-</div>
+          <button className="tapaudio__next-btn" onClick={handleNext}>
+            Continue →
+          </button>
+        </div>
+      )}
 
+      {/* Optional reset / replay */}
+      <div className="tapaudio__controls">
+        <button onClick={resetActivity} className="tapaudio__reset">
+          🔄 Reset
+        </button>
+        <button onClick={playAudio} className="tapaudio__replay">
+          🔊 Replay Audio
+        </button>
+      </div>
     </div>
   );
 };
