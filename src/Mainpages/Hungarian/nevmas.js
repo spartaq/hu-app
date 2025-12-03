@@ -6,7 +6,8 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "nevmas" },
   { label: "Dialogue", type: "dialogue", subtype: "nevmas" },
-  { label: "Vocab", type: "vocabmatch", subtype: "nevmas" },  
+  { label: "Vocab", type: "vocabmatch", subtype: "nevmas" }, 
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "nevmas" }, 
   { label: "Audio Match", type: "audiowordmatch", subtype: "nevmas" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "nevmas" },
 { label: "Exercises", type: "grammarquiz", subtype: "nevmas" },

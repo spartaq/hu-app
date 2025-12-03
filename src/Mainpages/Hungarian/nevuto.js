@@ -6,10 +6,13 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "nevuto" },
   { label: "Dialogue", type: "dialogue", subtype: "nevuto" },
-  { label: "Vocab", type: "vocabmatch", subtype: "nevuto" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "nevuto" },
+  { label: "Vocab", type: "vocabmatch", subtype: "nevuto" },  
+  { label: "Audio Match", type: "audiowordmatch", subtype: "nevuto" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "nevuto" },
   
 { label: "Exercises", type: "grammarquiz", subtype: "nevuto" },
-  { label: "Word Order", type: "ordering", subtype: "van" },
+  { label: "Word Order", type: "ordering", subtype: "nevuto" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
   { label: "Lesson Complete", type: "lessoncomplete", subtype: "nevuto" },
@@ -20,7 +23,7 @@ const Nevuto = () => (
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}
-    seoTitle="Hungarian Grammar Exercises - Névútó (Pronouns)"
+    seoTitle="Hungarian Grammar Exercises - Névútó (Postpositions)"
     seoDescription="A big list of Hungarian grammar exercises to practice"
   />
 );

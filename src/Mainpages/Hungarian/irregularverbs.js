@@ -7,6 +7,7 @@ const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "irregularverbs" },
   { label: "Dialogue", type: "dialogue", subtype: "irregularverbs" },
   { label: "Vocab", type: "vocabmatch", subtype: "irregularverbs" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "irregularverbs" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "irregularverbs" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "irregularverbs" },
   { label: "Exercises", type: "grammarquiz", subtype: "irregularverbs" },

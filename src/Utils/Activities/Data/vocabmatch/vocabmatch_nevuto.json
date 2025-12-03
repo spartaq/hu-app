@@ -1,11 +1,14 @@
 {
-  "quizTitle": "Névutók – Postpositions",
+  "quizTitle": "nevuto",
   "type": "vocab",
-  "topic": "nevuto",
+  "topic": "postpositions",
   "pairs": [
-    { "term": "a táskában", "definition": "in the bag" },
-    { "term": "az asztalra", "definition": "onto the table" },
-    { "term": "az orvoshoz", "definition": "to the doctor" },
-    { "term": "a sarkonál", "definition": "at the corner" }
+    { "term": "itt", "definition": "here" },
+    { "term": "ott", "definition": "there" },
+    { "term": "közel", "definition": "near" },
+    { "term": "távol", "definition": "far" },
+    { "term": "bolt", "definition": "shop" },
+    { "term": "park", "definition": "park" },
+    { "term": "templom", "definition": "church" }
   ]
 }

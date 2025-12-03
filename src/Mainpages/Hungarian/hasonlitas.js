@@ -6,10 +6,13 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "hasonlitas" },
   { label: "Dialogue", type: "dialogue", subtype: "hasonlitas" },
-  { label: "Vocab", type: "vocabmatch", subtype: "hasonlitas" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "hasonlitas" },
+  { label: "Vocab", type: "vocabmatch", subtype: "hasonlitas" },  
+  { label: "Audio Match", type: "audiowordmatch", subtype: "hasonlitas" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "hasonlitas" },
   
 { label: "Exercises", type: "grammarquiz", subtype: "hasonlitas" },
-  { label: "Word Order", type: "ordering", subtype: "van" },
+  { label: "Word Order", type: "ordering", subtype: "hasonlitas" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
   { label: "Lesson Complete", type: "lessoncomplete", subtype: "hasonlitas" },

@@ -16,10 +16,10 @@
 
 
 /* -------------------------------
-   MAIN MODAL CONTAINER
+   MAIN MODAL CONTAINER Modal body is the main background for the modal screens
 --------------------------------*/
 .modal-content {
-  background: rebeccapurple;
+  background: transparent;
   width: 100%;
   max-width: 900px;
   min-height: 100vh;
@@ -87,10 +87,10 @@
    INNER SCROLLABLE BODY
 --------------------------------*/
 .modal-body {
-  /*padding: 24px;*/
+  padding: 12px;
   overflow-y: auto;
   flex: 1;
-  background: #faf8ff;  /* subtle purple tint */
+  background: rgb(188, 145, 231);  /* subtle purple tint */
 }
 
 /* Nice scrollbar */
@@ -164,11 +164,11 @@
 }
 
 .modal-footer {
-  padding: 20px;
+  padding: 0px;
   border-top: 1px solid #eee;
   display: flex;
   justify-content: flex-end;
-  background: #fafafa;
+  background: rebeccapurple;
 }
 
 .modal-footer button {

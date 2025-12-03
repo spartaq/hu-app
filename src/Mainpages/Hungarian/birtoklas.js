@@ -6,6 +6,7 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "birtoklas" },
   { label: "Dialogue", type: "dialogue", subtype: "birtoklas" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "birtoklas" },
   { label: "Vocab", type: "vocabmatch", subtype: "birtoklas" },  
   { label: "Audio Match", type: "audiowordmatch", subtype: "birtoklas" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "birtoklas" },

@@ -6,6 +6,7 @@ import mainimage from '../../Images/villamos.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "basicadjectives" },
   { label: "Dialogue", type: "dialogue", subtype: "basicadjectives" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "basicadjectives" },
   { label: "Vocab", type: "vocabmatch", subtype: "basicadjectives" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "basicadjectives" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "basicadjectives" },

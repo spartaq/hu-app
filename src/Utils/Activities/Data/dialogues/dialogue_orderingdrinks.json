@@ -1,24 +1,38 @@
-  {
-  "title": "#",
-  "audio": "#",
-  "avatarMap": {
-    "Anna": "/avatars/anna.png",
-    "Béla": "/avatars/bela.png"
-  },
-  "lines": [
-    {
-      "speaker": "Anna",
-      "text": "Jó reggelt!",
-      "translation": "Good morning!",
-      "start": 26156,
-      "end": 26968
-    },
-    {
-      "speaker": "Béla",
-      "text": "Jó reggelt kívánok! Hogy vagy?",
-      "translation": "Good morning! How are you?",
-      "start": 27000,
-      "end": 29000
-    }
-  ]
+{
+"title": "Ordering Drinks at a Cafe",
+"audio": "/audio/orderingdrinks/dialogue.mp3",
+"avatarMap": {
+"Anna": "/avatars/anna.png",
+"Béla": "/avatars/bela.png"
+},
+"lines": [
+{
+"speaker": "Anna",
+"text": "Szeretnék egy kávét, kérem.",
+"translation": "I would like a coffee, please.",
+"start": 0,
+"end": 3000
+},
+{
+"speaker": "Béla",
+"text": "Természetesen, tessék.",
+"translation": "Of course, here you go.",
+"start": 3000,
+"end": 6000
+},
+{
+"speaker": "Anna",
+"text": "És egy teát is szeretnék.",
+"translation": "And I would like a tea as well.",
+"start": 6000,
+"end": 9000
+},
+{
+"speaker": "Béla",
+"text": "Rendben, rögtön hozom.",
+"translation": "Alright, I will bring it right away.",
+"start": 9000,
+"end": 12000
+}
+]
 }

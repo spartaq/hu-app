@@ -1,28 +1,26 @@
 [
   {
     "id": 1,
-    "quizTitle": "Vocabulary - Animals",
-    "audio": "/audio/cat.mp3",
-    "prompt": "macska",
+    "quizTitle": "Match Direction",
+    "audio": "/audio/nevuto/match1.mp3",
+    "prompt": "Which picture is 'balra'?",
     "options": [
-      { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/argue1.jpg", "word": "dog", "isCorrect": false }
+      { "id": "a", "image": "/images/left.jpg", "word": "balra", "isCorrect": true },
+      { "id": "b", "image": "/images/right.jpg", "word": "jobbra", "isCorrect": false }
     ],
-    "translation": "cat",
+    "translation": "left",
     "mode": "word-to-image"
   },
   {
     "id": 2,
-    "quizTitle": "Vocabulary - Animals",
-    "promptImage": "/images/wish1.jpg",
+    "quizTitle": "Match Place",
+    "audio": "/audio/nevuto/match2.mp3",
+    "prompt": "Which is 'bolt'?",
     "options": [
-      { "id": "a", "word": "cat", "isCorrect": true },
-      { "id": "b", "word": "dog", "isCorrect": false },
-      { "id": "c", "word": "mouse", "isCorrect": false }
+      { "id": "a", "image": "/images/store.jpg", "word": "bolt", "isCorrect": true },
+      { "id": "b", "image": "/images/park.jpg", "word": "park", "isCorrect": false }
     ],
-    "translation": "cat",
-    "mode": "image-to-word"
+    "translation": "shop",
+    "mode": "word-to-image"
   }
 ]
-
-

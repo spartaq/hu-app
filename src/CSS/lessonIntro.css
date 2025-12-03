@@ -1,0 +1,14 @@
+.lessonIntro-explanation {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.lessonlist-container {
+  width: 100%;
+  padding: 20px 10px;
+  background: rgb(188, 145, 231);  /* subtle purple tint */
+  height: 100vh;
+}

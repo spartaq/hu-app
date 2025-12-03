@@ -7,10 +7,13 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "mult" },
   { label: "Dialogue", type: "dialogue", subtype: "mult" },
-  { label: "Vocab", type: "vocabmatch", subtype: "mult" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "mult" },
+  { label: "Vocab", type: "vocabmatch", subtype: "mult" },  
+  { label: "Audio Match", type: "audiowordmatch", subtype: "mult" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "birtmultoklas" },
   
 { label: "Exercises", type: "grammarquiz", subtype: "mult" },
-  { label: "Word Order", type: "ordering", subtype: "van" },
+  { label: "Word Order", type: "ordering", subtype: "mult" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },
   { label: "Lesson Complete", type: "lessoncomplete", subtype: "mult" },

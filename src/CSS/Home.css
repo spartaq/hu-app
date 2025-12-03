@@ -5,7 +5,8 @@
   min-height: 100vh;
   font-family: var(--font-main);
   max-width: 900px;
-  margin: 0 auto;
+  margin: 106px auto;
+  overflow:visible
 }
 
 /* SMALL BANNER */
@@ -88,6 +89,9 @@
 }
 
 /* QUICK ACTIONS */
+.home-section {
+  overflow: auto;
+}
 .home-section h2 {
   font-size: var(--font-size-h3);
   margin-bottom: var(--space-md);

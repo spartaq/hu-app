@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../../CSS/grammarPage.css';
+import '../../../CSS/lessonIntro.css';
 import { FaBookOpen, } from 'react-icons/fa';
 
 const BirtoklasIntro = () => {
   return (
-    <div className="grammar-explanation">
+    <div className="lessonIntro-explanation">
       <div>
 
         <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Birtoklas (Possessive)</h2>

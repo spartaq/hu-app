@@ -1,6 +1,6 @@
 .lessonlist-wrapper {
   max-width: 100%;
-  margin: 2rem auto;
+  margin: 0rem auto;
   padding: 1.5rem;
   border-radius: 12px;
   background: #fff;
@@ -10,6 +10,13 @@
   gap: 1rem;
   font-family: sans-serif;
   height: 74vh;
+}
+
+.lessonlist-container {
+  width: 100%;
+  padding: 20px 10px;
+  background: rgb(188, 145, 231);  /* subtle purple tint */
+  height: 100vh;
 }
 
 .lessonlist-title {

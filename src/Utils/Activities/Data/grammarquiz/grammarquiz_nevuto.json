@@ -1,146 +1,27 @@
 {
-  "quizTitle": "Névutók – 20 kérdés",
+  "quizTitle": "Postpositions Quiz",
   "type": "quiz",
   "questions": [
     {
       "id": 1,
-      "question": "A könyv __ van. (in the bag)",
-      "options": ["a táskában", "a táskára", "a táskához", "a táskánál"],
-      "answer": "a táskában",
-      "translate": "The book is in the bag."
+      "question": "Hol van a bolt?",
+      "options": ["A parkban", "A parkba", "A parkról", "A parkhoz"],
+      "answer": "A parkban",
+      "translate": "Where is the shop?"
     },
     {
       "id": 2,
-      "question": "A kabát __ lóg. (on the chair)",
-      "options": ["a széken", "a székre", "a széktől", "a székhez"],
-      "answer": "a széken",
-      "translate": "The coat hangs on the chair."
+      "question": "Hova mész?",
+      "options": ["A templomból", "A templomba", "A templom mellett", "A templomon"],
+      "answer": "A templomba",
+      "translate": "Where are you going?"
     },
     {
       "id": 3,
-      "question": "Felteszem a laptopot __. (onto the table)",
-      "options": ["az asztalra", "az asztalon", "az asztalhoz", "az asztalbÓl"],
-      "answer": "az asztalra",
-      "translate": "I put the laptop onto the table."
-    },
-    {
-      "id": 4,
-      "question": "A kulcs __ van. (in the drawer)",
-      "options": ["a fiókban", "a fiókra", "a fióknál", "a fiókhoz"],
-      "answer": "a fiókban",
-      "translate": "The key is in the drawer."
-    },
-    {
-      "id": 5,
-      "question": "Megyek __. (to the doctor)",
-      "options": ["az orvoshoz", "az orvosnál", "az orvosra", "az orvosból"],
-      "answer": "az orvoshoz",
-      "translate": "I am going to the doctor."
-    },
-    {
-      "id": 6,
-      "question": "A macska __ alszik. (on the sofa)",
-      "options": ["a kanapén", "a kanapéra", "a kanapétól", "a kanapéhoz"],
-      "answer": "a kanapén",
-      "translate": "The cat sleeps on the sofa."
-    },
-    {
-      "id": 7,
-      "question": "Jövök __. (from school)",
-      "options": ["az iskolából", "az iskolában", "az iskolára", "az iskolához"],
-      "answer": "az iskolából",
-      "translate": "I’m coming from school."
-    },
-    {
-      "id": 8,
-      "question": "A cipő __ van. (in the box)",
-      "options": ["a dobozban", "a dobozon", "a dobozra", "a doboznál"],
-      "answer": "a dobozban",
-      "translate": "The shoes are in the box."
-    },
-    {
-      "id": 9,
-      "question": "A kép __ lóg. (on the wall)",
-      "options": ["a falon", "a falra", "a falnál", "a faltól"],
-      "answer": "a falon",
-      "translate": "The picture hangs on the wall."
-    },
-    {
-      "id": 10,
-      "question": "Megyek __. (to my friend)",
-      "options": ["a barátomhoz", "a barátomnál", "a barátomtól", "a barátomra"],
-      "answer": "a barátomhoz",
-      "translate": "I’m going to my friend."
-    },
-    {
-      "id": 11,
-      "question": "A víz __ van. (in the glass)",
-      "options": ["a pohárban", "a pohárra", "a poháron", "a pohártól"],
-      "answer": "a pohárban",
-      "translate": "The water is in the glass."
-    },
-    {
-      "id": 12,
-      "question": "A gyerekek felmennek __. (onto the roof)",
-      "options": ["a tetőre", "a tetőn", "a tetőtől", "a tetőhöz"],
-      "answer": "a tetőre",
-      "translate": "The children go onto the roof."
-    },
-    {
-      "id": 13,
-      "question": "A bolt __ van. (at the corner)",
-      "options": ["a sarkonál", "a sarokra", "a saroknál", "a sarokban"],
-      "answer": "a sarkonál",
-      "translate": "The shop is at the corner."
-    },
-    {
-      "id": 14,
-      "question": "A nadrág __ lóg. (on the hanger)",
-      "options": ["a vállfán", "a vállfára", "a vállfától", "a vállfához"],
-      "answer": "a vállfán",
-      "translate": "The trousers hang on the hanger."
-    },
-    {
-      "id": 15,
-      "question": "A táska __ jön. (from the car)",
-      "options": ["az autóból", "az autóhoz", "az autóra", "az autón"],
-      "answer": "az autóból",
-      "translate": "The bag comes from the car."
-    },
-    {
-      "id": 16,
-      "question": "A telefon __ van. (on the desk)",
-      "options": ["az íróasztalon", "az íróasztalra", "az íróasztalhoz", "az íróasztalnál"],
-      "answer": "az íróasztalon",
-      "translate": "The phone is on the desk."
-    },
-    {
-      "id": 17,
-      "question": "Bemehetünk __. (into the room)",
-      "options": ["a szobába", "a szobában", "a szobán", "a szobától"],
-      "answer": "a szobába",
-      "translate": "We can go into the room."
-    },
-    {
-      "id": 18,
-      "question": "Már jövök __. (from the doctor)",
-      "options": ["az orvostól", "az orvoshoz", "az orvosnál", "az orvosban"],
-      "answer": "az orvostól",
-      "translate": "I’m already coming from the doctor."
-    },
-    {
-      "id": 19,
-      "question": "A virág __ áll. (on the table)",
-      "options": ["az asztalon", "az asztalra", "az asztalhoz", "az asztaltól"],
-      "answer": "az asztalon",
-      "translate": "The flower is on the table."
-    },
-    {
-      "id": 20,
-      "question": "Délután megyek __. (to the shop)",
-      "options": ["a boltba", "a boltban", "a bolttól", "a boltnál"],
-      "answer": "a boltba",
-      "translate": "I’m going to the shop in the afternoon."
+      "question": "Honnan jössz?",
+      "options": ["A múzeumba", "A múzeumban", "A múzeumból", "A múzeumhoz"],
+      "answer": "A múzeumból",
+      "translate": "Where are you coming from?"
     }
   ]
 }

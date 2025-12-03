@@ -6,7 +6,10 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "jovo" },
   { label: "Dialogue", type: "dialogue", subtype: "jovo" },
-  { label: "Vocab", type: "vocabmatch", subtype: "jovo" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "jovo" },
+  { label: "Vocab", type: "vocabmatch", subtype: "jovo" },  
+  { label: "Audio Match", type: "audiowordmatch", subtype: "jovo" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "jovo" },
   
 { label: "Exercises", type: "grammarquiz", subtype: "jovo" },
   { label: "Word Order", type: "ordering", subtype: "jovo" },

@@ -7,6 +7,7 @@ const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "numbers" },
   { label: "Dialogue", type: "dialogue", subtype: "numbers" },
   { label: "Vocab", type: "vocabmatch", subtype: "numbers" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "numbers" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "numbers" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "numbers" },
   { label: "Exercises", type: "grammarquiz", subtype: "numbers" },

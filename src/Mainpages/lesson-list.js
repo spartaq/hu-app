@@ -14,7 +14,7 @@ export default function LessonList() {
 
   return (
 
-    <div className="grammar-container">
+    <div className="lessonlist-container">
     <div className="lessonlist-wrapper">
       <h2 className="lessonlist-title">Lessons</h2>
 

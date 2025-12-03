@@ -6,6 +6,7 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "orderingdrinks" },
   { label: "Dialogue", type: "dialogue", subtype: "orderingdrinks" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "orderingdrinks" },
   { label: "Vocab", type: "vocabmatch", subtype: "orderingdrinks" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "orderingdrinks" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "orderingdrinks" },

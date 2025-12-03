@@ -8,6 +8,7 @@ const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "jelenindef" },
   { label: "Dialogue", type: "dialogue", subtype: "jelenindef" },
   { label: "Vocab", type: "vocabmatch", subtype: "jelenindef" },
+  { label: "Image Match - vocabulary", type: "imagematch", subtype: "jelenindef" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "jelenindef" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "jelenindef" },  
   { label: "Exercises", type: "grammarquiz", subtype: "jelenindef" },

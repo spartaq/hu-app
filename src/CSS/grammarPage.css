@@ -18,8 +18,8 @@ body {
 .grammar-container {
   width: 100%;
   padding: 20px 10px;
-  background-color: #fdfdfd;
-  height: 80vh;
+  background: rgb(188, 145, 231);  /* subtle purple tint */
+  height: 100vh;
 }
 
 .grammar-exercise-wrapper {
@@ -28,6 +28,7 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin: 24px auto;
   padding: 20px;
+  height: 77vh;
 }
 
 /* -----------------------------
@@ -226,7 +227,7 @@ body {
 }
 
 .start-lesson-btn {
-  background: rebeccapurple;
+  background: #ff7a1e;
   color: white;
   padding: 14px 26px;
   border: none;

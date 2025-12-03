@@ -1,26 +1,15 @@
 [
-  {
-    "id": 1,
-    "quizTitle": "#",
-    "audio": "/audio/cat.mp3",
-    "prompt": "macska",
-    "options": [
-      { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/argue1.jpg", "word": "dog", "isCorrect": false }
-    ],
-    "translation": "cat",
-    "mode": "word-to-image"
-  },
-  {
-    "id": 2,
-    "quizTitle": "#",
-    "promptImage": "/images/wish1.jpg",
-    "options": [
-      { "id": "a", "word": "cat", "isCorrect": true },
-      { "id": "b", "word": "dog", "isCorrect": false },
-      { "id": "c", "word": "mouse", "isCorrect": false }
-    ],
-    "translation": "cat",
-    "mode": "image-to-word"
-  }
+{
+"id": 1,
+"quizTitle": "Match the Word to the Image",
+"audio": "/audio/orderingdrinks/match1.mp3",
+"prompt": "Which image shows 'kávé'?",
+"options": [
+{ "id": "a", "image": "/images/kave.jpg", "word": "kávé", "isCorrect": true },
+{ "id": "b", "image": "/images/tea.jpg", "word": "kávé", "isCorrect": false },
+{ "id": "c", "image": "/images/sor.jpg", "word": "kávé", "isCorrect": false }
+],
+"translation": "Melyik kép mutatja a 'kávé'-t?",
+"mode": "word-to-image"
+}
 ]
