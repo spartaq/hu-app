@@ -16,11 +16,11 @@
     "quizTitle": "Vocabulary - Basic Phrases",
     "promptImage": "/Images/thank-you.jpg",
     "options": [
-      { "id": "a", "word": "Thank you.", "isCorrect": true },
-      { "id": "b", "word": "You're welcome.", "isCorrect": false },
-      { "id": "c", "word": "Excuse me.", "isCorrect": false }
+      { "id": "a", "word": "Köszönöm.", "isCorrect": true },
+      { "id": "b", "word": "Nincs mit.", "isCorrect": false },
+      { "id": "c", "word": "Elnézést.", "isCorrect": false }
     ],
-    "translation": "Köszönöm.",
+    "translation": "Thank you.",
     "mode": "image-to-word"
   },
   {
@@ -40,11 +40,11 @@
     "quizTitle": "Vocabulary - Basic Phrases",
     "promptImage": "/Images/excuse-me.jpg",
     "options": [
-      { "id": "a", "word": "Excuse me.", "isCorrect": true },
-      { "id": "b", "word": "Good day.", "isCorrect": false },
-      { "id": "c", "word": "Thank you.", "isCorrect": false }
+      { "id": "a", "word": "Elnézést.", "isCorrect": true },
+      { "id": "b", "word": "Bocsanat.", "isCorrect": false },
+      { "id": "c", "word": "Jo napot.", "isCorrect": false }
     ],
-    "translation": "Elnézést.",
+    "translation": "Excuse me.",
     "mode": "image-to-word"
   }
 ]

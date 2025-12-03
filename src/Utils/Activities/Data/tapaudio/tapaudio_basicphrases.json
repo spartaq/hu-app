@@ -1,18 +1,18 @@
-[  
+[
   {
-    "id": "basicphrases1a",
-    "title": "Tap What You Hear - Greetings",
-    "audio": "/audio/basicphrases/hello.mp3",
-    "correctSequence": ["Szia"],
-    "options": ["Szia", "Viszlát", "Jó napot", "Köszönöm"],
-    "translation": "Hi / Hello"
+    "id": "greetings1",
+    "title": "Tap What You Hear",
+    "audio": "/audio/basicphrases/hello_sentence.mp3",
+    "correctSequence": ["Szia", ",", "hogy", "vagy", "ma", "?"],
+    "options": ["Szia", "vagy", "hogy", ",", "ma", "?", "jó", "köszönöm"],
+    "translation": "Hi, how are you today?"
   },
   {
-    "id": "basicphrases2a",
-    "title": "Tap What You Hear - Bye",
-    "audio": "/audio/basicphrases/bye.mp3",
-    "correctSequence": ["Viszlát"],
-    "options": ["Viszlát", "Szia", "Köszi", "Jó éjt"],
-    "translation": "Goodbye"
-  }  
+    "id": "farewell1",
+    "title": "Tap What You Hear",
+    "audio": "/audio/basicphrases/bye_sentence.mp3",
+    "correctSequence": ["Viszlát", ",", "minden", "jót", "!"],
+    "options": ["Viszlát", "minden", "jót", "!", "Szia", "köszi", "ma", "?"],
+    "translation": "Goodbye, all the best!"
+  }
 ]

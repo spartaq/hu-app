@@ -33,6 +33,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
       "grammarexplanation",
       "imagematch",
       "audiowordmatch",
+      "tapaudio",
       "lessoncomplete"
     ],
     []
@@ -74,6 +75,8 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
         return Array.isArray(data) ? data : [data];
       case "grammarexplanation":
         return data;
+      case "tapaudio":
+        return Array.isArray(data) ? data : [data];
       case "imagematch":
         return data;
       case "audiowordmatch":

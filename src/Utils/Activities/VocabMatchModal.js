@@ -55,7 +55,6 @@ export default function VocabMatchModal({ pairs = [], title = "Vocabulary Match"
 
         {/* TERMS */}
         <div className="vocabmatch__column">
-          <h3>Terms</h3>
           <div className="vocabmatch__list">
             {unmatchedTerms.map(term => (
               <button
@@ -71,7 +70,6 @@ export default function VocabMatchModal({ pairs = [], title = "Vocabulary Match"
 
         {/* DEFINITIONS */}
         <div className="vocabmatch__column">
-          <h3>Definitions</h3>
           <div className="vocabmatch__list">
             {unmatchedDefs.map(def => (
               <button

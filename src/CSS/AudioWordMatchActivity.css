@@ -45,10 +45,14 @@
   border-radius: 10px;
   border: 2px solid transparent;
   cursor: pointer;
-  background: #faf7ff; /* vocabmatch pastel lilac */
+  background: #ece6ff;
+  color: #6a4bc3;
+  font-weight: 600;
   transition: 0.2s;
   font-size: 1rem;
 }
+
+
 
 .audiowordmatch__audio-card:hover,
 .audiowordmatch__text-card:hover {

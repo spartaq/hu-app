@@ -6,25 +6,25 @@ const TapAudioActivity = ({ data, onComplete }) => {
   const exercises = Array.isArray(data) ? data : [data];
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const currentExercise = exercises[currentIndex];
+  const currentExercise = exercises[currentIndex] || {};
 
-  const { title, audio, correctSequence, options = [], translation } = currentExercise || {};
+  const { title, audio, correctSequence = [], options = [], translation } = currentExercise;
 
   const audioRef = useRef(null);
-
   const [selectedWords, setSelectedWords] = useState([]);
   const [completed, setCompleted] = useState(false);
   const [showTranslation, setShowTranslation] = useState(false);
 
- const shuffledWords = useMemo(() => {
-  if (!options.length) return [];
-  return shuffle([...options]);
-}, [currentIndex, options]);
+  // Shuffle options each time the exercise changes
+  const shuffledWords = useMemo(() => {
+    return shuffle([...options]);
+  }, [currentIndex, options]);
+
+  const remainingWords = shuffledWords.filter((w) => !selectedWords.includes(w));
 
   const handleWordClick = (word) => {
     if (completed) return;
-    // Prevent selecting extra distractor words
-  if (selectedWords.length >= correctSequence.length) return;
+    if (selectedWords.length >= correctSequence.length) return;
     setSelectedWords((prev) => [...prev, word]);
   };
 
@@ -35,13 +35,8 @@ const TapAudioActivity = ({ data, onComplete }) => {
   };
 
   useEffect(() => {
-    if (!correctSequence) return;
-
     if (selectedWords.length === correctSequence.length) {
-      const isCorrect = selectedWords.every(
-        (w, i) => w === correctSequence[i]
-      );
-
+      const isCorrect = selectedWords.every((w, i) => w === correctSequence[i]);
       setCompleted(isCorrect);
 
       if (isCorrect) {
@@ -51,7 +46,7 @@ const TapAudioActivity = ({ data, onComplete }) => {
           setTimeout(() => {
             setCurrentIndex((prev) => prev + 1);
             resetActivity();
-          }, 900);
+          }, 1000);
         }
       }
     }
@@ -64,29 +59,14 @@ const TapAudioActivity = ({ data, onComplete }) => {
     }
   };
 
-  const remainingWords = shuffledWords.filter(
-    (w) => !selectedWords.includes(w)
-  );
-
   return (
     <div className="tapaudio__card">
       <h2 className="tapaudio__title">
         {title} ({currentIndex + 1}/{exercises.length})
       </h2>
 
-      {/* Translation toggle */}
-      <button
-        className="tapaudio__translation-toggle"
-        onClick={() => setShowTranslation((prev) => !prev)}
-      >
-        {showTranslation ? "Hide translation" : "Show translation"}
-      </button>
+      
 
-      {showTranslation && (
-        <p className="tapaudio__translation">{translation}</p>
-      )}
-
-      {/* Audio player */}
       <div className="tapaudio__audio">
         <audio ref={audioRef} src={audio} preload="auto" />
         <button onClick={playAudio} className="tapaudio__play-button">
@@ -94,7 +74,6 @@ const TapAudioActivity = ({ data, onComplete }) => {
         </button>
       </div>
 
-      {/* Selected words */}
       <div className="tapaudio__selected">
         <h3>Your Sequence:</h3>
         <div className="tapaudio__selected-words">
@@ -106,7 +85,6 @@ const TapAudioActivity = ({ data, onComplete }) => {
         </div>
       </div>
 
-      {/* Word options */}
       <div className="tapaudio__options">
         <h3>Tap Words:</h3>
         <div className="tapaudio__words-grid">
@@ -123,18 +101,27 @@ const TapAudioActivity = ({ data, onComplete }) => {
       </div>
 
       {/* Feedback and controls */}
-      <div className="tapaudio__feedback">
-        {completed && (
-          <p className="tapaudio__success">🎉 Correct! Good job.</p>
-        )}
+<div className="tapaudio__feedback">
+  {completed && (
+    <div>
+      <p className="tapaudio__success">🎉 Correct! Good job.</p>
+      <p className="tapaudio__full-sentence">
+        ✅ Sentence: {correctSequence.join(" ")}
+      </p>
+      <p className="tapaudio__translation">
+        💬 Translation: {translation}
+      </p>
+    </div>
+  )}
 
-        <button onClick={resetActivity} className="tapaudio__reset">
-          🔄 Reset
-        </button>
-        <button onClick={playAudio} className="tapaudio__replay">
-          🔊 Replay Audio
-        </button>
-      </div>
+  <button onClick={resetActivity} className="tapaudio__reset">
+    🔄 Reset
+  </button>
+  <button onClick={playAudio} className="tapaudio__replay">
+    🔊 Replay Audio
+  </button>
+</div>
+
     </div>
   );
 };

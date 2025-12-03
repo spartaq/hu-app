@@ -5,7 +5,7 @@
   padding: 2rem;
   max-width: 700px;
   margin: 1.5rem auto;
-   /*box-shadow: 0 4px 12px rgba(0,0,0,0.08);*/
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   animation: fadeIn 0.25s ease;
 }
 
@@ -43,6 +43,7 @@
 /* Selected Sequence */
 .tapaudio__selected {
   margin-bottom: 1.2rem;
+  justify-items: center;
 }
 
 .tapaudio__selected h3 {
@@ -66,6 +67,10 @@
 }
 
 /* Word Options Grid */
+.tapaudio__options {
+  justify-items: center;
+}
+
 .tapaudio__options h3 {
   font-size: 1rem;
   font-weight: 600;

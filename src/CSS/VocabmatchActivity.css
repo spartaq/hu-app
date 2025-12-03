@@ -27,14 +27,15 @@
 }
 
 .vocabmatch__item {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
+  margin: 0.4rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
   cursor: pointer;
-  background: #faf7ff;
-  transition: 0.2s;
+  background: #ece6ff;
+  color: #6a4bc3;
+  font-weight: 600;
+  transition: 0.2s ease;
 }
 
 .vocabmatch__item:hover {
