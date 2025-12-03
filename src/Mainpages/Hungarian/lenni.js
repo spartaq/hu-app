@@ -1,5 +1,5 @@
 import React from 'react';
-import ModalLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/lenniintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
@@ -18,7 +18,7 @@ const sections = [
 ];
 
 const Lenni = () => (
-  <ModalLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

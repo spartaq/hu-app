@@ -4,7 +4,7 @@ import { FaBookOpen } from 'react-icons/fa';
 
 const irregularverbsIntro = () => {
   return (
-    <div className="grammar-explanation">
+    <div className="lesson-intro-style">
       <div>
         <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Rendhagyó igék (Irregular Verbs)</h2>
         <p>

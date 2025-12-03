@@ -1,4 +1,7 @@
-.lessonIntro-explanation {
+/* -----------------------------
+   EXPLANATION TEXT SECTION (keep yours)
+--------------------------------*/
+.lesson-intro-style {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -6,9 +9,39 @@
   font-size: 1.1rem;
 }
 
-.lessonlist-container {
-  width: 100%;
-  padding: 20px 10px;
-  background: rgb(188, 145, 231);  /* subtle purple tint */
-  height: 100vh;
+.lesson-intro-style h2 {
+  font-size: 1.8rem;
+  color: rebeccapurple;
+  border-bottom: 3px solid #F6A623;
+  padding-bottom: 0.4rem;
+}
+
+.lesson-intro-style h3 {
+  font-size: 1.4rem;
+  color: rebeccapurple;
+  margin-top: 1.5rem;
+}
+
+.lesson-intro-style ul {
+  list-style-type: none;
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.lesson-intro-style .tip,
+.lesson-intro-style .note {
+  padding: 1rem;
+  border-radius: 0.375rem;
+  margin: 1rem 0;
+}
+
+.lesson-intro-style .tip {
+  background-color: #e6fffa;
+  border-left: 4px solid #38b2ac;
+}
+
+.lesson-intro-style .note {
+  background-color: #fefcbf;
+  border-left: 4px solid orangered;
 }

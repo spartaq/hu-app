@@ -1,12 +1,12 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/nevutointro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "nevuto" },
   { label: "Dialogue", type: "dialogue", subtype: "nevuto" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "nevuto" },
+  { label: "Image Match", type: "imagematch", subtype: "nevuto" },
   { label: "Vocab", type: "vocabmatch", subtype: "nevuto" },  
   { label: "Audio Match", type: "audiowordmatch", subtype: "nevuto" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "nevuto" },
@@ -19,7 +19,7 @@ const sections = [
 ];
 
 const Nevuto = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

@@ -215,7 +215,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef, subtype, quizData }) => 
         )}
 
         {type === "tapaudio" && (
-          <TapAudioActivity data={data} onComplete={() => {}} />
+          <TapAudioActivity data={activityData[currentIndex] || activityData} onComplete={() => {}} />
         )}
 
         {type === "imagematch" && (

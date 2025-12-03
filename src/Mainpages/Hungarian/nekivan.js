@@ -1,12 +1,12 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/nekivanintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "nekivan" },
   { label: "Dialogue", type: "dialogue", subtype: "nekivan" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "nekivan" },
+  { label: "Image Match", type: "imagematch", subtype: "nekivan" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "nekivan" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "nekivan" },
   { label: "Vocab", type: "vocabmatch", subtype: "nekivan" },
@@ -19,7 +19,7 @@ const sections = [
 ];
 
 const Nekivan = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

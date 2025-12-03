@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../../CSS/grammarPage.css';
+import '../../../CSS/lessonIntro.css';
 import { FaBookOpen, } from 'react-icons/fa';
 
 const JovoIntro = () => {
   return (
-    <div className="grammar-explanation">
+    <div className="lesson-intro-style">
       <div>
 
         <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Jővő (Future)</h2>

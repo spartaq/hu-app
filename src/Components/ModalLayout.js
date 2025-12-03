@@ -60,7 +60,7 @@ const openNextSection = () => {
     <div>
       <SEO title={seoTitle} description={seoDescription} />
 
-      <div className="grammar-container">
+      <div className="modal-container">
         <div className="grammar-exercise-wrapper">
 
           <div className="grammarimage">

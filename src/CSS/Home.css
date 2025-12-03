@@ -1,11 +1,11 @@
 /* WRAPPER */
 .home-wrapper {
   padding: var(--space-lg);
-  background: var(--color-bg);
+  background: rgb(215, 192, 238);
   min-height: 100vh;
   font-family: var(--font-main);
   max-width: 900px;
-  margin: 106px auto;
+  margin: 0px auto;
   overflow:visible
 }
 

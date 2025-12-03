@@ -1,5 +1,5 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/intro_irregularverbs';
 import mainimage from '../../Images/bed.jpg';
 
@@ -7,7 +7,7 @@ const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "irregularverbs" },
   { label: "Dialogue", type: "dialogue", subtype: "irregularverbs" },
   { label: "Vocab", type: "vocabmatch", subtype: "irregularverbs" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "irregularverbs" },
+  { label: "Image Match", type: "imagematch", subtype: "irregularverbs" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "irregularverbs" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "irregularverbs" },
   { label: "Exercises", type: "grammarquiz", subtype: "irregularverbs" },
@@ -18,7 +18,7 @@ const sections = [
 ];
 
 const irregularverbs = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

@@ -1,13 +1,13 @@
 
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/multintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "mult" },
   { label: "Dialogue", type: "dialogue", subtype: "mult" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "mult" },
+  { label: "Image Match", type: "imagematch", subtype: "mult" },
   { label: "Vocab", type: "vocabmatch", subtype: "mult" },  
   { label: "Audio Match", type: "audiowordmatch", subtype: "mult" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "birtmultoklas" },
@@ -20,7 +20,7 @@ const sections = [
 ];
 
 const Multido = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

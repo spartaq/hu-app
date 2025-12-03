@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../../CSS/grammarPage.css';
+import '../../../CSS/lessonIntro.css';
 import { FaBookOpen, } from 'react-icons/fa';
 
 const JelenindefIntro = () => {
   return (
-    <div className="grammar-explanation">
+    <div className="lesson-intro-style">
       <div>
 
         <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Jelen Idő - Általános (Simple Present - Indefinite Conjugation)</h2>

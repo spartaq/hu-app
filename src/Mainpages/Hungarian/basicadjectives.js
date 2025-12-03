@@ -1,12 +1,12 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/intro_basicadjectives';
 import mainimage from '../../Images/villamos.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "basicadjectives" },
   { label: "Dialogue", type: "dialogue", subtype: "basicadjectives" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "basicadjectives" },
+  { label: "Image Match", type: "imagematch", subtype: "basicadjectives" },
   { label: "Vocab", type: "vocabmatch", subtype: "basicadjectives" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "basicadjectives" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "basicadjectives" },
@@ -18,7 +18,7 @@ const sections = [
 ];
 
 const basicadjectives = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

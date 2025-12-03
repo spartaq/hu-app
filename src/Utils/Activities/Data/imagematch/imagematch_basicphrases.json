@@ -1,26 +1,50 @@
 [
   {
     "id": 1,
-    "quizTitle": "Vocabulary - Animals",
-    "audio": "/audio/cat.mp3",
-    "prompt": "macska",
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "audio": "/audio/joreggelt.mp3",
+    "prompt": "Jó reggelt!",
     "options": [
-      { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/argue1.jpg", "word": "dog", "isCorrect": false }
+      { "id": "a", "image": "/Images/morning.webp", "word": "Good morning!", "isCorrect": true },
+      { "id": "b", "image": "/Images/night.webp", "word": "Good night!", "isCorrect": false }
     ],
-    "translation": "cat",
+    "translation": "Good morning!",
     "mode": "word-to-image"
   },
   {
     "id": 2,
-    "quizTitle": "Vocabulary - Animals",
-    "promptImage": "/images/wish1.jpg",
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "promptImage": "/Images/thank-you.jpg",
     "options": [
-      { "id": "a", "word": "cat", "isCorrect": true },
-      { "id": "b", "word": "dog", "isCorrect": false },
-      { "id": "c", "word": "mouse", "isCorrect": false }
+      { "id": "a", "word": "Thank you.", "isCorrect": true },
+      { "id": "b", "word": "You're welcome.", "isCorrect": false },
+      { "id": "c", "word": "Excuse me.", "isCorrect": false }
     ],
-    "translation": "cat",
+    "translation": "Köszönöm.",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 3,
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "audio": "/audio/nincsmit.mp3",
+    "prompt": "Nincs mit.",
+    "options": [
+      { "id": "a", "image": "/Images/thanks-you.jpg", "word": "You're welcome.", "isCorrect": true },
+      { "id": "b", "image": "/Images/sorry.jpg", "word": "Sorry.", "isCorrect": false }
+    ],
+    "translation": "You're welcome.",
+    "mode": "word-to-image"
+  },
+  {
+    "id": 4,
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "promptImage": "/Images/excuse-me.jpg",
+    "options": [
+      { "id": "a", "word": "Excuse me.", "isCorrect": true },
+      { "id": "b", "word": "Good day.", "isCorrect": false },
+      { "id": "c", "word": "Thank you.", "isCorrect": false }
+    ],
+    "translation": "Elnézést.",
     "mode": "image-to-word"
   }
 ]

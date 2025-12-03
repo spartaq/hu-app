@@ -4,7 +4,7 @@ import { FaBookOpen, } from 'react-icons/fa';
 
 const BirtoklasIntro = () => {
   return (
-    <div className="lessonIntro-explanation">
+    <div className="lesson-intro-style">
       <div>
 
         <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Birtoklas (Possessive)</h2>

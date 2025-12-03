@@ -8,7 +8,7 @@ const TapAudioActivity = ({ data, onComplete }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentExercise = exercises[currentIndex];
 
-  const { title, audioSrc, correctSequence, translation } = currentExercise || {};
+  const { title, audio, correctSequence, options = [], translation } = currentExercise || {};
 
   const audioRef = useRef(null);
 
@@ -16,13 +16,15 @@ const TapAudioActivity = ({ data, onComplete }) => {
   const [completed, setCompleted] = useState(false);
   const [showTranslation, setShowTranslation] = useState(false);
 
-  const shuffledWords = useMemo(() => {
-    if (!correctSequence) return [];
-    return shuffle([...correctSequence]);
-  }, [currentIndex, correctSequence]);
+ const shuffledWords = useMemo(() => {
+  if (!options.length) return [];
+  return shuffle([...options]);
+}, [currentIndex, options]);
 
   const handleWordClick = (word) => {
     if (completed) return;
+    // Prevent selecting extra distractor words
+  if (selectedWords.length >= correctSequence.length) return;
     setSelectedWords((prev) => [...prev, word]);
   };
 
@@ -86,7 +88,7 @@ const TapAudioActivity = ({ data, onComplete }) => {
 
       {/* Audio player */}
       <div className="tapaudio__audio">
-        <audio ref={audioRef} src={audioSrc} preload="auto" />
+        <audio ref={audioRef} src={audio} preload="auto" />
         <button onClick={playAudio} className="tapaudio__play-button">
           ▶️ Play Audio
         </button>

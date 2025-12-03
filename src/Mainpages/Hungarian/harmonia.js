@@ -1,12 +1,12 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/harmoniaintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "harmonia" },
   { label: "Dialogue", type: "dialogue", subtype: "harmonia" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "harmonia" },
+  { label: "Image Match", type: "imagematch", subtype: "harmonia" },
   { label: "Vocab", type: "vocabmatch", subtype: "harmonia" },  
   { label: "Audio Match", type: "audiowordmatch", subtype: "harmonia" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "harmonia" },
@@ -19,7 +19,7 @@ const sections = [
 ];
 
 const Harmonia = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

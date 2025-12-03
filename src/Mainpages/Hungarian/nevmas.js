@@ -1,5 +1,5 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/nevmasintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
@@ -7,7 +7,7 @@ const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "nevmas" },
   { label: "Dialogue", type: "dialogue", subtype: "nevmas" },
   { label: "Vocab", type: "vocabmatch", subtype: "nevmas" }, 
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "nevmas" }, 
+  { label: "Image Match", type: "imagematch", subtype: "nevmas" }, 
   { label: "Audio Match", type: "audiowordmatch", subtype: "nevmas" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "nevmas" },
 { label: "Exercises", type: "grammarquiz", subtype: "nevmas" },
@@ -17,7 +17,7 @@ const sections = [
 ];
 
 const Nevmas = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

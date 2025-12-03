@@ -4,7 +4,7 @@ import { FaBookOpen } from 'react-icons/fa';
 
 const basicquestionsIntro = () => {
   return (
-    <div className="grammar-explanation">
+    <div className="lesson-intro-style">
       <div>
         <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> Alapvető Kerdesek (Basic Questions)</h2>
         <p>

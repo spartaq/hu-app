@@ -15,12 +15,19 @@ body {
 /* -----------------------------
    PAGE LAYOUT CONTAINER
 --------------------------------*/
-.grammar-container {
+.modal-container {
   width: 100%;
   padding: 20px 10px;
-  background: rgb(188, 145, 231);  /* subtle purple tint */
+  background: rgb(215, 192, 238);  
   height: 100vh;
 }
+
+/*.grammar-container {
+  width: 100%;
+  padding: 20px 10px;
+  background: rgb(188, 145, 231); 
+  height: 100vh;
+}*/
 
 .grammar-exercise-wrapper {
   background: white;

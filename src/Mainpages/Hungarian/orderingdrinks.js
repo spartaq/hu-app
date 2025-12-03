@@ -1,12 +1,12 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/intro_orderingdrinks';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "orderingdrinks" },
   { label: "Dialogue", type: "dialogue", subtype: "orderingdrinks" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "orderingdrinks" },
+  { label: "Image Match", type: "imagematch", subtype: "orderingdrinks" },
   { label: "Vocab", type: "vocabmatch", subtype: "orderingdrinks" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "orderingdrinks" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "orderingdrinks" },
@@ -18,7 +18,7 @@ const sections = [
 ];
 
 const OrderingDrinks = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

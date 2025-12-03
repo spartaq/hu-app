@@ -1,12 +1,12 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/jovointro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "jovo" },
   { label: "Dialogue", type: "dialogue", subtype: "jovo" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "jovo" },
+  { label: "Image Match", type: "imagematch", subtype: "jovo" },
   { label: "Vocab", type: "vocabmatch", subtype: "jovo" },  
   { label: "Audio Match", type: "audiowordmatch", subtype: "jovo" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "jovo" },
@@ -19,7 +19,7 @@ const sections = [
 ];
 
 const Jovoido = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     level="HU1"
     title="Jövőidő (Future Tense)"
     image={mainimage}

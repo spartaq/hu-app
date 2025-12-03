@@ -1,12 +1,12 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/hasonlitasintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "hasonlitas" },
   { label: "Dialogue", type: "dialogue", subtype: "hasonlitas" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "hasonlitas" },
+  { label: "Image Match", type: "imagematch", subtype: "hasonlitas" },
   { label: "Vocab", type: "vocabmatch", subtype: "hasonlitas" },  
   { label: "Audio Match", type: "audiowordmatch", subtype: "hasonlitas" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "hasonlitas" },
@@ -19,7 +19,7 @@ const sections = [
 ];
 
 const Hasonlitas = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

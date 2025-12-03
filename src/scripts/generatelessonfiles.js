@@ -141,7 +141,7 @@ const templates = {
   }),
 
  lessonPage: (lesson) => `import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/intro_${lesson}';
 import mainimage from '../../Images/placeholder.jpg';
 
@@ -159,7 +159,7 @@ const sections = [
 ];
 
 const ${lesson} = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}
@@ -172,12 +172,12 @@ export default ${lesson};
 `,
 
   introPage: (lesson) => `import React from 'react';
-import '../../../CSS/grammarPage.css';
+import '../../../CSS/lessonIntro.css';
 import { FaBookOpen } from 'react-icons/fa';
 
 const ${lesson}Intro = () => {
   return (
-    <div className="grammar-explanation">
+    <div className="lesson-intro-style">
       <div>
         <h2><FaBookOpen style={{ marginRight: '0.5rem' }} /> ${lesson}</h2>
         <p>

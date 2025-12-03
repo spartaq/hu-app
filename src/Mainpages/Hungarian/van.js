@@ -1,12 +1,12 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/vanintro';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "van" },
   { label: "Dialogue", type: "dialogue", subtype: "van" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "van" },
+  { label: "Image Match", type: "imagematch", subtype: "van" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "van" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "van" },
   { label: "Vocabulary Match", type: "vocabmatch", subtype: "van" },
@@ -19,7 +19,7 @@ const sections = [
 ];
 
 const Van = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}

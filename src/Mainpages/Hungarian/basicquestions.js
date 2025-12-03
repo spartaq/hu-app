@@ -1,5 +1,5 @@
 import React from 'react';
-import GrammarPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/ModalLayout';
 import GrammarExplanation from './HungarianIntros/intro_basicquestions';
 import mainimage from '../../Images/apples.jpg';
 
@@ -7,7 +7,7 @@ const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "basicquestions" },
   { label: "Dialogue", type: "dialogue", subtype: "basicquestions" },
   { label: "Vocab", type: "vocabmatch", subtype: "basicquestions" },
-  { label: "Image Match - vocabulary", type: "imagematch", subtype: "basicquestions" },
+  { label: "Image Match", type: "imagematch", subtype: "basicquestions" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "basicquestions" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "basicquestions" },
   { label: "Exercises", type: "grammarquiz", subtype: "basicquestions" },
@@ -18,7 +18,7 @@ const sections = [
 ];
 
 const basicquestions = () => (
-  <GrammarPageLayout
+  <ModalPageLayout
     image={mainimage}
     ExplanationComponent={GrammarExplanation}
     sections={sections}
