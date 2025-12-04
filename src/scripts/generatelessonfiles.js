@@ -80,7 +80,7 @@ const templates = {
   audiowordmatch: () => [
     {
       id: "aw1",
-      audio: "/audio/example.mp3",
+      audio: "/Audio/audiotest.mp3",
       text: "#",
       translation: "#"
     }
@@ -88,13 +88,24 @@ const templates = {
 
   imagematch: () => [
     {
-      id: 1,
+    id: 1,
+    quizTitle: "#",
+    promptImage: "/Images/#.jpg",
+    options: [
+      { id: "a",  word: "#", isCorrect: true },
+      { id: "b",  word: "#", isCorrect: false }
+    ],
+    translation: "Good morning!",
+    mode: "image-to-word"
+  },
+    {
+      id: 2,
       quizTitle: "#",
-      audio: "/audio/example.mp3",
+      audio: "/Audio/audiotest.mp3",
       prompt: "#",
       options: [
-        { id: "a", image: "/images/example1.jpg", word: "#", isCorrect: true },
-        { id: "b", image: "/images/example2.jpg", word: "#", isCorrect: false }
+        { id: "a", image: "/images/#.jpg", word: "#", isCorrect: true },
+        { id: "b", image: "/images/#.jpg", word: "#", isCorrect: false }
       ],
       translation: "#",
       mode: "word-to-image"
@@ -106,7 +117,7 @@ const templates = {
       id: `${lesson}-1`,
       type: "ordering",
       topic: lesson,
-      quizTitle: "Syllable Ordering",
+      quizTitle: "#",
       sentence: "# #",
       translation: "#"
     }
@@ -116,19 +127,24 @@ const templates = {
     {
       id: `${lesson}-1`,
       title: "Tap What You Hear",
-      audiosrc: "/audio/example.mp3",
-      correctSequence: ["#"],
+      audio: "/Audio/audiotest.mp3",
+      correctSequence: ["#", "#", "#", "#"],
+      options: ["#", "#", "#", "#", "#", "#", "#"],
       translation: "#"
     }
   ],
 
-  vocabmatch: () => [
-    {
-      id: `${lesson}-1`,
-      prompt: "#",
-      options: ["#", "#", "#"],
-      answer: "#"
-    }
+  vocabmatch: () => [{
+  quizTitle: "Match the words",
+  type: "vocabmatch",
+  topic: "#",
+  pairs: [
+    { term: "#", definition: "#" },
+    { term: "#", definition: "#" },
+    { term: "#", definition: "#" },
+    { term: "#", definition: "#" }
+    ]
+  }
   ],
 
   lessoncomplete: () => ({
@@ -146,12 +162,13 @@ import GrammarExplanation from './HungarianIntros/intro_${lesson}';
 import mainimage from '../../Images/placeholder.jpg';
 
 const sections = [
-  { label: "Explanation", type: "grammarexplanation", subtype: "${lesson}" },
+  { label: "Grammar Explanation", type: "grammarexplanation", subtype: "${lesson}" },
   { label: "Dialogue", type: "dialogue", subtype: "${lesson}" },
-  { label: "Vocab", type: "vocabmatch", subtype: "${lesson}" },
+  { label: "Vocab Match", type: "vocabmatch", subtype: "${lesson}" },
+  { label: "Image Match", type: "imagematch", subtype: "${lesson}" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "${lesson}" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "${lesson}" },
-  { label: "Exercises", type: "grammarquiz", subtype: "${lesson}" },
+  { label: "Grammar Exercises", type: "grammarquiz", subtype: "${lesson}" },
   { label: "Word Order", type: "ordering", subtype: "${lesson}" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },
   { label: "Video", type: "video", subtype: "videos" },

@@ -5,6 +5,7 @@ import ModalRender from "./ModalRender.js"
 
 
 // **GRAMMAREXPLANATION
+import HuExplanationSoundsData from "../Utils/Activities/Data/grammarexplanation/explanation_sounds.json";
 import HuExplanationBasicquestionsData from "../Utils/Activities/Data/grammarexplanation/explanation_basicquestions.json";
 import HuExplanationIrregularverbsData from "../Utils/Activities/Data/grammarexplanation/explanation_irregularverbs.json";
 import HuExplanationNumbersData from "../Utils/Activities/Data/grammarexplanation/explanation_numbers.json";
@@ -25,6 +26,7 @@ import HuExplanationFokuszData from "../Utils/Activities/Data/grammarexplanation
 import HuExplanationHarmoniaData from "../Utils/Activities/Data/grammarexplanation/explanation_harmonia.json";
 import HuExplanationBasicPhrasesData from "../Utils/Activities/Data/grammarexplanation/explanation_basicphrases.json";
 // **DIALOGUE
+import HuDialogueSoundsData from "../Utils/Activities/Data/dialogues/dialogue_sounds.json";
 import HuDialogueBasicquestionsData from "../Utils/Activities/Data/dialogues/dialogue_basicquestions.json";
 import HuDialogueIrregularverbsData from "../Utils/Activities/Data/dialogues/dialogue_irregularverbs.json";
 import HuDialogueBasicadjectivesData from "../Utils/Activities/Data/dialogues/dialogue_basicadjectives.json";
@@ -46,6 +48,7 @@ import HuDialogueHarmoniaData from "../Utils/Activities/Data/dialogues/dialogue_
 import HuDialogueBasicPhrasesData from "../Utils/Activities/Data/dialogues/dialogue_basicphrases.json";
 
 // **GRAMMARQUIZ
+import HuGrammarquizSoundsData from "../Utils/Activities/Data/grammarquiz/grammarquiz_sounds.json";
 import HuGrammarquizBasicquestionsData from "../Utils/Activities/Data/grammarquiz/grammarquiz_basicquestions.json";
 import HuGrammarquizIrregularverbsData from "../Utils/Activities/Data/grammarquiz/grammarquiz_irregularverbs.json";
 import HuGrammarquizBasicadjectivesData from "../Utils/Activities/Data/grammarquiz/grammarquiz_basicadjectives.json";
@@ -66,6 +69,7 @@ import HuFokuszGrammarQuizData from "../Utils/Activities/Data/grammarquiz/gramma
 import HuHarmoniaGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_harmonia.json";
 import HuBasicphrasesGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_basicphrases.json";
 // **TAPAUDIO
+import HuTapAudioSoundsData from "../Utils/Activities/Data/tapaudio/tapaudio_sounds.json";
 import HuTapAudioBasicquestionsData from "../Utils/Activities/Data/tapaudio/tapaudio_basicquestions.json";
 import HuTapAudioIrregularverbsData from "../Utils/Activities/Data/tapaudio/tapaudio_irregularverbs.json";
 import HuTapAudioBasicadjectivesData from "../Utils/Activities/Data/tapaudio/tapaudio_basicadjectives.json";
@@ -88,6 +92,7 @@ import HuTapAudioBasicPhrasesData from "../Utils/Activities/Data/tapaudio/tapaud
 
 
 // **IMAGEMATCH
+import HuImageMatchSoundsData from "../Utils/Activities/Data/imagematch/imagematch_sounds.json";
 import HuImageMatchBasicquestionsData from "../Utils/Activities/Data/imagematch/imagematch_basicquestions.json";
 import HuImageMatchIrregularverbsData from "../Utils/Activities/Data/imagematch/imagematch_irregularverbs.json";
 import HuImageMatchBasicadjectivesData from "../Utils/Activities/Data/imagematch/imagematch_basicadjectives.json";
@@ -109,6 +114,7 @@ import HuImageMatchHarmoniaData from "../Utils/Activities/Data/imagematch/imagem
 import HuImageMatchBasicPhrasesData from "../Utils/Activities/Data/imagematch/imagematch_basicphrases.json";
 
 // **AUDIOWORDMATCH
+import HuAudioWordMatchSoundsData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_sounds.json";
 import HuAudioWordMatchBasicquestionsData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_basicquestions.json";
 import HuAudioWordMatchIrregularverbsData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_irregularverbs.json";
 import HuAudioWordMatchBasicadjectivesData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_basicadjectives.json";
@@ -130,6 +136,7 @@ import HuAudioWordMatchHarmoniaData from "../Utils/Activities/Data/audiowordmatc
 import HuAudioWordMatchBasicPhrasesData from "../Utils/Activities/Data/audiowordmatch/audiowordmatch_basicphrases.json";
 
 // **ORDERING
+import HuOrderingSoundsData from "../Utils/Activities/Data/ordering/wordorder_sounds.json";
 import HuOrderingBasicquestionsData from "../Utils/Activities/Data/ordering/wordorder_basicquestions.json";
 import HuOrderingIrregularverbsData from "../Utils/Activities/Data/ordering/wordorder_irregularverbs.json";
 import HuOrderingBasicadjectivesData from "../Utils/Activities/Data/ordering/wordorder_basicadjectives.json";
@@ -152,6 +159,7 @@ import HuOrderingOrderingdrinksData from "../Utils/Activities/Data/ordering/word
 
 
 // **VOCABMATCH
+import HuVocabmatchSoundsData from "../Utils/Activities/Data/vocabmatch/vocabmatch_sounds.json";
 import HuVocabmatchBasicquestionsData from "../Utils/Activities/Data/vocabmatch/vocabmatch_basicquestions.json";
 import HuVocabmatchIrregularverbsData from "../Utils/Activities/Data/vocabmatch/vocabmatch_irregularverbs.json";
 import HuVocabmatchBasicadjectivesData from "../Utils/Activities/Data/vocabmatch/vocabmatch_basicadjectives.json";
@@ -182,6 +190,7 @@ import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimple
 import videoPhones from "../Utils/Activities/Data/videos/phones.js";
 import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
 // **LESSONCOMPLETE
+import HuLessoncompleteSoundsData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_sounds.json";
 import HuLessoncompleteBasicquestionsData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_basicquestions.json";
 import HuLessoncompleteIrregularverbsData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_irregularverbs.json";
 import HuLessoncompleteBasicadjectivesData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_basicadjectives.json";
@@ -213,6 +222,7 @@ import HuLessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncom
 
 const DATA_MAP = {
   grammarexplanation: {
+    sounds: HuExplanationSoundsData,
     numbers: HuExplanationNumbersData,
     basicquestions: HuExplanationBasicquestionsData,
     irregularverbs: HuExplanationIrregularverbsData,
@@ -235,6 +245,7 @@ const DATA_MAP = {
   },
 
   dialogue: {
+    sounds: HuDialogueSoundsData,
     basicquestions: HuDialogueBasicquestionsData,
     irregularverbs: HuDialogueIrregularverbsData,
     basicadjectives: HuDialogueBasicadjectivesData,
@@ -257,6 +268,7 @@ const DATA_MAP = {
   },
 
   tapaudio: {
+    sounds: HuTapAudioSoundsData,
     basicquestions: HuTapAudioBasicquestionsData,
     irregularverbs: HuTapAudioIrregularverbsData,
     basicadjectives: HuTapAudioBasicadjectivesData,
@@ -279,6 +291,7 @@ const DATA_MAP = {
   },
 
   imagematch: {
+    sounds: HuImageMatchSoundsData,
     basicquestions: HuImageMatchBasicquestionsData,
     irregularverbs: HuImageMatchIrregularverbsData,
     basicadjectives: HuImageMatchBasicadjectivesData,
@@ -301,6 +314,7 @@ const DATA_MAP = {
   },  
 
   audiowordmatch: {
+    sounds: HuAudioWordMatchSoundsData,
     basicquestions: HuAudioWordMatchBasicquestionsData,
     irregularverbs: HuAudioWordMatchIrregularverbsData,
     basicadjectives: HuAudioWordMatchBasicadjectivesData,
@@ -323,6 +337,7 @@ const DATA_MAP = {
   },  
 
   grammarquiz: {
+    sounds: HuGrammarquizSoundsData,
     basicquestions: HuGrammarquizBasicquestionsData,
     irregularverbs: HuGrammarquizIrregularverbsData,
     basicadjectives: HuGrammarquizBasicadjectivesData,
@@ -345,6 +360,7 @@ const DATA_MAP = {
   },
 
   ordering: {
+    sounds: HuOrderingSoundsData,
     basicquestions: HuOrderingBasicquestionsData,
     irregularverbs: HuOrderingIrregularverbsData,
     basicadjectives: HuOrderingBasicadjectivesData,
@@ -367,6 +383,7 @@ const DATA_MAP = {
   },
 
  vocabmatch: {
+    sounds: HuVocabmatchSoundsData,
     basicquestions: HuVocabmatchBasicquestionsData,
     irregularverbs: HuVocabmatchIrregularverbsData,
     basicadjectives: HuVocabmatchBasicadjectivesData,
@@ -404,6 +421,7 @@ const DATA_MAP = {
   },
 
   lessoncomplete: {
+    sounds: HuLessoncompleteSoundsData,
     basicquestions: HuLessoncompleteBasicquestionsData,
     irregularverbs: HuLessoncompleteIrregularverbsData,
     basicadjectives: HuLessoncompleteBasicadjectivesData,

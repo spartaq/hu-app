@@ -1,5 +1,14 @@
 module.exports = [
-  
+  {
+        "id": "sounds",
+        "title": "Magyar Hangok (Hungarian Sounds)",
+      "category": "hungarian",
+      "subtitle": "What Hungarian sounds like",
+      "level": "HU1",
+        "time": "60 min",
+        "description": "sounds",
+        "image": "/Images/jelenido1.jpg"
+      },
     {
         "id": "basicphrases",
         "title": "Alapvető Kifejezések (Basic Phrases)",

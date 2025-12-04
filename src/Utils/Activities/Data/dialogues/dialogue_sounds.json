@@ -1,0 +1,17 @@
+{
+  "title": "#",
+  "audio": "#",
+  "avatarMap": {
+    "Speaker1": "/avatars/default1.png",
+    "Speaker2": "/avatars/default2.png"
+  },
+  "lines": [
+    {
+      "speaker": "Speaker1",
+      "text": "#",
+      "translation": "#",
+      "start": 0,
+      "end": 0
+    }
+  ]
+}

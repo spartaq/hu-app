@@ -42,6 +42,7 @@ import Numbers from './Mainpages/Hungarian/numbers';
 import BasicAdjectives from './Mainpages/Hungarian/basicadjectives';
 import IrregularVerbs from './Mainpages/Hungarian/irregularverbs';
 import BasicQuestions from './Mainpages/Hungarian/basicquestions';
+import Sounds from './Mainpages/Hungarian/sounds';
 
 
 const router = createBrowserRouter([
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
           {
             index: true, 
             element: <Home />,
+          },
+          { 
+            path: 'hungarian/sounds',
+            element: <Sounds />,
           },
           { 
             path: 'hungarian/lenni',
