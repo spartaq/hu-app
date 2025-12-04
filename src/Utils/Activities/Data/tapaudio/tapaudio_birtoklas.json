@@ -2,21 +2,21 @@
   {
     "id": "birtoklas-1",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/birtoklas/tap1.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["anyám"],
     "translation": "my mother"
   },
   {
     "id": "birtoklas-2",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/birtoklas/tap2.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["apám"],
     "translation": "my father"
   },
   {
     "id": "birtoklas-3",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/birtoklas/tap3.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["kabátom"],
     "translation": "my coat"
   }

@@ -2,21 +2,21 @@
   {
     "id": "nevmas1",
     "title": "Tap What You Hear - Pronouns",
-    "audiosrc": "/audio/nevmas/en.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["Én"],
     "translation": "I / Me"
   },
   {
     "id": "nevmas2",
     "title": "Tap What You Hear - Greetings",
-    "audiosrc": "/audio/nevmas/te.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["Te"],
     "translation": "You"
   },
   {
     "id": "nevmas3",
     "title": "Tap What You Hear - Greetings",
-    "audiosrc": "/audio/nevmas/ti.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["Ti"],
     "translation": "You all"
   }

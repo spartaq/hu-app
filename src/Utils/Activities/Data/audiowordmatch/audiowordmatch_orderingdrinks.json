@@ -1,7 +1,7 @@
 [
-{ "id": "aw1", "audio": "/audio/orderingdrinks/kave.mp3", "text": "kávé", "translation": "coffee" },
-{ "id": "aw2", "audio": "/audio/orderingdrinks/tea.mp3", "text": "tea", "translation": "tea" },
-{ "id": "aw3", "audio": "/audio/orderingdrinks/sor.mp3", "text": "sör", "translation": "beer" },
-{ "id": "aw4", "audio": "/audio/orderingdrinks/viz.mp3", "text": "víz", "translation": "water" },
-{ "id": "aw5", "audio": "/audio/orderingdrinks/kenyer.mp3", "text": "kenyér", "translation": "bread" }
+{ "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "kávé", "translation": "coffee" },
+{ "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "tea", "translation": "tea" },
+{ "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "sör", "translation": "beer" },
+{ "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "víz", "translation": "water" },
+{ "id": "aw5", "audio": "/Audio/audiotest.mp3", "text": "kenyér", "translation": "bread" }
 ]

@@ -2,14 +2,14 @@
   {
     "id": "jelenindef-1",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/jelenindef/tap1.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["tanulok"],
     "translation": "I study."
   },
   {
     "id": "jelenindef-2",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/jelenindef/tap2.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["dolgozom"],
     "translation": "I work."
   }

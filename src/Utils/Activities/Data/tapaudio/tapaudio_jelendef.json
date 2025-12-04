@@ -2,14 +2,14 @@
 {
 "id": "jelendef-1",
 "title": "Tap What You Hear",
-"audiosrc": "/audio/jelendef/tap1.mp3",
+"audio": "/Audio/audiotest.mp3",
 "correctSequence": ["látom"],
 "translation": "I see it."
 },
 {
 "id": "jelendef-2",
 "title": "Tap What You Hear",
-"audiosrc": "/audio/jelendef/tap2.mp3",
+"audio": "/Audio/audiotest.mp3",
 "correctSequence": ["szeretem"],
 "translation": "I like/love it."
 }

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "quizTitle": "Match Numbers",
-    "audio": "/audio/numbers/egy.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "egy",
     "options": [
       { "id": "a", "image": "/images/1apple.jpg", "word": "one", "isCorrect": true },
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "quizTitle": "Match Numbers",
-    "audio": "/audio/numbers/kettő.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "kettő",
     "options": [
       { "id": "a", "image": "/images/3apples.jpg", "word": "three", "isCorrect": false },

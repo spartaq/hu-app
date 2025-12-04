@@ -2,7 +2,7 @@
   {
     "id": "basicadjectives-1",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/basicadjectives/tap1.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["szép"],
     "translation": "beautiful"
   }

@@ -1,7 +1,7 @@
 [
-  { "id": "aw1", "audio": "/audio/numbers/egy.mp3", "text": "egy", "translation": "one" },
-  { "id": "aw2", "audio": "/audio/numbers/kettő.mp3", "text": "kettő", "translation": "two" },
-  { "id": "aw3", "audio": "/audio/numbers/három.mp3", "text": "három", "translation": "three" },
-  { "id": "aw4", "audio": "/audio/numbers/négy.mp3", "text": "négy", "translation": "four" },
-  { "id": "aw5", "audio": "/audio/numbers/öt.mp3", "text": "öt", "translation": "five" }
+  { "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "egy", "translation": "one" },
+  { "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "kettő", "translation": "two" },
+  { "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "három", "translation": "three" },
+  { "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "négy", "translation": "four" },
+  { "id": "aw5", "audio": "/Audio/audiotest.mp3", "text": "öt", "translation": "five" }
 ]

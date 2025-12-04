@@ -2,7 +2,7 @@
   {
     "id": 1,
     "quizTitle": "Match the Adjective",
-    "audio": "/audio/basicadjectives/img1.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "Which picture shows 'piros'?",
     "options": [
       { "id": "a", "image": "/images/red.jpg", "word": "piros", "isCorrect": true },

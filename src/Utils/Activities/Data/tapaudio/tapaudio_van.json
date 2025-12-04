@@ -1,4 +1,4 @@
 [
-  { "id": "van-1", "title": "Tap What You Hear", "audiosrc": "/audio/van/van_egy_könyv.mp3", "correctSequence": ["Van","egy","könyv"], "translation": "There is a book" },
-  { "id": "van-2", "title": "Tap What You Hear", "audiosrc": "/audio/van/van_ket_kutya.mp3", "correctSequence": ["Van","két","kutya"], "translation": "There are two dogs" }
+  { "id": "van-1", "title": "Tap What You Hear", "audio": "/Audio/audiotest.mp3", "correctSequence": ["Van","egy","könyv"], "translation": "There is a book" },
+  { "id": "van-2", "title": "Tap What You Hear", "audio": "/Audio/audiotest.mp3", "correctSequence": ["Van","két","kutya"], "translation": "There are two dogs" }
 ]

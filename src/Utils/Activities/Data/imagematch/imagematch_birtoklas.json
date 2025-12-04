@@ -2,7 +2,7 @@
   {
     "id": 1,
     "quizTitle": "Match the Picture",
-    "audio": "/audio/birtoklas/match1.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "Válaszd ki: anyám",
     "options": [
       { "id": "a", "image": "/images/mother.jpg", "word": "anyám", "isCorrect": true },
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "quizTitle": "Match the Picture",
-    "audio": "/audio/birtoklas/match2.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "Válaszd ki: testvérem",
     "options": [
       { "id": "a", "image": "/images/sibling.jpg", "word": "testvérem", "isCorrect": true },
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "quizTitle": "Match the Picture",
-    "audio": "/audio/birtoklas/match3.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "Válaszd ki: cipőm",
     "options": [
       { "id": "a", "image": "/images/shoes.jpg", "word": "cipőm", "isCorrect": true },

@@ -2,21 +2,21 @@
   {
     "id": "nevuto-1",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/nevuto/tap1.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["balra"],
     "translation": "left"
   },
   {
     "id": "nevuto-2",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/nevuto/tap2.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["park"],
     "translation": "park"
   },
   {
     "id": "nevuto-3",
     "title": "Tap What You Hear",
-    "audiosrc": "/audio/nevuto/tap3.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["bolt"],
     "translation": "shop"
   }

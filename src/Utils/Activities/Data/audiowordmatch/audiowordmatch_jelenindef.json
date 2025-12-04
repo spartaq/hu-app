@@ -1,6 +1,6 @@
 [
-  { "id": "aw1", "audio": "/audio/jelenindef/fut.mp3", "text": "fut", "translation": "run" },
-  { "id": "aw2", "audio": "/audio/jelenindef/olvas.mp3", "text": "olvas", "translation": "read" },
-  { "id": "aw3", "audio": "/audio/jelenindef/tanul.mp3", "text": "tanul", "translation": "study" },
-  { "id": "aw4", "audio": "/audio/jelenindef/beszél.mp3", "text": "beszél", "translation": "speak" }
+  { "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "fut", "translation": "run" },
+  { "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "olvas", "translation": "read" },
+  { "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "tanul", "translation": "study" },
+  { "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "beszél", "translation": "speak" }
 ]

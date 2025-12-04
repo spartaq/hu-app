@@ -1,4 +1,4 @@
 [
-  { "id": "numbers-1", "title": "Tap What You Hear", "audiosrc": "/audio/numbers/egy.mp3", "correctSequence": ["egy"], "translation": "one" },
-  { "id": "numbers-2", "title": "Tap What You Hear", "audiosrc": "/audio/numbers/kettő.mp3", "correctSequence": ["kettő"], "translation": "two" }
+  { "id": "numbers-1", "title": "Tap What You Hear", "audio": "/Audio/audiotest.mp3", "correctSequence": ["egy"], "translation": "one" },
+  { "id": "numbers-2", "title": "Tap What You Hear", "audio": "/Audio/audiotest.mp3", "correctSequence": ["kettő"], "translation": "two" }
 ]

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/friend.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "barát",
     "options": [
       { "id": "a", "image": "/images/friend.jpg", "word": "friend", "isCorrect": true },
@@ -27,7 +27,7 @@
   {
     "id": 3,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/family.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "család",
     "options": [
       { "id": "a", "image": "/images/family.jpg", "word": "family", "isCorrect": true },
@@ -52,7 +52,7 @@
   {
     "id": 5,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/car.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "autó",
     "options": [
       { "id": "a", "image": "/images/car1.jpg", "word": "car", "isCorrect": true },
@@ -77,7 +77,7 @@
   {
     "id": 7,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/money.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "pénz",
     "options": [
       { "id": "a", "image": "/images/money.jpg", "word": "money", "isCorrect": true },
@@ -102,7 +102,7 @@
   {
     "id": 9,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/wardrobe.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "szekrény",
     "options": [
       { "id": "a", "image": "/images/wardrobe.jpg", "word": "wardrobe", "isCorrect": true },
@@ -127,7 +127,7 @@
   {
     "id": 11,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/stove.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "sütő",
     "options": [
       { "id": "a", "image": "/images/stove.jpg", "word": "stove", "isCorrect": true },
@@ -152,7 +152,7 @@
   {
     "id": 13,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/house.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "ház",
     "options": [
       { "id": "a", "image": "/images/house1.jpg", "word": "house", "isCorrect": true },
@@ -177,7 +177,7 @@
   {
     "id": 15,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/cat.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "macska",
     "options": [
       { "id": "a", "image": "/images/cat1.jpg", "word": "cat", "isCorrect": true },
@@ -202,7 +202,7 @@
   {
     "id": 17,
     "quizTitle": "Vocabulary – Things I Have",
-    "audio": "/audio/time.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "idő",
     "options": [
       { "id": "a", "image": "/images/time.jpg", "word": "time", "isCorrect": true },

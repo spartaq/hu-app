@@ -2,7 +2,7 @@
 {
 "id": 1,
 "quizTitle": "Match the Word to the Image",
-"audio": "/audio/jelendef/match1.mp3",
+"audio": "/Audio/audiotest.mp3",
 "prompt": "Choose the correct picture",
 "options": [
 { "id": "a", "image": "/images/ujsag.jpg", "word": "újság", "isCorrect": true },
@@ -14,7 +14,7 @@
 {
 "id": 2,
 "quizTitle": "Match the Word to the Image",
-"audio": "/audio/jelendef/match2.mp3",
+"audio": "/Audio/audiotest.mp3",
 "prompt": "Choose the correct picture",
 "options": [
 { "id": "a", "image": "/images/film.jpg", "word": "film", "isCorrect": true },

@@ -2,21 +2,21 @@
 {
 "id": "orderingdrinks-1",
 "title": "Tap What You Hear",
-"audiosrc": "/audio/orderingdrinks/tap1.mp3",
+"audio": "/Audio/audiotest.mp3",
 "correctSequence": ["Szeretnék egy kávét, kérem"],
 "translation": "I would like a coffee, please"
 },
 {
 "id": "orderingdrinks-2",
 "title": "Tap What You Hear",
-"audiosrc": "/audio/orderingdrinks/tap2.mp3",
+"audio": "/Audio/audiotest.mp3",
 "correctSequence": ["Kérek vizet"],
 "translation": "Please give me water"
 },
 {
 "id": "orderingdrinks-3",
 "title": "Tap What You Hear",
-"audiosrc": "/audio/orderingdrinks/tap3.mp3",
+"audio": "/Audio/audiotest.mp3",
 "correctSequence": ["Szeretnék teát"],
 "translation": "I would like tea"
 }

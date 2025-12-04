@@ -2,7 +2,7 @@
   {
     "id": 1,
     "quizTitle": "Match Verbs to Images",
-    "audio": "/audio/irregular/úszik.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "úszik",
     "options": [
       { "id": "a", "image": "/images/swim1.jpg", "word": "swims", "isCorrect": true },
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "quizTitle": "Match Verbs to Images",
-    "audio": "/audio/irregular/zenél.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "zenél",
     "options": [
       { "id": "a", "image": "/images/music1.jpg", "word": "plays music", "isCorrect": true },

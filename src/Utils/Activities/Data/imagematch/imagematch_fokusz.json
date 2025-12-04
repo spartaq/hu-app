@@ -2,7 +2,7 @@
   {
     "id": 1,
     "quizTitle": "Vocabulary - Animals",
-    "audio": "/audio/cat.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "macska",
     "options": [
       { "id": "a", "image": "/images/doing2.jpg", "word": "cat", "isCorrect": true },

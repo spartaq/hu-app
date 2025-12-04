@@ -2,7 +2,7 @@
   {
     "id": 1,
     "quizTitle": "Match Words to Images",
-    "audio": "/audio/van/ház.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "ház",
     "options": [
       { "id": "a", "image": "/images/house1.jpg", "word": "house", "isCorrect": true },
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "quizTitle": "Match Words to Images",
-    "audio": "/audio/van/macská.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "prompt": "macska",
     "options": [
       { "id": "a", "image": "/images/cat1.jpg", "word": "cat", "isCorrect": true },
