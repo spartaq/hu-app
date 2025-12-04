@@ -32,7 +32,7 @@ import ActivityFilter from './Utils/activityFilter';
 import LessonList from './Mainpages/lesson-list';
 import ReadingHub from './Mainpages/ReadingHub/readingHub';
 import ReadingActivityPage from './Utils/Activities/ReadingActivity';
-import VocabularyHub from './Mainpages/VocabularyMatchHub/vocabularymatchHub';
+import VocabularymatchHub from './Mainpages/VocabularyMatchHub/vocabularymatchHub';
 import VocabularyActivityPage from './Utils/Activities/VocabMatch';
 import GrammarQuizHub from './Mainpages/GrammarQuizHub/grammarquizHub';
 import QuizActivityPage from './Utils/Activities/QuizActivityPage';
@@ -163,8 +163,8 @@ const router = createBrowserRouter([
             element: <ReadingActivityPage />,
           },
           {
-            path: "hungarian/vocabularyHub",
-            element: <VocabularyHub />
+            path: "hungarian/vocabularymatchHub",
+            element: <VocabularymatchHub />
           },
           {  
             path: "hungarian/activity/vocab/:id",

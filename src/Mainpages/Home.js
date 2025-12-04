@@ -15,7 +15,7 @@ const Home = ({ setFilters = () => {} }) => {
   }, [location]);
 
   const actions = [
-  { label: "Vocabulary", icon: <FaBook />, link: "/hungarian/vocabularyHub" },
+  { label: "Vocabulary", icon: <FaBook />, link: "/hungarian/vocabularymatchHub" },
   { label: "Readings", icon: <FaBookReader />, link: "/hungarian/readingHub" },
   { label: "Grammar Practice", icon: <FaClipboardList />, link: "/hungarian/grammarquizHub" },
   { label: "Grammar", icon: <FaListUl />, link: "/hungarian/grammar-list" },
