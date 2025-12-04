@@ -1,16 +1,42 @@
 [
-{
-"id": "jelendef-1",
-"title": "Tap What You Hear",
-"audio": "/Audio/audiotest.mp3",
-"correctSequence": ["látom"],
-"translation": "I see it."
-},
-{
-"id": "jelendef-2",
-"title": "Tap What You Hear",
-"audio": "/Audio/audiotest.mp3",
-"correctSequence": ["szeretem"],
-"translation": "I like/love it."
-}
+  {
+    "id": "def1",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Olvasom", "a", "könyvet", "."],
+    "options": ["Olvasom", "a", "könyvet", ".", "olvasok", "könyv", "olvassa"],
+    "translation": "I am reading the book."
+  },
+  {
+    "id": "def2",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Látod", "a", "filmet", "?"],
+    "options": ["Látod", "a", "filmet", "?", "lát", "látom", "film"],
+    "translation": "Do you see the movie?"
+  },
+  {
+    "id": "def3",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Eszem", "az", "almát", "."],
+    "options": ["Eszem", "az", "almát", ".", "eszek", "alma", "eszik"],
+    "translation": "I am eating the apple."
+  },
+  {
+    "id": "def4",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Megnézzük", "a", "műsort", "."],
+    "options": ["Megnézzük", "a", "műsort", ".", "megnézem", "műsor", "nézzük"],
+    "translation": "We are watching the show."
+  },
+  {
+    "id": "def5",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Halljátok", "a", "zenét", "?"],
+    "options": ["Halljátok", "a", "zenét", "?", "halljátok", "halljátok-e", "zene"],
+    "translation": "Do you hear the music?"
+  }
 ]

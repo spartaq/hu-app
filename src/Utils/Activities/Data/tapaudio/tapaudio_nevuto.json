@@ -1,23 +1,42 @@
 [
   {
-    "id": "nevuto-1",
+    "id": "loc1",
     "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["balra"],
-    "translation": "left"
+    "correctSequence": ["A", "könyv", "a", "polcon", "van", "."],
+    "options": ["A", "könyv", "a", "polcon", "van", ".", "asztalon", "van-e"],
+    "translation": "The book is on the shelf."
   },
   {
-    "id": "nevuto-2",
+    "id": "loc2",
     "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["park"],
-    "translation": "park"
+    "correctSequence": ["A", "macska", "a", "kertben", "alszik", "."],
+    "options": ["A", "macska", "a", "kertben", "alszik", ".", "otthon", "van"],
+    "translation": "The cat is sleeping in the garden."
   },
   {
-    "id": "nevuto-3",
+    "id": "loc3",
     "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["bolt"],
-    "translation": "shop"
+    "correctSequence": ["Megyek", "a", "barátom", "hoz", "."],
+    "options": ["Megyek", "a", "barátom", "hoz", ".", "a", "hoz", "te"],
+    "translation": "I am going to my friend’s place."
+  },
+  {
+    "id": "loc4",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["A", "bolt", "tól", "jövök", "."],
+    "options": ["A", "bolt", "tól", "jövök", ".", "bolt", "hoz", "van"],
+    "translation": "I am coming from the store."
+  },
+  {
+    "id": "loc5",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Ülök", "a", "székben", "."],
+    "options": ["Ülök", "a", "székben", ".", "szék", "asztal", "van"],
+    "translation": "I am sitting on the chair."
   }
 ]

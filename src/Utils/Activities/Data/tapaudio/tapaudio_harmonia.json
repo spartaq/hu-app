@@ -1,107 +1,42 @@
 [
   {
-    "id": "basicphrases1",
-    "title": "Tap What You Hear - Greetings",
+    "id": "vowel1",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szia"],
-    "translation": "Hi / Hello"
+    "correctSequence": ["A", "tanár", "nálunk", "dolgozik", "."],
+    "options": ["A", "tanár", "nálunk", "dolgozik", ".", "tanul", "nélünk", "dolgozom"],
+    "translation": "The teacher works with us."
   },
   {
-    "id": "basicphrases2",
-    "title": "Tap What You Hear - Greetings",
+    "id": "vowel2",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Helló"],
-    "translation": "Hello"
+    "correctSequence": ["Szép", "város", "Budapest", "?"],
+    "options": ["Szép", "város", "Budapest", "?", "szép", "városok", "nagy"],
+    "translation": "Is Budapest a beautiful city?"
   },
   {
-    "id": "basicphrases3",
-    "title": "Tap What You Hear - Greetings",
+    "id": "vowel3",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "reggelt"],
-    "translation": "Good morning"
+    "correctSequence": ["Sokat", "dolgozom", "a", "héten", "."],
+    "options": ["Sokat", "dolgozom", "a", "héten", ".", "hetet", "sokat", "dolgozunk"],
+    "translation": "I work a lot this week."
   },
   {
-    "id": "basicphrases4",
-    "title": "Tap What You Hear - Greetings",
+    "id": "vowel4",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "napot"],
-    "translation": "Good afternoon"
+    "correctSequence": ["Kicsi", "szobában", "alszom", "."],
+    "options": ["Kicsi", "szobában", "alszom", ".", "szobaban", "nagy", "alszol"],
+    "translation": "I sleep in a small room."
   },
   {
-    "id": "basicphrases5",
-    "title": "Tap What You Hear - Greetings",
+    "id": "vowel5",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "estét"],
-    "translation": "Good evening"
-  },
-  {
-    "id": "basicphrases6",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Kérem"],
-    "translation": "Please"
-  },
-  {
-    "id": "basicphrases7",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Köszönöm"],
-    "translation": "Thank you"
-  },
-  {
-    "id": "basicphrases8",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Elnézést"],
-    "translation": "Excuse me"
-  },
-  {
-    "id": "basicphrases9",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Sajnálom"],
-    "translation": "Sorry"
-  },
-  {
-    "id": "basicphrases10",
-    "title": "Tap What You Hear - Small Talk",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hogy", "vagy"],
-    "translation": "How are you?"
-  },
-  {
-    "id": "basicphrases11",
-    "title": "Tap What You Hear - Small Talk",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jól", "vagyok"],
-    "translation": "I'm fine"
-  },
-  {
-    "id": "basicphrases12",
-    "title": "Tap What You Hear - Introductions",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "nevem"],
-    "translation": "My name is…"
-  },
-  {
-    "id": "basicphrases13",
-    "title": "Tap What You Hear - Introductions",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Örülök", "hogy", "megismertelek"],
-    "translation": "Nice to meet you"
-  },
-  {
-    "id": "basicphrases14",
-    "title": "Tap What You Hear - Everyday",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hol", "van", "a", "mosdó"],
-    "translation": "Where is the bathroom?"
-  },
-  {
-    "id": "basicphrases15",
-    "title": "Tap What You Hear - Everyday",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Tudsz", "segíteni"],
-    "translation": "Can you help?"
+    "correctSequence": ["A", "kutya", "kertben", "játszik", "."],
+    "options": ["A", "kutya", "kertben", "játszik", ".", "kertben", "játszol", "kutya"],
+    "translation": "The dog plays in the garden."
   }
 ]

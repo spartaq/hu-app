@@ -1,9 +1,42 @@
 [
   {
-    "id": "basicadjectives-1",
+    "id": "adj1",
     "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["szép"],
-    "translation": "beautiful"
+    "correctSequence": ["Ez", "a", "ház", "nagy", "."],
+    "options": ["Ez", "a", "ház", "nagy", ".", "kicsi", "van", "szép"],
+    "translation": "This house is big."
+  },
+  {
+    "id": "adj2",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["A", "macska", "kicsi", "és", "aranyos", "."],
+    "options": ["A", "macska", "kicsi", "és", "aranyos", ".", "nagy", "aranyos", "van"],
+    "translation": "The cat is small and cute."
+  },
+  {
+    "id": "adj3",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Ez", "a", "szoba", "tiszta", "."],
+    "options": ["Ez", "a", "szoba", "tiszta", ".", "piszkos", "nagy", "van"],
+    "translation": "This room is clean."
+  },
+  {
+    "id": "adj4",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["A", "leves", "finom", "."],
+    "options": ["A", "leves", "finom", ".", "rossz", "meleg", "hideg"],
+    "translation": "The soup is tasty."
+  },
+  {
+    "id": "adj5",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["A", "bolt", "nyitva", "van", "."],
+    "options": ["A", "bolt", "nyitva", "van", ".", "zárva", "bolt", "nagy"],
+    "translation": "The store is open."
   }
 ]

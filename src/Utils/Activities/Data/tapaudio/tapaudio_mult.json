@@ -1,107 +1,42 @@
 [
   {
-    "id": "basicphrases1",
-    "title": "Tap What You Hear - Greetings",
+    "id": "past1",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szia"],
-    "translation": "Hi / Hello"
+    "correctSequence": ["Tegnap", "olvastam", "egy", "könyvet", "."],
+    "options": ["Tegnap", "olvastam", "egy", "könyvet", ".", "olvasok", "a", "könyvet"],
+    "translation": "I read a book yesterday."
   },
   {
-    "id": "basicphrases2",
-    "title": "Tap What You Hear - Greetings",
+    "id": "past2",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Helló"],
-    "translation": "Hello"
+    "correctSequence": ["Láttad", "a", "filmet", "?"],
+    "options": ["Láttad", "a", "filmet", "?", "látod", "film", "láttam"],
+    "translation": "Did you see the movie?"
   },
   {
-    "id": "basicphrases3",
-    "title": "Tap What You Hear - Greetings",
+    "id": "past3",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "reggelt"],
-    "translation": "Good morning"
+    "correctSequence": ["Megvettük", "az", "új", "autót", "."],
+    "options": ["Megvettük", "az", "új", "autót", ".", "veszünk", "autó", "megvesz"],
+    "translation": "We bought the new car."
   },
   {
-    "id": "basicphrases4",
-    "title": "Tap What You Hear - Greetings",
+    "id": "past4",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "napot"],
-    "translation": "Good afternoon"
+    "correctSequence": ["Ők", "ették", "az", "almát", "."],
+    "options": ["Ők", "ették", "az", "almát", ".", "esznek", "alma", "ettük"],
+    "translation": "They ate the apple."
   },
   {
-    "id": "basicphrases5",
-    "title": "Tap What You Hear - Greetings",
+    "id": "past5",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "estét"],
-    "translation": "Good evening"
-  },
-  {
-    "id": "basicphrases6",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Kérem"],
-    "translation": "Please"
-  },
-  {
-    "id": "basicphrases7",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Köszönöm"],
-    "translation": "Thank you"
-  },
-  {
-    "id": "basicphrases8",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Elnézést"],
-    "translation": "Excuse me"
-  },
-  {
-    "id": "basicphrases9",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Sajnálom"],
-    "translation": "Sorry"
-  },
-  {
-    "id": "basicphrases10",
-    "title": "Tap What You Hear - Small Talk",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hogy", "vagy"],
-    "translation": "How are you?"
-  },
-  {
-    "id": "basicphrases11",
-    "title": "Tap What You Hear - Small Talk",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jól", "vagyok"],
-    "translation": "I'm fine"
-  },
-  {
-    "id": "basicphrases12",
-    "title": "Tap What You Hear - Introductions",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "nevem"],
-    "translation": "My name is…"
-  },
-  {
-    "id": "basicphrases13",
-    "title": "Tap What You Hear - Introductions",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Örülök", "hogy", "megismertelek"],
-    "translation": "Nice to meet you"
-  },
-  {
-    "id": "basicphrases14",
-    "title": "Tap What You Hear - Everyday",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hol", "van", "a", "mosdó"],
-    "translation": "Where is the bathroom?"
-  },
-  {
-    "id": "basicphrases15",
-    "title": "Tap What You Hear - Everyday",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Tudsz", "segíteni"],
-    "translation": "Can you help?"
+    "correctSequence": ["Tegnap", "mentem", "a", "parkba", "."],
+    "options": ["Tegnap", "mentem", "a", "parkba", ".", "megyek", "park", "megy"],
+    "translation": "I went to the park yesterday."
   }
 ]

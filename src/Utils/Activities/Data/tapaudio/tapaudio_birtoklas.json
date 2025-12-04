@@ -1,23 +1,42 @@
 [
   {
-    "id": "birtoklas-1",
+    "id": "fam1",
     "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["anyám"],
-    "translation": "my mother"
+    "correctSequence": ["Az", "én", "anyám", "tanár", "."],
+    "options": ["Az", "én", "anyám", "tanár", ".", "anyu", "apám", "van"],
+    "translation": "My mother is a teacher."
   },
   {
-    "id": "birtoklas-2",
+    "id": "fam2",
     "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["apám"],
-    "translation": "my father"
+    "correctSequence": ["Hol", "van", "a", "testvéred", "?"],
+    "options": ["Hol", "van", "a", "testvéred", "?", "testvére", "testvérem"],
+    "translation": "Where is your sibling?"
   },
   {
-    "id": "birtoklas-3",
+    "id": "fam3",
     "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["kabátom"],
-    "translation": "my coat"
+    "correctSequence": ["A", "nagyim", "nagyon", "kedves", "."],
+    "options": ["A", "nagyim", "nagyon", "kedves", ".", "nagyid", "nagyi", "kedvesek"],
+    "translation": "My grandma is very kind."
+  },
+  {
+    "id": "fam4",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Ez", "az", "én", "bátyám", "," , "nem", "a", "tiéd", "."],
+    "options": ["Ez", "az", "én", "bátyám", "tiéd", ",", "nem", "a", ".", "én"],
+    "translation": "This is my brother, not yours."
+  },
+  {
+    "id": "fam5",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["A", "szüleink", "Budapesten", "élnek", "."],
+    "options": ["A", "szüleink", "Budapesten", "élnek", ".", "szüleid", "szüleim", "él"],
+    "translation": "Our parents live in Budapest."
   }
 ]

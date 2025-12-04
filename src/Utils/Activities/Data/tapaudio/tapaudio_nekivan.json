@@ -1,107 +1,42 @@
 [
   {
-    "id": "basicphrases1",
-    "title": "Tap What You Hear - Greetings",
+    "id": "have1",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szia"],
-    "translation": "Hi / Hello"
+    "correctSequence": ["Nekem", "van", "egy", "kutyám", "."],
+    "options": ["Nekem", "van", "egy", "kutyám", ".", "neked", "van", "kutya"],
+    "translation": "I have a dog."
   },
   {
-    "id": "basicphrases2",
-    "title": "Tap What You Hear - Greetings",
+    "id": "have2",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Helló"],
-    "translation": "Hello"
+    "correctSequence": ["Neked", "van", "egy", "új", "könyved", "."],
+    "options": ["Neked", "van", "egy", "új", "könyved", ".", "nekem", "van", "könyv"],
+    "translation": "You have a new book."
   },
   {
-    "id": "basicphrases3",
-    "title": "Tap What You Hear - Greetings",
+    "id": "have3",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "reggelt"],
-    "translation": "Good morning"
+    "correctSequence": ["Neki", "van", "egy", "biciklije", "."],
+    "options": ["Neki", "van", "egy", "biciklije", ".", "nekik", "van", "bicikli"],
+    "translation": "He/She has a bicycle."
   },
   {
-    "id": "basicphrases4",
-    "title": "Tap What You Hear - Greetings",
+    "id": "have4",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "napot"],
-    "translation": "Good afternoon"
+    "correctSequence": ["Nekünk", "van", "három", "almánk", "."],
+    "options": ["Nekünk", "van", "három", "almánk", ".", "neked", "van", "alma"],
+    "translation": "We have three apples."
   },
   {
-    "id": "basicphrases5",
-    "title": "Tap What You Hear - Greetings",
+    "id": "have5",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "estét"],
-    "translation": "Good evening"
-  },
-  {
-    "id": "basicphrases6",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Kérem"],
-    "translation": "Please"
-  },
-  {
-    "id": "basicphrases7",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Köszönöm"],
-    "translation": "Thank you"
-  },
-  {
-    "id": "basicphrases8",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Elnézést"],
-    "translation": "Excuse me"
-  },
-  {
-    "id": "basicphrases9",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Sajnálom"],
-    "translation": "Sorry"
-  },
-  {
-    "id": "basicphrases10",
-    "title": "Tap What You Hear - Small Talk",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hogy", "vagy"],
-    "translation": "How are you?"
-  },
-  {
-    "id": "basicphrases11",
-    "title": "Tap What You Hear - Small Talk",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jól", "vagyok"],
-    "translation": "I'm fine"
-  },
-  {
-    "id": "basicphrases12",
-    "title": "Tap What You Hear - Introductions",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "nevem"],
-    "translation": "My name is…"
-  },
-  {
-    "id": "basicphrases13",
-    "title": "Tap What You Hear - Introductions",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Örülök", "hogy", "megismertelek"],
-    "translation": "Nice to meet you"
-  },
-  {
-    "id": "basicphrases14",
-    "title": "Tap What You Hear - Everyday",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hol", "van", "a", "mosdó"],
-    "translation": "Where is the bathroom?"
-  },
-  {
-    "id": "basicphrases15",
-    "title": "Tap What You Hear - Everyday",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Tudsz", "segíteni"],
-    "translation": "Can you help?"
+    "correctSequence": ["Nekik", "van", "egy", "nagy", "házuk", "."],
+    "options": ["Nekik", "van", "egy", "nagy", "házuk", ".", "nekünk", "van", "ház"],
+    "translation": "They have a big house."
   }
 ]

@@ -1,107 +1,42 @@
 [
   {
-    "id": "basicphrases1",
-    "title": "Tap What You Hear - Greetings",
+    "id": "focus1",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szia"],
-    "translation": "Hi / Hello"
+    "correctSequence": ["Ma", "megyek", "moziba", "," , "nem", "holnap", "."],
+    "options": ["Ma", "megyek", "moziba", "holnap", "nem", ",", ".", "tegnap"],
+    "translation": "I'm going to the cinema today, not tomorrow."
   },
   {
-    "id": "basicphrases2",
-    "title": "Tap What You Hear - Greetings",
+    "id": "focus2",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Helló"],
-    "translation": "Hello"
+    "correctSequence": ["Csak", "egy", "kávét", "kérek", "," , "nem", "teát", "."],
+    "options": ["Csak", "egy", "kávét", "kérek", "nem", "teát", ",", ".", "kérek"],
+    "translation": "I only want a coffee, not tea."
   },
   {
-    "id": "basicphrases3",
-    "title": "Tap What You Hear - Greetings",
+    "id": "focus3",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "reggelt"],
-    "translation": "Good morning"
+    "correctSequence": ["A", "barátom", "kapta", "a", "jegyet", "," , "nem", "én", "."],
+    "options": ["A", "barátom", "kapta", "a", "jegyet", "én", "nem", ",", ".", "vette"],
+    "translation": "My friend got the ticket, not me."
   },
   {
-    "id": "basicphrases4",
-    "title": "Tap What You Hear - Greetings",
+    "id": "focus4",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "napot"],
-    "translation": "Good afternoon"
+    "correctSequence": ["Péter", "látta", "a", "filmet", "tegnap", "," , "Anna", "nem", "."],
+    "options": ["Péter", "látta", "a", "filmet", "Anna", "tegnap", "nem", ",", ".", "ma"],
+    "translation": "Péter saw the movie yesterday, Anna didn’t."
   },
   {
-    "id": "basicphrases5",
-    "title": "Tap What You Hear - Greetings",
+    "id": "focus5",
+    "title": "Tap What You Hear",
     "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jó", "estét"],
-    "translation": "Good evening"
-  },
-  {
-    "id": "basicphrases6",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Kérem"],
-    "translation": "Please"
-  },
-  {
-    "id": "basicphrases7",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Köszönöm"],
-    "translation": "Thank you"
-  },
-  {
-    "id": "basicphrases8",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Elnézést"],
-    "translation": "Excuse me"
-  },
-  {
-    "id": "basicphrases9",
-    "title": "Tap What You Hear - Politeness",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Sajnálom"],
-    "translation": "Sorry"
-  },
-  {
-    "id": "basicphrases10",
-    "title": "Tap What You Hear - Small Talk",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hogy", "vagy"],
-    "translation": "How are you?"
-  },
-  {
-    "id": "basicphrases11",
-    "title": "Tap What You Hear - Small Talk",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Jól", "vagyok"],
-    "translation": "I'm fine"
-  },
-  {
-    "id": "basicphrases12",
-    "title": "Tap What You Hear - Introductions",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "nevem"],
-    "translation": "My name is…"
-  },
-  {
-    "id": "basicphrases13",
-    "title": "Tap What You Hear - Introductions",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Örülök", "hogy", "megismertelek"],
-    "translation": "Nice to meet you"
-  },
-  {
-    "id": "basicphrases14",
-    "title": "Tap What You Hear - Everyday",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hol", "van", "a", "mosdó"],
-    "translation": "Where is the bathroom?"
-  },
-  {
-    "id": "basicphrases15",
-    "title": "Tap What You Hear - Everyday",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Tudsz", "segíteni"],
-    "translation": "Can you help?"
+    "correctSequence": ["Most", "akarok", "enni", "," , "nem", "később", "."],
+    "options": ["Most", "akarok", "enni", "később", "nem", ",", ".", "ma"],
+    "translation": "I want to eat now, not later."
   }
 ]
