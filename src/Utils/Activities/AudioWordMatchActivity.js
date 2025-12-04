@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import "../../CSS/AudioWordMatchActivity.css";
 import shuffle from "../shuffle";
 
-const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle = false }) => {
+const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle = false, onProgress }) => {
   const [selectedAudio, setSelectedAudio] = useState(null);
   const [selectedText, setSelectedText] = useState(null);
   const [matchedIds, setMatchedIds] = useState([]);
@@ -12,6 +12,15 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
   // Shuffle once on mount
   const audioCards = useMemo(() => shuffle([...data]), [data]);
   const textCards = useMemo(() => shuffle([...data]), [data]);
+
+  // Reset state when data changes
+  useEffect(() => {
+    setSelectedAudio(null);
+    setSelectedText(null);
+    setMatchedIds([]);
+    setCompleted(false);
+    setShowTranslation(false);
+  }, [data]);
 
   // Handle audio play
   const audioRefs = useRef({});
@@ -44,6 +53,11 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
       setTimeout(() => setSelectedText(null), 500);
     }
   }, [selectedAudio, selectedText, matchedIds, data.length, onComplete]);
+
+  // Update progress
+  useEffect(() => {
+    if (onProgress) onProgress(matchedIds.length / data.length);
+  }, [matchedIds, data.length, onProgress]);
 
   return (
     <div className="audiowordmatch__container">

@@ -1,7 +1,7 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import "../../CSS/VocabmatchActivity.css";
 
-export default function VocabMatchModal({ pairs = [], title = "Vocabulary Match" }) {
+export default function VocabMatchModal({ pairs = [], title = "Vocabulary Match", onComplete, onProgress }) {
   // normalize input — always a flat array of objects
   const normalizedPairs = useMemo(() => {
     if (!Array.isArray(pairs)) return [];
@@ -45,6 +45,18 @@ export default function VocabMatchModal({ pairs = [], title = "Vocabulary Match"
   );
 
   const completed = unmatchedTerms.length === 0;
+
+  const progress = Object.keys(matches).length / normalizedPairs.length;
+
+  useEffect(() => {
+    if (onProgress) onProgress(progress);
+  }, [progress, onProgress]);
+
+  useEffect(() => {
+    if (completed && onComplete) {
+      onComplete();
+    }
+  }, [completed, onComplete]);
 
   return (
     <div className="vocabmatch__card">

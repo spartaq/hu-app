@@ -59,7 +59,7 @@ const QuizActivity = ({ question, onAnswer, quizTitle }) => {
   return (
     <div className="quizactivity__card activity-card">
        <h2>{quizTitle || "Quiz"}</h2>
-       
+       <img src={quizimg} alt="" className="im-image" />
       <h2 className="quizactivity__question">{question.question}</h2>
 
       <div className="quizactivity__options">

@@ -223,6 +223,9 @@ if (type === "tapaudio") {
   // Provide onScore to accumulate score for each correct exercise
   propsForActivity.onScore = handleAddScore;
 
+  // Provide onProgress to update progress bar
+  propsForActivity.onProgress = (index) => setCurrentIndex(index);
+
   // Remove single-item props since it's handling the array internally
   delete propsForActivity.index;
   delete propsForActivity.total;
@@ -248,6 +251,7 @@ if (type === "tapaudio") {
     propsForActivity.onComplete = () => {
       setActivityEnded(true);
     };
+    propsForActivity.onProgress = (progress) => setCurrentIndex(progress * activityData.length);
     // don't pass single-item data
     delete propsForActivity.data;
   }
@@ -271,6 +275,7 @@ if (type === "tapaudio") {
     propsForActivity.onComplete = () => {
       setActivityEnded(true);
     };
+    propsForActivity.onProgress = (progress) => setCurrentIndex(progress * activityData.length);
     // remove item-scoped props
     propsForActivity.index = null;
     propsForActivity.total = null;
@@ -296,6 +301,14 @@ if (type === "tapaudio") {
   return (
     <div className="exercisesection">
       <div ref={topRef} />
+      {Array.isArray(activityData) && activityData.length > 1 && (
+        <div className="exercisesection__progress-bar">
+          <div
+            className="exercisesection__progress-bar-fill"
+            style={{ width: `${(currentIndex / activityData.length) * 100}%` }}
+          />
+        </div>
+      )}
       <div className="exercisesection__activity-box">
         <ActivityComp {...propsForActivity} />
       </div>

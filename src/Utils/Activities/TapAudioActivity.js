@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import "../../CSS/TapAudioActivity.css";
 import shuffle from "../shuffle.js";
 
-const TapAudioActivity = ({ data, onComplete, onScore }) => {
+const TapAudioActivity = ({ data, onComplete, onScore, onProgress }) => {
   const exercises = Array.isArray(data) ? data : [data];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,7 +27,13 @@ const TapAudioActivity = ({ data, onComplete, onScore }) => {
     setCompleted(false);
     setIsCorrect(false);
     setShowFeedback(false);
+    setCurrentIndex(0);
   }, [data]);
+
+  // Update progress when currentIndex changes
+  useEffect(() => {
+    if (onProgress) onProgress(currentIndex);
+  }, [currentIndex, onProgress]);
 
   const handleWordClick = (word) => {
     if (completed) return;
