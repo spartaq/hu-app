@@ -59,7 +59,6 @@ const QuizActivity = ({ question, onAnswer, quizTitle }) => {
   return (
     <div className="quizactivity__card activity-card">
        <h2>{quizTitle || "Quiz"}</h2>
-      <img src={quizimg} alt="Hungarian" className="quiz-img" />
        
       <h2 className="quizactivity__question">{question.question}</h2>
 
