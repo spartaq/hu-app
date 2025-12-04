@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import "../../CSS/TapAudioActivity.css";
 import shuffle from "../shuffle.js";
 
-const TapAudioActivity = ({ data, onComplete }) => {
+const TapAudioActivity = ({ data, onComplete, onScore }) => {
   const exercises = Array.isArray(data) ? data : [data];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -21,6 +21,14 @@ const TapAudioActivity = ({ data, onComplete }) => {
 
   const remainingWords = shuffledWords.filter((w) => !selectedWords.includes(w));
 
+  // Reset state when data changes
+  useEffect(() => {
+    setSelectedWords([]);
+    setCompleted(false);
+    setIsCorrect(false);
+    setShowFeedback(false);
+  }, [data]);
+
   const handleWordClick = (word) => {
     if (completed) return;
     if (selectedWords.length >= correctSequence.length) return;
@@ -38,13 +46,14 @@ const TapAudioActivity = ({ data, onComplete }) => {
   }, [selectedWords, correctSequence]);
 
   const handleNext = () => {
-    if (onComplete) onComplete(isCorrect);
+    if (isCorrect && onScore) onScore();
 
     if (currentIndex < exercises.length - 1) {
       setCurrentIndex((prev) => prev + 1);
       resetActivity();
     } else {
-      // Optionally notify parent activity that all exercises are finished
+      // All exercises completed
+      if (onComplete) onComplete();
       console.log("🎉 All TapAudio exercises completed");
     }
   };

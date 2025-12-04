@@ -4,12 +4,14 @@ import { useLocation } from 'react-router-dom';
 import "../../CSS/QuizActivity.css";
 import quizimg from "../../Images/neighbors1.jpg";
 
-const QuizActivity = ({ question, onAnswer }) => {
+const QuizActivity = ({ question, onAnswer, quizTitle }) => {
   const location = useLocation();
   const data = location.state?.data;
-  const quizTitle = data?.quizTitle || "Quiz";
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [shuffledOptions, setShuffledOptions] = useState([]);
+
+
+ 
 
   const correctAnswer = question?.answer?.split(" - ")[0]?.trim() || "";
 
@@ -56,7 +58,7 @@ const QuizActivity = ({ question, onAnswer }) => {
 
   return (
     <div className="quizactivity__card activity-card">
-      <h2>Complete the sentence</h2>
+       <h2>{quizTitle || "Quiz"}</h2>
       <img src={quizimg} alt="Hungarian" className="quiz-img" />
        
       <h2 className="quizactivity__question">{question.question}</h2>

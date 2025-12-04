@@ -13,7 +13,6 @@ export default function ImageMatchActivity({ data, onComplete }) {
   } = data || {};
 
   const [selected, setSelected] = useState(null);
-  const [showTranslation, setShowTranslation] = useState(false);
   const [completed, setCompleted] = useState(false);
 
   const handleSelect = (opt) => {
@@ -30,7 +29,6 @@ export default function ImageMatchActivity({ data, onComplete }) {
     // reset selection for next exercise if component stays mounted
     setSelected(null);
     setCompleted(false);
-    setShowTranslation(false);
   };
 
   const playAudio = () => {
@@ -48,16 +46,7 @@ export default function ImageMatchActivity({ data, onComplete }) {
       <div className="im-prompt-box">
         <span className="im-prompt">{prompt}</span>
 
-        <button
-          className="im-translation-toggle"
-          onClick={() => setShowTranslation(!showTranslation)}
-        >
-          {showTranslation ? "Hide translation" : "Show translation"}
-        </button>
-
-        {showTranslation && translation && (
-          <span className="im-translation">({translation})</span>
-        )}
+        
       </div>
 
       {audio && (
@@ -111,7 +100,7 @@ export default function ImageMatchActivity({ data, onComplete }) {
           )}
 
           <button className="im-next-btn" onClick={handleNext}>
-            Continue →
+            Next →
           </button>
         </div>
       )}

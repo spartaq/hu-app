@@ -2,7 +2,7 @@
   {
     "id": "greetings1",
     "title": "Tap What You Hear",
-    "audio": "/audio/basicphrases/hello_sentence.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["Szia", ",", "hogy", "vagy", "ma", "?"],
     "options": ["Szia", "vagy", "hogy", ",", "ma", "?", "jó", "köszönöm"],
     "translation": "Hi, how are you today?"
@@ -10,9 +10,9 @@
   {
     "id": "farewell1",
     "title": "Tap What You Hear",
-    "audio": "/audio/basicphrases/bye_sentence.mp3",
+    "audio": "/Audio/audiotest.mp3",
     "correctSequence": ["Viszlát", ",", "minden", "jót", "!"],
-    "options": ["Viszlát", "minden", "jót", "!", "Szia", "köszi", "ma", "?"],
+    "options": ["Viszlát", "minden", "jót", "!", ",", "köszi", "ma", "?"],
     "translation": "Goodbye, all the best!"
   }
 ]

@@ -2,14 +2,13 @@
   {
     "id": 1,
     "quizTitle": "Vocabulary - Basic Phrases",
-    "audio": "/audio/joreggelt.mp3",
-    "prompt": "Jó reggelt!",
+    "promptImage": "/Images/morning.webp",
     "options": [
-      { "id": "a", "image": "/Images/morning.webp", "word": "Good morning!", "isCorrect": true },
-      { "id": "b", "image": "/Images/night.webp", "word": "Good night!", "isCorrect": false }
+      { "id": "a",  "word": "Jo reggelt!", "isCorrect": true },
+      { "id": "b",  "word": "Jo napot", "isCorrect": false }
     ],
     "translation": "Good morning!",
-    "mode": "word-to-image"
+    "mode": "image-to-word"
   },
   {
     "id": 2,
@@ -26,17 +25,27 @@
   {
     "id": 3,
     "quizTitle": "Vocabulary - Basic Phrases",
-    "audio": "/audio/nincsmit.mp3",
-    "prompt": "Nincs mit.",
+    "promptImage": "/Images/morning.webp",
     "options": [
-      { "id": "a", "image": "/Images/thanks-you.jpg", "word": "You're welcome.", "isCorrect": true },
-      { "id": "b", "image": "/Images/sorry.jpg", "word": "Sorry.", "isCorrect": false }
+      { "id": "a",  "word": "Jo reggelt!", "isCorrect": true },
+      { "id": "b",  "word": "Jo napot", "isCorrect": false }
     ],
-    "translation": "You're welcome.",
-    "mode": "word-to-image"
+    "translation": "Good morning!",
+    "mode": "image-to-word"
   },
   {
     "id": 4,
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "promptImage": "/Images/sorry.jpg",
+    "options": [
+      { "id": "a",  "word": "Bocsanat.", "isCorrect": true },
+      { "id": "b",  "word": "Elnézést.", "isCorrect": false }
+    ],
+    "translation": "Sorry.",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 5,
     "quizTitle": "Vocabulary - Basic Phrases",
     "promptImage": "/Images/excuse-me.jpg",
     "options": [

@@ -6,12 +6,6 @@
     { "term": "Helló", "definition": "Hello" },
     { "term": "Jó reggelt", "definition": "Good morning" },
     { "term": "Jó estét", "definition": "Good evening" },
-    { "term": "Szép napot", "definition": "Good day" },
-    { "term": "Köszönöm", "definition": "Thank you" },
-    { "term": "Nincs mit", "definition": "You're welcome" },
-    { "term": "Elnézést", "definition": "Excuse me" },
-    { "term": "Bocsánat", "definition": "Sorry" },
-    { "term": "Jó éjszakát", "definition": "Good night" },
-    { "term": "Viszontlátásra", "definition": "Goodbye / See you again" }
+    { "term": "Szép napot", "definition": "Good day" }
   ]
 }
