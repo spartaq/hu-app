@@ -65,7 +65,7 @@ body {
 
 .grammarimage img {
   width: 100%;
-  height: auto;
+  height: 200px;
   max-width: 350px;
   border-radius: 16px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.08);

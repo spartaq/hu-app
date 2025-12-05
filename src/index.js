@@ -43,6 +43,9 @@ import BasicAdjectives from './Mainpages/Hungarian/basicadjectives';
 import IrregularVerbs from './Mainpages/Hungarian/irregularverbs';
 import BasicQuestions from './Mainpages/Hungarian/basicquestions';
 import Sounds from './Mainpages/Hungarian/sounds';
+import VocabHome from './Utils/Vocab/VocabHome';
+import VocabTopics from './Utils/Vocab/VocabTopics';
+import VocabCards from './Utils/Vocab/VocabCards';
 
 
 const router = createBrowserRouter([
@@ -165,6 +168,18 @@ const router = createBrowserRouter([
           {
             path: "hungarian/vocabularymatchHub",
             element: <VocabularymatchHub />
+          },
+          {
+            path: "/vocab",
+            element: <VocabHome />
+          },
+          {
+            path: "/vocab/topics",
+            element: <VocabTopics />
+          },
+          {
+            path: "/vocab/topics/:topicId",
+            element: <VocabCards />
           },
           {  
             path: "hungarian/activity/vocab/:id",
