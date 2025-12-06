@@ -4,20 +4,26 @@
   "data": {
     "items": [
       {
-        "term": "Helló",
-        "definition": "Hello"
+        "title": "Basic Greetings",
+        "items": [
+          { "term": "Helló", "definition": "Hello" },
+          { "term": "Jó reggelt", "definition": "Good morning" },
+          { "term": "Jó estét", "definition": "Good evening" },
+          { "term": "Szép napot", "definition": "Good day" },
+          { "term": "Viszlát", "definition": "Goodbye" },
+          { "term": "Szia", "definition": "Hi" }
+        ]
       },
       {
-        "term": "Jó reggelt",
-        "definition": "Good morning"
-      },
-      {
-        "term": "Jó estét",
-        "definition": "Good evening"
-      },
-      {
-        "term": "Szép napot",
-        "definition": "Good day"
+        "title": "Common Responses",
+        "items": [
+          { "term": "Köszönöm", "definition": "Thank you" },
+          { "term": "Szívesen", "definition": "You're welcome" },
+          { "term": "Elnézést", "definition": "Excuse me" },
+          { "term": "Semmi baj", "definition": "No problem" },
+          { "term": "Igen", "definition": "Yes" },
+          { "term": "Nem", "definition": "No" }
+        ]
       }
     ]
   }

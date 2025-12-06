@@ -3,7 +3,6 @@
   "title": "grammarquiz_jelenindef",
   "data": {
     "quizTitle": "Indefinite Conjugation Quiz",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "Olvassa"
         ],
         "answer": "Olvasok",
-        "translate": "Olvasok – I read."
+        "translate": "Olvasok – I read.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "I clean"
         ],
         "answer": "I run",
-        "translate": "Futok – I run."
+        "translate": "Futok – I run.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "Délelőtt tanulja."
         ],
         "answer": "Délelőtt tanulok.",
-        "translate": "Délelőtt tanulok – I study in the late morning."
+        "translate": "Délelőtt tanulok – I study in the late morning.",
+        "image": "/Images/default.jpg"
       }
     ]
   }

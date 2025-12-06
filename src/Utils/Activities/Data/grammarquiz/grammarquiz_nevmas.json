@@ -3,7 +3,6 @@
   "title": "grammarquiz_nevmas",
   "data": {
     "quizTitle": "Névmások – Pronouns",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "Mi"
         ],
         "answer": "Én - I am the teacher",
-        "translate": "I am the teacher"
+        "translate": "I am the teacher",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "Én"
         ],
         "answer": "Te - You are my best friend",
-        "translate": "You are my best friend"
+        "translate": "You are my best friend",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "Ti"
         ],
         "answer": "Ő - He/She lives in Budapest",
-        "translate": "He/She lives in Budapest"
+        "translate": "He/She lives in Budapest",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "Én"
         ],
         "answer": "Mi - We like hiking",
-        "translate": "We like hiking"
+        "translate": "We like hiking",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -63,7 +66,8 @@
           "Te"
         ],
         "answer": "Ti - Are you (plural) coming tomorrow?",
-        "translate": "Are you (plural) coming tomorrow?"
+        "translate": "Are you (plural) coming tomorrow?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 6,
@@ -75,7 +79,8 @@
           "Én"
         ],
         "answer": "Ők - They are always late",
-        "translate": "They are always late"
+        "translate": "They are always late",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 7,
@@ -87,7 +92,8 @@
           "Ott"
         ],
         "answer": "Ez - This book interests me",
-        "translate": "This book interests me"
+        "translate": "This book interests me",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 8,
@@ -99,7 +105,8 @@
           "Amott"
         ],
         "answer": "Az - Do you like that house?",
-        "translate": "Do you like that house?"
+        "translate": "Do you like that house?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 9,
@@ -111,7 +118,8 @@
           "Hány"
         ],
         "answer": "Ki - Who came through the door?",
-        "translate": "Who came through the door?"
+        "translate": "Who came through the door?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 10,
@@ -123,7 +131,8 @@
           "Mikor"
         ],
         "answer": "Mi - What is in your bag?",
-        "translate": "What is in your bag?"
+        "translate": "What is in your bag?",
+        "image": "/Images/default.jpg"
       }
     ]
   }

@@ -3,7 +3,6 @@
   "title": "grammarquiz_jovo",
   "data": {
     "quizTitle": "Jövő Idő – Fog + Infinitive",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "fognak"
         ],
         "answer": "fogok",
-        "translate": "I will get up early tomorrow."
+        "translate": "I will get up early tomorrow.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "fognak"
         ],
         "answer": "fog",
-        "translate": "Péter will leave home at 7 in the morning."
+        "translate": "Péter will leave home at 7 in the morning.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "fogok"
         ],
         "answer": "fognak",
-        "translate": "The students will take an exam soon."
+        "translate": "The students will take an exam soon.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "fogok"
         ],
         "answer": "fogunk",
-        "translate": "We will have dinner at home tonight."
+        "translate": "We will have dinner at home tonight.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -63,7 +66,8 @@
           "fognak"
         ],
         "answer": "fogsz",
-        "translate": "Will you go to school tomorrow?"
+        "translate": "Will you go to school tomorrow?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 6,
@@ -75,7 +79,8 @@
           "fogunk"
         ],
         "answer": "fognak",
-        "translate": "They will watch a movie tomorrow night."
+        "translate": "They will watch a movie tomorrow night.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 7,
@@ -87,7 +92,8 @@
           "fogtok"
         ],
         "answer": "fogok",
-        "translate": "After work, I will continue working for a long time."
+        "translate": "After work, I will continue working for a long time.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 8,
@@ -99,7 +105,8 @@
           "fognak"
         ],
         "answer": "fogtok",
-        "translate": "When will you (plural) have lunch?"
+        "translate": "When will you (plural) have lunch?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 9,
@@ -111,7 +118,8 @@
           "fogunk"
         ],
         "answer": "fog",
-        "translate": "Anna won’t arrive on time."
+        "translate": "Anna won’t arrive on time.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 10,
@@ -123,7 +131,8 @@
           "fog"
         ],
         "answer": "fogunk",
-        "translate": "We will study a lot next week."
+        "translate": "We will study a lot next week.",
+        "image": "/Images/default.jpg"
       }
     ]
   }

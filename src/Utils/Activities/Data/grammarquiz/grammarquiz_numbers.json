@@ -3,7 +3,6 @@
   "title": "grammarquiz_numbers",
   "data": {
     "quizTitle": "Numbers & Quantities Quiz",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "öt"
         ],
         "answer": "három",
-        "translate": "three"
+        "translate": "three",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "tíz"
         ],
         "answer": "öt",
-        "translate": "five"
+        "translate": "five",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "bolt"
         ],
         "answer": "mennyi",
-        "translate": "how much?"
+        "translate": "how much?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "tej"
         ],
         "answer": "alma",
-        "translate": "apple"
+        "translate": "apple",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -63,7 +66,8 @@
           "négy"
         ],
         "answer": "kettő",
-        "translate": "two"
+        "translate": "two",
+        "image": "/Images/default.jpg"
       }
     ]
   }

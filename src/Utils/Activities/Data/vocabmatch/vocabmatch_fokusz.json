@@ -1,23 +1,28 @@
 {
   "type": "vocabmatch",
-  "title": "Fókusz – Focus / Emphasis",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "csak",
-        "definition": "only"
-      },
-      {
-        "term": "is",
-        "definition": "also"
-      },
-      {
-        "term": "még",
-        "definition": "still / yet"
-      },
-      {
-        "term": "pont",
-        "definition": "exactly / precisely"
+        "title": "Fókusz – Focus / Emphasis",
+        "items": [
+          {
+            "term": "csak",
+            "definition": "only"
+          },
+          {
+            "term": "is",
+            "definition": "also"
+          },
+          {
+            "term": "még",
+            "definition": "still / yet"
+          },
+          {
+            "term": "pont",
+            "definition": "exactly / precisely"
+          }
+        ]
       }
     ]
   }

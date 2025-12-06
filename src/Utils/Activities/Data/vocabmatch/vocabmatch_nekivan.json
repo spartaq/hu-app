@@ -1,23 +1,28 @@
 {
   "type": "vocabmatch",
-  "title": "Neki van / nincs – Possession",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "van neki",
-        "definition": "he/she has"
-      },
-      {
-        "term": "nincs neki",
-        "definition": "he/she doesn’t have"
-      },
-      {
-        "term": "volt neki",
-        "definition": "he/she had"
-      },
-      {
-        "term": "nem volt neki",
-        "definition": "he/she didn’t have"
+        "title": "Neki van / nincs – Possession",
+        "items": [
+          {
+            "term": "van neki",
+            "definition": "he/she has"
+          },
+          {
+            "term": "nincs neki",
+            "definition": "he/she doesn’t have"
+          },
+          {
+            "term": "volt neki",
+            "definition": "he/she had"
+          },
+          {
+            "term": "nem volt neki",
+            "definition": "he/she didn’t have"
+          }
+        ]
       }
     ]
   }

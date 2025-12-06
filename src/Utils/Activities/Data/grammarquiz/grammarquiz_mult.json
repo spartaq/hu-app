@@ -3,7 +3,6 @@
   "title": "grammarquiz_mult",
   "data": {
     "quizTitle": "Múlt Idő",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "felkeltem"
         ],
         "answer": "felkeltem",
-        "translate": "I woke up at 7 am"
+        "translate": "I woke up at 7 am",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "iszom"
         ],
         "answer": "ittam",
-        "translate": "I drank 3 coffees yesterday."
+        "translate": "I drank 3 coffees yesterday.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "esett"
         ],
         "answer": "ettem",
-        "translate": "I ate a sandwich quickly in the morning."
+        "translate": "I ate a sandwich quickly in the morning.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "mennek"
         ],
         "answer": "mentem",
-        "translate": "I went to work at 8 o'clock."
+        "translate": "I went to work at 8 o'clock.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -63,7 +66,8 @@
           "írunk"
         ],
         "answer": "írtam",
-        "translate": "I wrote a lot of emails in the morning."
+        "translate": "I wrote a lot of emails in the morning.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 6,
@@ -75,7 +79,8 @@
           "ebédel"
         ],
         "answer": "ebédeltem",
-        "translate": "I had lunch at the restaurant at noon."
+        "translate": "I had lunch at the restaurant at noon.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 7,
@@ -87,7 +92,8 @@
           "beszélnek"
         ],
         "answer": "beszéltem",
-        "translate": "I talked with a colleague in the afternoon."
+        "translate": "I talked with a colleague in the afternoon.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 8,
@@ -99,7 +105,8 @@
           "jött"
         ],
         "answer": "jöttem",
-        "translate": "I came home at 6 in the evening."
+        "translate": "I came home at 6 in the evening.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 9,
@@ -111,7 +118,8 @@
           "főztök"
         ],
         "answer": "főztem",
-        "translate": "I cooked dinner at home."
+        "translate": "I cooked dinner at home.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 10,
@@ -123,7 +131,8 @@
           "olvasnak"
         ],
         "answer": "olvastam",
-        "translate": "I read a book before going to bed."
+        "translate": "I read a book before going to bed.",
+        "image": "/Images/default.jpg"
       }
     ]
   }

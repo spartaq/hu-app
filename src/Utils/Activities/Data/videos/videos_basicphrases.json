@@ -1,0 +1,115 @@
+{
+  "type": "video",
+  "title": "Spotify and the Music Industry",
+  "data": {
+    "id": "spotify",
+    "videoId": "TXrAyYRVkII",
+    "topic": "Music Industry",
+    "level": "B2",
+    "vocabulary": [
+      { "hun": "stream", "eng": "play audio or video over the internet" },
+      { "hun": "living wage", "eng": "enough income to meet basic needs" },
+      { "hun": "royalties", "eng": "money paid to artists when their work is used" },
+      { "hun": "valuation", "eng": "the estimated worth of a company" },
+      { "hun": "exploitative", "eng": "unfairly using someone for profit" },
+      { "hun": "devalued", "eng": "made less important or less valuable" }
+    ],
+    "transcript": [
+      "<h1>Spotify and the Struggle of Musicians</h1>",
+      "<p>If you're on Spotify right now listening to my band, you would have to stream one of our songs 786 times for me to be able to buy a single cup of coffee.</p>",
+      "<p>In order to earn a standard living wage, our four-member band would need 2.6 million streams per month. Our current streaming rates fall far short of this.</p>",
+      "<p>In fact, 82% of musicians earn less than $270 a year from Spotify. The average amount per stream is $0.0038. If you have a record label, the rate goes down even more because then you're sharing it. I end up with about a tenth of a penny per stream. For projects with multiple musicians, divide that by four—it's almost nothing.</p>",
+      "<p>We are demanding a cent per stream for our music on Spotify.</p>",
+      "<p>My name is Liz Pelly. I'm a writer, and for the past few years I've been writing critically about music streaming.</p>",
+      "<p>Streaming services promote the narrative that streaming saved the music industry. Record industry profits are at an all-time high. But it's not artists who are benefiting from this.</p>",
+      "<p>Spotify is mostly concerned with reducing costs. Paying royalties is seen as a cost. Spotify doesn’t view artists as workers, but as customers.</p>",
+      "<p>In response, artists have started pushing back. Early in the pandemic, a group of us formed the Union of Musicians and Allied Workers (UMAW). Just as it Spotify is one of our campaigns. Over 30,000 artists have signed our demands, and we've held protests and petitions at Spotify offices worldwide.</p>",
+      "<p>Spotify responded with a corporate PR campaign. But the pandemic created a crisis. Musicians couldn’t tour, and streaming brings in little income.</p>",
+      "<p>We were about to release an album and had a full year of touring booked, but all gigs were canceled. We lost our ability to earn money from our work. Meanwhile, Spotify’s valuation tripled.</p>",
+      "<p>Spotify raised prices for users, but musicians haven’t seen any raise. A cent per stream would be easy for them to pay.</p>",
+      "<p>Spotify says it's creating a healthier music industry. But I ask—healthier for who?</p>",
+      "<p>The data shows that a bigger share of profits is going to a few top earners. The industry has become less equal, more concentrated than ever before.</p>",
+      "<p>The idea of the millionaire rock star is used to defend an exploitative system built on the backs of workers.</p>",
+      "<p>Music itself is being devalued. I worry for its future if we continue treating it this way. A penny per stream is not a lot to ask.</p>"
+    ],
+    "questions": [
+      {
+        "number": "1",
+        "question": "What is the main issue artists face with Spotify payments?",
+        "choices": [
+          "A. Songs are too long for Spotify’s model.",
+          "B. They don’t have enough fans.",
+          "C. The pay per stream is extremely low.",
+          "D. Record labels take all the profits."
+        ],
+        "correctAnswer": "C. The pay per stream is extremely low."
+      },
+      {
+        "number": "2",
+        "question": "What solution do the musicians propose?",
+        "choices": [
+          "A. Remove all music from Spotify.",
+          "B. Charge more for concert tickets.",
+          "C. Demand a cent per stream.",
+          "D. Start their own streaming service."
+        ],
+        "correctAnswer": "C. Demand a cent per stream."
+      },
+      {
+        "number": "3",
+        "question": "How does Spotify view artists, according to Liz?",
+        "choices": [
+          "A. As valuable partners.",
+          "B. As regular employees.",
+          "C. As customers, not workers.",
+          "D. As investors in the platform."
+        ],
+        "correctAnswer": "C. As customers, not workers."
+      },
+      {
+        "number": "4",
+        "question": "Why did the artists form UMAW?",
+        "choices": [
+          "A. To boycott Spotify’s platform.",
+          "B. To support music streaming growth.",
+          "C. To push for better pay and rights.",
+          "D. To create a new record label."
+        ],
+        "correctAnswer": "C. To push for better pay and rights."
+      },
+      {
+        "number": "5",
+        "question": "What does the speaker believe about the future of music?",
+        "choices": [
+          "A. It is thriving thanks to Spotify.",
+          "B. It is being devalued and threatened.",
+          "C. It doesn’t need streaming at all.",
+          "D. It is safer now than ever."
+        ],
+        "correctAnswer": "B. It is being devalued and threatened."
+      },
+      {
+        "number": "6",
+        "question": "What happened to the speaker’s band during the pandemic?",
+        "choices": [
+          "A. They released a successful album.",
+          "B. They gained more streams than ever.",
+          "C. They had to cancel all planned tours.",
+          "D. They started working at Spotify."
+        ],
+        "correctAnswer": "C. They had to cancel all planned tours."
+      },
+      {
+        "number": "7",
+        "question": "How did Spotify react to the artists’ protests?",
+        "choices": [
+          "A. They agreed to change the payment model.",
+          "B. They ignored them completely.",
+          "C. They launched a PR campaign.",
+          "D. They removed the protesting artists."
+        ],
+        "correctAnswer": "C. They launched a PR campaign."
+      }
+    ]
+  }
+}

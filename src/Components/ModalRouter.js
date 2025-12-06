@@ -188,14 +188,9 @@ import HuVocabmatchHarmoniaData from "../Utils/Activities/Data/vocabmatch/vocabm
 import HuVocabmatchBasicphrasesData from "../Utils/Activities/Data/vocabmatch/vocabmatch_basicphrases.json";
 
 // READING
-import readingParentsFootballMatch from "../Utils/Activities/Data/reading/readingParentsFootball.js";
-import readingStreamingFatigue from "../Utils/Activities/Data/reading/readingStreamingFatigue.js";
-import readingANevemBob from "../Utils/Activities/Data/reading/readingANevemBob.js";
-import readingEssityAccount from "../Utils/Activities/Data/reading/readingEssityAccount.js";
-import readingSimplePresent from "../Utils/Activities/Data/reading/readingSimplePresent.js";
+import HuReadingBasicPhrases from "../Utils/Activities/Data/reading/reading_basicphrases.json";
 // VIDEO
-import videoPhones from "../Utils/Activities/Data/videos/phones.js";
-import videoSpotify from "../Utils/Activities/Data/videos/spotify.js";
+import HuVideosBasicPhrases from "../Utils/Activities/Data/videos/videos_basicphrases.json";
 // **LESSONCOMPLETE
 import HuLessoncompleteSoundsData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_sounds.json";
 import HuLessoncompleteBasicquestionsData from "../Utils/Activities/Data/lessoncomplete/lessoncomplete_basicquestions.json";
@@ -421,16 +416,14 @@ const DATA_MAP = {
   
 
   reading: {
-    "parents-football-match": readingParentsFootballMatch,
-    "streaming-fatigue": readingStreamingFatigue,
-    "nevem-bob": readingANevemBob,
-    "essityaccount": readingEssityAccount,
-    "simplepresent": readingSimplePresent,
+  basicphrases: HuReadingBasicPhrases
   },
 
+
+
+
   video: {
-    phones: videoPhones,
-    spotify: videoSpotify,
+  basicphrases: HuVideosBasicPhrases
   },
 
   lessoncomplete: {
@@ -472,9 +465,10 @@ const ModalRouter = ({ type, subtype, scrollTargetRef }) => {
 
   // Validate shape before rendering ModalRender
   if (
+    (type === "grammarquiz" && (!data || !data.data || !Array.isArray(data.data.questions))) ||
     (type === "quiz" && (!data || !Array.isArray(data.questions))) ||
-    (type === "ordering" && (!data || !Array.isArray(data))) ||
-    (type === "vocabmatch" && (!data || !Array.isArray(data.pairs))) ||
+    (type === "ordering" && (!data || !data.data || !Array.isArray(data.data.items))) ||
+    (type === "vocabmatch" && (!data || !data.data || !Array.isArray(data.data.items))) ||
     (type === "grammar" && (!data || !Array.isArray(data.sentences))) ||
     (type === "reading" && !data) ||
     (type === "video" && !data) ||

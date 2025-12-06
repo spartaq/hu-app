@@ -3,7 +3,6 @@
   "title": "grammarquiz_irregularverbs",
   "data": {
     "quizTitle": "Irregular Verbs Quiz",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "plays"
         ],
         "answer": "eats",
-        "translate": "eats"
+        "translate": "eats",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "drinks"
         ],
         "answer": "goes",
-        "translate": "goes"
+        "translate": "goes",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "úszik"
         ],
         "answer": "zenél",
-        "translate": "plays music"
+        "translate": "plays music",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "runs"
         ],
         "answer": "has dinner",
-        "translate": "has dinner"
+        "translate": "has dinner",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -63,7 +66,8 @@
           "reads"
         ],
         "answer": "plays",
-        "translate": "plays"
+        "translate": "plays",
+        "image": "/Images/default.jpg"
       }
     ]
   }

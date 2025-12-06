@@ -1,23 +1,28 @@
 {
   "type": "vocabmatch",
-  "title": "Van – There is / There are",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "van",
-        "definition": "there is"
-      },
-      {
-        "term": "nincs",
-        "definition": "there isn’t"
-      },
-      {
-        "term": "vannak",
-        "definition": "there are"
-      },
-      {
-        "term": "nincsenek",
-        "definition": "there aren’t"
+        "title": "Van – There is / There are",
+        "items": [
+          {
+            "term": "van",
+            "definition": "there is"
+          },
+          {
+            "term": "nincs",
+            "definition": "there isn’t"
+          },
+          {
+            "term": "vannak",
+            "definition": "there are"
+          },
+          {
+            "term": "nincsenek",
+            "definition": "there aren’t"
+          }
+        ]
       }
     ]
   }

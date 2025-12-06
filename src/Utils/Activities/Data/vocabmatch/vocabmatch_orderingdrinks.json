@@ -1,95 +1,100 @@
 {
   "type": "vocabmatch",
-  "title": "Cafe Vocabulary",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "kérek",
-        "definition": "I ask for / please give me"
-      },
-      {
-        "term": "kávé",
-        "definition": "coffee"
-      },
-      {
-        "term": "parancsoljon",
-        "definition": "here you go"
-      },
-      {
-        "term": "tessék",
-        "definition": "here you are"
-      },
-      {
-        "term": "készen",
-        "definition": "ready"
-      },
-      {
-        "term": "rendelés",
-        "definition": "order"
-      },
-      {
-        "term": "szeretnék",
-        "definition": "I would like"
-      },
-      {
-        "term": "leves",
-        "definition": "soup"
-      },
-      {
-        "term": "saláta",
-        "definition": "salad"
-      },
-      {
-        "term": "rendben",
-        "definition": "alright / okay"
-      },
-      {
-        "term": "teát",
-        "definition": "tea"
-      },
-      {
-        "term": "víz",
-        "definition": "water"
-      },
-      {
-        "term": "sör",
-        "definition": "beer"
-      },
-      {
-        "term": "tej",
-        "definition": "milk"
-      },
-      {
-        "term": "kenyér",
-        "definition": "bread"
-      },
-      {
-        "term": "tojás",
-        "definition": "egg"
-      },
-      {
-        "term": "cukor",
-        "definition": "sugar"
-      },
-      {
-        "term": "só",
-        "definition": "salt"
-      },
-      {
-        "term": "citrom",
-        "definition": "lemon"
-      },
-      {
-        "term": "szépen",
-        "definition": "nicely / politely"
-      },
-      {
-        "term": "pizzát",
-        "definition": "pizza"
-      },
-      {
-        "term": "almát",
-        "definition": "apple"
+        "title": "Cafe Vocabulary",
+        "items": [
+          {
+            "term": "kérek",
+            "definition": "I ask for / please give me"
+          },
+          {
+            "term": "kávé",
+            "definition": "coffee"
+          },
+          {
+            "term": "parancsoljon",
+            "definition": "here you go"
+          },
+          {
+            "term": "tessék",
+            "definition": "here you are"
+          },
+          {
+            "term": "készen",
+            "definition": "ready"
+          },
+          {
+            "term": "rendelés",
+            "definition": "order"
+          },
+          {
+            "term": "szeretnék",
+            "definition": "I would like"
+          },
+          {
+            "term": "leves",
+            "definition": "soup"
+          },
+          {
+            "term": "saláta",
+            "definition": "salad"
+          },
+          {
+            "term": "rendben",
+            "definition": "alright / okay"
+          },
+          {
+            "term": "teát",
+            "definition": "tea"
+          },
+          {
+            "term": "víz",
+            "definition": "water"
+          },
+          {
+            "term": "sör",
+            "definition": "beer"
+          },
+          {
+            "term": "tej",
+            "definition": "milk"
+          },
+          {
+            "term": "kenyér",
+            "definition": "bread"
+          },
+          {
+            "term": "tojás",
+            "definition": "egg"
+          },
+          {
+            "term": "cukor",
+            "definition": "sugar"
+          },
+          {
+            "term": "só",
+            "definition": "salt"
+          },
+          {
+            "term": "citrom",
+            "definition": "lemon"
+          },
+          {
+            "term": "szépen",
+            "definition": "nicely / politely"
+          },
+          {
+            "term": "pizzát",
+            "definition": "pizza"
+          },
+          {
+            "term": "almát",
+            "definition": "apple"
+          }
+        ]
       }
     ]
   }

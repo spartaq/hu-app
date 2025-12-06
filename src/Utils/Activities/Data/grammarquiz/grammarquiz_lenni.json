@@ -3,7 +3,6 @@
   "title": "grammarquiz_lenni",
   "data": {
     "quizTitle": "Lenni",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "vagyok"
         ],
         "answer": "vagyok",
-        "translate": "I'm Hungarian."
+        "translate": "I'm Hungarian.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "vagyok"
         ],
         "answer": "vagy",
-        "translate": "Are you American?"
+        "translate": "Are you American?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "vagyok"
         ],
         "answer": "-",
-        "translate": "He/she is a teacher and today he/she is very tired."
+        "translate": "He/she is a teacher and today he/she is very tired.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "vannak"
         ],
         "answer": "vagyunk",
-        "translate": "We are engineers."
+        "translate": "We are engineers.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -63,7 +66,8 @@
           "vannak"
         ],
         "answer": "vagytok",
-        "translate": "You (plural) are very friendly."
+        "translate": "You (plural) are very friendly.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 6,
@@ -75,7 +79,8 @@
           "van"
         ],
         "answer": "vannak",
-        "translate": "The students are already at school."
+        "translate": "The students are already at school.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 7,
@@ -87,7 +92,8 @@
           "vagytok"
         ],
         "answer": "vagyok",
-        "translate": "I am not sick, just tired."
+        "translate": "I am not sick, just tired.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 8,
@@ -99,7 +105,8 @@
           "vagyok"
         ],
         "answer": "-",
-        "translate": "Are they Italian?"
+        "translate": "Are they Italian?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 9,
@@ -111,7 +118,8 @@
           "vannak"
         ],
         "answer": "-",
-        "translate": "My friend is a doctor."
+        "translate": "My friend is a doctor.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 10,
@@ -123,7 +131,8 @@
           "vagyunk"
         ],
         "answer": "vagyunk",
-        "translate": "We are ready for the meeting."
+        "translate": "We are ready for the meeting.",
+        "image": "/Images/default.jpg"
       }
     ]
   }

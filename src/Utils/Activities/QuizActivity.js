@@ -1,21 +1,19 @@
-// src/Utils/Activities/QuizActivity.js
 import React, { useState, useEffect } from "react";
-import { useLocation } from 'react-router-dom';
 import "../../CSS/QuizActivity.css";
-import quizimg from "../../Images/neighbors1.jpg";
+import ProgressBar from "../../Components/ProgressBar";
 
-const QuizActivity = ({ question, onAnswer, quizTitle }) => {
-  const location = useLocation();
-  const data = location.state?.data;
+export default function QuizActivity({ data = {}, onComplete, onScore, onProgress }) {
+  const questions = Array.isArray(data.questions) ? data.questions : [data];
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [shuffledOptions, setShuffledOptions] = useState([]);
+  const [completed, setCompleted] = useState(0); // track completed questions
 
+  const currentQuestion = questions[currentIndex] || {};
+  const { question = "", answer = "", options = [], translate, image } = currentQuestion;
+  const correctAnswer = answer.trim();
 
- 
-
-  const correctAnswer = question?.answer?.split(" - ")[0]?.trim() || "";
-
-  // Fisher–Yates shuffle
+  // Shuffle options
   const shuffleArray = (array) => {
     const newArray = [...array];
     for (let i = newArray.length - 1; i > 0; i--) {
@@ -27,40 +25,52 @@ const QuizActivity = ({ question, onAnswer, quizTitle }) => {
 
   // Reset when question changes
   useEffect(() => {
-    if (question?.options) {
-      setShuffledOptions(shuffleArray(question.options));
+    if (options.length) {
+      setShuffledOptions(shuffleArray(options));
       setSelectedAnswer(null);
     }
-  }, [question]);
+  }, [currentIndex, options]);
 
-  if (!question) return <p>Loading...</p>;
-
-  // Fill correct answer into the sentence for final display
-  const buildCorrectSentence = () => {
-    return question.question.replace("______", correctAnswer);
-  };
+  const isCorrect = selectedAnswer?.trim() === correctAnswer;
 
   const handleAnswerClick = (option) => {
+    if (selectedAnswer) return;
     setSelectedAnswer(option);
   };
 
   const handleNext = () => {
-    const isCorrect = (selectedAnswer || "").trim() === correctAnswer;
+    // Update score if correct
+    if (isCorrect && onScore) onScore();
 
-    if (typeof onAnswer === "function") {
-      onAnswer({ correct: isCorrect, next: true, selected: selectedAnswer });
+    // Increment completed questions
+    const newCompleted = completed + 1;
+    setCompleted(newCompleted);
+
+    // Notify parent of progress
+    if (onProgress) onProgress(newCompleted, questions.length);
+
+    // Move to next question or finish
+    if (currentIndex < questions.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+    } else {
+      if (onComplete) onComplete();
     }
-
-    setSelectedAnswer(null);
   };
 
-  const isCorrect = selectedAnswer?.trim() === correctAnswer;
+  const buildCorrectSentence = () => question.replace("______", correctAnswer);
+
+  if (!currentQuestion) return <p>Loading...</p>;
 
   return (
     <div className="quizactivity__card activity-card">
-       <h2>{quizTitle || "Quiz"}</h2>
-       <img src={quizimg} alt="" className="im-image" />
-      <h2 className="quizactivity__question">{question.question}</h2>
+      <h2>{data.quizTitle || "Quiz"}</h2>
+
+      {/* Progress Bar */}
+      <ProgressBar completed={completed} total={questions.length} />
+
+      {image && <img src={image} alt="" className="im-image" />}
+
+      <h3 className="quizactivity__question">{question}</h3>
 
       <div className="quizactivity__options">
         {shuffledOptions.map((option, index) => {
@@ -90,17 +100,12 @@ const QuizActivity = ({ question, onAnswer, quizTitle }) => {
 
       {selectedAnswer && (
         <div className="quizactivity__feedback">
-
-          {/* Normal correct/incorrect message */}
           <p>{isCorrect ? "✅ Correct!" : "❌ Incorrect."}</p>
 
-          {/* NEW: Show full correct sentence + translation ONLY when correct */}
           {isCorrect && (
             <div className="quizactivity__solution">
-              <p><strong>Correct sentence:</strong> {buildCorrectSentence()}</p>
-              {question.translate && (
-                <p><strong>Translation:</strong> {question.translate}</p>
-              )}
+              <p><strong>Correct answer:</strong> {buildCorrectSentence()}</p>
+              {translate && <p><strong>Translation:</strong> {translate}</p>}
             </div>
           )}
 
@@ -111,6 +116,4 @@ const QuizActivity = ({ question, onAnswer, quizTitle }) => {
       )}
     </div>
   );
-};
-
-export default QuizActivity;
+}

@@ -14,8 +14,8 @@ const sections = [
   { label: "Tap What You Hear", type: "tapaudio", subtype: "sounds" },
   { label: "Grammar Exercises", type: "grammarquiz", subtype: "sounds" },
   { label: "Word Order", type: "ordering", subtype: "sounds" },
-  { label: "Reading", type: "reading", subtype: "nevem-bob" },
-  { label: "Video", type: "video", subtype: "videos" },
+  { label: "Reading", type: "reading", subtype: "basicphrases" },
+  { label: "Video", type: "video", subtype: "basicphrases" },
   { label: "Lesson Complete", type: "lessoncomplete", subtype: "sounds" },
 ];
 

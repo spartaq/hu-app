@@ -19,7 +19,6 @@ import JelenIndef from './Mainpages/Hungarian/jelenindef';
 import Mult from './Mainpages/Hungarian/mult';
 import Van from './Mainpages/Hungarian/van';
 import Jovo from './Mainpages/Hungarian/jovo';
-import HungarianTemplate from './Mainpages/Hungarian/hungarianexercisetemplate';
 import HuVerbConjugation from './Mainpages/Hungarian/verbconjugationtable';
 import Nekivan from './Mainpages/Hungarian/nekivan';
 import Birtoklas from './Mainpages/Hungarian/birtoklas';
@@ -35,7 +34,6 @@ import ReadingActivityPage from './Utils/Activities/ReadingActivity';
 import VocabularymatchHub from './Mainpages/VocabularyMatchHub/vocabularymatchHub';
 import VocabularyActivityPage from './Utils/Activities/VocabMatch';
 import GrammarQuizHub from './Mainpages/GrammarQuizHub/grammarquizHub';
-import QuizActivityPage from './Utils/Activities/QuizActivityPage';
 import BasicPhrases from './Mainpages/Hungarian/basicphrases';
 import OrderingDrinks from './Mainpages/Hungarian/orderingdrinks';
 import Numbers from './Mainpages/Hungarian/numbers';
@@ -84,10 +82,6 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/van',
             element: <Van />,
-          },
-          {
-            path: 'hungarian/hungarianexercisetemplate',
-            element: <HungarianTemplate />,
           },
           {
             path: 'hungarian/nekivan',
@@ -188,10 +182,6 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/grammarquizHub',
             element: <GrammarQuizHub />
-          },
-          {
-            path: 'hungarian/activity/quiz/:id',
-            element: <QuizActivityPage />
           },
           {
             path: 'flashcards/verbshun',

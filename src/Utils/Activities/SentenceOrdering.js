@@ -1,46 +1,32 @@
 import React, { useState, useMemo, useEffect } from "react";
 import "../../CSS/WordOrderActivity.css";
 
-const SentenceOrdering = ({ data, onComplete }) => {
-  console.log("🔵 COMPONENT RENDER, incoming data:", data);
-const item = data;
-  // Normalize incoming data
-
-  const [completed, setCompleted] = useState(false);
-  const [shuffledWords, setShuffledWords] = useState([]);
+export default function SentenceOrdering({ data = {}, onComplete, onScore, onProgress }) {
+  const exercises = Array.isArray(data.items) ? data.items : [data]; // support multiple exercises
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [placedWords, setPlacedWords] = useState([]);
+  const [shuffledWords, setShuffledWords] = useState([]);
+  const [completed, setCompleted] = useState(false);
   const [showTranslation, setShowTranslation] = useState(false);
 
+  const currentExercise = exercises[currentIndex] || {};
+  const { sentence = "", translation = "", quizTitle = "" } = currentExercise;
 
+  // Split sentence into words with ids
+  const correctWords = useMemo(() => sentence.split(" ").map((word, idx) => ({ word, id: idx })), [sentence]);
 
-  // Get current exercise
-  const sentence = item?.sentence || "";
-  const translation = item?.translation || "";
-  const title = item?.quizTitle || "";
-
-  console.log("🟣 current item:", item);
-
-  // Split original words with position ids
-  const correctWords = useMemo(() => {
-    const result = sentence.split(" ").map((word, idx) => ({ word, id: idx }));
-    console.log("🟢 correctWords:", result);
-    return result;
-  }, [sentence]);
-
-  // Shuffle when exercise changes
+  // Shuffle words and reset state when exercise changes
   useEffect(() => {
-    console.log("🟡 useEffect triggered for sentence:", sentence);
-
     if (!sentence) return;
 
     const shuffled = shuffle([...correctWords]);
-    console.log("🟡 shuffledWords:", shuffled);
-
     setShuffledWords(shuffled);
     setPlacedWords(Array(correctWords.length).fill(null));
     setCompleted(false);
     setShowTranslation(false);
-  }, [sentence]);
+
+    if (onProgress) onProgress(currentIndex / exercises.length);
+  }, [sentence, currentIndex, correctWords, onProgress, exercises.length]);
 
   function shuffle(array) {
     const copy = [...array];
@@ -52,58 +38,41 @@ const item = data;
   }
 
   const handlePlaceWord = (wordObj) => {
-    console.log("🟩 placeWord:", wordObj);
-
-    if (completed) {
-      console.log("⚠️ ignored: already completed");
-      return;
-    }
+    if (completed) return;
 
     const nextBlankIdx = placedWords.findIndex((p) => p === null);
-    console.log("🟩 next blank index:", nextBlankIdx);
-
     if (nextBlankIdx === -1) return;
 
     const updated = [...placedWords];
     updated[nextBlankIdx] = wordObj;
-
-    console.log("🟩 updated placedWords:", updated);
-
     setPlacedWords(updated);
 
-    // Check completion
+    // Check if sentence is correct
     const isCorrect = updated.every((w, idx) => w?.id === idx);
-    console.log("🟩 is correct sentence:", isCorrect);
-
     if (isCorrect) {
-      console.log("🎉 sentence completed correctly");
       setCompleted(true);
       setShowTranslation(true);
+      if (onScore) onScore();
     }
   };
 
   const handleNext = () => {
-  console.log("➡️ Continue clicked!");
-
-  if (onComplete) {
-    onComplete();   // tell parent we're done
-  }
-};
+    if (currentIndex < exercises.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+    } else {
+      if (onComplete) onComplete();
+    }
+  };
 
   const handleSkip = () => {
-    console.log("⏭️ Skip clicked");
     handleNext();
   };
 
-
-  if (!sentence) {
-    console.log("❌ Error: no sentence found");
-    return <p>Error: Invalid sentence data</p>;
-  }
+  if (!sentence) return <p>Error: Invalid sentence data</p>;
 
   return (
     <div className="wordorder-card">
-      <h2 className="wordorder-title">{title}</h2>
+      <h2 className="wordorder-title">{quizTitle}</h2>
 
       {/* Word bank */}
       <div className="word-bank">
@@ -126,10 +95,7 @@ const item = data;
         {correctWords.map((_, idx) => {
           const placedWord = placedWords[idx];
           return (
-            <span
-              key={idx}
-              className={`word-slot ${placedWord ? "filled" : "blank"}`}
-            >
+            <span key={idx} className={`word-slot ${placedWord ? "filled" : "blank"}`}>
               {placedWord?.word || "____"}
             </span>
           );
@@ -140,9 +106,7 @@ const item = data;
       {completed && (
         <>
           <p className="completion-message">✅ Correct! 🎉</p>
-          {translation && (
-            <p className="translation-text">💬 {translation}</p>
-          )}
+          {showTranslation && translation && <p className="translation-text">💬 {translation}</p>}
           <button onClick={handleNext} className="next-button">
             Continue
           </button>
@@ -157,6 +121,4 @@ const item = data;
       )}
     </div>
   );
-};
-
-export default SentenceOrdering;
+}

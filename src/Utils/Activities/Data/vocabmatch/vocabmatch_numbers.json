@@ -1,15 +1,20 @@
 {
   "type": "vocabmatch",
-  "title": "Basic Food Words",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "alma",
-        "definition": "apple"
-      },
-      {
-        "term": "tej",
-        "definition": "milk"
+        "title": "Basic Food Words",
+        "items": [
+          {
+            "term": "alma",
+            "definition": "apple"
+          },
+          {
+            "term": "tej",
+            "definition": "milk"
+          }
+        ]
       }
     ]
   }

@@ -3,7 +3,6 @@
   "title": "grammarquiz_orderingdrinks",
   "data": {
     "quizTitle": "Ordering Drinks Quiz",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "Vigyél teát"
         ],
         "answer": "Szeretnék teát",
-        "translate": "Melyik udvariasabb a tea rendelésére?"
+        "translate": "Melyik udvariasabb a tea rendelésére?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "Kávé itt van"
         ],
         "answer": "Szeretnék kávét",
-        "translate": "Hogyan mondjuk azt, hogy 'Szeretnék egy kávét'?"
+        "translate": "Hogyan mondjuk azt, hogy 'Szeretnék egy kávét'?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "I drink water"
         ],
         "answer": "Please give me water",
-        "translate": "Fordítsd le: 'Kérek vizet'."
+        "translate": "Fordítsd le: 'Kérek vizet'.",
+        "image": "/Images/default.jpg"
       }
     ]
   }

@@ -1,23 +1,28 @@
 {
   "type": "vocabmatch",
-  "title": "Jövő Idő – Future Tense",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "fogok menni",
-        "definition": "I will go"
-      },
-      {
-        "term": "fogsz enni",
-        "definition": "you will eat"
-      },
-      {
-        "term": "fogunk látni",
-        "definition": "we will see"
-      },
-      {
-        "term": "fognak aludni",
-        "definition": "they will sleep"
+        "title": "Jövő Idő – Future Tense",
+        "items": [
+          {
+            "term": "fogok menni",
+            "definition": "I will go"
+          },
+          {
+            "term": "fogsz enni",
+            "definition": "you will eat"
+          },
+          {
+            "term": "fogunk látni",
+            "definition": "we will see"
+          },
+          {
+            "term": "fognak aludni",
+            "definition": "they will sleep"
+          }
+        ]
       }
     ]
   }

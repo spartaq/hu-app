@@ -1,23 +1,28 @@
 {
   "type": "vocabmatch",
-  "title": "Fokozás és Hasonlítás – Comparison",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "gyorsabb",
-        "definition": "faster"
-      },
-      {
-        "term": "legjobb",
-        "definition": "best"
-      },
-      {
-        "term": "magasabb",
-        "definition": "taller"
-      },
-      {
-        "term": "könnyebb",
-        "definition": "easier"
+        "title": "Fokozás és Hasonlítás – Comparison",
+        "items": [
+          {
+            "term": "gyorsabb",
+            "definition": "faster"
+          },
+          {
+            "term": "legjobb",
+            "definition": "best"
+          },
+          {
+            "term": "magasabb",
+            "definition": "taller"
+          },
+          {
+            "term": "könnyebb",
+            "definition": "easier"
+          }
+        ]
       }
     ]
   }

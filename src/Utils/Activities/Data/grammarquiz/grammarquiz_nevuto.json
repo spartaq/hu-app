@@ -3,7 +3,6 @@
   "title": "grammarquiz_nevuto",
   "data": {
     "quizTitle": "Postpositions Quiz",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "A parkhoz"
         ],
         "answer": "A parkban",
-        "translate": "Where is the shop?"
+        "translate": "Where is the shop?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "A templomon"
         ],
         "answer": "A templomba",
-        "translate": "Where are you going?"
+        "translate": "Where are you going?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "A múzeumhoz"
         ],
         "answer": "A múzeumból",
-        "translate": "Where are you coming from?"
+        "translate": "Where are you coming from?",
+        "image": "/Images/default.jpg"
       }
     ]
   }

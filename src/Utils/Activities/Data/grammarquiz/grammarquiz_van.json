@@ -3,7 +3,6 @@
   "title": "grammarquiz_van",
   "data": {
     "quizTitle": "Van Quiz",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "Egy könyv nincs"
         ],
         "answer": "Van egy könyv",
-        "translate": "There is a book"
+        "translate": "There is a book",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "Two cats are here"
         ],
         "answer": "There are two dogs",
-        "translate": "There are two dogs"
+        "translate": "There are two dogs",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "There is a wallet"
         ],
         "answer": "There is no money in the wallet",
-        "translate": "There is no money in the wallet"
+        "translate": "There is no money in the wallet",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "No cat here"
         ],
         "answer": "There is a cat in the living room",
-        "translate": "There is a cat in the living room"
+        "translate": "There is a cat in the living room",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -63,7 +66,8 @@
           "Table is broken"
         ],
         "answer": "There is a table in the kitchen",
-        "translate": "There is a table in the kitchen"
+        "translate": "There is a table in the kitchen",
+        "image": "/Images/default.jpg"
       }
     ]
   }

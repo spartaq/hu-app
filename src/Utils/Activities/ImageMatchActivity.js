@@ -1,52 +1,63 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../CSS/ImageMatchActivity.css";
 
-export default function ImageMatchActivity({ data, onComplete }) {
-  const {
-    quizTitle,
-    prompt,
-    promptImage,
-    translation,
-    audio,
-    mode = "word-to-image",
-    options = []
-  } = data || {};
+export default function ImageMatchActivity({ data = {}, onComplete }) {
+  // Expect data: { title, items: [{ id, prompt, promptImage, audio, translation, mode, options }] }
+  const items = data.items || [];
+  const title = data.title || "Image Match Exercise";
 
+  const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState(false);
 
+  const currentItem = items[index];
+
+  useEffect(() => {
+    // Reset selection when index changes
+    setSelected(null);
+    setCompleted(false);
+  }, [index]);
+
+  if (!currentItem) return <p>No items to display</p>;
+
   const handleSelect = (opt) => {
     if (selected) return;
-
     setSelected(opt);
     setCompleted(true);
   };
 
   const handleNext = () => {
-    if (onComplete) {
-      onComplete(selected?.isCorrect);
+    if (onComplete) onComplete(selected?.isCorrect);
+    if (index < items.length - 1) {
+      setIndex((i) => i + 1);
+    } else {
+      // End of exercise
+      setIndex(0); // optionally reset
     }
-    // reset selection for next exercise if component stays mounted
-    setSelected(null);
-    setCompleted(false);
   };
 
   const playAudio = () => {
-    if (audio) {
-      const sound = new Audio(audio);
+    if (currentItem.audio) {
+      const sound = new Audio(currentItem.audio);
       sound.play();
     }
   };
 
+  const {
+    prompt,
+    promptImage,
+    translation,
+    audio,
+    mode = "word-to-image",
+    options = [],
+  } = currentItem;
+
   return (
     <div className="image-match-container">
-
-      <h2 className="im-title">{quizTitle}</h2>
+      <h2 className="im-title">{title}</h2>
 
       <div className="im-prompt-box">
         <span className="im-prompt">{prompt}</span>
-
-        
       </div>
 
       {audio && (
@@ -60,8 +71,9 @@ export default function ImageMatchActivity({ data, onComplete }) {
           {options.map((opt) => (
             <div
               key={opt.id}
-              className={`im-option 
-                ${selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""}`}
+              className={`im-option ${
+                selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""
+              }`}
               onClick={() => handleSelect(opt)}
             >
               <img src={opt.image} alt="" className="im-image" />
@@ -75,8 +87,9 @@ export default function ImageMatchActivity({ data, onComplete }) {
             {options.map((opt) => (
               <div
                 key={opt.id}
-                className={`im-text-option
-                  ${selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""}`}
+                className={`im-text-option ${
+                  selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""
+                }`}
                 onClick={() => handleSelect(opt)}
               >
                 {opt.word}
@@ -86,15 +99,16 @@ export default function ImageMatchActivity({ data, onComplete }) {
         </div>
       )}
 
-      {/* 🔥 Feedback / Continue block */}
       {completed && (
         <div className="im-feedback">
           <p>{selected?.isCorrect ? "✅ Correct!" : "❌ Incorrect."}</p>
 
-          {/* Show solution + translation if correct */}
           {selected?.isCorrect && (
             <div className="im-solution">
-              <p><strong>Correct answer:</strong> {options.find(o => o.isCorrect)?.word}</p>
+              <p>
+                <strong>Correct answer:</strong>{" "}
+                {options.find((o) => o.isCorrect)?.word || "N/A"}
+              </p>
               {translation && <p><strong>Translation:</strong> {translation}</p>}
             </div>
           )}
@@ -104,7 +118,6 @@ export default function ImageMatchActivity({ data, onComplete }) {
           </button>
         </div>
       )}
-
     </div>
   );
 }

@@ -2,34 +2,36 @@
   "type": "audiowordmatch",
   "title": "audiowordmatch_basicphrases",
   "data": {
+    "audioFile": "/Audio/lesson1.mp3",   
     "items": [
       {
         "id": "aw2",
-        "audio": "/Audio/audiotest.mp3",
+        "start": 0,
+        "end": 2000,
         "text": "Jó reggelt",
         "translation": "Good morning"
       },
       {
         "id": "aw3",
-        "audio": "/Audio/audiotest.mp3",
+        "start": 2000,
+        "end": 4000,
         "text": "Jó estét",
         "translation": "Good evening"
       },
       {
         "id": "aw4",
-        "audio": "/Audio/audiotest.mp3",
-        "text": "Jo napot",
+        "start": 4000,
+        "end": 6000,
+        "text": "Jó napot",
         "translation": "Good day"
       },
       {
         "id": "aw5",
-        "audio": "/Audio/audiotest.mp3",
+        "start": 6000,
+        "end": 8000,
         "text": "Köszönöm",
-
         "translation": "Thank you"
-
       }
-
     ]
   }
 }

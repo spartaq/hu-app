@@ -12,8 +12,8 @@ const sections = [
   { label: "Vocabulary Match", type: "vocabmatch", subtype: "lenni" },  
   { label: "Exercises", type: "grammarquiz", subtype: "lenni" },
   { label: "Word Order", type: "ordering", subtype: "lenni" },
-  { label: "Reading", type: "reading", subtype: "nevem-bob" },
-  { label: "Video", type: "video", subtype: "spotify" },
+  { label: "Reading", type: "reading", subtype: "basicphrases" },
+  { label: "Video", type: "video", subtype: "basicphrases" },
   { label: "Lesson Complete", type: "lessoncomplete", subtype: "lenni" },
 ];
 

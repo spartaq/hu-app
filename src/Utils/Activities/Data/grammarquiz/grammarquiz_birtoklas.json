@@ -3,7 +3,6 @@
   "title": "grammarquiz_birtoklas",
   "data": {
     "quizTitle": "Birtoklás – Possessives Quiz",
-    "type": "quiz",
     "questions": [
       {
         "id": 11,
@@ -15,7 +14,8 @@
           "our mother"
         ],
         "answer": "my mother",
-        "translate": "my mother"
+        "translate": "my mother",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 12,
@@ -27,7 +27,8 @@
           "kabátunk"
         ],
         "answer": "kabátod",
-        "translate": "your coat"
+        "translate": "your coat",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 13,
@@ -39,7 +40,8 @@
           "barátotok"
         ],
         "answer": "barátja",
-        "translate": "his/her friend"
+        "translate": "his/her friend",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 1,
@@ -51,7 +53,8 @@
           "könyvünk"
         ],
         "answer": "könyvem",
-        "translate": "This is my book"
+        "translate": "This is my book",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -63,7 +66,8 @@
           "tolluk"
         ],
         "answer": "tollad",
-        "translate": "Where is your pen?"
+        "translate": "Where is your pen?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -75,7 +79,8 @@
           "házunk"
         ],
         "answer": "háza",
-        "translate": "This is his/her house"
+        "translate": "This is his/her house",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -87,7 +92,8 @@
           "autód"
         ],
         "answer": "autónk",
-        "translate": "Here is our car"
+        "translate": "Here is our car",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -99,7 +105,8 @@
           "kulcsát"
         ],
         "answer": "kulcsotokat",
-        "translate": "Where do you (plural) keep your keys?"
+        "translate": "Where do you (plural) keep your keys?",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 6,
@@ -111,7 +118,8 @@
           "macskám"
         ],
         "answer": "macskáik",
-        "translate": "Their cats are very friendly"
+        "translate": "Their cats are very friendly",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 7,
@@ -123,7 +131,8 @@
           "fiúnak"
         ],
         "answer": "fiú",
-        "translate": "I saw the boy's phone on the table"
+        "translate": "I saw the boy's phone on the table",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 8,
@@ -135,7 +144,8 @@
           "kabátunk"
         ],
         "answer": "kabátja",
-        "translate": "This isn’t my coat, it’s his/hers"
+        "translate": "This isn’t my coat, it’s his/hers",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 9,
@@ -147,7 +157,8 @@
           "enyém"
         ],
         "answer": "miénk",
-        "translate": "My friends' car is new, but ours is old"
+        "translate": "My friends' car is new, but ours is old",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 10,
@@ -159,7 +170,8 @@
           "székünk"
         ],
         "answer": "székem",
-        "translate": "This is not my chair, it's his/hers"
+        "translate": "This is not my chair, it's his/hers",
+        "image": "/Images/default.jpg"
       }
     ]
   }

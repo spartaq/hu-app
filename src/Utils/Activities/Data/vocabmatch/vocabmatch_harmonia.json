@@ -1,23 +1,28 @@
 {
   "type": "vocabmatch",
-  "title": "Magánhangzó-harmónia – Vowel Harmony",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "a házban",
-        "definition": "in the house"
-      },
-      {
-        "term": "a könyvben",
-        "definition": "in the book"
-      },
-      {
-        "term": "a táskádon",
-        "definition": "on your bag"
-      },
-      {
-        "term": "a füzetbe",
-        "definition": "into the notebook"
+        "title": "Magánhangzó-harmónia – Vowel Harmony",
+        "items": [
+          {
+            "term": "a házban",
+            "definition": "in the house"
+          },
+          {
+            "term": "a könyvben",
+            "definition": "in the book"
+          },
+          {
+            "term": "a táskádon",
+            "definition": "on your bag"
+          },
+          {
+            "term": "a füzetbe",
+            "definition": "into the notebook"
+          }
+        ]
       }
     ]
   }

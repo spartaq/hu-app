@@ -1,35 +1,40 @@
 {
   "type": "vocabmatch",
-  "title": "nevuto",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "itt",
-        "definition": "here"
-      },
-      {
-        "term": "ott",
-        "definition": "there"
-      },
-      {
-        "term": "közel",
-        "definition": "near"
-      },
-      {
-        "term": "távol",
-        "definition": "far"
-      },
-      {
-        "term": "bolt",
-        "definition": "shop"
-      },
-      {
-        "term": "park",
-        "definition": "park"
-      },
-      {
-        "term": "templom",
-        "definition": "church"
+        "title": "nevuto",
+        "items": [
+          {
+            "term": "itt",
+            "definition": "here"
+          },
+          {
+            "term": "ott",
+            "definition": "there"
+          },
+          {
+            "term": "közel",
+            "definition": "near"
+          },
+          {
+            "term": "távol",
+            "definition": "far"
+          },
+          {
+            "term": "bolt",
+            "definition": "shop"
+          },
+          {
+            "term": "park",
+            "definition": "park"
+          },
+          {
+            "term": "templom",
+            "definition": "church"
+          }
+        ]
       }
     ]
   }

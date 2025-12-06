@@ -3,7 +3,6 @@
   "title": "grammarquiz_nekivan",
   "data": {
     "quizTitle": "Birtoklás – Van + Neki/Neked (személyjelöléssel)",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "Nekik van"
         ],
         "answer": "Neki van",
-        "translate": "He/She has a new apartment."
+        "translate": "He/She has a new apartment.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "Nektek van"
         ],
         "answer": "Neked van",
-        "translate": "You have two siblings."
+        "translate": "You have two siblings.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "Nekem van"
         ],
         "answer": "Nekünk van",
-        "translate": "We have our own room."
+        "translate": "We have our own room.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "Neked van"
         ],
         "answer": "Nekik van",
-        "translate": "They have a nice garden."
+        "translate": "They have a nice garden.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -63,7 +66,8 @@
           "Nekünk van"
         ],
         "answer": "Nekem van",
-        "translate": "I have a red bicycle."
+        "translate": "I have a red bicycle.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 6,
@@ -75,7 +79,8 @@
           "Nekünk van"
         ],
         "answer": "Nektek van",
-        "translate": "You (plural) have two dogs."
+        "translate": "You (plural) have two dogs.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 7,
@@ -87,7 +92,8 @@
           "Nektek van"
         ],
         "answer": "Neked van",
-        "translate": "You have a new computer."
+        "translate": "You have a new computer.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 8,
@@ -99,7 +105,8 @@
           "Neked van"
         ],
         "answer": "Nekem van",
-        "translate": "I have a ticket to the concert."
+        "translate": "I have a ticket to the concert.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 9,
@@ -111,7 +118,8 @@
           "Nekünk van"
         ],
         "answer": "Nekik van",
-        "translate": "They have the key to the house."
+        "translate": "They have the key to the house.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 10,
@@ -123,7 +131,8 @@
           "Nekik van"
         ],
         "answer": "Nektek van",
-        "translate": "You (plural) have a good idea."
+        "translate": "You (plural) have a good idea.",
+        "image": "/Images/default.jpg"
       }
     ]
   }

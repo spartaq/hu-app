@@ -2,41 +2,72 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import "../../CSS/AudioWordMatchActivity.css";
 import shuffle from "../shuffle";
 
-const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle = false, onProgress }) => {
+const AudioWordMatchActivity = ({ data = {}, onComplete, showTranslationToggle = false }) => {
+  // Canonical items array
+  const items = useMemo(() => data.items || [], [data]);
+
+  // State
   const [selectedAudio, setSelectedAudio] = useState(null);
   const [selectedText, setSelectedText] = useState(null);
   const [matchedIds, setMatchedIds] = useState([]);
   const [completed, setCompleted] = useState(false);
   const [showTranslation, setShowTranslation] = useState(false);
 
-  // Shuffle once on mount
-  const audioCards = useMemo(() => {
-    if (!Array.isArray(data)) return [];
-    return shuffle([...data]);
-  }, [data]);
-  const textCards = useMemo(() => {
-    if (!Array.isArray(data)) return [];
-    return shuffle([...data]);
-  }, [data]);
+  // Shuffled cards
+  const audioCards = useMemo(() => shuffle([...items]), [items]);
+  const textCards = useMemo(() => shuffle([...items]), [items]);
 
-  // Reset state when data changes
+  // Reset when items change
   useEffect(() => {
     setSelectedAudio(null);
     setSelectedText(null);
     setMatchedIds([]);
     setCompleted(false);
     setShowTranslation(false);
-  }, [data]);
+  }, [items]);
 
-  // Handle audio play
+  // Audio refs to avoid reloads
   const audioRefs = useRef({});
 
-  const playAudio = (id, src) => {
-    if (!audioRefs.current[id]) {
-      audioRefs.current[id] = new Audio(src);
+  // Play raw audio
+  const playRawAudio = (id, src) => {
+    if (!src) return;
+    if (!audioRefs.current[id]) audioRefs.current[id] = new Audio(src);
+    const audio = audioRefs.current[id];
+    audio.currentTime = 0;
+    audio.play();
+  };
+
+  // Play segment from lesson-level audio
+  const playSegment = (id, audioFile, start, end) => {
+    if (!audioFile || start == null || end == null) return;
+    if (!audioRefs.current[id]) audioRefs.current[id] = new Audio(audioFile);
+    const audio = audioRefs.current[id];
+    audio.currentTime = start;
+    audio.play();
+
+    const onTimeUpdate = () => {
+      if (audio.currentTime >= end) {
+        audio.pause();
+        audio.removeEventListener("timeupdate", onTimeUpdate);
+      }
+    };
+    audio.addEventListener("timeupdate", onTimeUpdate);
+  };
+
+  // Unified play function
+  const playAudio = (item) => {
+    if (!item) return;
+
+    const { id, audio, start, end } = item;
+
+    if (audio) {
+      playRawAudio(id, audio);
+    } else if (data.audioFile && start != null && end != null) {
+      playSegment(id, data.audioFile, start, end);
+    } else {
+      console.warn("No audio provided for item:", item);
     }
-    audioRefs.current[id].currentTime = 0;
-    audioRefs.current[id].play();
   };
 
   // Matching logic
@@ -44,30 +75,31 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
     if (!selectedAudio || !selectedText) return;
 
     if (selectedAudio.id === selectedText.id) {
-      // correct match
-      setMatchedIds((prev) => [...prev, selectedAudio.id]);
+      setMatchedIds((prev) => {
+        const next = [...prev, selectedAudio.id];
+
+        if (next.length === items.length) {
+          setCompleted(true);
+          if (onComplete) onComplete(true);
+        }
+
+        return next;
+      });
+
       setSelectedAudio(null);
       setSelectedText(null);
-
-      if (Array.isArray(data) && matchedIds.length + 1 === data.length) {
-        setCompleted(true);
-        if (onComplete) onComplete(true);
-      }
-    } else {
-      // wrong match (flash + reset text selection)
-      setSelectedText("wrong");
-      setTimeout(() => setSelectedText(null), 500);
+      return;
     }
-  }, [selectedAudio, selectedText, matchedIds, data.length, onComplete]);
 
-  // Update progress
-  useEffect(() => {
-    if (onProgress && Array.isArray(data)) onProgress(matchedIds.length / data.length);
-  }, [matchedIds, data, onProgress]);
+    // Wrong match feedback
+    setSelectedText("wrong");
+    const timeout = setTimeout(() => setSelectedText(null), 500);
+    return () => clearTimeout(timeout);
+  }, [selectedAudio, selectedText, items.length, onComplete]);
 
   return (
     <div className="audiowordmatch__container">
-      <h2 className="audiowordmatch__title">Match the Audio to the Word</h2>
+      <h2 className="audiowordmatch__title">{data.title || "Match the Audio to the Word"}</h2>
 
       {showTranslationToggle && (
         <button
@@ -82,7 +114,6 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
         {/* AUDIO SIDE */}
         <div className="audiowordmatch__column">
           <h3>🎧 Listen</h3>
-
           {audioCards.map((item) => {
             const isMatched = matchedIds.includes(item.id);
             const isSelected = selectedAudio?.id === item.id;
@@ -90,13 +121,16 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
             return (
               <button
                 key={item.id}
-                className={`audiowordmatch__audio-card 
-                  ${isMatched ? "matched" : ""}
-                  ${isSelected ? "selected" : ""}
-                `}
+                className={[
+                  "audiowordmatch__audio-card",
+                  isMatched && "matched",
+                  isSelected && "selected",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
                 onClick={() => {
                   if (isMatched) return;
-                  playAudio(item.id, item.audio);
+                  playAudio(item);
                   setSelectedAudio(item);
                 }}
               >
@@ -109,19 +143,22 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
         {/* TEXT SIDE */}
         <div className="audiowordmatch__column">
           <h3>🔤 Words</h3>
-
           {textCards.map((item) => {
             const isMatched = matchedIds.includes(item.id);
+            const isSelected = selectedText?.id === item.id;
             const isWrong = selectedText === "wrong";
 
             return (
               <button
                 key={item.id}
-                className={`audiowordmatch__text-card 
-                  ${isMatched ? "matched" : ""}
-                  ${selectedText?.id === item.id ? "selected" : ""}
-                  ${isWrong ? "wrong" : ""}
-                `}
+                className={[
+                  "audiowordmatch__text-card",
+                  isMatched && "matched",
+                  isSelected && "selected",
+                  isWrong && "wrong",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
                 onClick={() => {
                   if (isMatched) return;
                   setSelectedText(item);

@@ -3,7 +3,6 @@
   "title": "grammarquiz_harmonia",
   "data": {
     "quizTitle": "Magánhangzó-harmónia – Determiners + Words",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -13,7 +12,8 @@
           "ben"
         ],
         "answer": "ban",
-        "translate": "in the house"
+        "translate": "in the house",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -23,7 +23,8 @@
           "ban"
         ],
         "answer": "ben",
-        "translate": "in the field"
+        "translate": "in the field",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -33,7 +34,8 @@
           "ben"
         ],
         "answer": "ban",
-        "translate": "in the tree / inside the wood"
+        "translate": "in the tree / inside the wood",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -43,7 +45,8 @@
           "ban"
         ],
         "answer": "ben",
-        "translate": "in the garden"
+        "translate": "in the garden",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 5,
@@ -53,7 +56,8 @@
           "ben"
         ],
         "answer": "ban",
-        "translate": "in the car"
+        "translate": "in the car",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 6,
@@ -63,7 +67,8 @@
           "ban"
         ],
         "answer": "ben",
-        "translate": "in the sea"
+        "translate": "in the sea",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 7,
@@ -73,7 +78,8 @@
           "ben"
         ],
         "answer": "ban",
-        "translate": "in the room"
+        "translate": "in the room",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 8,
@@ -83,7 +89,8 @@
           "ban"
         ],
         "answer": "ben",
-        "translate": "in the notebook"
+        "translate": "in the notebook",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 9,
@@ -93,7 +100,8 @@
           "ben"
         ],
         "answer": "ban",
-        "translate": "in the city"
+        "translate": "in the city",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 10,
@@ -103,7 +111,8 @@
           "ben"
         ],
         "answer": "ban",
-        "translate": "in the church"
+        "translate": "in the church",
+        "image": "/Images/default.jpg"
       }
     ]
   }

@@ -1,115 +1,120 @@
 {
   "type": "vocabmatch",
-  "title": "jelenindef",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "felkelek",
-        "definition": "I get up"
-      },
-      {
-        "term": "csinál",
-        "definition": "do/make"
-      },
-      {
-        "term": "tanul",
-        "definition": "study"
-      },
-      {
-        "term": "dolgozik",
-        "definition": "work"
-      },
-      {
-        "term": "fut",
-        "definition": "run"
-      },
-      {
-        "term": "olvas",
-        "definition": "read"
-      },
-      {
-        "term": "alszik",
-        "definition": "sleep"
-      },
-      {
-        "term": "sétál",
-        "definition": "walk"
-      },
-      {
-        "term": "úszik",
-        "definition": "swim"
-      },
-      {
-        "term": "beszél",
-        "definition": "speak"
-      },
-      {
-        "term": "reggel",
-        "definition": "morning"
-      },
-      {
-        "term": "este",
-        "definition": "evening"
-      },
-      {
-        "term": "éjjel",
-        "definition": "at night"
-      },
-      {
-        "term": "délután",
-        "definition": "afternoon"
-      },
-      {
-        "term": "délelőtt",
-        "definition": "late morning"
-      },
-      {
-        "term": "délben",
-        "definition": "at noon"
-      },
-      {
-        "term": "nap",
-        "definition": "day"
-      },
-      {
-        "term": "hét",
-        "definition": "week"
-      },
-      {
-        "term": "minden",
-        "definition": "every"
-      },
-      {
-        "term": "barátom",
-        "definition": "my friend"
-      },
-      {
-        "term": "haza",
-        "definition": "home"
-      },
-      {
-        "term": "iskolába",
-        "definition": "to school"
-      },
-      {
-        "term": "irodában",
-        "definition": "in the office"
-      },
-      {
-        "term": "szobámban",
-        "definition": "in my room"
-      },
-      {
-        "term": "takarít",
-        "definition": "clean"
-      },
-      {
-        "term": "mos",
-        "definition": "wash"
-      },
-      {
-        "term": "kel",
-        "definition": "rise/get up"
+        "title": "jelenindef",
+        "items": [
+          {
+            "term": "felkelek",
+            "definition": "I get up"
+          },
+          {
+            "term": "csinál",
+            "definition": "do/make"
+          },
+          {
+            "term": "tanul",
+            "definition": "study"
+          },
+          {
+            "term": "dolgozik",
+            "definition": "work"
+          },
+          {
+            "term": "fut",
+            "definition": "run"
+          },
+          {
+            "term": "olvas",
+            "definition": "read"
+          },
+          {
+            "term": "alszik",
+            "definition": "sleep"
+          },
+          {
+            "term": "sétál",
+            "definition": "walk"
+          },
+          {
+            "term": "úszik",
+            "definition": "swim"
+          },
+          {
+            "term": "beszél",
+            "definition": "speak"
+          },
+          {
+            "term": "reggel",
+            "definition": "morning"
+          },
+          {
+            "term": "este",
+            "definition": "evening"
+          },
+          {
+            "term": "éjjel",
+            "definition": "at night"
+          },
+          {
+            "term": "délután",
+            "definition": "afternoon"
+          },
+          {
+            "term": "délelőtt",
+            "definition": "late morning"
+          },
+          {
+            "term": "délben",
+            "definition": "at noon"
+          },
+          {
+            "term": "nap",
+            "definition": "day"
+          },
+          {
+            "term": "hét",
+            "definition": "week"
+          },
+          {
+            "term": "minden",
+            "definition": "every"
+          },
+          {
+            "term": "barátom",
+            "definition": "my friend"
+          },
+          {
+            "term": "haza",
+            "definition": "home"
+          },
+          {
+            "term": "iskolába",
+            "definition": "to school"
+          },
+          {
+            "term": "irodában",
+            "definition": "in the office"
+          },
+          {
+            "term": "szobámban",
+            "definition": "in my room"
+          },
+          {
+            "term": "takarít",
+            "definition": "clean"
+          },
+          {
+            "term": "mos",
+            "definition": "wash"
+          },
+          {
+            "term": "kel",
+            "definition": "rise/get up"
+          }
+        ]
       }
     ]
   }

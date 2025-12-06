@@ -1,31 +1,36 @@
 {
   "type": "vocabmatch",
-  "title": "Névmások – Pronouns",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "én",
-        "definition": "I"
-      },
-      {
-        "term": "te",
-        "definition": "you (singular)"
-      },
-      {
-        "term": "ő",
-        "definition": "he/she/it"
-      },
-      {
-        "term": "mi",
-        "definition": "we"
-      },
-      {
-        "term": "ti",
-        "definition": "you (plural)"
-      },
-      {
-        "term": "ők",
-        "definition": "they"
+        "title": "Névmások – Pronouns",
+        "items": [
+          {
+            "term": "én",
+            "definition": "I"
+          },
+          {
+            "term": "te",
+            "definition": "you (singular)"
+          },
+          {
+            "term": "ő",
+            "definition": "he/she/it"
+          },
+          {
+            "term": "mi",
+            "definition": "we"
+          },
+          {
+            "term": "ti",
+            "definition": "you (plural)"
+          },
+          {
+            "term": "ők",
+            "definition": "they"
+          }
+        ]
       }
     ]
   }

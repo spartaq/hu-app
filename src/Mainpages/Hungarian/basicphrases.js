@@ -6,14 +6,15 @@ import mainimage from '../../Images/jelenido1.jpg';
 const sections = [
   { label: "Dialogue", type: "dialogue", subtype: "basicphrases" },
   { label: "Image Match", type: "imagematch", subtype: "basicphrases" },
-  { label: "Explanation", type: "grammarexplanation", subtype: "basicphrases" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "basicphrases" },
-  { label: "Vocab", type: "vocabmatch", subtype: "basicphrases" },
-  { label: "Audio Match", type: "audiowordmatch", subtype: "basicphrases" },
-  { label: "Exercises", type: "grammarquiz", subtype: "basicphrases" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "basicphrases" },
   { label: "Word Order", type: "ordering", subtype: "basicphrases" },
-  { label: "Reading", type: "reading", subtype: "nevem-bob" },
-  { label: "Video", type: "video", subtype: "videos" },
+  { label: "Audio Match", type: "audiowordmatch", subtype: "basicphrases" },
+  { label: "Vocab", type: "vocabmatch", subtype: "basicphrases" },
+  { label: "Say It", type: "sayaloud", subtype: "basicphrases" },
+  { label: "Exercises", type: "grammarquiz", subtype: "basicphrases" },
+  { label: "Reading", type: "reading", subtype: "basicphrases" },
+  { label: "Video", type: "video", subtype: "basicphrases" },
   { label: "Lesson Complete", type: "lessoncomplete", subtype: "basicphrases" },
 ];
 

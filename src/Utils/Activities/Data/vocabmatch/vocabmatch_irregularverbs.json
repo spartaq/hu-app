@@ -1,83 +1,88 @@
 {
   "type": "vocabmatch",
-  "title": "Irregular Verbs – Hobbies & Free Time",
+  "title": "Match the words",
   "data": {
     "items": [
       {
-        "term": "lesz",
-        "definition": "will be"
-      },
-      {
-        "term": "tesz",
-        "definition": "does/makes"
-      },
-      {
-        "term": "vesz",
-        "definition": "takes/buys"
-      },
-      {
-        "term": "hisz",
-        "definition": "believes"
-      },
-      {
-        "term": "visz",
-        "definition": "carries/takes"
-      },
-      {
-        "term": "eszik",
-        "definition": "eats"
-      },
-      {
-        "term": "iszik",
-        "definition": "drinks"
-      },
-      {
-        "term": "megy",
-        "definition": "goes"
-      },
-      {
-        "term": "jön",
-        "definition": "comes"
-      },
-      {
-        "term": "játszik",
-        "definition": "plays"
-      },
-      {
-        "term": "vacsorázik",
-        "definition": "has dinner"
-      },
-      {
-        "term": "olvas",
-        "definition": "reads"
-      },
-      {
-        "term": "fut",
-        "definition": "runs"
-      },
-      {
-        "term": "úszik",
-        "definition": "swims"
-      },
-      {
-        "term": "táncol",
-        "definition": "dances"
-      },
-      {
-        "term": "zenél",
-        "definition": "plays music"
-      },
-      {
-        "term": "fest",
-        "definition": "paints"
-      },
-      {
-        "term": "sétál",
-        "definition": "walks"
-      },
-      {
-        "term": "biciklizik",
-        "definition": "cycles"
+        "title": "Irregular Verbs – Hobbies & Free Time",
+        "items": [
+          {
+            "term": "lesz",
+            "definition": "will be"
+          },
+          {
+            "term": "tesz",
+            "definition": "does/makes"
+          },
+          {
+            "term": "vesz",
+            "definition": "takes/buys"
+          },
+          {
+            "term": "hisz",
+            "definition": "believes"
+          },
+          {
+            "term": "visz",
+            "definition": "carries/takes"
+          },
+          {
+            "term": "eszik",
+            "definition": "eats"
+          },
+          {
+            "term": "iszik",
+            "definition": "drinks"
+          },
+          {
+            "term": "megy",
+            "definition": "goes"
+          },
+          {
+            "term": "jön",
+            "definition": "comes"
+          },
+          {
+            "term": "játszik",
+            "definition": "plays"
+          },
+          {
+            "term": "vacsorázik",
+            "definition": "has dinner"
+          },
+          {
+            "term": "olvas",
+            "definition": "reads"
+          },
+          {
+            "term": "fut",
+            "definition": "runs"
+          },
+          {
+            "term": "úszik",
+            "definition": "swims"
+          },
+          {
+            "term": "táncol",
+            "definition": "dances"
+          },
+          {
+            "term": "zenél",
+            "definition": "plays music"
+          },
+          {
+            "term": "fest",
+            "definition": "paints"
+          },
+          {
+            "term": "sétál",
+            "definition": "walks"
+          },
+          {
+            "term": "biciklizik",
+            "definition": "cycles"
+          }
+        ]
       }
     ]
   }

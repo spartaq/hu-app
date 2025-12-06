@@ -3,7 +3,6 @@
   "title": "grammarquiz_basicquestions",
   "data": {
     "quizTitle": "Kérdőszavak – Question Words",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "hogyan"
         ],
         "answer": "mikor",
-        "translate": "mikor – when"
+        "translate": "mikor – when",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "mikor"
         ],
         "answer": "hol",
-        "translate": "hol – where"
+        "translate": "hol – where",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "merre"
         ],
         "answer": "miért",
-        "translate": "miért – why"
+        "translate": "miért – why",
+        "image": "/Images/default.jpg"
       }
     ]
   }

@@ -11,10 +11,12 @@ const VideoActivity = ({ data }) => {
   const [showVocab, setShowVocab] = useState(false);
   const [tooltippedTranscript, setTooltippedTranscript] = useState("");
 
+  // Initialize answer state
   useEffect(() => {
     if (data?.questions?.length) setAnswers(Array(data.questions.length).fill(''));
   }, [data]);
 
+  // Process transcript with tooltips
   useEffect(() => {
     if (data?.transcript && showTranscript) {
       const transcriptText = Array.isArray(data.transcript) ? data.transcript.join(' ') : data.transcript;
@@ -41,18 +43,16 @@ const VideoActivity = ({ data }) => {
 
   return (
     <div className="video-activity-card">
-      <h2 className="video-title">{data?.title || 'Video Activity'}</h2>
+      <h2 className="video-title">{data?.title}</h2>
       <div className="video-meta">
-        <span>Topic: {data?.topic}</span>
-        <span>Level: {data?.level}</span>
+        {data?.topic && <span>Topic: {data.topic}</span>}
+        {data?.level && <span>Level: {data.level}</span>}
       </div>
 
-      {/* Video Player */}
       <div className="video-player">
         <YouTubeVideos videoId={data.videoId} />
       </div>
 
-      {/* Controls */}
       <div className="video-controls">
         <button className="checkbtn" onClick={() => setShowTranscript(prev => !prev)}>
           Transcript <FaAngleDown className={`toggle-icon ${showTranscript ? 'open' : ''}`} />
@@ -62,7 +62,6 @@ const VideoActivity = ({ data }) => {
         </button>
       </div>
 
-      {/* Transcript */}
       {showTranscript && (
         <div className="overlay" onClick={() => setShowTranscript(false)}>
           <div className="overlay-content" onClick={e => e.stopPropagation()}>
@@ -71,21 +70,18 @@ const VideoActivity = ({ data }) => {
         </div>
       )}
 
-      {/* Vocabulary */}
       {showVocab && (
         <div className="overlay" onClick={() => setShowVocab(false)}>
           <div className="overlay-content" onClick={e => e.stopPropagation()}>
             <ul className="vocab-list">
-              {data.vocabulary?.map((item, idx) => {
-                const [word, translation] = item.includes(' - ') ? item.split(' - ') : [item, ''];
-                return <li key={idx}><strong>{word}</strong> - {translation}</li>;
-              })}
+              {data.vocabulary?.map((item, idx) => (
+                <li key={idx}><strong>{item.hun}</strong> - {item.eng}</li>
+              ))}
             </ul>
           </div>
         </div>
       )}
 
-      {/* Questions */}
       <form className="video-questions-form" onSubmit={handleSubmit}>
         {data.questions?.map((q, qIdx) => (
           <div key={qIdx} className="question-block">

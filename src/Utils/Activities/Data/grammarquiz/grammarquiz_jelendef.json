@@ -3,7 +3,6 @@
   "title": "grammarquiz_jelendef",
   "data": {
     "quizTitle": "Definite Conjugation + Accusative",
-    "type": "quiz",
     "questions": [
       {
         "id": 1,
@@ -15,7 +14,8 @@
           "Látok filmet."
         ],
         "answer": "Látom a filmet.",
-        "translate": "I see the film."
+        "translate": "I see the film.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 2,
@@ -27,7 +27,8 @@
           "Hallanak"
         ],
         "answer": "Hallom",
-        "translate": "Hallom – I hear it."
+        "translate": "Hallom – I hear it.",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 3,
@@ -39,7 +40,8 @@
           "kulcsút"
         ],
         "answer": "kulcsot",
-        "translate": "kulcs → kulcsot"
+        "translate": "kulcs → kulcsot",
+        "image": "/Images/default.jpg"
       },
       {
         "id": 4,
@@ -51,7 +53,8 @@
           "Olvas az újságot."
         ],
         "answer": "Olvasom az újságot.",
-        "translate": "I'm reading the newspaper."
+        "translate": "I'm reading the newspaper.",
+        "image": "/Images/default.jpg"
       }
     ]
   }
