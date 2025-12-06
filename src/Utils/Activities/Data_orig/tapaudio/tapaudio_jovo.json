@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fut1",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Holnap", "fogok", "tanulni", "."],
+    "options": ["Holnap", "fogok", "tanulni", ".", "tanulok", "fog", "tanul"],
+    "translation": "I will study tomorrow."
+  },
+  {
+    "id": "fut2",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Péter", "fog", "venni", "egy", "új", "autót", "."],
+    "options": ["Péter", "fog", "venni", "egy", "új", "autót", ".", "vesz", "venni fog"],
+    "translation": "Péter will buy a new car."
+  },
+  {
+    "id": "fut3",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Mi", "fogunk", "menni", "a", "moziba", "."],
+    "options": ["Mi", "fogunk", "menni", "a", "moziba", ".", "megyünk", "menni fogunk"],
+    "translation": "We will go to the cinema."
+  },
+  {
+    "id": "fut4",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Ők", "fogják", "elolvasni", "a", "könyvet", "."],
+    "options": ["Ők", "fogják", "elolvasni", "a", "könyvet", ".", "olvassák", "olvasni fogják"],
+    "translation": "They will read the book."
+  },
+  {
+    "id": "fut5",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Te", "fogsz", "segíteni", "nekem", "holnap", "."],
+    "options": ["Te", "fogsz", "segíteni", "nekem", "holnap", ".", "segítesz", "fog segíteni"],
+    "translation": "You will help me tomorrow."
+  }
+]

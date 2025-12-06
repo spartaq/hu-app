@@ -1,11 +1,24 @@
 {
-  "quizTitle": "Neki van / nincs – Possession",
-  "type": "vocab",
-  "topic": "nekivan",
-  "pairs": [
-    { "term": "van neki", "definition": "he/she has" },
-    { "term": "nincs neki", "definition": "he/she doesn’t have" },
-    { "term": "volt neki", "definition": "he/she had" },
-    { "term": "nem volt neki", "definition": "he/she didn’t have" }
-  ]
+  "type": "vocabmatch",
+  "title": "Neki van / nincs – Possession",
+  "data": {
+    "items": [
+      {
+        "term": "van neki",
+        "definition": "he/she has"
+      },
+      {
+        "term": "nincs neki",
+        "definition": "he/she doesn’t have"
+      },
+      {
+        "term": "volt neki",
+        "definition": "he/she had"
+      },
+      {
+        "term": "nem volt neki",
+        "definition": "he/she didn’t have"
+      }
+    ]
+  }
 }

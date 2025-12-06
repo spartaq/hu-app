@@ -10,8 +10,14 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
   const [showTranslation, setShowTranslation] = useState(false);
 
   // Shuffle once on mount
-  const audioCards = useMemo(() => shuffle([...data]), [data]);
-  const textCards = useMemo(() => shuffle([...data]), [data]);
+  const audioCards = useMemo(() => {
+    if (!Array.isArray(data)) return [];
+    return shuffle([...data]);
+  }, [data]);
+  const textCards = useMemo(() => {
+    if (!Array.isArray(data)) return [];
+    return shuffle([...data]);
+  }, [data]);
 
   // Reset state when data changes
   useEffect(() => {
@@ -43,7 +49,7 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
       setSelectedAudio(null);
       setSelectedText(null);
 
-      if (matchedIds.length + 1 === data.length) {
+      if (Array.isArray(data) && matchedIds.length + 1 === data.length) {
         setCompleted(true);
         if (onComplete) onComplete(true);
       }
@@ -56,8 +62,8 @@ const AudioWordMatchActivity = ({ data = [], onComplete, showTranslationToggle =
 
   // Update progress
   useEffect(() => {
-    if (onProgress) onProgress(matchedIds.length / data.length);
-  }, [matchedIds, data.length, onProgress]);
+    if (onProgress && Array.isArray(data)) onProgress(matchedIds.length / data.length);
+  }, [matchedIds, data, onProgress]);
 
   return (
     <div className="audiowordmatch__container">

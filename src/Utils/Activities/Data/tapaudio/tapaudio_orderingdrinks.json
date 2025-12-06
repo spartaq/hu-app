@@ -1,66 +1,179 @@
-[
-  {
-    "id": "orderingdrinks-1",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szeretnék", "egy", "kávét", ",", "kérem", "."],
-    "options": ["Szeretnék", "egy", "kávét", ",", "kérem", ".", "vizet", "teát"],
-    "translation": "I would like a coffee, please."
-  },
-  {
-    "id": "orderingdrinks-2",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Kérek", "vizet", "."],
-    "options": ["Kérek", "vizet", ".", "teát", "kávét", "kérem"],
-    "translation": "Please give me water."
-  },
-  {
-    "id": "orderingdrinks-3",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szeretnék", "teát", "."],
-    "options": ["Szeretnék", "teát", ".", "kávét", "vizet"],
-    "translation": "I would like tea."
-  },
-  {
-    "id": "orderingdrinks-4",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Egy", "gyümölcslét", "kérek", "," , "kérem", "."],
-    "options": ["Egy", "gyümölcslét", "kérek", ",", "kérem", ".", "vizet", "kávét"],
-    "translation": "I would like a juice, please."
-  },
-  {
-    "id": "orderingdrinks-5",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Kérnék", "egy", "sört", "."],
-    "options": ["Kérnék", "egy", "sört", ".", "teát", "vizet"],
-    "translation": "I would like a beer."
-  },
-  {
-    "id": "orderingdrinks-6",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szeretnék", "egy", "forró", "csokoládét", "."],
-    "options": ["Szeretnék", "egy", "forró", "csokoládét", ".", "kávét", "teát"],
-    "translation": "I would like a hot chocolate."
-  },
-  {
-    "id": "orderingdrinks-7",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Egy", "ásványvizet", "kérek", "," , "kérem", "."],
-    "options": ["Egy", "ásványvizet", "kérek", ",", "kérem", ".", "teát", "kávét"],
-    "translation": "I would like a mineral water, please."
-  },
-  {
-    "id": "orderingdrinks-8",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szeretnék", "egy", "limonádét", "."],
-    "options": ["Szeretnék", "egy", "limonádét", ".", "sört", "gyümölcslét"],
-    "translation": "I would like a lemonade."
+{
+  "type": "tapaudio",
+  "title": "tapaudio_orderingdrinks",
+  "data": {
+    "items": [
+      {
+        "id": "orderingdrinks-1",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Szeretnék",
+          "egy",
+          "kávét",
+          ",",
+          "kérem",
+          "."
+        ],
+        "options": [
+          "Szeretnék",
+          "egy",
+          "kávét",
+          ",",
+          "kérem",
+          ".",
+          "vizet",
+          "teát"
+        ],
+        "translation": "I would like a coffee, please."
+      },
+      {
+        "id": "orderingdrinks-2",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Kérek",
+          "vizet",
+          "."
+        ],
+        "options": [
+          "Kérek",
+          "vizet",
+          ".",
+          "teát",
+          "kávét",
+          "kérem"
+        ],
+        "translation": "Please give me water."
+      },
+      {
+        "id": "orderingdrinks-3",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Szeretnék",
+          "teát",
+          "."
+        ],
+        "options": [
+          "Szeretnék",
+          "teát",
+          ".",
+          "kávét",
+          "vizet"
+        ],
+        "translation": "I would like tea."
+      },
+      {
+        "id": "orderingdrinks-4",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Egy",
+          "gyümölcslét",
+          "kérek",
+          ",",
+          "kérem",
+          "."
+        ],
+        "options": [
+          "Egy",
+          "gyümölcslét",
+          "kérek",
+          ",",
+          "kérem",
+          ".",
+          "vizet",
+          "kávét"
+        ],
+        "translation": "I would like a juice, please."
+      },
+      {
+        "id": "orderingdrinks-5",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Kérnék",
+          "egy",
+          "sört",
+          "."
+        ],
+        "options": [
+          "Kérnék",
+          "egy",
+          "sört",
+          ".",
+          "teát",
+          "vizet"
+        ],
+        "translation": "I would like a beer."
+      },
+      {
+        "id": "orderingdrinks-6",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Szeretnék",
+          "egy",
+          "forró",
+          "csokoládét",
+          "."
+        ],
+        "options": [
+          "Szeretnék",
+          "egy",
+          "forró",
+          "csokoládét",
+          ".",
+          "kávét",
+          "teát"
+        ],
+        "translation": "I would like a hot chocolate."
+      },
+      {
+        "id": "orderingdrinks-7",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Egy",
+          "ásványvizet",
+          "kérek",
+          ",",
+          "kérem",
+          "."
+        ],
+        "options": [
+          "Egy",
+          "ásványvizet",
+          "kérek",
+          ",",
+          "kérem",
+          ".",
+          "teát",
+          "kávét"
+        ],
+        "translation": "I would like a mineral water, please."
+      },
+      {
+        "id": "orderingdrinks-8",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Szeretnék",
+          "egy",
+          "limonádét",
+          "."
+        ],
+        "options": [
+          "Szeretnék",
+          "egy",
+          "limonádét",
+          ".",
+          "sört",
+          "gyümölcslét"
+        ],
+        "translation": "I would like a lemonade."
+      }
+    ]
   }
-]
+}

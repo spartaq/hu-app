@@ -1,67 +1,70 @@
 {
-  "type": "explanation",
+  "type": "grammarexplanation",
   "title": "Basic Adjectives in Hungarian",
-  "sections": [
-    {
-      "heading": "Using Hungarian Adjectives",
-      "paragraphs": [
-        "Hungarian adjectives do not change for gender or number when placed before a noun. Only the noun gets plural endings.",
-        "When adjectives appear after the verb 'van/vannak', they also remain in basic form."
-      ],
-      "list": [
-        "nagy – big",
-        "szép – beautiful",
-        "kis – small/little",
-        "magas – tall",
-        "alacsony – short (height)",
-        "hosszú – long",
-        "rövid – short (length)",
-        "széles – wide",
-        "keskeny – narrow",
-        "piros – red",
-        "kék – blue",
-        "világoskék – light blue",
-        "sötétkék – dark blue",
-        "zöld – green",
-        "sárga – yellow",
-        "barna – brown",
-        "rózsaszín – pink",
-        "narancs – orange",
-        "fekete – black",
-        "fehér – white",
-        "szürke – gray",
-        "hideg – cold",
-        "meleg – warm",
-        "forró – hot",
-        "hűvös – cool",
-        "új – new",
-        "régi – old (objects)",
-        "fiatal – young",
-        "öreg – old (people)",
-        "jó – good"
-      ]
-    },
-    {
-      "heading": "Using -i to Form Adjectives",
-      "paragraphs": [
-        "The suffix -i can turn place or origin words into adjectives that mean 'from' or 'related to' a place.",
-        "These adjectives also remain unchanged before nouns."
-      ],
-      "list": [
-        "magyar – Hungarian (person/language)",
-        "pesti – from Pest",
-        "budai – from Buda"
-      ]
-    },
-    {
-      "heading": "Simple Examples",
-      "paragraphs": [
-        "Adjective + noun:",
-        "A nagy könyv. – The big book.",
-        "A szép diák. – The beautiful student.",
-        "Van egy fiatal tanár. – There is a young teacher."
-      ],
-      "list": []
-    }
-  ]
+  "data": {
+    "type": "explanation",
+    "sections": [
+      {
+        "heading": "Using Hungarian Adjectives",
+        "paragraphs": [
+          "Hungarian adjectives do not change for gender or number when placed before a noun. Only the noun gets plural endings.",
+          "When adjectives appear after the verb 'van/vannak', they also remain in basic form."
+        ],
+        "list": [
+          "nagy – big",
+          "szép – beautiful",
+          "kis – small/little",
+          "magas – tall",
+          "alacsony – short (height)",
+          "hosszú – long",
+          "rövid – short (length)",
+          "széles – wide",
+          "keskeny – narrow",
+          "piros – red",
+          "kék – blue",
+          "világoskék – light blue",
+          "sötétkék – dark blue",
+          "zöld – green",
+          "sárga – yellow",
+          "barna – brown",
+          "rózsaszín – pink",
+          "narancs – orange",
+          "fekete – black",
+          "fehér – white",
+          "szürke – gray",
+          "hideg – cold",
+          "meleg – warm",
+          "forró – hot",
+          "hűvös – cool",
+          "új – new",
+          "régi – old (objects)",
+          "fiatal – young",
+          "öreg – old (people)",
+          "jó – good"
+        ]
+      },
+      {
+        "heading": "Using -i to Form Adjectives",
+        "paragraphs": [
+          "The suffix -i can turn place or origin words into adjectives that mean 'from' or 'related to' a place.",
+          "These adjectives also remain unchanged before nouns."
+        ],
+        "list": [
+          "magyar – Hungarian (person/language)",
+          "pesti – from Pest",
+          "budai – from Buda"
+        ]
+      },
+      {
+        "heading": "Simple Examples",
+        "paragraphs": [
+          "Adjective + noun:",
+          "A nagy könyv. – The big book.",
+          "A szép diák. – The beautiful student.",
+          "Van egy fiatal tanár. – There is a young teacher."
+        ],
+        "list": []
+      }
+    ]
+  }
 }

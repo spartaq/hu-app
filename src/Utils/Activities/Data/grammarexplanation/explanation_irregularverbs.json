@@ -1,45 +1,48 @@
 {
-  "type": "explanation",
+  "type": "grammarexplanation",
   "title": "Irregular Verbs – Hobbies & Free Time",
-  "sections": [
-    {
-      "heading": "Using Irregular Verbs",
-      "paragraphs": [
-        "Some Hungarian verbs are irregular, meaning their forms change and do not follow the regular conjugation patterns.",
-        "Common irregular verbs include: lesz (will be), tesz (does), vesz (takes), hisz (believes), visz (carries), eszik (eats), iszik (drinks), megy (goes), jön (comes), játszik (plays), vacsorázik (has dinner).",
-        "You will often use these verbs in everyday conversations about hobbies and free time."
-      ],
-      "list": [
-        "lesz – will be",
-        "tesz – does/makes",
-        "vesz – takes/buys",
-        "hisz – believes",
-        "visz – carries/takes",
-        "eszik – eats",
-        "iszik – drinks",
-        "megy – goes",
-        "jön – comes",
-        "játszik – plays",
-        "vacsorázik – has dinner"
-      ]
-    },
-    {
-      "heading": "Hobbies and Free Time Vocabulary",
-      "paragraphs": [
-        "You can combine these verbs with hobbies and activities to describe what people do in their free time."
-      ],
-      "list": [
-        "olvas – reads",
-        "ír – writes",
-        "fut – runs",
-        "úszik – swims",
-        "táncol – dances",
-        "zenél – plays music",
-        "fest – paints",
-        "sétál – walks",
-        "biciklizik – cycles",
-        "játsszik – plays (games/sports)"
-      ]
-    }
-  ]
+  "data": {
+    "type": "explanation",
+    "sections": [
+      {
+        "heading": "Using Irregular Verbs",
+        "paragraphs": [
+          "Some Hungarian verbs are irregular, meaning their forms change and do not follow the regular conjugation patterns.",
+          "Common irregular verbs include: lesz (will be), tesz (does), vesz (takes), hisz (believes), visz (carries), eszik (eats), iszik (drinks), megy (goes), jön (comes), játszik (plays), vacsorázik (has dinner).",
+          "You will often use these verbs in everyday conversations about hobbies and free time."
+        ],
+        "list": [
+          "lesz – will be",
+          "tesz – does/makes",
+          "vesz – takes/buys",
+          "hisz – believes",
+          "visz – carries/takes",
+          "eszik – eats",
+          "iszik – drinks",
+          "megy – goes",
+          "jön – comes",
+          "játszik – plays",
+          "vacsorázik – has dinner"
+        ]
+      },
+      {
+        "heading": "Hobbies and Free Time Vocabulary",
+        "paragraphs": [
+          "You can combine these verbs with hobbies and activities to describe what people do in their free time."
+        ],
+        "list": [
+          "olvas – reads",
+          "ír – writes",
+          "fut – runs",
+          "úszik – swims",
+          "táncol – dances",
+          "zenél – plays music",
+          "fest – paints",
+          "sétál – walks",
+          "biciklizik – cycles",
+          "játsszik – plays (games/sports)"
+        ]
+      }
+    ]
+  }
 }

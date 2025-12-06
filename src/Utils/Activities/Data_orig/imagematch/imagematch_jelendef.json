@@ -1,0 +1,26 @@
+[
+{
+"id": 1,
+"quizTitle": "Match the Word to the Image",
+"audio": "/Audio/audiotest.mp3",
+"prompt": "Choose the correct picture",
+"options": [
+{ "id": "a", "image": "/images/ujsag.jpg", "word": "újság", "isCorrect": true },
+{ "id": "b", "image": "/images/kulcs.jpg", "word": "kulcs", "isCorrect": false }
+],
+"translation": "newspaper",
+"mode": "word-to-image"
+},
+{
+"id": 2,
+"quizTitle": "Match the Word to the Image",
+"audio": "/Audio/audiotest.mp3",
+"prompt": "Choose the correct picture",
+"options": [
+{ "id": "a", "image": "/images/film.jpg", "word": "film", "isCorrect": true },
+{ "id": "b", "image": "/images/email.jpg", "word": "email", "isCorrect": false }
+],
+"translation": "film",
+"mode": "word-to-image"
+}
+]

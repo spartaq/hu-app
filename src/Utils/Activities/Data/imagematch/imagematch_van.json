@@ -1,26 +1,52 @@
-[
-  {
-    "id": 1,
-    "quizTitle": "Match Words to Images",
-    "audio": "/Audio/audiotest.mp3",
-    "prompt": "ház",
-    "options": [
-      { "id": "a", "image": "/images/house1.jpg", "word": "house", "isCorrect": true },
-      { "id": "b", "image": "/images/room1.jpg", "word": "room", "isCorrect": false }
-    ],
-    "translation": "house",
-    "mode": "word-to-image"
-  },
-  {
-    "id": 2,
-    "quizTitle": "Match Words to Images",
-    "audio": "/Audio/audiotest.mp3",
-    "prompt": "macska",
-    "options": [
-      { "id": "a", "image": "/images/cat1.jpg", "word": "cat", "isCorrect": true },
-      { "id": "b", "image": "/images/dog1.jpg", "word": "dog", "isCorrect": false }
-    ],
-    "translation": "cat",
-    "mode": "word-to-image"
+{
+  "type": "imagematch",
+  "title": "imagematch_van",
+  "data": {
+    "items": [
+      {
+        "id": 1,
+        "quizTitle": "Match Words to Images",
+        "audio": "/Audio/audiotest.mp3",
+        "prompt": "ház",
+        "options": [
+          {
+            "id": "a",
+            "image": "/images/house1.jpg",
+            "word": "house",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "image": "/images/room1.jpg",
+            "word": "room",
+            "isCorrect": false
+          }
+        ],
+        "translation": "house",
+        "mode": "word-to-image"
+      },
+      {
+        "id": 2,
+        "quizTitle": "Match Words to Images",
+        "audio": "/Audio/audiotest.mp3",
+        "prompt": "macska",
+        "options": [
+          {
+            "id": "a",
+            "image": "/images/cat1.jpg",
+            "word": "cat",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "image": "/images/dog1.jpg",
+            "word": "dog",
+            "isCorrect": false
+          }
+        ],
+        "translation": "cat",
+        "mode": "word-to-image"
+      }
+    ]
   }
-]
+}

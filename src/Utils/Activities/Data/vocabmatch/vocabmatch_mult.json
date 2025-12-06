@@ -1,11 +1,24 @@
 {
-  "quizTitle": "Múlt Idő – Past Tense",
-  "type": "vocab",
-  "topic": "mult",
-  "pairs": [
-    { "term": "olvastam", "definition": "I read (past)" },
-    { "term": "írtál", "definition": "you wrote" },
-    { "term": "tettünk", "definition": "we did" },
-    { "term": "etett", "definition": "he/she fed" }
-  ]
+  "type": "vocabmatch",
+  "title": "Múlt Idő – Past Tense",
+  "data": {
+    "items": [
+      {
+        "term": "olvastam",
+        "definition": "I read (past)"
+      },
+      {
+        "term": "írtál",
+        "definition": "you wrote"
+      },
+      {
+        "term": "tettünk",
+        "definition": "we did"
+      },
+      {
+        "term": "etett",
+        "definition": "he/she fed"
+      }
+    ]
+  }
 }

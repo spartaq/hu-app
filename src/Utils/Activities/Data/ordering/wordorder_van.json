@@ -1,4 +1,22 @@
-[
-  { "id": "van-1", "type": "ordering", "topic": "van", "quizTitle": "Put the sentence in order", "sentence": "Van egy könyv a szekrényben", "translation": "There is a book in the cupboard" },
-  { "id": "van-2", "type": "ordering", "topic": "van", "quizTitle": "Put the sentence in order", "sentence": "Van két kutya a kertben", "translation": "There are two dogs in the garden" }
-]
+{
+  "type": "wordorder",
+  "title": "wordorder_van",
+  "data": {
+    "items": [
+      {
+        "id": "van-1",
+        "topic": "van",
+        "quizTitle": "Put the sentence in order",
+        "sentence": "Van egy könyv a szekrényben",
+        "translation": "There is a book in the cupboard"
+      },
+      {
+        "id": "van-2",
+        "topic": "van",
+        "quizTitle": "Put the sentence in order",
+        "sentence": "Van két kutya a kertben",
+        "translation": "There are two dogs in the garden"
+      }
+    ]
+  }
+}

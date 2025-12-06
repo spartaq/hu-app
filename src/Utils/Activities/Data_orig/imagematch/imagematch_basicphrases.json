@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "promptImage": "/Images/morning.webp",
+    "options": [
+      { "id": "a",  "word": "Jo reggelt!", "isCorrect": true },
+      { "id": "b",  "word": "Jo napot", "isCorrect": false }
+    ],
+    "translation": "Good morning!",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 2,
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "promptImage": "/Images/thank-you.jpg",
+    "options": [
+      { "id": "a", "word": "Köszönöm.", "isCorrect": true },
+      { "id": "b", "word": "Nincs mit.", "isCorrect": false },
+      { "id": "c", "word": "Elnézést.", "isCorrect": false }
+    ],
+    "translation": "Thank you.",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 3,
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "promptImage": "/Images/morning.webp",
+    "options": [
+      { "id": "a",  "word": "Jo reggelt!", "isCorrect": true },
+      { "id": "b",  "word": "Jo napot", "isCorrect": false }
+    ],
+    "translation": "Good morning!",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 4,
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "promptImage": "/Images/sorry.jpg",
+    "options": [
+      { "id": "a",  "word": "Bocsanat.", "isCorrect": true },
+      { "id": "b",  "word": "Elnézést.", "isCorrect": false }
+    ],
+    "translation": "Sorry.",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 5,
+    "quizTitle": "Vocabulary - Basic Phrases",
+    "promptImage": "/Images/excuse-me.jpg",
+    "options": [
+      { "id": "a", "word": "Elnézést.", "isCorrect": true },
+      { "id": "b", "word": "Bocsanat.", "isCorrect": false },
+      { "id": "c", "word": "Jo napot.", "isCorrect": false }
+    ],
+    "translation": "Excuse me.",
+    "mode": "image-to-word"
+  }
+]
+
+

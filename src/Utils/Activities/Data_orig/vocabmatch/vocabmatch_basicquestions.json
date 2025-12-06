@@ -1,0 +1,17 @@
+{
+  "quizTitle": "questions",
+  "type": "vocab",
+  "topic": "question-words",
+  "pairs": [
+    { "term": "ki", "definition": "who" },
+    { "term": "mi", "definition": "what" },
+    { "term": "mikor", "definition": "when" },
+    { "term": "hol", "definition": "where" },
+    { "term": "miért", "definition": "why" },
+    { "term": "hogyan", "definition": "how" },
+    { "term": "melyik", "definition": "which" },
+    { "term": "milyen", "definition": "what kind of" },
+    { "term": "hova", "definition": "to where" },
+    { "term": "merre", "definition": "which way" }
+  ]
+}

@@ -1,7 +1,38 @@
-[
-  { "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "találkozni", "translation": "to meet" },
-  { "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "iskola", "translation": "school" },
-  { "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "otthon", "translation": "home" },
-  { "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "ház", "translation": "house" },
-  { "id": "aw5", "audio": "/Audio/audiotest.mp3", "text": "konyha", "translation": "kitchen" }
-]
+{
+  "type": "audiowordmatch",
+  "title": "audiowordmatch_van",
+  "data": {
+    "items": [
+      {
+        "id": "aw1",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "találkozni",
+        "translation": "to meet"
+      },
+      {
+        "id": "aw2",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "iskola",
+        "translation": "school"
+      },
+      {
+        "id": "aw3",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "otthon",
+        "translation": "home"
+      },
+      {
+        "id": "aw4",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "ház",
+        "translation": "house"
+      },
+      {
+        "id": "aw5",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "konyha",
+        "translation": "kitchen"
+      }
+    ]
+  }
+}

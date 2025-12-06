@@ -1,26 +1,35 @@
-[
-  {
-    "id": "aw2",
-    "audio": "/Audio/audiotest.mp3",
-    "text": "Jó reggelt",
-    "translation": "Good morning"
-  },
-  {
-    "id": "aw3",
-    "audio": "/Audio/audiotest.mp3",
-    "text": "Jó estét",
-    "translation": "Good evening"
-  },
-  {
-    "id": "aw4",
-    "audio": "/Audio/audiotest.mp3",
-    "text": "Jo napot",
-    "translation": "Good day"
-  },
-  {
-    "id": "aw5",
-    "audio": "/Audio/audiotest.mp3",
-    "text": "Köszönöm",
-    "translation": "Thank you"
+{
+  "type": "audiowordmatch",
+  "title": "audiowordmatch_basicphrases",
+  "data": {
+    "items": [
+      {
+        "id": "aw2",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "Jó reggelt",
+        "translation": "Good morning"
+      },
+      {
+        "id": "aw3",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "Jó estét",
+        "translation": "Good evening"
+      },
+      {
+        "id": "aw4",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "Jo napot",
+        "translation": "Good day"
+      },
+      {
+        "id": "aw5",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "Köszönöm",
+
+        "translation": "Thank you"
+
+      }
+
+    ]
   }
-]
+}

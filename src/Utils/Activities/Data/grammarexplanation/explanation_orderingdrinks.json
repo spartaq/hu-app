@@ -1,52 +1,55 @@
 {
-  "type": "explanation",
+  "type": "grammarexplanation",
   "title": "Ordering in Hungarian with 'kérek' and 'szeretnék'",
-  "sections": [
-    {
-      "heading": "Using 'kérek' – The Standard Way to Order",
-      "paragraphs": [
-        "The verb *kérek* literally means 'I ask for' or 'I would like'. It is the most common and polite way to order food, drinks, or items in Hungarian.",
-        "You simply follow *kérek* with the item you want, usually in the accusative case.",
-        "No extra word for 'please' is needed—*kérek* already sounds polite."
-      ],
-      "list": [
-        "Kérek egy kávét. – I would like a coffee.",
-        "Kérek egy teát. – I would like a tea.",
-        "Kérek egy sört. – I would like a beer.",
-        "Kérek egy almát. – I would like an apple.",
-        "Kérek két kávét. – I’d like two coffees.",
-        "Kérek szépen egy kávét. – I’d politely like a coffee."
-      ]
-    },
-    {
-      "heading": "Using 'szeretnék' – A Softer, More Formal Option",
-      "paragraphs": [
-        "The verb *szeretnék* comes from *szeret* (to want/like) and means 'I would like (to have)'.",
-        "It sounds slightly more formal or soft compared to *kérek*, but both are perfectly natural for ordering.",
-        "*Szeretnék* is also followed by the item in the accusative case."
-      ],
-      "list": [
-        "Szeretnék egy kávét. – I would like a coffee.",
-        "Szeretnék egy teát. – I would like a tea.",
-        "Szeretnék egy sört. – I would like a beer.",
-        "Szeretnék egy pizzát. – I would like a pizza.",
-        "Szeretnék két kávét. – I’d like two coffees.",
-        "Szeretnék szépen egy kávét. – I’d politely like a coffee."
-      ]
-    },
-    {
-      "heading": "Key Rules & Tips",
-      "paragraphs": [
-        "Both *kérek* and *szeretnék* require the item in the **accusative case** (usually with the -t ending).",
-        "You can add numbers or adjectives just like in English: *Kérek egy hideg sört.* (I’d like a cold beer.)",
-        "Both forms are appropriate in cafés, restaurants, and shops.",
-        "*Kérek* is slightly more casual; *szeretnék* is a little more formal or polite—but the difference is small."
-      ],
-      "list": [
-        "Accusative: kávé → kávét",
-        "You can add *szépen* for extra politeness.",
-        "Both forms are widely used in everyday ordering."
-      ]
-    }
-  ]
+  "data": {
+    "type": "explanation",
+    "sections": [
+      {
+        "heading": "Using 'kérek' – The Standard Way to Order",
+        "paragraphs": [
+          "The verb *kérek* literally means 'I ask for' or 'I would like'. It is the most common and polite way to order food, drinks, or items in Hungarian.",
+          "You simply follow *kérek* with the item you want, usually in the accusative case.",
+          "No extra word for 'please' is needed—*kérek* already sounds polite."
+        ],
+        "list": [
+          "Kérek egy kávét. – I would like a coffee.",
+          "Kérek egy teát. – I would like a tea.",
+          "Kérek egy sört. – I would like a beer.",
+          "Kérek egy almát. – I would like an apple.",
+          "Kérek két kávét. – I’d like two coffees.",
+          "Kérek szépen egy kávét. – I’d politely like a coffee."
+        ]
+      },
+      {
+        "heading": "Using 'szeretnék' – A Softer, More Formal Option",
+        "paragraphs": [
+          "The verb *szeretnék* comes from *szeret* (to want/like) and means 'I would like (to have)'.",
+          "It sounds slightly more formal or soft compared to *kérek*, but both are perfectly natural for ordering.",
+          "*Szeretnék* is also followed by the item in the accusative case."
+        ],
+        "list": [
+          "Szeretnék egy kávét. – I would like a coffee.",
+          "Szeretnék egy teát. – I would like a tea.",
+          "Szeretnék egy sört. – I would like a beer.",
+          "Szeretnék egy pizzát. – I would like a pizza.",
+          "Szeretnék két kávét. – I’d like two coffees.",
+          "Szeretnék szépen egy kávét. – I’d politely like a coffee."
+        ]
+      },
+      {
+        "heading": "Key Rules & Tips",
+        "paragraphs": [
+          "Both *kérek* and *szeretnék* require the item in the **accusative case** (usually with the -t ending).",
+          "You can add numbers or adjectives just like in English: *Kérek egy hideg sört.* (I’d like a cold beer.)",
+          "Both forms are appropriate in cafés, restaurants, and shops.",
+          "*Kérek* is slightly more casual; *szeretnék* is a little more formal or polite—but the difference is small."
+        ],
+        "list": [
+          "Accusative: kávé → kávét",
+          "You can add *szépen* for extra politeness.",
+          "Both forms are widely used in everyday ordering."
+        ]
+      }
+    ]
+  }
 }

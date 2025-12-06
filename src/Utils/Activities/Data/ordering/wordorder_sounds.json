@@ -1,10 +1,15 @@
-[
-  {
-    "id": "sounds-1",
-    "type": "ordering",
-    "topic": "sounds",
-    "quizTitle": "#",
-    "sentence": "# #",
-    "translation": "#"
+{
+  "type": "wordorder",
+  "title": "wordorder_sounds",
+  "data": {
+    "items": [
+      {
+        "id": "sounds-1",
+        "topic": "sounds",
+        "quizTitle": "#",
+        "sentence": "# #",
+        "translation": "#"
+      }
+    ]
   }
-]
+}

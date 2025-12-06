@@ -1,78 +1,130 @@
 {
-  "quizTitle": "Jövő Idő – Fog + Infinitive",
-  "type": "quiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "Holnap korán _______ felkelni.",
-      "options": ["fogok", "fogsz", "fog", "fognak"],
-      "answer": "fogok",
-      "translate": "I will get up early tomorrow."
-    },
-    {
-      "id": 2,
-      "question": "Reggel 7-kor Péter _______ elindulni otthonról.",
-      "options": ["fog", "fogsz", "fogunk", "fognak"],
-      "answer": "fog",
-      "translate": "Péter will leave home at 7 in the morning."
-    },
-    {
-      "id": 3,
-      "question": "A diákok nemsokára _______ vizsgázni.",
-      "options": ["fognak", "fog", "fogsz", "fogok"],
-      "answer": "fognak",
-      "translate": "The students will take an exam soon."
-    },
-    {
-      "id": 4,
-      "question": "Mi este otthon _______ vacsorázni.",
-      "options": ["fogunk", "fogtok", "fog", "fogok"],
-      "answer": "fogunk",
-      "translate": "We will have dinner at home tonight."
-    },
-    {
-      "id": 5,
-      "question": "Te holnap iskolába _______ menni?",
-      "options": ["fogsz", "fogok", "fog", "fognak"],
-      "answer": "fogsz",
-      "translate": "Will you go to school tomorrow?"
-    },
-    {
-      "id": 6,
-      "question": "Ők holnap este filmet _______ nézni.",
-      "options": ["fognak", "fogtok", "fog", "fogunk"],
-      "answer": "fognak",
-      "translate": "They will watch a movie tomorrow night."
-    },
-    {
-      "id": 7,
-      "question": "A munka után én még sokáig _______ dolgozni.",
-      "options": ["fogok", "fogsz", "fognak", "fogtok"],
-      "answer": "fogok",
-      "translate": "After work, I will continue working for a long time."
-    },
-    {
-      "id": 8,
-      "question": "Ti mikor _______ ebédelni?",
-      "options": ["fogtok", "fogsz", "fogunk", "fognak"],
-      "answer": "fogtok",
-      "translate": "When will you (plural) have lunch?"
-    },
-    {
-      "id": 9,
-      "question": "Anna nem _______ időben érkezni.",
-      "options": ["fog", "fogsz", "fogtok", "fogunk"],
-      "answer": "fog",
-      "translate": "Anna won’t arrive on time."
-    },
-    {
-      "id": 10,
-      "question": "Jövő héten sokat _______ tanulni.",
-      "options": ["fogunk", "fogok", "fognak", "fog"],
-      "answer": "fogunk",
-      "translate": "We will study a lot next week."
-    }
-  ]
+  "type": "grammarquiz",
+  "title": "grammarquiz_jovo",
+  "data": {
+    "quizTitle": "Jövő Idő – Fog + Infinitive",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Holnap korán _______ felkelni.",
+        "options": [
+          "fogok",
+          "fogsz",
+          "fog",
+          "fognak"
+        ],
+        "answer": "fogok",
+        "translate": "I will get up early tomorrow."
+      },
+      {
+        "id": 2,
+        "question": "Reggel 7-kor Péter _______ elindulni otthonról.",
+        "options": [
+          "fog",
+          "fogsz",
+          "fogunk",
+          "fognak"
+        ],
+        "answer": "fog",
+        "translate": "Péter will leave home at 7 in the morning."
+      },
+      {
+        "id": 3,
+        "question": "A diákok nemsokára _______ vizsgázni.",
+        "options": [
+          "fognak",
+          "fog",
+          "fogsz",
+          "fogok"
+        ],
+        "answer": "fognak",
+        "translate": "The students will take an exam soon."
+      },
+      {
+        "id": 4,
+        "question": "Mi este otthon _______ vacsorázni.",
+        "options": [
+          "fogunk",
+          "fogtok",
+          "fog",
+          "fogok"
+        ],
+        "answer": "fogunk",
+        "translate": "We will have dinner at home tonight."
+      },
+      {
+        "id": 5,
+        "question": "Te holnap iskolába _______ menni?",
+        "options": [
+          "fogsz",
+          "fogok",
+          "fog",
+          "fognak"
+        ],
+        "answer": "fogsz",
+        "translate": "Will you go to school tomorrow?"
+      },
+      {
+        "id": 6,
+        "question": "Ők holnap este filmet _______ nézni.",
+        "options": [
+          "fognak",
+          "fogtok",
+          "fog",
+          "fogunk"
+        ],
+        "answer": "fognak",
+        "translate": "They will watch a movie tomorrow night."
+      },
+      {
+        "id": 7,
+        "question": "A munka után én még sokáig _______ dolgozni.",
+        "options": [
+          "fogok",
+          "fogsz",
+          "fognak",
+          "fogtok"
+        ],
+        "answer": "fogok",
+        "translate": "After work, I will continue working for a long time."
+      },
+      {
+        "id": 8,
+        "question": "Ti mikor _______ ebédelni?",
+        "options": [
+          "fogtok",
+          "fogsz",
+          "fogunk",
+          "fognak"
+        ],
+        "answer": "fogtok",
+        "translate": "When will you (plural) have lunch?"
+      },
+      {
+        "id": 9,
+        "question": "Anna nem _______ időben érkezni.",
+        "options": [
+          "fog",
+          "fogsz",
+          "fogtok",
+          "fogunk"
+        ],
+        "answer": "fog",
+        "translate": "Anna won’t arrive on time."
+      },
+      {
+        "id": 10,
+        "question": "Jövő héten sokat _______ tanulni.",
+        "options": [
+          "fogunk",
+          "fogok",
+          "fognak",
+          "fog"
+        ],
+        "answer": "fogunk",
+        "translate": "We will study a lot next week."
+      }
+    ]
+  }
 }
-
-

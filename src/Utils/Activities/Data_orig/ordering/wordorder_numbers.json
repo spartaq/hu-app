@@ -1,0 +1,4 @@
+[
+  { "id": "numbers-1", "type": "ordering", "topic": "numbers", "quizTitle": "Put the sentence in order", "sentence": "kérek két almát", "translation": "I want two apples" },
+  { "id": "numbers-2", "type": "ordering", "topic": "numbers", "quizTitle": "Put the sentence in order", "sentence": "egy liter tejet kérek", "translation": "I want a liter of milk" }
+]

@@ -1,76 +1,130 @@
 {
-  "quizTitle": "Birtoklás – Van + Neki/Neked (személyjelöléssel)",
-  "type": "quiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "(Ő) ______ egy új lakása.",
-      "options": ["Neki van", "Nekem van", "Nektek van", "Nekik van"],
-      "answer": "Neki van",
-      "translate": "He/She has a new apartment."
-    },
-    {
-      "id": 2,
-      "question": "(Te) ______ két testvére.",
-      "options": ["Nekem van", "Neked van", "Neki van", "Nektek van"],
-      "answer": "Neked van",
-      "translate": "You have two siblings."
-    },
-    {
-      "id": 3,
-      "question": "(Mi) ______ saját szobánk.",
-      "options": ["Nekünk van", "Nekik van", "Neked van", "Nekem van"],
-      "answer": "Nekünk van",
-      "translate": "We have our own room."
-    },
-    {
-      "id": 4,
-      "question": "(Ők) ______ szép kertjük.",
-      "options": ["Nekik van", "Nekünk van", "Nekem van", "Neked van"],
-      "answer": "Nekik van",
-      "translate": "They have a nice garden."
-    },
-    {
-      "id": 5,
-      "question": "(Én) ______ egy piros biciklim.",
-      "options": ["Nekem van", "Neked van", "Nekik van", "Nekünk van"],
-      "answer": "Nekem van",
-      "translate": "I have a red bicycle."
-    },
-    {
-      "id": 6,
-      "question": "(Ti) ______ két kutyátok.",
-      "options": ["Nektek van", "Nekik van", "Neked van", "Nekünk van"],
-      "answer": "Nektek van",
-      "translate": "You (plural) have two dogs."
-    },
-    {
-      "id": 7,
-      "question": "(Te) ______ új számítógéped.",
-      "options": ["Neked van", "Nekem van", "Nekik van", "Nektek van"],
-      "answer": "Neked van",
-      "translate": "You have a new computer."
-    },
-    {
-      "id": 8,
-      "question": "(Én) ______ jegyed a koncertre.",
-      "options": ["Nekem van", "Nekik van", "Nektek van", "Neked van"],
-      "answer": "Nekem van",
-      "translate": "I have a ticket to the concert."
-    },
-    {
-      "id": 9,
-      "question": "(Ők) ______ kulcsuk a házhoz.",
-      "options": ["Nekik van", "Nekem van", "Neked van", "Nekünk van"],
-      "answer": "Nekik van",
-      "translate": "They have the key to the house."
-    },
-    {
-      "id": 10,
-      "question": "(Ti) ______ jó ötletetek.",
-      "options": ["Nektek van", "Nekem van", "Neked van", "Nekik van"],
-      "answer": "Nektek van",
-      "translate": "You (plural) have a good idea."
-    }
-  ]
+  "type": "grammarquiz",
+  "title": "grammarquiz_nekivan",
+  "data": {
+    "quizTitle": "Birtoklás – Van + Neki/Neked (személyjelöléssel)",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "(Ő) ______ egy új lakása.",
+        "options": [
+          "Neki van",
+          "Nekem van",
+          "Nektek van",
+          "Nekik van"
+        ],
+        "answer": "Neki van",
+        "translate": "He/She has a new apartment."
+      },
+      {
+        "id": 2,
+        "question": "(Te) ______ két testvére.",
+        "options": [
+          "Nekem van",
+          "Neked van",
+          "Neki van",
+          "Nektek van"
+        ],
+        "answer": "Neked van",
+        "translate": "You have two siblings."
+      },
+      {
+        "id": 3,
+        "question": "(Mi) ______ saját szobánk.",
+        "options": [
+          "Nekünk van",
+          "Nekik van",
+          "Neked van",
+          "Nekem van"
+        ],
+        "answer": "Nekünk van",
+        "translate": "We have our own room."
+      },
+      {
+        "id": 4,
+        "question": "(Ők) ______ szép kertjük.",
+        "options": [
+          "Nekik van",
+          "Nekünk van",
+          "Nekem van",
+          "Neked van"
+        ],
+        "answer": "Nekik van",
+        "translate": "They have a nice garden."
+      },
+      {
+        "id": 5,
+        "question": "(Én) ______ egy piros biciklim.",
+        "options": [
+          "Nekem van",
+          "Neked van",
+          "Nekik van",
+          "Nekünk van"
+        ],
+        "answer": "Nekem van",
+        "translate": "I have a red bicycle."
+      },
+      {
+        "id": 6,
+        "question": "(Ti) ______ két kutyátok.",
+        "options": [
+          "Nektek van",
+          "Nekik van",
+          "Neked van",
+          "Nekünk van"
+        ],
+        "answer": "Nektek van",
+        "translate": "You (plural) have two dogs."
+      },
+      {
+        "id": 7,
+        "question": "(Te) ______ új számítógéped.",
+        "options": [
+          "Neked van",
+          "Nekem van",
+          "Nekik van",
+          "Nektek van"
+        ],
+        "answer": "Neked van",
+        "translate": "You have a new computer."
+      },
+      {
+        "id": 8,
+        "question": "(Én) ______ jegyed a koncertre.",
+        "options": [
+          "Nekem van",
+          "Nekik van",
+          "Nektek van",
+          "Neked van"
+        ],
+        "answer": "Nekem van",
+        "translate": "I have a ticket to the concert."
+      },
+      {
+        "id": 9,
+        "question": "(Ők) ______ kulcsuk a házhoz.",
+        "options": [
+          "Nekik van",
+          "Nekem van",
+          "Neked van",
+          "Nekünk van"
+        ],
+        "answer": "Nekik van",
+        "translate": "They have the key to the house."
+      },
+      {
+        "id": 10,
+        "question": "(Ti) ______ jó ötletetek.",
+        "options": [
+          "Nektek van",
+          "Nekem van",
+          "Neked van",
+          "Nekik van"
+        ],
+        "answer": "Nektek van",
+        "translate": "You (plural) have a good idea."
+      }
+    ]
+  }
 }

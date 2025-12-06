@@ -1,0 +1,38 @@
+{
+  "title": "A Routine Conversation",
+  "audio": "/Audio/audiotest.mp3",
+  "avatarMap": {
+    "Anna": "/avatars/anna.png",
+    "Béla": "/avatars/bela.png"
+  },
+  "lines": [
+    {
+      "speaker": "Anna",
+      "text": "Reggel felkelek és futok.",
+      "translation": "In the morning I get up and run.",
+      "start": 0,
+      "end": 3000
+    },
+    {
+      "speaker": "Béla",
+      "text": "Én reggel tanulok az iskolában.",
+      "translation": "I study at school in the morning.",
+      "start": 3000,
+      "end": 6000
+    },
+    {
+      "speaker": "Anna",
+      "text": "Délután dolgozom az irodában.",
+      "translation": "In the afternoon I work in the office.",
+      "start": 6000,
+      "end": 9000
+    },
+    {
+      "speaker": "Béla",
+      "text": "Este olvasok és pihenek.",
+      "translation": "In the evening I read and rest.",
+      "start": 9000,
+      "end": 12000
+    }
+  ]
+}

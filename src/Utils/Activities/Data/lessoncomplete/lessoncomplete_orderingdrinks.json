@@ -1,8 +1,11 @@
 {
-  "id": "lessonComplete-orderingdrinks",
   "type": "lessoncomplete",
   "title": "Lesson Complete!",
-  "message": "Great job! You're ready to move on.",
-  "nextLessonUrl": "/hungarian/numbers",
-  "hubUrl": "/activities"
+  "data": {
+    "id": "lessonComplete-orderingdrinks",
+    "type": "lessoncomplete",
+    "message": "Great job! You're ready to move on.",
+    "nextLessonUrl": "/hungarian/numbers",
+    "hubUrl": "/activities"
+  }
 }

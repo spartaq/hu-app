@@ -1,10 +1,15 @@
-[
-  {
-    "id": "basicadjectives-1",
-    "type": "ordering",
-    "topic": "basicadjectives",
-    "quizTitle": "Put the sentence in order",
-    "sentence": "Ez egy nagy könyv.",
-    "translation": "This is a big book."
+{
+  "type": "wordorder",
+  "title": "wordorder_basicadjectives",
+  "data": {
+    "items": [
+      {
+        "id": "basicadjectives-1",
+        "topic": "basicadjectives",
+        "quizTitle": "Put the sentence in order",
+        "sentence": "Ez egy nagy könyv.",
+        "translation": "This is a big book."
+      }
+    ]
   }
-]
+}

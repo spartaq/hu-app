@@ -1,18 +1,22 @@
-[
 {
-"id": "jelendef-1",
-"type": "ordering",
-"topic": "jelendef",
-"quizTitle": "Put the sentence in order",
-"sentence": "Olvasom az újságot.",
-"translation": "I am reading the newspaper."
-},
-{
-"id": "jelendef-2",
-"type": "ordering",
-"topic": "jelendef",
-"quizTitle": "Put the sentence in order",
-"sentence": "Írom az emailt.",
-"translation": "I am writing the email."
+  "type": "wordorder",
+  "title": "wordorder_jelendef",
+  "data": {
+    "items": [
+      {
+        "id": "jelendef-1",
+        "topic": "jelendef",
+        "quizTitle": "Put the sentence in order",
+        "sentence": "Olvasom az újságot.",
+        "translation": "I am reading the newspaper."
+      },
+      {
+        "id": "jelendef-2",
+        "topic": "jelendef",
+        "quizTitle": "Put the sentence in order",
+        "sentence": "Írom az emailt.",
+        "translation": "I am writing the email."
+      }
+    ]
+  }
 }
-]

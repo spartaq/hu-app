@@ -1,8 +1,14 @@
-[
-  {
-    "id": "aw1",
-    "audio": "/Audio/audiotest.mp3",
-    "text": "#",
-    "translation": "#"
+{
+  "type": "audiowordmatch",
+  "title": "audiowordmatch_sounds",
+  "data": {
+    "items": [
+      {
+        "id": "aw1",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "#",
+        "translation": "#"
+      }
+    ]
   }
-]
+}

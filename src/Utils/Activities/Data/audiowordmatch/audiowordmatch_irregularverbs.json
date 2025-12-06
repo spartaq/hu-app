@@ -1,7 +1,38 @@
-[
-  { "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "lesz", "translation": "will be" },
-  { "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "tesz", "translation": "does/makes" },
-  { "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "vesz", "translation": "takes/buys" },
-  { "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "eszik", "translation": "eats" },
-  { "id": "aw5", "audio": "/Audio/audiotest.mp3", "text": "játszik", "translation": "plays" }
-]
+{
+  "type": "audiowordmatch",
+  "title": "audiowordmatch_irregularverbs",
+  "data": {
+    "items": [
+      {
+        "id": "aw1",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "lesz",
+        "translation": "will be"
+      },
+      {
+        "id": "aw2",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "tesz",
+        "translation": "does/makes"
+      },
+      {
+        "id": "aw3",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "vesz",
+        "translation": "takes/buys"
+      },
+      {
+        "id": "aw4",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "eszik",
+        "translation": "eats"
+      },
+      {
+        "id": "aw5",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "játszik",
+        "translation": "plays"
+      }
+    ]
+  }
+}

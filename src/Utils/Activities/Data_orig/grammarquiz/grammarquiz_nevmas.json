@@ -1,0 +1,78 @@
+{
+  "quizTitle": "Névmások – Pronouns",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "___ vagyok a tanár.",
+      "options": ["Én", "Te", "Ő", "Mi"],
+      "answer": "Én - I am the teacher",
+      "translate": "I am the teacher"
+    },
+    {
+      "id": 2,
+      "question": "___ vagy a legjobb barátom.",
+      "options": ["Te", "Ő", "Ti", "Én"],
+      "answer": "Te - You are my best friend",
+      "translate": "You are my best friend"
+    },
+    {
+      "id": 3,
+      "question": "___ Budapesten él.",
+      "options": ["Ő", "Te", "Mi", "Ti"],
+      "answer": "Ő - He/She lives in Budapest",
+      "translate": "He/She lives in Budapest"
+    },
+    {
+      "id": 4,
+      "question": "___ szeretünk kirándulni.",
+      "options": ["Mi", "Ti", "Ők", "Én"],
+      "answer": "Mi - We like hiking",
+      "translate": "We like hiking"
+    },
+    {
+      "id": 5,
+      "question": "___ holnap jöttök?",
+      "options": ["Ti", "Mi", "Ők", "Te"],
+      "answer": "Ti - Are you (plural) coming tomorrow?",
+      "translate": "Are you (plural) coming tomorrow?"
+    },
+    {
+      "id": 6,
+      "question": "___ mindig késnek.",
+      "options": ["Ők", "Mi", "Ti", "Én"],
+      "answer": "Ők - They are always late",
+      "translate": "They are always late"
+    },
+    {
+      "id": 7,
+      "question": "___ a könyv érdekel engem.",
+      "options": ["Ez", "Az", "Amaz", "Ott"],
+      "answer": "Ez - This book interests me",
+      "translate": "This book interests me"
+    },
+    {
+      "id": 8,
+      "question": "___ a ház tetszik neked?",
+      "options": ["Az", "Ez", "Ott", "Amott"],
+      "answer": "Az - Do you like that house?",
+      "translate": "Do you like that house?"
+    },
+    {
+      "id": 9,
+      "question": "___ jött be az ajtón?",
+      "options": ["Ki", "Mi", "Hol", "Hány"],
+      "answer": "Ki - Who came through the door?",
+      "translate": "Who came through the door?"
+    },
+    {
+      "id": 10,
+      "question": "___ van a táskádban?",
+      "options": ["Mi", "Ki", "Hol", "Mikor"],
+      "answer": "Mi - What is in your bag?",
+      "translate": "What is in your bag?"
+    }
+  ]
+}
+
+

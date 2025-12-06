@@ -1,0 +1,76 @@
+{
+  "quizTitle": "Magánhangzó-harmónia – Determiners + Words",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A ház___",
+      "options": ["ban", "ben"],
+      "answer": "ban",
+      "translate": "in the house"
+    },
+    {
+      "id": 2,
+      "question": "A mező___",
+      "options": ["ben", "ban"],
+      "answer": "ben",
+      "translate": "in the field"
+    },
+    {
+      "id": 3,
+      "question": "A fa___",
+      "options": ["ban", "ben"],
+      "answer": "ban",
+      "translate": "in the tree / inside the wood"
+    },
+    {
+      "id": 4,
+      "question": "A kert___",
+      "options": ["ben", "ban"],
+      "answer": "ben",
+      "translate": "in the garden"
+    },
+    {
+      "id": 5,
+      "question": "Az autó___",
+      "options": ["ban", "ben"],
+      "answer": "ban",
+      "translate": "in the car"
+    },
+    {
+      "id": 6,
+      "question": "A tenger___",
+      "options": ["ben", "ban"],
+      "answer": "ben",
+      "translate": "in the sea"
+    },
+    {
+      "id": 7,
+      "question": "A szoba___",
+      "options": ["ban", "ben"],
+      "answer": "ban",
+      "translate": "in the room"
+    },
+    {
+      "id": 8,
+      "question": "A füzet___",
+      "options": ["ben", "ban"],
+      "answer": "ben",
+      "translate": "in the notebook"
+    },
+    {
+      "id": 9,
+      "question": "A város___",
+      "options": ["ban", "ben"],
+      "answer": "ban",
+      "translate": "in the city"
+    },
+    {
+      "id": 10,
+      "question": "A templom___",
+      "options": ["ban", "ben"],
+      "answer": "ban",
+      "translate": "in the church"
+    }
+  ]
+}

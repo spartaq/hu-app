@@ -1,37 +1,40 @@
 {
-  "type": "explanation",
+  "type": "grammarexplanation",
   "title": "Indefinite Conjugation – Daily Routine",
-  "sections": [
-    {
-      "heading": "Indefinite Conjugation Basics",
-      "paragraphs": [
-        "In Hungarian, indefinite conjugation is used when the object is unknown, general, or not specifically defined.",
-        "Many routine verbs that describe daily actions use indefinite conjugation when there is no definite object.",
-        "Example: \"Olvasok\" means \"I read\" (something, in general)."
-      ],
-      "list": [
-        "olvasok – I read",
-        "futok – I run",
-        "tanulok – I study",
-        "dolgozom – I work",
-        "alszom – I sleep",
-        "beszélek – I speak"
-      ]
-    },
-    {
-      "heading": "Daily Routine Examples",
-      "paragraphs": [
-        "Here are simple sentences using indefinite conjugation:",
-        "\"Reggel futok.\" – \"I run in the morning.\"",
-        "\"Este olvasok.\" – \"I read in the evening.\"",
-        "\"Délelőtt tanulok.\" – \"I study in the late morning.\""
-      ],
-      "list": [
-        "reggel – morning",
-        "délután – afternoon",
-        "este – evening",
-        "éjjel – at night"
-      ]
-    }
-  ]
+  "data": {
+    "type": "explanation",
+    "sections": [
+      {
+        "heading": "Indefinite Conjugation Basics",
+        "paragraphs": [
+          "In Hungarian, indefinite conjugation is used when the object is unknown, general, or not specifically defined.",
+          "Many routine verbs that describe daily actions use indefinite conjugation when there is no definite object.",
+          "Example: \"Olvasok\" means \"I read\" (something, in general)."
+        ],
+        "list": [
+          "olvasok – I read",
+          "futok – I run",
+          "tanulok – I study",
+          "dolgozom – I work",
+          "alszom – I sleep",
+          "beszélek – I speak"
+        ]
+      },
+      {
+        "heading": "Daily Routine Examples",
+        "paragraphs": [
+          "Here are simple sentences using indefinite conjugation:",
+          "\"Reggel futok.\" – \"I run in the morning.\"",
+          "\"Este olvasok.\" – \"I read in the evening.\"",
+          "\"Délelőtt tanulok.\" – \"I study in the late morning.\""
+        ],
+        "list": [
+          "reggel – morning",
+          "délután – afternoon",
+          "este – evening",
+          "éjjel – at night"
+        ]
+      }
+    ]
+  }
 }

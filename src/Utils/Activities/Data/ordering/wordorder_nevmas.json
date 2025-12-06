@@ -1,58 +1,56 @@
-[
-  {
-    "id": "hungarian-ordering-van-1",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order – Van 1",
-    "sentence": "A közelben van egy buszmegálló."
-  },
-  {
-    "id": "hungarian-ordering-van-2",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order – Van 2",
-    "sentence": "A lakásban nincs elegendő hely."
-  },
-  {
-    "id": "hungarian-ordering-van-3",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order – Van 3",
-    "sentence": "A parkban vannak játszó gyerekek."
-  },
-  {
-    "id": "hungarian-ordering-van-4",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order – Van 4",
-    "sentence": "Az asztalon van egy nagy könyv."
-  },
-  {
-    "id": "hungarian-ordering-van-5",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order – Van 5",
-    "sentence": "A közelben nincsenek jó éttermek."
-  },
-  {
-    "id": "hungarian-ordering-van-6",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order – Van 6",
-    "sentence": "A város közepén van egy régi templom."
-  },
-  {
-    "id": "hungarian-ordering-van-7",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order – Van 7",
-    "sentence": "Most éppen nincs nálam pénz."
-  },
-  {
-    "id": "hungarian-ordering-van-8",
-    "type": "ordering",
-    "topic": "grammar",
-    "quizTitle": "Word Order – Van 8",
-    "sentence": "A munkahelyemen vannak nagyon kedves kollégák."
+{
+  "type": "wordorder",
+  "title": "wordorder_nevmas",
+  "data": {
+    "items": [
+      {
+        "id": "hungarian-ordering-van-1",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Van 1",
+        "sentence": "A közelben van egy buszmegálló."
+      },
+      {
+        "id": "hungarian-ordering-van-2",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Van 2",
+        "sentence": "A lakásban nincs elegendő hely."
+      },
+      {
+        "id": "hungarian-ordering-van-3",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Van 3",
+        "sentence": "A parkban vannak játszó gyerekek."
+      },
+      {
+        "id": "hungarian-ordering-van-4",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Van 4",
+        "sentence": "Az asztalon van egy nagy könyv."
+      },
+      {
+        "id": "hungarian-ordering-van-5",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Van 5",
+        "sentence": "A közelben nincsenek jó éttermek."
+      },
+      {
+        "id": "hungarian-ordering-van-6",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Van 6",
+        "sentence": "A város közepén van egy régi templom."
+      },
+      {
+        "id": "hungarian-ordering-van-7",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Van 7",
+        "sentence": "Most éppen nincs nálam pénz."
+      },
+      {
+        "id": "hungarian-ordering-van-8",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Van 8",
+        "sentence": "A munkahelyemen vannak nagyon kedves kollégák."
+      }
+    ]
   }
-]
+}

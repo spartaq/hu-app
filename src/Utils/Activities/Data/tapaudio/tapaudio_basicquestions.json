@@ -1,42 +1,107 @@
-[
-  {
-    "id": "q1",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hogy", "vagy", "?"],
-    "options": ["Hogy", "vagy", "?", "Ki", "Hol", "Mi"],
-    "translation": "How are you?"
-  },
-  {
-    "id": "q2",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hol", "laksz", "?"],
-    "options": ["Hol", "laksz", "?", "Mikor", "Mit", "ki"],
-    "translation": "Where do you live?"
-  },
-  {
-    "id": "q3",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Mit", "csinálsz", "most", "?"],
-    "options": ["Mit", "csinálsz", "most", "?", "Hol", "csinál", "ma"],
-    "translation": "What are you doing now?"
-  },
-  {
-    "id": "q4",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Ki", "ő", "?"],
-    "options": ["Ki", "ő", "?", "Mi", "Hol", "vagy"],
-    "translation": "Who is he/she?"
-  },
-  {
-    "id": "q5",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Mi", "a", "neved", "?"],
-    "options": ["Mi", "a", "neved", "?", "hogy", "vagy", "Hol"],
-    "translation": "What is your name?"
+{
+  "type": "tapaudio",
+  "title": "tapaudio_basicquestions",
+  "data": {
+    "items": [
+      {
+        "id": "q1",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Hogy",
+          "vagy",
+          "?"
+        ],
+        "options": [
+          "Hogy",
+          "vagy",
+          "?",
+          "Ki",
+          "Hol",
+          "Mi"
+        ],
+        "translation": "How are you?"
+      },
+      {
+        "id": "q2",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Hol",
+          "laksz",
+          "?"
+        ],
+        "options": [
+          "Hol",
+          "laksz",
+          "?",
+          "Mikor",
+          "Mit",
+          "ki"
+        ],
+        "translation": "Where do you live?"
+      },
+      {
+        "id": "q3",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Mit",
+          "csinálsz",
+          "most",
+          "?"
+        ],
+        "options": [
+          "Mit",
+          "csinálsz",
+          "most",
+          "?",
+          "Hol",
+          "csinál",
+          "ma"
+        ],
+        "translation": "What are you doing now?"
+      },
+      {
+        "id": "q4",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Ki",
+          "ő",
+          "?"
+        ],
+        "options": [
+          "Ki",
+          "ő",
+          "?",
+          "Mi",
+          "Hol",
+          "vagy"
+        ],
+        "translation": "Who is he/she?"
+      },
+      {
+        "id": "q5",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Mi",
+          "a",
+          "neved",
+          "?"
+        ],
+        "options": [
+          "Mi",
+          "a",
+          "neved",
+          "?",
+          "hogy",
+          "vagy",
+          "Hol"
+        ],
+        "translation": "What is your name?"
+      }
+    ]
   }
-]
+}

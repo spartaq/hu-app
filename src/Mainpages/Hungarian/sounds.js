@@ -5,8 +5,10 @@ import mainimage from '../../Images/neighbor2-sc.jpg';
 
 const sections = [
   { label: "Grammar Explanation", type: "grammarexplanation", subtype: "sounds" },
-  { label: "Dialogue", type: "dialogue", subtype: "sounds" },
+  { label: "Dialogue", type: "dialogue", subtype: "soundsall" },
+  { label: "Dialogue", type: "dialogue", subtype: "soundsvowels" },
   { label: "Vocab Match", type: "vocabmatch", subtype: "sounds" },
+  { label: "Dialogue", type: "dialogue", subtype: "soundsconsonants" },
   { label: "Image Match", type: "imagematch", subtype: "sounds" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "sounds" },
   { label: "Tap What You Hear", type: "tapaudio", subtype: "sounds" },

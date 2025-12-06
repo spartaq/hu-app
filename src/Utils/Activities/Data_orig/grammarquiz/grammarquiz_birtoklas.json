@@ -1,0 +1,97 @@
+{
+  "quizTitle": "Birtoklás – Possessives Quiz",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 11,
+      "question": "What does 'anyám' mean?",
+      "options": ["my mother", "your mother", "his mother", "our mother"],
+      "answer": "my mother",
+      "translate": "my mother"
+    },
+    {
+      "id": 12,
+      "question": "Choose the correct possessive: 'your coat'.",
+      "options": ["kabátod", "kabátom", "kabátja", "kabátunk"],
+      "answer": "kabátod",
+      "translate": "your coat"
+    },
+    {
+      "id": 13,
+      "question": "What is the Hungarian for 'his/her friend'?",
+      "options": ["barátod", "barátom", "barátja", "barátotok"],
+      "answer": "barátja",
+      "translate": "his/her friend"
+    },
+	{
+      "id": 1,
+      "question": "Ez az én ___ .",
+      "options": ["könyvem", "könyved", "könyve", "könyvünk"],
+      "answer": "könyvem",
+      "translate": "This is my book"
+    },
+    {
+      "id": 2,
+      "question": "Hol van a te ___ ?",
+      "options": ["tollad", "tollam", "tollunk", "tolluk"],
+      "answer": "tollad",
+      "translate": "Where is your pen?"
+    },
+    {
+      "id": 3,
+      "question": "Ez az ő ___ .",
+      "options": ["háza", "házam", "házad", "házunk"],
+      "answer": "háza",
+      "translate": "This is his/her house"
+    },
+    {
+      "id": 4,
+      "question": "Itt van a mi ___ .",
+      "options": ["autónk", "autóm", "autója", "autód"],
+      "answer": "autónk",
+      "translate": "Here is our car"
+    },
+    {
+      "id": 5,
+      "question": "Ti hol tartjátok a ___ ?",
+      "options": ["kulcsotokat", "kulcsunkat", "kulcsomat", "kulcsát"],
+      "answer": "kulcsotokat",
+      "translate": "Where do you (plural) keep your keys?"
+    },
+    {
+      "id": 6,
+      "question": "Az ő ___ nagyon barátságosak.",
+      "options": ["macskáik", "macskánk", "macskád", "macskám"],
+      "answer": "macskáik",
+      "translate": "Their cats are very friendly"
+    },
+    {
+      "id": 7,
+      "question": "Láttam a ___ telefonját az asztalon.",
+      "options": ["fiú", "fiúét", "fiúja", "fiúnak"],
+      "answer": "fiú",
+      "translate": "I saw the boy's phone on the table"
+    },
+    {
+      "id": 8,
+      "question": "Ez nem az én kabátom, hanem az ő ___ .",
+      "options": ["kabátja", "kabátod", "kabátjuk", "kabátunk"],
+      "answer": "kabátja",
+      "translate": "This isn’t my coat, it’s his/hers"
+    },
+    {
+      "id": 9,
+      "question": "A barátaim autója új, de a ___ régi.",
+      "options": ["miénk", "tiéd", "övé", "enyém"],
+      "answer": "miénk",
+      "translate": "My friends' car is new, but ours is old"
+    },
+    {
+      "id": 10,
+      "question": "Ez nem az én ___ , hanem az övé.",
+      "options": ["székem", "széked", "széke", "székünk"],
+      "answer": "székem",
+      "translate": "This is not my chair, it's his/hers"
+    }
+  ]
+}

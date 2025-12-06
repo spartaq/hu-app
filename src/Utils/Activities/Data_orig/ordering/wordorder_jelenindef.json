@@ -1,0 +1,18 @@
+[
+  {
+    "id": "jelenindef-1",
+    "type": "ordering",
+    "topic": "jelenindef",
+    "quizTitle": "Put the sentence in order",
+    "sentence": "Reggel futok.",
+    "translation": "I run in the morning."
+  },
+  {
+    "id": "jelenindef-2",
+    "type": "ordering",
+    "topic": "jelenindef",
+    "quizTitle": "Put the sentence in order",
+    "sentence": "Este olvasok.",
+    "translation": "I read in the evening."
+  }
+]

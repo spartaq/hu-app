@@ -22,66 +22,45 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
   const [activityEnded, setActivityEnded] = useState(false);
   const [score, setScore] = useState(0);
 
-  /**
-   * Normalize raw data for each activity type
-   */
+  // 1️⃣ Normalize data
   const normalizeData = useCallback(() => {
-    switch (type) {
-      case "dialogue":
-        return data;
-
-      case "grammarquiz":
-        return data?.questions ?? [];
-
-      case "ordering":
-        return Array.isArray(data) ? data : [];
-
-      case "vocabmatch":
-        return Array.isArray(data) ? data : data?.pairs ?? [];
-
-      case "reading":
-        return Array.isArray(data) ? data : data?.paragraphs ?? [];
-
-      case "video":
-        return Array.isArray(data) ? data : [data];
-
-      // audiowordmatch: accept multiple shapes and always return array
-      case "audiowordmatch":
-        if (Array.isArray(data)) return data;
-        if (data?.words && Array.isArray(data.words)) return data.words;
-        if (data?.items && Array.isArray(data.items)) return data.items;
-        if (data?.data && Array.isArray(data.data)) return data.data;
-        return [];
-
-      // For single-item activities, wrap in array for consistent indexing
-      case "grammarexplanation":
-      case "tapaudio":
-      case "imagematch":
-      case "lessoncomplete":
-        return data ? (Array.isArray(data) ? data : [data]) : [];
-
-      default:
-        return [];
+    console.log("Normalizing data for type:", type);
+    if (!data) return [];
+    if (data.data && data.data.items && Array.isArray(data.data.items)) {
+      if (type === 'vocabmatch' || type === 'audiowordmatch' || type === 'tapaudio') {
+        console.log("Wrapping items into single activity array:", data.data.items);
+        return [data.data.items];
+      } else {
+        console.log("Data.data.items array found:", data.data.items);
+        return data.data.items;
+      }
+    } else if (data.data) {
+      console.log("Single data object found:", data.data);
+      return [data.data];
     }
-  }, [type, data]);
+    if (data.items && Array.isArray(data.items)) {
+      console.log("Data items array found:", data.items);
+      return data.items;
+    }
+    if (Array.isArray(data)) {
+      console.log("Data is already an array:", data);
+      return data;
+    }
+    console.log("Wrapping single item into array:", data);
+    return [data];
+  }, [data, type]);
 
-  /**
-   * Reset and auto-start when type or id changes
-   */
+  // 2️⃣ Reset when type or id changes
   useEffect(() => {
     const raw = normalizeData();
-
+    console.log("Setting activity data:", raw);
     setActivityData(raw);
     setCurrentIndex(0);
     setActivityEnded(false);
     setScore(0);
-
     scrollToTop();
   }, [type, id, normalizeData]);
 
-  /**
-   * Scroll helper
-   */
   const scrollToTop = () => {
     const target = scrollTargetRef?.current;
     if (target) {
@@ -94,24 +73,24 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
     }
   };
 
-  /**
-   * Advancement / scoring
-   */
   const handleNext = useCallback(() => {
-    if (Array.isArray(activityData) && currentIndex < activityData.length - 1) {
-      setCurrentIndex(i => i + 1);
-      return;
+    console.log("handleNext called. currentIndex:", currentIndex);
+    if (currentIndex < activityData.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+    } else {
+      console.log("All activities completed");
+      setActivityEnded(true);
     }
-    setActivityEnded(true);
   }, [activityData, currentIndex]);
 
   const handleAddScore = useCallback(() => {
-    setScore(s => s + 1);
+    setScore((s) => {
+      const newScore = s + 1;
+      console.log("Score incremented:", newScore);
+      return newScore;
+    });
   }, []);
 
-  /**
-   * Component lookup (keeps same mapping)
-   */
   const ActivityMap = {
     dialogue: DialogueActivity,
     grammarquiz: QuizActivity,
@@ -127,181 +106,66 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
   };
 
   const ActivityComp = ActivityMap[type];
-
   if (!ActivityComp) {
+    console.warn("Unknown activity type:", type);
     return <p>Unknown activity type: {type}</p>;
   }
 
-  /**
-   * Completed screen (except lessoncomplete)
-   */
   if (activityEnded && type !== "lessoncomplete") {
+    console.log("Activity ended for type:", type);
     return (
       <div className="exercisesection">
         <div ref={topRef} />
         <div className="exercisesection__score-card">
           <h2>Activity Completed!</h2>
           <p>
-            Your score: {score} / {Array.isArray(activityData) ? activityData.length : 0}
+            Your score: {score} / {activityData.length}
           </p>
         </div>
       </div>
     );
   }
 
-  /**
-   * Build compatibility props for components that expect different shapes.
-   * - Most components get a single item via `data` (currentData)
-   * - Some components expect the full array (audiowordmatch, vocabmatch)
-   * - Some components expect specific props (QuizActivity expects `question`, `onAnswer`)
-   */
-  const currentData = Array.isArray(activityData) ? activityData[currentIndex] : activityData;
+  const currentData = activityData[currentIndex];
+  console.log("Rendering activity type:", type);
+  console.log("Current index:", currentIndex);
+  console.log("Current data:", currentData);
 
-  // base props common to many activities
-  const baseProps = {
+  const propsForActivity = {
+    data: currentData,
+    items: activityData,
     index: currentIndex,
-    total: Array.isArray(activityData) ? activityData.length : null,
-    // generic callbacks - components will use their expected callback names below
-    __onNextInternal: handleNext,
-    __onScoreInternal: handleAddScore,
+    total: activityData.length,
+    onNext: handleNext,
+    onScore: handleAddScore,
+    onComplete: () => {
+      console.log("onComplete called for type:", type);
+      setActivityEnded(true);
+    },
+    onProgress: type === 'vocabmatch' || type === 'audiowordmatch' || type === 'tapaudio' ? () => {} : (i) => {
+      console.log("onProgress called with index:", i);
+      setCurrentIndex(i);
+    },
+    meta: data,
   };
 
-  // We'll build the final props object depending on type
-  const propsForActivity = { ...baseProps };
-
-  // Default: pass single-item as `data`
-  propsForActivity.data = currentData;
-
-  // --- Special-casing to preserve original interfaces ---
-
-  // QuizActivity expects: question, data (original full data), quizTitle, onAnswer
+  // Per-component adjustments
+  if (type === "dialogue") propsForActivity.lines = currentData?.lines || [];
   if (type === "grammarquiz") {
     propsForActivity.question = currentData;
-    propsForActivity.data = data; // full original data object (contains quizTitle, etc)
     propsForActivity.quizTitle = data?.quizTitle;
-    propsForActivity.onAnswer = (result) => {
-      // replicate original behavior:
-      // if result.next && not last -> next, else if last -> finish
-      if (result?.next && currentIndex < (activityData?.length ?? 0) - 1) {
-        setCurrentIndex((prev) => prev + 1);
-      } else if (currentIndex >= (activityData?.length ?? 0) - 1) {
-        setActivityEnded(true);
-      }
-      // optional: award score if result.correct (if your QuizActivity returns that)
-      if (result?.correct) handleAddScore();
-    };
-
-    // prevent baseProps interfering
-    delete propsForActivity.onNext;
   }
+  if (type === "vocabmatch") propsForActivity.title = data?.title || data?.quizTitle;
+  if (type === "reading") propsForActivity.title = data?.readingcompTitle;
+  if (type === "video") propsForActivity.title = currentData?.title || data?.title;
+  if (type === "lessoncomplete") propsForActivity.data = data;
 
-  // ImageMatchActivity originally expected:
-  // data={activityData[currentIndex] || activityData}
-  // showTranslationToggle, onComplete
-  if (type === "imagematch") {
-    propsForActivity.data = currentData ?? activityData;
-    propsForActivity.showTranslationToggle = true;
-    propsForActivity.onComplete = () => {
-      // move to next item (or finish)
-      if (Array.isArray(activityData) && currentIndex < activityData.length - 1) {
-        setCurrentIndex(i => i + 1);
-      } else {
-        setActivityEnded(true);
-      }
-    };
-  }
-
-if (type === "tapaudio") {
-  // Pass the full array to allow the component to handle multiple exercises
-  propsForActivity.data = activityData;
-
-  // Provide onComplete so ModalRender knows when all TapAudio exercises finished
-  propsForActivity.onComplete = () => {
-    setActivityEnded(true);
-  };
-
-  // Provide onScore to accumulate score for each correct exercise
-  propsForActivity.onScore = handleAddScore;
-
-  // Provide onProgress to update progress bar
-  propsForActivity.onProgress = (index) => setCurrentIndex(index);
-
-  // Remove single-item props since it's handling the array internally
-  delete propsForActivity.index;
-  delete propsForActivity.total;
-}
-
-  // SentenceOrdering expects `data` and onComplete
-  if (type === "ordering") {
-    propsForActivity.data = currentData;
-    propsForActivity.onComplete = () => {
-      if (Array.isArray(activityData) && currentIndex < activityData.length - 1) {
-        setCurrentIndex(i => i + 1);
-      } else {
-        setActivityEnded(true);
-      }
-    };
-  }
-
-  // VocabMatch: expects pairs array and title
-  if (type === "vocabmatch") {
-    propsForActivity.pairs = Array.isArray(activityData) ? activityData : data?.pairs ?? [];
-    propsForActivity.title = data?.quizTitle;
-    // some VocabMatch components auto-handle progression; if yours needs onComplete add it:
-    propsForActivity.onComplete = () => {
-      setActivityEnded(true);
-    };
-    propsForActivity.onProgress = (progress) => setCurrentIndex(progress * activityData.length);
-    // don't pass single-item data
-    delete propsForActivity.data;
-  }
-
-  // Reading: expects full paragraphs array in `data` shape
-  if (type === "reading") {
-    propsForActivity.data = { ...data, paragraphs: activityData };
-    propsForActivity.title = data?.readingcompTitle;
-  }
-
-  // Video: expects a single video object (we keep that)
-  if (type === "video") {
-    propsForActivity.data = currentData;
-    propsForActivity.title = currentData?.title ?? data?.title;
-  }
-
-  // AudioWordMatch: expects an array to iterate
-  if (type === "audiowordmatch") {
-    propsForActivity.data = activityData; // full array
-    // If AudioWordMatch used onComplete/onAnswer, give it onComplete mapped
-    propsForActivity.onComplete = () => {
-      setActivityEnded(true);
-    };
-    propsForActivity.onProgress = (progress) => setCurrentIndex(progress * activityData.length);
-    // remove item-scoped props
-    propsForActivity.index = null;
-    propsForActivity.total = null;
-  }
-
-  // Lesson complete: pass original data
-  if (type === "lessoncomplete") {
-    propsForActivity.data = data;
-  }
-
-  // Grammar explanation / Dialogue etc: keep default `data = currentData` (dialogue expects full object)
-  if (type === "dialogue") {
-    propsForActivity.data = data;
-    propsForActivity.lines = data?.lines ?? [];
-  }
-
-  // Map generic internal callbacks to the names components expect when possible:
-  // If a component uses onNext, map it to __onNextInternal
-  // But to keep minimal intrusion we only map where needed:
-  // - For components that accept `onComplete` we already set it above.
-  // - For those that accept `onAnswer` we've set that in grammarquiz.
+  console.log("Props for activity component:", propsForActivity);
 
   return (
     <div className="exercisesection">
       <div ref={topRef} />
-      {Array.isArray(activityData) && activityData.length > 1 && (
+      {activityData.length > 1 && (
         <div className="exercisesection__progress-bar">
           <div
             className="exercisesection__progress-bar-fill"

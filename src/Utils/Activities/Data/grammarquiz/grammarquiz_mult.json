@@ -1,78 +1,130 @@
 {
-  "quizTitle": "Múlt Idő",
-  "type": "quiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "Tegnap 7-kor ______.",
-      "options": ["felkelek", "felkelsz", "felkel", "felkeltem"],
-      "answer": "felkeltem",
-      "translate": "I woke up at 7 am"
-    },
-    {
-      "id": 2,
-      "question": "Tegnap _______ 3 kávét.",
-      "options": ["iszol", "iszik", "ittam", "iszom"],
-      "answer": "ittam",
-      "translate": "I drank 3 coffees yesterday."
-    },
-    {
-      "id": 3,
-      "question": "Reggel gyorsan _______ egy szendvicset.",
-      "options": ["eszem", "eszel", "ettem", "esett"],
-      "answer": "ettem",
-      "translate": "I ate a sandwich quickly in the morning."
-    },
-    {
-      "id": 4,
-      "question": "8 órakor _______ a munkába.",
-      "options": ["mentem", "megyek", "megy", "mennek"],
-      "answer": "mentem",
-      "translate": "I went to work at 8 o'clock."
-    },
-    {
-      "id": 5,
-      "question": "Délelőtt sok e-mailt _______.",
-      "options": ["ír", "írok", "írtam", "írunk"],
-      "answer": "írtam",
-      "translate": "I wrote a lot of emails in the morning."
-    },
-    {
-      "id": 6,
-      "question": "Délben _______ az étteremben.",
-      "options": ["ebédelek", "ebédeltem", "ebédelsz", "ebédel"],
-      "answer": "ebédeltem",
-      "translate": "I had lunch at the restaurant at noon."
-    },
-    {
-      "id": 7,
-      "question": "Délután egy kollégával _______.",
-      "options": ["beszéltem", "beszélek", "beszélt", "beszélnek"],
-      "answer": "beszéltem",
-      "translate": "I talked with a colleague in the afternoon."
-    },
-    {
-      "id": 8,
-      "question": "Este 6-kor _______ haza.",
-      "options": ["jövök", "jöttem", "jössz", "jött"],
-      "answer": "jöttem",
-      "translate": "I came home at 6 in the evening."
-    },
-    {
-      "id": 9,
-      "question": "Otthon _______ vacsorát.",
-      "options": ["főztem", "főzök", "főz", "főztök"],
-      "answer": "főztem",
-      "translate": "I cooked dinner at home."
-    },
-    {
-      "id": 10,
-      "question": "Lefekvés előtt _______ egy könyvet.",
-      "options": ["olvasok", "olvassz", "olvastam", "olvasnak"],
-      "answer": "olvastam",
-      "translate": "I read a book before going to bed."
-    }
-  ]
+  "type": "grammarquiz",
+  "title": "grammarquiz_mult",
+  "data": {
+    "quizTitle": "Múlt Idő",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Tegnap 7-kor ______.",
+        "options": [
+          "felkelek",
+          "felkelsz",
+          "felkel",
+          "felkeltem"
+        ],
+        "answer": "felkeltem",
+        "translate": "I woke up at 7 am"
+      },
+      {
+        "id": 2,
+        "question": "Tegnap _______ 3 kávét.",
+        "options": [
+          "iszol",
+          "iszik",
+          "ittam",
+          "iszom"
+        ],
+        "answer": "ittam",
+        "translate": "I drank 3 coffees yesterday."
+      },
+      {
+        "id": 3,
+        "question": "Reggel gyorsan _______ egy szendvicset.",
+        "options": [
+          "eszem",
+          "eszel",
+          "ettem",
+          "esett"
+        ],
+        "answer": "ettem",
+        "translate": "I ate a sandwich quickly in the morning."
+      },
+      {
+        "id": 4,
+        "question": "8 órakor _______ a munkába.",
+        "options": [
+          "mentem",
+          "megyek",
+          "megy",
+          "mennek"
+        ],
+        "answer": "mentem",
+        "translate": "I went to work at 8 o'clock."
+      },
+      {
+        "id": 5,
+        "question": "Délelőtt sok e-mailt _______.",
+        "options": [
+          "ír",
+          "írok",
+          "írtam",
+          "írunk"
+        ],
+        "answer": "írtam",
+        "translate": "I wrote a lot of emails in the morning."
+      },
+      {
+        "id": 6,
+        "question": "Délben _______ az étteremben.",
+        "options": [
+          "ebédelek",
+          "ebédeltem",
+          "ebédelsz",
+          "ebédel"
+        ],
+        "answer": "ebédeltem",
+        "translate": "I had lunch at the restaurant at noon."
+      },
+      {
+        "id": 7,
+        "question": "Délután egy kollégával _______.",
+        "options": [
+          "beszéltem",
+          "beszélek",
+          "beszélt",
+          "beszélnek"
+        ],
+        "answer": "beszéltem",
+        "translate": "I talked with a colleague in the afternoon."
+      },
+      {
+        "id": 8,
+        "question": "Este 6-kor _______ haza.",
+        "options": [
+          "jövök",
+          "jöttem",
+          "jössz",
+          "jött"
+        ],
+        "answer": "jöttem",
+        "translate": "I came home at 6 in the evening."
+      },
+      {
+        "id": 9,
+        "question": "Otthon _______ vacsorát.",
+        "options": [
+          "főztem",
+          "főzök",
+          "főz",
+          "főztök"
+        ],
+        "answer": "főztem",
+        "translate": "I cooked dinner at home."
+      },
+      {
+        "id": 10,
+        "question": "Lefekvés előtt _______ egy könyvet.",
+        "options": [
+          "olvasok",
+          "olvassz",
+          "olvastam",
+          "olvasnak"
+        ],
+        "answer": "olvastam",
+        "translate": "I read a book before going to bed."
+      }
+    ]
+  }
 }
-
-

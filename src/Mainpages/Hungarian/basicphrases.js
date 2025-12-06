@@ -4,12 +4,12 @@ import GrammarExplanation from './HungarianIntros/intro_basicphrases';
 import mainimage from '../../Images/jelenido1.jpg';
 
 const sections = [
-  { label: "Explanation", type: "grammarexplanation", subtype: "basicphrases" },
   { label: "Dialogue", type: "dialogue", subtype: "basicphrases" },
   { label: "Image Match", type: "imagematch", subtype: "basicphrases" },
+  { label: "Explanation", type: "grammarexplanation", subtype: "basicphrases" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "basicphrases" },
   { label: "Vocab", type: "vocabmatch", subtype: "basicphrases" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "basicphrases" },
-  { label: "Tap What You Hear", type: "tapaudio", subtype: "basicphrases" },
   { label: "Exercises", type: "grammarquiz", subtype: "basicphrases" },
   { label: "Word Order", type: "ordering", subtype: "basicphrases" },
   { label: "Reading", type: "reading", subtype: "nevem-bob" },

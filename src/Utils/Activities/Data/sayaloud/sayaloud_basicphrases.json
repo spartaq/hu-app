@@ -1,0 +1,14 @@
+{
+  "type": "sayaloud",
+  "title": "sayaloud_basicphrases",
+  "data": {
+    "items": [
+      {
+        "id": "sayaloud1",
+        "phrase": "Hogy vagy?",
+        "translation": "How are you?",
+        "audio": "/Audio/hogyvagy.mp3"
+      }
+    ]
+  }
+}

@@ -1,11 +1,24 @@
 {
-  "quizTitle": "Van – There is / There are",
-  "type": "vocab",
-  "topic": "van",
-  "pairs": [
-    { "term": "van", "definition": "there is" },
-    { "term": "nincs", "definition": "there isn’t" },
-    { "term": "vannak", "definition": "there are" },
-    { "term": "nincsenek", "definition": "there aren’t" }
-  ]
+  "type": "vocabmatch",
+  "title": "Van – There is / There are",
+  "data": {
+    "items": [
+      {
+        "term": "van",
+        "definition": "there is"
+      },
+      {
+        "term": "nincs",
+        "definition": "there isn’t"
+      },
+      {
+        "term": "vannak",
+        "definition": "there are"
+      },
+      {
+        "term": "nincsenek",
+        "definition": "there aren’t"
+      }
+    ]
+  }
 }

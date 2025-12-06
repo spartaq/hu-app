@@ -1,20 +1,26 @@
-[
-  {
-    "id": "aw1",
-    "audio": "/Audio/audiotest.mp3",
-    "text": "En",
-    "translation": "I/me"
-  },
-  {
-    "id": "aw2",
-    "audio": "/Audio/audiotest.mp3",
-    "text": "Te",
-    "translation": "You"
-  },
-  {
-    "id": "aw3",
-    "audio": "/Audio/audiotest.mp3",
-    "text": "Ők",
-    "translation": "They"
+{
+  "type": "audiowordmatch",
+  "title": "audiowordmatch_nevmas",
+  "data": {
+    "items": [
+      {
+        "id": "aw1",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "En",
+        "translation": "I/me"
+      },
+      {
+        "id": "aw2",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "Te",
+        "translation": "You"
+      },
+      {
+        "id": "aw3",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "Ők",
+        "translation": "They"
+      }
+    ]
   }
-]
+}

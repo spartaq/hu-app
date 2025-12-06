@@ -1,0 +1,38 @@
+{
+  "title": "Around the House Dialogue",
+  "audio": "/Audio/audiotest.mp3",
+  "avatarMap": {
+    "Anna": "/avatars/anna.png",
+    "Béla": "/avatars/bela.png"
+  },
+  "lines": [
+    {
+      "speaker": "Anna",
+      "text": "Van egy kutya a kertben?",
+      "translation": "Is there a dog in the garden?",
+      "start": 0,
+      "end": 2500
+    },
+    {
+      "speaker": "Béla",
+      "text": "Igen, van két kutya és egy macska.",
+      "translation": "Yes, there are two dogs and a cat.",
+      "start": 2600,
+      "end": 5000
+    },
+    {
+      "speaker": "Anna",
+      "text": "Van tej a hűtőben?",
+      "translation": "Is there milk in the fridge?",
+      "start": 5100,
+      "end": 7000
+    },
+    {
+      "speaker": "Béla",
+      "text": "Nincs, de van egy tojás és egy kenyér.",
+      "translation": "No, but there is an egg and a bread.",
+      "start": 7100,
+      "end": 9500
+    }
+  ]
+}

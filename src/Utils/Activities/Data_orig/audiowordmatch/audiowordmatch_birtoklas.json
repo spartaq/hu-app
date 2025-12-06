@@ -1,0 +1,5 @@
+[
+  { "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "anyám", "translation": "my mother" },
+  { "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "apám", "translation": "my father" },
+  { "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "kabátom", "translation": "my coat" }
+]

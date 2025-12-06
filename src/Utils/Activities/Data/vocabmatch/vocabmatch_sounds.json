@@ -1,9 +1,8 @@
-
-  {
-    "quizTitle": "Match the words",
-    "type": "vocab",
-    "topic": "#",
-    "pairs": [
+{
+  "type": "vocabmatch",
+  "title": "Match the words",
+  "data": {
+    "items": [
       {
         "term": "#",
         "definition": "#"
@@ -22,3 +21,4 @@
       }
     ]
   }
+}

@@ -1,41 +1,70 @@
 {
-  "quizTitle": "Numbers & Quantities Quiz",
-  "type": "quiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "What is 'three' in Hungarian?",
-      "options": ["egy", "három", "négy", "öt"],
-      "answer": "három",
-      "translate": "three"
-    },
-    {
-      "id": 2,
-      "question": "How do you say 'five'?",
-      "options": ["öt", "hat", "hét", "tíz"],
-      "answer": "öt",
-      "translate": "five"
-    },
-    {
-      "id": 3,
-      "question": "'How much?' in Hungarian is?",
-      "options": ["ár", "mennyi", "vásárol", "bolt"],
-      "answer": "mennyi",
-      "translate": "how much?"
-    },
-    {
-      "id": 4,
-      "question": "'Apple' in Hungarian is?",
-      "options": ["alma", "tojás", "kenyér", "tej"],
-      "answer": "alma",
-      "translate": "apple"
-    },
-    {
-      "id": 5,
-      "question": "What is 'two'?",
-      "options": ["kettő", "egy", "három", "négy"],
-      "answer": "kettő",
-      "translate": "two"
-    }
-  ]
+  "type": "grammarquiz",
+  "title": "grammarquiz_numbers",
+  "data": {
+    "quizTitle": "Numbers & Quantities Quiz",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is 'three' in Hungarian?",
+        "options": [
+          "egy",
+          "három",
+          "négy",
+          "öt"
+        ],
+        "answer": "három",
+        "translate": "three"
+      },
+      {
+        "id": 2,
+        "question": "How do you say 'five'?",
+        "options": [
+          "öt",
+          "hat",
+          "hét",
+          "tíz"
+        ],
+        "answer": "öt",
+        "translate": "five"
+      },
+      {
+        "id": 3,
+        "question": "'How much?' in Hungarian is?",
+        "options": [
+          "ár",
+          "mennyi",
+          "vásárol",
+          "bolt"
+        ],
+        "answer": "mennyi",
+        "translate": "how much?"
+      },
+      {
+        "id": 4,
+        "question": "'Apple' in Hungarian is?",
+        "options": [
+          "alma",
+          "tojás",
+          "kenyér",
+          "tej"
+        ],
+        "answer": "alma",
+        "translate": "apple"
+      },
+      {
+        "id": 5,
+        "question": "What is 'two'?",
+        "options": [
+          "kettő",
+          "egy",
+          "három",
+          "négy"
+        ],
+        "answer": "kettő",
+        "translate": "two"
+      }
+    ]
+  }
 }

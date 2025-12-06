@@ -1,42 +1,117 @@
-[
-  {
-    "id": "pron1",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Én", "vagyok", "tanár", "."],
-    "options": ["Én", "vagyok", "tanár", ".", "Te", "Ő", "Mi"],
-    "translation": "I am a teacher."
-  },
-  {
-    "id": "pron2",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Te", "vagy", "diák", "."],
-    "options": ["Te", "vagy", "diák", ".", "Én", "Ő", "Mi"],
-    "translation": "You are a student."
-  },
-  {
-    "id": "pron3",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Ő", "szereti", "a", "csokit", "."],
-    "options": ["Ő", "szereti", "a", "csokit", ".", "Ők", "Te", "Én"],
-    "translation": "He/She likes chocolate."
-  },
-  {
-    "id": "pron4",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Mi", "vagyunk", "barátok", "."],
-    "options": ["Mi", "vagyunk", "barátok", ".", "Ti", "Ők", "Én"],
-    "translation": "We are friends."
-  },
-  {
-    "id": "pron5",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Ez", "az", "a", "könyvem", "."],
-    "options": ["Ez", "az", "a", "könyvem", ".", "Az", "Ez", "Azok"],
-    "translation": "This is my book."
+{
+  "type": "tapaudio",
+  "title": "tapaudio_nevmas",
+  "data": {
+    "items": [
+      {
+        "id": "pron1",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Én",
+          "vagyok",
+          "tanár",
+          "."
+        ],
+        "options": [
+          "Én",
+          "vagyok",
+          "tanár",
+          ".",
+          "Te",
+          "Ő",
+          "Mi"
+        ],
+        "translation": "I am a teacher."
+      },
+      {
+        "id": "pron2",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Te",
+          "vagy",
+          "diák",
+          "."
+        ],
+        "options": [
+          "Te",
+          "vagy",
+          "diák",
+          ".",
+          "Én",
+          "Ő",
+          "Mi"
+        ],
+        "translation": "You are a student."
+      },
+      {
+        "id": "pron3",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Ő",
+          "szereti",
+          "a",
+          "csokit",
+          "."
+        ],
+        "options": [
+          "Ő",
+          "szereti",
+          "a",
+          "csokit",
+          ".",
+          "Ők",
+          "Te",
+          "Én"
+        ],
+        "translation": "He/She likes chocolate."
+      },
+      {
+        "id": "pron4",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Mi",
+          "vagyunk",
+          "barátok",
+          "."
+        ],
+        "options": [
+          "Mi",
+          "vagyunk",
+          "barátok",
+          ".",
+          "Ti",
+          "Ők",
+          "Én"
+        ],
+        "translation": "We are friends."
+      },
+      {
+        "id": "pron5",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Ez",
+          "az",
+          "a",
+          "könyvem",
+          "."
+        ],
+        "options": [
+          "Ez",
+          "az",
+          "a",
+          "könyvem",
+          ".",
+          "Az",
+          "Ez",
+          "Azok"
+        ],
+        "translation": "This is my book."
+      }
+    ]
   }
-]
+}

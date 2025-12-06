@@ -1,7 +1,38 @@
-[
-{ "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "kávé", "translation": "coffee" },
-{ "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "tea", "translation": "tea" },
-{ "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "sör", "translation": "beer" },
-{ "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "víz", "translation": "water" },
-{ "id": "aw5", "audio": "/Audio/audiotest.mp3", "text": "kenyér", "translation": "bread" }
-]
+{
+  "type": "audiowordmatch",
+  "title": "audiowordmatch_orderingdrinks",
+  "data": {
+    "items": [
+      {
+        "id": "aw1",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "kávé",
+        "translation": "coffee"
+      },
+      {
+        "id": "aw2",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "tea",
+        "translation": "tea"
+      },
+      {
+        "id": "aw3",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "sör",
+        "translation": "beer"
+      },
+      {
+        "id": "aw4",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "víz",
+        "translation": "water"
+      },
+      {
+        "id": "aw5",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "kenyér",
+        "translation": "bread"
+      }
+    ]
+  }
+}

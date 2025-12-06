@@ -1,10 +1,15 @@
-[
-  {
-    "id": "questions-1",
-    "type": "ordering",
-    "topic": "questions",
-    "quizTitle": "Put the sentence in order",
-    "sentence": "Mikor találkozunk ma?",
-    "translation": "When are we meeting today?"
+{
+  "type": "wordorder",
+  "title": "wordorder_basicquestions",
+  "data": {
+    "items": [
+      {
+        "id": "questions-1",
+        "topic": "questions",
+        "quizTitle": "Put the sentence in order",
+        "sentence": "Mikor találkozunk ma?",
+        "translation": "When are we meeting today?"
+      }
+    ]
   }
-]
+}

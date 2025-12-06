@@ -1,8 +1,11 @@
 {
-  "id": "lessonComplete-basicadjectives",
   "type": "lessoncomplete",
   "title": "Lesson Complete!",
-  "message": "Great job! You're ready to move on.",
-  "nextLessonUrl": "/hungarian/basicquestions",
-  "hubUrl": "/activities"
+  "data": {
+    "id": "lessonComplete-basicadjectives",
+    "type": "lessoncomplete",
+    "message": "Great job! You're ready to move on.",
+    "nextLessonUrl": "/hungarian/basicquestions",
+    "hubUrl": "/activities"
+  }
 }

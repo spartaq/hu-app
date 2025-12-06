@@ -1,0 +1,38 @@
+{
+  "type": "audiowordmatch",
+  "title": "Audio Word Match – Lesson 1",
+  "data": {
+    "audioFile": "/Audio/lesson1.mp3",
+    "items": [
+       {
+    "id": "aw2",
+    "text": "Jó reggelt",
+    "translation": "Good morning",
+    "start": 0, 
+    "end": 400
+  },
+  {
+    "id": "aw3",
+    "text": "Jó estét",
+    "translation": "Good evening",
+    "start": 410, 
+    "end": 800
+  },
+  {
+    "id": "aw4",
+    "text": "Jo napot",
+    "translation": "Good day",
+    "start": 810, 
+    "end": 1200
+  },
+  {
+    "id": "aw5",
+    "audio": "/Audio/audiotest.mp3",
+    "text": "Köszönöm",
+    "translation": "Thank you",
+    "start": 1210, 
+    "end": 1600
+  }
+    ]
+  }
+}

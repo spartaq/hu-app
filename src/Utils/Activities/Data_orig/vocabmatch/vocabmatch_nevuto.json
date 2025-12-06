@@ -1,0 +1,14 @@
+{
+  "quizTitle": "nevuto",
+  "type": "vocab",
+  "topic": "postpositions",
+  "pairs": [
+    { "term": "itt", "definition": "here" },
+    { "term": "ott", "definition": "there" },
+    { "term": "közel", "definition": "near" },
+    { "term": "távol", "definition": "far" },
+    { "term": "bolt", "definition": "shop" },
+    { "term": "park", "definition": "park" },
+    { "term": "templom", "definition": "church" }
+  ]
+}

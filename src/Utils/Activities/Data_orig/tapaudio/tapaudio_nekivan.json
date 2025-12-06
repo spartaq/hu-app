@@ -1,0 +1,42 @@
+[
+  {
+    "id": "have1",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Nekem", "van", "egy", "kutyám", "."],
+    "options": ["Nekem", "van", "egy", "kutyám", ".", "neked", "van", "kutya"],
+    "translation": "I have a dog."
+  },
+  {
+    "id": "have2",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Neked", "van", "egy", "új", "könyved", "."],
+    "options": ["Neked", "van", "egy", "új", "könyved", ".", "nekem", "van", "könyv"],
+    "translation": "You have a new book."
+  },
+  {
+    "id": "have3",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Neki", "van", "egy", "biciklije", "."],
+    "options": ["Neki", "van", "egy", "biciklije", ".", "nekik", "van", "bicikli"],
+    "translation": "He/She has a bicycle."
+  },
+  {
+    "id": "have4",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Nekünk", "van", "három", "almánk", "."],
+    "options": ["Nekünk", "van", "három", "almánk", ".", "neked", "van", "alma"],
+    "translation": "We have three apples."
+  },
+  {
+    "id": "have5",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Nekik", "van", "egy", "nagy", "házuk", "."],
+    "options": ["Nekik", "van", "egy", "nagy", "házuk", ".", "nekünk", "van", "ház"],
+    "translation": "They have a big house."
+  }
+]

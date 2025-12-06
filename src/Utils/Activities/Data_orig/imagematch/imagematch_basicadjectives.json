@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "quizTitle": "Match the Adjective",
+    "audio": "/Audio/audiotest.mp3",
+    "prompt": "Which picture shows 'piros'?",
+    "options": [
+      { "id": "a", "image": "/images/red.jpg", "word": "piros", "isCorrect": true },
+      { "id": "b", "image": "/images/blue.jpg", "word": "kék", "isCorrect": false }
+    ],
+    "translation": "red",
+    "mode": "word-to-image"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nevuto-1",
+    "type": "ordering",
+    "topic": "nevuto",
+    "quizTitle": "Put the sentence in order",
+    "sentence": "parkban a van a bolt",
+    "translation": "The shop is in the park"
+  },
+  {
+    "id": "nevuto-2",
+    "type": "ordering",
+    "topic": "nevuto",
+    "quizTitle": "Put the sentence in order",
+    "sentence": "jobbra menj kérlek",
+    "translation": "Go right please"
+  },
+  {
+    "id": "nevuto-3",
+    "type": "ordering",
+    "topic": "nevuto",
+    "quizTitle": "Put the sentence in order",
+    "sentence": "kórház a közel van",
+    "translation": "The hospital is near"
+  }
+]

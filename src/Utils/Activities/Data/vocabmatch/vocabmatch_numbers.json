@@ -1,9 +1,16 @@
 {
-  "quizTitle": "Basic Food Words",
-  "type": "vocab",
-  "topic": "food",
-  "pairs": [
-    { "term": "alma", "definition": "apple" },
-    { "term": "tej",  "definition": "milk" }
-  ]
+  "type": "vocabmatch",
+  "title": "Basic Food Words",
+  "data": {
+    "items": [
+      {
+        "term": "alma",
+        "definition": "apple"
+      },
+      {
+        "term": "tej",
+        "definition": "milk"
+      }
+    ]
+  }
 }

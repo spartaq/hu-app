@@ -1,38 +1,41 @@
 {
+  "type": "dialogue",
   "title": "Who wants ice cream?",
-  "audio": "/Audio/audiotest.mp3",
-  "avatarMap": {
-    "Anna": "/avatars/anna.png",
-    "Bálint": "/avatars/balint.png"
-  },
-  "lines": [
-    {
-    "speaker": "Anna",
-    "text": "Ki akar fagyi?",
-    "translation": "Who wants ice cream?.",
-    "start": 0,
-    "end": 3836
-  },
-  {
-    "speaker": "Bálint",
-    "text": "En. Gondodolm ok is kernek.",
-    "translation": "Me. I think they want some too.",
-    "start": 3837,
-    "end": 7000
-  },
-  {
-    "speaker": "Anna",
-    "text": "Ti akartok fagyit is?",
-    "translation": "Do you all want ice cream?",
-    "start": 7000,
-    "end": 10500
-  },
-  {
-    "speaker": "mindenki",
-    "text": "Igen, mi akarunk!",
-    "translation": "Yes, we do!",
-    "start": 10500,
-    "end": 15332
+  "data": {
+    "audio": "/Audio/audiotest.mp3",
+    "avatarMap": {
+      "Anna": "/avatars/anna.png",
+      "Bálint": "/avatars/balint.png"
+    },
+    "lines": [
+      {
+        "speaker": "Anna",
+        "text": "Ki akar fagyi?",
+        "translation": "Who wants ice cream?.",
+        "start": 0,
+        "end": 3836
+      },
+      {
+        "speaker": "Bálint",
+        "text": "En. Gondodolm ok is kernek.",
+        "translation": "Me. I think they want some too.",
+        "start": 3837,
+        "end": 7000
+      },
+      {
+        "speaker": "Anna",
+        "text": "Ti akartok fagyit is?",
+        "translation": "Do you all want ice cream?",
+        "start": 7000,
+        "end": 10500
+      },
+      {
+        "speaker": "mindenki",
+        "text": "Igen, mi akarunk!",
+        "translation": "Yes, we do!",
+        "start": 10500,
+        "end": 15332
+      }
+    ]
   }
-  ]
 }

@@ -1,54 +1,126 @@
-[
-   {
-    "id": "lenni1",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Én", "vagyok", "boldog", "."],
-    "options": ["Én", "vagyok", "boldog", ".", "van", "vagy", "vagyok-e"],
-    "translation": "I am happy."
-  },
-  {
-    "id": "lenni2",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Te", "vagy", "szomorú", "."],
-    "options": ["Te", "vagy", "szomorú", ".", "vagyok", "van", "vagy-e"],
-    "translation": "You are sad."
-  },
-  {
-    "id": "lenni3",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Mi", "vagyunk", "barátok", "."],
-    "options": ["Mi", "vagyunk", "barátok", ".", "vannak", "vagy", "vagyunk-e"],
-    "translation": "We are friends."
-  },
-  {
-    "id": "lenni4",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Ők", "vannak", "tanárok", "."],
-    "options": ["Ők", "vannak", "tanárok", ".", "vagyunk", "vagy", "van"],
-    "translation": "They are teachers."
-  },
-  {
-    "id": "lenni5",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szia", "Anna", "vagyok"],
-    "options": ["Szia", "Anna", "vagyok", "vagy"],
-    "translation": "Hi, I'm Anna"
-  },
-  {
-    "id": "lenni6",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Örülök", "hogy", "találkoztunk"],
-    "options": ["Örülök", "hogy", "találkoztunk", "jó"],
-    "translation": "Nice to meet you"
+{
+  "type": "tapaudio",
+  "title": "tapaudio_lenni",
+  "data": {
+    "items": [
+      {
+        "id": "lenni1",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Én",
+          "vagyok",
+          "boldog",
+          "."
+        ],
+        "options": [
+          "Én",
+          "vagyok",
+          "boldog",
+          ".",
+          "van",
+          "vagy",
+          "vagyok-e"
+        ],
+        "translation": "I am happy."
+      },
+      {
+        "id": "lenni2",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Te",
+          "vagy",
+          "szomorú",
+          "."
+        ],
+        "options": [
+          "Te",
+          "vagy",
+          "szomorú",
+          ".",
+          "vagyok",
+          "van",
+          "vagy-e"
+        ],
+        "translation": "You are sad."
+      },
+      {
+        "id": "lenni3",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Mi",
+          "vagyunk",
+          "barátok",
+          "."
+        ],
+        "options": [
+          "Mi",
+          "vagyunk",
+          "barátok",
+          ".",
+          "vannak",
+          "vagy",
+          "vagyunk-e"
+        ],
+        "translation": "We are friends."
+      },
+      {
+        "id": "lenni4",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Ők",
+          "vannak",
+          "tanárok",
+          "."
+        ],
+        "options": [
+          "Ők",
+          "vannak",
+          "tanárok",
+          ".",
+          "vagyunk",
+          "vagy",
+          "van"
+        ],
+        "translation": "They are teachers."
+      },
+      {
+        "id": "lenni5",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Szia",
+          "Anna",
+          "vagyok"
+        ],
+        "options": [
+          "Szia",
+          "Anna",
+          "vagyok",
+          "vagy"
+        ],
+        "translation": "Hi, I'm Anna"
+      },
+      {
+        "id": "lenni6",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Örülök",
+          "hogy",
+          "találkoztunk"
+        ],
+        "options": [
+          "Örülök",
+          "hogy",
+          "találkoztunk",
+          "jó"
+        ],
+        "translation": "Nice to meet you"
+      }
+    ]
   }
-]
-
-
- 
-
+}

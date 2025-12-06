@@ -1,43 +1,46 @@
 {
   "type": "grammarexplanation",
   "title": "Numbers & Quantities",
-  "sections": [
-    {
-      "heading": "Counting in Hungarian",
-      "paragraphs": [
-        "Hungarian numbers from 0 to 10 are: nulla, egy, kettő, három, négy, öt, hat, hét, nyolc, kilenc, tíz.",
-        "Use these numbers when counting objects, prices, or quantities in everyday situations like shopping.",
-        "Questions like 'mennyi?' (how much?) and nouns like 'ár' (price) are useful when buying items."
-      ],
-      "list": [
-        "0 – nulla",
-        "1 – egy",
-        "2 – kettő",
-        "3 – három",
-        "4 – négy",
-        "5 – öt",
-        "6 – hat",
-        "7 – hét",
-        "8 – nyolc",
-        "9 – kilenc",
-        "10 – tíz"
-      ]
-    },
-    {
-      "heading": "Shopping & Quantities",
-      "paragraphs": [
-        "When shopping, you can combine numbers with nouns to ask for quantities.",
-        "For example: 'két alma' means 'two apples'.",
-        "Other common shopping words include 'bolt' (shop), 'vásárol' (buy), 'tej' (milk), 'kenyér' (bread), 'tojás' (egg)."
-      ],
-      "list": [
-        "Apple – alma",
-        "Bread – kenyér",
-        "Milk – tej",
-        "Egg – tojás",
-        "Price – ár",
-        "How much? – mennyi?"
-      ]
-    }
-  ]
+  "data": {
+    "type": "grammarexplanation",
+    "sections": [
+      {
+        "heading": "Counting in Hungarian",
+        "paragraphs": [
+          "Hungarian numbers from 0 to 10 are: nulla, egy, kettő, három, négy, öt, hat, hét, nyolc, kilenc, tíz.",
+          "Use these numbers when counting objects, prices, or quantities in everyday situations like shopping.",
+          "Questions like 'mennyi?' (how much?) and nouns like 'ár' (price) are useful when buying items."
+        ],
+        "list": [
+          "0 – nulla",
+          "1 – egy",
+          "2 – kettő",
+          "3 – három",
+          "4 – négy",
+          "5 – öt",
+          "6 – hat",
+          "7 – hét",
+          "8 – nyolc",
+          "9 – kilenc",
+          "10 – tíz"
+        ]
+      },
+      {
+        "heading": "Shopping & Quantities",
+        "paragraphs": [
+          "When shopping, you can combine numbers with nouns to ask for quantities.",
+          "For example: 'két alma' means 'two apples'.",
+          "Other common shopping words include 'bolt' (shop), 'vásárol' (buy), 'tej' (milk), 'kenyér' (bread), 'tojás' (egg)."
+        ],
+        "list": [
+          "Apple – alma",
+          "Bread – kenyér",
+          "Milk – tej",
+          "Egg – tojás",
+          "Price – ár",
+          "How much? – mennyi?"
+        ]
+      }
+    ]
+  }
 }

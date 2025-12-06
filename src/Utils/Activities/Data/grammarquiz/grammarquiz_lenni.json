@@ -1,76 +1,130 @@
 {
-  "quizTitle": "Lenni",
-  "type": "quiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "Én magyar ______.",
-      "options": ["vagy", "van", "vársz", "vagyok"],
-      "answer": "vagyok",
-      "translate": "I'm Hungarian."
-    },
-    {
-      "id": 2,
-      "question": "Te amerikai ______?",
-      "options": ["vannak", "vagy", "van", "vagyok"],
-      "answer": "vagy",
-      "translate": "Are you American?"
-    },
-    {
-      "id": 3,
-      "question": "Ő tanár és ma nagyon fáradt ______.",
-      "options": ["vannak", "-", "vagy", "vagyok"],
-      "answer": "-",
-      "translate": "He/she is a teacher and today he/she is very tired."
-    },
-    {
-      "id": 4,
-      "question": "Mi mérnökök ______.",
-      "options": ["vagytok", "vagyunk", "van", "vannak"],
-      "answer": "vagyunk",
-      "translate": "We are engineers."
-    },
-    {
-      "id": 5,
-      "question": "Ti nagyon barátságosak ______.",
-      "options": ["vagyok", "van", "vagytok", "vannak"],
-      "answer": "vagytok",
-      "translate": "You (plural) are very friendly."
-    },
-    {
-      "id": 6,
-      "question": "A diákok már az iskolában ______.",
-      "options": ["vagy", "vagyok", "vannak", "van"],
-      "answer": "vannak",
-      "translate": "The students are already at school."
-    },
-    {
-      "id": 7,
-      "question": "Én nem ______ beteg, csak fáradt.",
-      "options": ["vagyunk", "van", "vagyok", "vagytok"],
-      "answer": "vagyok",
-      "translate": "I am not sick, just tired."
-    },
-    {
-      "id": 8,
-      "question": "Ők olaszok ______?",
-      "options": ["vagy", "-", "van", "vagyok"],
-      "answer": "-",
-      "translate": "Are they Italian?"
-    },
-    {
-      "id": 9,
-      "question": "A barátom orvos ______.",
-      "options": ["vagyok", "-", "vagytok", "vannak"],
-      "answer": "-",
-      "translate": "My friend is a doctor."
-    },
-    {
-      "id": 10,
-      "question": "Mi készen ______ a találkozóra.",
-      "options": ["van", "vannak", "vagytok", "vagyunk"],
-      "answer": "vagyunk",
-      "translate": "We are ready for the meeting."
-    }
-  ]
+  "type": "grammarquiz",
+  "title": "grammarquiz_lenni",
+  "data": {
+    "quizTitle": "Lenni",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Én magyar ______.",
+        "options": [
+          "vagy",
+          "van",
+          "vársz",
+          "vagyok"
+        ],
+        "answer": "vagyok",
+        "translate": "I'm Hungarian."
+      },
+      {
+        "id": 2,
+        "question": "Te amerikai ______?",
+        "options": [
+          "vannak",
+          "vagy",
+          "van",
+          "vagyok"
+        ],
+        "answer": "vagy",
+        "translate": "Are you American?"
+      },
+      {
+        "id": 3,
+        "question": "Ő tanár és ma nagyon fáradt ______.",
+        "options": [
+          "vannak",
+          "-",
+          "vagy",
+          "vagyok"
+        ],
+        "answer": "-",
+        "translate": "He/she is a teacher and today he/she is very tired."
+      },
+      {
+        "id": 4,
+        "question": "Mi mérnökök ______.",
+        "options": [
+          "vagytok",
+          "vagyunk",
+          "van",
+          "vannak"
+        ],
+        "answer": "vagyunk",
+        "translate": "We are engineers."
+      },
+      {
+        "id": 5,
+        "question": "Ti nagyon barátságosak ______.",
+        "options": [
+          "vagyok",
+          "van",
+          "vagytok",
+          "vannak"
+        ],
+        "answer": "vagytok",
+        "translate": "You (plural) are very friendly."
+      },
+      {
+        "id": 6,
+        "question": "A diákok már az iskolában ______.",
+        "options": [
+          "vagy",
+          "vagyok",
+          "vannak",
+          "van"
+        ],
+        "answer": "vannak",
+        "translate": "The students are already at school."
+      },
+      {
+        "id": 7,
+        "question": "Én nem ______ beteg, csak fáradt.",
+        "options": [
+          "vagyunk",
+          "van",
+          "vagyok",
+          "vagytok"
+        ],
+        "answer": "vagyok",
+        "translate": "I am not sick, just tired."
+      },
+      {
+        "id": 8,
+        "question": "Ők olaszok ______?",
+        "options": [
+          "vagy",
+          "-",
+          "van",
+          "vagyok"
+        ],
+        "answer": "-",
+        "translate": "Are they Italian?"
+      },
+      {
+        "id": 9,
+        "question": "A barátom orvos ______.",
+        "options": [
+          "vagyok",
+          "-",
+          "vagytok",
+          "vannak"
+        ],
+        "answer": "-",
+        "translate": "My friend is a doctor."
+      },
+      {
+        "id": 10,
+        "question": "Mi készen ______ a találkozóra.",
+        "options": [
+          "van",
+          "vannak",
+          "vagytok",
+          "vagyunk"
+        ],
+        "answer": "vagyunk",
+        "translate": "We are ready for the meeting."
+      }
+    ]
+  }
 }

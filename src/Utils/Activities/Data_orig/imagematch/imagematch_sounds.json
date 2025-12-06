@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "quizTitle": "#",
+    "promptImage": "/Images/#.jpg",
+    "options": [
+      {
+        "id": "a",
+        "word": "#",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "word": "#",
+        "isCorrect": false
+      }
+    ],
+    "translation": "Good morning!",
+    "mode": "image-to-word"
+  },
+  {
+    "id": 2,
+    "quizTitle": "#",
+    "audio": "/Audio/audiotest.mp3",
+    "prompt": "#",
+    "options": [
+      {
+        "id": "a",
+        "image": "/images/#.jpg",
+        "word": "#",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "image": "/images/#.jpg",
+        "word": "#",
+        "isCorrect": false
+      }
+    ],
+    "translation": "#",
+    "mode": "word-to-image"
+  }
+]

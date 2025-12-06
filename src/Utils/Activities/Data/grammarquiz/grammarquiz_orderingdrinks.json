@@ -1,27 +1,46 @@
 {
-"quizTitle": "Ordering Drinks Quiz",
-"type": "quiz",
-"questions": [
-{
-"id": 1,
-"question": "Which is more polite for ordering tea?",
-"options": ["Kérek teát", "Szeretnék teát", "Adj teát", "Vigyél teát"],
-"answer": "Szeretnék teát",
-"translate": "Melyik udvariasabb a tea rendelésére?"
-},
-{
-"id": 2,
-"question": "How do you say 'I would like a coffee'?",
-"options": ["Kérek kávét", "Szeretnék kávét", "Kávét adok", "Kávé itt van"],
-"answer": "Szeretnék kávét",
-"translate": "Hogyan mondjuk azt, hogy 'Szeretnék egy kávét'?"
-},
-{
-"id": 3,
-"question": "Translate: 'Kérek vizet'.",
-"options": ["I want water", "I would like water", "Please give me water", "I drink water"],
-"answer": "Please give me water",
-"translate": "Fordítsd le: 'Kérek vizet'."
-}
-]
+  "type": "grammarquiz",
+  "title": "grammarquiz_orderingdrinks",
+  "data": {
+    "quizTitle": "Ordering Drinks Quiz",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which is more polite for ordering tea?",
+        "options": [
+          "Kérek teát",
+          "Szeretnék teát",
+          "Adj teát",
+          "Vigyél teát"
+        ],
+        "answer": "Szeretnék teát",
+        "translate": "Melyik udvariasabb a tea rendelésére?"
+      },
+      {
+        "id": 2,
+        "question": "How do you say 'I would like a coffee'?",
+        "options": [
+          "Kérek kávét",
+          "Szeretnék kávét",
+          "Kávét adok",
+          "Kávé itt van"
+        ],
+        "answer": "Szeretnék kávét",
+        "translate": "Hogyan mondjuk azt, hogy 'Szeretnék egy kávét'?"
+      },
+      {
+        "id": 3,
+        "question": "Translate: 'Kérek vizet'.",
+        "options": [
+          "I want water",
+          "I would like water",
+          "Please give me water",
+          "I drink water"
+        ],
+        "answer": "Please give me water",
+        "translate": "Fordítsd le: 'Kérek vizet'."
+      }
+    ]
+  }
 }

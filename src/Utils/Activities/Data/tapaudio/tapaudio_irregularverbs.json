@@ -1,42 +1,123 @@
-[
-  {
-    "id": "irr1",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Mit", "teszel", "az", "asztalra", "?"],
-    "options": ["Mit", "teszel", "az", "asztalra", "?", "tesz", "teszek", "asztal"],
-    "translation": "What are you putting on the table?"
-  },
-  {
-    "id": "irr2",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Hol", "veszed", "a", "kenyeret", "?"],
-    "options": ["Hol", "veszed", "a", "kenyeret", "?", "veszek", "vesz", "kenyér"],
-    "translation": "Where do you buy the bread?"
-  },
-  {
-    "id": "irr3",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Ez", "a", "film", "tetszik", "nekem", "."],
-    "options": ["Ez", "a", "film", "tetszik", "nekem", ".", "tetszel", "nézem", "film"],
-    "translation": "I like this movie."
-  },
-  {
-    "id": "irr4",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Mi", "történik", "itt", "?"],
-    "options": ["Mi", "történik", "itt", "?", "történsz", "történt", "hol"],
-    "translation": "What is happening here?"
-  },
-  {
-    "id": "irr5",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Gyorsan", "telik", "az", "idő", "."],
-    "options": ["Gyorsan", "telik", "az", "idő", ".", "telnek", "telik", "idő"],
-    "translation": "Time goes by fast."
+{
+  "type": "tapaudio",
+  "title": "tapaudio_irregularverbs",
+  "data": {
+    "items": [
+      {
+        "id": "irr1",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Mit",
+          "teszel",
+          "az",
+          "asztalra",
+          "?"
+        ],
+        "options": [
+          "Mit",
+          "teszel",
+          "az",
+          "asztalra",
+          "?",
+          "tesz",
+          "teszek",
+          "asztal"
+        ],
+        "translation": "What are you putting on the table?"
+      },
+      {
+        "id": "irr2",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Hol",
+          "veszed",
+          "a",
+          "kenyeret",
+          "?"
+        ],
+        "options": [
+          "Hol",
+          "veszed",
+          "a",
+          "kenyeret",
+          "?",
+          "veszek",
+          "vesz",
+          "kenyér"
+        ],
+        "translation": "Where do you buy the bread?"
+      },
+      {
+        "id": "irr3",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Ez",
+          "a",
+          "film",
+          "tetszik",
+          "nekem",
+          "."
+        ],
+        "options": [
+          "Ez",
+          "a",
+          "film",
+          "tetszik",
+          "nekem",
+          ".",
+          "tetszel",
+          "nézem",
+          "film"
+        ],
+        "translation": "I like this movie."
+      },
+      {
+        "id": "irr4",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Mi",
+          "történik",
+          "itt",
+          "?"
+        ],
+        "options": [
+          "Mi",
+          "történik",
+          "itt",
+          "?",
+          "történsz",
+          "történt",
+          "hol"
+        ],
+        "translation": "What is happening here?"
+      },
+      {
+        "id": "irr5",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Gyorsan",
+          "telik",
+          "az",
+          "idő",
+          "."
+        ],
+        "options": [
+          "Gyorsan",
+          "telik",
+          "az",
+          "idő",
+          ".",
+          "telnek",
+          "telik",
+          "idő"
+        ],
+        "translation": "Time goes by fast."
+      }
+    ]
   }
-]
+}

@@ -1,26 +1,52 @@
-[
-  {
-    "id": 1,
-    "quizTitle": "Match Verbs to Images",
-    "audio": "/Audio/audiotest.mp3",
-    "prompt": "úszik",
-    "options": [
-      { "id": "a", "image": "/images/swim1.jpg", "word": "swims", "isCorrect": true },
-      { "id": "b", "image": "/images/run1.jpg", "word": "runs", "isCorrect": false }
-    ],
-    "translation": "swims",
-    "mode": "word-to-image"
-  },
-  {
-    "id": 2,
-    "quizTitle": "Match Verbs to Images",
-    "audio": "/Audio/audiotest.mp3",
-    "prompt": "zenél",
-    "options": [
-      { "id": "a", "image": "/images/music1.jpg", "word": "plays music", "isCorrect": true },
-      { "id": "b", "image": "/images/paint1.jpg", "word": "paints", "isCorrect": false }
-    ],
-    "translation": "plays music",
-    "mode": "word-to-image"
+{
+  "type": "imagematch",
+  "title": "imagematch_irregularverbs",
+  "data": {
+    "items": [
+      {
+        "id": 1,
+        "quizTitle": "Match Verbs to Images",
+        "audio": "/Audio/audiotest.mp3",
+        "prompt": "úszik",
+        "options": [
+          {
+            "id": "a",
+            "image": "/images/swim1.jpg",
+            "word": "swims",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "image": "/images/run1.jpg",
+            "word": "runs",
+            "isCorrect": false
+          }
+        ],
+        "translation": "swims",
+        "mode": "word-to-image"
+      },
+      {
+        "id": 2,
+        "quizTitle": "Match Verbs to Images",
+        "audio": "/Audio/audiotest.mp3",
+        "prompt": "zenél",
+        "options": [
+          {
+            "id": "a",
+            "image": "/images/music1.jpg",
+            "word": "plays music",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "image": "/images/paint1.jpg",
+            "word": "paints",
+            "isCorrect": false
+          }
+        ],
+        "translation": "plays music",
+        "mode": "word-to-image"
+      }
+    ]
   }
-]
+}

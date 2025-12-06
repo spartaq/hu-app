@@ -1,0 +1,82 @@
+[
+  {
+    "id": "syllable-greetings-1",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Put in order",
+    "sentence": "He lló",
+    "translation": "Hello"
+  },
+  {
+    "id": "syllable-greetings-2",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 2",
+    "sentence": "Jó regg elt",
+    "translation": "Good morning"
+  },
+  {
+    "id": "syllable-greetings-3",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 3",
+    "sentence": "Jó es tét",
+    "translation": "Good evening"
+  },
+  {
+    "id": "syllable-greetings-4",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 4",
+    "sentence": "Szép na pot",
+    "translation": "Good day"
+  },
+  {
+    "id": "syllable-greetings-5",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 5",
+    "sentence": "Kö szö nöm",
+    "translation": "Thank you"
+  },
+  {
+    "id": "syllable-greetings-6",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 6",
+    "sentence": "Nincs mit",
+    "translation": "You're welcome"
+  },
+  {
+    "id": "syllable-greetings-7",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 7",
+    "sentence": "El né zést",
+    "translation": "Excuse me"
+  },
+  {
+    "id": "syllable-greetings-8",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 8",
+    "sentence": "Boc sá nat",
+    "translation": "Sorry"
+  },
+  {
+    "id": "syllable-greetings-9",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 9",
+    "sentence": "Jó éjsza kát",
+    "translation": "Good night"
+  },
+  {
+    "id": "syllable-greetings-10",
+    "type": "ordering",
+    "topic": "greetings",
+    "quizTitle": "Syllable Ordering – Greetings 10",
+    "sentence": "Vi szont lá tás ra",
+    "translation": "Goodbye / See you again"
+  }
+]

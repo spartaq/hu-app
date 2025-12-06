@@ -1,11 +1,24 @@
 {
-  "quizTitle": "Fókusz – Focus / Emphasis",
-  "type": "vocab",
-  "topic": "fokusz",
-  "pairs": [
-    { "term": "csak", "definition": "only" },
-    { "term": "is", "definition": "also" },
-    { "term": "még", "definition": "still / yet" },
-    { "term": "pont", "definition": "exactly / precisely" }
-  ]
+  "type": "vocabmatch",
+  "title": "Fókusz – Focus / Emphasis",
+  "data": {
+    "items": [
+      {
+        "term": "csak",
+        "definition": "only"
+      },
+      {
+        "term": "is",
+        "definition": "also"
+      },
+      {
+        "term": "még",
+        "definition": "still / yet"
+      },
+      {
+        "term": "pont",
+        "definition": "exactly / precisely"
+      }
+    ]
+  }
 }

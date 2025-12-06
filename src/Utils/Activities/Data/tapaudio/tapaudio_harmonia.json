@@ -1,42 +1,119 @@
-[
-  {
-    "id": "vowel1",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "tanár", "nálunk", "dolgozik", "."],
-    "options": ["A", "tanár", "nálunk", "dolgozik", ".", "tanul", "nélünk", "dolgozom"],
-    "translation": "The teacher works with us."
-  },
-  {
-    "id": "vowel2",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Szép", "város", "Budapest", "?"],
-    "options": ["Szép", "város", "Budapest", "?", "szép", "városok", "nagy"],
-    "translation": "Is Budapest a beautiful city?"
-  },
-  {
-    "id": "vowel3",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Sokat", "dolgozom", "a", "héten", "."],
-    "options": ["Sokat", "dolgozom", "a", "héten", ".", "hetet", "sokat", "dolgozunk"],
-    "translation": "I work a lot this week."
-  },
-  {
-    "id": "vowel4",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Kicsi", "szobában", "alszom", "."],
-    "options": ["Kicsi", "szobában", "alszom", ".", "szobaban", "nagy", "alszol"],
-    "translation": "I sleep in a small room."
-  },
-  {
-    "id": "vowel5",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "kutya", "kertben", "játszik", "."],
-    "options": ["A", "kutya", "kertben", "játszik", ".", "kertben", "játszol", "kutya"],
-    "translation": "The dog plays in the garden."
+{
+  "type": "tapaudio",
+  "title": "tapaudio_harmonia",
+  "data": {
+    "items": [
+      {
+        "id": "vowel1",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "A",
+          "tanár",
+          "nálunk",
+          "dolgozik",
+          "."
+        ],
+        "options": [
+          "A",
+          "tanár",
+          "nálunk",
+          "dolgozik",
+          ".",
+          "tanul",
+          "nélünk",
+          "dolgozom"
+        ],
+        "translation": "The teacher works with us."
+      },
+      {
+        "id": "vowel2",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Szép",
+          "város",
+          "Budapest",
+          "?"
+        ],
+        "options": [
+          "Szép",
+          "város",
+          "Budapest",
+          "?",
+          "szép",
+          "városok",
+          "nagy"
+        ],
+        "translation": "Is Budapest a beautiful city?"
+      },
+      {
+        "id": "vowel3",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Sokat",
+          "dolgozom",
+          "a",
+          "héten",
+          "."
+        ],
+        "options": [
+          "Sokat",
+          "dolgozom",
+          "a",
+          "héten",
+          ".",
+          "hetet",
+          "sokat",
+          "dolgozunk"
+        ],
+        "translation": "I work a lot this week."
+      },
+      {
+        "id": "vowel4",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Kicsi",
+          "szobában",
+          "alszom",
+          "."
+        ],
+        "options": [
+          "Kicsi",
+          "szobában",
+          "alszom",
+          ".",
+          "szobaban",
+          "nagy",
+          "alszol"
+        ],
+        "translation": "I sleep in a small room."
+      },
+      {
+        "id": "vowel5",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "A",
+          "kutya",
+          "kertben",
+          "játszik",
+          "."
+        ],
+        "options": [
+          "A",
+          "kutya",
+          "kertben",
+          "játszik",
+          ".",
+          "kertben",
+          "játszol",
+          "kutya"
+        ],
+        "translation": "The dog plays in the garden."
+      }
+    ]
   }
-]
+}

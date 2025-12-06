@@ -1,0 +1,45 @@
+{
+"title": "At Work: Tasks for Today",
+"audio": "/Audio/audiotest.mp3",
+"avatarMap": {
+"Anna": "/avatars/anna.png",
+"Béla": "/avatars/bela.png"
+},
+"lines": [
+{
+"speaker": "Anna",
+"text": "Írom az emailt most.",
+"translation": "I’m writing the email now.",
+"start": 0,
+"end": 2500
+},
+{
+"speaker": "Béla",
+"text": "Jó, én nézem a filmet az órához.",
+"translation": "Okay, I am watching the film for the class.",
+"start": 2500,
+"end": 5000
+},
+{
+"speaker": "Anna",
+"text": "Hallod a zajt?",
+"translation": "Do you hear the noise?",
+"start": 5000,
+"end": 7500
+},
+{
+"speaker": "Béla",
+"text": "Igen, hallom. Keresem a kulcsot is.",
+"translation": "Yes, I hear it. I'm also looking for the key.",
+"start": 7500,
+"end": 10000
+},
+{
+"speaker": "Anna",
+"text": "Én megcsinálom a feladatot később.",
+"translation": "I’ll finish the task later.",
+"start": 10000,
+"end": 13000
+}
+]
+}

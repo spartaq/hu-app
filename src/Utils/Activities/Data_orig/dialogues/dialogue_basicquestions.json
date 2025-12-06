@@ -1,0 +1,38 @@
+{
+  "title": "Mikor találkozunk?",
+  "audio": "/Audio/audiotest.mp3",
+  "avatarMap": {
+    "Anna": "/avatars/anna.png",
+    "Béla": "/avatars/bela.png"
+  },
+  "lines": [
+    {
+      "speaker": "Anna",
+      "text": "Mikor jössz a parkba?",
+      "translation": "When are you coming to the park?",
+      "start": 0,
+      "end": 2000
+    },
+    {
+      "speaker": "Béla",
+      "text": "Három órakor megyek. Hol találkozunk pontosan?",
+      "translation": "I go at three o’clock. Where do we meet exactly?",
+      "start": 2000,
+      "end": 5000
+    },
+    {
+      "speaker": "Anna",
+      "text": "A bolt mellett várlak.",
+      "translation": "I will wait for you next to the shop.",
+      "start": 5000,
+      "end": 7000
+    },
+    {
+      "speaker": "Béla",
+      "text": "Rendben. Merre induljak?",
+      "translation": "Okay. Which way should I go?",
+      "start": 7000,
+      "end": 9000
+    }
+  ]
+}

@@ -1,42 +1,127 @@
-[
-  {
-    "id": "van1",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["Az", "asztalon", "van", "egy", "könyv", "."],
-    "options": ["Az", "asztalon", "van", "egy", "könyv", ".", "vannak", "a"],
-    "translation": "There is a book on the table."
-  },
-  {
-    "id": "van2",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "kertben", "vannak", "három", "virágok", "."],
-    "options": ["A", "kertben", "vannak", "három", "virágok", ".", "van", "egy"],
-    "translation": "There are three flowers in the garden."
-  },
-  {
-    "id": "van3",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "szobában", "van", "egy", "szék", "."],
-    "options": ["A", "szobában", "van", "egy", "szék", ".", "vannak", "székek"],
-    "translation": "There is a chair in the room."
-  },
-  {
-    "id": "van4",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "házban", "vannak", "sok", "ablakok", "."],
-    "options": ["A", "házban", "vannak", "sok", "ablakok", ".", "van", "egy"],
-    "translation": "There are many windows in the house."
-  },
-  {
-    "id": "van5",
-    "title": "Tap What You Hear",
-    "audio": "/Audio/audiotest.mp3",
-    "correctSequence": ["A", "hűtőben", "van", "tej", "."],
-    "options": ["A", "hűtőben", "van", "tej", ".", "vannak", "sajt", "van-e"],
-    "translation": "There is milk in the fridge."
+{
+  "type": "tapaudio",
+  "title": "tapaudio_van",
+  "data": {
+    "items": [
+      {
+        "id": "van1",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "Az",
+          "asztalon",
+          "van",
+          "egy",
+          "könyv",
+          "."
+        ],
+        "options": [
+          "Az",
+          "asztalon",
+          "van",
+          "egy",
+          "könyv",
+          ".",
+          "vannak",
+          "a"
+        ],
+        "translation": "There is a book on the table."
+      },
+      {
+        "id": "van2",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "A",
+          "kertben",
+          "vannak",
+          "három",
+          "virágok",
+          "."
+        ],
+        "options": [
+          "A",
+          "kertben",
+          "vannak",
+          "három",
+          "virágok",
+          ".",
+          "van",
+          "egy"
+        ],
+        "translation": "There are three flowers in the garden."
+      },
+      {
+        "id": "van3",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "A",
+          "szobában",
+          "van",
+          "egy",
+          "szék",
+          "."
+        ],
+        "options": [
+          "A",
+          "szobában",
+          "van",
+          "egy",
+          "szék",
+          ".",
+          "vannak",
+          "székek"
+        ],
+        "translation": "There is a chair in the room."
+      },
+      {
+        "id": "van4",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "A",
+          "házban",
+          "vannak",
+          "sok",
+          "ablakok",
+          "."
+        ],
+        "options": [
+          "A",
+          "házban",
+          "vannak",
+          "sok",
+          "ablakok",
+          ".",
+          "van",
+          "egy"
+        ],
+        "translation": "There are many windows in the house."
+      },
+      {
+        "id": "van5",
+        "title": "Tap What You Hear",
+        "audio": "/Audio/audiotest.mp3",
+        "correctSequence": [
+          "A",
+          "hűtőben",
+          "van",
+          "tej",
+          "."
+        ],
+        "options": [
+          "A",
+          "hűtőben",
+          "van",
+          "tej",
+          ".",
+          "vannak",
+          "sajt",
+          "van-e"
+        ],
+        "translation": "There is milk in the fridge."
+      }
+    ]
   }
-]
+}

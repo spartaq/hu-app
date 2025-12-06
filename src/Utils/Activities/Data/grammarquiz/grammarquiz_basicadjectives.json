@@ -1,34 +1,58 @@
 {
-  "quizTitle": "Adjectives Quiz",
-  "type": "quiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "Select the correct translation for 'tall student'.",
-      "options": ["szép diák", "magas diák", "nagy diák", "fiatal diák"],
-      "answer": "magas diák",
-      "translate": "tall student"
-    },
-    {
-      "id": 2,
-      "question": "Which word means 'red'?",
-      "options": ["piros", "zöld", "kék", "barna"],
-      "answer": "piros",
-      "translate": "red"
-    },
-    {
-      "id": 3,
-      "question": "Choose the adjective meaning 'old (object)'.",
-      "options": ["öreg", "régi", "új", "fiatal"],
-      "answer": "régi",
-      "translate": "old (object)"
-    },
-    {
-      "id": 4,
-      "question": "Complete: A könyv ___. (The book is heavy.)",
-      "options": ["könnyű", "nehéz", "rövid", "színes"],
-      "answer": "nehéz",
-      "translate": "heavy"
-    }
-  ]
+  "type": "grammarquiz",
+  "title": "grammarquiz_basicadjectives",
+  "data": {
+    "quizTitle": "Adjectives Quiz",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Select the correct translation for 'tall student'.",
+        "options": [
+          "szép diák",
+          "magas diák",
+          "nagy diák",
+          "fiatal diák"
+        ],
+        "answer": "magas diák",
+        "translate": "tall student"
+      },
+      {
+        "id": 2,
+        "question": "Which word means 'red'?",
+        "options": [
+          "piros",
+          "zöld",
+          "kék",
+          "barna"
+        ],
+        "answer": "piros",
+        "translate": "red"
+      },
+      {
+        "id": 3,
+        "question": "Choose the adjective meaning 'old (object)'.",
+        "options": [
+          "öreg",
+          "régi",
+          "új",
+          "fiatal"
+        ],
+        "answer": "régi",
+        "translate": "old (object)"
+      },
+      {
+        "id": 4,
+        "question": "Complete: A könyv ___. (The book is heavy.)",
+        "options": [
+          "könnyű",
+          "nehéz",
+          "rövid",
+          "színes"
+        ],
+        "answer": "nehéz",
+        "translate": "heavy"
+      }
+    ]
+  }
 }

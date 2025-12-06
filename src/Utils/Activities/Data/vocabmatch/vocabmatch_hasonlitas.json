@@ -1,11 +1,24 @@
 {
-  "quizTitle": "Fokozás és Hasonlítás – Comparison",
-  "type": "vocab",
-  "topic": "hasonlitas",
-  "pairs": [
-    { "term": "gyorsabb", "definition": "faster" },
-    { "term": "legjobb", "definition": "best" },
-    { "term": "magasabb", "definition": "taller" },
-    { "term": "könnyebb", "definition": "easier" }
-  ]
+  "type": "vocabmatch",
+  "title": "Fokozás és Hasonlítás – Comparison",
+  "data": {
+    "items": [
+      {
+        "term": "gyorsabb",
+        "definition": "faster"
+      },
+      {
+        "term": "legjobb",
+        "definition": "best"
+      },
+      {
+        "term": "magasabb",
+        "definition": "taller"
+      },
+      {
+        "term": "könnyebb",
+        "definition": "easier"
+      }
+    ]
+  }
 }

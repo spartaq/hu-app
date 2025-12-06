@@ -1,14 +1,30 @@
-[
-  {
-    "id": 1,
-    "quizTitle": "Match the Place Word",
-    "audio": "/Audio/audiotest.mp3",
-    "prompt": "Hol vagyok?",
-    "options": [
-      { "id": "a", "image": "/images/park.jpg", "word": "park", "isCorrect": true },
-      { "id": "b", "image": "/images/bolt.jpg", "word": "bolt", "isCorrect": false }
-    ],
-    "translation": "Where am I?",
-    "mode": "word-to-image"
+{
+  "type": "imagematch",
+  "title": "imagematch_basicquestions",
+  "data": {
+    "items": [
+      {
+        "id": 1,
+        "quizTitle": "Match the Place Word",
+        "audio": "/Audio/audiotest.mp3",
+        "prompt": "Hol vagyok?",
+        "options": [
+          {
+            "id": "a",
+            "image": "/images/park.jpg",
+            "word": "park",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "image": "/images/bolt.jpg",
+            "word": "bolt",
+            "isCorrect": false
+          }
+        ],
+        "translation": "Where am I?",
+        "mode": "word-to-image"
+      }
+    ]
   }
-]
+}

@@ -1,6 +1,32 @@
-[
-  { "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "fut", "translation": "run" },
-  { "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "olvas", "translation": "read" },
-  { "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "tanul", "translation": "study" },
-  { "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "beszél", "translation": "speak" }
-]
+{
+  "type": "audiowordmatch",
+  "title": "audiowordmatch_jelenindef",
+  "data": {
+    "items": [
+      {
+        "id": "aw1",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "fut",
+        "translation": "run"
+      },
+      {
+        "id": "aw2",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "olvas",
+        "translation": "read"
+      },
+      {
+        "id": "aw3",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "tanul",
+        "translation": "study"
+      },
+      {
+        "id": "aw4",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "beszél",
+        "translation": "speak"
+      }
+    ]
+  }
+}

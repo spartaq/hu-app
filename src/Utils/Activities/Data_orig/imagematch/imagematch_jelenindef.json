@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "quizTitle": "Match the action",
+    "audio": "/Audio/audiotest.mp3",
+    "prompt": "Which picture matches the word 'fut'?",
+    "options": [
+      { "id": "a", "image": "/images/run.jpg", "word": "fut", "isCorrect": true },
+      { "id": "b", "image": "/images/sleep.jpg", "word": "alszik", "isCorrect": false }
+    ],
+    "translation": "fut – run",
+    "mode": "word-to-image"
+  }
+]

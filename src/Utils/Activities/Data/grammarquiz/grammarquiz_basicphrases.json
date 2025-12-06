@@ -1,76 +1,130 @@
 {
-  "quizTitle": "Choose the correct response",
   "type": "grammarquiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "Köszönöm",
-      "options": ["nincs mit", "jó estét", "kívánok", "szépen"],
-      "answer": "nincs mit",
-      "translate": "You're welcome"
-    },
-    {
-      "id": 2,
-      "question": "Szia!",
-      "options": ["viszlát", "szia", "jó reggelt", "köszönöm"],
-      "answer": "szia",
-      "translate": "Hi!"
-    },
-    {
-      "id": 3,
-      "question": "Jó reggelt!",
-      "options": ["jó reggelt", "jó éjszakát", "jó napot", "szia"],
-      "answer": "jó reggelt",
-      "translate": "Good morning!"
-    },
-    {
-      "id": 4,
-      "question": "Hogy vagy?",
-      "options": ["jól vagyok", "köszönöm szépen", "igen", "szia"],
-      "answer": "jól vagyok",
-      "translate": "I'm good."
-    },
-    {
-      "id": 5,
-      "question": "Elnézést!",
-      "options": ["semmi baj", "köszönöm", "szia", "jó napot"],
-      "answer": "semmi baj",
-      "translate": "No problem"
-    },
-    {
-      "id": 6,
-      "question": "Szép napot!",
-      "options": ["szia", "neked is", "jó reggelt", "köszönöm"],
-      "answer": "neked is",
-      "translate": "You too!"
-    },
-    {
-      "id": 7,
-      "question": "Viszlát!",
-      "options": ["szia", "viszlát", "jó estét", "köszönöm"],
-      "answer": "viszlát",
-      "translate": "Goodbye!"
-    },
-    {
-      "id": 8,
-      "question": "Hol van a mosdó?",
-      "options": ["arra", "igen", "köszönöm", "jól vagyok"],
-      "answer": "arra",
-      "translate": "That way"
-    },
-    {
-      "id": 9,
-      "question": "Sajnálom!",
-      "options": ["nem probléma", "szia", "jó estét", "nincs mit"],
-      "answer": "nem probléma",
-      "translate": "No problem"
-    },
-    {
-      "id": 10,
-      "question": "Kérem",
-      "options": ["szívesen", "köszönöm", "jó napot", "szia"],
-      "answer": "szívesen",
-      "translate": "You're welcome / With pleasure"
-    }
-  ]
+  "title": "grammarquiz_basicphrases",
+  "data": {
+    "quizTitle": "Choose the correct response",
+    "type": "grammarquiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Köszönöm",
+        "options": [
+          "nincs mit",
+          "jó estét",
+          "kívánok",
+          "szépen"
+        ],
+        "answer": "nincs mit",
+        "translate": "You're welcome"
+      },
+      {
+        "id": 2,
+        "question": "Szia!",
+        "options": [
+          "viszlát",
+          "szia",
+          "jó reggelt",
+          "köszönöm"
+        ],
+        "answer": "szia",
+        "translate": "Hi!"
+      },
+      {
+        "id": 3,
+        "question": "Jó reggelt!",
+        "options": [
+          "jó reggelt",
+          "jó éjszakát",
+          "jó napot",
+          "szia"
+        ],
+        "answer": "jó reggelt",
+        "translate": "Good morning!"
+      },
+      {
+        "id": 4,
+        "question": "Hogy vagy?",
+        "options": [
+          "jól vagyok",
+          "köszönöm szépen",
+          "igen",
+          "szia"
+        ],
+        "answer": "jól vagyok",
+        "translate": "I'm good."
+      },
+      {
+        "id": 5,
+        "question": "Elnézést!",
+        "options": [
+          "semmi baj",
+          "köszönöm",
+          "szia",
+          "jó napot"
+        ],
+        "answer": "semmi baj",
+        "translate": "No problem"
+      },
+      {
+        "id": 6,
+        "question": "Szép napot!",
+        "options": [
+          "szia",
+          "neked is",
+          "jó reggelt",
+          "köszönöm"
+        ],
+        "answer": "neked is",
+        "translate": "You too!"
+      },
+      {
+        "id": 7,
+        "question": "Viszlát!",
+        "options": [
+          "szia",
+          "viszlát",
+          "jó estét",
+          "köszönöm"
+        ],
+        "answer": "viszlát",
+        "translate": "Goodbye!"
+      },
+      {
+        "id": 8,
+        "question": "Hol van a mosdó?",
+        "options": [
+          "arra",
+          "igen",
+          "köszönöm",
+          "jól vagyok"
+        ],
+        "answer": "arra",
+        "translate": "That way"
+      },
+      {
+        "id": 9,
+        "question": "Sajnálom!",
+        "options": [
+          "nem probléma",
+          "szia",
+          "jó estét",
+          "nincs mit"
+        ],
+        "answer": "nem probléma",
+        "translate": "No problem"
+      },
+      {
+        "id": 10,
+        "question": "Kérem",
+        "options": [
+          "szívesen",
+          "köszönöm",
+          "jó napot",
+          "szia"
+        ],
+        "answer": "szívesen",
+        "translate": "You're welcome / With pleasure"
+      }
+    ]
+  }
 }

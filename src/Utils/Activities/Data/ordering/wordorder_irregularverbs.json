@@ -1,10 +1,22 @@
-[
-  { "id": "irregular-1", 
-  "type": "ordering", 
-  "topic": "irregular", 
-  "quizTitle": "Put the sentence in order", 
-  "sentence": "Anna játszik a barátokkal", 
-  "translation": "Anna plays with friends" 
-},
-  { "id": "irregular-2", "type": "ordering", "topic": "irregular", "quizTitle": "Put the sentence in order", "sentence": "Béla biciklizik a parkban", "translation": "Béla cycles in the park" }
-]
+{
+  "type": "wordorder",
+  "title": "wordorder_irregularverbs",
+  "data": {
+    "items": [
+      {
+        "id": "irregular-1",
+        "topic": "irregular",
+        "quizTitle": "Put the sentence in order",
+        "sentence": "Anna játszik a barátokkal",
+        "translation": "Anna plays with friends"
+      },
+      {
+        "id": "irregular-2",
+        "topic": "irregular",
+        "quizTitle": "Put the sentence in order",
+        "sentence": "Béla biciklizik a parkban",
+        "translation": "Béla cycles in the park"
+      }
+    ]
+  }
+}

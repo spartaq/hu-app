@@ -1,0 +1,32 @@
+{
+  "quizTitle": "Indefinite Conjugation Quiz",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Choose the correct indefinite form: \"I read.\"",
+      "options": ["Olvasom", "Olvasok", "Olvasod", "Olvassa"],
+      "answer": "Olvasok",
+      "translate": "Olvasok – I read."
+    },
+    {
+      "id": 2,
+      "question": "What does \"Futok\" mean?",
+      "options": ["I sleep", "I run", "I speak", "I clean"],
+      "answer": "I run",
+      "translate": "Futok – I run."
+    },
+    {
+      "id": 3,
+      "question": "Choose the correct sentence.",
+      "options": [
+        "Délelőtt tanulok.",
+        "Délelőtt tanulom.",
+        "Délelőtt tanulod.",
+        "Délelőtt tanulja."
+      ],
+      "answer": "Délelőtt tanulok.",
+      "translate": "Délelőtt tanulok – I study in the late morning."
+    }
+  ]
+}

@@ -1,43 +1,49 @@
-[
-  {
-    "id": 1,
-    "quizTitle": "#",
-    "promptImage": "/Images/#.jpg",
-    "options": [
+{
+  "type": "imagematch",
+  "title": "imagematch_sounds",
+  "data": {
+    "items": [
       {
-        "id": "a",
-        "word": "#",
-        "isCorrect": true
+        "id": 1,
+        "quizTitle": "#",
+        "promptImage": "/Images/#.jpg",
+        "options": [
+          {
+            "id": "a",
+            "word": "#",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "word": "#",
+            "isCorrect": false
+          }
+        ],
+        "translation": "Good morning!",
+        "mode": "image-to-word"
       },
       {
-        "id": "b",
-        "word": "#",
-        "isCorrect": false
+        "id": 2,
+        "quizTitle": "#",
+        "audio": "/Audio/audiotest.mp3",
+        "prompt": "#",
+        "options": [
+          {
+            "id": "a",
+            "image": "/images/#.jpg",
+            "word": "#",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "image": "/images/#.jpg",
+            "word": "#",
+            "isCorrect": false
+          }
+        ],
+        "translation": "#",
+        "mode": "word-to-image"
       }
-    ],
-    "translation": "Good morning!",
-    "mode": "image-to-word"
-  },
-  {
-    "id": 2,
-    "quizTitle": "#",
-    "audio": "/Audio/audiotest.mp3",
-    "prompt": "#",
-    "options": [
-      {
-        "id": "a",
-        "image": "/images/#.jpg",
-        "word": "#",
-        "isCorrect": true
-      },
-      {
-        "id": "b",
-        "image": "/images/#.jpg",
-        "word": "#",
-        "isCorrect": false
-      }
-    ],
-    "translation": "#",
-    "mode": "word-to-image"
+    ]
   }
-]
+}

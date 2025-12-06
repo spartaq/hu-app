@@ -1,27 +1,88 @@
 {
-  "quizTitle": "basicadjectives",
-  "type": "vocab",
-  "topic": "adjectives",
-  "pairs": [
-    { "term": "nagy", "definition": "big" },
-    { "term": "kis", "definition": "small/little" },
-    { "term": "szép", "definition": "beautiful" },
-    { "term": "magas", "definition": "tall" },
-    { "term": "alacsony", "definition": "short (height)" },
-    { "term": "hosszú", "definition": "long" },
-    { "term": "rövid", "definition": "short" },
-    { "term": "piros", "definition": "red" },
-    { "term": "kék", "definition": "blue" },
-    { "term": "zöld", "definition": "green" },
-    { "term": "barna", "definition": "brown" },
-    { "term": "fekete", "definition": "black" },
-    { "term": "fehér", "definition": "white" },
-    { "term": "szürke", "definition": "gray" },
-    { "term": "hideg", "definition": "cold" },
-    { "term": "meleg", "definition": "warm" },
-    { "term": "forró", "definition": "hot" },
-    { "term": "új", "definition": "new" },
-    { "term": "régi", "definition": "old (object)" },
-    { "term": "öreg", "definition": "old (person)" }
-  ]
+  "type": "vocabmatch",
+  "title": "basicadjectives",
+  "data": {
+    "items": [
+      {
+        "term": "nagy",
+        "definition": "big"
+      },
+      {
+        "term": "kis",
+        "definition": "small/little"
+      },
+      {
+        "term": "szép",
+        "definition": "beautiful"
+      },
+      {
+        "term": "magas",
+        "definition": "tall"
+      },
+      {
+        "term": "alacsony",
+        "definition": "short (height)"
+      },
+      {
+        "term": "hosszú",
+        "definition": "long"
+      },
+      {
+        "term": "rövid",
+        "definition": "short"
+      },
+      {
+        "term": "piros",
+        "definition": "red"
+      },
+      {
+        "term": "kék",
+        "definition": "blue"
+      },
+      {
+        "term": "zöld",
+        "definition": "green"
+      },
+      {
+        "term": "barna",
+        "definition": "brown"
+      },
+      {
+        "term": "fekete",
+        "definition": "black"
+      },
+      {
+        "term": "fehér",
+        "definition": "white"
+      },
+      {
+        "term": "szürke",
+        "definition": "gray"
+      },
+      {
+        "term": "hideg",
+        "definition": "cold"
+      },
+      {
+        "term": "meleg",
+        "definition": "warm"
+      },
+      {
+        "term": "forró",
+        "definition": "hot"
+      },
+      {
+        "term": "új",
+        "definition": "new"
+      },
+      {
+        "term": "régi",
+        "definition": "old (object)"
+      },
+      {
+        "term": "öreg",
+        "definition": "old (person)"
+      }
+    ]
+  }
 }

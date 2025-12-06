@@ -1,12 +1,12 @@
 import React, { useState, useMemo, useEffect } from "react";
 import "../../CSS/VocabmatchActivity.css";
 
-export default function VocabMatchModal({ pairs = [], title = "Vocabulary Match", onComplete, onProgress }) {
+export default function VocabMatchModal({ data = [], title = "Vocabulary Match", onComplete, onProgress }) {
   // normalize input — always a flat array of objects
   const normalizedPairs = useMemo(() => {
-    if (!Array.isArray(pairs)) return [];
-    return pairs.filter(p => p.term && p.definition);
-  }, [pairs]);
+    if (!Array.isArray(data)) return [];
+    return data.filter(p => p.term && p.definition);
+  }, [data]);
 
   // NO SHUFFLE — KEEP TERMS FIXED
   const terms = normalizedPairs.map(p => p.term);
@@ -19,7 +19,7 @@ export default function VocabMatchModal({ pairs = [], title = "Vocabulary Match"
       [defs[i], defs[j]] = [defs[j], defs[i]];
     }
     return defs;
-  }, [pairs]);
+  }, [data]);
 
   const [selectedTerm, setSelectedTerm] = useState(null);
   const [matches, setMatches] = useState({});

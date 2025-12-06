@@ -26,7 +26,9 @@ import HuExplanationFokuszData from "../Utils/Activities/Data/grammarexplanation
 import HuExplanationHarmoniaData from "../Utils/Activities/Data/grammarexplanation/explanation_harmonia.json";
 import HuExplanationBasicPhrasesData from "../Utils/Activities/Data/grammarexplanation/explanation_basicphrases.json";
 // **DIALOGUE
-import HuDialogueSoundsData from "../Utils/Activities/Data/dialogues/dialogue_sounds.json";
+import HuDialogueSoundsallData from "../Utils/Activities/Data/dialogues/dialogue_soundsall.json";
+import HuDialogueSoundsvowelsData from "../Utils/Activities/Data/dialogues/dialogue_soundsvowels.json";
+import HuDialogueSoundsconsonantsData from "../Utils/Activities/Data/dialogues/dialogue_soundsconsonants.json";
 import HuDialogueBasicquestionsData from "../Utils/Activities/Data/dialogues/dialogue_basicquestions.json";
 import HuDialogueIrregularverbsData from "../Utils/Activities/Data/dialogues/dialogue_irregularverbs.json";
 import HuDialogueBasicadjectivesData from "../Utils/Activities/Data/dialogues/dialogue_basicadjectives.json";
@@ -68,6 +70,11 @@ import HuHasonlitasGrammarQuizData from "../Utils/Activities/Data/grammarquiz/gr
 import HuFokuszGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_fokusz.json";
 import HuHarmoniaGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_harmonia.json";
 import HuBasicphrasesGrammarQuizData from "../Utils/Activities/Data/grammarquiz/grammarquiz_basicphrases.json";
+
+// SAYALOUD
+import HuSayAloudBasicPhrasesData from "../Utils/Activities/Data/sayaloud/sayaloud_basicphrases.json";
+
+
 // **TAPAUDIO
 import HuTapAudioSoundsData from "../Utils/Activities/Data/tapaudio/tapaudio_sounds.json";
 import HuTapAudioBasicquestionsData from "../Utils/Activities/Data/tapaudio/tapaudio_basicquestions.json";
@@ -245,7 +252,9 @@ const DATA_MAP = {
   },
 
   dialogue: {
-    sounds: HuDialogueSoundsData,
+    soundsall: HuDialogueSoundsallData,
+    soundsvowels: HuDialogueSoundsvowelsData,
+    soundsconsonants: HuDialogueSoundsconsonantsData,
     basicquestions: HuDialogueBasicquestionsData,
     irregularverbs: HuDialogueIrregularverbsData,
     basicadjectives: HuDialogueBasicadjectivesData,
@@ -265,6 +274,10 @@ const DATA_MAP = {
     fokusz: HuDialogueFokuszData,
     harmonia: HuDialogueHarmoniaData,
     basicphrases: HuDialogueBasicPhrasesData
+  },
+
+  sayaloud: {
+    basicphrases: HuSayAloudBasicPhrasesData
   },
 
   tapaudio: {

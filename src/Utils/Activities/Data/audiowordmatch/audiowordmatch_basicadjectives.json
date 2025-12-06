@@ -1,6 +1,32 @@
-[
-  { "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "nagy", "translation": "big" },
-  { "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "hideg", "translation": "cold" },
-  { "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "rózsaszín", "translation": "pink" },
-  { "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "magas", "translation": "tall" }
-]
+{
+  "type": "audiowordmatch",
+  "title": "audiowordmatch_basicadjectives",
+  "data": {
+    "items": [
+      {
+        "id": "aw1",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "nagy",
+        "translation": "big"
+      },
+      {
+        "id": "aw2",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "hideg",
+        "translation": "cold"
+      },
+      {
+        "id": "aw3",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "rózsaszín",
+        "translation": "pink"
+      },
+      {
+        "id": "aw4",
+        "audio": "/Audio/audiotest.mp3",
+        "text": "magas",
+        "translation": "tall"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "quizTitle": "Irregular Verbs Quiz",
+  "type": "quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does 'eszik' mean?",
+      "options": ["eats", "goes", "reads", "plays"],
+      "answer": "eats",
+      "translate": "eats"
+    },
+    {
+      "id": 2,
+      "question": "'megy' translates to?",
+      "options": ["goes", "comes", "does", "drinks"],
+      "answer": "goes",
+      "translate": "goes"
+    },
+    {
+      "id": 3,
+      "question": "How do you say 'plays music'?",
+      "options": ["zenél", "fut", "táncol", "úszik"],
+      "answer": "zenél",
+      "translate": "plays music"
+    },
+    {
+      "id": 4,
+      "question": "'vacsorázik' means?",
+      "options": ["has dinner", "believes", "takes", "runs"],
+      "answer": "has dinner",
+      "translate": "has dinner"
+    },
+    {
+      "id": 5,
+      "question": "What does 'játszik' mean?",
+      "options": ["plays", "paints", "drinks", "reads"],
+      "answer": "plays",
+      "translate": "plays"
+    }
+  ]
+}

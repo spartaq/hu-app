@@ -1,0 +1,42 @@
+[
+  {
+    "id": "num1",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Egy", "alma", "van", "az", "asztalon", "."],
+    "options": ["Egy", "alma", "van", "az", "asztalon", ".", "kettő", "három"],
+    "translation": "There is one apple on the table."
+  },
+  {
+    "id": "num2",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Kettő", "diák", "ül", "a", "teremben", "."],
+    "options": ["Kettő", "diák", "ül", "a", "teremben", ".", "három", "egy", "van"],
+    "translation": "Two students are sitting in the classroom."
+  },
+  {
+    "id": "num3",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Három", "könyvet", "vettem", "."],
+    "options": ["Három", "könyvet", "vettem", ".", "kettőt", "négyet", "egy"],
+    "translation": "I bought three books."
+  },
+  {
+    "id": "num4",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Négy", "szék", "van", "a", "szobában", "."],
+    "options": ["Négy", "szék", "van", "a", "szobában", ".", "öt", "három", "van"],
+    "translation": "There are four chairs in the room."
+  },
+  {
+    "id": "num5",
+    "title": "Tap What You Hear",
+    "audio": "/Audio/audiotest.mp3",
+    "correctSequence": ["Öt", "barátom", "jön", "holnap", "."],
+    "options": ["Öt", "barátom", "jön", "holnap", ".", "négy", "hat", "jönnek"],
+    "translation": "Five of my friends are coming tomorrow."
+  }
+]

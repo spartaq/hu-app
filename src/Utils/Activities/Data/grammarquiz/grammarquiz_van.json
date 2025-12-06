@@ -1,41 +1,70 @@
 {
-  "quizTitle": "Van Quiz",
-  "type": "quiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "How do you say 'There is a book'?",
-      "options": ["Van egy könyv", "Nincs könyv", "Két könyv van", "Egy könyv nincs"],
-      "answer": "Van egy könyv",
-      "translate": "There is a book"
-    },
-    {
-      "id": 2,
-      "question": "'Van két kutya' means?",
-      "options": ["There are two dogs", "There is one dog", "No dogs are here", "Two cats are here"],
-      "answer": "There are two dogs",
-      "translate": "There are two dogs"
-    },
-    {
-      "id": 3,
-      "question": "What does 'Nincs pénz a tárcában' mean?",
-      "options": ["There is no money in the wallet", "There is money", "The wallet is empty", "There is a wallet"],
-      "answer": "There is no money in the wallet",
-      "translate": "There is no money in the wallet"
-    },
-    {
-      "id": 4,
-      "question": "'Van egy macska a nappaliban' translates as?",
-      "options": ["There is a cat in the living room", "There are cats outside", "A cat is under the table", "No cat here"],
-      "answer": "There is a cat in the living room",
-      "translate": "There is a cat in the living room"
-    },
-    {
-      "id": 5,
-      "question": "What does 'Van egy asztal a konyhában' mean?",
-      "options": ["There is a table in the kitchen", "There is a chair", "No table here", "Table is broken"],
-      "answer": "There is a table in the kitchen",
-      "translate": "There is a table in the kitchen"
-    }
-  ]
+  "type": "grammarquiz",
+  "title": "grammarquiz_van",
+  "data": {
+    "quizTitle": "Van Quiz",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "How do you say 'There is a book'?",
+        "options": [
+          "Van egy könyv",
+          "Nincs könyv",
+          "Két könyv van",
+          "Egy könyv nincs"
+        ],
+        "answer": "Van egy könyv",
+        "translate": "There is a book"
+      },
+      {
+        "id": 2,
+        "question": "'Van két kutya' means?",
+        "options": [
+          "There are two dogs",
+          "There is one dog",
+          "No dogs are here",
+          "Two cats are here"
+        ],
+        "answer": "There are two dogs",
+        "translate": "There are two dogs"
+      },
+      {
+        "id": 3,
+        "question": "What does 'Nincs pénz a tárcában' mean?",
+        "options": [
+          "There is no money in the wallet",
+          "There is money",
+          "The wallet is empty",
+          "There is a wallet"
+        ],
+        "answer": "There is no money in the wallet",
+        "translate": "There is no money in the wallet"
+      },
+      {
+        "id": 4,
+        "question": "'Van egy macska a nappaliban' translates as?",
+        "options": [
+          "There is a cat in the living room",
+          "There are cats outside",
+          "A cat is under the table",
+          "No cat here"
+        ],
+        "answer": "There is a cat in the living room",
+        "translate": "There is a cat in the living room"
+      },
+      {
+        "id": 5,
+        "question": "What does 'Van egy asztal a konyhában' mean?",
+        "options": [
+          "There is a table in the kitchen",
+          "There is a chair",
+          "No table here",
+          "Table is broken"
+        ],
+        "answer": "There is a table in the kitchen",
+        "translate": "There is a table in the kitchen"
+      }
+    ]
+  }
 }

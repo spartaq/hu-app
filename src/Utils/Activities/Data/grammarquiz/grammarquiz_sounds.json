@@ -1,18 +1,22 @@
 {
-  "quizTitle": "#",
-  "type": "quiz",
-  "questions": [
-    {
-      "id": 1,
-      "question": "#",
-      "options": [
-        "#",
-        "#",
-        "#",
-        "#"
-      ],
-      "answer": "#",
-      "translate": "#"
-    }
-  ]
+  "type": "grammarquiz",
+  "title": "grammarquiz_sounds",
+  "data": {
+    "quizTitle": "#",
+    "type": "quiz",
+    "questions": [
+      {
+        "id": 1,
+        "question": "#",
+        "options": [
+          "#",
+          "#",
+          "#",
+          "#"
+        ],
+        "answer": "#",
+        "translate": "#"
+      }
+    ]
+  }
 }
