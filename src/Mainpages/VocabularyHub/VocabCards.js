@@ -17,6 +17,7 @@ export default function VocabCards() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedWord, setSelectedWord] = useState(null);
    const audioRef = useRef(null);
+   const [revealed, setRevealed] = useState(false);
 
    useEffect(() => {
   if (!topic) return;
@@ -137,6 +138,7 @@ const playAudio = (word) => {
       onSlideChange={(swiper) => {
         const idx = swiper.activeIndex;
         setSelectedWord(topic.words[idx]);
+        setRevealed(false);
       }}
       className="vocab-modal-swiper"
     >
@@ -147,8 +149,12 @@ const playAudio = (word) => {
               <div>
                 <div className="modal-word">{word.word}</div>
                 <div className="modal-ipa">
-                  [{word.ipa || ""}] • {word.translation || ""}
-                </div>
+  
+
+  {revealed && (
+    <span> • {word.translation}</span>
+  )}
+</div>
               </div>
               <div style={{ display:"flex", flexDirection:"column", gap:8, alignItems:"flex-end" }}>
                 <button className="audio-btn" onClick={() => playAudio(word)}>
@@ -171,9 +177,16 @@ const playAudio = (word) => {
             </div>
 
             <div className="modal-actions">
-              <button className="action-again">Again</button>
-              <button className="action-know">Got it</button>
-            </div>
+  <button
+    className="action-again"
+    onClick={() => setRevealed(r => !r)}
+  >
+    {revealed ? "Hide" : "Reveal"}
+  </button>
+
+  <button className="action-know">Got it</button>
+</div>
+
           </div>
         </SwiperSlide>
       ))}

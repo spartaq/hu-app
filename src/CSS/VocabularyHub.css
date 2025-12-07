@@ -297,6 +297,10 @@
   color: var(--muted, #6b6b7a);
   margin-top: 2px;
 }
+.modal-ipa span {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 
 /* -----------------------------
   Modal body
