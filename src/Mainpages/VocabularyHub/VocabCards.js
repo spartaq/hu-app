@@ -147,10 +147,10 @@ const playAudio = (word) => {
       {topic.words.map((word) => (
         <SwiperSlide key={word.id}>
           <div className="vocab-modal-card">
-            <div className="modal-top">
+            <div className="vocab-modal-top">
               <div>
-                <div className="modal-word">{word.word}</div>
-                <div className="modal-ipa">
+                <div className="vocab-modal-word">{word.word}</div>
+                <div className="vocab-modal-ipa">
   
 
   {revealed && (
@@ -169,12 +169,12 @@ const playAudio = (word) => {
             </div>
 
             {word.image && (
-              <div className="modal-img">
+              <div className="vocab-modal-img">
                 <img src={word.image} alt={word.word} />
               </div>
             )}
 
-            <div className="modal-body">
+            <div className="vocab-modal-body">
               Example: {word.example} — {word.example_translation}
             </div>
 
