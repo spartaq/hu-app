@@ -2,7 +2,7 @@
   "type": "dialogue",
   "title": "Morning Greeting",
   "data": {
-    "audio": "checkpoint2Audio",
+    "audio": "/Audio/Ujszomszedok.mp3",
     "avatarMap": {
       "Anna": "/avatars/anna.png",
       "Béla": "/avatars/bela.png"
@@ -12,29 +12,29 @@
         "speaker": "Anna",
         "text": "Jó reggelt!",
         "translation": "Good morning!",
-        "start": 26156,
-        "end": 26968
+        "start": 0,
+        "end": 3000
       },
       {
         "speaker": "Béla",
         "text": "Jó reggelt kívánok! Hogy vagy?",
         "translation": "Good morning! How are you?",
-        "start": 27000,
-        "end": 29000
+        "start": 3001,
+        "end": 6000
       },
       {
         "speaker": "Anna",
         "text": "Köszönöm, jól. És te?",
         "translation": "Thanks, I’m good. And you?",
-        "start": 29500,
-        "end": 31500
+        "start": 6001,
+        "end": 9000
       },
       {
         "speaker": "Béla",
         "text": "Én is jól vagyok. Szép napot!",
         "translation": "I’m good too. Have a nice day!",
-        "start": 31600,
-        "end": 33600
+        "start": 9001,
+        "end": 12000
       }
     ]
   }

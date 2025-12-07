@@ -47,7 +47,6 @@ export default function ImageMatchActivity({ data, items, index, onNext, onScore
 
   return (
     <div className="image-match-container">
-      <h2 className="im-title">{title}</h2>
 
       <div className="im-prompt-box">
         <span className="im-prompt">{prompt}</span>

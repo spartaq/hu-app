@@ -147,6 +147,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
     onScore: handleAddScore,
     onComplete: handleComplete,
     meta: data,
+    title: data?.title,
   };
 
   // -------------------------------------------------------

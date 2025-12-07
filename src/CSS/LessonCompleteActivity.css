@@ -5,11 +5,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .lesson-complete-title {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
   margin-bottom: 15px;
+  color:rebeccapurple;
 }
 
 .lesson-complete-text {
@@ -30,7 +33,7 @@
 .next-lesson-btn,
 .activity-hub-btn {
   padding: 12px 20px;
-  background: #4285f4;
+  background: #ff7a1e;
   border-radius: 8px;
   color: white;
   text-decoration: none;
@@ -40,7 +43,7 @@
 }
 
 .activity-hub-btn {
-  background: #34a853;
+  background: rebeccapurple;
 }
 
 .next-lesson-btn:hover {

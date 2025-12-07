@@ -8,6 +8,12 @@
         "phrase": "Hogy vagy?",
         "translation": "How are you?",
         "audio": "/Audio/hogyvagy.mp3"
+      },
+      {
+        "id": "sayaloud2",
+        "phrase": "Köszönöm jól",
+        "translation": "Fine thanks",
+        "audio": "/Audio/hogyvagy.mp3"
       }
     ]
   }

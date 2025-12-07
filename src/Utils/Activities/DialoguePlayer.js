@@ -54,10 +54,7 @@ export default function DialoguePlayer({ lines = [], audioSrc = null, subtitleMo
 
   return (
     <div>
-      <div className="dialogue-controls">
-        <button onClick={handlePlayPause} className="control-btn">{playing ? "Pause" : "Play"}</button>
-        <button onClick={handleRestart} className="control-btn">Restart</button>
-      </div>
+      
     <div className="dialogue-card">
       {audioSrc && <audio ref={audioRef} src={audioSrc} preload="auto" />}
 
@@ -82,7 +79,11 @@ export default function DialoguePlayer({ lines = [], audioSrc = null, subtitleMo
         </div>
       )}
 
-      
+      <div className="dialogue-controls">
+        <button onClick={handlePlayPause} className="control-btn">{playing ? "Pause" : "Play"}</button>
+        <button onClick={handleRestart} className="control-btn">Restart</button>
+      </div>
+
     </div></div>
   );
 }
