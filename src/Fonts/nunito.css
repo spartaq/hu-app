@@ -12,6 +12,6 @@
   font-family: "Nunito";
   src: url("./nunito/Nunito-Italic.ttf") format("ttf");
   font-weight: 700;
-  font-style: normal;
+  font-style: italic;
   font-display: swap;
 }
