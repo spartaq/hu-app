@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_nekivan",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Birtoklás – Van + Neki/Neked (személyjelöléssel)",
     "questions": [
       {

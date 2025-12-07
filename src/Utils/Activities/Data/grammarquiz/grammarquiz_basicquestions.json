@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_basicquestions",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Kérdőszavak – Question Words",
     "questions": [
       {

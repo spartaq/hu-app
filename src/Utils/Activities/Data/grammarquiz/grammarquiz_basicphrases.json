@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_basicphrases",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Choose the correct response",
     "questions": [
       {

@@ -37,6 +37,7 @@ export default function ImageMatchActivity({ data, items, index, onNext, onScore
   };
 
   const {
+    instructions,
     prompt,
     promptImage,
     translation,
@@ -47,16 +48,25 @@ export default function ImageMatchActivity({ data, items, index, onNext, onScore
 
   return (
     <div className="image-match-container">
-
-      <div className="im-prompt-box">
-        <span className="im-prompt">{prompt}</span>
-      </div>
-
+    <div className="instructions">
+      <span className="im-title">{instructions}</span>
+    </div>
+    <div>
       {audio && (
-        <button className="im-audio-btn" onClick={playAudio}>
-          🔊 Play Audio
-        </button>
-      )}
+          <button className="im-audio-btn" onClick={playAudio}>
+            🔊 Play Audio
+          </button>
+        )}
+    </div>
+
+
+      {mode === "word-to-image" && (
+  <div className="im-prompt-box">
+    <span className="im-prompt">{prompt}</span>
+  </div>
+)}
+
+    
 
       {mode === "word-to-image" ? (
         <div className="im-grid">

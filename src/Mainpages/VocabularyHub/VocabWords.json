@@ -7,7 +7,7 @@
       "audio": "/Audio/basics.mp3",
       "words": [
         {
-          "id": 1,
+          "id": 1,       
           "word": "szia",
           "translation": "hi",
           "example": "Szia, hogy vagy?",

@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_jelendef",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Definite Conjugation + Accusative",
     "questions": [
       {

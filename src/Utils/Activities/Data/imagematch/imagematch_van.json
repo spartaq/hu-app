@@ -5,6 +5,7 @@
     "items": [
       {
         "id": 1,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Match Words to Images",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "ház",
@@ -27,6 +28,7 @@
       },
       {
         "id": 2,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Match Words to Images",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "macska",

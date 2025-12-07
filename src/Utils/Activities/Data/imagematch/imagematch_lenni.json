@@ -5,6 +5,7 @@
     "items": [
       {
         "id": 1,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Nationalities",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "német",
@@ -27,6 +28,7 @@
       },
       {
         "id": 2,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Nationalities",
         "promptImage": "/Images/french.jpg",
         "options": [
@@ -50,6 +52,7 @@
       },
       {
         "id": 3,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Nationalities",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "olasz",
@@ -72,6 +75,7 @@
       },
       {
         "id": 4,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Nationalities",
         "promptImage": "/Images/english.webp",
         "options": [
@@ -96,6 +100,7 @@
       },
       {
         "id": 5,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Nationalities",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "amerikai",
@@ -118,6 +123,7 @@
       },
       {
         "id": 6,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – States",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "éhes",
@@ -140,6 +146,7 @@
       },
       {
         "id": 7,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – States",
         "promptImage": "/Images/tired.jpg",
         "options": [
@@ -165,6 +172,7 @@
       },
       {
         "id": 8,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – States",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "szomjas",
@@ -188,6 +196,7 @@
       },
       {
         "id": 9,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – States",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "fázik",
@@ -211,6 +220,7 @@
       },
       {
         "id": 10,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – States",
         "promptImage": "/Images/hot.jpg",
         "options": [
@@ -236,6 +246,7 @@
       },
       {
         "id": 11,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Professions",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "orvos",
@@ -259,6 +270,7 @@
       },
       {
         "id": 12,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Professions",
         "promptImage": "/Images/teacher.jpg",
         "options": [
@@ -284,6 +296,7 @@
       },
       {
         "id": 13,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Professions",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "szomszéd",
@@ -307,6 +320,7 @@
       },
       {
         "id": 14,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Lenni Practice – Professions",
         "promptImage": "/Images/hungarian.jpg",
         "options": [

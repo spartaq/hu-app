@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_orderingdrinks",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Ordering Drinks Quiz",
     "questions": [
       {

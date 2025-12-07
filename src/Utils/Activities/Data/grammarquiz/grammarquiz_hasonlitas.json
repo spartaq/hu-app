@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_hasonlitas",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Fokozás – A1 Szint",
     "questions": [
       {

@@ -5,6 +5,7 @@
     "items": [
       {
         "id": 1,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
         "promptImage": "/Images/morning.webp",
         "options": [
@@ -24,6 +25,7 @@
       },
       {
         "id": 2,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
         "promptImage": "/Images/thank-you.jpg",
         "options": [
@@ -48,6 +50,7 @@
       },
       {
         "id": 3,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
         "promptImage": "/Images/morning.webp",
         "options": [
@@ -67,6 +70,7 @@
       },
       {
         "id": 4,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
         "promptImage": "/Images/sorry.jpg",
         "options": [
@@ -86,6 +90,7 @@
       },
       {
         "id": 5,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
         "promptImage": "/Images/excuse-me.jpg",
         "options": [

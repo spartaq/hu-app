@@ -5,6 +5,7 @@
     "items": [
       {
         "id": 1,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Match the Picture",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "Válaszd ki: anyám",
@@ -27,6 +28,7 @@
       },
       {
         "id": 2,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Match the Picture",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "Válaszd ki: testvérem",
@@ -49,6 +51,7 @@
       },
       {
         "id": 3,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Match the Picture",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "Válaszd ki: cipőm",

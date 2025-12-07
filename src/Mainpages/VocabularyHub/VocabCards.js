@@ -78,6 +78,7 @@ const playAudio = (word) => {
 
       {/* Grid */}
       <main className="vocab-main">
+        
         <section className="vocab-grid">
           {topic.words.map(word => (
             <article
@@ -89,9 +90,13 @@ const playAudio = (word) => {
                 if (e.key === "Enter" || e.key === " ") openModal(word);
               }}
             >
-              <div className="vocab-card-imgwrap">
-                <img src={topic.icon} alt={topic.title} />
-              </div>
+            <div className="vocab-card-imgwrap">
+  {word.image ? (
+    <img src={word.image} alt={word.word} />
+  ) : (
+    <div className="vocab-img-placeholder">📷</div>
+  )}
+</div>
 
               <div>
                 <div className="vocab-card-word">{word.word}</div>

@@ -5,6 +5,7 @@
     "items": [
       {
         "id": 1,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "barát",
@@ -33,6 +34,7 @@
       },
       {
         "id": 2,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "promptImage": "/images/neighbor.jpg",
         "options": [
@@ -57,6 +59,7 @@
       },
       {
         "id": 3,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "család",
@@ -85,6 +88,7 @@
       },
       {
         "id": 4,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "promptImage": "/images/country.jpg",
         "options": [
@@ -109,6 +113,7 @@
       },
       {
         "id": 5,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "autó",
@@ -137,6 +142,7 @@
       },
       {
         "id": 6,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "promptImage": "/images/bike1.jpg",
         "options": [
@@ -161,6 +167,7 @@
       },
       {
         "id": 7,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "pénz",
@@ -189,6 +196,7 @@
       },
       {
         "id": 8,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "promptImage": "/images/kitchen.jpg",
         "options": [
@@ -213,6 +221,7 @@
       },
       {
         "id": 9,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "szekrény",
@@ -241,6 +250,7 @@
       },
       {
         "id": 10,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "promptImage": "/images/fridge.jpg",
         "options": [
@@ -265,6 +275,7 @@
       },
       {
         "id": 11,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "sütő",
@@ -293,6 +304,7 @@
       },
       {
         "id": 12,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "promptImage": "/images/dishwasher.jpg",
         "options": [
@@ -317,6 +329,7 @@
       },
       {
         "id": 13,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "ház",
@@ -345,6 +358,7 @@
       },
       {
         "id": 14,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "promptImage": "/images/dog1.jpg",
         "options": [
@@ -369,6 +383,7 @@
       },
       {
         "id": 15,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "macska",
@@ -397,6 +412,7 @@
       },
       {
         "id": 16,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "promptImage": "/images/book.jpg",
         "options": [
@@ -421,6 +437,7 @@
       },
       {
         "id": 17,
+        "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
         "audio": "/Audio/audiotest.mp3",
         "prompt": "idő",

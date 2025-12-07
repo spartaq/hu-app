@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_irregularverbs",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Irregular Verbs Quiz",
     "questions": [
       {

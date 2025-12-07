@@ -63,7 +63,7 @@ export default function QuizActivity({ data = {}, onComplete, onScore, onProgres
 
   return (
     <div className="quizactivity__card activity-card">
-      <h2>{data.quizTitle || "Quiz"}</h2>
+      <h2>{data.instructions || "Quiz"}</h2>
 
       {/* Progress Bar */}
       <ProgressBar completed={completed} total={questions.length} />

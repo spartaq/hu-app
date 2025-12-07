@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_numbers",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Numbers & Quantities Quiz",
     "questions": [
       {

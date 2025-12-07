@@ -2,6 +2,7 @@
   "type": "grammarquiz",
   "title": "grammarquiz_mult",
   "data": {
+    "instructions": "Choose the correct answer",
     "quizTitle": "Múlt Idő",
     "questions": [
       {
