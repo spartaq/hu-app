@@ -1,418 +1,56 @@
-/* -------------------------------------------------
-   Root app container
--------------------------------------------------- */
-
-.vocab-app {  
-  background-color: rgb(215, 192, 238);
-  color: #111;
-  /*max-width: 480px;*/
-  margin: 0 auto;
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 18px;
-  box-sizing: border-box;
-}
-
-/* -------------------------------------------------
-   Header
--------------------------------------------------- */
-
-.vocab-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.vocab-header h1 {
-  margin: 0;
-  font-size: 18px;
-  letter-spacing: -0.2px;
-}
-
-.vocab-header-sub {
-  margin-top: 4px;
-  font-size: 12px;
-  color: var(--muted, #6b6b7a);
-}
-
-/* -------------------------------------------------
-   Scrollable main
--------------------------------------------------- */
-
-.vocab-main {
-  flex: 1;
-  overflow: auto;
-  padding-bottom: 10px;
-}
-
-.vocab-home {
-  flex: 1;
-  overflow: auto;
-  padding-bottom: 10px;
-  background-color: #6b6b7a;
-  height: 77vh;
-}
-
-
-/* -------------------------------------------------
-   Card
--------------------------------------------------- */
-
-.vocab-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,249,255,0.98));
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(22,20,60,0.08);
-  padding: 12px;
-  min-height: 120px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  transition: transform .18s ease, box-shadow .18s ease;
-}
-
-.vocab-card:active {
-  transform: scale(.995);
-}
-
-/* -------------------------------------------------
-   Card image
--------------------------------------------------- */
-
-.vocab-card-imgwrap {
-  height: 72px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, rgba(106,75,195,0.08), rgba(255,122,30,0.06));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.vocab-card-imgwrap img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.vocab-img-placeholder {
-  font-size: 30px;
-  opacity: .3;
-}
-
-/* -------------------------------------------------
-   Text
--------------------------------------------------- */
-
-.vocab-card-word {
-  margin-top: 10px;
-  font-weight: 600;
-  font-size: 15px;
-  color: #1b1530;
-}
-
-.vocab-meta {
-  font-size: 12px;
-  color: var(--muted, #6b6b7a);
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.vocab-level {
-  font-weight: 600;
-  font-size: 11px;
-  padding: 6px 8px;
-  border-radius: 999px;
-  background: rgba(106,75,195,0.1);
-  color: var(--accent, #6a4bc3);
-  display: inline-block;
-}
-
-.vocab-chip {
-  font-size: 12px;
-  padding: 6px 8px;
-  border-radius: 999px;
-  background: rgba(0,0,0,0.04);
-}
-
-/* -------------------------------------------------
-   Actions
--------------------------------------------------- */
-
-.vocab-card-actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px;
-  margin-top: 8px;
-}
-
-/* -------------------------------------------------
-   Footer buttons
--------------------------------------------------- */
-
-.vocab-footer {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.vocab-btn {
-  flex: 1;
-  border: none;
-  padding: 12px;
-  border-radius: 12px;
-  font-weight: 600;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.vocab-btn.secondary {
-  background: transparent;
-  border: 1px solid rgba(0,0,0,0.06);
-}
-
-.vocab-btn.primary {
-  background: var(--accent, #6a4bc3);
-  color: white;
-  box-shadow: 0 8px 18px rgba(106,75,195,0.14);
-}
-
-/* -------------------------------------------------
-   Not found
--------------------------------------------------- */
-
-.vocab-not-found {
-  padding: 20px;
-  text-align: center;
-}
-
-/* -------------------------------------------------
-   Topics page container
--------------------------------------------------- */
-.vocab-topics {
-  padding: 15px 30px;
-  height: 100vh;  
-  background-color: rgb(215, 192, 238);
-}
-
-.vocab-topics h2 {
-  margin-bottom: 12px;
-  font-size: 20px;
-}
-
-/* Grid */
-.vocab-topics-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-}
-
-@media (min-width: 600px) {
-  .vocab-topics-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Topic card */
-.vocab-topic-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,249,255,0.98));
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(22,20,60,0.08);
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.vocab-opic-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(22,20,60,0.12);
-}
-
-/* Topic title & count */
-.vocab-topic-title {
-  font-weight: 600;
-  font-size: 16px;
-  color: #1b1530;
-  margin-bottom: 6px;
-}
-
-.vocab-topic-count {
-  font-size: 12px;
-  color: var(--muted, #6b6b7a);
-}
-.vocab-topic-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, rgba(106,75,195,0.08), rgba(255,122,30,0.06));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-  font-size: 20px;
-}
-
 /* -----------------------------
-  Vocab Cards Grid
------------------------------- */
-.vocab-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-}
-
-@media (min-width: 600px) {
-  .vocab-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Card styling */
-.vocab-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,249,255,0.98));
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(22,20,60,0.08);
-  padding: 12px;
-  min-height: 140px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.vocab-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(22,20,60,0.12);
-}
-
-/* Image wrapper */
-.vocab-card-imgwrap {
-  height: 72px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, rgba(106,75,195,0.08), rgba(255,122,30,0.06));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.vocab-card-imgwrap img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Word & meta */
-.vocab-card-word {
-  margin-top: 10px;
-  font-weight: 600;
-  font-size: 15px;
-  color: #1b1530;
-}
-
-.vocab-meta {
-  font-size: 12px;
-  color: #6b6b7a;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.vocab-level {
-  font-weight: 600;
-  font-size: 11px;
-  padding: 6px 8px;
-  border-radius: 999px;
-  background: rgba(106,75,195,0.1);
-  color: var(--accent, #6a4bc3);
-}
-
-.vocab-chip {
-  font-size: 12px;
-  padding: 6px 8px;
-  border-radius: 999px;
-  background: rgba(0,0,0,0.04);
-}
-
-/* Actions row */
-.vocab-card-actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px;
-  margin-top: 8px;
-}
-
-/* -----------------------------
-  Hover popup info
------------------------------- */
-.vocab-card::after {
-  content: attr(data-word) " • " attr(data-translation);
-  position: absolute;
-  bottom: 12px;
-  left: 12px;
-  right: 12px;
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 10px;
-  padding: 6px 10px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #1b1530;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(8px);
-  transition: all 0.18s ease;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(22,20,60,0.06);
-}
-
-.vocab-card:hover::after {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* -----------------------------
-  Modal styling (reuse from mockup)
------------------------------- */
+  Modal overlay
+----------------------------- */
 .vocab-modal {
   position: fixed;
   inset: 0;
   display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 18px;
+  align-items: center;      /* vertical centering */
+  justify-content: center;  /* horizontal centering */
   z-index: 1200;
-}
-
-.vocab-modal.show {
-  display: flex;
   background: linear-gradient(180deg, rgba(16,14,40,0.35), rgba(10,8,20,0.25));
   backdrop-filter: blur(6px);
 }
 
+.vocab-modal.show {
+  display: flex;
+}
+
+/* -----------------------------
+  Modal card
+----------------------------- */
 .vocab-modal-card {
-  width: 100%;
-  max-width: 420px;
   background: var(--card, #fff);
   border-radius: 20px;
   padding: 18px;
-  box-shadow: 0 20px 50px rgba(16,15,40,0.28);
+  width: 100%;
+  max-width: 420px;
+  margin:25vh 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
+
+  
+
+  /* Ensure it doesn't shrink too much */
+  max-height: 80vh;
+  overflow-y: auto;
+
+  /* Optional animation */
+  transform: scale(0.95);
+  opacity: 0;
+  transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
+.vocab-modal.show .vocab-modal-card {
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+/* -----------------------------
+  Modal top section
+----------------------------- */
 .modal-top {
   display: flex;
   justify-content: space-between;
@@ -432,12 +70,18 @@
   margin-top: 2px;
 }
 
+/* -----------------------------
+  Modal body
+----------------------------- */
 .modal-body {
   font-size: 14px;
   color: #222;
   line-height: 1.35;
 }
 
+/* -----------------------------
+  Modal image
+----------------------------- */
 .modal-img {
   height: 220px;
   border-radius: 12px;
@@ -454,7 +98,9 @@
   object-fit: cover;
 }
 
-/* Modal actions */
+/* -----------------------------
+  Modal actions
+----------------------------- */
 .modal-actions {
   display: flex;
   gap: 10px;
@@ -480,31 +126,18 @@
   font-weight: 700;
 }
 
-/* Footer buttons */
-.vocab-footer {
-  display: flex;
-  gap: 8px;
-  align-items: center;
+/* -----------------------------
+  Swiper container in modal
+----------------------------- */
+.vocab-modal-swiper {
+  width: 100%;
+  height: 100%;
 }
 
-.vocab-btn {
-  flex: 1;
-  border: none;
-  padding: 12px;
-  border-radius: 12px;
-  font-weight: 600;
-  font-size: 14px;
-  cursor: pointer;
-}
+/* Optional: hide Swiper arrows if not needed */
 
-.vocab-btn.secondary {
-  background: transparent;
-  border: 1px solid rgba(0,0,0,0.06);
-}
-
-.vocab-btn.primary {
-  background: var(--accent, #6a4bc3);
-  color: white;
-  box-shadow: 0 8px 18px rgba(106,75,195,0.14);
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
 }
 

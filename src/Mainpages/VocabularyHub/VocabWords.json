@@ -1,0 +1,172 @@
+{
+  "topics": [
+    {
+      "id": "basics",
+      "title": "Basics",
+      "icon": "/Images/logo192-new.png",
+      "audio": "/Audio/basics.mp3",
+      "words": [
+        {
+          "id": 1,
+          "word": "szia",
+          "translation": "hi",
+          "example": "Szia, hogy vagy?",
+          "example_translation": "Hi, how are you?",
+          "start": 0,
+          "end": 1000,
+          "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800"
+        },
+        {
+          "id": 2,
+          "word": "köszi",
+          "translation": "thanks",
+          "example": "Köszi szépen!",
+          "example_translation": "Thank you very much!",
+          "start": 1000,
+          "end": 2000,
+          "image": "https://images.unsplash.com/photo-1582545733672-07132c503d03?q=80&w=800"
+        },
+        {
+          "id": 3,
+          "word": "igen",
+          "translation": "yes",
+          "example": "Igen, szeretném.",
+          "example_translation": "Yes, I would like it.",
+          "start": 2000,
+          "end": 3000,
+          "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=800"
+        },
+        {
+          "id": 4,
+          "word": "nem",
+          "translation": "no",
+          "example": "Nem, köszönöm.",
+          "example_translation": "No, thank you.",
+          "start": 3000,
+          "end": 4000,
+          "image": "https://images.unsplash.com/photo-1595152772835-219674b2a8a3?q=80&w=800"
+        },
+        {
+          "id": 5,
+          "word": "kérem",
+          "translation": "please",
+          "example": "Egy kávét, kérem.",
+          "example_translation": "A coffee, please.",
+          "start": 4000,
+          "end": 5000,
+          "image": "https://images.unsplash.com/photo-1564758866815-30853bb9b0f6?q=80&w=800"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "icon": "food.png",
+      "audio": "/Audio/food.mp3",
+      "words": [
+        {
+          "id": 1,
+          "word": "alma",
+          "translation": "apple",
+          "example": "Ez egy piros alma.",
+          "example_translation": "This is a red apple.",
+          "start": 0,
+          "end": 1000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=800"
+        },
+        {
+          "id": 2,
+          "word": "kenyér",
+          "translation": "bread",
+          "example": "Veszek friss kenyeret.",
+          "example_translation": "I'm buying fresh bread.",
+          "start": 1000,
+          "end": 2000,
+          "image": "https://images.unsplash.com/photo-1608198093003-5e06c307b1d4?q=80&w=800"
+        },
+        {
+          "id": 3,
+          "word": "tej",
+          "translation": "milk",
+          "example": "Szeretem a hideg tejet.",
+          "example_translation": "I like cold milk.",
+          "start": 2000,
+          "end": 3000,
+          "image": "https://images.unsplash.com/photo-1582465791223-c79d9ee8f345?q=80&w=800"
+        },
+        {
+          "id": 4,
+          "word": "víz",
+          "translation": "water",
+          "example": "Vizet kérek.",
+          "example_translation": "Water, please.",
+          "start": 3000,
+          "end": 4000,
+          "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800"
+        },
+        {
+          "id": 5,
+          "word": "csirke",
+          "translation": "chicken",
+          "example": "Csirkelevest eszem.",
+          "example_translation": "I'm eating chicken soup.",
+          "start": 4000,
+          "end": 5000,
+          "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb51?q=80&w=800"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "icon": "family.png",
+      "audio": "/Audio/family.mp3",
+      "words": [
+        {
+          "id": 1,
+          "word": "anya",
+          "translation": "mother",
+          "example": "Az anya főz.",
+          "example_translation": "The mother is cooking.",
+          "start": 0,
+          "end": 1000,
+          "image": "https://images.unsplash.com/photo-1590080877820-2c3fd0a0f36c?q=80&w=800"
+        },
+        {
+          "id": 2,
+          "word": "apa",
+          "translation": "father",
+          "example": "Az apa dolgozik.",
+          "example_translation": "The father is working.",
+          "start": 1000,
+          "end": 2000,
+          "image": "https://images.unsplash.com/photo-1603415526960-f0b4e145fa41?q=80&w=800"
+        },
+        {
+          "id": 3,
+          "word": "testvér",
+          "translation": "sibling",
+          "start": 2000,
+          "end": 3000,
+          "image": "https://images.unsplash.com/photo-1612277799442-3c8e3a88a3a2?q=80&w=800"
+        },
+        {
+          "id": 4,
+          "word": "fiú",
+          "translation": "boy / son",
+          "start": 3000,
+          "end": 4000,
+          "image": "https://images.unsplash.com/photo-1603570418493-5f5cb2e26f7b?q=80&w=800"
+        },
+        {
+          "id": 5,
+          "word": "lány",
+          "translation": "girl / daughter",
+          "start": 4000,
+          "end": 5000,
+          "image": "https://images.unsplash.com/photo-1603415526841-9d73c6f67d50?q=80&w=800"
+        }
+      ]
+    }
+  ]
+}

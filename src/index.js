@@ -40,9 +40,9 @@ import BasicAdjectives from './Mainpages/Hungarian/basicadjectives';
 import IrregularVerbs from './Mainpages/Hungarian/irregularverbs';
 import BasicQuestions from './Mainpages/Hungarian/basicquestions';
 import Sounds from './Mainpages/Hungarian/sounds';
-import VocabHome from './Utils/Vocab/VocabHome';
-import VocabTopics from './Utils/Vocab/VocabTopics';
-import VocabCards from './Utils/Vocab/VocabCards';
+import VocabHome from './Mainpages/VocabularyHub/VocabHome';
+import VocabTopics from './Mainpages/VocabularyHub/VocabTopics';
+import VocabCards from './Mainpages/VocabularyHub/VocabCards';
 
 
 const router = createBrowserRouter([
