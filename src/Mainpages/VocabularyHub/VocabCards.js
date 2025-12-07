@@ -18,6 +18,7 @@ export default function VocabCards() {
   const [selectedWord, setSelectedWord] = useState(null);
    const audioRef = useRef(null);
    const [revealed, setRevealed] = useState(false);
+   const swiperRef = useRef(null);
 
    useEffect(() => {
   if (!topic) return;
@@ -129,19 +130,20 @@ const playAudio = (word) => {
       {modalOpen && (
   <div className="vocab-modal show" role="dialog" aria-modal="true">
     <Swiper
-      modules={[Navigation, Pagination, Keyboard]}
-      pagination={{ clickable: true }}
-      keyboard={{ enabled: true }}
-      spaceBetween={24}
-      slidesPerView={1}
-      initialSlide={topic.words.findIndex(w => w.id === selectedWord?.id)}
-      onSlideChange={(swiper) => {
-        const idx = swiper.activeIndex;
-        setSelectedWord(topic.words[idx]);
-        setRevealed(false);
-      }}
-      className="vocab-modal-swiper"
-    >
+  modules={[Navigation, Pagination, Keyboard]}
+  pagination={{ clickable: true }}
+  keyboard={{ enabled: true }}
+  onSwiper={(swiper) => (swiperRef.current = swiper)}
+  spaceBetween={24}
+  slidesPerView={1}
+  initialSlide={topic.words.findIndex(w => w.id === selectedWord?.id)}
+  onSlideChange={(swiper) => {
+    const idx = swiper.activeIndex;
+    setSelectedWord(topic.words[idx]);
+    setRevealed(false);
+  }}
+  className="vocab-modal-swiper"
+>
       {topic.words.map((word) => (
         <SwiperSlide key={word.id}>
           <div className="vocab-modal-card">
@@ -184,7 +186,15 @@ const playAudio = (word) => {
     {revealed ? "Hide" : "Reveal"}
   </button>
 
-  <button className="action-know">Got it</button>
+  <button
+  className="action-know"
+  onClick={() => {
+    if (!swiperRef.current) return;
+    swiperRef.current.slideNext();
+  }}
+>
+  Next →
+</button>
 </div>
 
           </div>
