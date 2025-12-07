@@ -10,7 +10,7 @@ export default function SentenceOrdering({ data = {}, onComplete, onScore, onPro
   const [showTranslation, setShowTranslation] = useState(false);
 
   const currentExercise = exercises[currentIndex] || {};
-  const { sentence = "", translation = "", quizTitle = "" } = currentExercise;
+  const { sentence = "", translation = "", quizTitle = "", instructions = "" } = currentExercise;
 
   // Split sentence into words with ids
   const correctWords = useMemo(() => sentence.split(" ").map((word, idx) => ({ word, id: idx })), [sentence]);
@@ -72,7 +72,8 @@ export default function SentenceOrdering({ data = {}, onComplete, onScore, onPro
 
   return (
     <div className="wordorder-card">
-      <h2 className="wordorder-title">{quizTitle}</h2>
+      
+      <h2 className="wordorder-title">{instructions}</h2>
 
       {/* Word bank */}
       <div className="word-bank">
