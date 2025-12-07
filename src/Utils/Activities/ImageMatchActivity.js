@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "../../CSS/ImageMatchActivity.css";
 
-export default function ImageMatchActivity({ data = {}, onComplete }) {
-  // Expect data: { title, items: [{ id, prompt, promptImage, audio, translation, mode, options }] }
-  const items = data.items || [];
-  const title = data.title || "Image Match Exercise";
+export default function ImageMatchActivity({ data, items, index, onNext, onScore, onComplete, meta }) {
+  // Expect data: { items: [{ id, prompt, promptImage, audio, translation, mode, options }] }
+  const title = meta?.title || "Image Match Exercise";
 
-  const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState(false);
 
@@ -27,13 +25,8 @@ export default function ImageMatchActivity({ data = {}, onComplete }) {
   };
 
   const handleNext = () => {
-    if (onComplete) onComplete(selected?.isCorrect);
-    if (index < items.length - 1) {
-      setIndex((i) => i + 1);
-    } else {
-      // End of exercise
-      setIndex(0); // optionally reset
-    }
+    if (selected?.isCorrect) onScore();
+    onNext();
   };
 
   const playAudio = () => {

@@ -12,7 +12,6 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import App from './App';
 import MainFrame from './Mainpages/MainFrame';
 import Home from './Mainpages/Home';
-import VerbsHun from './Mainpages/Flashcards/verbshun';
 import JelenDef from './Mainpages/Hungarian/jelendef';
 import Lenni from './Mainpages/Hungarian/lenni';
 import JelenIndef from './Mainpages/Hungarian/jelenindef';
@@ -182,10 +181,6 @@ const router = createBrowserRouter([
           {
             path: 'hungarian/grammarquizHub',
             element: <GrammarQuizHub />
-          },
-          {
-            path: 'flashcards/verbshun',
-            element: <VerbsHun />,
           },
         ],
       },
