@@ -1,4 +1,4 @@
-.exercisesection {
+.lesson-modal {
   width: 100%;
   max-width: 100%;
   height: 77vh;
@@ -12,7 +12,7 @@
 }
 
 
-.exercisesection__activity-box {
+.lesson-modal__activity-box {
   /*display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,17 +25,17 @@
 }
 
 
-.exercisesection__card,
-.exercisesection__score-card,
-.exercisesection__start,
-.exercisesection__quiz-card {
+.lesson-modal__card,
+.lesson-modal__score-card,
+.lesson-modal__start,
+.lesson-modal__quiz-card {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
   overflow-wrap: break-word;
 }
 
-.exercisesection__card {
+.lesson-modal__card {
   background-color: white;
   width: 80%;
   padding: 16px;
@@ -44,7 +44,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.exercisesection__score-card {
+.lesson-modal__score-card {
   background-color: white;
   padding: 16px;
   margin-top: 16px;
@@ -52,7 +52,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.exercisesection__quiz-card {
+.lesson-modal__quiz-card {
   background-color: white;
   padding: 175px 200px;
   margin-top: 16px;
@@ -65,7 +65,7 @@
 
 
 
-.exercisesection__quiz-card {
+.lesson-modal__quiz-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,14 +74,14 @@
   text-align: center;
 }
 
-.exercisesection__title {
+.lesson-modal__title {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #333;
 }
 
-.exercisesection__start-button {
+.lesson-modal__start-button {
   background-color: #4caf50;
   color: white;
   font-size: 1.2rem;
@@ -92,19 +92,19 @@
   transition: background-color 0.3s ease;
 }
 
-.exercisesection__start-button:hover {
+.lesson-modal__start-button:hover {
   background-color: #45a049;
 }
 
 
 /* Keep typography and layout compact */
-.exercisesection__question {
+.lesson-modal__question {
   font-size: 1.1rem;
   text-align: center;
   margin-top: 60px;
 }
 
-.exercisesection__options {
+.lesson-modal__options {
   display: flex;
   flex-direction: column;
   margin: 12px auto;
@@ -112,7 +112,7 @@
 }
 
 /* Option buttons */
-.exercisesection__option-button {
+.lesson-modal__option-button {
   display: block;
   width: 100%;
   margin: 4px 0;
@@ -125,37 +125,37 @@
   transition: border-color 0.2s, background-color 0.2s;
 }
 
-.exercisesection__option-button:hover:not(:disabled) {
+.lesson-modal__option-button:hover:not(:disabled) {
   border-color: #888;
   background-color: #f1f1f1;
 }
 
-.exercisesection__option-button.correct {
+.lesson-modal__option-button.correct {
 
   border-color: #4caf50;
   background-color: #e6f5e6;
 }
 
-.exercisesection__option-button.incorrect {
+.lesson-modal__option-button.incorrect {
   border-color: #f44336;
   background-color: #fdecea;
 }
 
 
-.exercisesection__option-button.incorrect {
+.lesson-modal__option-button.incorrect {
   background-color: #f44336;
   color: white;
 }
 
-.exercisesection__topic-filter {
+.lesson-modal__topic-filter {
   margin-bottom: 10px;
 }
 
-.exercisesection__topic-filter label {
+.lesson-modal__topic-filter label {
   margin-right: 10px;
 }
 
-.exercisesection__topic-filter select {
+.lesson-modal__topic-filter select {
   padding: 5px;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -163,7 +163,7 @@
 
 
 
-.exercisesection__next-button {
+.lesson-modal__next-button {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   background-color: #2196f3;
@@ -174,12 +174,12 @@
 }
 
 
-.exercisesection__feedback {
+.lesson-modal__feedback {
   margin-top: 12px;
   text-align: center;
 }
 
-.exercisesection__feedback-explanation {
+.lesson-modal__feedback-explanation {
   font-style: italic;
   font-size: 0.9rem;
 }
@@ -187,7 +187,7 @@
 
 
 
-.exercisesection__nav {
+.lesson-modal__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -196,7 +196,7 @@
   flex-wrap: wrap; /* mobile-friendly */
 }
 
-.exercisesection__nav-button {
+.lesson-modal__nav-button {
   padding: 5px 5px;
   background-color: #eee;
   border: none;
@@ -220,17 +220,17 @@
   gap: 8px;
 }
 
-.exercisesection__nav-button:disabled {
+.lesson-modal__nav-button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
 }
 
-.exercisesection__nav-counter {
+.lesson-modal__nav-counter {
   font-weight: bold;
   margin: 0 10px;
 }
 
-.exercisesection__nav-controls {
+.lesson-modal__nav-controls {
   display: flex;
   gap: 10px;
 }
@@ -245,7 +245,7 @@
 
 
 
-.exercisesection__restart-button {
+.lesson-modal__restart-button {
   margin-top: 16px;
   padding: 10px;
   font-size: 1rem;
@@ -255,7 +255,7 @@
   width: 100%;
 }
 
-.exercisesection__answers {
+.lesson-modal__answers {
   margin-top: 16px;
   word-wrap: break-word;
 }
@@ -374,7 +374,7 @@
 
 /* Tight responsive tweak */
 @media (max-width: 280px) {
-  .exercisesection {
+  .lesson-modal {
     width: 100vw;
     padding: 8px;
   }
@@ -382,11 +382,11 @@
  
   @media (max-width: 980px) {
  
-    .exercisesection__question {
+    .lesson-modal__question {
     font-size: 1rem;
   }
 
-  .exercisesection__card {
+  .lesson-modal__card {
     background-color: white;
     width: 100%;
     padding: 16px;
@@ -395,7 +395,7 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .exercisesection__quiz-card {
+  .lesson-modal__quiz-card {
 
     padding: 175px 0px;
 
@@ -403,17 +403,17 @@
 
   }
 
-  .exercisesection__option-button {
+  .lesson-modal__option-button {
     font-size: 0.9rem;
     padding: 8px;
   }
 
 
-  .exercisesection__nav-button {
+  .lesson-modal__nav-button {
     flex: 1 1 100%;
   }
 
-.exercisesection__nav-button {
+.lesson-modal__nav-button {
   flex: 1 1 auto;
   min-width: 0; 
 }

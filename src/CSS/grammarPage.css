@@ -14,19 +14,6 @@ body {
 /* -----------------------------
    PAGE LAYOUT CONTAINER
 --------------------------------*/
-.modal-container {
-  width: 100%;
-  padding: 20px 10px;
-  background: rgb(215, 192, 238);  
-  height: 100vh;
-}
-
-/*.grammar-container {
-  width: 100%;
-  padding: 20px 10px;
-  background: rgb(188, 145, 231); 
-  height: 100vh;
-}*/
 
 .grammar-exercise-wrapper {
   background: white;
@@ -232,7 +219,7 @@ body {
   border: 1px solid #ccc;
 }
 
-.start-lesson-btn {
+/*.start-lesson-btn {
   background: #ff7a1e;
   color: white;
   padding: 14px 26px;
@@ -247,7 +234,7 @@ body {
 
 .start-lesson-btn:hover {
   background: rebeccapurple;
-}
+}*/
 
 .continue-btn {
   margin-top: 20px;

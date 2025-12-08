@@ -1,4 +1,4 @@
-import ModalRender from "./ModalRender.js"
+import ModalRender from "./LessonModalRender.js"
 
 /* ---------------------- IMPORTS ---------------------- */
 

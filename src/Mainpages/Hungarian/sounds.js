@@ -1,5 +1,5 @@
 import React from 'react';
-import ModalPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/LessonModalLayout';
 import GrammarExplanation from './HungarianIntros/intro_sounds';
 import mainimage from '../../Images/neighbor2-sc.jpg';
 

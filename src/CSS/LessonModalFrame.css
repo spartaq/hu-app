@@ -1,7 +1,7 @@
 /* -------------------------------
    FULL-SCREEN MODAL OVERLAY
 --------------------------------*/
-.modal-overlay {
+.lesson-modal-overlay {
   position: fixed;
   inset: 0;
   width: 100vw;
@@ -18,7 +18,7 @@
 /* -------------------------------
    MAIN MODAL CONTAINER Modal body is the main background for the modal screens
 --------------------------------*/
-.modal-content {
+.lesson-modal-content {
   background: transparent;
   width: 100%;
   max-width: 900px;
@@ -49,7 +49,7 @@
 /* -------------------------------
    HEADER BAR (Purple)
 --------------------------------*/
-.modal-header {
+.lesson-modal-header {
   background: rebeccapurple;        /* purple brand color */
   color: white;
   padding: 20px 24px;
@@ -58,7 +58,7 @@
   justify-content: space-between;
 }
 
-.modal-title {
+.lesson-modal-title {
   font-size: 1.7rem;
   font-weight: 700;
   margin: 0;
@@ -69,7 +69,7 @@
 /* -------------------------------
    CLOSE BUTTON
 --------------------------------*/
-.modal-close {
+.lesson-modal-close {
   background: none;
   border: none;
   color: white;
@@ -78,7 +78,7 @@
   cursor: pointer;
   margin-left: 12px;
 }
-.modal-close:hover {
+.lesson-modal-close:hover {
   opacity: 0.8;
 }
 
@@ -86,18 +86,18 @@
 /* -------------------------------
    INNER SCROLLABLE BODY
 --------------------------------*/
-.modal-body {
+.lesson-modal-body {
   padding: 12px;
-  overflow-y: auto;
+  /*overflow-y: auto;*/
   flex: 1;
   background: rgb(215, 192, 238);
 }
 
 /* Nice scrollbar */
-.modal-body::-webkit-scrollbar {
+.lesson-modal-body::-webkit-scrollbar {
   width: 8px;
 }
-.modal-body::-webkit-scrollbar-thumb {
+.lesson-modal-body::-webkit-scrollbar-thumb {
   background: #c7b4ff;
   border-radius: 6px;
 }
@@ -106,7 +106,7 @@
 /* -------------------------------
    BUTTONS (Orange = Primary)
 --------------------------------*/
-.modal-button,
+.lesson-modal-button,
 .lesson-button {
   display: inline-block;
   background: #ff8b2c;     /* orange brand */
@@ -121,13 +121,13 @@
   transition: transform 0.15s ease, background 0.15s ease;
 }
 
-.modal-button:hover,
+.lesson-modal-button:hover,
 .lesson-button:hover {
   background: #ff7a00;
   transform: translateY(-2px);
 }
 
-.modal-button:active,
+.lesson-modal-button:active,
 .lesson-button:active {
   transform: scale(0.98);
 }
@@ -163,7 +163,7 @@
   color: #333;
 }
 
-.modal-footer {
+.lesson-modal-footer {
   padding: 0px;
   border-top: 1px solid #eee;
   display: flex;
@@ -171,7 +171,7 @@
   background: rebeccapurple;
 }
 
-.modal-footer button {
+.lesson-modal-footer button {
   padding: 12px 20px;
   border-radius: 8px;
   border: none;
@@ -182,7 +182,7 @@
   color: white;
 }
 
-.modal-footer button:hover {
+.lesson-modal-footer button:hover {
   background: rebeccapurple;
 }
 

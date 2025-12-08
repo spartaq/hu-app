@@ -13,7 +13,7 @@ import AudioWordMatchActivity from "../Utils/Activities/AudioWordMatchActivity.j
 import LessonCompleteActivity from "../Utils/Activities/LessonCompleteActivity.js";
 import SayAloud from "../Utils/Activities/SayAloud.js";
 
-import "../CSS/modalflow.css";
+import "../CSS/LessonModalRender.css";
 
 const ModalRender = ({ type, data, id, scrollTargetRef }) => {
   const topRef = useRef(null);
@@ -122,9 +122,9 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
   // -------------------------------------------------------
   if (ended && type !== "lessoncomplete") {
     return (
-      <div className="exercisesection">
+      <div className="lesson-modal">
         <div ref={topRef} />
-        <div className="exercisesection__score-card">
+        <div className="lesson-modal__score-card">
           <h2>Activity Completed!</h2>
           <p>
             Score: {score} / {items.length}
@@ -154,12 +154,12 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
   // Render
   // -------------------------------------------------------
   return (
-    <div className="exercisesection">
+    <div className="lesson-modal">
       
       <div ref={topRef} />
 
     
-      <div className="exercisesection__activity-box">
+      <div className="lesson-modal__activity-box">
         <ActivityComp {...activityProps} />
       </div>
     </div>

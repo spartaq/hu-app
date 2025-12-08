@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Modal from './modal';
-import ToggleSection from './ModalSection';
+import Modal from './LessonModalFrame';
+import ModalRouter from './LessonModalRouter';
 import SEO from './SEO';
-import "../CSS/grammarPage.css";
+import "../CSS/LessonModalLayout.css";
 
 const ModalLayout = ({
   title,
@@ -65,15 +65,15 @@ const ModalLayout = ({
     <div>
       <SEO title={seoTitle} description={seoDescription} />
 
-      <div className="modal-container">
-        <div className="grammar-exercise-wrapper">
+      <div className="lesson-modal-container">
+        <div className="lesson-modal-wrapper">
 
-          <div className="grammarimage">
+          <div className="lesson-modal-image">
             <img src={image} alt={title} />
           </div>
 
-          <div className="content-grid">
-            <div className="grammar-explanation-grid">
+          <div className="lesson-modal-grid">
+            <div className="lesson-modal-intro-grid">
               <ExplanationComponent />
             </div>
 
@@ -104,7 +104,7 @@ const ModalLayout = ({
         }
       >
         {selectedSection && (
-          <ToggleSection {...selectedSection} />
+          <ModalRouter {...selectedSection} />
         )}
       </Modal>
     </div>

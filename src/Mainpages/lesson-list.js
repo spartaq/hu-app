@@ -14,7 +14,7 @@ export default function LessonList() {
 
   return (
 
-    <div className="lessonlist-container">
+    
     <div className="lessonlist-wrapper">
       <h2 className="lessonlist-title">Lessons</h2>
 
@@ -46,6 +46,6 @@ export default function LessonList() {
         ))}
       </div>
     </div>
-    </div>
+    
   );
 }

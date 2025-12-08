@@ -10,7 +10,6 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import App from './App';
-import MainFrame from './Mainpages/MainFrame';
 import Home from './Mainpages/Home';
 import JelenDef from './Mainpages/Hungarian/jelendef';
 import Lenni from './Mainpages/Hungarian/lenni';
@@ -51,142 +50,139 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: '/',
-        element: <MainFrame />,
-        children: [
-          {
-            index: true, 
-            element: <Home />,
-          },
-          { 
-            path: 'hungarian/sounds',
-            element: <Sounds />,
-          },
-          { 
-            path: 'hungarian/lenni',
-            element: <Lenni />,
-          },
-          { 
-            path: 'hungarian/jelendef',
-            element: <JelenDef />,
-          },
-          {
-            path: 'hungarian/jelenindef',
-            element: <JelenIndef />,
-          },
-          {
-            path: 'hungarian/mult',
-            element: <Mult />,
-          },
-          {
-            path: 'hungarian/van',
-            element: <Van />,
-          },
-          {
-            path: 'hungarian/nekivan',
-            element: <Nekivan />,
-          },
-          {
-            path: 'hungarian/jovo',
-            element: <Jovo />,
-          },
-          {
-            path: 'hungarian/birtoklas',
-            element: <Birtoklas />,
-          },
-          {
-            path: 'hungarian/nevmas',
-            element: <Nevmas />,
-          },
-          {
-            path: 'hungarian/nevuto',
-            element: <Nevuto />,
-          },
-          {
-            path: 'hungarian/hasonlitas',
-            element: <Hasonlitas />,
-          },
-          {
-            path: 'hungarian/fokusz',
-            element: <Fokusz />,
-          },
-          {
-            path: 'hungarian/harmonia',
-            element: <Harmonia />,
-          },
-          {
-            path: 'hungarian/orderingdrinks',
-            element: <OrderingDrinks />,
-          },
-          {
-            path: 'hungarian/basicphrases',
-            element: <BasicPhrases />,
-          },
-          {
-            path: 'hungarian/numbers',
-            element: <Numbers />,
-          },
-          {
-            path: 'hungarian/basicadjectives',
-            element: <BasicAdjectives />,
-          },
-          {
-            path: 'hungarian/irregularverbs',
-            element: <IrregularVerbs />,
-          },
-          {
-            path: 'hungarian/basicquestions',
-            element: <BasicQuestions />,
-          },
-          {
-            path: 'hungarian/verbconjugationtable',
-            element: <HuVerbConjugation />,
-          },
-          {
-            path: 'hungarian/activities',
-            element: <ActivityFilter />,
-          },
-          {
-            path: 'hungarian/lesson-list',
-            element: <LessonList />,
-          },
-          {
-            path: 'hungarian/readingHub',
-            element: <ReadingHub />,
-          },
-          {
-            path: "hungarian/activity/reading/:id",
-            element: <ReadingActivityPage />,
-          },
-          {
-            path: "hungarian/vocabularymatchHub",
-            element: <VocabularymatchHub />
-          },
-          {
-            path: "/vocab",
-            element: <VocabHome />
-          },
-          {
-            path: "/vocab/topics",
-            element: <VocabTopics />
-          },
-          {
-            path: "/vocab/topics/:topicId",
-            element: <VocabCards />
-          },
-          {  
-            path: "hungarian/activity/vocab/:id",
-            element: <VocabularyActivityPage />
-          },
-          {
-            path: 'hungarian/grammarquizHub',
-            element: <GrammarQuizHub />
-          },
-        ],
+        index: true,
+        element: <Home />,
       },
-    ]
-  }
+      {
+        path: 'hungarian/sounds',
+        element: <Sounds />,
+      },
+      {
+        path: 'hungarian/lenni',
+        element: <Lenni />,
+      },
+      {
+        path: 'hungarian/jelendef',
+        element: <JelenDef />,
+      },
+      {
+        path: 'hungarian/jelenindef',
+        element: <JelenIndef />,
+      },
+      {
+        path: 'hungarian/mult',
+        element: <Mult />,
+      },
+      {
+        path: 'hungarian/van',
+        element: <Van />,
+      },
+      {
+        path: 'hungarian/nekivan',
+        element: <Nekivan />,
+      },
+      {
+        path: 'hungarian/jovo',
+        element: <Jovo />,
+      },
+      {
+        path: 'hungarian/birtoklas',
+        element: <Birtoklas />,
+      },
+      {
+        path: 'hungarian/nevmas',
+        element: <Nevmas />,
+      },
+      {
+        path: 'hungarian/nevuto',
+        element: <Nevuto />,
+      },
+      {
+        path: 'hungarian/hasonlitas',
+        element: <Hasonlitas />,
+      },
+      {
+        path: 'hungarian/fokusz',
+        element: <Fokusz />,
+      },
+      {
+        path: 'hungarian/harmonia',
+        element: <Harmonia />,
+      },
+      {
+        path: 'hungarian/orderingdrinks',
+        element: <OrderingDrinks />,
+      },
+      {
+        path: 'hungarian/basicphrases',
+        element: <BasicPhrases />,
+      },
+      {
+        path: 'hungarian/numbers',
+        element: <Numbers />,
+      },
+      {
+        path: 'hungarian/basicadjectives',
+        element: <BasicAdjectives />,
+      },
+      {
+        path: 'hungarian/irregularverbs',
+        element: <IrregularVerbs />,
+      },
+      {
+        path: 'hungarian/basicquestions',
+        element: <BasicQuestions />,
+      },
+      {
+        path: 'hungarian/verbconjugationtable',
+        element: <HuVerbConjugation />,
+      },
+      {
+        path: 'hungarian/activities',
+        element: <ActivityFilter />,
+      },
+      {
+        path: 'hungarian/lesson-list',
+        element: <LessonList />,
+      },
+      {
+        path: 'hungarian/readingHub',
+        element: <ReadingHub />,
+      },
+      {
+        path: 'hungarian/activity/reading/:id',
+        element: <ReadingActivityPage />,
+      },
+      {
+        path: 'hungarian/vocabularymatchHub',
+        element: <VocabularymatchHub />,
+      },
+
+      // vocab
+      {
+        path: 'vocab',
+        element: <VocabHome />,
+      },
+      {
+        path: 'vocab/topics',
+        element: <VocabTopics />,
+      },
+      {
+        path: 'vocab/topics/:topicId',
+        element: <VocabCards />,
+      },
+      {
+        path: 'hungarian/activity/vocab/:id',
+        element: <VocabularyActivityPage />,
+      },
+      {
+        path: 'hungarian/grammarquizHub',
+        element: <GrammarQuizHub />,
+      },
+    ],
+  },
 ]);
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <HelmetProvider>

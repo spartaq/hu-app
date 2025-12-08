@@ -1,13 +1,17 @@
 /* WRAPPER */
 .home-wrapper {
   padding: var(--space-lg);
-  background: rgb(215, 192, 238);
-  min-height: 100vh;
+  /*background: rgb(215, 192, 238);*/
   font-family: var(--font-main);
-  /*max-width: 900px;*/
-  margin: 0px auto;
-  overflow:visible
+  max-width: 900px;
+  margin: 50px auto;
+  height: 100vh;
+overflow: hidden;
+display: flex;
+flex-direction: column;
 }
+
+
 
 /* SMALL BANNER */
 .home-banner {
@@ -90,7 +94,8 @@
 
 /* QUICK ACTIONS */
 .home-section {
-  overflow: auto;
+  flex-grow: 1;
+  overflow-y: auto;
 }
 .home-section h2 {
   font-size: var(--font-size-h3);

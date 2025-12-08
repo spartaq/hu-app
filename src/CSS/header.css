@@ -1,3 +1,4 @@
+/* app-header is being used */
 .app-header {
   height: 60px;
   background: rebeccapurple;
@@ -5,24 +6,13 @@
   position: sticky;
   top: 0;
   z-index: 100;
-
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 12px;
-
   backdrop-filter: blur(8px);
 }
-
-/* FIXED HEADER */
-/*.app-header {
-  flex-shrink: 0;
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  background: white;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-}*/
 
 .header-left,
 .header-right {

@@ -157,7 +157,7 @@ const templates = {
   }),
 
  lessonPage: (lesson) => `import React from 'react';
-import ModalPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/LessonModalLayout';
 import GrammarExplanation from './HungarianIntros/intro_${lesson}';
 import mainimage from '../../Images/placeholder.jpg';
 

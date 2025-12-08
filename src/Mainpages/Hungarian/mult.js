@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ModalPageLayout from '../../Components/ModalLayout';
+import ModalPageLayout from '../../Components/LessonModalLayout';
 import GrammarExplanation from './HungarianIntros/multintro';
 import mainimage from '../../Images/jelenido1.jpg';
 

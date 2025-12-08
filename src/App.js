@@ -22,7 +22,7 @@ const App = () => {
                 />
 
                 {/* FIXED HEADER */}
-                <header className="app-header">
+                <header className="app-header-wrapper">
                     <Header />
                 </header>
 

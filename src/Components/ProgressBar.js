@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/modalflow.css"; 
+import "../CSS/LessonModalRender.css"; 
 
 const ProgressBar = ({ completed, total }) => {
   const percentage = total > 0 ? (completed / total) * 100 : 0;
