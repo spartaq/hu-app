@@ -1,21 +1,23 @@
 /* -----------------------------
    PAGE LAYOUT CONTAINER
 --------------------------------*/
-.lesson-modal-container {
-  width: 100%;
-  padding: 20px 10px;
-  background: rgb(215, 192, 238);  
-  height: 100vh;
-}
+
 
 
 .lesson-modal-wrapper {
-  background: white;
+display: flex;
+  flex-direction: column;
+
+  /*background: rgb(182, 17, 17);*/
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin: 24px auto;
+
+  width: 100%;
+  max-width: 900px;
+  margin: 0px auto;
   padding: 20px;
-  height: 77vh;
+
+  height: 100vh;
 }
 
 /* -----------------------------

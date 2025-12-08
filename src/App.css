@@ -143,7 +143,8 @@ a {
 .app-content {
   flex: 1;
   overflow-y: hidden;
-  padding: 0px;
+  padding-top: 64px; /* or match your header height */
+  height: calc(100vh - 64px - footerHeight);
   padding-bottom: 90px; /* avoids overlapping with footer */
 }
 

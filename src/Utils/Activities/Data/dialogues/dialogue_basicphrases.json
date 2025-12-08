@@ -1,5 +1,6 @@
 {
   "type": "dialogue",
+  "image": "/Images/dialogue1.jpg",
   "title": "Morning Greeting",
   "data": {
     "audio": "/Audio/Ujszomszedok.mp3",

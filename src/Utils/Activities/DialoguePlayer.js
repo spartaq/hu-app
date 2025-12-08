@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../../CSS/dialoguePlayer.css";
 
-export default function DialoguePlayer({ lines = [], audioSrc = null, subtitleMode = false }) {
+export default function DialoguePlayer({ lines = [], audioSrc = null, subtitleMode = false, image }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [ready, setReady] = useState(true);
@@ -53,9 +53,15 @@ export default function DialoguePlayer({ lines = [], audioSrc = null, subtitleMo
   const currentLine = lines[currentIndex] || {};
 
   return (
-    <div>
-      
+    <div className="dialogue-wrapper">
+       {image && (
+      <div className="dialogue-image-wrapper">
+        <img src={image} alt="" className="dialogue-image" />
+      </div>
+    )}
+
     <div className="dialogue-card">
+      
       {audioSrc && <audio ref={audioRef} src={audioSrc} preload="auto" />}
 
    

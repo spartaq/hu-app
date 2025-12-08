@@ -65,7 +65,7 @@ const ModalLayout = ({
     <div>
       <SEO title={seoTitle} description={seoDescription} />
 
-      <div className="lesson-modal-container">
+      
         <div className="lesson-modal-wrapper">
 
           <div className="lesson-modal-image">
@@ -85,7 +85,7 @@ const ModalLayout = ({
             </button>
           </div>
         </div>
-      </div>
+      
 
       {/* Modal */}
       <Modal

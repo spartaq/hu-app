@@ -8,10 +8,10 @@ export default function Modal({ open, onClose, children, title, footer }) {
     <div className="lesson-modal-overlay" onClick={onClose}>      
       <div className="lesson-modal-content" onClick={e => e.stopPropagation()}>        
         {/* Purple Header Bar */}
-        <div className="lesson-modal-header">
+        {/*<div className="lesson-modal-header">
           <h2 className="lesson-modal-title">{title}</h2>
           <button className="lesson-modal-close" onClick={onClose}>×</button>
-        </div>
+        </div>*/}
 
         {/* Scrollable lesson body */}
         <div className="lesson-modal-body">

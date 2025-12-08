@@ -1,6 +1,6 @@
 /* WRAPPER */
 .home-wrapper {
-  padding: var(--space-lg);
+  padding: 0 20px;
   /*background: rgb(215, 192, 238);*/
   font-family: var(--font-main);
   max-width: 900px;
@@ -108,6 +108,14 @@ flex-direction: column;
   gap: var(--space-lg);
 }
 
+.home-grid::-webkit-scrollbar {
+  height: 6px;
+}
+.home-grid::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 4px;
+}
+
 .home-card {
   background: var(--color-surface);
   padding: var(--space-md);
@@ -119,11 +127,17 @@ flex-direction: column;
   gap: var(--space-sm);
   cursor: pointer;
   transition: 0.2s ease;
+  color: var(--color-text);
+  text-decoration: none;
 }
 
 .home-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-medium);
+}
+
+.home-card:visited {
+  color: var(--color-text);
 }
 
 .home-card-icon {
@@ -133,3 +147,109 @@ flex-direction: column;
   padding: 14px;
   border-radius: 50%;
 }
+
+@media (max-width: 480px) {
+
+  /* Make space efficient: banner smaller */
+  .home-banner {
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+  }
+
+  .home-banner-img {
+    width: 100px;
+    height: 60px;
+  }
+
+  .banner-title {
+    font-size: 1.35rem;
+  }
+
+  .banner-sub {
+    font-size: 0.9rem;
+  }
+
+  /* Resume card smaller */
+  .resume-card {
+    padding: var(--space-md);
+    margin-bottom: var(--space-md);
+  }
+
+  .resume-card h3 {
+    font-size: 1rem;
+  }
+
+  /* Buttons smaller and more mobile */
+  .primary-btn,
+  .secondary-btn {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.85rem;
+    border-radius: var(--radius-medium);
+    font-weight: 600;
+  }
+
+  /* QUICK ACTIONS */
+  .home-section h2 {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-sm);
+  }
+
+  /* Horizontal carousel */
+  .home-grid {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-sm);
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+
+    padding: var(--space-xs) 0 var(--space-sm) 0;
+  }
+
+  /* Make items feel like buttons not cards */
+  .home-card {
+    flex: 0 0 110px;
+    scroll-snap-align: start;
+
+    background: var(--color-surface);
+    border-radius: var(--radius-medium);
+    box-shadow: var(--shadow-soft);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: var(--space-xs);
+    gap: var(--space-xs);
+
+    text-align: center;
+    text-decoration: none; /* remove link underline */
+    font-size: 0.8rem;
+
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .home-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
+  }
+
+  /* Icon smaller */
+  .home-card-icon {
+    font-size: 1.3rem;
+    padding: 8px;
+
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    border-radius: 50%;
+  }
+
+  .home-card span {
+    white-space: nowrap;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+}
+
+

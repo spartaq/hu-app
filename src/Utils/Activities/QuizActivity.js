@@ -68,7 +68,7 @@ export default function QuizActivity({ data = {}, onComplete, onScore, onProgres
       {/* Progress Bar */}
       <ProgressBar completed={completed} total={questions.length} />
 
-      {image && <img src={image} alt="" className="im-image" />}
+      {image && <img src={image} alt="" className="quizactivity-image" />}
 
       <h3 className="quizactivity__question">{question}</h3>
 

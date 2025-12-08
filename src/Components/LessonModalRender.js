@@ -148,6 +148,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
     onComplete: handleComplete,
     meta: data,
     title: data?.title,
+    image: data?.image,
   };
 
   // -------------------------------------------------------

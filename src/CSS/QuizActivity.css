@@ -41,11 +41,11 @@ body {
 }
 
 /* === HERO IMAGE (optional) === */
-.im-image {
+.quizactivity-image {
   width: 100%;
   border-radius: 14px;
   object-fit: cover;
-  max-height: 200px;
+  max-height: 175px;
 
   /* subtle warm glow */
   box-shadow: 0 6px 20px rgba(255, 122, 30, 0.15);
@@ -190,6 +190,9 @@ body {
   }
 
   .quizactivity__options {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }

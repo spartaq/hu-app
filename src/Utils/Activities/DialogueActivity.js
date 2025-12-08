@@ -1,7 +1,7 @@
 import React from "react";
 import DialoguePlayer from "./DialoguePlayer";
 
-const DialogueActivity = ({ data }) => {
+const DialogueActivity = ({ image, data }) => {
   if (!data || !Array.isArray(data.lines)) {
     return <div>Error: Dialogue data format invalid.</div>;
   }
@@ -18,6 +18,7 @@ const DialogueActivity = ({ data }) => {
       lines={processed}
       audioSrc={data.audio}
       subtitleMode={true}
+      image={image}
     />
   );
 };

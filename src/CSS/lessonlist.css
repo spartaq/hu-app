@@ -1,24 +1,18 @@
-
-
 .lessonlist-wrapper {
-  max-width: 100%;
-  width: 80%;
-  margin: 3rem auto;
-  padding: 2.5rem;
-  border-radius: 12px;
-  background: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  font-family: var(--font-main);
+  max-width: 900px;
+  margin: 0 auto;
+  height: calc(100vh - 130px); /* footer height */
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  font-family: sans-serif;
-  height: 88vh;
 }
 
 .lessonlist-title {
   font-size: 1.9rem;
   margin-bottom: 18px;
-  color: rebeccapurple; /* purple accent */
+  color: rebeccapurple;
 }
 
 /* scrollable list */
@@ -26,7 +20,6 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-  max-height: calc(100vh - 140px);
   overflow-y: auto;
   padding-right: 4px;
 }
