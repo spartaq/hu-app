@@ -11,7 +11,7 @@ body {
 
 /* === CONTAINER === */
 .quizactivity__card {
-  max-width: 480px;
+  max-width: 420px;
   width: 100%;
   margin: 1.25rem auto;
   padding: 2rem 1.5rem;
@@ -181,7 +181,7 @@ body {
     padding: 1.4rem 1rem;
     margin: 1vh auto;
     max-width: 420px;
-    width: 400px;
+    width: 360px;
   }
 
   .quizactivity__question {

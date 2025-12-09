@@ -16,7 +16,7 @@
         ],
         "answer": "vagyok",
         "translate": "I'm Hungarian.",
-        "image": "/Images/default.jpg"
+        "image": "/Images/hungarian.jpg"
       },
       {
         "id": 2,
@@ -29,7 +29,7 @@
         ],
         "answer": "vagy",
         "translate": "Are you American?",
-        "image": "/Images/default.jpg"
+        "image": "/Images/american.jpg"
       },
       {
         "id": 3,
@@ -42,11 +42,11 @@
         ],
         "answer": "-",
         "translate": "He/she is a teacher and today he/she is very tired.",
-        "image": "/Images/default.jpg"
+        "image": "/Images/teacher.jpg"
       },
       {
         "id": 4,
-        "question": "Mi mérnökök ______.",
+        "question": "Mi orvosok ______.",
         "options": [
           "vagytok",
           "vagyunk",
@@ -55,7 +55,7 @@
         ],
         "answer": "vagyunk",
         "translate": "We are engineers.",
-        "image": "/Images/default.jpg"
+        "image": "/Images/doctor.jpg"
       },
       {
         "id": 5,
@@ -68,7 +68,7 @@
         ],
         "answer": "vagytok",
         "translate": "You (plural) are very friendly.",
-        "image": "/Images/default.jpg"
+        "image": "/Images/saying-hello.jpg"
       },
       {
         "id": 6,
@@ -81,7 +81,7 @@
         ],
         "answer": "vannak",
         "translate": "The students are already at school.",
-        "image": "/Images/default.jpg"
+        "image": "/Images/kidsToSchool.jpg"
       },
       {
         "id": 7,
@@ -94,7 +94,7 @@
         ],
         "answer": "vagyok",
         "translate": "I am not sick, just tired.",
-        "image": "/Images/default.jpg"
+        "image": "/Images/tired.jpg"
       },
       {
         "id": 8,
@@ -107,7 +107,7 @@
         ],
         "answer": "-",
         "translate": "Are they Italian?",
-        "image": "/Images/default.jpg"
+        "image": "/Images/italian.jpg"
       },
       {
         "id": 9,
@@ -119,8 +119,8 @@
           "vannak"
         ],
         "answer": "-",
-        "translate": "My friend is a doctor.",
-        "image": "/Images/default.jpg"
+        "translate": "My friend is a butcher.",
+        "image": "/Images/hentes.jpg"
       },
       {
         "id": 10,
@@ -133,7 +133,7 @@
         ],
         "answer": "vagyunk",
         "translate": "We are ready for the meeting.",
-        "image": "/Images/default.jpg"
+        "image": "/Images/meet.jpg"
       }
     ]
   }
