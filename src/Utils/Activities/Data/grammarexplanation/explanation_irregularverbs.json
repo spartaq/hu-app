@@ -1,46 +1,42 @@
 {
   "type": "grammarexplanation",
-  "title": "Irregular Verbs – Hobbies & Free Time",
+  "title": "Irregular Verbs – Quick Guide",
   "data": {
     "type": "explanation",
     "sections": [
       {
-        "heading": "Using Irregular Verbs",
+        "heading": "Irregular Verb Patterns",
         "paragraphs": [
-          "Some Hungarian verbs are irregular, meaning their forms change and do not follow the regular conjugation patterns.",
-          "Common irregular verbs include: lesz (will be), tesz (does), vesz (takes), hisz (believes), visz (carries), eszik (eats), iszik (drinks), megy (goes), jön (comes), játszik (plays), vacsorázik (has dinner).",
-          "You will often use these verbs in everyday conversations about hobbies and free time."
-        ],
-        "list": [
-          "lesz – will be",
-          "tesz – does/makes",
-          "vesz – takes/buys",
-          "hisz – believes",
-          "visz – carries/takes",
-          "eszik – eats",
-          "iszik – drinks",
-          "megy – goes",
-          "jön – comes",
-          "játszik – plays",
-          "vacsorázik – has dinner"
+          "Some Hungarian verbs are irregular, meaning their conjugation endings differ from regular patterns.",
+          "Instead of memorizing each verb separately, focus on how their endings change for each person."
         ]
       },
       {
-        "heading": "Hobbies and Free Time Vocabulary",
+        "heading": "Example Conjugation Endings (Present Tense)",
         "paragraphs": [
-          "You can combine these verbs with hobbies and activities to describe what people do in their free time."
-        ],
+          "Take the verb stem and add the irregular endings according to the person."
+        ]
+      },
+      {
+        "heading": "Tesz-type Verb Example (tesz – does/makes)",
         "list": [
-          "olvas – reads",
-          "ír – writes",
-          "fut – runs",
-          "úszik – swims",
-          "táncol – dances",
-          "zenél – plays music",
-          "fest – paints",
-          "sétál – walks",
-          "biciklizik – cycles",
-          "játsszik – plays (games/sports)"
+          "Én teszek – I do/make",
+          "Te teszel – You do/make",
+          "Ő tesz – He/She does/makes",
+          "Mi teszünk – We do/make",
+          "Ti tesztek – You all do/make",
+          "Ők tesznek – They do/make"
+        ]
+      },
+      {
+        "heading": "Játszik-type Verb Example (játszik – plays)",
+        "list": [
+          "Én játszom – I play",
+          "Te játszol – You play",
+          "Ő játszik – He/She plays",
+          "Mi játszunk – We play",
+          "Ti játszotok – You all play",
+          "Ők játszanak – They play"
         ]
       }
     ]

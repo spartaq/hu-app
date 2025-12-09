@@ -68,7 +68,11 @@ export default function QuizActivity({ data = {}, onComplete, onScore, onProgres
       {/* Progress Bar */}
       <ProgressBar completed={completed} total={questions.length} />
 
-      {image && <img src={image} alt="" className="quizactivity-image" />}
+      <img
+  src={currentQuestion.image || data.image}
+  alt={currentQuestion.question || "Quiz image"}
+  className="quizactivity-image"
+/>
 
       <h3 className="quizactivity__question">{question}</h3>
 
@@ -81,7 +85,7 @@ export default function QuizActivity({ data = {}, onComplete, onScore, onProgres
               buttonClass += isCorrect ? " correct" : " incorrect";
             }
             if (option === correctAnswer && selectedAnswer !== correctAnswer) {
-              buttonClass += " correct";
+              buttonClass += "correct";
             }
           }
 
@@ -99,21 +103,21 @@ export default function QuizActivity({ data = {}, onComplete, onScore, onProgres
       </div>
 
       {selectedAnswer && (
-        <div className="quizactivity__feedback">
-          <p>{isCorrect ? "✅ Correct!" : "❌ Incorrect."}</p>
+  <div className="quizactivity__feedback">
+    <p>{isCorrect ? "✅ Correct!" : "❌ Incorrect."}</p>
 
-          {isCorrect && (
-            <div className="quizactivity__solution">
-              <p><strong>Correct answer:</strong> {buildCorrectSentence()}</p>
-              {translate && <p><strong>Translation:</strong> {translate}</p>}
-            </div>
-          )}
+    <div className="quizactivity__solution">
+      <p><strong>Correct answer:</strong> {correctAnswer}</p>
+      {translate && <p><strong>Translation:</strong> {translate}</p>}
+    </div>
 
-          <button className="quizactivity__next-btn control-btn" onClick={handleNext}>
-            Next Question →
-          </button>
-        </div>
-      )}
+    <button className="quizactivity__next-btn control-btn" onClick={handleNext}>
+      Next Question →
+    </button>
+  </div>
+)}
+
+
     </div>
   );
 }

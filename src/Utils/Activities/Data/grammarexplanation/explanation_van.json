@@ -5,35 +5,18 @@
     "type": "explanation",
     "sections": [
       {
-        "heading": "Using 'van' in Hungarian",
+        "heading": "Using 'van', 'vannak', 'nincs', 'nincsenek'",
         "paragraphs": [
-          "'Van' is used to say 'there is' or 'there are' in Hungarian.",
-          "It is used to describe the existence or presence of something.",
-          "For example, 'Van egy könyv az asztalon.' means 'There is a book on the table.'"
+          "'Van' expresses existence for singular items: 'there is'.",
+          "'Vannak' is used for plural items: 'there are'.",
+          "Negatives are formed with 'nincs' (singular) and 'nincsenek' (plural).",
+          "To form a question, simply use a quesiton tone or add a question mark: 'Van egy könyv az asztalon?' – 'Is there a book on the table?' Questions words go before van: 'Hol van a könyv?' - 'Where is the book?'"
         ],
         "list": [
           "Van egy könyv. – There is a book.",
-          "Van két kutya a kertben. – There are two dogs in the garden.",
-          "Nincs pénz a tárcában. – There is no money in the wallet."
-        ]
-      },
-      {
-        "heading": "Common Vocabulary Around the House",
-        "paragraphs": [
-          "Use 'van' to describe items in different rooms or locations.",
-          "Combine with nouns from around the house to form simple sentences."
-        ],
-        "list": [
-          "konyha – kitchen",
-          "nappali – living room",
-          "hálószoba – bedroom",
-          "fürdőszoba – bathroom",
-          "szekrény – cupboard",
-          "hűtő – fridge",
-          "sütő – oven",
-          "mosogatógép – dishwasher",
-          "asztal – table",
-          "szék – chair"
+          "Vannak könyvek az asztalon. – There are books on the table.",
+          "Nincs pénz a tárcában. – There is no money in the wallet.",
+          "Nincsenek kulcsok az asztalon. – There are no keys on the table."
         ]
       }
     ]

@@ -7,48 +7,21 @@
       {
         "heading": "Kérdőszavak – Basic Question Words",
         "paragraphs": [
-          "Hungarian uses simple question words to ask about people, things, places, time, reasons, and methods.",
-          "These words are essential when talking about schedules, dates, or planning activities."
+          "Hungarian uses the form QW + verb to form questions with questions words."
         ],
         "list": [
-          "ki – who",
-          "mi – what",
-          "mikor – when",
-          "hol – where",
-          "miért – why",
-          "hogyan – how",
-          "melyik – which",
-          "milyen – what kind of",
-          "hova – to where",
-          "merre – which way"
+          "Ki ő? – Who is he/she?",
+          "Hol van a könyv? – Where is the book?"
         ]
       },
       {
-        "heading": "Idő és dátum – Time and Date",
+        "heading": "Yes/No Questions",
         "paragraphs": [
-          "To ask about times, Hungarian commonly uses 'mikor' and expressions with '-kor'.",
-          "Days of the week and months help you discuss schedules."
+          "Yes/no questions use the same word order as statements. Rising intonation at the end of the sentence signals that it is a question."
         ],
         "list": [
-          "hétfő – Monday",
-          "kedd – Tuesday",
-          "szerda – Wednesday",
-          "csütörtök – Thursday",
-          "péntek – Friday",
-          "szombat – Saturday",
-          "vasárnap – Sunday",
-          "január – January",
-          "február – February",
-          "március – March",
-          "április – April",
-          "május – May",
-          "június – June",
-          "július – July",
-          "augusztus – August",
-          "szeptember – September",
-          "október – October",
-          "november – November",
-          "december – December"
+          "Ez jó? – Is this good?",
+          "Jössz ma? – Are you coming today?"
         ]
       }
     ]

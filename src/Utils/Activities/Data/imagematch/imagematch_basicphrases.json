@@ -9,16 +9,9 @@
         "quizTitle": "Vocabulary - Basic Phrases",
         "promptImage": "/Images/morning.webp",
         "options": [
-          {
-            "id": "a",
-            "word": "Jo reggelt!",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "word": "Jo napot",
-            "isCorrect": false
-          }
+          { "id": "a", "word": "Jó reggelt!", "isCorrect": true },
+          { "id": "b", "word": "Jó napot!", "isCorrect": false },
+          { "id": "c", "word": "Jó estét!", "isCorrect": false }
         ],
         "translation": "Good morning!",
         "mode": "image-to-word"
@@ -27,90 +20,142 @@
         "id": 2,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
-        "promptImage": "/Images/thank-you.jpg",
+        "promptImage": "/Images/afternoon.jpg",
         "options": [
-          {
-            "id": "a",
-            "word": "Köszönöm.",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "word": "Nincs mit.",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "word": "Elnézést.",
-            "isCorrect": false
-          }
+          { "id": "a", "word": "Jó napot!", "isCorrect": true },
+          { "id": "b", "word": "Jó reggelt!", "isCorrect": false },
+          { "id": "c", "word": "Jó estét!", "isCorrect": false }
         ],
-        "translation": "Thank you.",
+        "translation": "Good afternoon!",
         "mode": "image-to-word"
       },
       {
         "id": 3,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
-        "promptImage": "/Images/morning.webp",
+        "promptImage": "/Images/evening.jpg",
         "options": [
-          {
-            "id": "a",
-            "word": "Jo reggelt!",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "word": "Jo napot",
-            "isCorrect": false
-          }
+          { "id": "a", "word": "Jó estét!", "isCorrect": true },
+          { "id": "b", "word": "Jó napot!", "isCorrect": false },
+          { "id": "c", "word": "Jó reggelt!", "isCorrect": false }
         ],
-        "translation": "Good morning!",
+        "translation": "Good evening!",
         "mode": "image-to-word"
       },
       {
         "id": 4,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
-        "promptImage": "/Images/sorry.jpg",
+        "promptImage": "/Images/thank-you.jpg",
         "options": [
-          {
-            "id": "a",
-            "word": "Bocsanat.",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "word": "Elnézést.",
-            "isCorrect": false
-          }
+          { "id": "a", "word": "Köszönöm.", "isCorrect": true },
+          { "id": "b", "word": "Nincs mit.", "isCorrect": false },
+          { "id": "c", "word": "Elnézést.", "isCorrect": false }
         ],
-        "translation": "Sorry.",
+        "translation": "Thank you.",
         "mode": "image-to-word"
       },
       {
         "id": 5,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary - Basic Phrases",
+        "promptImage": "/Images/youre-welcome.jpg",
+        "options": [
+          { "id": "a", "word": "Nincs mit.", "isCorrect": true },
+          { "id": "b", "word": "Köszönöm.", "isCorrect": false },
+          { "id": "c", "word": "Bocsánat.", "isCorrect": false }
+        ],
+        "translation": "You're welcome.",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 6,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Vocabulary - Basic Phrases",
+        "promptImage": "/Images/sorry.jpg",
+        "options": [
+          { "id": "a", "word": "Bocsánat.", "isCorrect": true },
+          { "id": "b", "word": "Elnézést.", "isCorrect": false }
+        ],
+        "translation": "Sorry.",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 7,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Vocabulary - Basic Phrases",
         "promptImage": "/Images/excuse-me.jpg",
         "options": [
-          {
-            "id": "a",
-            "word": "Elnézést.",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "word": "Bocsanat.",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "word": "Jo napot.",
-            "isCorrect": false
-          }
+          { "id": "a", "word": "Elnézést.", "isCorrect": true },
+          { "id": "b", "word": "Bocsánat.", "isCorrect": false },
+          { "id": "c", "word": "Jó napot!", "isCorrect": false }
         ],
         "translation": "Excuse me.",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 8,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Vocabulary - Basic Phrases",
+        "promptImage": "/Images/hello.jpg",
+        "options": [
+          { "id": "a", "word": "Szia!", "isCorrect": true },
+          { "id": "b", "word": "Viszlát!", "isCorrect": false },
+          { "id": "c", "word": "Jó napot!", "isCorrect": false }
+        ],
+        "translation": "Hi / Hello.",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 9,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Vocabulary - Basic Phrases",
+        "promptImage": "/Images/goodbye.jpg",
+        "options": [
+          { "id": "a", "word": "Viszlát!", "isCorrect": true },
+          { "id": "b", "word": "Szia!", "isCorrect": false },
+          { "id": "c", "word": "Jó estét!", "isCorrect": false }
+        ],
+        "translation": "Goodbye.",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 10,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Vocabulary - Basic Phrases",
+        "promptImage": "/Images/please.jpg",
+        "options": [
+          { "id": "a", "word": "Kérem.", "isCorrect": true },
+          { "id": "b", "word": "Köszönöm.", "isCorrect": false },
+          { "id": "c", "word": "Bocsánat.", "isCorrect": false }
+        ],
+        "translation": "Please.",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 11,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Vocabulary - Basic Phrases",
+        "promptImage": "/Images/how-are-you.jpg",
+        "options": [
+          { "id": "a", "word": "Hogy vagy?", "isCorrect": true },
+          { "id": "b", "word": "Mi újság?", "isCorrect": false },
+          { "id": "c", "word": "Viszlát!", "isCorrect": false }
+        ],
+        "translation": "How are you?",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 12,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Vocabulary - Basic Phrases",
+        "promptImage": "/Images/fine.jpg",
+        "options": [
+          { "id": "a", "word": "Jól vagyok.", "isCorrect": true },
+          { "id": "b", "word": "Köszönöm.", "isCorrect": false },
+          { "id": "c", "word": "Bocsánat.", "isCorrect": false }
+        ],
+        "translation": "I'm fine.",
         "mode": "image-to-word"
       }
     ]

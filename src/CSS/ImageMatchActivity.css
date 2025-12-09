@@ -2,8 +2,8 @@
 .image-match-container {
   width: 100%;
   max-width: 420px;
-  margin: 1.5rem auto;
-  padding: 2rem;
+  margin: 0rem auto;
+  padding: 0 2rem;
   text-align: center;
 }
 .instructions {
@@ -29,7 +29,7 @@
 }
 
 .im-prompt {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #6a4bc3; /* colored text */
   background: #ede0ff; /* light purple bg */

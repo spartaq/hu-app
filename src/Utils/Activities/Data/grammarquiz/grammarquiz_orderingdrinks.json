@@ -3,11 +3,11 @@
   "title": "grammarquiz_orderingdrinks",
   "data": {
     "instructions": "Choose the correct answer",
-    "quizTitle": "Ordering Drinks Quiz",
+    "quizTitle": "Ordering Drinks – Forms of 'szeretni' and 'kérni'",
     "questions": [
       {
         "id": 1,
-        "question": "Which is more polite for ordering tea?",
+        "question": "Which is the most polite way to order a tea?",
         "options": [
           "Kérek teát",
           "Szeretnék teát",
@@ -15,12 +15,12 @@
           "Vigyél teát"
         ],
         "answer": "Szeretnék teát",
-        "translate": "Melyik udvariasabb a tea rendelésére?",
-        "image": "/Images/default.jpg"
+        "translate": "I would like tea.",
+        "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
       },
       {
         "id": 2,
-        "question": "How do you say 'I would like a coffee'?",
+        "question": "How do you say 'I would like a coffee' in Hungarian?",
         "options": [
           "Kérek kávét",
           "Szeretnék kávét",
@@ -28,21 +28,47 @@
           "Kávé itt van"
         ],
         "answer": "Szeretnék kávét",
-        "translate": "Hogyan mondjuk azt, hogy 'Szeretnék egy kávét'?",
-        "image": "/Images/default.jpg"
+        "translate": "I would like coffee.",
+        "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
       },
       {
         "id": 3,
-        "question": "Translate: 'Kérek vizet'.",
+        "question": "Which sentence uses 'kérek' correctly when ordering?",
+        "options": [
+          "Kérek egy sört",
+          "Kérek inni",
+          "Kérek megyek",
+          "Kérek egy sör"
+        ],
+        "answer": "Kérek egy sört",
+        "translate": "I request a beer. / I'd like a beer please.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 4,
+        "question": "Translate: 'Kérek egy pohár vizet.'",
         "options": [
           "I want water",
-          "I would like water",
+          "I would like a glass of water",
           "Please give me water",
-          "I drink water"
+          "I am drinking water"
         ],
         "answer": "Please give me water",
-        "translate": "Fordítsd le: 'Kérek vizet'.",
-        "image": "/Images/default.jpg"
+        "translate": "Please give me water.",
+        "image": "https://images.unsplash.com/photo-1523365280197-f141a7b0fa97?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 5,
+        "question": "Which form expresses 'I would like to order' using *szeretni*?",
+        "options": [
+          "Szeretek rendelni",
+          "Szeretnék rendelni",
+          "Szerettem rendelni",
+          "Szeretni fogok rendelni"
+        ],
+        "answer": "Szeretnék rendelni",
+        "translate": "I would like to order.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
       }
     ]
   }

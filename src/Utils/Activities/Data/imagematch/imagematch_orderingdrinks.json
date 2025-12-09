@@ -5,32 +5,81 @@
     "items": [
       {
         "id": 1,
-        "instructions": "Choose the correct answer",
-        "quizTitle": "Match the Word to the Image",
-        "audio": "/Audio/audiotest.mp3",
-        "prompt": "Which image shows 'kávé'?",
+        "instructions": "Choose the correct word for the image",
+        "quizTitle": "Match the Image to the Word",
+        "promptImage": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80",
         "options": [
-          {
-            "id": "a",
-            "image": "/images/kave.jpg",
-            "word": "kávé",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "image": "/images/tea.jpg",
-            "word": "kávé",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/sor.jpg",
-            "word": "kávé",
-            "isCorrect": false
-          }
+          { "id": "a", "word": "Kávé", "isCorrect": true },
+          { "id": "b", "word": "Tea", "isCorrect": false },
+          { "id": "c", "word": "Sör", "isCorrect": false }
         ],
-        "translation": "Melyik kép mutatja a 'kávé'-t?",
-        "mode": "word-to-image"
+        "translation": "Coffee",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 2,
+        "instructions": "Choose the correct word",
+        "quizTitle": "Match the Image to the Word",
+        "promptImage": "/Images/tea.jpg",
+        "options": [
+          { "id": "a", "word": "Kávé", "isCorrect": false },
+          { "id": "b", "word": "Tea", "isCorrect": true },
+          { "id": "c", "word": "Forró csoki", "isCorrect": false }
+        ],
+        "translation": "Tea",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 3,
+        "instructions": "Choose the correct word",
+        "quizTitle": "Match the Image to the Word",
+        "promptImage": "/Images/beer.jpg",
+        "options": [
+          { "id": "a", "word": "Bor", "isCorrect": false },
+          { "id": "b", "word": "Koktél", "isCorrect": false },
+          { "id": "c", "word": "Sör", "isCorrect": true }
+        ],
+        "translation": "Beer",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 4,
+        "instructions": "Choose the correct match",
+        "quizTitle": "Match the Image to the Word",
+        "promptImage": "/Images/viz.jpg",
+        "options": [
+          { "id": "a", "word": "Víz", "isCorrect": true },
+          { "id": "b", "word": "Bor", "isCorrect": false },
+          { "id": "c", "word": "Kávé", "isCorrect": false }
+        ],
+        "translation": "Water",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 5,
+        "instructions": "Choose the correct word",
+        "quizTitle": "Match the Image to the Word",
+        "promptImage": "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?auto=format&fit=crop&w=800&q=80",
+        "options": [
+          { "id": "a", "word": "Sör", "isCorrect": false },
+          { "id": "b", "word": "Bor", "isCorrect": true },
+          { "id": "c", "word": "Víz", "isCorrect": false }
+        ],
+        "translation": "Wine",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 8,
+        "instructions": "Choose the correct food",
+        "quizTitle": "Match the Image to the Word",
+        "promptImage": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+        "options": [
+          { "id": "a", "word": "Leves", "isCorrect": true },
+          { "id": "b", "word": "Szendvics", "isCorrect": false },
+          { "id": "c", "word": "Pizza", "isCorrect": false }
+        ],
+        "translation": "Soup",
+        "mode": "image-to-word"
       }
     ]
   }

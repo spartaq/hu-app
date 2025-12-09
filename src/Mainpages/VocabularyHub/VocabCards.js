@@ -81,7 +81,7 @@ const playAudio = (word) => {
       {/* Grid */}
       <main className="vocab-main">
         
-        <section className="vocab-grid">
+        <section className="vocab-hub-grid">
           {topic.words.map(word => (
             <article
               key={word.id}

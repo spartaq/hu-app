@@ -8,115 +8,80 @@
       {
         "id": 1,
         "question": "Köszönöm",
-        "options": ["nincs mit", "jó estét", "kívánok", "szépen"],
-        "answer": "nincs mit",
+        "options": ["Nincs mit", "Jó estét", "Kívánok", "Szépen"],
+        "answer": "Nincs mit",
         "translate": "You're welcome",
         "image": "/Images/thank-you.jpg"
       },
       {
         "id": 2,
         "question": "Szia!",
-        "options": ["viszlát", "szia", "jó reggelt", "köszönöm"],
-        "answer": "szia",
+        "options": ["Viszlát", "Szia", "Jó reggelt", "Köszönöm"],
+        "answer": "Szia",
         "translate": "Hi!",
         "image": "/Images/szia.webp"
       },
       {
         "id": 3,
         "question": "Jó reggelt!",
-        "options": ["jó reggelt", "jó éjszakát", "jó napot", "szia"],
-        "answer": "jó reggelt",
+        "options": ["Jó reggelt", "Jó éjszakát", "Jó napot", "Szia"],
+        "answer": "Jó reggelt",
         "translate": "Good morning!",
         "image": "/Images/morning.webp"
       },
       {
         "id": 4,
         "question": "Hogy vagy?",
-        "options": [
-          "jól vagyok",
-          "köszönöm szépen",
-          "igen",
-          "szia"
-        ],
-        "answer": "jól vagyok",
+        "options": ["Jól vagyok", "Köszönöm szépen", "Igen", "Szia"],
+        "answer": "Jól vagyok",
         "translate": "I'm good.",
         "image": "/Images/welcome.webp"
       },
       {
         "id": 5,
         "question": "Elnézést!",
-        "options": [
-          "semmi baj",
-          "köszönöm",
-          "szia",
-          "jó napot"
-        ],
-        "answer": "semmi baj",
+        "options": ["Semmi baj", "Köszönöm", "Szia", "Jó napot"],
+        "answer": "Semmi baj",
         "translate": "No problem",
         "image": "/Images/sorry.jpg"
       },
       {
         "id": 6,
         "question": "Szép napot!",
-        "options": [
-          "szia",
-          "neked is",
-          "jó reggelt",
-          "köszönöm"
-        ],
-        "answer": "neked is",
+        "options": ["Szia", "Neked is", "Jó reggelt", "Köszönöm"],
+        "answer": "Neked is",
         "translate": "You too!",
         "image": "/Images/day.webp"
       },
       {
         "id": 7,
         "question": "Viszlát!",
-        "options": [
-          "szia",
-          "viszlát",
-          "jó estét",
-          "köszönöm"
-        ],
-        "answer": "viszlát",
+        "options": ["Szia", "Viszlát", "Jó estét", "Köszönöm"],
+        "answer": "Viszlát",
         "translate": "Goodbye!",
         "image": "/Images/goodbye.jpg"
       },
       {
         "id": 8,
         "question": "Hol van a mosdó?",
-        "options": [
-          "arra",
-          "igen",
-          "köszönöm",
-          "jól vagyok"
-        ],
-        "answer": "arra",
+        "options": ["Arra", "Igen", "Köszönöm", "Jól vagyok"],
+        "answer": "Arra",
         "translate": "That way",
         "image": "/Images/concert.jpg"
       },
       {
         "id": 9,
         "question": "Sajnálom!",
-        "options": [
-          "nem probléma",
-          "szia",
-          "jó estét",
-          "nincs mit"
-        ],
-        "answer": "nem probléma",
+        "options": ["Nem probléma", "Szia", "Jó estét", "Nincs mit"],
+        "answer": "Nem probléma",
         "translate": "No problem",
         "image": "/Images/nice.jpg"
       },
       {
         "id": 10,
         "question": "Kérem",
-        "options": [
-          "szívesen",
-          "köszönöm",
-          "jó napot",
-          "szia"
-        ],
-        "answer": "szívesen",
+        "options": ["Szívesen", "Köszönöm", "Jó napot", "Szia"],
+        "answer": "Szívesen",
         "translate": "You're welcome / With pleasure",
         "image": "/Images/saying-hello.jpg"
       }

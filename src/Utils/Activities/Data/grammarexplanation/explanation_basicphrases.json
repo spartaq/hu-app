@@ -1,35 +1,27 @@
 {
   "type": "grammarexplanation",
-  "title": "Introducing Yourself & Polite Greetings in Hungarian",
+  "title": "Basic Phrases",
   "data": {
     "type": "explanation",
     "sections": [
       {
         "heading": "Introducing Yourself",
         "paragraphs": [
-          "To introduce yourself in Hungarian, start with 'A nevem…' (My name is…) or 'Én … vagyok' (I am …)."         
+          "Use 'A nevem…' (My name is…) or 'Én … vagyok' (I am …) to introduce yourself."
         ],
         "list": [
           "A nevem Anna. – My name is Anna.",
-          "Én Péter vagyok. – I am Péter.",
-          "Szabó István vagyok. – I am István Szabó.",
-          "Örvendek. – Nice to meet you."
+          "Én Péter vagyok. – I am Péter."
         ]
       },
       {
-        "heading": "Polite Greetings & Expressions",
+        "heading": "Greetings",
         "paragraphs": [
-          "Hungarian greetings depend on the time of day.",
-          "Use 'jó reggelt' in the morning, 'jó estét' in the evening, and 'szép napot' during the day.",
-          "Politeness phrases like 'köszönöm' (thank you) are often followed by 'nincs mit' (you're welcome)."
+          "Greetings change by time of day. Common polite forms are short and direct."
         ],
         "list": [
           "Jó reggelt! – Good morning!",
-          "Szép napot! – Good day!",
-          "Köszönöm. – Thank you.",
-          "Nincs mit. – You're welcome.",
-          "Elnézést. – Excuse me.",
-          "Bocsánat. – Sorry."
+          "Jó napot! – Good day!"
         ]
       }
     ]

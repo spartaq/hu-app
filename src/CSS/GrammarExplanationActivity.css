@@ -1,110 +1,104 @@
+/* Wrapper */
+.grammarexplanation-wrapper {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1.3rem;
+  font-family: sans-serif;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+/* Title */
 .grammarexplanation-title {
-  font-size: 1.5rem;
-  color: rebeccapurple;
-  margin-bottom: 1.2rem;
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  background: #fff4e6;                  /* subtle orange background */
-  padding: 0.8rem 1rem;
-  border-left: 6px solid #ff7a1e;      /* strong orange accent */
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
-}
-
-/* Wrap each section in a callout-style box */
-.grammarexplanation-section {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  padding: 1rem 1.2rem;
-  margin-bottom: 1rem;
-  border-left: 5px solid rebeccapurple; /* keep primary section border purple */
-  background: #faf5ff;
-  border-radius: 10px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
-}
-
-.grammarexplanation-section:hover {
-  transform: translateY(-2px);
-}
-
-/* Section heading */
-.grammarexplanation-section-heading {
-  font-size: 1.1rem;
+  margin-bottom: 1.4rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #f5e9ff, #f1e6ff);
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
   color: rebeccapurple;
-  font-weight: 600;
 }
 
-/* Paragraph inside callout */
-.grammarexplanation-paragraph {
-  line-height: 1.6;
+.grammarexplanation-title-icon {
+  font-size: 1.8rem;
+  color: rebeccapurple;
+}
+
+/* Section Container */
+.grammarexplanation {
+  max-width: 760px;
+  margin: 2.5rem auto;
+  padding: 1rem 1.5rem;
+  font-family: system-ui, sans-serif;
+  line-height: 1.55;
+}
+
+/* Section Card */
+.grammarexplanation-section {
+  background: #ffe9d9;
+  border-radius: 12px;
+  padding: 1.75rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-left: 6px solid #ff7a1e; /* accent color */
+}
+
+/* Heading with icon */
+.ge-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ge-heading h2 {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 600;
+  color: #ff7a1e;
+}
+
+/* Icon (generated via CSS) */
+.ge-icon {
+  width: 32px;
+  height: 32px;
+  /*background-color: #ff7a1e;*/
+  border-radius: 6px;
+  margin-right: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ge-heading:nth-child(1) .ge-icon::before {
+  content: "📘";
+}
+
+.ge-heading:nth-child(2) .ge-icon::before {
+  content: "💬";
+}
+
+/* Paragraph */
+.ge-paragraph {
+  margin-bottom: 0.8rem;
+  color: #444;
+}
+
+/* List */
+.ge-list {
+  margin: 1rem 0 0 0;
+  padding-left: 1.2rem;
+}
+
+.ge-list li {
+  margin-bottom: 0.5rem;
   color: #333;
-  padding: 0.3rem 0.5rem;
-  background: #fff;
-  border-radius: 6px;
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
 }
 
-/* List items styled like mini callouts */
-.grammarexplanation-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-  margin-top: 0.5rem;
-}
-
-.grammarexplanation-list-item {
-  background: #fff;
-  padding: 0.6rem 0.9rem;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-.grammarexplanation-list-subitem {
-  background: #fff4e6;               /* soft orange background for subitems */
-  padding: 0.5rem 0.8rem;
-  margin-left: 1rem;
-  border-radius: 6px;
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.03);
-  font-size: 0.95rem;
-  color: #555;
-}
-
-/* Table container can also be highlighted */
-.grammarexplanation-table-container {
-  border: 1px solid #ffd1a3;         /* soft orange border */
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 0.6rem 0;
-  background: #fff4e6;                /* subtle orange background */
-  font-size: 0.95rem;
-}
-
-/* Table rows */
-.grammarexplanation-flex-row {
-  display: flex;
-}
-
-.grammarexplanation-header-row {
-  background: #ffe0b3;                /* light orange header */
-  font-weight: 600;
-}
-
-.grammarexplanation-cell {
-  flex: 1;
-  padding: 0.7rem 0.9rem;
-  border-bottom: 1px solid #eee;
-  border-right: 1px solid #eee;
-  background: #fff;
-}
-
-.grammarexplanation-flex-row:last-child .grammarexplanation-cell {
-  border-bottom: none;
-}
-
-.grammarexplanation-cell:last-child {
-  border-right: none;
-}

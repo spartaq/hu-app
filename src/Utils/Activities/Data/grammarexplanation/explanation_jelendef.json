@@ -7,40 +7,28 @@
       {
         "heading": "What Is Definite Conjugation?",
         "paragraphs": [
-          "In Hungarian, we use definite conjugation when the object of the verb is specific or known.",
-          "Example: Látom a filmet. – I see the film.",
-          "Many verbs in this lesson already appear in definite form: olvasom, írom, nézem, hallom."
-        ],
-        "list": [
-          "olvasom – I read it",
-          "írom – I write it",
-          "nézem – I watch it",
-          "ismerem – I know him/her/it",
-          "szeretem – I like/love it"
+          "Use definite conjugation when the object of the verb is specific or known.",
+          "The verb endings change depending on the subject and the object is marked with -t."
         ]
       },
       {
-        "heading": "Accusative -t Ending",
-        "paragraphs": [
-          "Hungarian marks objects with the -t ending.",
-          "If the noun ends in a vowel, you simply add -t.",
-          "If it ends in a consonant, it may take a linking vowel."
-        ],
+        "heading": "Definite Conjugation Examples (Present Tense)",
+        "list": [
+          "Én olvasom – I read it",
+          "Te olvasod – You read it",
+          "Ő olvassa – He/She reads it",
+          "Mi olvassuk – We read it",
+          "Ti olvassátok – You all read it",
+          "Ők olvassák – They read it"
+        ]
+      },
+      {
+        "heading": "Accusative -t Examples",
         "list": [
           "újság → újságot – newspaper",
-          "email → emailt – email",
           "film → filmet – film",
-          "kulcs → kulcsot – key",
-          "zaj → zajt – noise"
-        ]
-      },
-      {
-        "heading": "Simple Beginner Examples",
-        "paragraphs": [
-          "Olvasom az újságot. – I’m reading the newspaper.",
-          "Írom az emailt. – I’m writing the email.",
-          "Nézem a filmet. – I’m watching the film.",
-          "Hallom a zajt. – I hear the noise."
+          "email → emailt – email",
+          "kulcs → kulcsot – key"
         ]
       }
     ]

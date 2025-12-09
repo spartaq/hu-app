@@ -1,10 +1,10 @@
 /* WRAPPER */
 .home-wrapper {
-  padding: 0 20px;
+  padding: 20px 20px;
   /*background: rgb(215, 192, 238);*/
   font-family: var(--font-main);
   max-width: 900px;
-  margin: 50px auto;
+  margin: 0px auto;
   height: 100vh;
 overflow: hidden;
 display: flex;

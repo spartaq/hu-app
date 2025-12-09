@@ -21,9 +21,9 @@ export default function Footer() {
         <span>Lessons</span>
       </NavLink>
 
-      <NavLink to="hungarian/activities" className="footer-item">
+      <NavLink to="/vocab/topics" className="footer-item">
         <FaListAlt className="footer-icon" />
-        <span>Practice</span>
+        <span>Vocab Practice</span>
       </NavLink>
 
       <NavLink to="/profile" className="footer-item">

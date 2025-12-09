@@ -1,6 +1,6 @@
 /* app-header is being used */
 .app-header {
-  height: 60px;
+  height: 64px;
   background: rebeccapurple;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   position: sticky;

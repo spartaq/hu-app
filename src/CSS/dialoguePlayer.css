@@ -9,14 +9,14 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 66vh;
+  height: 81vh;
   overflow: hidden;
   padding-bottom: 40px;
   padding-top: 2rem;  
 }
 
 .dialogue-container {
-  flex: 1;
+  /*flex: 1;*/
   overflow-y: auto;
   padding: 1rem;
 }
@@ -159,8 +159,8 @@
 }
 
 .dialogue-image {
-  max-width: 100%;
+  max-width: 50%;
   border-radius: 8px;
   display: block;
-  margin: 0 auto;
+  margin: 12px auto;
 }

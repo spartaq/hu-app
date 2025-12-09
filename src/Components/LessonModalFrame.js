@@ -15,6 +15,7 @@ export default function Modal({ open, onClose, children, title, footer }) {
 
         {/* Scrollable lesson body */}
         <div className="lesson-modal-body">
+          <button className="lesson-modal-close" onClick={onClose}>×</button>
           {children}
         </div>
 

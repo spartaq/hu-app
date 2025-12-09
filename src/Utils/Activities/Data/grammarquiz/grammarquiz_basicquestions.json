@@ -3,46 +3,127 @@
   "title": "grammarquiz_basicquestions",
   "data": {
     "instructions": "Choose the correct answer",
-    "quizTitle": "Kérdőszavak – Question Words",
+    "quizTitle": "Kérdőszavak – Basic Question‑Words",
     "questions": [
       {
         "id": 1,
-        "question": "Which word means 'when'?",
-        "options": [
-          "hol",
-          "mikor",
-          "melyik",
-          "hogyan"
-        ],
-        "answer": "mikor",
+        "question": "Which Hungarian word means “when”?",
+        "options": ["Hol", "Mikor", "Melyik", "Hogyan"],
+        "answer": "Mikor",
         "translate": "mikor – when",
-        "image": "/Images/default.jpg"
+        "image": "https://images.unsplash.com/photo-1508610048659-a06acf05b5c5?auto=format&fit=crop&w=800&q=80"
       },
       {
         "id": 2,
-        "question": "Which word is used to ask 'where'?",
-        "options": [
-          "hol",
-          "ki",
-          "mi",
-          "mikor"
-        ],
-        "answer": "hol",
+        "question": "Which word means “where”?",
+        "options": ["Hol", "Ki", "Mi", "Mikor"],
+        "answer": "Hol",
         "translate": "hol – where",
-        "image": "/Images/default.jpg"
+        "image": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=800&q=80"
       },
       {
         "id": 3,
-        "question": "How do you ask 'why'?",
-        "options": [
-          "miért",
-          "hogyan",
-          "hova",
-          "merre"
-        ],
-        "answer": "miért",
+        "question": "How do you ask “why” in Hungarian?",
+        "options": ["Miért", "Hogyan", "Hova", "Merre"],
+        "answer": "Miért",
         "translate": "miért – why",
-        "image": "/Images/default.jpg"
+        "image": "https://images.unsplash.com/photo-1541852401-9a0fcd5d52d3?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 4,
+        "question": "Which word means “who”?",
+        "options": ["Ki", "Mi", "Hol", "Mikor"],
+        "answer": "Ki",
+        "translate": "ki – who",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 5,
+        "question": "How do you ask “what”?",
+        "options": ["Mi", "Miért", "Melyik", "Hogyan"],
+        "answer": "Mi",
+        "translate": "mi – what",
+        "image": "https://images.unsplash.com/photo-1592194996308-7b43878e1b34?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 6,
+        "question": "Which word means “how”?",
+        "options": ["Hogyan", "Mi", "Hol", "Ki"],
+        "answer": "Hogyan",
+        "translate": "hogyan – how",
+        "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 7,
+        "question": "Which word means “which / which one”?",
+        "options": ["Melyik", "Mikor", "Miért", "Hova"],
+        "answer": "Melyik",
+        "translate": "melyik – which",
+        "image": "https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 8,
+        "question": "How do you ask “where to?” (destination)?",
+        "options": ["Hová", "Hol", "Ki", "Mi"],
+        "answer": "Hová",
+        "translate": "hová – where to",
+        "image": "https://images.unsplash.com/photo-1503414260-6d2015b4e4e8?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 9,
+        "question": "Which word means “which direction / where (towards)”?",
+        "options": ["Merre", "Miért", "Mikor", "Mi"],
+        "answer": "Merre",
+        "translate": "merre – which way / where (towards)",
+        "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 10,
+        "question": "How do you ask “how much / how many”?",
+        "options": ["Mennyibe", "Miért", "Hol", "Hogyan"],
+        "answer": "Mennyibe",
+        "translate": "mennyibe – how much / how many",
+        "image": "https://images.unsplash.com/photo-1581091870609-7064e26764ea?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 11,
+        "question": "Which word means “from where / from which place”?",
+        "options": ["Honnan", "Hova", "Hol", "Miért"],
+        "answer": "Honnan",
+        "translate": "honnan – from where",
+        "image": "https://images.unsplash.com/photo-1472309092456-7c2c8836000b?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 12,
+        "question": "How do you ask “until when”?",
+        "options": ["Meddig", "Mikor", "Mi", "Ki"],
+        "answer": "Meddig",
+        "translate": "meddig – until when / how long",
+        "image": "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 13,
+        "question": "Which word means “through where / by what route”?",
+        "options": ["Milyen úton", "Hol", "Melyik", "Miért"],
+        "answer": "Milyen úton",
+        "translate": "milyen úton – by what route / through where",
+        "image": "https://images.unsplash.com/photo-1501436513149-7508190c4801?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 14,
+        "question": "How do you ask “how long (duration)”?",
+        "options": ["Mennyi ideig", "Meddig", "Mennyibe", "Hogyan"],
+        "answer": "Mennyi ideig",
+        "translate": "mennyi ideig – how long (duration)",
+        "image": "https://images.unsplash.com/photo-1523452993244-9fdc3c293db7?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": 15,
+        "question": "Which word means “what kind / what like”?",
+        "options": ["Milyen", "Mi", "Ki", "Hol"],
+        "answer": "Milyen",
+        "translate": "milyen – what kind / what like",
+        "image": "https://images.unsplash.com/photo-1535930749574-1399327ce78f?auto=format&fit=crop&w=800&q=80"
       }
     ]
   }

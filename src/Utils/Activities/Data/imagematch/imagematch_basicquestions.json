@@ -1,30 +1,85 @@
 {
   "type": "imagematch",
-  "title": "imagematch_basicquestions",
+  "title": "imagematch_basicquestions_unsplash",
   "data": {
     "items": [
       {
         "id": 1,
         "instructions": "Choose the correct answer",
-        "quizTitle": "Match the Place Word",
-        "audio": "/Audio/audiotest.mp3",
-        "prompt": "Hol vagyok?",
+        "quizTitle": "Basic Question – What",
+        "promptImage": "https://images.unsplash.com/photo-1592194996308-7b43878e1b34?auto=format&fit=crop&w=800&q=80",
         "options": [
-          {
-            "id": "a",
-            "image": "/images/park.jpg",
-            "word": "park",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "image": "/images/bolt.jpg",
-            "word": "bolt",
-            "isCorrect": false
-          }
+          { "id": "a", "word": "Mi ez?", "isCorrect": true },
+          { "id": "b", "word": "Hol vagyok?", "isCorrect": false },
+          { "id": "c", "word": "Ki van ott?", "isCorrect": false }
+        ],
+        "translation": "What is this?",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 2,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Basic Question – Who",
+        "promptImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+        "options": [
+          { "id": "a", "word": "Ki van ott?", "isCorrect": true },
+          { "id": "b", "word": "Mi ez?", "isCorrect": false },
+          { "id": "c", "word": "Hol vagyok?", "isCorrect": false }
+        ],
+        "translation": "Who is there?",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 3,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Basic Question – Where",
+        "promptImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+        "options": [
+          { "id": "a", "word": "Hol vagyok?", "isCorrect": true },
+          { "id": "b", "word": "Mi ez?", "isCorrect": false },
+          { "id": "c", "word": "Ki van ott?", "isCorrect": false }
         ],
         "translation": "Where am I?",
-        "mode": "word-to-image"
+        "mode": "image-to-word"
+      },
+      {
+        "id": 4,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Basic Question – How",
+        "promptImage": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
+        "options": [
+          { "id": "a", "word": "Hogy vagy?", "isCorrect": true },
+          { "id": "b", "word": "Miért jó?", "isCorrect": false },
+          { "id": "c", "word": "Mikor indulsz?", "isCorrect": false }
+        ],
+        "translation": "How are you?",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 5,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Basic Question – When",
+        "promptImage": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80",
+        "options": [
+          { "id": "a", "word": "Mikor indulsz?", "isCorrect": true },
+          { "id": "b", "word": "Miért jó?", "isCorrect": false },
+          { "id": "c", "word": "Hol vagyok?", "isCorrect": false }
+        ],
+        "translation": "When are you leaving?",
+        "mode": "image-to-word"
+      },
+      {
+        "id": 6,
+        "instructions": "Choose the correct answer",
+        "quizTitle": "Basic Question – Why",
+        "promptImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+        "options": [
+          { "id": "a", "word": "Miért jó?", "isCorrect": true },
+          { "id": "b", "word": "Hogy vagy?", "isCorrect": false },
+          { "id": "c", "word": "Mi ez?", "isCorrect": false }
+        ],
+        "translation": "Why is it good?",
+        "mode": "image-to-word"
       }
     ]
   }

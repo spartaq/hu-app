@@ -2,7 +2,7 @@
   Root app container
 -------------------------------------------------- */
 .vocab-app {
-  background-color: rgb(215, 192, 238);
+  /*background-color: rgb(215, 192, 238);*/
   color: #111;
   margin: 0 auto;
   min-height: 100vh;
@@ -49,7 +49,7 @@
 .vocab-topics {
   padding: 15px 30px;
   height: 100vh;
-  background-color: rgb(215, 192, 238);
+  /*background-color: rgb(215, 192, 238);*/
 }
 
 .vocab-topics h2 {
@@ -116,14 +116,14 @@
 /* -----------------------------
   Vocab Cards Grid
 ------------------------------ */
-.vocab-grid {
+.vocab-hub-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
 
 @media (min-width: 600px) {
-  .vocab-grid {
+  .vocab-hub-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
