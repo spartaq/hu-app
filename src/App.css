@@ -136,7 +136,7 @@ a {
   display: flex;
   flex-direction: column;
   overflow: hidden; 
-  background: #ebe0ff; 
+  background: rebeccapurple; 
 }
 
 /* SCROLLABLE MIDDLE */
