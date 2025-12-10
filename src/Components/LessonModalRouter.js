@@ -3,7 +3,7 @@ import ModalRender from "./LessonModalRender.js"
 /* ---------------------- IMPORTS ---------------------- */
 
 // **ALPHABET
-import HuAlphabetData from "../Utils/Activities/Data/sounds/sounds_sounds.json";
+import HuAlphabetData from "../Utils/Activities/Data/sounds/sounds_alphabet.json";
 
 // **GRAMMAREXPLANATION
 import HuExplanationSoundsData from "../Utils/Activities/Data/grammarexplanation/explanation_sounds.json";

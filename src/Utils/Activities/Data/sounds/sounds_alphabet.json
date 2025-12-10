@@ -1,0 +1,400 @@
+{
+  "alphabet": [
+    {
+      "letter": "Aa",
+      "ipa": "ɒ",
+      "letterAudio": "/audio/alphabet/A.mp3",
+      "examples": [
+        { "word": "alma", "translation": "apple", "audio": "/audio/examples/alma.mp3" },
+        { "word": "apa", "translation": "father", "audio": "/audio/examples/apa.mp3" }
+      ]
+    },
+    {
+      "letter": "Áá",
+      "ipa": "aː",
+      "letterAudio": "/audio/alphabet/Aa.mp3",
+      "examples": [
+        { "word": "ág", "translation": "branch", "audio": "/audio/examples/ag.mp3" },
+        { "word": "állat", "translation": "animal", "audio": "/audio/examples/allat.mp3" }
+      ]
+    },
+    {
+      "letter": "B",
+      "ipa": "b",
+      "letterAudio": "/audio/alphabet/B.mp3",
+      "examples": [
+        { "word": "banán", "translation": "banana", "audio": "/audio/examples/banan.mp3" },
+        { "word": "béka", "translation": "frog", "audio": "/audio/examples/beka.mp3" }
+      ]
+    },
+    {
+      "letter": "C",
+      "ipa": "ts",
+      "letterAudio": "/audio/alphabet/C.mp3",
+      "examples": [
+        { "word": "cica", "translation": "kitten", "audio": "/audio/examples/cica.mp3" },
+        { "word": "cukor", "translation": "sugar", "audio": "/audio/examples/cukor.mp3" }
+      ]
+    },
+    {
+      "letter": "Cs",
+      "ipa": "tʃ",
+      "letterAudio": "/audio/alphabet/Cs.mp3",
+      "examples": [
+        { "word": "csiga", "translation": "snail", "audio": "/audio/examples/csiga.mp3" },
+        { "word": "csók", "translation": "kiss", "audio": "/audio/examples/csok.mp3" }
+      ]
+    },
+    {
+      "letter": "D",
+      "ipa": "d",
+      "letterAudio": "/audio/alphabet/D.mp3",
+      "examples": [
+        { "word": "dió", "translation": "walnut", "audio": "/audio/examples/dio.mp3" },
+        { "word": "dob", "translation": "drum", "audio": "/audio/examples/dob.mp3" }
+      ]
+    },
+    {
+      "letter": "Dz",
+      "ipa": "dz",
+      "letterAudio": "/audio/alphabet/Dz.mp3",
+      "examples": [
+        { "word": "edzés", "translation": "training", "audio": "/audio/examples/edzes.mp3" },
+        { "word": "madzag", "translation": "string", "audio": "/audio/examples/madzag.mp3" }
+      ]
+    },
+    {
+      "letter": "Dzs",
+      "ipa": "dʒ",
+      "letterAudio": "/audio/alphabet/Dzs.mp3",
+      "examples": [
+        { "word": "dzsem", "translation": "jam", "audio": "/audio/examples/dzsem.mp3" },
+        { "word": "dzsungel", "translation": "jungle", "audio": "/audio/examples/dzsungel.mp3" }
+      ]
+    },
+    {
+      "letter": "E",
+      "ipa": "ɛ",
+      "letterAudio": "/audio/alphabet/E.mp3",
+      "examples": [
+        { "word": "egér", "translation": "mouse", "audio": "/audio/examples/eger.mp3" },
+        { "word": "eső", "translation": "rain", "audio": "/audio/examples/eso.mp3" }
+      ]
+    },
+    {
+      "letter": "É",
+      "ipa": "eː",
+      "letterAudio": "/audio/alphabet/Ee.mp3",
+      "examples": [
+        { "word": "érme", "translation": "coin", "audio": "/audio/examples/erme.mp3" },
+        { "word": "érosz", "translation": "strength (archaic root)", "audio": "/audio/examples/erosz.mp3" }
+      ]
+    },
+    {
+      "letter": "F",
+      "ipa": "f",
+      "letterAudio": "/audio/alphabet/F.mp3",
+      "examples": [
+        { "word": "fa", "translation": "tree", "audio": "/audio/examples/fa.mp3" },
+        { "word": "fül", "translation": "ear", "audio": "/audio/examples/ful.mp3" }
+      ]
+    },
+    {
+      "letter": "G",
+      "ipa": "g",
+      "letterAudio": "/audio/alphabet/G.mp3",
+      "examples": [
+        { "word": "gomba", "translation": "mushroom", "audio": "/audio/examples/gomba.mp3" },
+        { "word": "gatya", "translation": "pants (informal)", "audio": "/audio/examples/gatya.mp3" }
+      ]
+    },
+    {
+      "letter": "Gy",
+      "ipa": "ɟ",
+      "letterAudio": "/audio/alphabet/Gy.mp3",
+      "examples": [
+        { "word": "gyerek", "translation": "child", "audio": "/audio/examples/gyerek.mp3" },
+        { "word": "gyümölcs", "translation": "fruit", "audio": "/audio/examples/gyumolcs.mp3" }
+      ]
+    },
+    {
+      "letter": "H",
+      "ipa": "h",
+      "letterAudio": "/audio/alphabet/H.mp3",
+      "examples": [
+        { "word": "ház", "translation": "house", "audio": "/audio/examples/haz.mp3" },
+        { "word": "hal", "translation": "fish", "audio": "/audio/examples/hal.mp3" }
+      ]
+    },
+    {
+      "letter": "I",
+      "ipa": "i",
+      "letterAudio": "/audio/alphabet/I.mp3",
+      "examples": [
+        { "word": "iskola", "translation": "school", "audio": "/audio/examples/iskola.mp3" },
+        { "word": "idő", "translation": "time/weather", "audio": "/audio/examples/ido.mp3" }
+      ]
+    },
+    {
+      "letter": "Í",
+      "ipa": "iː",
+      "letterAudio": "/audio/alphabet/Ii.mp3",
+      "examples": [
+        { "word": "ígér", "translation": "to promise", "audio": "/audio/examples/iger.mp3" },
+        { "word": "ír", "translation": "to write", "audio": "/audio/examples/ir.mp3" }
+      ]
+    },
+    {
+      "letter": "J",
+      "ipa": "j",
+      "letterAudio": "/audio/alphabet/J.mp3",
+      "examples": [
+        { "word": "jó", "translation": "good", "audio": "/audio/examples/jo.mp3" },
+        { "word": "jár", "translation": "to walk/attend", "audio": "/audio/examples/jar.mp3" }
+      ]
+    },
+    {
+      "letter": "K",
+      "ipa": "k",
+      "letterAudio": "/audio/alphabet/K.mp3",
+      "examples": [
+        { "word": "kutya", "translation": "dog", "audio": "/audio/examples/kutya.mp3" },
+        { "word": "kéz", "translation": "hand", "audio": "/audio/examples/kez.mp3" }
+      ]
+    },
+    {
+      "letter": "L",
+      "ipa": "l",
+      "letterAudio": "/audio/alphabet/L.mp3",
+      "examples": [
+        { "word": "ló", "translation": "horse", "audio": "/audio/examples/lo.mp3" },
+        { "word": "lámpa", "translation": "lamp", "audio": "/audio/examples/lampa.mp3" }
+      ]
+    },
+    {
+      "letter": "Ly",
+      "ipa": "j",
+      "letterAudio": "/audio/alphabet/Ly.mp3",
+      "examples": [
+        { "word": "lyuk", "translation": "hole", "audio": "/audio/examples/lyuk.mp3" },
+        { "word": "folyó", "translation": "river", "audio": "/audio/examples/folyo.mp3" }
+      ]
+    },
+    {
+      "letter": "M",
+      "ipa": "m",
+      "letterAudio": "/audio/alphabet/M.mp3",
+      "examples": [
+        { "word": "macska", "translation": "cat", "audio": "/audio/examples/macska.mp3" },
+        { "word": "méz", "translation": "honey", "audio": "/audio/examples/mez.mp3" }
+      ]
+    },
+    {
+      "letter": "N",
+      "ipa": "n",
+      "letterAudio": "/audio/alphabet/N.mp3",
+      "examples": [
+        { "word": "nap", "translation": "sun/day", "audio": "/audio/examples/nap.mp3" },
+        { "word": "név", "translation": "name", "audio": "/audio/examples/nev.mp3" }
+      ]
+    },
+    {
+      "letter": "Ny",
+      "ipa": "ɲ",
+      "letterAudio": "/audio/alphabet/Ny.mp3",
+      "examples": [
+        { "word": "nyár", "translation": "summer", "audio": "/audio/examples/nyar.mp3" },
+        { "word": "nyelv", "translation": "language/tongue", "audio": "/audio/examples/nyelv.mp3" }
+      ]
+    },
+    {
+      "letter": "O",
+      "ipa": "o",
+      "letterAudio": "/audio/alphabet/O.mp3",
+      "examples": [
+        { "word": "olaj", "translation": "oil", "audio": "/audio/examples/olaj.mp3" },
+        { "word": "orr", "translation": "nose", "audio": "/audio/examples/orr.mp3" }
+      ]
+    },
+    {
+      "letter": "Ó",
+      "ipa": "oː",
+      "letterAudio": "/audio/alphabet/Oo.mp3",
+      "examples": [
+        { "word": "óra", "translation": "hour/clock", "audio": "/audio/examples/ora.mp3" },
+        { "word": "ókori", "translation": "ancient", "audio": "/audio/examples/okori.mp3" }
+      ]
+    },
+    {
+      "letter": "Ö",
+      "ipa": "ø",
+      "letterAudio": "/audio/alphabet/Oe.mp3",
+      "examples": [
+        { "word": "öröm", "translation": "joy", "audio": "/audio/examples/orom.mp3" },
+        { "word": "öl", "translation": "lap", "audio": "/audio/examples/ol.mp3" }
+      ]
+    },
+    {
+      "letter": "Ő",
+      "ipa": "øː",
+      "letterAudio": "/audio/alphabet/Oee.mp3",
+      "examples": [
+        { "word": "ősz", "translation": "autumn", "audio": "/audio/examples/osz-long.mp3" },
+        { "word": "őz", "translation": "roe deer", "audio": "/audio/examples/oz-long.mp3" }
+      ]
+    },
+    {
+      "letter": "P",
+      "ipa": "p",
+      "letterAudio": "/audio/alphabet/P.mp3",
+      "examples": [
+        { "word": "pék", "translation": "baker", "audio": "/audio/examples/pek.mp3" },
+        { "word": "piac", "translation": "market", "audio": "/audio/examples/piac.mp3" }
+      ]
+    },
+    {
+      "letter": "Q",
+      "ipa": "k (loanwords only)",
+      "letterAudio": "/audio/alphabet/Q.mp3",
+      "examples": [
+        { "word": "quantum", "translation": "quantum", "audio": "/audio/examples/quantum.mp3" },
+        { "word": "Aquincum", "translation": "Aquincum (place name)", "audio": "/audio/examples/aquincum.mp3" }
+      ]
+    },
+    {
+      "letter": "R",
+      "ipa": "r (rolled)",
+      "letterAudio": "/audio/alphabet/R.mp3",
+      "examples": [
+        { "word": "róka", "translation": "fox", "audio": "/audio/examples/roka.mp3" },
+        { "word": "robot", "translation": "robot", "audio": "/audio/examples/robot.mp3" }
+      ]
+    },
+    {
+      "letter": "S",
+      "ipa": "ʃ",
+      "letterAudio": "/audio/alphabet/S.mp3",
+      "examples": [
+        { "word": "só", "translation": "salt", "audio": "/audio/examples/so.mp3" },
+        { "word": "sátor", "translation": "tent", "audio": "/audio/examples/sator.mp3" }
+      ]
+    },
+    {
+      "letter": "Sz",
+      "ipa": "s",
+      "letterAudio": "/audio/alphabet/Sz.mp3",
+      "examples": [
+        { "word": "szék", "translation": "chair", "audio": "/audio/examples/szek.mp3" },
+        { "word": "szem", "translation": "eye", "audio": "/audio/examples/szem.mp3" }
+      ]
+    },
+    {
+      "letter": "T",
+      "ipa": "t",
+      "letterAudio": "/audio/alphabet/T.mp3",
+      "examples": [
+        { "word": "tó", "translation": "lake", "audio": "/audio/examples/to.mp3" },
+        { "word": "torta", "translation": "cake", "audio": "/audio/examples/torta.mp3" }
+      ]
+    },
+    {
+      "letter": "Ty",
+      "ipa": "c",
+      "letterAudio": "/audio/alphabet/Ty.mp3",
+      "examples": [
+        { "word": "tyúk", "translation": "hen", "audio": "/audio/examples/tyuk.mp3" },
+        { "word": "atyai", "translation": "fatherly", "audio": "/audio/examples/atyai.mp3" }
+      ]
+    },
+    {
+      "letter": "U",
+      "ipa": "u",
+      "letterAudio": "/audio/alphabet/U.mp3",
+      "examples": [
+        { "word": "ujj", "translation": "finger", "audio": "/audio/examples/ujj.mp3" },
+        { "word": "utca", "translation": "street", "audio": "/audio/examples/utca.mp3" }
+      ]
+    },
+    {
+      "letter": "Ú",
+      "ipa": "uː",
+      "letterAudio": "/audio/alphabet/Uu.mp3",
+      "examples": [
+        { "word": "út", "translation": "road", "audio": "/audio/examples/ut.mp3" },
+        { "word": "úr", "translation": "mister/lord", "audio": "/audio/examples/ur.mp3" }
+      ]
+    },
+    {
+      "letter": "Ü",
+      "ipa": "y",
+      "letterAudio": "/audio/alphabet/UE.mp3",
+      "examples": [
+        { "word": "üdítő", "translation": "soft drink", "audio": "/audio/examples/udito.mp3" },
+        { "word": "üzlet", "translation": "shop/business", "audio": "/audio/examples/uzlet.mp3" }
+      ]
+    },
+    {
+      "letter": "Ű",
+      "ipa": "yː",
+      "letterAudio": "/audio/alphabet/UEE.mp3",
+      "examples": [
+        { "word": "űr", "translation": "space (outer space)", "audio": "/audio/examples/ur-long.mp3" },
+        { "word": "űrlap", "translation": "form/document", "audio": "/audio/examples/urlap.mp3" }
+      ]
+    },
+    {
+      "letter": "V",
+      "ipa": "v",
+      "letterAudio": "/audio/alphabet/V.mp3",
+      "examples": [
+        { "word": "víz", "translation": "water", "audio": "/audio/examples/viz.mp3" },
+        { "word": "vas", "translation": "iron", "audio": "/audio/examples/vas.mp3" }
+      ]
+    },
+    {
+      "letter": "W",
+      "ipa": "v (loanwords)",
+      "letterAudio": "/audio/alphabet/W.mp3",
+      "examples": [
+        { "word": "whisky", "translation": "whisky", "audio": "/audio/examples/whisky.mp3" },
+        { "word": "Wales", "translation": "Wales", "audio": "/audio/examples/wales.mp3" }
+      ]
+    },
+    {
+      "letter": "X",
+      "ipa": "ks / gz",
+      "letterAudio": "/audio/alphabet/X.mp3",
+      "examples": [
+        { "word": "xerox", "translation": "xerox", "audio": "/audio/examples/xerox.mp3" },
+        { "word": "maximális", "translation": "maximum", "audio": "/audio/examples/maximalis.mp3" }
+      ]
+    },
+    {
+      "letter": "Y",
+      "ipa": "i / j (loanwords)",
+      "letterAudio": "/audio/alphabet/Y.mp3",
+      "examples": [
+        { "word": "yak", "translation": "yak", "audio": "/audio/examples/yak.mp3" },
+        { "word": "YouTube", "translation": "YouTube", "audio": "/audio/examples/youtube.mp3" }
+      ]
+    },
+    {
+      "letter": "Z",
+      "ipa": "z",
+      "letterAudio": "/audio/alphabet/Z.mp3",
+      "examples": [
+        { "word": "zebra", "translation": "zebra", "audio": "/audio/examples/zebra.mp3" },
+        { "word": "zene", "translation": "music", "audio": "/audio/examples/zene.mp3" }
+      ]
+    },
+    {
+      "letter": "Zs",
+      "ipa": "ʒ",
+      "letterAudio": "/audio/alphabet/Zs.mp3",
+      "examples": [
+        { "word": "zsák", "translation": "bag", "audio": "/audio/examples/zsak.mp3" },
+        { "word": "zseb", "translation": "pocket", "audio": "/audio/examples/zseb.mp3" }
+      ]
+    }
+  ]
+}

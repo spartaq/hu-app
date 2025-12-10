@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import alphabetData from "../../../Utils/Activities/Data/sounds/sounds_sounds.json";
+import alphabetData from "../../../Utils/Activities/Data/sounds/sounds_alphabet.json";
 import LetterTile from "../Alphabet/LetterTile";
 import LetterDetailPanel from "../Alphabet/LetterDetailPanel";
 import "../../../CSS/AlphabetActivity.css";
