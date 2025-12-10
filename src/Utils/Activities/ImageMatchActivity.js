@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "../../CSS/ImageMatchActivity.css";
+import ProgressBar from "../../Components/ProgressBar";
 
-export default function ImageMatchActivity({ data, items, index, onNext, onScore, onComplete, meta }) {
-  // Expect data: { items: [{ id, prompt, promptImage, audio, translation, mode, options }] }
+export default function ImageMatchActivity({
+  data,
+  items,
+  index,
+  onNext,
+  onScore,
+  onComplete,
+  meta
+}) {
   const title = meta?.title || "Image Match Exercise";
 
   const [selected, setSelected] = useState(null);
@@ -27,6 +35,11 @@ export default function ImageMatchActivity({ data, items, index, onNext, onScore
   const handleNext = () => {
     if (selected?.isCorrect) onScore();
     onNext();
+
+    // If this was the last item, trigger onComplete
+    if (index + 1 >= items.length) {
+      onComplete?.();
+    }
   };
 
   const playAudio = () => {
@@ -48,25 +61,27 @@ export default function ImageMatchActivity({ data, items, index, onNext, onScore
 
   return (
     <div className="image-match-container">
-    <div className="instructions">
-      <span className="im-title">{instructions}</span>
-    </div>
-    <div>
+
+      {/* PROGRESS BAR */}
+      <ProgressBar completed={index} total={items.length} />
+
+      <div className="instructions">
+        <span className="im-title">{instructions}</span>
+      </div>
+
       {audio && (
+        <div>
           <button className="im-audio-btn" onClick={playAudio}>
             🔊 Play Audio
           </button>
-        )}
-    </div>
-
+        </div>
+      )}
 
       {mode === "word-to-image" && (
-  <div className="im-prompt-box">
-    <span className="im-prompt">{prompt}</span>
-  </div>
-)}
-
-    
+        <div className="im-prompt-box">
+          <span className="im-prompt">{prompt}</span>
+        </div>
+      )}
 
       {mode === "word-to-image" ? (
         <div className="im-grid">
@@ -74,7 +89,11 @@ export default function ImageMatchActivity({ data, items, index, onNext, onScore
             <div
               key={opt.id}
               className={`im-option ${
-                selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""
+                selected?.id === opt.id
+                  ? opt.isCorrect
+                    ? "correct"
+                    : "wrong"
+                  : ""
               }`}
               onClick={() => handleSelect(opt)}
             >
@@ -90,7 +109,11 @@ export default function ImageMatchActivity({ data, items, index, onNext, onScore
               <div
                 key={opt.id}
                 className={`im-text-option ${
-                  selected?.id === opt.id ? (opt.isCorrect ? "correct" : "wrong") : ""
+                  selected?.id === opt.id
+                    ? opt.isCorrect
+                      ? "correct"
+                      : "wrong"
+                    : ""
                 }`}
                 onClick={() => handleSelect(opt)}
               >
@@ -111,7 +134,11 @@ export default function ImageMatchActivity({ data, items, index, onNext, onScore
                 <strong>Correct answer:</strong>{" "}
                 {options.find((o) => o.isCorrect)?.word || "N/A"}
               </p>
-              {translation && <p><strong>Translation:</strong> {translation}</p>}
+              {translation && (
+                <p>
+                  <strong>Translation:</strong> {translation}
+                </p>
+              )}
             </div>
           )}
 

@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from "react";
 import "../../CSS/VocabmatchActivity.css";
+import ProgressBar from "../../Components/ProgressBar";
 
 export default function VocabMatchModal({ data = {}, onComplete, onProgress }) {
   // Support multiple exercises or single exercise
@@ -13,9 +14,7 @@ export default function VocabMatchModal({ data = {}, onComplete, onProgress }) {
   const { title = "Vocabulary Match", items: pairs = [] } = currentExercise;
 
   // Normalize pairs
-  const normalizedPairs = useMemo(() => {
-    return pairs.filter(p => p.term && p.definition);
-  }, [pairs]);
+  const normalizedPairs = useMemo(() => pairs.filter(p => p.term && p.definition), [pairs]);
 
   // Terms fixed, definitions shuffled
   const terms = normalizedPairs.map(p => p.term);
@@ -28,9 +27,7 @@ export default function VocabMatchModal({ data = {}, onComplete, onProgress }) {
     return defs;
   }, [normalizedPairs, currentIndex]);
 
-  const handleTermClick = (term) => {
-    setSelectedTerm(term === selectedTerm ? null : term);
-  };
+  const handleTermClick = (term) => setSelectedTerm(term === selectedTerm ? null : term);
 
   const handleDefClick = (def) => {
     if (!selectedTerm) return;
@@ -47,19 +44,20 @@ export default function VocabMatchModal({ data = {}, onComplete, onProgress }) {
   const unmatchedDefs = definitions.filter(d => !Object.values(matches).includes(d));
 
   const completed = unmatchedTerms.length === 0;
-  const progress = Object.keys(matches).length / normalizedPairs.length;
+
+  // PROGRESS: number of matched pairs
+  const progress = Object.keys(matches).length;
 
   // Report progress
   useEffect(() => {
-    if (onProgress) onProgress(progress);
-  }, [progress, onProgress]);
+    if (onProgress) onProgress(progress / normalizedPairs.length);
+  }, [progress, normalizedPairs.length, onProgress]);
 
   // Move to next exercise or finish
   useEffect(() => {
     if (completed) {
       const nextIndex = currentIndex + 1;
       if (nextIndex < exercises.length) {
-        // Reset for next exercise
         setCurrentIndex(nextIndex);
         setMatches({});
         setSelectedTerm(null);
@@ -72,6 +70,9 @@ export default function VocabMatchModal({ data = {}, onComplete, onProgress }) {
   return (
     <div className="vocabmatch__card">
       <h2 className="vocabmatch__title">{title}</h2>
+
+      {/* Progress Bar */}
+      <ProgressBar completed={progress} total={normalizedPairs.length} />
 
       <div className="vocabmatch__columns">
         {/* TERMS */}
@@ -119,7 +120,6 @@ export default function VocabMatchModal({ data = {}, onComplete, onProgress }) {
         <p className="vocabmatch__complete">🎉 All matched!</p>
       )}
 
-      {/* Reset button */}
       <button
         className="vocabmatch__reset"
         onClick={() => {

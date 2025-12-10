@@ -62,8 +62,9 @@ export default function QuizActivity({ data = {}, onComplete, onScore, onProgres
   if (!currentQuestion) return <p>Loading...</p>;
 
   return (
-    <div className="quizactivity__card activity-card">
-      <h2>{data.instructions || "Quiz"}</h2>
+    <div className="quizactivity__card">
+      
+      <h2 className="quizactivity__title">{data.instructions || "Quiz"}</h2>
 
       {/* Progress Bar */}
       <ProgressBar completed={completed} total={questions.length} />

@@ -1,9 +1,30 @@
 .sayaloud-container {
+  max-width: 420px;
+  width: 100%;
+  margin: var(--space-md) auto;
+  padding: var(--space-lg) var(--space-md);
+  background: var(--color-surface);
+  border-radius: var(--radius-large);
   display: flex;
   flex-direction: column;
+  gap: var(--space-md);
+  animation: fadeIn 0.3s ease;
+  box-shadow: var(--shadow-card);
+
+  /* Center all children horizontally */
   align-items: center;
-  padding: 24px;
   text-align: center;
+}
+
+.sayaloud-title {
+  font-size: var(--font-size-h3);
+  font-weight: 800;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin-bottom: var(--space-sm);
+  opacity: 0.95;
 }
 
 .sayaloud-prompt {
@@ -24,6 +45,7 @@
   margin-bottom: 24px;
 }
 
+/* Buttons: keep max width and center */
 .sayaloud-play-btn,
 .sayaloud-next-btn {
   width: 100%;
@@ -34,6 +56,9 @@
   border-radius: 10px;
   font-size: 1rem;
   cursor: pointer;
+
+  /* Center inside flex container */
+  display: block;
 }
 
 .sayaloud-play-btn {
@@ -44,4 +69,22 @@
 .sayaloud-next-btn {
   background: #6a4bc3;
   color: white;
+}
+
+/* Waveform container */
+.waveform-container {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 20px 0;
+  height: 80px;
+  align-items: flex-end;
+}
+
+/* Individual bars */
+.wave-bar {
+  width: 6px;
+  background: #6a4bc3;
+  border-radius: 4px;
+  transition: height 0.08s ease-out;
 }

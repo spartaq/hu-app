@@ -4,7 +4,7 @@
   "data": {
     "items": [
       {
-        "title": "Basic Greetings",
+        "title": "Match the words",
         "items": [
           { "term": "Helló", "definition": "Hello" },
           { "term": "Jó reggelt", "definition": "Good morning" },
@@ -15,7 +15,7 @@
         ]
       },
       {
-        "title": "Common Responses",
+        "title": "Match the words",
         "items": [
           { "term": "Köszönöm", "definition": "Thank you" },
           { "term": "Szívesen", "definition": "You're welcome" },

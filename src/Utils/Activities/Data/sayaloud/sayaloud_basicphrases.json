@@ -1,6 +1,7 @@
 {
   "type": "sayaloud",
   "title": "sayaloud_basicphrases",
+  "instructions": "Say it aloud",
   "data": {
     "items": [
       {

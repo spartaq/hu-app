@@ -1,12 +1,16 @@
 /* Wrapper */
 .grammarexplanation-wrapper {
+  max-width: 420px;
   width: 100%;
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 1.3rem;
-  font-family: sans-serif;
-  height: 90vh;
-  overflow-y: auto;
+  margin: var(--space-md) auto;
+  padding: var(--space-lg) var(--space-md);
+  background: var(--color-surface);
+  border-radius: var(--radius-large);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  animation: fadeIn 0.3s ease;
+  box-shadow: var(--shadow-card);
 }
 
 /* Title */

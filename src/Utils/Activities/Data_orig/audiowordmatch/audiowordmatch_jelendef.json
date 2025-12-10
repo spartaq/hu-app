@@ -1,6 +1,0 @@
-[
-{ "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "olvasom", "translation": "I read it" },
-{ "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "írom", "translation": "I write it" },
-{ "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "hallom", "translation": "I hear it" },
-{ "id": "aw4", "audio": "/Audio/audiotest.mp3", "text": "látom", "translation": "I see it" }
-]

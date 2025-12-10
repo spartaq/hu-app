@@ -1,5 +1,0 @@
-[
-  { "id": "aw1", "audio": "/Audio/audiotest.mp3", "text": "balra", "translation": "left" },
-  { "id": "aw2", "audio": "/Audio/audiotest.mp3", "text": "jobbra", "translation": "right" },
-  { "id": "aw3", "audio": "/Audio/audiotest.mp3", "text": "egyenes", "translation": "straight" }
-]

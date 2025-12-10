@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import "../../CSS/TapAudioActivity.css";
 import shuffle from "../shuffle.js";
+import ProgressBar from "../../Components/ProgressBar";
 
 export default function TapAudioActivity({ data = {}, onComplete, onScore, onProgress }) {
   // Ensure items array
@@ -24,7 +25,7 @@ export default function TapAudioActivity({ data = {}, onComplete, onScore, onPro
   } = currentExercise;
 
   // Shuffle options per exercise
-  const shuffledWords = useMemo(() => shuffle([...options]), [currentIndex, options]);
+  const shuffledWords = useMemo(() => shuffle([...options]), [ options]);
   const remainingWords = shuffledWords.filter((w) => !selectedWords.includes(w));
 
   // Reset state when exercise changes
@@ -34,13 +35,6 @@ export default function TapAudioActivity({ data = {}, onComplete, onScore, onPro
     setIsCorrect(false);
     setShowFeedback(false);
   }, [currentIndex]);
-
-  // Update progress
-  useEffect(() => {
-    if (onProgress && exercises.length > 0) {
-      onProgress(currentIndex / exercises.length);
-    }
-  }, [currentIndex, onProgress, exercises.length]);
 
   const handleWordClick = (word) => {
     if (completed) return;
@@ -63,7 +57,6 @@ export default function TapAudioActivity({ data = {}, onComplete, onScore, onPro
       setCurrentIndex((prev) => prev + 1);
     } else {
       if (onComplete) onComplete();
-      console.log("🎉 All TapAudio exercises completed");
     }
   };
 
@@ -84,8 +77,11 @@ export default function TapAudioActivity({ data = {}, onComplete, onScore, onPro
   return (
     <div className="tapaudio__card">
       <h2 className="tapaudio__title">
-        {title} ({currentIndex + 1}/{exercises.length})
+        {title}
       </h2>
+
+      {/* PROGRESS BAR */}
+      <ProgressBar completed={currentIndex} total={exercises.length} />
 
       {audio && (
         <div className="tapaudio__audio">

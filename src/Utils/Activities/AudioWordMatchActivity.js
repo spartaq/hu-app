@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import "../../CSS/AudioWordMatchActivity.css";
 import shuffle from "../shuffle";
+import ProgressBar from "../../Components/ProgressBar";
 
 const AudioWordMatchActivity = ({ data = {}, onComplete, showTranslationToggle = false }) => {
-  // Canonical items array
   const items = useMemo(() => data.items || [], [data]);
 
-  // State
   const [selectedAudio, setSelectedAudio] = useState(null);
   const [selectedText, setSelectedText] = useState(null);
   const [matchedIds, setMatchedIds] = useState([]);
@@ -26,10 +25,8 @@ const AudioWordMatchActivity = ({ data = {}, onComplete, showTranslationToggle =
     setShowTranslation(false);
   }, [items]);
 
-  // Audio refs to avoid reloads
   const audioRefs = useRef({});
 
-  // Play raw audio
   const playRawAudio = (id, src) => {
     if (!src) return;
     if (!audioRefs.current[id]) audioRefs.current[id] = new Audio(src);
@@ -38,14 +35,12 @@ const AudioWordMatchActivity = ({ data = {}, onComplete, showTranslationToggle =
     audio.play();
   };
 
-  // Play segment from lesson-level audio
   const playSegment = (id, audioFile, start, end) => {
     if (!audioFile || start == null || end == null) return;
     if (!audioRefs.current[id]) audioRefs.current[id] = new Audio(audioFile);
     const audio = audioRefs.current[id];
     audio.currentTime = start;
     audio.play();
-
     const onTimeUpdate = () => {
       if (audio.currentTime >= end) {
         audio.pause();
@@ -55,19 +50,11 @@ const AudioWordMatchActivity = ({ data = {}, onComplete, showTranslationToggle =
     audio.addEventListener("timeupdate", onTimeUpdate);
   };
 
-  // Unified play function
   const playAudio = (item) => {
     if (!item) return;
-
     const { id, audio, start, end } = item;
-
-    if (audio) {
-      playRawAudio(id, audio);
-    } else if (data.audioFile && start != null && end != null) {
-      playSegment(id, data.audioFile, start, end);
-    } else {
-      console.warn("No audio provided for item:", item);
-    }
+    if (audio) playRawAudio(id, audio);
+    else if (data.audioFile && start != null && end != null) playSegment(id, data.audioFile, start, end);
   };
 
   // Matching logic
@@ -77,15 +64,12 @@ const AudioWordMatchActivity = ({ data = {}, onComplete, showTranslationToggle =
     if (selectedAudio.id === selectedText.id) {
       setMatchedIds((prev) => {
         const next = [...prev, selectedAudio.id];
-
         if (next.length === items.length) {
           setCompleted(true);
-          if (onComplete) onComplete(true);
+          onComplete?.(true);
         }
-
         return next;
       });
-
       setSelectedAudio(null);
       setSelectedText(null);
       return;
@@ -97,9 +81,15 @@ const AudioWordMatchActivity = ({ data = {}, onComplete, showTranslationToggle =
     return () => clearTimeout(timeout);
   }, [selectedAudio, selectedText, items.length, onComplete]);
 
+  // PROGRESS: number of matches
+  const progress = matchedIds.length;
+
   return (
     <div className="audiowordmatch__container">
       <h2 className="audiowordmatch__title">{data.title || "Match the Audio to the Word"}</h2>
+
+      {/* Progress Bar */}
+      <ProgressBar completed={progress} total={items.length} />
 
       {showTranslationToggle && (
         <button
@@ -117,7 +107,6 @@ const AudioWordMatchActivity = ({ data = {}, onComplete, showTranslationToggle =
           {audioCards.map((item) => {
             const isMatched = matchedIds.includes(item.id);
             const isSelected = selectedAudio?.id === item.id;
-
             return (
               <button
                 key={item.id}

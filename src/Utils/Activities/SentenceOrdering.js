@@ -1,8 +1,16 @@
 import React, { useState, useMemo, useEffect } from "react";
 import "../../CSS/WordOrderActivity.css";
+import ProgressBar from "../../Components/ProgressBar";
 
 export default function SentenceOrdering({ data = {}, onComplete, onScore, onProgress }) {
-  const exercises = Array.isArray(data.items) ? data.items : [data]; // support multiple exercises
+  
+  // Normalize exercises
+  const exercises = Array.isArray(data.items)
+    ? data.items
+    : Array.isArray(data)
+    ? data
+    : [data];
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [placedWords, setPlacedWords] = useState([]);
   const [shuffledWords, setShuffledWords] = useState([]);
@@ -10,24 +18,16 @@ export default function SentenceOrdering({ data = {}, onComplete, onScore, onPro
   const [showTranslation, setShowTranslation] = useState(false);
 
   const currentExercise = exercises[currentIndex] || {};
-  const { sentence = "", translation = "", quizTitle = "", instructions = "" } = currentExercise;
+  const { sentence = "", translation = "", instructions = "Put the words in order" } =
+    currentExercise;
 
-  // Split sentence into words with ids
-  const correctWords = useMemo(() => sentence.split(" ").map((word, idx) => ({ word, id: idx })), [sentence]);
+  // Split sentence into parts
+  const correctWords = useMemo(
+    () => sentence.split(" ").map((word, idx) => ({ word, id: idx })),
+    [sentence]
+  );
 
-  // Shuffle words and reset state when exercise changes
-  useEffect(() => {
-    if (!sentence) return;
-
-    const shuffled = shuffle([...correctWords]);
-    setShuffledWords(shuffled);
-    setPlacedWords(Array(correctWords.length).fill(null));
-    setCompleted(false);
-    setShowTranslation(false);
-
-    if (onProgress) onProgress(currentIndex / exercises.length);
-  }, [sentence, currentIndex, correctWords, onProgress, exercises.length]);
-
+  // Shuffle helper
   function shuffle(array) {
     const copy = [...array];
     for (let i = copy.length - 1; i > 0; i--) {
@@ -37,45 +37,60 @@ export default function SentenceOrdering({ data = {}, onComplete, onScore, onPro
     return copy;
   }
 
+  // Reset state on sentence change
+  useEffect(() => {
+    if (!sentence) return;
+
+    const shuffled = shuffle([...correctWords]);
+    setShuffledWords(shuffled);
+    setPlacedWords(Array(correctWords.length).fill(null));
+    setCompleted(false);
+    setShowTranslation(false);
+
+    const progressValue = currentIndex / exercises.length;
+    onProgress?.(progressValue);
+
+  }, [currentIndex, sentence, correctWords.length, onProgress, exercises.length]);
+
   const handlePlaceWord = (wordObj) => {
     if (completed) return;
 
-    const nextBlankIdx = placedWords.findIndex((p) => p === null);
-    if (nextBlankIdx === -1) return;
+    const nextBlank = placedWords.findIndex((p) => p === null);
+    if (nextBlank === -1) return;
 
     const updated = [...placedWords];
-    updated[nextBlankIdx] = wordObj;
+    updated[nextBlank] = wordObj;
     setPlacedWords(updated);
 
-    // Check if sentence is correct
+    // Check for correctness
     const isCorrect = updated.every((w, idx) => w?.id === idx);
     if (isCorrect) {
       setCompleted(true);
       setShowTranslation(true);
-      if (onScore) onScore();
+      onScore?.();
     }
   };
 
   const handleNext = () => {
     if (currentIndex < exercises.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
+      setCurrentIndex((i) => i + 1);
     } else {
-      if (onComplete) onComplete();
+      onComplete?.();
     }
   };
 
-  const handleSkip = () => {
-    handleNext();
-  };
+  const handleSkip = () => handleNext();
 
   if (!sentence) return <p>Error: Invalid sentence data</p>;
 
   return (
-    <div className="wordorder-card">
-      
-      <h2 className="wordorder-title">{instructions}</h2>
+    <div className="wordorder-card activity-card">
 
+      <h2 className="wordorder-title">{instructions}</h2>
+{/* FIXED ProgressBar API */}
+      <ProgressBar completed={currentIndex} total={exercises.length} />
       {/* Word bank */}
+      
       <div className="word-bank">
         {shuffledWords
           .filter((w) => !placedWords.some((p) => p?.id === w.id))
@@ -96,7 +111,10 @@ export default function SentenceOrdering({ data = {}, onComplete, onScore, onPro
         {correctWords.map((_, idx) => {
           const placedWord = placedWords[idx];
           return (
-            <span key={idx} className={`word-slot ${placedWord ? "filled" : "blank"}`}>
+            <span
+              key={idx}
+              className={`word-slot ${placedWord ? "filled" : "blank"}`}
+            >
               {placedWord?.word || "____"}
             </span>
           );
@@ -104,18 +122,17 @@ export default function SentenceOrdering({ data = {}, onComplete, onScore, onPro
       </div>
 
       {/* Completion UI */}
-      {completed && (
+      {completed ? (
         <>
-          <p className="completion-message">✅ Correct! 🎉</p>
-          {showTranslation && translation && <p className="translation-text">💬 {translation}</p>}
+          <p className="completion-message">Correct!</p>
+          {showTranslation && translation && (
+            <p className="translation-text">{translation}</p>
+          )}
           <button onClick={handleNext} className="next-button">
             Continue
           </button>
         </>
-      )}
-
-      {/* Optional skip */}
-      {!completed && (
+      ) : (
         <button onClick={handleSkip} className="skip-button">
           Skip
         </button>
