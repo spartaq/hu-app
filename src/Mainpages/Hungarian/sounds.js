@@ -5,15 +5,10 @@ import mainimage from '../../Images/neighbor2-sc.jpg';
 
 const sections = [
   { label: "Grammar Explanation", type: "grammarexplanation", subtype: "sounds" },
-  { label: "Alphabet", type: "sounds", subtype: "sounds" },
-  { label: "Vocab Match", type: "vocabmatch", subtype: "sounds" },
-  { label: "Image Match", type: "imagematch", subtype: "sounds" },
+  { label: "Alphabet", type: "sounds", subtype: "alphabet" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "soundsVowels" },
   { label: "Audio Match", type: "audiowordmatch", subtype: "sounds" },
-  { label: "Tap What You Hear", type: "tapaudio", subtype: "sounds" },
-  { label: "Grammar Exercises", type: "grammarquiz", subtype: "sounds" },
-  { label: "Word Order", type: "ordering", subtype: "sounds" },
-  { label: "Reading", type: "reading", subtype: "basicphrases" },
-  { label: "Video", type: "video", subtype: "basicphrases" },
+  { label: "Tap What You Hear", type: "tapaudio", subtype: "soundsConsonants" },
   { label: "Lesson Complete", type: "lessoncomplete", subtype: "sounds" },
 ];
 

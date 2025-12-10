@@ -35,6 +35,7 @@
   background: #f3e8ff; /* soft light purple background for prompt area */
   border: 2px solid #d0bfff;
   border-radius: 10px;
+  text-align: center;
 }
 
 .im-prompt {
@@ -133,10 +134,11 @@
   color: #6a4bc3;
   font-weight: 600;
   transition: 0.2s ease;
+  font-size: 0.9rem;
 }
 
 .im-text-option:hover {
-  transform: scale(1.03);
+  /*transform: scale(1.03);*/
   border: 2px solid #c8b3ff;
 }
 

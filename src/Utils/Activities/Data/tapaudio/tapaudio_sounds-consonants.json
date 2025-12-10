@@ -1,0 +1,88 @@
+{
+  "type": "tapaudio",
+  "title": "tapaudio_sounds-consonants",
+  "data": {
+    "items": [
+      {
+        "id": "sounds-1",
+        "title": "Tap What You Hear",
+        "audio": "/audio/gyerek.mp3",
+        "correctSequence": ["gyerek"],
+        "options": ["gyerek", "terek"],
+        "translation": "child"
+      },
+      {
+        "id": "sounds-2",
+        "title": "Tap What You Hear",
+        "audio": "/audio/tyuk.mp3",
+        "correctSequence": ["tyúk"],
+        "options": ["tyúk", "tuk"],
+        "translation": "hen"
+      },
+      {
+        "id": "sounds-3",
+        "title": "Tap What You Hear",
+        "audio": "/audio/nyár.mp3",
+        "correctSequence": ["nyár"],
+        "options": ["nyár", "nár"],
+        "translation": "summer"
+      },
+      {
+        "id": "sounds-4",
+        "title": "Tap What You Hear",
+        "audio": "/audio/csiga.mp3",
+        "correctSequence": ["csiga"],
+        "options": ["csiga", "siga"],
+        "translation": "snail"
+      },
+      {
+        "id": "sounds-5",
+        "title": "Tap What You Hear",
+        "audio": "/audio/szalad.mp3",
+        "correctSequence": ["szalad"],
+        "options": ["szalad", "zalad"],
+        "translation": "runs"
+      },
+      {
+        "id": "sounds-6",
+        "title": "Tap What You Hear",
+        "audio": "/audio/napozik.mp3",
+        "correctSequence": ["dzs"],
+        "options": ["dzs", "dz"],
+        "translation": "sunbathes"
+      },
+      {
+        "id": "sounds-7",
+        "title": "Tap What You Hear",
+        "audio": "/audio/pezsdít.mp3",
+        "correctSequence": ["dzs"],
+        "options": ["dzs", "dz"],
+        "translation": "fizzes / stimulates"
+      },
+      {
+        "id": "sounds-8",
+        "title": "Tap What You Hear",
+        "audio": "/audio/zsiráf.mp3",
+        "correctSequence": ["zsiráf"],
+        "options": ["zsiráf", "siráf"],
+        "translation": "giraffe"
+      },
+      {
+        "id": "sounds-9",
+        "title": "Tap What You Hear",
+        "audio": "/audio/kocsi.mp3",
+        "correctSequence": ["cs"],
+        "options": ["cs", "s"],
+        "translation": "car"
+      },
+      {
+        "id": "sounds-10",
+        "title": "Tap What You Hear",
+        "audio": "/audio/nyúl.mp3",
+        "correctSequence": ["nyúl"],
+        "options": ["nyúl", "núl"],
+        "translation": "rabbit"
+      }
+    ]
+  }
+}

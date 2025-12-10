@@ -3,10 +3,10 @@ import "../../../CSS/AlphabetActivity.css";
 
 const LetterTile = ({ letter, ipa, onSelect }) => {
   return (
-    <button className="letter-tile" onClick={onSelect}>
-      <div className="letter-tile-letter">{letter}</div>
-      <div className="letter-tile-ipa">{ipa}</div>
-    </button>
+    <div className="letter-tile" onClick={onSelect}>
+      <div className="letter-tile-main">{letter}</div>
+      {ipa && <div className="letter-tile-ipa">{ipa}</div>}
+    </div>
   );
 };
 

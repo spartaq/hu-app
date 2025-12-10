@@ -1,0 +1,209 @@
+{
+  "type": "sounds",
+  "title": "Hungarian Numbers",
+  "instructions": "Tap a tile to hear its sound",
+  "data": {
+    "items": [
+      {
+        "id": "number1",
+        "letter": "1",
+        "ipa": "egy",
+        "letterAudio": "/audio/alphabet/1.mp3",
+        "examples": [
+          { "word": "egy alma", "translation": "one apple", "audio": "/audio/examples/egy_alma.mp3" },
+          { "word": "egy apa", "translation": "one father", "audio": "/audio/examples/egy_apa.mp3" }
+        ]
+      },
+      {
+        "id": "number2",
+        "letter": "2",
+        "ipa": "kettő",
+        "letterAudio": "/audio/alphabet/2.mp3",
+        "examples": [
+          { "word": "két zsák", "translation": "two bags", "audio": "/audio/examples/ket_zsak.mp3" },
+          { "word": "két zseb", "translation": "two pockets", "audio": "/audio/examples/ket_zseb.mp3" }
+        ]
+      },
+      {
+        "id": "number3",
+        "letter": "3",
+        "ipa": "három",
+        "letterAudio": "/audio/alphabet/3.mp3",
+        "examples": [
+          { "word": "három könyv", "translation": "three books", "audio": "/audio/examples/harom_konyv.mp3" },
+          { "word": "három fiú", "translation": "three boys", "audio": "/audio/examples/harom_fiu.mp3" }
+        ]
+      },
+      {
+        "id": "number4",
+        "letter": "4",
+        "ipa": "négy",
+        "letterAudio": "/audio/alphabet/4.mp3",
+        "examples": [
+          { "word": "négy ház", "translation": "four houses", "audio": "/audio/examples/negy_haz.mp3" },
+          { "word": "négy szék", "translation": "four chairs", "audio": "/audio/examples/negy_szek.mp3" }
+        ]
+      },
+      {
+        "id": "number5",
+        "letter": "5",
+        "ipa": "öt",
+        "letterAudio": "/audio/alphabet/5.mp3",
+        "examples": [
+          { "word": "öt nap", "translation": "five days", "audio": "/audio/examples/ot_nap.mp3" },
+          { "word": "öt alma", "translation": "five apples", "audio": "/audio/examples/ot_alma.mp3" }
+        ]
+      },
+      {
+        "id": "number6",
+        "letter": "6",
+        "ipa": "hat",
+        "letterAudio": "/audio/alphabet/6.mp3",
+        "examples": [
+          { "word": "hat ember", "translation": "six people", "audio": "/audio/examples/hat_ember.mp3" },
+          { "word": "hat szék", "translation": "six chairs", "audio": "/audio/examples/hat_szek.mp3" }
+        ]
+      },
+      {
+        "id": "number7",
+        "letter": "7",
+        "ipa": "hét",
+        "letterAudio": "/audio/alphabet/7.mp3",
+        "examples": [
+          { "word": "hét nap", "translation": "seven days", "audio": "/audio/examples/het_nap.mp3" },
+          { "word": "hét fiú", "translation": "seven boys", "audio": "/audio/examples/het_fiu.mp3" }
+        ]
+      },
+      {
+        "id": "number8",
+        "letter": "8",
+        "ipa": "nyolc",
+        "letterAudio": "/audio/alphabet/8.mp3",
+        "examples": [
+          { "word": "nyolc könyv", "translation": "eight books", "audio": "/audio/examples/nyolc_konyv.mp3" },
+          { "word": "nyolc lány", "translation": "eight girls", "audio": "/audio/examples/nyolc_lany.mp3" }
+        ]
+      },
+      {
+        "id": "number9",
+        "letter": "9",
+        "ipa": "kilenc",
+        "letterAudio": "/audio/alphabet/9.mp3",
+        "examples": [
+          { "word": "kilenc ember", "translation": "nine people", "audio": "/audio/examples/kilenc_ember.mp3" },
+          { "word": "kilenc ház", "translation": "nine houses", "audio": "/audio/examples/kilenc_haz.mp3" }
+        ]
+      },
+      {
+        "id": "number10",
+        "letter": "10",
+        "ipa": "tíz",
+        "letterAudio": "/audio/alphabet/10.mp3",
+        "examples": [
+          { "word": "tíz alma", "translation": "ten apples", "audio": "/audio/examples/tiz_alma.mp3" },
+          { "word": "tíz fiú", "translation": "ten boys", "audio": "/audio/examples/tiz_fiu.mp3" }
+        ]
+      },
+      {
+        "id": "number11",
+        "letter": "11",
+        "ipa": "tizenegy",
+        "letterAudio": "/audio/alphabet/11.mp3",
+        "examples": [
+          { "word": "tizenegy alma", "translation": "eleven apples", "audio": "/audio/examples/tizenegy_alma.mp3" },
+          { "word": "tizenegy fiú", "translation": "eleven boys", "audio": "/audio/examples/tizenegy_fiu.mp3" }
+        ]
+      },
+      {
+        "id": "number12",
+        "letter": "12",
+        "ipa": "tizenkettő",
+        "letterAudio": "/audio/alphabet/12.mp3",
+        "examples": [
+          { "word": "tizenkét ház", "translation": "twelve houses", "audio": "/audio/examples/tizenkettő_haz.mp3" },
+          { "word": "tizenkét könyv", "translation": "twelve books", "audio": "/audio/examples/tizenkettő_konyv.mp3" }
+        ]
+      },
+      {
+        "id": "number20",
+        "letter": "20",
+        "ipa": "húsz",
+        "letterAudio": "/audio/alphabet/20.mp3",
+        "examples": [
+          { "word": "húsz szék", "translation": "twenty chairs", "audio": "/audio/examples/husz_szek.mp3" },
+          { "word": "húsz nap", "translation": "twenty days", "audio": "/audio/examples/husz_nap.mp3" }
+        ]
+      },
+      {
+        "id": "number30",
+        "letter": "30",
+        "ipa": "harminc",
+        "letterAudio": "/audio/alphabet/30.mp3",
+        "examples": [
+          { "word": "harminc diák", "translation": "thirty students", "audio": "/audio/examples/harminc_diak.mp3" },
+          { "word": "harminc perc", "translation": "thirty minutes", "audio": "/audio/examples/harminc_perc.mp3" }
+        ]
+      },
+      {
+        "id": "number40",
+        "letter": "40",
+        "ipa": "negyven",
+        "letterAudio": "/audio/alphabet/40.mp3",
+        "examples": [
+          { "word": "negyven ember", "translation": "forty people", "audio": "/audio/examples/negyven_ember.mp3" },
+          { "word": "negyven könyv", "translation": "forty books", "audio": "/audio/examples/negyven_konyv.mp3" }
+        ]
+      },
+      {
+        "id": "number50",
+        "letter": "50",
+        "ipa": "ötven",
+        "letterAudio": "/audio/alphabet/50.mp3",
+        "examples": [
+          { "word": "ötven ház", "translation": "fifty houses", "audio": "/audio/examples/otven_haz.mp3" },
+          { "word": "ötven perc", "translation": "fifty minutes", "audio": "/audio/examples/otven_perc.mp3" }
+        ]
+      },
+      {
+        "id": "number100",
+        "letter": "100",
+        "ipa": "száz",
+        "letterAudio": "/audio/alphabet/100.mp3",
+        "examples": [
+          { "word": "száz ember", "translation": "one hundred people", "audio": "/audio/examples/szaz_ember.mp3" },
+          { "word": "száz könyv", "translation": "one hundred books", "audio": "/audio/examples/szaz_konyv.mp3" }
+        ]
+      },
+      {
+        "id": "number200",
+        "letter": "200",
+        "ipa": "kétszáz",
+        "letterAudio": "/audio/alphabet/200.mp3",
+        "examples": [
+          { "word": "kétszáz ház", "translation": "two hundred houses", "audio": "/audio/examples/ketszaz_haz.mp3" },
+          { "word": "kétszáz diák", "translation": "two hundred students", "audio": "/audio/examples/ketszaz_diak.mp3" }
+        ]
+      },
+      {
+        "id": "number1000",
+        "letter": "1000",
+        "ipa": "ezer",
+        "letterAudio": "/audio/alphabet/1000.mp3",
+        "examples": [
+          { "word": "ezer ember", "translation": "one thousand people", "audio": "/audio/examples/ezer_ember.mp3" },
+          { "word": "ezer könyv", "translation": "one thousand books", "audio": "/audio/examples/ezer_konyv.mp3" }
+        ]
+      },
+      {
+        "id": "number1000000",
+        "letter": "1,000,000",
+        "ipa": "millió",
+        "letterAudio": "/audio/alphabet/1000000.mp3",
+        "examples": [
+          { "word": "egy millió ember", "translation": "one million people", "audio": "/audio/examples/egy_millio_ember.mp3" },
+          { "word": "egy millió könyv", "translation": "one million books", "audio": "/audio/examples/egy_millio_konyv.mp3" }
+        ]
+      }
+    ]
+  }
+}

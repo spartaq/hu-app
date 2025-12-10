@@ -1,32 +1,39 @@
 import React, { useState } from "react";
-import alphabetData from "../../../Utils/Activities/Data/sounds/sounds_alphabet.json";
 import LetterTile from "../Alphabet/LetterTile";
 import LetterDetailPanel from "../Alphabet/LetterDetailPanel";
 import "../../../CSS/AlphabetActivity.css";
 
-const AlphabetActivity = () => {
-  const [selectedLetter, setSelectedLetter] = useState(null);
+const AlphabetActivity = ({ data, title = "Activity", subtitle = "Tap a tile to hear its sound" }) => {
+  console.log("AlphabetActivity data:", JSON.stringify(data, null, 2));
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  // Support both: data array directly or data.items wrapper
+  const itemsArray = Array.isArray(data) ? data : data?.items;
+
+  if (!itemsArray || !Array.isArray(itemsArray) || itemsArray.length === 0) {
+    return <div>No data available for this activity.</div>;
+  }
 
   return (
     <div className="alphabet-wrapper">
-      <h2 className="alphabet-title">Alphabet</h2>
-      <p className="alphabet-subtitle">Tap a letter to hear its sound</p>
+      <h2 className="alphabet-title">{title}</h2>
+      <p className="alphabet-subtitle">{subtitle}</p>
 
       <div className="alphabet-grid">
-        {alphabetData.alphabet.map((item) => (
+        {itemsArray.map((item) => (
           <LetterTile
-            key={item.letter}
-            letter={item.letter}
+            key={item.id || item.letter || item.number}
+            letter={item.letter || item.hungarian || item.number}
             ipa={item.ipa}
-            onSelect={() => setSelectedLetter(item)}
+            onSelect={() => setSelectedItem(item)}
           />
         ))}
       </div>
 
-      {selectedLetter && (
+      {selectedItem && (
         <LetterDetailPanel
-          data={selectedLetter}
-          onClose={() => setSelectedLetter(null)}
+          data={selectedItem}
+          onClose={() => setSelectedItem(null)}
         />
       )}
     </div>

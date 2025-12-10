@@ -62,12 +62,12 @@ export default function ImageMatchActivity({
   return (
     <div className="image-match-container">
 
-      {/* PROGRESS BAR */}
-      <ProgressBar completed={index} total={items.length} />
-
       <div className="instructions">
         <span className="im-title">{instructions}</span>
       </div>
+
+         {/* PROGRESS BAR */}
+      <ProgressBar completed={index} total={items.length} />
 
       {audio && (
         <div>

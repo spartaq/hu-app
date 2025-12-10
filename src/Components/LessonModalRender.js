@@ -139,7 +139,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
   // -------------------------------------------------------
   // Activity data
   // -------------------------------------------------------
-  
+  console.log("ModalRender passing to AlphabetActivity:", data.data);
   const activityProps = {
     data: data.data,
     items,

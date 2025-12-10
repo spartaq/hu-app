@@ -3,7 +3,8 @@ import ModalRender from "./LessonModalRender.js"
 /* ---------------------- IMPORTS ---------------------- */
 
 // **ALPHABET
-import HuAlphabetData from "../Utils/Activities/Data/sounds/sounds_alphabet.json";
+import HuSoundsAlphabetData from "../Utils/Activities/Data/sounds/sounds_alphabet.json";
+import HuSoundsNumbersData from "../Utils/Activities/Data/sounds/sounds_numbers.json";
 
 // **GRAMMAREXPLANATION
 import HuExplanationSoundsData from "../Utils/Activities/Data/grammarexplanation/explanation_sounds.json";
@@ -77,7 +78,8 @@ import HuSayAloudBasicPhrasesData from "../Utils/Activities/Data/sayaloud/sayalo
 
 
 // **TAPAUDIO
-import HuTapAudioSoundsData from "../Utils/Activities/Data/tapaudio/tapaudio_sounds.json";
+import HuTapAudioSoundsVowelsData from "../Utils/Activities/Data/tapaudio/tapaudio_sounds-vowels.json";
+import HuTapAudioSoundsConsonantsData from "../Utils/Activities/Data/tapaudio/tapaudio_sounds-consonants.json";
 import HuTapAudioBasicquestionsData from "../Utils/Activities/Data/tapaudio/tapaudio_basicquestions.json";
 import HuTapAudioIrregularverbsData from "../Utils/Activities/Data/tapaudio/tapaudio_irregularverbs.json";
 import HuTapAudioBasicadjectivesData from "../Utils/Activities/Data/tapaudio/tapaudio_basicadjectives.json";
@@ -225,7 +227,8 @@ import HuLessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncom
 
 const DATA_MAP = {
   sounds: {
-    sounds: HuAlphabetData
+    alphabet: HuSoundsAlphabetData,
+    numbers: HuSoundsNumbersData
   },
 
   grammarexplanation: {
@@ -281,7 +284,8 @@ const DATA_MAP = {
   },
 
   tapaudio: {
-    sounds: HuTapAudioSoundsData,
+    soundsVowels: HuTapAudioSoundsVowelsData,
+    soundsConsonants: HuTapAudioSoundsConsonantsData,
     basicquestions: HuTapAudioBasicquestionsData,
     irregularverbs: HuTapAudioIrregularverbsData,
     basicadjectives: HuTapAudioBasicadjectivesData,
@@ -478,6 +482,7 @@ const ModalRouter = ({ type, subtype, scrollTargetRef }) => {
     (type === "reading" && !data) ||
     (type === "video" && !data) ||
     (type === "dialogue" && !data) ||
+    (type === "sounds" && (!data || !data.data || !Array.isArray(data.data.items))) ||
     (type === "lessoncomplete" && !data)
   ) {
     return <div>Error: Invalid data format for {type} → {subtype}</div>;

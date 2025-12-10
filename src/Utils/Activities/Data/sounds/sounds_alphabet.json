@@ -1,6 +1,10 @@
 {
-  "alphabet": [
-    {
+  "type": "sounds",
+  "title": "Hungarian Alphabet",
+  "instructions": "Tap a tile to hear its sound",
+  "data": {
+    "items": [
+      {
       "letter": "Aa",
       "ipa": "ɒ",
       "letterAudio": "/audio/alphabet/A.mp3",
@@ -396,5 +400,6 @@
         { "word": "zseb", "translation": "pocket", "audio": "/audio/examples/zseb.mp3" }
       ]
     }
-  ]
+    ]
+  }
 }

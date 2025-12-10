@@ -5,21 +5,99 @@
     "items": [
       {
         "id": "aw1",
-        "audio": "/Audio/audiotest.mp3",
-        "text": "Helló",
-        "translation": "Hello"
+        "audio": "/audio/lenni_vagyok.mp3",
+        "text": "Én vagyok",
+        "translation": "I am"
       },
       {
         "id": "aw2",
-        "audio": "/Audio/audiotest.mp3",
-        "text": "Jó reggelt",
-        "translation": "Good morning"
+        "audio": "/audio/lenni_vagy.mp3",
+        "text": "Te vagy",
+        "translation": "You are (singular)"
       },
       {
         "id": "aw3",
-        "audio": "/Audio/audiotest.mp3",
-        "text": "Jó estét",
-        "translation": "Good evening"
+        "audio": "/audio/lenni_van.mp3",
+        "text": "Ő van",
+        "translation": "He/She/It is"
+      },
+      {
+        "id": "aw4",
+        "audio": "/audio/lenni_vagyunk.mp3",
+        "text": "Mi vagyunk",
+        "translation": "We are"
+      },
+      {
+        "id": "aw5",
+        "audio": "/audio/lenni_vagytok.mp3",
+        "text": "Ti vagytok",
+        "translation": "You are (plural)"
+      },
+      {
+        "id": "aw6",
+        "audio": "/audio/lenni_vannak.mp3",
+        "text": "Ők vannak",
+        "translation": "They are"
+      },
+      {
+        "id": "aw7",
+        "audio": "/audio/nemzetiseg_magyar.mp3",
+        "text": "Magyar vagyok",
+        "translation": "I am Hungarian"
+      },
+      {
+        "id": "aw8",
+        "audio": "/audio/nemzetiseg_nemet.mp3",
+        "text": "Német vagy",
+        "translation": "You are German"
+      },
+      {
+        "id": "aw9",
+        "audio": "/audio/foglalkozas_orvos.mp3",
+        "text": "Ő orvos",
+        "translation": "He/She is a doctor"
+      },
+      {
+        "id": "aw10",
+        "audio": "/audio/foglalkozas_tanar.mp3",
+        "text": "Mi tanárok vagyunk",
+        "translation": "We are teachers"
+      },
+      {
+        "id": "aw11",
+        "audio": "/audio/allapot_ehes.mp3",
+        "text": "Éhes vagyok",
+        "translation": "I am hungry"
+      },
+      {
+        "id": "aw12",
+        "audio": "/audio/allapot_faradt.mp3",
+        "text": "Fáradt vagy",
+        "translation": "You are tired"
+      },
+      {
+        "id": "aw13",
+        "audio": "/audio/allapot_boldog.mp3",
+        "text": "Ők boldogok",
+        "translation": "They are happy"
+      },
+      {
+        "id": "aw14",
+        "audio": "/audio/lenni_mult_vagyok.mp3",
+        "text": "Én voltam",
+        "translation": "I was"
+      },
+      {
+        "id": "aw15",
+        "audio": "/audio/lenni_mult_vagy.mp3",
+        "text": "Te voltál",
+        "translation": "You were (singular)"
+      },
+      {
+        "id": "aw16",
+        "audio": "/audio/lenni_mult_van.mp3",
+        "text": "Ő volt",
+        "translation": "He/She/It was"
       }
     ]
   }

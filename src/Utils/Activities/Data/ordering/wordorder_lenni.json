@@ -7,57 +7,71 @@
         "id": "hungarian-ordering-lenni-1",
         "topic": "grammar",
         "quizTitle": "Word Order – Lenni 1",
-        "sentence": "An gol",
-        "translation": "English"
+        "sentence": "Te magyar vagy",
+        "translation": "You are Hungarian"
       },
       {
         "id": "hungarian-ordering-lenni-2",
         "topic": "grammar",
         "quizTitle": "Word Order – Lenni 2",
-        "sentence": "Te magyar vagy, ugye?",
-        "translation": "You are Hungarian, right?"
+        "sentence": "Ő orvos",
+        "translation": "He/She is a doctor"
       },
       {
         "id": "hungarian-ordering-lenni-3",
         "topic": "grammar",
         "quizTitle": "Word Order – Lenni 3",
-        "sentence": "Ő orvos és egy kórházban dolgozik.",
-        "translation": "He/She is a doctor and works in a hospital."
+        "sentence": "Mi fáradtak vagyunk",
+        "translation": "We are tired"
       },
       {
         "id": "hungarian-ordering-lenni-4",
         "topic": "grammar",
         "quizTitle": "Word Order – Lenni 4",
-        "sentence": "Mi nagyon fáradtak vagyunk ma reggel.",
-        "translation": "We are very tired this morning."
+        "sentence": "Éhes vagyok",
+        "translation": "I am hungry"
       },
       {
         "id": "hungarian-ordering-lenni-5",
         "topic": "grammar",
         "quizTitle": "Word Order – Lenni 5",
-        "sentence": "Ti éhesek vagytok, vagy már ettetek?",
-        "translation": "Are you (plural) hungry, or have you already eaten?"
+        "sentence": "Ti boldogok vagytok",
+        "translation": "You (plural) are happy"
       },
       {
         "id": "hungarian-ordering-lenni-6",
         "topic": "grammar",
         "quizTitle": "Word Order – Lenni 6",
-        "sentence": "A kollégáim nagyon kedvesek vannak az új munkahelyen.",
-        "translation": "My colleagues are very nice at the new workplace."
+        "sentence": "A tanár kedves",
+        "translation": "The teacher is kind"
       },
       {
         "id": "hungarian-ordering-lenni-7",
         "topic": "grammar",
         "quizTitle": "Word Order – Lenni 7",
-        "sentence": "A szomszédom – tanár, és online órákat tart.",
-        "translation": "My neighbour is a teacher, and gives online lessons."
+        "sentence": "Ők németek",
+        "translation": "They are German"
       },
       {
         "id": "hungarian-ordering-lenni-8",
         "topic": "grammar",
         "quizTitle": "Word Order – Lenni 8",
-        "sentence": "Most nagyon szomjas vagyok, hozhatok egy vizet?",
-        "translation": "I am very thirsty now, can I bring some water?"
+        "sentence": "Mi nagyon boldogok vagyunk",
+        "translation": "We are very happy"
+      },
+      {
+        "id": "hungarian-ordering-lenni-9",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Lenni 9",
+        "sentence": "Én tanár vagyok",
+        "translation": "I am a teacher"
+      },
+      {
+        "id": "hungarian-ordering-lenni-10",
+        "topic": "grammar",
+        "quizTitle": "Word Order – Lenni 10",
+        "sentence": "Ő fáradt",
+        "translation": "He/She is tired"
       }
     ]
   }

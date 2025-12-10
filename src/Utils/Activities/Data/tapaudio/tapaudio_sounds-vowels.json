@@ -1,0 +1,88 @@
+{
+  "type": "tapaudio",
+  "title": "tapaudio_sounds-vowels",
+  "data": {
+    "items": [
+      {
+        "id": "sounds-1",
+        "title": "Tap What You Hear",
+        "audio": "/audio/audiotest.mp3",
+        "correctSequence": ["hat"],
+        "options": ["hat", "hát"],
+        "translation": "six"
+      },
+      {
+        "id": "sounds-2",
+        "title": "Tap What You Hear",
+        "audio": "/audio/audiotest.mp3",
+        "correctSequence": ["hát"],
+        "options": ["hat", "hát"],
+        "translation": "back"
+      },
+      {
+        "id": "sounds-3",
+        "title": "Tap What You Hear",
+        "audio": "/audio/penz.mp3",
+        "correctSequence": ["pénz"],
+        "options": ["pénz", "pincs"],
+        "translation": "money"
+      },
+      {
+        "id": "sounds-4",
+        "title": "Tap What You Hear",
+        "audio": "/audio/ír.mp3",
+        "correctSequence": ["hal"],
+        "options": ["hal", "hol"],
+        "translation": "he/she writes"
+      },
+      {
+        "id": "sounds-5",
+        "title": "Tap What You Hear",
+        "audio": "/audio/lak.mp3",
+        "correctSequence": ["lak"],
+        "options": ["lak", "lák"],
+        "translation": "he/she lives / pad"
+      },
+      {
+        "id": "sounds-6",
+        "title": "Tap What You Hear",
+        "audio": "/audio/lakó.mp3",
+        "correctSequence": ["lakó"],
+        "options": ["lakó", "lako"],
+        "translation": "resident"
+      },
+      {
+        "id": "sounds-7",
+        "title": "Tap What You Hear",
+        "audio": "/audio/könyv.mp3",
+        "correctSequence": ["könyv"],
+        "options": ["könyv", "konyv"],
+        "translation": "book"
+      },
+      {
+        "id": "sounds-8",
+        "title": "Tap What You Hear",
+        "audio": "/audio/fel.mp3",
+        "correctSequence": ["fel"],
+        "options": ["fel", "fél"],
+        "translation": "up / afraid"
+      },
+      {
+        "id": "sounds-9",
+        "title": "Tap What You Hear",
+        "audio": "/audio/fül.mp3",
+        "correctSequence": ["fül"],
+        "options": ["fül", "ful"],
+        "translation": "ear"
+      },
+      {
+        "id": "sounds-10",
+        "title": "Tap What You Hear",
+        "audio": "/audio/tükör.mp3",
+        "correctSequence": ["tükör"],
+        "options": ["tükör", "tukor"],
+        "translation": "mirror"
+      }
+    ]
+  }
+}

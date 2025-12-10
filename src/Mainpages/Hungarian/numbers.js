@@ -5,6 +5,7 @@ import mainimage from '../../Images/500-forints.jpg';
 
 const sections = [
   { label: "Explanation", type: "grammarexplanation", subtype: "numbers" },
+  { label: "Alphabet", type: "sounds", subtype: "numbers" },
   { label: "Dialogue", type: "dialogue", subtype: "numbers" },
   { label: "Vocab", type: "vocabmatch", subtype: "numbers" },
   { label: "Image Match", type: "imagematch", subtype: "numbers" },

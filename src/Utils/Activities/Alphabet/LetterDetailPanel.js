@@ -1,43 +1,44 @@
-import React from "react";
-import WordRow from "./WordRow";
+import React, { useState } from "react";
 import "../../../CSS/AlphabetActivity.css";
 
 const LetterDetailPanel = ({ data, onClose }) => {
-  const playAudio = (src) => {
-    const audio = new Audio(src);
-    audio.play();
+  const [currentExampleIndex, setCurrentExampleIndex] = useState(0);
+  const examples = data.examples || [];
+
+  const nextExample = () => {
+    setCurrentExampleIndex((prev) => (prev + 1) % examples.length);
   };
 
+  const currentExample = examples[currentExampleIndex];
+
   return (
-    <div className="letter-detail-overlay" onClick={onClose}>
-      <div className="letter-detail-panel" onClick={(e) => e.stopPropagation()}>
-        <button className="letter-detail-close" onClick={onClose}>
-          ×
-        </button>
+    <div className="letter-detail-panel">
+      <button className="close-btn" onClick={onClose}>X</button>
 
-        <h2 className="letter-big">{data.letter}</h2>
-        <div className="letter-ipa-big">{data.ipa}</div>
+      <h3>{data.letter || data.hungarian || data.number}</h3>
+      {data.ipa && <p className="ipa">{data.ipa}</p>}
 
-        <button
-          className="play-letter-btn"
-          onClick={() => playAudio(data.letterAudio)}
-        >
-          ▶ Play Letter
-        </button>
-
-        <div className="examples-header">Example Words</div>
-
-        <div className="examples-list">
-          {data.examples.map((ex, index) => (
-            <WordRow
-              key={index}
-              word={ex.word}
-              translation={ex.translation}
-              audio={ex.audio}
-            />
-          ))}
+      {examples.length > 0 ? (
+        <div className="examples">
+          <p>
+            <strong>Example:</strong> {currentExample.word} - {currentExample.translation}
+          </p>
+          {currentExample.audio && (
+            <audio controls src={currentExample.audio}>
+              Your browser does not support the audio element.
+            </audio>
+          )}
+          <button onClick={nextExample}>Next Example</button>
         </div>
-      </div>
+      ) : (
+        <p>No examples available.</p>
+      )}
+
+      {data.letterAudio || data.numberAudio ? (
+        <audio controls src={data.letterAudio || data.numberAudio}>
+          Your browser does not support the audio element.
+        </audio>
+      ) : null}
     </div>
   );
 };
