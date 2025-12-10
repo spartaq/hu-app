@@ -12,20 +12,14 @@
         "options": [
           {
             "id": "a",
-            "image": "/images/friend.jpg",
+            "image": "/Images/meet.jpg",
             "word": "friend",
             "isCorrect": true
           },
           {
             "id": "b",
-            "image": "/images/neighbor.jpg",
+            "image": "/Images/neighbor.jpg",
             "word": "neighbor",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/car1.jpg",
-            "word": "car",
             "isCorrect": false
           }
         ],
@@ -36,7 +30,7 @@
         "id": 2,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
-        "promptImage": "/images/neighbor.jpg",
+        "promptImage": "/Images/neighbor.jpg",
         "options": [
           {
             "id": "a",
@@ -66,20 +60,14 @@
         "options": [
           {
             "id": "a",
-            "image": "/images/family.jpg",
+            "image": "/Images/steps.jpg",
             "word": "family",
             "isCorrect": true
           },
           {
             "id": "b",
-            "image": "/images/friend.jpg",
+            "image": "/Images/friend.jpg",
             "word": "friend",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/car1.jpg",
-            "word": "car",
             "isCorrect": false
           }
         ],
@@ -90,7 +78,7 @@
         "id": 4,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
-        "promptImage": "/images/country.jpg",
+        "promptImage": "/Images/country.jpg",
         "options": [
           {
             "id": "a",
@@ -120,21 +108,15 @@
         "options": [
           {
             "id": "a",
-            "image": "/images/car1.jpg",
-            "word": "car",
-            "isCorrect": true
+            "image": "/Images/cat.jpg",
+            "word": "cat",
+            "isCorrect": false
           },
           {
             "id": "b",
-            "image": "/images/bike1.jpg",
+            "image": "/Images/car.jpg",
             "word": "bike",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/dog1.jpg",
-            "word": "dog",
-            "isCorrect": false
+            "isCorrect": true
           }
         ],
         "translation": "car",
@@ -144,7 +126,7 @@
         "id": 6,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
-        "promptImage": "/images/bike1.jpg",
+        "promptImage": "/Images/carBike.webp",
         "options": [
           {
             "id": "a",
@@ -174,158 +156,19 @@
         "options": [
           {
             "id": "a",
-            "image": "/images/money.jpg",
-            "word": "money",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "image": "/images/book.jpg",
+            "image": "/Images/book.webp",
             "word": "book",
             "isCorrect": false
           },
           {
-            "id": "c",
-            "image": "/images/house1.jpg",
-            "word": "house",
-            "isCorrect": false
+            "id": "b",
+            "image": "/Images/1000-forints.jpg",
+            "word": "money",
+            "isCorrect": true
           }
         ],
         "translation": "money",
         "mode": "word-to-image"
-      },
-      {
-        "id": 8,
-        "instructions": "Choose the correct answer",
-        "quizTitle": "Vocabulary – Things I Have",
-        "promptImage": "/images/kitchen.jpg",
-        "options": [
-          {
-            "id": "a",
-            "word": "kitchen",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "word": "living room",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "word": "bathroom",
-            "isCorrect": false
-          }
-        ],
-        "translation": "kitchen",
-        "mode": "image-to-word"
-      },
-      {
-        "id": 9,
-        "instructions": "Choose the correct answer",
-        "quizTitle": "Vocabulary – Things I Have",
-        "audio": "/Audio/audiotest.mp3",
-        "prompt": "szekrény",
-        "options": [
-          {
-            "id": "a",
-            "image": "/images/wardrobe.jpg",
-            "word": "wardrobe",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "image": "/images/fridge.jpg",
-            "word": "fridge",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/stove.jpg",
-            "word": "stove",
-            "isCorrect": false
-          }
-        ],
-        "translation": "wardrobe",
-        "mode": "word-to-image"
-      },
-      {
-        "id": 10,
-        "instructions": "Choose the correct answer",
-        "quizTitle": "Vocabulary – Things I Have",
-        "promptImage": "/images/fridge.jpg",
-        "options": [
-          {
-            "id": "a",
-            "word": "fridge",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "word": "stove",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "word": "wardrobe",
-            "isCorrect": false
-          }
-        ],
-        "translation": "fridge",
-        "mode": "image-to-word"
-      },
-      {
-        "id": 11,
-        "instructions": "Choose the correct answer",
-        "quizTitle": "Vocabulary – Things I Have",
-        "audio": "/Audio/audiotest.mp3",
-        "prompt": "sütő",
-        "options": [
-          {
-            "id": "a",
-            "image": "/images/stove.jpg",
-            "word": "stove",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "image": "/images/dishwasher.jpg",
-            "word": "dishwasher",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/oven.jpg",
-            "word": "oven",
-            "isCorrect": false
-          }
-        ],
-        "translation": "stove",
-        "mode": "word-to-image"
-      },
-      {
-        "id": 12,
-        "instructions": "Choose the correct answer",
-        "quizTitle": "Vocabulary – Things I Have",
-        "promptImage": "/images/dishwasher.jpg",
-        "options": [
-          {
-            "id": "a",
-            "word": "dishwasher",
-            "isCorrect": true
-          },
-          {
-            "id": "b",
-            "word": "stove",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "word": "fridge",
-            "isCorrect": false
-          }
-        ],
-        "translation": "dishwasher",
-        "mode": "image-to-word"
       },
       {
         "id": 13,
@@ -336,20 +179,14 @@
         "options": [
           {
             "id": "a",
-            "image": "/images/house1.jpg",
+            "image": "/Images/house1.jpg",
             "word": "house",
             "isCorrect": true
           },
           {
             "id": "b",
-            "image": "/images/car1.jpg",
+            "image": "/Images/car1.jpg",
             "word": "car",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/friend.jpg",
-            "word": "friend",
             "isCorrect": false
           }
         ],
@@ -360,7 +197,7 @@
         "id": 14,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
-        "promptImage": "/images/dog1.jpg",
+        "promptImage": "/Images/dog.jpg",
         "options": [
           {
             "id": "a",
@@ -390,20 +227,14 @@
         "options": [
           {
             "id": "a",
-            "image": "/images/cat1.jpg",
+            "image": "/Images/cat.jpg",
             "word": "cat",
             "isCorrect": true
           },
           {
             "id": "b",
-            "image": "/images/dog1.jpg",
+            "image": "/Images/dog.jpg",
             "word": "dog",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/bike1.jpg",
-            "word": "bike",
             "isCorrect": false
           }
         ],
@@ -414,7 +245,7 @@
         "id": 16,
         "instructions": "Choose the correct answer",
         "quizTitle": "Vocabulary – Things I Have",
-        "promptImage": "/images/book.jpg",
+        "promptImage": "/Images/book.jpg",
         "options": [
           {
             "id": "a",
@@ -444,20 +275,14 @@
         "options": [
           {
             "id": "a",
-            "image": "/images/time.jpg",
+            "image": "/Images/time.jpg",
             "word": "time",
             "isCorrect": true
           },
           {
             "id": "b",
-            "image": "/images/family.jpg",
+            "image": "/Images/family.jpg",
             "word": "family",
-            "isCorrect": false
-          },
-          {
-            "id": "c",
-            "image": "/images/neighbor.jpg",
-            "word": "neighbor",
             "isCorrect": false
           }
         ],

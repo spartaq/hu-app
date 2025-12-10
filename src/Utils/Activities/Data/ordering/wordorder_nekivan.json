@@ -4,53 +4,47 @@
   "data": {
     "items": [
       {
-        "id": "hungarian-ordering-van-1",
-        "topic": "grammar",
-        "quizTitle": "Word Order – Van 1",
-        "sentence": "A közelben van egy buszmegálló."
+        "id": "nekivan-1",
+        "topic": "home",
+        "instructions": "Translate",
+        "quizTitle": "I have a book",
+        "sentence": "Van egy könyvem.",
+        "translation": "I have a book."
       },
       {
-        "id": "hungarian-ordering-van-2",
-        "topic": "grammar",
-        "quizTitle": "Word Order – Van 2",
-        "sentence": "A lakásban nincs elegendő hely."
+        "id": "nekivan-3",
+        "topic": "home",
+        "instructions": "Translate",
+        "quizTitle": "Put in order",
+        "sentence": "Neked van egy autó.",
+        "translation": "You have a car."
       },
-      {
-        "id": "hungarian-ordering-van-3",
-        "topic": "grammar",
-        "quizTitle": "Word Order – Van 3",
-        "sentence": "A parkban vannak játszó gyerekek."
-      },
-      {
-        "id": "hungarian-ordering-van-4",
-        "topic": "grammar",
-        "quizTitle": "Word Order – Van 4",
-        "sentence": "Az asztalon van egy nagy könyv."
-      },
-      {
-        "id": "hungarian-ordering-van-5",
-        "topic": "grammar",
-        "quizTitle": "Word Order – Van 5",
-        "sentence": "A közelben nincsenek jó éttermek."
-      },
-      {
-        "id": "hungarian-ordering-van-6",
-        "topic": "grammar",
-        "quizTitle": "Word Order – Van 6",
-        "sentence": "A város közepén van egy régi templom."
-      },
-      {
-        "id": "hungarian-ordering-van-7",
-        "topic": "grammar",
-        "quizTitle": "Word Order – Van 7",
-        "sentence": "Most éppen nincs nálam pénz."
-      },
-      {
-        "id": "hungarian-ordering-van-8",
-        "topic": "grammar",
-        "quizTitle": "Word Order – Van 8",
-        "sentence": "A munkahelyemen vannak nagyon kedves kollégák."
-      }
+{
+  "id": "nekivan-6",
+  "topic": "home",
+  "instructions": "Put the words in order",
+  "quizTitle": "Put in order",
+  "sentence": "Nekünk van egy új lakás.",
+  "translation": "We have a new apartment."
+},
+
+{
+  "id": "nekivan-8",
+  "topic": "home",
+  "instructions": "Put the words in order",
+  "quizTitle": "Put in order",
+  "sentence": "Nekik van két bicikli.",
+  "translation": "They have two bicycles."
+},
+
+{
+  "id": "nekivan-10",
+  "topic": "home",
+  "instructions": "Put the words in order",
+  "quizTitle": "Put in order",
+  "sentence": "Nekünk vannak játékaink.",
+  "translation": "We have toys"
+}
     ]
   }
 }

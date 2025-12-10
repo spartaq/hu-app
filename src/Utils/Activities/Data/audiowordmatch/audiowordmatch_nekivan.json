@@ -1,25 +1,79 @@
 {
   "type": "audiowordmatch",
-  "title": "audiowordmatch_nekivan",
+  "title": "audiowordmatch_home_possessions",
   "data": {
     "items": [
       {
         "id": "aw1",
-        "audio": "/Audio/audiotest.mp3",
-        "text": "Helló",
-        "translation": "Hello"
+        "audio": "/audio/hazam_van.mp3",
+        "text": "Nekem van egy házam",
+        "translation": "I have a house"
       },
       {
         "id": "aw2",
-        "audio": "/Audio/audiotest.mp3",
-        "text": "Jó reggelt",
-        "translation": "Good morning"
+        "audio": "/audio/autod_van.mp3",
+        "text": "Neked van egy autód",
+        "translation": "You have a car (singular)"
       },
       {
         "id": "aw3",
-        "audio": "/Audio/audiotest.mp3",
-        "text": "Jó estét",
-        "translation": "Good evening"
+        "audio": "/audio/gyermekem_van.mp3",
+        "text": "Neki van egy gyermeke",
+        "translation": "He/She has a child"
+      },
+      {
+        "id": "aw4",
+        "audio": "/audio/lakaskom_van.mp3",
+        "text": "Nekünk van egy lakásunk",
+        "translation": "We have an apartment"
+      },
+      {
+        "id": "aw5",
+        "audio": "/audio/kertec_van.mp3",
+        "text": "Nektek van egy kertetek",
+        "translation": "You (plural) have a garden"
+      },
+      {
+        "id": "aw6",
+        "audio": "/audio/kutyaik_van.mp3",
+        "text": "Nekik van egy kutyájuk",
+        "translation": "They have a dog"
+      },
+      {
+        "id": "aw7",
+        "audio": "/audio/butorom_van.mp3",
+        "text": "Nekem van egy bútorom",
+        "translation": "I have a piece of furniture"
+      },
+      {
+        "id": "aw8",
+        "audio": "/audio/tv_van.mp3",
+        "text": "Neki van egy televíziója",
+        "translation": "He/She has a TV"
+      },
+      {
+        "id": "aw9",
+        "audio": "/audio/konyhaban_van.mp3",
+        "text": "Nekünk van egy konyhánk",
+        "translation": "We have a kitchen"
+      },
+      {
+        "id": "aw10",
+        "audio": "/audio/szekreny_van.mp3",
+        "text": "Nekik van egy szekrényük",
+        "translation": "They have a cupboard"
+      },
+      {
+        "id": "aw11",
+        "audio": "/audio/telefonom_van.mp3",
+        "text": "Nekem van egy telefonom",
+        "translation": "I have a phone"
+      },
+      {
+        "id": "aw12",
+        "audio": "/audio/laptopod_van.mp3",
+        "text": "Neked van egy laptopod",
+        "translation": "You have a laptop (singular)"
       }
     ]
   }
