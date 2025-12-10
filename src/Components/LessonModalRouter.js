@@ -2,7 +2,8 @@ import ModalRender from "./LessonModalRender.js"
 
 /* ---------------------- IMPORTS ---------------------- */
 
-
+// **ALPHABET
+import HuAlphabetData from "../Utils/Activities/Data/sounds/sounds_sounds.json";
 
 // **GRAMMAREXPLANATION
 import HuExplanationSoundsData from "../Utils/Activities/Data/grammarexplanation/explanation_sounds.json";
@@ -223,6 +224,10 @@ import HuLessoncompleteBasicphrasesData from "../Utils/Activities/Data/lessoncom
 */
 
 const DATA_MAP = {
+  sounds: {
+    sounds: HuAlphabetData
+  },
+
   grammarexplanation: {
     sounds: HuExplanationSoundsData,
     numbers: HuExplanationNumbersData,

@@ -12,6 +12,7 @@ import ImageMatchActivity from "../Utils/Activities/ImageMatchActivity.js";
 import AudioWordMatchActivity from "../Utils/Activities/AudioWordMatchActivity.js";
 import LessonCompleteActivity from "../Utils/Activities/LessonCompleteActivity.js";
 import SayAloud from "../Utils/Activities/SayAloud.js";
+import AlphabetActivity from "../Utils/Activities/Alphabet/AlphabetActivity.js";
 
 import "../CSS/LessonModalRender.css";
 
@@ -27,6 +28,7 @@ const ModalRender = ({ type, data, id, scrollTargetRef }) => {
   // Activity map
   // -------------------------------------------------------
   const ActivityMap = {
+    sounds: AlphabetActivity,
     dialogue: DialogueActivity,
     grammarquiz: QuizActivity,
     ordering: SentenceOrdering,

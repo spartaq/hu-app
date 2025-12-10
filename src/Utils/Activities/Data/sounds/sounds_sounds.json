@@ -1,0 +1,38 @@
+{
+  "alphabet": [
+    {
+      "letter": "A",
+      "ipa": "ɒ / aː",
+      "letterAudio": "/audio/alphabet/A.mp3",
+      "examples": [
+        {
+          "word": "alma",
+          "translation": "apple",
+          "audio": "/audio/examples/alma.mp3"
+        },
+        {
+          "word": "asztal",
+          "translation": "table",
+          "audio": "/audio/examples/asztal.mp3"
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "ipa": "b",
+      "letterAudio": "/audio/alphabet/B.mp3",
+      "examples": [
+        {
+          "word": "banán",
+          "translation": "banana",
+          "audio": "/audio/examples/banan.mp3"
+        },
+        {
+          "word": "busz",
+          "translation": "bus",
+          "audio": "/audio/examples/busz.mp3"
+        }
+      ]
+    }
+  ]
+}
